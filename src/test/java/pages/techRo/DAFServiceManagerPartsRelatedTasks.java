@@ -16,8 +16,36 @@ import java.util.List;
 import java.util.Random;
 
 public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
-    @FindBy(xpath = "(//a[contains(text(),'Complete RO')])[1]")
-    public WebElement label_CompleteRo;
+    @FindBy(xpath = "//span[text()='Add Parts']")
+    public  WebElement label_AddPart1;
+
+    @FindBy(xpath = "//div[contains(@id,'cancel')]//span[text ()='OK']")
+    public WebElement  btn_AlertOk;
+
+    @FindBy(xpath = "(//span[contains(.,'Add Lab')])[1]")
+    public  WebElement label_AddLabor;
+
+    @FindBy(xpath = "(//a[text()='VMRS'])[1]")
+    public  WebElement label_VMRS;
+
+    @FindBy(xpath = "//img[@title='Accessories Group']")
+    public WebElement label_AccessoriesGroup;
+
+
+    @FindBy(xpath = "//img[contains(@id,':ciAddVmrs::icon')]")
+    public WebElement label_AddGroup;
+
+    @FindBy(xpath = "//span[text()='Add']")
+    public WebElement label_AddGroupButton;
+
+    @FindBy(xpath = "(//img[contains(@id,':ciAddVmrs::icon')])[1]")
+    public WebElement label_Add;
+
+    @FindBy(xpath = "//span[text()='Add']")
+    public WebElement label_AddButton;
+
+    @FindBy(xpath = "//img[@title='Automatic/Manual Chassis Lubricator']")
+    public WebElement AutomaticManual;
 
     @FindBy(xpath = "(//a[contains(text(),'O0')])[1]")
     public WebElement label_ReferenceNumber;
@@ -176,32 +204,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
     @FindBy(xpath = "//div[contains(@id,':tParts::db')]")
     public WebElement label_NoDataDisplay;
 
-    @FindBy(xpath = "//span[text()='Add Parts']")
-    public  WebElement label_AddPart1;
 
-    @FindBy(xpath = "//div[contains(@id,'cancel')]//span[text ()='OK']")
-    public WebElement  btn_AlertOk;
-
-    @FindBy(xpath = "(//span[contains(.,'Add Lab')])[1]")
-    public  WebElement label_AddLabor;
-
-    @FindBy(xpath = "(//a[text()='VMRS'])[1]")
-    public  WebElement label_VMRS;
-
-    @FindBy(xpath = "//img[@title='Accessories Group']")
-    public WebElement label_AccessoriesGroup;
-
-    @FindBy(xpath = "//img[contains(@id,':ciAddVmrs::icon')]")
-    public WebElement label_AddGroup;
-
-    @FindBy(xpath = "//span[text()='Add']")
-    public WebElement label_AddGroupButton;
-
-    @FindBy(xpath = "(//img[contains(@id,':ciAddVmrs::icon')])[1]")
-    public WebElement label_Add;
-
-    @FindBy(xpath = "//span[text()='Add']")
-    public WebElement label_AddButton;
 
     @FindBy(xpath = "//span[text()='Please select an Activity first']")
     public List <WebElement> txt_AlertMessage;
@@ -213,13 +216,80 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
      * go to complete RO Screen
      */
     public void goToCompleteROScreen() throws InterruptedException, FileNotFoundException {
-        WaitActions.getWaits().loadingWait(loder);
-        Thread.sleep(3000);
         ReusableActions.getActions().clickParentMenu("Service");
         ReusableActions.getActions().clickChildMenu("Complete RO");
         TestListener.saveScreenshotPNG(driver);
 
 
+    }
+    /**click on Add Labour */
+    public void clickOnAddLabour() throws InterruptedException {
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddLabor);
+        WebElementActions.getActions().clickElement(label_AddLabor);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_VMRS);
+        WebElementActions.getActions().clickElement(label_VMRS);
+
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
+        WebElementActions.getActions().clickElement(label_AccessoriesGroup);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Add);
+        WebElementActions.getActions().clickElement(label_Add);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddButton);
+        WebElementActions.getActions().clickElement(label_AddButton);
+
+    }
+    public void clickOnAddLabour1() throws InterruptedException {
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddLabor);
+        WebElementActions.getActions().clickElement(label_AddLabor);
+        WaitActions.getWaits().loadingWait(loder);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_VMRS);
+        WebElementActions.getActions().clickElement(label_VMRS);
+        WaitActions.getWaits().loadingWait(loder);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(AutomaticManual);
+        WebElementActions.getActions().clickElement(AutomaticManual);
+        WaitActions.getWaits().loadingWait(loder);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Add);
+        WebElementActions.getActions().clickElement(label_Add);
+        WaitActions.getWaits().loadingWait(loder);
+
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddButton);
+        WebElementActions.getActions().clickElement(label_AddButton);
+        WaitActions.getWaits().loadingWait(loder);
+    }
+    /**click On Add Parts*/
+    public void clickOnAddParts () throws InterruptedException {
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddPart);
+        WebElementActions.getActions().clickElement(label_AddPart);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Img);
+        WebElementActions.getActions().clickElement(label_Img);
+
+        WaitActions.getWaits().loadingWait(loder);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_PartTextArea);
+        WebElementActions.getActions().inputText(txt_PartTextArea, prop.getProperty("PartValue"));
+        txt_PartTextArea.sendKeys(Keys.ENTER);
+        WaitActions.getWaits().loadingWait(loder);
+        WaitActions.getWaits().loadingWait(loder);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_PartNumber);
+        WebElementActions.getActions().clickElement(label_PartNumber);
+        WaitActions.getWaits().loadingWait(loder);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_IssuePartBtn);
+        WebElementActions.getActions().clickElement(btn_IssuePartBtn);
+        WaitActions.getWaits().loadingWait(loder);
+        WaitActions.getWaits().loadingWait(loder);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_Close);
+        WebElementActions.getActions().clickElement(btn_Close);
+        WaitActions.getWaits().loadingWait(loder);
     }
 
     /**click On Reference Number*/
@@ -229,79 +299,6 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         WebElementActions.getActions().clickElement(label_ReferenceNumber);
         TestListener.saveScreenshotPNG(driver);
 
-    }
-    /**If Data is not Present Then create Data  */
-    public void verifyDataPresent () throws InterruptedException {
-        WaitActions.getWaits().loadingWait(loder);
-        Thread.sleep(5000);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_NoDataDisplay);
-        if (label_NoDataDisplay.getText().equals("No data to display")) {
-            WaitActions.getWaits().loadingWait(loder);
-            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_AddPart);
-            WebElementActions.getActions().clickUsingJS(label_AddPart);
-            System.out.println("click here Sucessfully");
-            if(txt_AlertMessage.size()>0) {
-                String Alert = new String("  String Alert = new String ");
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_AlertOk);
-                WebElementActions.getActions().clickUsingJS(btn_AlertOk);
-                WebElementActions.getActions().clickElement(label_AddLabor);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_VMRS);
-                WebElementActions.getActions().clickElement(label_VMRS);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
-                WebElementActions.getActions().clickElement(label_AccessoriesGroup);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Add);
-                WebElementActions.getActions().clickElement(label_Add);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddButton);
-                WebElementActions.getActions().clickElement(label_AddButton);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_AddLabor);
-                WebElementActions.getActions().clickUsingJS(label_AddLabor);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
-                WebElementActions.getActions().clickElement(label_AccessoriesGroup);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddGroup);
-                WebElementActions.getActions().clickElement(label_AddGroup);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddGroupButton);
-                WebElementActions.getActions().clickElement(label_AddGroupButton);
-                WaitActions.getWaits().loadingWait(loder);
-            }else{
-
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_AddPart);
-                WebElementActions.getActions().clickUsingJS(label_AddPart);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Img);
-                WebElementActions.getActions().clickElement(label_Img);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_PartTextArea);
-                WebElementActions.getActions().inputText(txt_PartTextArea, prop.getProperty("PartValue"));
-                txt_PartTextArea.sendKeys(Keys.ENTER);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_PartNumber);
-                WebElementActions.getActions().clickElement(label_PartNumber);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_IssuePartBtn);
-                WebElementActions.getActions().clickElement(btn_IssuePartBtn);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().loadingWait(loder);
-                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_Close);
-                WebElementActions.getActions().clickElement(btn_Close);
-                WaitActions.getWaits().loadingWait(loder);
-
-            }
-        } else{
-
-
-        }
     }
 
     /**click on Add Labour sr.No*/
@@ -536,7 +533,6 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         Assert.assertTrue(label_StoreText.isDisplayed());
 
         if (LoginActions.environmentName.contains("EU")) {
-
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_ChargeQuantityTextArea);
             WebElementActions.getActions().inputText(label_ChargeQuantityTextArea, appProp.getProperty("Two"));
         }
@@ -695,7 +691,6 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
     }
     /** store and type  New Part */
     public void clickTextPartNumber () throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_PartTextArea);
             WebElementActions.getActions().inputText(txt_PartTextArea, appProp.getProperty("newPartNumber"));
             txt_PartTextArea.sendKeys(Keys.ENTER);
@@ -703,7 +698,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
             TestListener.saveScreenshotPNG(driver);
 
         }
-    }
+
     /**click On Part Number */
     public void clickOnPartNumberTwo () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_PartNumber);

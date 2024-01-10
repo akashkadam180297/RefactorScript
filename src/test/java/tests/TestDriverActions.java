@@ -31,7 +31,6 @@ import pages.pmWorkFlow.cGVTechPerformPM;
 import pages.service.*;
 
 import pages.techRo.*;
-import pages.serviceBoard.SubmitAnEstimate_ServiceManagerPage;
 import pages.tech.EC_Tech_WoLabor;
 import pages.tech.EC_Tech_WoParts;
 
@@ -60,8 +59,7 @@ public class TestDriverActions {
     public CreateCustomerPage customerPage;
     public CounterSalePage counter;
     public CreatePart relatedItem;
-    public SubmitAnEstimate_ServiceManagerPage submit ;
-   // public SpotOrderParts order;
+    // public SpotOrderParts order;
     public SetUpWorkRequired setUp;
     public ECServiceManager_ChangeCustomerPOafterInvoicing update;
     public InquireFXG_UnitHistory unit;
@@ -298,7 +296,6 @@ public class TestDriverActions {
         customerPage = PageFactory.initElements(driver, CreateCustomerPage.class);
         counter = PageFactory.initElements(driver, CounterSalePage.class);
         relatedItem = PageFactory.initElements(driver, CreatePart.class);
-        submit = PageFactory.initElements(driver, SubmitAnEstimate_ServiceManagerPage.class);
        // order = PageFactory.initElements(driver, SpotOrderParts.class);
         setUp = PageFactory.initElements(driver,SetUpWorkRequired.class);
         update = PageFactory.initElements(driver, ECServiceManager_ChangeCustomerPOafterInvoicing.class);
@@ -565,10 +562,10 @@ public class TestDriverActions {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\ReceivePartsReports\\" + theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("LoginTest")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\LoginTestReports\\" + theDir.getName();
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\LoginTestReports\\" +theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("CreatePart")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CreatePartReports\\" + theDir.getName();
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CreatePartReports\\" +theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("SubmitAnEstimate_ServiceManagerTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SubmitAnEstimate_ServiceManagerTestReports\\" + theDir.getName();

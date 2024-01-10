@@ -21,7 +21,6 @@ public class ReceiveParts extends TestDriverActions{
         @Test(priority = 1, description = "Test002: click on PO number and verify Link/DeLink Labor")
         @Description("Test Description : Click on PO number and Verify Link/DeLink Labor")
         public void Test_002_clickOnPoNumber() throws FileNotFoundException, InterruptedException {
-            receivepart.enterDateClickrefresh();
             receivepart.clickOnPONumber();
             receivepart.verifyLinkDelinkLabor();
         }

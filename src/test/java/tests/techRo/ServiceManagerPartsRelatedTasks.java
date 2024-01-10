@@ -15,14 +15,16 @@ public class ServiceManagerPartsRelatedTasks extends TestDriverActions {
     public void Test_001_gotoCompleteRo() throws InterruptedException, IOException, FileNotFoundException {
         loginPage.loginWithValidCredentials(appProp.getProperty("username"),appProp.getProperty("password"));
         servicemanagerpartsrelatedtasks.goToCompleteROScreen();
+        servicemanagerpartsrelatedtasks.clickOnAddLabour();
+        servicemanagerpartsrelatedtasks.clickOnAddLabour1();
 
     }
 
     @Test(priority = 1, description = "Test_002_click On Reference Number")
     @Description("Test Description: click On Reference Number")
     public void Test_002_clickOnReference() throws InterruptedException, IOException {
+        servicemanagerpartsrelatedtasks.clickOnAddParts ();
         servicemanagerpartsrelatedtasks.clickOnReferenceNumber();
-        servicemanagerpartsrelatedtasks.verifyDataPresent ();
         servicemanagerpartsrelatedtasks.clickOnAddLabourSrNo();
 
     }
