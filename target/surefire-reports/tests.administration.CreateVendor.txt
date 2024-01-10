@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: tests.administration.CreateVendor
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 281.046 s <<< FAILURE! - in tests.administration.CreateVendor
+Test_002_VerifyAllformfields(tests.administration.CreateVendor)  Time elapsed: 12.408 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Prov/State')]"}
+  (Session info: chrome=120.0.6099.200)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [458663eaf05a3d50400c7b241e5d374c, findElement {using=xpath, value=//span[contains(text(),'Prov/State')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc5-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57366}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57366/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 458663eaf05a3d50400c7b241e5d374c
+	at tests.administration.CreateVendor.Test_002_VerifyAllformfields(CreateVendor.java:30)
+
+Test_003_enterfieldandclickonOK(tests.administration.CreateVendor)  Time elapsed: 36.549 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate option with text: NET30
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown
+	at tests.administration.CreateVendor.Test_003_enterfieldandclickonOK(CreateVendor.java:40)
+
+checkVendorName_SignOutPage(tests.administration.CreateVendor)  Time elapsed: 164.045 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[contains(text(),'Search')]/following::input[1]' (tried for 40 second(s) with 500 milliseconds interval)
+	at tests.administration.CreateVendor.checkVendorName_SignOutPage(CreateVendor.java:48)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(),'Search')]/following::input[1]"}
+  (Session info: chrome=120.0.6099.200)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [458663eaf05a3d50400c7b241e5d374c, findElement {using=xpath, value=//label[contains(text(),'Search')]/following::input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc5-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57366}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57366/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 458663eaf05a3d50400c7b241e5d374c
+	at tests.administration.CreateVendor.checkVendorName_SignOutPage(CreateVendor.java:48)
+

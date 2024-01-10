@@ -1,0 +1,98 @@
+{
+  "d8bafb8e284d70811e671670e4af49b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54aa9b08a2833f0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704879411453,
+        "stop" : 1704879447693,
+        "duration" : 36240
+      }
+    } ]
+  },
+  "ea959559cfa81316a273b11ebc1af649" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33cc90f3b1c553d4",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a id=\"reg2:0:s14:pte1:rOS:0:sSEquQ:tequ:0:clEquN\" class=\"xgp p_AFTextOnly\" style=\"\" data-afr-fcs=\"true\" href=\"#\" onclick=\"this.focus();return false\" data-afr-tlen=\"8\" tabindex=\"-1\">...</a> is not clickable at point (363, 181). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1349px; height: 614px; user-select: none; z-index: 34;\"></div>\n  (Session info: chrome=120.0.6099.200)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7c468a42d542fda9544d690c93853694, clickElement {id=FB5806A9C3DD4E0840DD844464D0B935_element_340}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52514}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52514/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (7c468a42d542fda9544d690c93853694)] -> xpath: //span[text()='Current Location']/following::a[1]]\nSession ID: 7c468a42d542fda9544d690c93853694",
+      "time" : {
+        "start" : 1704879530099,
+        "stop" : 1704879543409,
+        "duration" : 13310
+      }
+    } ]
+  },
+  "a3f1911d12cd0afef6b9f87b8f9f8045" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc1f9de34c8083b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704879506231,
+        "stop" : 1704879530027,
+        "duration" : 23796
+      }
+    } ]
+  },
+  "5855190fc802ad5a7e1c5a0b593e9669" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff7c64c4a0d12971",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704879468871,
+        "stop" : 1704879506176,
+        "duration" : 37305
+      }
+    } ]
+  },
+  "3df5b254787b32de9f08cdf522de0e43" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95b2e7568d2f2ae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704879447826,
+        "stop" : 1704879468782,
+        "duration" : 20956
+      }
+    } ]
+  }
+}

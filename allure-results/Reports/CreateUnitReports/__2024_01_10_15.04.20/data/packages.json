@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.fleet.CreateUnit",
+    "children" : [ {
+      "name" : "Test_001_gotoUnitMasterScreen",
+      "uid" : "fc43fc27d9207413",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704879128016,
+        "stop" : 1704879164779,
+        "duration" : 36763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickAddNewROAndSelectUnit",
+      "uid" : "80c799f993b742e6",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704879164938,
+        "stop" : 1704879186038,
+        "duration" : 21100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_verifyAllFormFields",
+      "uid" : "e05f9b31075faedb",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704879186107,
+        "stop" : 1704879223518,
+        "duration" : 37411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_enterFieldsAndClickOnSave",
+      "uid" : "91baba45f1c18930",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704879223578,
+        "stop" : 1704879247406,
+        "duration" : 23828
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_Verify_unit_created",
+      "uid" : "f4c5e601dca525e",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "broken",
+      "time" : {
+        "start" : 1704879247474,
+        "stop" : 1704879260713,
+        "duration" : 13239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.fleet.CreateUnit"
+  } ]
+}

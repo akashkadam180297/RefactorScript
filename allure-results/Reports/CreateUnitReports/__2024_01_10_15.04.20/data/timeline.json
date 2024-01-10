@@ -1,0 +1,121 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-5",
+    "children" : [ {
+      "name" : "8900@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_003_verify all element present in New Unit ",
+        "uid" : "43cca07d21fb741a",
+        "parentUid" : "11459207d1dd9b20137df7d36227618e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704878257443,
+          "stop" : 1704878380701,
+          "duration" : 123258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Login the page and Go to create unit Screen",
+        "uid" : "5e76a51eb68a9bc6",
+        "parentUid" : "11459207d1dd9b20137df7d36227618e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704878048323,
+          "stop" : 1704878085320,
+          "duration" : 36997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_Search and select owner",
+        "uid" : "9fd83dc9e4949f94",
+        "parentUid" : "11459207d1dd9b20137df7d36227618e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704878085463,
+          "stop" : 1704878257384,
+          "duration" : 171921
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11459207d1dd9b20137df7d36227618e"
+    }, {
+      "name" : "10484@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_005_Verify unit created and Signout",
+        "uid" : "f4c5e601dca525e",
+        "parentUid" : "4357b638f55efd53154d098bb1ba8d1c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704879247474,
+          "stop" : 1704879260713,
+          "duration" : 13239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Login the page and Go to create unit Screen",
+        "uid" : "fc43fc27d9207413",
+        "parentUid" : "4357b638f55efd53154d098bb1ba8d1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879128016,
+          "stop" : 1704879164779,
+          "duration" : 36763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_verify all element present in New Unit ",
+        "uid" : "e05f9b31075faedb",
+        "parentUid" : "4357b638f55efd53154d098bb1ba8d1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879186107,
+          "stop" : 1704879223518,
+          "duration" : 37411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_Enter unit, description, VIN number and click on Save/Exit",
+        "uid" : "91baba45f1c18930",
+        "parentUid" : "4357b638f55efd53154d098bb1ba8d1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879223578,
+          "stop" : 1704879247406,
+          "duration" : 23828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_Search and select owner",
+        "uid" : "80c799f993b742e6",
+        "parentUid" : "4357b638f55efd53154d098bb1ba8d1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879164938,
+          "stop" : 1704879186038,
+          "duration" : 21100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4357b638f55efd53154d098bb1ba8d1c"
+    } ],
+    "uid" : "a73e966c7298dd236db9463e7eeeeb18"
+  } ]
+}

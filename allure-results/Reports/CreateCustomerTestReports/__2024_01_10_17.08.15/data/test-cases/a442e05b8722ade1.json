@@ -1,0 +1,149 @@
+{
+  "uid" : "a442e05b8722ade1",
+  "name" : "Test_003 enter Customer Code and name in the field and click on OK",
+  "fullName" : "tests.administration.CreateCustomer.Test_003_enterfieldsandclickonOK",
+  "historyId" : "948ef84228262e1f1caa27e35b43834e",
+  "time" : {
+    "start" : 1704886646431,
+    "stop" : 1704886674326,
+    "duration" : 27895
+  },
+  "description" : "Test Description: enter Customer Code and name in the field and click on OK",
+  "descriptionHtml" : "<p>Test Description: enter Customer Code and name in the field and click on OK</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704886550355,
+      "stop" : 1704886570755,
+      "duration" : 20400
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: enter Customer Code and name in the field and click on OK",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aeb6b72aa5d8b42d",
+      "name" : "Page Screenshot",
+      "source" : "aeb6b72aa5d8b42d.png",
+      "type" : "image/png",
+      "size" : 113991
+    }, {
+      "uid" : "5a4e27a7076c3863",
+      "name" : "Page Screenshot",
+      "source" : "5a4e27a7076c3863.png",
+      "type" : "image/png",
+      "size" : 117961
+    }, {
+      "uid" : "6e7b0346c3f4751c",
+      "name" : "Page Screenshot",
+      "source" : "6e7b0346c3f4751c.png",
+      "type" : "image/png",
+      "size" : 113847
+    }, {
+      "uid" : "d507faba5442b72c",
+      "name" : "Page Screenshot",
+      "source" : "d507faba5442b72c.png",
+      "type" : "image/png",
+      "size" : 113606
+    }, {
+      "uid" : "7b2b1519a3481050",
+      "name" : "Page Screenshot",
+      "source" : "7b2b1519a3481050.png",
+      "type" : "image/png",
+      "size" : 113606
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704886674334,
+      "stop" : 1704886674413,
+      "duration" : 79
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "301a51428b42ef0",
+      "name" : "Page Screenshot",
+      "source" : "301a51428b42ef0.png",
+      "type" : "image/png",
+      "size" : 113528
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_enterfieldsandclickonOK"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "29944@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Customer Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a442e05b8722ade1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "Customer Test",
+      "children" : [ {
+        "name" : "Login the page and go to customer screen",
+        "uid" : "cde0476f32472b32",
+        "parentUid" : "073805a123838910c96f004b95fb17f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704886021766,
+          "stop" : 1704886057064,
+          "duration" : 35298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all elements in the field",
+        "uid" : "2577275b49958ba7",
+        "parentUid" : "073805a123838910c96f004b95fb17f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704886057216,
+          "stop" : 1704886095044,
+          "duration" : 37828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter Customer Code and name in the field and click on OK",
+        "uid" : "7a7d3e502925e4d9",
+        "parentUid" : "073805a123838910c96f004b95fb17f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704886095095,
+          "stop" : 1704886122896,
+          "duration" : 27801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check the Customer name in search field and sign out the page",
+        "uid" : "78cc10a1e2e5309c",
+        "parentUid" : "073805a123838910c96f004b95fb17f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704886122960,
+          "stop" : 1704886144393,
+          "duration" : 21433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "073805a123838910c96f004b95fb17f2"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}

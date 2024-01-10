@@ -1,0 +1,164 @@
+{
+  "uid" : "e05f9b31075faedb",
+  "name" : "Test_003_verify all element present in New Unit ",
+  "fullName" : "tests.fleet.CreateUnit.Test_003_verifyAllFormFields",
+  "historyId" : "5855190fc802ad5a7e1c5a0b593e9669",
+  "time" : {
+    "start" : 1704879186107,
+    "stop" : 1704879223518,
+    "duration" : 37411
+  },
+  "description" : "Test Description:verify all element present in New Unit",
+  "descriptionHtml" : "<p>Test Description:verify all element present in New Unit</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704879110457,
+      "stop" : 1704879127985,
+      "duration" : 17528
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description:verify all element present in New Unit",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "da1e5ccdf937e8c",
+      "name" : "Page Screenshot",
+      "source" : "da1e5ccdf937e8c.png",
+      "type" : "image/png",
+      "size" : 152561
+    }, {
+      "uid" : "13156358c0937d27",
+      "name" : "Page Screenshot",
+      "source" : "13156358c0937d27.png",
+      "type" : "image/png",
+      "size" : 152561
+    }, {
+      "uid" : "34131e76cac5ec78",
+      "name" : "Page Screenshot",
+      "source" : "34131e76cac5ec78.png",
+      "type" : "image/png",
+      "size" : 152561
+    }, {
+      "uid" : "a8907dd72d03fd32",
+      "name" : "Page Screenshot",
+      "source" : "a8907dd72d03fd32.png",
+      "type" : "image/png",
+      "size" : 152561
+    }, {
+      "uid" : "16252deba8c7b05",
+      "name" : "Page Screenshot",
+      "source" : "16252deba8c7b05.png",
+      "type" : "image/png",
+      "size" : 152561
+    }, {
+      "uid" : "32b6252f22b4f182",
+      "name" : "Page Screenshot",
+      "source" : "32b6252f22b4f182.png",
+      "type" : "image/png",
+      "size" : 152561
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704879223519,
+      "stop" : 1704879223571,
+      "duration" : 52
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7527e04b484b8a82",
+      "name" : "Page Screenshot",
+      "source" : "7527e04b484b8a82.png",
+      "type" : "image/png",
+      "size" : 152561
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_verifyAllFormFields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "10484@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Create Unit Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "43cca07d21fb741a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'New Unit')]\"}\n  (Session info: chrome=120.0.6099.200)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f65c22cd6abf03fd44caaf156403f1f9, findElement {using=xpath, value=//div[contains(text(),'New Unit')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65482}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65482/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f65c22cd6abf03fd44caaf156403f1f9",
+      "time" : {
+        "start" : 1704878257443,
+        "stop" : 1704878380701,
+        "duration" : 123258
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e05f9b31075faedb.json",
+  "parameterValues" : [ ]
+}

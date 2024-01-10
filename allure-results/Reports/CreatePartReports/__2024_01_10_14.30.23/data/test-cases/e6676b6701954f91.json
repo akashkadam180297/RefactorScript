@@ -1,0 +1,164 @@
+{
+  "uid" : "e6676b6701954f91",
+  "name" : "Test_003 Enter part number and create new part",
+  "fullName" : "tests.parts.CreatePart.create_new_part",
+  "historyId" : "1377c646a010c849740a7683aae72482",
+  "time" : {
+    "start" : 1704877085371,
+    "stop" : 1704877136729,
+    "duration" : 51358
+  },
+  "description" : "Test Description:  Enter part number and create new part",
+  "descriptionHtml" : "<p>Test Description:  Enter part number and create new part</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704877004885,
+      "stop" : 1704877024828,
+      "duration" : 19943
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description:  Enter part number and create new part",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9120dba2085b12ed",
+      "name" : "Page Screenshot",
+      "source" : "9120dba2085b12ed.png",
+      "type" : "image/png",
+      "size" : 124059
+    }, {
+      "uid" : "454dd3aa6e52419e",
+      "name" : "Page Screenshot",
+      "source" : "454dd3aa6e52419e.png",
+      "type" : "image/png",
+      "size" : 124281
+    }, {
+      "uid" : "7206c99c36c33944",
+      "name" : "Page Screenshot",
+      "source" : "7206c99c36c33944.png",
+      "type" : "image/png",
+      "size" : 125332
+    }, {
+      "uid" : "ae9ed3068a3fa79c",
+      "name" : "Page Screenshot",
+      "source" : "ae9ed3068a3fa79c.png",
+      "type" : "image/png",
+      "size" : 126272
+    }, {
+      "uid" : "28405b356c064458",
+      "name" : "Page Screenshot",
+      "source" : "28405b356c064458.png",
+      "type" : "image/png",
+      "size" : 121008
+    }, {
+      "uid" : "818140a9c96c6d70",
+      "name" : "Page Screenshot",
+      "source" : "818140a9c96c6d70.png",
+      "type" : "image/png",
+      "size" : 121008
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704877136730,
+      "stop" : 1704877136789,
+      "duration" : 59
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "289abd36130013de",
+      "name" : "Page Screenshot",
+      "source" : "289abd36130013de.png",
+      "type" : "image/png",
+      "size" : 121008
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CreatePart"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CreatePart"
+  }, {
+    "name" : "testMethod",
+    "value" : "create_new_part"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CreatePart"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "1852@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "PartsRelatedItem Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "24923cd6b8ed5815",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate option with text: OIL Oil\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1704876863997,
+        "stop" : 1704876888746,
+        "duration" : 24749
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6676b6701954f91.json",
+  "parameterValues" : [ ]
+}

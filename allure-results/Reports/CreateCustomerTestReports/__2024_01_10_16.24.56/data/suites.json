@@ -1,0 +1,242 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.tech.TechWoParts",
+        "children" : [ {
+          "name" : "T_001 Sign in the page and Go to the Tech RO",
+          "uid" : "2ab080ff8861bdea",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704881893755,
+            "stop" : 1704881928795,
+            "duration" : 35040
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_002 Verify Unit Number and Click on Parts ",
+          "uid" : "43eb8aa4639377a",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704881928919,
+            "stop" : 1704882000968,
+            "duration" : 72049
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_003 Check the Generic setup of the screen and enter Part number",
+          "uid" : "ae9356570731bb7b",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704882001021,
+            "stop" : 1704882076340,
+            "duration" : 75319
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_004 verify the part pannel and click on issue part",
+          "uid" : "ee4768ead031d7fe",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704882076391,
+            "stop" : 1704882102005,
+            "duration" : 25614
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_005 Verify part added , click on cross button and delete the part",
+          "uid" : "89f57c7177653051",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704882102056,
+            "stop" : 1704882152463,
+            "duration" : 50407
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_006 Enter CorePart and click on search icon",
+          "uid" : "133373e2c2b92059",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704882152516,
+            "stop" : 1704882235043,
+            "duration" : 82527
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_007 Click on CoreReturn and delete core part",
+          "uid" : "c5b86b2eff6aae1f",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704882235113,
+            "stop" : 1704882300786,
+            "duration" : 65673
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_008 click on Non-Catalog Part and enter the value",
+          "uid" : "b2cfbeace2b9a239",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "failed",
+          "time" : {
+            "start" : 1704882300836,
+            "stop" : 1704882328312,
+            "duration" : 27476
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_009 enter Part number and click on Issue part",
+          "uid" : "ccee75a2f193932e",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "broken",
+          "time" : {
+            "start" : 1704882328379,
+            "stop" : 1704882385230,
+            "duration" : 56851
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_010 click on Labour and click on VMRS",
+          "uid" : "747cf2a76dcaa678",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "broken",
+          "time" : {
+            "start" : 1704882385288,
+            "stop" : 1704882406613,
+            "duration" : 21325
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_011 Click on MoisesOlivas and Select and ok button",
+          "uid" : "56c1429cbb3fe344",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704882406675,
+            "stop" : 1704882406728,
+            "duration" : 53
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_012 Click on FirstLaborItem and Select and Ok button",
+          "uid" : "6a1048f6e6ca2ec3",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "broken",
+          "time" : {
+            "start" : 1704882406798,
+            "stop" : 1704882416873,
+            "duration" : 10075
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_013 Click on Summary and pause and select button",
+          "uid" : "767c2ee8f505a200",
+          "parentUid" : "4c9b947fd6622b8e0583ad5ff2531eb5",
+          "status" : "broken",
+          "time" : {
+            "start" : 1704882416947,
+            "stop" : 1704882553701,
+            "duration" : 136754
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4c9b947fd6622b8e0583ad5ff2531eb5"
+      }, {
+        "name" : "tests.administration.CreateCustomer",
+        "children" : [ {
+          "name" : "Login the page and go to customer screen",
+          "uid" : "3ba8ff9af4378e5",
+          "parentUid" : "86559304a42231176d1a4c37bed92e45",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704883970772,
+            "stop" : 1704884009406,
+            "duration" : 38634
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002 verify all elements in the field",
+          "uid" : "50597c7f49e31209",
+          "parentUid" : "86559304a42231176d1a4c37bed92e45",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704884009541,
+            "stop" : 1704884047247,
+            "duration" : 37706
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003 enter Customer Code and name in the field and click on OK",
+          "uid" : "e90b788d3d8ff50f",
+          "parentUid" : "86559304a42231176d1a4c37bed92e45",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704884047301,
+            "stop" : 1704884075193,
+            "duration" : 27892
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check the Customer name in search field and sign out the page",
+          "uid" : "3cdb10571174d749",
+          "parentUid" : "86559304a42231176d1a4c37bed92e45",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704884075273,
+            "stop" : 1704884096766,
+            "duration" : 21493
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "86559304a42231176d1a4c37bed92e45"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

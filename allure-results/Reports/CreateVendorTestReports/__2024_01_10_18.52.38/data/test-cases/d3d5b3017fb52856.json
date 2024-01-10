@@ -1,0 +1,119 @@
+{
+  "uid" : "d3d5b3017fb52856",
+  "name" : "Test_002 verify all the elements from the fields",
+  "fullName" : "tests.administration.CreateVendor.Test_002_VerifyAllformfields",
+  "historyId" : "3446ebc78b6e47abfeea67a642d39284",
+  "time" : {
+    "start" : 1704891643462,
+    "stop" : 1704891656140,
+    "duration" : 12678
+  },
+  "description" : "Test Description: verify all the elements from the fields",
+  "descriptionHtml" : "<p>Test Description: verify all the elements from the fields</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description: verify all the elements from the fields",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "33236c667159c52f",
+      "name" : "Page Screenshot",
+      "source" : "33236c667159c52f.png",
+      "type" : "image/png",
+      "size" : 105297
+    }, {
+      "uid" : "9bb8c695f56802a4",
+      "name" : "Page Screenshot",
+      "source" : "9bb8c695f56802a4.png",
+      "type" : "image/png",
+      "size" : 105297
+    }, {
+      "uid" : "89b308f6cd0a7012",
+      "name" : "Page Screenshot",
+      "source" : "89b308f6cd0a7012.png",
+      "type" : "image/png",
+      "size" : 105297
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704891656191,
+      "stop" : 1704891656273,
+      "duration" : 82
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6ebb779a82eb567",
+      "name" : "Page Screenshot",
+      "source" : "6ebb779a82eb567.png",
+      "type" : "image/png",
+      "size" : 105297
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.CreateVendor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.CreateVendor"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_VerifyAllformfields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.CreateVendor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "8792@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Vendors Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3d5b3017fb52856.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Prov/State')]\"}\n  (Session info: chrome=120.0.6099.200)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [458663eaf05a3d50400c7b241e5d374c, findElement {using=xpath, value=//span[contains(text(),'Prov/State')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57366}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57366/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 458663eaf05a3d50400c7b241e5d374c",
+      "children" : [ {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "9ba6325e3783ee15",
+        "parentUid" : "dd7c1d3c4ca425da9c5f4768dd6def27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704892745127,
+          "stop" : 1704892757534,
+          "duration" : 12407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd7c1d3c4ca425da9c5f4768dd6def27"
+    }, {
+      "name" : "Cannot locate option with text: NET30\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "a0bf6c27b06bc942",
+        "parentUid" : "4a3960474ccc4faa8473d509f780c8e5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704892757603,
+          "stop" : 1704892794152,
+          "duration" : 36549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a3960474ccc4faa8473d509f780c8e5"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[contains(text(),'Search')]/following::input[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test_004 Check vendor name in search box and sign out the page",
+        "uid" : "f38edfb3bdf4c087",
+        "parentUid" : "310ad9c26ed42cf46fd6e1fe383752c8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704892794220,
+          "stop" : 1704892958263,
+          "duration" : 164043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "310ad9c26ed42cf46fd6e1fe383752c8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

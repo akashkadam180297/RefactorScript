@@ -1,0 +1,184 @@
+{
+  "uid" : "9b573c4e87a2f79c",
+  "name" : "Test_004 Search Part number ",
+  "fullName" : "tests.parts.CreatePart.search_the_number",
+  "historyId" : "a9e903dc3a6b213cb8fd19293cb12f0e",
+  "time" : {
+    "start" : 1704874173732,
+    "stop" : 1704874213663,
+    "duration" : 39931
+  },
+  "description" : "Test Description:  Search Part number",
+  "descriptionHtml" : "<p>Test Description:  Search Part number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704874042477,
+      "stop" : 1704874061035,
+      "duration" : 18558
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description:  Search Part number",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf7f68a104a52e9",
+      "name" : "Page Screenshot",
+      "source" : "cf7f68a104a52e9.png",
+      "type" : "image/png",
+      "size" : 134061
+    }, {
+      "uid" : "1471685ba64c713c",
+      "name" : "Page Screenshot",
+      "source" : "1471685ba64c713c.png",
+      "type" : "image/png",
+      "size" : 71718
+    }, {
+      "uid" : "71f6c886a04e5b4",
+      "name" : "Page Screenshot",
+      "source" : "71f6c886a04e5b4.png",
+      "type" : "image/png",
+      "size" : 88589
+    }, {
+      "uid" : "3f370cd09760688a",
+      "name" : "Page Screenshot",
+      "source" : "3f370cd09760688a.png",
+      "type" : "image/png",
+      "size" : 98300
+    }, {
+      "uid" : "37821fcc1c0e9832",
+      "name" : "Page Screenshot",
+      "source" : "37821fcc1c0e9832.png",
+      "type" : "image/png",
+      "size" : 98304
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704874213671,
+      "stop" : 1704874213735,
+      "duration" : 64
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c84d23ce789f8a6",
+      "name" : "Page Screenshot",
+      "source" : "c84d23ce789f8a6.png",
+      "type" : "image/png",
+      "size" : 98304
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CreatePart"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CreatePart"
+  }, {
+    "name" : "testMethod",
+    "value" : "search_the_number"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CreatePart"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "14680@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "PartsRelatedItem Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6d791add8bfe7440",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (744, 101). Other element would receive the click: <select id=\"reg2:0:rQPart:0:socCM::content\" name=\"reg2:0:rQPart:0:socCM\" style=\"width:100px;\" class=\"x2h\" title=\"Last\" _afov=\"2\">...</select>\n  (Session info: chrome=120.0.6099.200)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [618f8eab87e58c56f7894b464e8b413f, clickElement {id=855BF4139839443F45EE632A5292C4E3_element_378}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55594}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55594/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (618f8eab87e58c56f7894b464e8b413f)] -> xpath: //span[text()='Refresh']]\nSession ID: 618f8eab87e58c56f7894b464e8b413f",
+      "time" : {
+        "start" : 1704873613146,
+        "stop" : 1704873629549,
+        "duration" : 16403
+      }
+    }, {
+      "uid" : "28d3a0d0305336bd",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (744, 101). Other element would receive the click: <select id=\"reg2:0:rQPart:0:socCM::content\" name=\"reg2:0:rQPart:0:socCM\" style=\"width:100px;\" class=\"x2h\" title=\"Last\" _afov=\"2\">...</select>\n  (Session info: chrome=120.0.6099.200)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [11ee9d7a1d5f02c54fd816160729ed96, clickElement {id=79937C9AD1A93AE4A2F5A714221390EA_element_378}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54767}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54767/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (11ee9d7a1d5f02c54fd816160729ed96)] -> xpath: //span[text()='Refresh']]\nSession ID: 11ee9d7a1d5f02c54fd816160729ed96",
+      "time" : {
+        "start" : 1704873248403,
+        "stop" : 1704873264895,
+        "duration" : 16492
+      }
+    }, {
+      "uid" : "9ce3283126755893",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704873057849,
+        "stop" : 1704873097728,
+        "duration" : 39879
+      }
+    }, {
+      "uid" : "df2a0f8e9119c496",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (744, 101). Other element would receive the click: <select id=\"reg2:0:rQPart:0:socCM::content\" name=\"reg2:0:rQPart:0:socCM\" style=\"width:100px;\" class=\"x2h\" title=\"Last\" _afov=\"2\">...</select>\n  (Session info: chrome=120.0.6099.200)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f6df239f322be81ec5ed7bd4b61a16d3, clickElement {id=7113990F1216F5A7157C58730AAA63A9_element_378}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53825/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (f6df239f322be81ec5ed7bd4b61a16d3)] -> xpath: //span[text()='Refresh']]\nSession ID: f6df239f322be81ec5ed7bd4b61a16d3",
+      "time" : {
+        "start" : 1704872873937,
+        "stop" : 1704872890342,
+        "duration" : 16405
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b573c4e87a2f79c.json",
+  "parameterValues" : [ ]
+}

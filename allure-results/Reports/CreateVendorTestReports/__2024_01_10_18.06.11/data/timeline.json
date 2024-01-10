@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-5",
+    "children" : [ {
+      "name" : "13092@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "cf6a0671bbaaa45c",
+        "parentUid" : "65197012e9d29508b0f8093b026650c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704889971145,
+          "stop" : 1704889983642,
+          "duration" : 12497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Check vendor name in search box and sign out the page",
+        "uid" : "a730797586747a2b",
+        "parentUid" : "65197012e9d29508b0f8093b026650c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704890153301,
+          "stop" : 1704890171706,
+          "duration" : 18405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "aeebeef0b66d502a",
+        "parentUid" : "65197012e9d29508b0f8093b026650c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704889935398,
+          "stop" : 1704889970985,
+          "duration" : 35587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "78b38d448c73be0b",
+        "parentUid" : "65197012e9d29508b0f8093b026650c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704889983718,
+          "stop" : 1704890153244,
+          "duration" : 169526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65197012e9d29508b0f8093b026650c1"
+    } ],
+    "uid" : "a73e966c7298dd236db9463e7eeeeb18"
+  } ]
+}

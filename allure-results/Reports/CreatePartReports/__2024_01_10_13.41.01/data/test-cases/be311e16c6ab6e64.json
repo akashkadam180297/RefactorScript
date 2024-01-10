@@ -1,0 +1,169 @@
+{
+  "uid" : "be311e16c6ab6e64",
+  "name" : "Test_001 Login to the page and Go To Parts Master",
+  "fullName" : "tests.parts.CreatePart.gotoPartsMaster",
+  "historyId" : "b68e992b603625198af428fea2d0d8be",
+  "time" : {
+    "start" : 1704874061057,
+    "stop" : 1704874086092,
+    "duration" : 25035
+  },
+  "description" : "Test Description:  Login to the page and Go To Parts Master",
+  "descriptionHtml" : "<p>Test Description:  Login to the page and Go To Parts Master</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704874042477,
+      "stop" : 1704874061035,
+      "duration" : 18558
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description:  Login to the page and Go To Parts Master",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d89c6f62a081de9c",
+      "name" : "Page Screenshot",
+      "source" : "d89c6f62a081de9c.png",
+      "type" : "image/png",
+      "size" : 82387
+    }, {
+      "uid" : "6bc113a065730a2a",
+      "name" : "Page Screenshot",
+      "source" : "6bc113a065730a2a.png",
+      "type" : "image/png",
+      "size" : 133019
+    }, {
+      "uid" : "81e37d14c5e53edc",
+      "name" : "Page Screenshot",
+      "source" : "81e37d14c5e53edc.png",
+      "type" : "image/png",
+      "size" : 133019
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704874086186,
+      "stop" : 1704874086254,
+      "duration" : 68
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dcd2c166dc4e11ca",
+      "name" : "Page Screenshot",
+      "source" : "dcd2c166dc4e11ca.png",
+      "type" : "image/png",
+      "size" : 133044
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CreatePart"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CreatePart"
+  }, {
+    "name" : "testMethod",
+    "value" : "gotoPartsMaster"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CreatePart"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "14680@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "PartsRelatedItem Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a928315329b61330",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704873527755,
+        "stop" : 1704873552226,
+        "duration" : 24471
+      }
+    }, {
+      "uid" : "23c39171387dfd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704873161538,
+        "stop" : 1704873187180,
+        "duration" : 25642
+      }
+    }, {
+      "uid" : "8187f109f273468b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704872931935,
+        "stop" : 1704872964322,
+        "duration" : 32387
+      }
+    }, {
+      "uid" : "30fec1131e2af8b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704872786619,
+        "stop" : 1704872813110,
+        "duration" : 26491
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be311e16c6ab6e64.json",
+  "parameterValues" : [ ]
+}

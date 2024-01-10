@@ -125,17 +125,17 @@ public class TestDriverActions {
         else if(this.getClass().getCanonicalName().contains("CounterSaleTest")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/countersale.properties";
         }
-        else if(this.getClass().getCanonicalName().contains("CreateCustomerTest")) {
+        else if(this.getClass().getCanonicalName().contains("CreateCustomer")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/customer.properties";
         }
-        else if(this.getClass().getCanonicalName().contains("CreateVendorTest")) {
+        else if(this.getClass().getCanonicalName().contains("CreateVendor")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/vendors.properties";
         }
         else if(this.getClass().getCanonicalName().contains("ReceivePartsTest")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/receviepartkonaQA.properties";
         }
         else if(this.getClass().getCanonicalName().contains("CreatePart")) {
-            filePath = System.getProperty("user.dir") + "/src/test/java/utils/createpartQA.properties";
+            filePath = System.getProperty("user.dir") + "/src/test/java/utils/createcustomerQA.properties";
         }
         else if(this.getClass().getCanonicalName().contains("CreateRoTest")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/config.properties";
@@ -414,10 +414,10 @@ public class TestDriverActions {
          else if (getClass().getCanonicalName().contains("CreateUnit")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CreateUnitReports/" + "__" + currentDateTime;
         }
-         else if (getClass().getCanonicalName().contains("CreateVendorTest")) {
+         else if (getClass().getCanonicalName().contains("CreateVendor")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CreateVendorTestReports/" + "__" + currentDateTime;
         }
-         else if (getClass().getCanonicalName().contains("CreateCustomerTest")) {
+         else if (getClass().getCanonicalName().contains("CreateCustomer")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CreateCustomerTestReports/" + "__" + currentDateTime;
         }
         else if (getClass().getCanonicalName().contains("CounterSaleTest")) {
@@ -552,10 +552,10 @@ public class TestDriverActions {
             else if (getClass().getCanonicalName().contains("CreateUnit")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CreateUnitReports\\" + theDir.getName();
             }
-             else if (getClass().getCanonicalName().contains("CreateVendorTest")) {
+             else if (getClass().getCanonicalName().contains("CreateVendor")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CreateVendorTestReports\\" + theDir.getName();
             }
-             else if (getClass().getCanonicalName().contains("CreateCustomerTest")) {
+             else if (getClass().getCanonicalName().contains("CreateCustomer")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CreateCustomerTestReports\\" + theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("CounterSaleTest")) {

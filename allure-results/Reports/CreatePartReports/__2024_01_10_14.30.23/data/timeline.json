@@ -1,0 +1,164 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-5",
+    "children" : [ {
+      "name" : "19320@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "f11ccf81d3c58b41",
+        "parentUid" : "c30b3ee7fc8230434212a4365c6f6bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704876649841,
+          "stop" : 1704876660652,
+          "duration" : 10811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c30b3ee7fc8230434212a4365c6f6bda"
+    }, {
+      "name" : "9944@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "97e2414910d3f513",
+        "parentUid" : "d6559d8b49c57a76295de8f27c764d42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704876803796,
+          "stop" : 1704876827795,
+          "duration" : 23999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on NewParts and verify all element",
+        "uid" : "26f62d715d66d56e",
+        "parentUid" : "d6559d8b49c57a76295de8f27c764d42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704876827996,
+          "stop" : 1704876863914,
+          "duration" : 35918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 Enter part number and create new part",
+        "uid" : "24923cd6b8ed5815",
+        "parentUid" : "d6559d8b49c57a76295de8f27c764d42",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704876863997,
+          "stop" : 1704876888746,
+          "duration" : 24749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Search Part number ",
+        "uid" : "7dd11555cb964bb5",
+        "parentUid" : "d6559d8b49c57a76295de8f27c764d42",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704876888794,
+          "stop" : 1704876905184,
+          "duration" : 16390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d6559d8b49c57a76295de8f27c764d42"
+    }, {
+      "name" : "1852@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_004 Search Part number ",
+        "uid" : "5a6ffd778551fc69",
+        "parentUid" : "d05fc0ea908b90d385704b426ab87a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704877136805,
+          "stop" : 1704877176716,
+          "duration" : 39911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "3bd21f2fb7c35dd1",
+        "parentUid" : "d05fc0ea908b90d385704b426ab87a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704877024860,
+          "stop" : 1704877049441,
+          "duration" : 24581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on NewParts and verify all element",
+        "uid" : "d5908bb8ff79f16a",
+        "parentUid" : "d05fc0ea908b90d385704b426ab87a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704877049584,
+          "stop" : 1704877085300,
+          "duration" : 35716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 Enter part number and create new part",
+        "uid" : "e6676b6701954f91",
+        "parentUid" : "d05fc0ea908b90d385704b426ab87a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704877085371,
+          "stop" : 1704877136729,
+          "duration" : 51358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_005 Verify the Description and click Cost and Pricing Tab",
+        "uid" : "3dfef7b1bed82a0a",
+        "parentUid" : "d05fc0ea908b90d385704b426ab87a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704877176792,
+          "stop" : 1704877188115,
+          "duration" : 11323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_006 click on Sign out",
+        "uid" : "a2b486e51407bb89",
+        "parentUid" : "d05fc0ea908b90d385704b426ab87a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704877188179,
+          "stop" : 1704877223743,
+          "duration" : 35564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d05fc0ea908b90d385704b426ab87a06"
+    } ],
+    "uid" : "a73e966c7298dd236db9463e7eeeeb18"
+  } ]
+}

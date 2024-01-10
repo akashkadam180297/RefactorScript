@@ -1,0 +1,143 @@
+{
+  "uid" : "7f2502e23db5ba88",
+  "name" : "Test_005_Verify unit created and Signout",
+  "fullName" : "tests.fleet.CreateUnit.Test_005_Verify_unit_created",
+  "historyId" : "ea959559cfa81316a273b11ebc1af649",
+  "time" : {
+    "start" : 1704880606523,
+    "stop" : 1704880651362,
+    "duration" : 44839
+  },
+  "description" : "Test Description: Verify unit created and Signout",
+  "descriptionHtml" : "<p>Test Description: Verify unit created and Signout</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704880464703,
+      "stop" : 1704880484400,
+      "duration" : 19697
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Verify unit created and Signout",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5049dd56b6517c",
+      "name" : "Page Screenshot",
+      "source" : "f5049dd56b6517c.png",
+      "type" : "image/png",
+      "size" : 70351
+    }, {
+      "uid" : "c762d1102f38505a",
+      "name" : "Page Screenshot",
+      "source" : "c762d1102f38505a.png",
+      "type" : "image/png",
+      "size" : 82968
+    }, {
+      "uid" : "d09a3d2967b209e5",
+      "name" : "Page Screenshot",
+      "source" : "d09a3d2967b209e5.png",
+      "type" : "image/png",
+      "size" : 12595
+    }, {
+      "uid" : "2e46c4856be565c",
+      "name" : "Page Screenshot",
+      "source" : "2e46c4856be565c.png",
+      "type" : "image/png",
+      "size" : 12595
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704880651362,
+      "stop" : 1704880651416,
+      "duration" : 54
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f5feaf894420b8c",
+      "name" : "Page Screenshot",
+      "source" : "3f5feaf894420b8c.png",
+      "type" : "image/png",
+      "size" : 12595
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_005_Verify_unit_created"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "10500@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Create Unit Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f2502e23db5ba88.json",
+  "parameterValues" : [ ]
+}

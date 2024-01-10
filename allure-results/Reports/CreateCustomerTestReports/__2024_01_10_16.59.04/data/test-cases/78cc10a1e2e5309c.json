@@ -1,0 +1,137 @@
+{
+  "uid" : "78cc10a1e2e5309c",
+  "name" : "Check the Customer name in search field and sign out the page",
+  "fullName" : "tests.administration.CreateCustomer.Test_004_searchnameandclickonSignout",
+  "historyId" : "ab1875bb732a09c39c841e42f566e227",
+  "time" : {
+    "start" : 1704886122960,
+    "stop" : 1704886144393,
+    "duration" : 21433
+  },
+  "description" : "Test Description : Check the Customer name in search field and sign out the page",
+  "descriptionHtml" : "<p>Test Description : Check the Customer name in search field and sign out the page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704886003748,
+      "stop" : 1704886021741,
+      "duration" : 17993
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description : Check the Customer name in search field and sign out the page",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "500694f4e2ad26d6",
+      "name" : "Page Screenshot",
+      "source" : "500694f4e2ad26d6.png",
+      "type" : "image/png",
+      "size" : 96389
+    }, {
+      "uid" : "9303c8fafc65358d",
+      "name" : "Page Screenshot",
+      "source" : "9303c8fafc65358d.png",
+      "type" : "image/png",
+      "size" : 12610
+    }, {
+      "uid" : "58e543f4ac88bcc3",
+      "name" : "Page Screenshot",
+      "source" : "58e543f4ac88bcc3.png",
+      "type" : "image/png",
+      "size" : 12610
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704886144394,
+      "stop" : 1704886144462,
+      "duration" : 68
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a33bc6ec7fe5eb0",
+      "name" : "Page Screenshot",
+      "source" : "5a33bc6ec7fe5eb0.png",
+      "type" : "image/png",
+      "size" : 12610
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_004_searchnameandclickonSignout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "21188@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Customer Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78cc10a1e2e5309c.json",
+  "parameterValues" : [ ]
+}

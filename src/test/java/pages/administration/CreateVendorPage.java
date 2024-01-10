@@ -77,7 +77,7 @@ public class CreateVendorPage extends TestDriverActions {
     //        @FindBy(xpath = "//option[text()='NET30']")
     //      WebElement select_NET30;
 
-    @FindBy(xpath = "//label[contains(text(),'Tax Exempt')]/following::span[4]" )
+    @FindBy(xpath = "((//span[text()='Cancel'])[1]//following::div//child::span)[1]" )
     WebElement btn_ok;
 
     @FindBy(xpath = "//a[text()='Sign Out']")
@@ -117,8 +117,11 @@ public class CreateVendorPage extends TestDriverActions {
     /**Enter code*/
     public void enterVendorCode() throws InterruptedException {
       //  WaitActions.getWaits().waitForElementTobeClickable(txt_code_field);
+        Thread.sleep(9000);
+        driver.switchTo().frame(2);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_code_field);
         String vandorCode = String.valueOf(WebElementActions.getActions().randomAlphaNumeric( 6));
+        Thread.sleep(9000);
         WebElementActions.getActions().inputText(txt_code_field,vandorCode);
         TestListener.saveScreenshotPNG(driver);
     }
@@ -144,7 +147,7 @@ public class CreateVendorPage extends TestDriverActions {
     public void selectPaymentTermsMenu() throws InterruptedException {
        // WaitActions.getWaits().waitForElementTobeClickable(dropdown_payment_term);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(dropdown_payment_term);
-        WebElementActions.getActions().elementSelectByVisibilityText(dropdown_payment_term, prop.getProperty("dropdown"));
+        WebElementActions.getActions().elementSelectByVisibilityText(dropdown_payment_term, appProp.getProperty("dropdown"));
         TestListener.saveScreenshotPNG(driver);
 
     }

@@ -1,0 +1,79 @@
+{
+  "ac2fef77ae75f4058afce44f30ec434f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73c97d1466d34911",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704885635359,
+        "stop" : 1704885670140,
+        "duration" : 34781
+      }
+    } ]
+  },
+  "ab1875bb732a09c39c841e42f566e227" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "265f02c451d41249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704885710718,
+        "stop" : 1704885736587,
+        "duration" : 25869
+      }
+    } ]
+  },
+  "190a85382220aebaca5dfd599c1ba2fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8d5cc8f621f67fd",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Payment Term']\"}\n  (Session info: chrome=120.0.6099.200)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3f2cfed29ecc9f862613d880911afaea, findElement {using=xpath, value=//span[text()='Payment Term']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50295/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3f2cfed29ecc9f862613d880911afaea",
+      "time" : {
+        "start" : 1704885670267,
+        "stop" : 1704885682706,
+        "duration" : 12439
+      }
+    } ]
+  },
+  "948ef84228262e1f1caa27e35b43834e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1c9dc2a8d54a631",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704885682767,
+        "stop" : 1704885710615,
+        "duration" : 27848
+      }
+    } ]
+  }
+}

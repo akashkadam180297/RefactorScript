@@ -341,11 +341,9 @@ public class CreateUnitPage extends TestDriverActions {
      * Enter Description
      */
     public void enterDescription() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_description);
             WebElementActions.getActions().inputText(txt_description, appProp.getProperty("description"));
             TestListener.saveScreenshotPNG(driver);
-        }
     }
 
     /**
@@ -362,7 +360,7 @@ public class CreateUnitPage extends TestDriverActions {
     public void typeYear () throws InterruptedException {
         if (LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_YearTextArea);
-            WebElementActions.getActions().inputText(label_YearTextArea, appProp.getProperty("year"));
+            WebElementActions.getActions().inputText(label_YearTextArea,appProp.getProperty("year"));
 
         }
     }

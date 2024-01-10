@@ -26,6 +26,7 @@ tests\estimating\ApproveanEstimateDMSTest.class
 tests\serviceBoard\SubmitAnEstimateServiceManager.class
 pages\service\CreateRoPage.class
 tests\techRo\ServiceManagerJournalize.class
+tests\administration\CreateCustomer.class
 tests\service\EC_ServiceManager_WoLaborTest.class
 pages\nonrepair\ApproveNonRepairBill_DMS.class
 pages\tech\EC_Tech_WoParts.class
@@ -37,7 +38,6 @@ pages\LoginPage.class
 pages\techRo\DAFServiceManagerPartsRelatedTasks.class
 pages\parts\JournalizePartsInvoice.class
 tests\nonRepair\ApproveNonRepairBill_DMSTest.class
-tests\administration\CreateCustomerTest.class
 actions\WaitActions.class
 tests\parts\ReceiveParts.class
 tests\techRo\cGVTech_WoComplianceTest.class
@@ -47,6 +47,7 @@ constants\SheetConstants.class
 pages\parts\Spotorderpart.class
 pages\techRo\ECServiceManager_Journalize.class
 tests\service\CreateRoTest.class
+tests\administration\CreateVendor.class
 tests\service\InquireFXG_UnitHistoryTest.class
 tests\service\ECServiceManager_AddRemoveLaborTest.class
 actions\DataActions.class
@@ -71,4 +72,3 @@ pages\administration\CreateVendorPage.class
 tests\parts\JournalizePartsInvoice.class
 pages\Estimate\SubmitAnEstimateServiceManager.class
 tests\parts\CreatePart.class
-tests\administration\CreateVendorTest.class

@@ -1,0 +1,155 @@
+{
+  "uid" : "6d1d63c72062bea9",
+  "name" : "Test_003_verify all element present in New Unit ",
+  "fullName" : "tests.fleet.CreateUnit.Test_003_verifyAllFormFields",
+  "historyId" : "5855190fc802ad5a7e1c5a0b593e9669",
+  "time" : {
+    "start" : 1704880539013,
+    "stop" : 1704880576382,
+    "duration" : 37369
+  },
+  "description" : "Test Description:verify all element present in New Unit",
+  "descriptionHtml" : "<p>Test Description:verify all element present in New Unit</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704880464703,
+      "stop" : 1704880484400,
+      "duration" : 19697
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description:verify all element present in New Unit",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c709c36050ee6cd8",
+      "name" : "Page Screenshot",
+      "source" : "c709c36050ee6cd8.png",
+      "type" : "image/png",
+      "size" : 152495
+    }, {
+      "uid" : "4d6fd9fa15cf1543",
+      "name" : "Page Screenshot",
+      "source" : "4d6fd9fa15cf1543.png",
+      "type" : "image/png",
+      "size" : 152495
+    }, {
+      "uid" : "e16477b5d3eb34a3",
+      "name" : "Page Screenshot",
+      "source" : "e16477b5d3eb34a3.png",
+      "type" : "image/png",
+      "size" : 152495
+    }, {
+      "uid" : "c57f1ae06f863088",
+      "name" : "Page Screenshot",
+      "source" : "c57f1ae06f863088.png",
+      "type" : "image/png",
+      "size" : 152495
+    }, {
+      "uid" : "53da56c36be8e6e",
+      "name" : "Page Screenshot",
+      "source" : "53da56c36be8e6e.png",
+      "type" : "image/png",
+      "size" : 152495
+    }, {
+      "uid" : "cf5357d1c367b76f",
+      "name" : "Page Screenshot",
+      "source" : "cf5357d1c367b76f.png",
+      "type" : "image/png",
+      "size" : 152495
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704880576382,
+      "stop" : 1704880576467,
+      "duration" : 85
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bab22343d185ab6e",
+      "name" : "Page Screenshot",
+      "source" : "bab22343d185ab6e.png",
+      "type" : "image/png",
+      "size" : 152495
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_verifyAllFormFields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "10500@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Create Unit Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d1d63c72062bea9.json",
+  "parameterValues" : [ ]
+}

@@ -3,22 +3,21 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test">
     <classes>
-      <class name="tests.parts.ReceiveParts"/>
+      <class name="tests.administration.CreateVendor"/>
     </classes>
   </test> <!-- Surefire test -->
   <test name="Surefire test(failed)">
     <classes>
-      <class name="tests.parts.ReceiveParts">
+      <class name="tests.administration.CreateVendor">
         <methods>
+          <include name="Test_003_enterfieldandclickonOK"/>
+          <include name="checkVendorName_SignOutPage"/>
           <include name="generateAllure"/>
           <include name="afterMethodTakeScreenShot"/>
-          <include name="Test_009_clickOnCancelButton"/>
-          <include name="Test_007_verifyLink"/>
-          <include name="Test_006_verifyVendorPart"/>
+          <include name="Test_002_VerifyAllformfields"/>
           <include name="initialization"/>
-          <include name="Test_008_verifyHash"/>
         </methods>
-      </class> <!-- tests.parts.ReceiveParts -->
+      </class> <!-- tests.administration.CreateVendor -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

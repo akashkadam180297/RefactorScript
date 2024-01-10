@@ -1,0 +1,37 @@
+# Created on 2024-01-10T16:37:59.650
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created on 2024-01-10T16:38:02.095
+Unexpected IOException with stream: WebElement is clickable using locator: <[[ChromeDriver: chrome on WINDOWS (9501d5b73ccb381fd1d604a80e483cbf)] -> xpath: //table[@class='af_menuBar_items']//table//td//a[text()='Administration']]>
+
+
+# Created on 2024-01-10T16:38:02.116
+Unexpected IOException with stream: WebElement is clickable using locator: <[[ChromeDriver: chrome on WINDOWS (9501d5b73ccb381fd1d604a80e483cbf)] -> xpath: //table[@class='af_menuBar_items']//table//td//a[text()='Administration']]>
+
+
+# Created on 2024-01-10T16:38:03.195
+Unexpected IOException with stream: WebElement is clickable using locator: <[[ChromeDriver: chrome on WINDOWS (9501d5b73ccb381fd1d604a80e483cbf)] -> xpath: //div[@class='AFPopupMenuContent']//td[text()='Customer']]>
+
+
+# Created on 2024-01-10T16:38:08.249
+Unexpected IOException with stream: MethodTest_001_gotoCustomerScreen Fail
+
+
+# Created on 2024-01-10T16:38:08.249
+Unexpected IOException with stream: Screen captured for test case : Test_001_gotoCustomerScreen:Fail
+
+
+# Created on 2024-01-10T16:38:08.256
+Unexpected IOException with stream: MethodTest_001_gotoCustomerScreen Fail
+
+
+# Created on 2024-01-10T16:38:08.256
+Unexpected IOException with stream: Screen captured for test case : Test_001_gotoCustomerScreen:Fail
+
+

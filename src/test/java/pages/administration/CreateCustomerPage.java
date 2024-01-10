@@ -64,7 +64,7 @@ public class CreateCustomerPage extends TestDriverActions {
     @FindBy(xpath = "//span[text()='Country']" )
     WebElement label_country;
 
-    @FindBy(xpath = "//span[text()='Payment Term']" )
+    @FindBy(xpath = "//label[contains(text(),'Payment Term')]" )
     WebElement label_payment_term;
 
     @FindBy(xpath = "//span[text()='Active']" )

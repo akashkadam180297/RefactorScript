@@ -1,0 +1,161 @@
+{
+  "uid" : "774f568771fba430",
+  "name" : "Test_002 verify all elements in the field",
+  "fullName" : "tests.administration.CreateCustomer.Test_002_verifyAllFields",
+  "historyId" : "190a85382220aebaca5dfd599c1ba2fd",
+  "time" : {
+    "start" : 1704885258245,
+    "stop" : 1704885296287,
+    "duration" : 38042
+  },
+  "description" : "Test Description: verify all elements in the field",
+  "descriptionHtml" : "<p>Test Description: verify all elements in the field</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704885198292,
+      "stop" : 1704885219586,
+      "duration" : 21294
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: verify all elements in the field",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1be6731c6849abcf",
+      "name" : "Page Screenshot",
+      "source" : "1be6731c6849abcf.png",
+      "type" : "image/png",
+      "size" : 106230
+    }, {
+      "uid" : "188b268efe355064",
+      "name" : "Page Screenshot",
+      "source" : "188b268efe355064.png",
+      "type" : "image/png",
+      "size" : 106300
+    }, {
+      "uid" : "3b5efd21cc1678f5",
+      "name" : "Page Screenshot",
+      "source" : "3b5efd21cc1678f5.png",
+      "type" : "image/png",
+      "size" : 106300
+    }, {
+      "uid" : "23a5d712d9b9f7d3",
+      "name" : "Page Screenshot",
+      "source" : "23a5d712d9b9f7d3.png",
+      "type" : "image/png",
+      "size" : 106245
+    }, {
+      "uid" : "579f17583897dd73",
+      "name" : "Page Screenshot",
+      "source" : "579f17583897dd73.png",
+      "type" : "image/png",
+      "size" : 106245
+    }, {
+      "uid" : "a99f700b896262d3",
+      "name" : "Page Screenshot",
+      "source" : "a99f700b896262d3.png",
+      "type" : "image/png",
+      "size" : 106233
+    }, {
+      "uid" : "d6a240b7d0a4b314",
+      "name" : "Page Screenshot",
+      "source" : "d6a240b7d0a4b314.png",
+      "type" : "image/png",
+      "size" : 106245
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704885296530,
+      "stop" : 1704885296579,
+      "duration" : 49
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "93fdb220c79b6c7a",
+      "name" : "Page Screenshot",
+      "source" : "93fdb220c79b6c7a.png",
+      "type" : "image/png",
+      "size" : 106245
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_verifyAllFields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "14868@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Customer Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "774f568771fba430.json",
+  "parameterValues" : [ ]
+}

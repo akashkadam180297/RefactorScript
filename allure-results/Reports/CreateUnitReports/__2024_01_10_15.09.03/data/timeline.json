@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-5",
+    "children" : [ {
+      "name" : "18524@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_003_verify all element present in New Unit ",
+        "uid" : "ff7c64c4a0d12971",
+        "parentUid" : "6314aa6f51b3ba5b212c04c8d923792b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879468871,
+          "stop" : 1704879506176,
+          "duration" : 37305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_Verify unit created and Signout",
+        "uid" : "33cc90f3b1c553d4",
+        "parentUid" : "6314aa6f51b3ba5b212c04c8d923792b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704879530099,
+          "stop" : 1704879543409,
+          "duration" : 13310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_Search and select owner",
+        "uid" : "95b2e7568d2f2ae2",
+        "parentUid" : "6314aa6f51b3ba5b212c04c8d923792b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879447826,
+          "stop" : 1704879468782,
+          "duration" : 20956
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_Enter unit, description, VIN number and click on Save/Exit",
+        "uid" : "fc1f9de34c8083b4",
+        "parentUid" : "6314aa6f51b3ba5b212c04c8d923792b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879506231,
+          "stop" : 1704879530027,
+          "duration" : 23796
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Login the page and Go to create unit Screen",
+        "uid" : "54aa9b08a2833f0b",
+        "parentUid" : "6314aa6f51b3ba5b212c04c8d923792b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879411453,
+          "stop" : 1704879447693,
+          "duration" : 36240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6314aa6f51b3ba5b212c04c8d923792b"
+    } ],
+    "uid" : "a73e966c7298dd236db9463e7eeeeb18"
+  } ]
+}
