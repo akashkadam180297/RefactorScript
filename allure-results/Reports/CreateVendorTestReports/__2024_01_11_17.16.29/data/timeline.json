@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-RH29BD1",
+    "children" : [ {
+      "name" : "17420@DESKTOP-RH29BD1.main(1)",
+      "children" : [ {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "9a7683518b4030cf",
+        "parentUid" : "49f37988765914b72bc13075b9c614ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704973514786,
+          "stop" : 1704973528385,
+          "duration" : 13599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Check vendor name in search box and sign out the page",
+        "uid" : "bf00c82ad7168239",
+        "parentUid" : "49f37988765914b72bc13075b9c614ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704973566447,
+          "stop" : 1704973588973,
+          "duration" : 22526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "ed968bf57898765f",
+        "parentUid" : "49f37988765914b72bc13075b9c614ad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704973528657,
+          "stop" : 1704973566261,
+          "duration" : 37604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "10d4177de5665f37",
+        "parentUid" : "49f37988765914b72bc13075b9c614ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704973476618,
+          "stop" : 1704973514383,
+          "duration" : 37765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49f37988765914b72bc13075b9c614ad"
+    } ],
+    "uid" : "b1441ad176736c5515e66c68c9827861"
+  } ]
+}

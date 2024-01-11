@@ -1,0 +1,171 @@
+{
+  "uid" : "2aca534ee78dcd81",
+  "name" : "Test_003_verify all element present in New Unit ",
+  "fullName" : "tests.fleet.CreateUnit.Test_003_verifyAllFormFields",
+  "historyId" : "5855190fc802ad5a7e1c5a0b593e9669",
+  "time" : {
+    "start" : 1704879186107,
+    "stop" : 1704879223518,
+    "duration" : 37411
+  },
+  "description" : "Test Description:verify all element present in New Unit",
+  "descriptionHtml" : "<p>Test Description:verify all element present in New Unit</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704879110457,
+      "stop" : 1704879127985,
+      "duration" : 17528
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description:verify all element present in New Unit",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2cf48c74235b4aef",
+      "name" : "Page Screenshot",
+      "source" : "2cf48c74235b4aef.png",
+      "type" : "image/png",
+      "size" : 152561
+    }, {
+      "uid" : "5eaf1b44e04cc54c",
+      "name" : "Page Screenshot",
+      "source" : "5eaf1b44e04cc54c.png",
+      "type" : "image/png",
+      "size" : 152561
+    }, {
+      "uid" : "26e47faffce8ca6c",
+      "name" : "Page Screenshot",
+      "source" : "26e47faffce8ca6c.png",
+      "type" : "image/png",
+      "size" : 152561
+    }, {
+      "uid" : "76c0e6814c5fb908",
+      "name" : "Page Screenshot",
+      "source" : "76c0e6814c5fb908.png",
+      "type" : "image/png",
+      "size" : 152561
+    }, {
+      "uid" : "7de547ef646132fe",
+      "name" : "Page Screenshot",
+      "source" : "7de547ef646132fe.png",
+      "type" : "image/png",
+      "size" : 152561
+    }, {
+      "uid" : "3f67e9bc266a812",
+      "name" : "Page Screenshot",
+      "source" : "3f67e9bc266a812.png",
+      "type" : "image/png",
+      "size" : 152561
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704879223519,
+      "stop" : 1704879223571,
+      "duration" : 52
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fedb3ad049370b25",
+      "name" : "Page Screenshot",
+      "source" : "fedb3ad049370b25.png",
+      "type" : "image/png",
+      "size" : 152561
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "generateAllure",
+    "time" : {
+      "start" : 1704879260854,
+      "stop" : 1704879271003,
+      "duration" : 10149
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_verifyAllFormFields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "10484@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Create Unit Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2aca534ee78dcd81.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.administration.CreateVendor",
+        "children" : [ {
+          "name" : "Test_001 Login to the page and go to vendors screen ",
+          "uid" : "be6593428cf9dfed",
+          "parentUid" : "b87775f678a745c7fc27e589cf851689",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704975489156,
+            "stop" : 1704975527850,
+            "duration" : 38694
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002 verify all the elements from the fields",
+          "uid" : "4778944f0b2a2d8e",
+          "parentUid" : "b87775f678a745c7fc27e589cf851689",
+          "status" : "broken",
+          "time" : {
+            "start" : 1704975528298,
+            "stop" : 1704975541702,
+            "duration" : 13404
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+          "uid" : "64c02763a6591032",
+          "parentUid" : "b87775f678a745c7fc27e589cf851689",
+          "status" : "broken",
+          "time" : {
+            "start" : 1704975541894,
+            "stop" : 1704975723594,
+            "duration" : 181700
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004 Check vendor name in search box and sign out the page",
+          "uid" : "fa4f188853e1e13c",
+          "parentUid" : "b87775f678a745c7fc27e589cf851689",
+          "status" : "broken",
+          "time" : {
+            "start" : 1704975723783,
+            "stop" : 1704975743256,
+            "duration" : 19473
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b87775f678a745c7fc27e589cf851689"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

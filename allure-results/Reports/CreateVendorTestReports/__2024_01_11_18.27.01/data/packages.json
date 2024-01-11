@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.administration.CreateVendor",
+    "children" : [ {
+      "name" : "Test_001_gotoVendorsScreen",
+      "uid" : "40a2f8ab57e4fc9d",
+      "parentUid" : "8674f424791c201fd21a3bc77e3c6a00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704977538209,
+        "stop" : 1704977601706,
+        "duration" : 63497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_VerifyAllformfields",
+      "uid" : "ef1797e2dacb7034",
+      "parentUid" : "8674f424791c201fd21a3bc77e3c6a00",
+      "status" : "broken",
+      "time" : {
+        "start" : 1704977602174,
+        "stop" : 1704977615450,
+        "duration" : 13276
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_enterfieldandclickonOK",
+      "uid" : "a0bde2ebb35183db",
+      "parentUid" : "8674f424791c201fd21a3bc77e3c6a00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704977615672,
+        "stop" : 1704977657392,
+        "duration" : 41720
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkVendorName_SignOutPage",
+      "uid" : "c126f991f6722319",
+      "parentUid" : "8674f424791c201fd21a3bc77e3c6a00",
+      "status" : "broken",
+      "time" : {
+        "start" : 1704977657583,
+        "stop" : 1704977821799,
+        "duration" : 164216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.administration.CreateVendor"
+  } ]
+}

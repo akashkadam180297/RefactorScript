@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Prov/State')]\"}\n  (Session info: chrome=120.0.6099.216)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-RH29BD1', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4cc32a84bc111b2b6837eedd5d6479b8, findElement {using=xpath, value=//span[contains(text(),'Prov/State')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50289/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4cc32a84bc111b2b6837eedd5d6479b8",
+      "children" : [ {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "4778944f0b2a2d8e",
+        "parentUid" : "505c75807a3791b9b61d2f84dba9f47b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704975528298,
+          "stop" : 1704975541702,
+          "duration" : 13404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "505c75807a3791b9b61d2f84dba9f47b"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Code:']/following::input[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "64c02763a6591032",
+        "parentUid" : "cfcfb1c1157a3893452c3ddae9507120",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704975541894,
+          "stop" : 1704975723594,
+          "duration" : 181700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cfcfb1c1157a3893452c3ddae9507120"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name='username']\"}\n  (Session info: chrome=120.0.6099.216)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-RH29BD1', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4cc32a84bc111b2b6837eedd5d6479b8, findElement {using=xpath, value=//input[@name='username']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50289/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4cc32a84bc111b2b6837eedd5d6479b8",
+      "children" : [ {
+        "name" : "Test_004 Check vendor name in search box and sign out the page",
+        "uid" : "fa4f188853e1e13c",
+        "parentUid" : "28bd5d226958ed0cb6c55630ae131c65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704975723783,
+          "stop" : 1704975743256,
+          "duration" : 19473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28bd5d226958ed0cb6c55630ae131c65"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

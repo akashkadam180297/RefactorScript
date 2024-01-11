@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.administration.CreateVendor",
+    "children" : [ {
+      "name" : "initialization",
+      "uid" : "3c6c7d45060bd56f",
+      "parentUid" : "8674f424791c201fd21a3bc77e3c6a00",
+      "status" : "broken",
+      "time" : {
+        "start" : 1704979648672,
+        "stop" : 1704979648676,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_001_gotoVendorsScreen",
+      "uid" : "fcc23a21837e121a",
+      "parentUid" : "8674f424791c201fd21a3bc77e3c6a00",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1704979648907,
+        "stop" : 1704979648911,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_VerifyAllformfields",
+      "uid" : "1b7bcbc964213cfb",
+      "parentUid" : "8674f424791c201fd21a3bc77e3c6a00",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1704979649186,
+        "stop" : 1704979649187,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_enterfieldandclickonOK",
+      "uid" : "e77a75d9c0e1a279",
+      "parentUid" : "8674f424791c201fd21a3bc77e3c6a00",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1704979649334,
+        "stop" : 1704979649335,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkVendorName_SignOutPage",
+      "uid" : "bc830d9365b9e256",
+      "parentUid" : "8674f424791c201fd21a3bc77e3c6a00",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1704979649492,
+        "stop" : 1704979649492,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.administration.CreateVendor"
+  } ]
+}

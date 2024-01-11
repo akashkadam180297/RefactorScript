@@ -1,5 +1,6 @@
 package pages.administration;
 
+import actions.LoginActions;
 import actions.ReusableActions;
 import actions.WaitActions;
 import actions.WebElementActions;
@@ -50,10 +51,13 @@ public class CreateVendorPage extends TestDriverActions {
     @FindBy(xpath = "//span[contains(text(),'Address')]" )
     WebElement label_Address;
 
-    @FindBy(xpath = "//span[contains(text(),'Prov/State')]" )
+    @FindBy(xpath = "//span[contains(text(),'State') and contains(@class,'label-text')]" )
     WebElement label_prov_state;
 
-    @FindBy(xpath = "//span[contains(text(),'ZIP / Postal')]" )
+//    @FindBy(xpath = "//span[contains(text(),'State/Province')]")
+//    WebElement label_state_province;
+
+    @FindBy(xpath = "//span[contains(text(),'ZIP') and contains(@class,'label-text')]" )
     WebElement label_zip_postal;
 
     @FindBy(xpath = "//span[contains(text(),'Country')]" )
@@ -116,14 +120,23 @@ public class CreateVendorPage extends TestDriverActions {
 
     /**Enter code*/
     public void enterVendorCode() throws InterruptedException {
-      //  WaitActions.getWaits().waitForElementTobeClickable(txt_code_field);
-        Thread.sleep(9000);
-        driver.switchTo().frame(2);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_code_field);
-        String vandorCode = String.valueOf(WebElementActions.getActions().randomAlphaNumeric( 6));
-        Thread.sleep(9000);
-        WebElementActions.getActions().inputText(txt_code_field,vandorCode);
-        TestListener.saveScreenshotPNG(driver);
+        if (LoginActions.environmentName.contains("NA")) {
+            //  WaitActions.getWaits().waitForElementTobeClickable(txt_code_field);
+            Thread.sleep(3000);
+            driver.switchTo().frame(2);
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_code_field);
+            String vandorCode = String.valueOf(WebElementActions.getActions().randomAlphaNumeric(6));
+            Thread.sleep(9000);
+            WebElementActions.getActions().inputText(txt_code_field, vandorCode);
+            TestListener.saveScreenshotPNG(driver);
+        }
+        else {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_code_field);
+            String vandorCode = String.valueOf(WebElementActions.getActions().randomAlphaNumeric(6));
+            Thread.sleep(9000);
+            WebElementActions.getActions().inputText(txt_code_field, vandorCode);
+            TestListener.saveScreenshotPNG(driver);
+        }
     }
     /**
      *  random vendor name
@@ -145,10 +158,17 @@ public class CreateVendorPage extends TestDriverActions {
      * click on Ok button
      */
     public void selectPaymentTermsMenu() throws InterruptedException {
-       // WaitActions.getWaits().waitForElementTobeClickable(dropdown_payment_term);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(dropdown_payment_term);
-        WebElementActions.getActions().elementSelectByVisibilityText(dropdown_payment_term, appProp.getProperty("dropdown"));
-        TestListener.saveScreenshotPNG(driver);
+        if(LoginActions.environmentName.contains("NA")) {
+            // WaitActions.getWaits().waitForElementTobeClickable(dropdown_payment_term);
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(dropdown_payment_term);
+            WebElementActions.getActions().elementSelectByVisibilityText(dropdown_payment_term, appProp.getProperty("dropdowns"));
+            TestListener.saveScreenshotPNG(driver);
+        }
+        else {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(dropdown_payment_term);
+            WebElementActions.getActions().elementSelectByVisibilityText(dropdown_payment_term, appProp.getProperty("dropdown"));
+            TestListener.saveScreenshotPNG(driver);
+        }
 
     }
     /**
@@ -156,6 +176,7 @@ public class CreateVendorPage extends TestDriverActions {
      */
     public void vendorNameInSearchBox() throws InterruptedException {
        // WaitActions.getWaits().waitForElementTobeClickable(txt_search_field);
+        Thread.sleep(9000);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_search_field);
         WebElementActions.getActions().inputText(txt_search_field, vendorName);
         TestListener.saveScreenshotPNG(driver);
@@ -169,6 +190,7 @@ public class CreateVendorPage extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_ok);
         WebElementActions.getActions().clickElement(btn_ok);
         TestListener.saveScreenshotPNG(driver);
+        driver.switchTo().defaultContent();
     }
 
     /**
@@ -190,21 +212,38 @@ public class CreateVendorPage extends TestDriverActions {
      *  Check that Vender List table element
      */
     public void vendorsListTable() throws InterruptedException {
-      //  WaitActions.getWaits().WaitUntilWebElementIsVisible(label_vendor_list_2);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_vendor_list_2);
-        Assert.assertTrue(label_vendor_list_2.isDisplayed());
-        Assert.assertTrue(btn_addVendor.isDisplayed());
-        Assert.assertTrue(label_name.isDisplayed());
-        Assert.assertTrue(label_code.isDisplayed());
-        Assert.assertTrue(label_phone.isDisplayed());
-        Assert.assertTrue(label_city.isDisplayed());
-        Assert.assertTrue(label_Address.isDisplayed());
-        Assert.assertTrue(label_prov_state.isDisplayed());
-        Assert.assertTrue(label_zip_postal.isDisplayed());
-        Assert.assertTrue(label_country.isDisplayed());
-        Assert.assertTrue(label_type.isDisplayed());
-        Assert.assertTrue(label_active.isDisplayed());
-        TestListener.saveScreenshotPNG(driver);
+        if (LoginActions.environmentName.contains("NA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_vendor_list_2);
+            Assert.assertTrue(label_vendor_list_2.isDisplayed());
+            Assert.assertTrue(btn_addVendor.isDisplayed());
+            Assert.assertTrue(label_name.isDisplayed());
+            Assert.assertTrue(label_code.isDisplayed());
+            Assert.assertTrue(label_phone.isDisplayed());
+            Assert.assertTrue(label_city.isDisplayed());
+            Assert.assertTrue(label_Address.isDisplayed());
+            Assert.assertTrue(label_prov_state.isDisplayed());
+            Assert.assertTrue(label_zip_postal.isDisplayed());
+            Assert.assertTrue(label_country.isDisplayed());
+            Assert.assertTrue(label_active.isDisplayed());
+            TestListener.saveScreenshotPNG(driver);
+        }
+        else {
+            //  WaitActions.getWaits().WaitUntilWebElementIsVisible(label_vendor_list_2);
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_vendor_list_2);
+            Assert.assertTrue(label_vendor_list_2.isDisplayed());
+            Assert.assertTrue(btn_addVendor.isDisplayed());
+            Assert.assertTrue(label_name.isDisplayed());
+            Assert.assertTrue(label_code.isDisplayed());
+            Assert.assertTrue(label_phone.isDisplayed());
+            Assert.assertTrue(label_city.isDisplayed());
+            Assert.assertTrue(label_Address.isDisplayed());
+            Assert.assertTrue(label_prov_state.isDisplayed());
+            Assert.assertTrue(label_zip_postal.isDisplayed());
+            Assert.assertTrue(label_country.isDisplayed());
+            Assert.assertTrue(label_type.isDisplayed());
+            Assert.assertTrue(label_active.isDisplayed());
+            TestListener.saveScreenshotPNG(driver);
+        }
 
     }
 

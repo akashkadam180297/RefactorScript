@@ -1,0 +1,81 @@
+{
+  "cb0771e2c45fc17c58e7e6df0ab49a56" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64c02763a6591032",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Code:']/following::input[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1704975541894,
+        "stop" : 1704975723594,
+        "duration" : 181700
+      }
+    } ]
+  },
+  "3446ebc78b6e47abfeea67a642d39284" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4778944f0b2a2d8e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Prov/State')]\"}\n  (Session info: chrome=120.0.6099.216)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-RH29BD1', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4cc32a84bc111b2b6837eedd5d6479b8, findElement {using=xpath, value=//span[contains(text(),'Prov/State')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50289/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4cc32a84bc111b2b6837eedd5d6479b8",
+      "time" : {
+        "start" : 1704975528298,
+        "stop" : 1704975541702,
+        "duration" : 13404
+      }
+    } ]
+  },
+  "7f234fded0eb24a941f6c35f1d92455c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa4f188853e1e13c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name='username']\"}\n  (Session info: chrome=120.0.6099.216)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-RH29BD1', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4cc32a84bc111b2b6837eedd5d6479b8, findElement {using=xpath, value=//input[@name='username']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50289/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4cc32a84bc111b2b6837eedd5d6479b8",
+      "time" : {
+        "start" : 1704975723783,
+        "stop" : 1704975743256,
+        "duration" : 19473
+      }
+    } ]
+  },
+  "e54c683c6cd9795c6917f87072a029aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be6593428cf9dfed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704975489156,
+        "stop" : 1704975527850,
+        "duration" : 38694
+      }
+    } ]
+  }
+}

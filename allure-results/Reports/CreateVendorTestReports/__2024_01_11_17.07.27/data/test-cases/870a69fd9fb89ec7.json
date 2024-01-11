@@ -1,0 +1,121 @@
+{
+  "uid" : "870a69fd9fb89ec7",
+  "name" : "T_002 Verify Unit Number and Click on Parts ",
+  "fullName" : "tests.tech.TechWoParts.verifyUnitNumber_ClickOnParts",
+  "historyId" : "608dd79dc73b725b4bad9643002b9dbb",
+  "time" : {
+    "start" : 1704881928919,
+    "stop" : 1704882000968,
+    "duration" : 72049
+  },
+  "description" : "Test Description - Verify Unit Number and Click on Parts",
+  "descriptionHtml" : "<p>Test Description - Verify Unit Number and Click on Parts</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description - Verify Unit Number and Click on Parts",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1e9a00c2e1e3837",
+      "name" : "Page Screenshot",
+      "source" : "1e9a00c2e1e3837.png",
+      "type" : "image/png",
+      "size" : 55838
+    }, {
+      "uid" : "fd5f69ce067a3c38",
+      "name" : "Page Screenshot",
+      "source" : "fd5f69ce067a3c38.png",
+      "type" : "image/png",
+      "size" : 101174
+    }, {
+      "uid" : "ebde832f1f3ebef1",
+      "name" : "Page Screenshot",
+      "source" : "ebde832f1f3ebef1.png",
+      "type" : "image/png",
+      "size" : 101174
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704882000976,
+      "stop" : 1704882001018,
+      "duration" : 42
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c4a957ef0ee132a",
+      "name" : "Page Screenshot",
+      "source" : "7c4a957ef0ee132a.png",
+      "type" : "image/png",
+      "size" : 101132
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyUnitNumber_ClickOnParts"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "11800@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "WoParts Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "870a69fd9fb89ec7.json",
+  "parameterValues" : [ ]
+}

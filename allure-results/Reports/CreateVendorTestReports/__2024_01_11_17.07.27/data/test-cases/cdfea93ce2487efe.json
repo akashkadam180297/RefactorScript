@@ -1,0 +1,125 @@
+{
+  "uid" : "cdfea93ce2487efe",
+  "name" : "Test_001 Login to the page and go to vendors screen ",
+  "fullName" : "tests.administration.CreateVendor.Test_001_gotoVendorsScreen",
+  "historyId" : "e54c683c6cd9795c6917f87072a029aa",
+  "time" : {
+    "start" : 1704889448553,
+    "stop" : 1704889483950,
+    "duration" : 35397
+  },
+  "description" : "Test Description:  Login to the page and go to vendors screen  ",
+  "descriptionHtml" : "<p>Test Description:  Login to the page and go to vendors screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description:  Login to the page and go to vendors screen  ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "354b305db8d4f26c",
+      "name" : "Page Screenshot",
+      "source" : "354b305db8d4f26c.png",
+      "type" : "image/png",
+      "size" : 100526
+    }, {
+      "uid" : "412b70528987ddc4",
+      "name" : "Page Screenshot",
+      "source" : "412b70528987ddc4.png",
+      "type" : "image/png",
+      "size" : 85577
+    }, {
+      "uid" : "6c7214adfa162244",
+      "name" : "Page Screenshot",
+      "source" : "6c7214adfa162244.png",
+      "type" : "image/png",
+      "size" : 85216
+    }, {
+      "uid" : "dfb1f11f703df2a3",
+      "name" : "Page Screenshot",
+      "source" : "dfb1f11f703df2a3.png",
+      "type" : "image/png",
+      "size" : 85216
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704889484010,
+      "stop" : 1704889484077,
+      "duration" : 67
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b0a4bca0287842af",
+      "name" : "Page Screenshot",
+      "source" : "b0a4bca0287842af.png",
+      "type" : "image/png",
+      "size" : 85196
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.CreateVendor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.CreateVendor"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoVendorsScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.CreateVendor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "15880@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Vendors Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdfea93ce2487efe.json",
+  "parameterValues" : [ ]
+}

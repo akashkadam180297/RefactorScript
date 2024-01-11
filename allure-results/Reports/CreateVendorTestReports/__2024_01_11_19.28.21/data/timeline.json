@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-RH29BD1",
+    "children" : [ {
+      "name" : "14412@DESKTOP-RH29BD1.main(1)",
+      "children" : [ {
+        "name" : "Test_004 Check vendor name in search box and sign out the page",
+        "uid" : "1c61e5a68b61a108",
+        "parentUid" : "c4dfc5db36234557fe9aed33657391af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704981470016,
+          "stop" : 1704981501300,
+          "duration" : 31284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "5acc6272b37e38ea",
+        "parentUid" : "c4dfc5db36234557fe9aed33657391af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704981372360,
+          "stop" : 1704981413802,
+          "duration" : 41442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "505efa24fd9cc72d",
+        "parentUid" : "c4dfc5db36234557fe9aed33657391af",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704981414287,
+          "stop" : 1704981427608,
+          "duration" : 13321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "e8d728c31148c9f",
+        "parentUid" : "c4dfc5db36234557fe9aed33657391af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704981427816,
+          "stop" : 1704981469838,
+          "duration" : 42022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4dfc5db36234557fe9aed33657391af"
+    } ],
+    "uid" : "b1441ad176736c5515e66c68c9827861"
+  } ],
+  "name" : "timeline"
+}

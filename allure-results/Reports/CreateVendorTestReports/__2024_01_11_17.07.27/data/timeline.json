@@ -1,0 +1,989 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-5",
+    "children" : [ {
+      "name" : "6340@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "df60dac256ab6fd8",
+        "parentUid" : "b8c4edb68e2072028d45966dbb0a63dd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704871566530,
+          "stop" : 1704871577191,
+          "duration" : 10661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b8c4edb68e2072028d45966dbb0a63dd"
+    }, {
+      "name" : "4996@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_004 Search Part number ",
+        "uid" : "8043335d3d88299e",
+        "parentUid" : "6a895d06e060dc42711c06cbaead1fec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704873248403,
+          "stop" : 1704873264895,
+          "duration" : 16492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "ad5663d573b3f91e",
+        "parentUid" : "6a895d06e060dc42711c06cbaead1fec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704873161538,
+          "stop" : 1704873187180,
+          "duration" : 25642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 Enter part number and create new part",
+        "uid" : "3f411bfbb7723dd8",
+        "parentUid" : "6a895d06e060dc42711c06cbaead1fec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704873223601,
+          "stop" : 1704873248318,
+          "duration" : 24717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on NewParts and verify all element",
+        "uid" : "e68713943a8e061a",
+        "parentUid" : "6a895d06e060dc42711c06cbaead1fec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704873187323,
+          "stop" : 1704873223529,
+          "duration" : 36206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a895d06e060dc42711c06cbaead1fec"
+    }, {
+      "name" : "15880@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "cdfea93ce2487efe",
+        "parentUid" : "b6a6605e6a213ee2bdb04a639efe242e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704889448553,
+          "stop" : 1704889483950,
+          "duration" : 35397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "943af3282dea151b",
+        "parentUid" : "b6a6605e6a213ee2bdb04a639efe242e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704889496581,
+          "stop" : 1704889663362,
+          "duration" : 166781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "b155e74b3e470359",
+        "parentUid" : "b6a6605e6a213ee2bdb04a639efe242e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704889484093,
+          "stop" : 1704889496514,
+          "duration" : 12421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b6a6605e6a213ee2bdb04a639efe242e"
+    }, {
+      "name" : "23872@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "195f931584a536f0",
+        "parentUid" : "9f071d129819a99d7c96779d2aaf7b67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704887626690,
+          "stop" : 1704887663659,
+          "duration" : 36969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "e9efb980369e165",
+        "parentUid" : "9f071d129819a99d7c96779d2aaf7b67",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704887676214,
+          "stop" : 1704887839885,
+          "duration" : 163671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "5ce77a2c6c9d5413",
+        "parentUid" : "9f071d129819a99d7c96779d2aaf7b67",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704887663769,
+          "stop" : 1704887676145,
+          "duration" : 12376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f071d129819a99d7c96779d2aaf7b67"
+    }, {
+      "name" : "11800@PC-5.main(1)",
+      "children" : [ {
+        "name" : "T_001 Sign in the page and Go to the Tech RO",
+        "uid" : "578be65b8d71361a",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704881893755,
+          "stop" : 1704881928795,
+          "duration" : 35040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_003 Check the Generic setup of the screen and enter Part number",
+        "uid" : "20dc757f26826a61",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704882001021,
+          "stop" : 1704882076340,
+          "duration" : 75319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_005 Verify part added , click on cross button and delete the part",
+        "uid" : "5d0f2302b8162ed2",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704882102056,
+          "stop" : 1704882152463,
+          "duration" : 50407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_004 verify the part pannel and click on issue part",
+        "uid" : "3ff0b809fead0867",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704882076391,
+          "stop" : 1704882102005,
+          "duration" : 25614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_007 Click on CoreReturn and delete core part",
+        "uid" : "3c29e2f5a06211a3",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704882235113,
+          "stop" : 1704882300786,
+          "duration" : 65673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_013 Click on Summary and pause and select button",
+        "uid" : "2ef337cd8122f576",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704882416947,
+          "stop" : 1704882553701,
+          "duration" : 136754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_006 Enter CorePart and click on search icon",
+        "uid" : "e31012ae616d95bb",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704882152516,
+          "stop" : 1704882235043,
+          "duration" : 82527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_008 click on Non-Catalog Part and enter the value",
+        "uid" : "e1673a02cfe7ffb9",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "failed",
+        "time" : {
+          "start" : 1704882300836,
+          "stop" : 1704882328312,
+          "duration" : 27476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_009 enter Part number and click on Issue part",
+        "uid" : "887e405eec3dc8c2",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704882328379,
+          "stop" : 1704882385230,
+          "duration" : 56851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_010 click on Labour and click on VMRS",
+        "uid" : "7a03c27adfeb511e",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704882385288,
+          "stop" : 1704882406613,
+          "duration" : 21325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_011 Click on MoisesOlivas and Select and ok button",
+        "uid" : "77107f918a06a962",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704882406675,
+          "stop" : 1704882406728,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_012 Click on FirstLaborItem and Select and Ok button",
+        "uid" : "523db64ee92b253c",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704882406798,
+          "stop" : 1704882416873,
+          "duration" : 10075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_002 Verify Unit Number and Click on Parts ",
+        "uid" : "870a69fd9fb89ec7",
+        "parentUid" : "a27fba7adadd6ad26c16d3530a7dba70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704881928919,
+          "stop" : 1704882000968,
+          "duration" : 72049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a27fba7adadd6ad26c16d3530a7dba70"
+    }, {
+      "name" : "16408@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Login the page and go to customer screen",
+        "uid" : "a7794978c9f981c8",
+        "parentUid" : "20c7db2b6b291f329efa38da2e978e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704884313413,
+          "stop" : 1704884323993,
+          "duration" : 10580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20c7db2b6b291f329efa38da2e978e50"
+    }, {
+      "name" : "19320@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "1e7fbb5bcc12493c",
+        "parentUid" : "c30b3ee7fc8230434212a4365c6f6bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704876649841,
+          "stop" : 1704876660652,
+          "duration" : 10811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c30b3ee7fc8230434212a4365c6f6bda"
+    }, {
+      "name" : "20672@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Login the page and go to customer screen",
+        "uid" : "fef4a21da6801b5",
+        "parentUid" : "6c7482abe53013351b17f3fb0c2695c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704884653550,
+          "stop" : 1704884664103,
+          "duration" : 10553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c7482abe53013351b17f3fb0c2695c2"
+    }, {
+      "name" : "7392@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "2540d6467f11278c",
+        "parentUid" : "b79c3acfece800e6e6da92a2da4a9cba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704873527755,
+          "stop" : 1704873552226,
+          "duration" : 24471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on NewParts and verify all element",
+        "uid" : "7032ef80118a394e",
+        "parentUid" : "b79c3acfece800e6e6da92a2da4a9cba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704873552370,
+          "stop" : 1704873588256,
+          "duration" : 35886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Search Part number ",
+        "uid" : "e75d4ffc2a413a27",
+        "parentUid" : "b79c3acfece800e6e6da92a2da4a9cba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704873613146,
+          "stop" : 1704873629549,
+          "duration" : 16403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 Enter part number and create new part",
+        "uid" : "5bb19caa25ddcacd",
+        "parentUid" : "b79c3acfece800e6e6da92a2da4a9cba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704873588323,
+          "stop" : 1704873613067,
+          "duration" : 24744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b79c3acfece800e6e6da92a2da4a9cba"
+    }, {
+      "name" : "13092@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "d4ec8c1ce5075e",
+        "parentUid" : "65197012e9d29508b0f8093b026650c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704889935398,
+          "stop" : 1704889970985,
+          "duration" : 35587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "67d14ec2b0ec9c4b",
+        "parentUid" : "65197012e9d29508b0f8093b026650c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704889971145,
+          "stop" : 1704889983642,
+          "duration" : 12497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "e7285c24a82b774a",
+        "parentUid" : "65197012e9d29508b0f8093b026650c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704889983718,
+          "stop" : 1704890153244,
+          "duration" : 169526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65197012e9d29508b0f8093b026650c1"
+    }, {
+      "name" : "10484@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_005_Verify unit created and Signout",
+        "uid" : "b9d440a46ea74486",
+        "parentUid" : "4357b638f55efd53154d098bb1ba8d1c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704879247474,
+          "stop" : 1704879260713,
+          "duration" : 13239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_verify all element present in New Unit ",
+        "uid" : "2aca534ee78dcd81",
+        "parentUid" : "4357b638f55efd53154d098bb1ba8d1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879186107,
+          "stop" : 1704879223518,
+          "duration" : 37411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_Search and select owner",
+        "uid" : "8148743663f2586b",
+        "parentUid" : "4357b638f55efd53154d098bb1ba8d1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879164938,
+          "stop" : 1704879186038,
+          "duration" : 21100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Login the page and Go to create unit Screen",
+        "uid" : "22f7cbf4ae98bb43",
+        "parentUid" : "4357b638f55efd53154d098bb1ba8d1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879128016,
+          "stop" : 1704879164779,
+          "duration" : 36763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_Enter unit, description, VIN number and click on Save/Exit",
+        "uid" : "90c8846c443a4f7f",
+        "parentUid" : "4357b638f55efd53154d098bb1ba8d1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704879223578,
+          "stop" : 1704879247406,
+          "duration" : 23828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4357b638f55efd53154d098bb1ba8d1c"
+    }, {
+      "name" : "9356@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_004 Search Part number ",
+        "uid" : "b2da65a83795c1e6",
+        "parentUid" : "c88377b1cfbf01d4e92a99f2740e843e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704872873937,
+          "stop" : 1704872890342,
+          "duration" : 16405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 Enter part number and create new part",
+        "uid" : "7b2d38eb18b02318",
+        "parentUid" : "c88377b1cfbf01d4e92a99f2740e843e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704872849133,
+          "stop" : 1704872873868,
+          "duration" : 24735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "1c2a39a09d65bb88",
+        "parentUid" : "c88377b1cfbf01d4e92a99f2740e843e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704872786619,
+          "stop" : 1704872813110,
+          "duration" : 26491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on NewParts and verify all element",
+        "uid" : "238ed2d804b9f6ed",
+        "parentUid" : "c88377b1cfbf01d4e92a99f2740e843e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704872813277,
+          "stop" : 1704872849044,
+          "duration" : 35767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c88377b1cfbf01d4e92a99f2740e843e"
+    }, {
+      "name" : "28008@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "3907f643498b7a28",
+        "parentUid" : "733585e17a0b15bdd8cbc68bf54c9436",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704888966745,
+          "stop" : 1704889015934,
+          "duration" : 49189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "1dcc8812dce463a6",
+        "parentUid" : "733585e17a0b15bdd8cbc68bf54c9436",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704888918780,
+          "stop" : 1704888954185,
+          "duration" : 35405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "757f18587b61ae36",
+        "parentUid" : "733585e17a0b15bdd8cbc68bf54c9436",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704888954329,
+          "stop" : 1704888966689,
+          "duration" : 12360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "733585e17a0b15bdd8cbc68bf54c9436"
+    }, {
+      "name" : "1972@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_002 click on NewParts and verify all element",
+        "uid" : "f53bb7caf94057c2",
+        "parentUid" : "4c71767941b7697c74c43562db5c571e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704872964446,
+          "stop" : 1704873000183,
+          "duration" : 35737
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 Enter part number and create new part",
+        "uid" : "83f870a469b8658b",
+        "parentUid" : "4c71767941b7697c74c43562db5c571e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704873000259,
+          "stop" : 1704873057777,
+          "duration" : 57518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Search Part number ",
+        "uid" : "590be1ab2abd5a05",
+        "parentUid" : "4c71767941b7697c74c43562db5c571e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704873057849,
+          "stop" : 1704873097728,
+          "duration" : 39879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "860c44d4fdcd2d98",
+        "parentUid" : "4c71767941b7697c74c43562db5c571e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704872931935,
+          "stop" : 1704872964322,
+          "duration" : 32387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_005 Verify the Description and click Cost and Pricing Tab",
+        "uid" : "f951754557b7f91c",
+        "parentUid" : "4c71767941b7697c74c43562db5c571e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704873097779,
+          "stop" : 1704873109086,
+          "duration" : 11307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c71767941b7697c74c43562db5c571e"
+    }, {
+      "name" : "9944@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "6bb1e7a5d6bc6009",
+        "parentUid" : "d6559d8b49c57a76295de8f27c764d42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704876803796,
+          "stop" : 1704876827795,
+          "duration" : 23999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on NewParts and verify all element",
+        "uid" : "9dd2b6b720404c06",
+        "parentUid" : "d6559d8b49c57a76295de8f27c764d42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704876827996,
+          "stop" : 1704876863914,
+          "duration" : 35918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 Enter part number and create new part",
+        "uid" : "69248ab6e96849d3",
+        "parentUid" : "d6559d8b49c57a76295de8f27c764d42",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704876863997,
+          "stop" : 1704876888746,
+          "duration" : 24749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Search Part number ",
+        "uid" : "db89cbd1687a4f95",
+        "parentUid" : "d6559d8b49c57a76295de8f27c764d42",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704876888794,
+          "stop" : 1704876905184,
+          "duration" : 16390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d6559d8b49c57a76295de8f27c764d42"
+    }, {
+      "name" : "22248@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "3b9f96096b0a62bc",
+        "parentUid" : "c738304d3faa2309dad679c8511a607a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704890254093,
+          "stop" : 1704890288732,
+          "duration" : 34639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "55154c6e9d684955",
+        "parentUid" : "c738304d3faa2309dad679c8511a607a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704890288860,
+          "stop" : 1704890301289,
+          "duration" : 12429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c738304d3faa2309dad679c8511a607a"
+    }, {
+      "name" : "8792@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "8b669ee91ea5ec86",
+        "parentUid" : "ca7bada2250aae57084f4ab068ed94b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704891643462,
+          "stop" : 1704891656140,
+          "duration" : 12678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "43166d5adc940375",
+        "parentUid" : "ca7bada2250aae57084f4ab068ed94b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704891605655,
+          "stop" : 1704891643300,
+          "duration" : 37645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca7bada2250aae57084f4ab068ed94b6"
+    }, {
+      "name" : "5352@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001_Login the page and Go to create unit Screen",
+        "uid" : "cd991243b15d14ef",
+        "parentUid" : "6bd0ed1b66004e424883e7f752b6571a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704880086838,
+          "stop" : 1704880121988,
+          "duration" : 35150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bd0ed1b66004e424883e7f752b6571a"
+    }, {
+      "name" : "20600@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_002 verify all elements in the field",
+        "uid" : "bb08482dfcede2e4",
+        "parentUid" : "1f5db7ce099a775d59be9d4fd0537304",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704884009541,
+          "stop" : 1704884047247,
+          "duration" : 37706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f5db7ce099a775d59be9d4fd0537304"
+    }, {
+      "name" : "12044@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Test_001_Login the page and Go to create unit Screen",
+        "uid" : "67fda091ed8535d8",
+        "parentUid" : "0d94ddd4ec6f7205968fa57b990641d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704880327806,
+          "stop" : 1704880362744,
+          "duration" : 34938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d94ddd4ec6f7205968fa57b990641d3"
+    }, {
+      "name" : "4028@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Login the page and go to customer screen",
+        "uid" : "4a97f7d1fef8b96d",
+        "parentUid" : "feb531fb8472d498fc868c7636b18721",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704885097239,
+          "stop" : 1704885107775,
+          "duration" : 10536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "feb531fb8472d498fc868c7636b18721"
+    }, {
+      "name" : "2844@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Login the page and go to customer screen",
+        "uid" : "1455a0ac819bf964",
+        "parentUid" : "b5bd789cf0c1ca68e279282801fd62e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704884776225,
+          "stop" : 1704884814513,
+          "duration" : 38288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5bd789cf0c1ca68e279282801fd62e6"
+    } ],
+    "uid" : "a73e966c7298dd236db9463e7eeeeb18"
+  }, {
+    "name" : "DESKTOP-RH29BD1",
+    "children" : [ {
+      "name" : "10572@DESKTOP-RH29BD1.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "f03833a91b19f5fd",
+        "parentUid" : "d11538739ba4c3e33b8acf57967e0c71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704972789777,
+          "stop" : 1704972831258,
+          "duration" : 41481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "b74390dfb213f204",
+        "parentUid" : "d11538739ba4c3e33b8acf57967e0c71",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704972832114,
+          "stop" : 1704972845426,
+          "duration" : 13312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Check vendor name in search box and sign out the page",
+        "uid" : "fa8941180e66fb40",
+        "parentUid" : "d11538739ba4c3e33b8acf57967e0c71",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704972883629,
+          "stop" : 1704973047242,
+          "duration" : 163613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "15475aca15e7b978",
+        "parentUid" : "d11538739ba4c3e33b8acf57967e0c71",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704972845631,
+          "stop" : 1704972883456,
+          "duration" : 37825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d11538739ba4c3e33b8acf57967e0c71"
+    } ],
+    "uid" : "b1441ad176736c5515e66c68c9827861"
+  } ]
+}

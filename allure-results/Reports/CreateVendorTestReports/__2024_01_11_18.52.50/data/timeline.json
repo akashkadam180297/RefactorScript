@@ -1,0 +1,108 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-RH29BD1",
+    "children" : [ {
+      "name" : "7752@DESKTOP-RH29BD1.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "9fb8ff8678436e8d",
+        "parentUid" : "d93d2cf8595cd2538146e89b47bf7782",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704978974455,
+          "stop" : 1704979013508,
+          "duration" : 39053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "43302fa91981d336",
+        "parentUid" : "d93d2cf8595cd2538146e89b47bf7782",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704979013988,
+          "stop" : 1704979027323,
+          "duration" : 13335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "39e245d9e609fd7",
+        "parentUid" : "d93d2cf8595cd2538146e89b47bf7782",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704979027526,
+          "stop" : 1704979193541,
+          "duration" : 166015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d93d2cf8595cd2538146e89b47bf7782"
+    }, {
+      "name" : "6516@DESKTOP-RH29BD1.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "7a4ca33c3aff58af",
+        "parentUid" : "7fee0d14e7dd10fc542f0911671f2371",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704979243343,
+          "stop" : 1704979282922,
+          "duration" : 39579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "dc27430fecde6ffa",
+        "parentUid" : "7fee0d14e7dd10fc542f0911671f2371",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704979296840,
+          "stop" : 1704979338751,
+          "duration" : 41911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Check vendor name in search box and sign out the page",
+        "uid" : "9d57d879b3c49b19",
+        "parentUid" : "7fee0d14e7dd10fc542f0911671f2371",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704979338918,
+          "stop" : 1704979370217,
+          "duration" : 31299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "7e2df0f29acd0f8f",
+        "parentUid" : "7fee0d14e7dd10fc542f0911671f2371",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704979283402,
+          "stop" : 1704979296620,
+          "duration" : 13218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fee0d14e7dd10fc542f0911671f2371"
+    } ],
+    "uid" : "b1441ad176736c5515e66c68c9827861"
+  } ]
+}

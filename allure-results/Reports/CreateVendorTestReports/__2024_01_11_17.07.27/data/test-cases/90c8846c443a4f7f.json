@@ -1,0 +1,159 @@
+{
+  "uid" : "90c8846c443a4f7f",
+  "name" : "Test_004_Enter unit, description, VIN number and click on Save/Exit",
+  "fullName" : "tests.fleet.CreateUnit.Test_004_enterFieldsAndClickOnSave",
+  "historyId" : "a3f1911d12cd0afef6b9f87b8f9f8045",
+  "time" : {
+    "start" : 1704879223578,
+    "stop" : 1704879247406,
+    "duration" : 23828
+  },
+  "description" : "Test Description: Enter unit, description, VIN number and click on Save/Exit",
+  "descriptionHtml" : "<p>Test Description: Enter unit, description, VIN number and click on Save/Exit</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704879110457,
+      "stop" : 1704879127985,
+      "duration" : 17528
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Enter unit, description, VIN number and click on Save/Exit",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "17a1a202a19da508",
+      "name" : "Page Screenshot",
+      "source" : "17a1a202a19da508.png",
+      "type" : "image/png",
+      "size" : 153310
+    }, {
+      "uid" : "6f6257e2849ebc50",
+      "name" : "Page Screenshot",
+      "source" : "6f6257e2849ebc50.png",
+      "type" : "image/png",
+      "size" : 154159
+    }, {
+      "uid" : "b6ae3a89e5c13ed4",
+      "name" : "Page Screenshot",
+      "source" : "b6ae3a89e5c13ed4.png",
+      "type" : "image/png",
+      "size" : 157573
+    }, {
+      "uid" : "1eae55d742fbaad0",
+      "name" : "Page Screenshot",
+      "source" : "1eae55d742fbaad0.png",
+      "type" : "image/png",
+      "size" : 157592
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704879247407,
+      "stop" : 1704879247470,
+      "duration" : 63
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6f661e1897293422",
+      "name" : "Page Screenshot",
+      "source" : "6f661e1897293422.png",
+      "type" : "image/png",
+      "size" : 157592
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "generateAllure",
+    "time" : {
+      "start" : 1704879260854,
+      "stop" : 1704879271003,
+      "duration" : 10149
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_004_enterFieldsAndClickOnSave"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "10484@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Create Unit Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90c8846c443a4f7f.json",
+  "parameterValues" : [ ]
+}

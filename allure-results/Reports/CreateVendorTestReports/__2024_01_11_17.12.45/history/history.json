@@ -1,0 +1,79 @@
+{
+  "cb0771e2c45fc17c58e7e6df0ab49a56" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b199e61cd40f4b26",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n  (Session info: chrome=120.0.6099.216)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-RH29BD1', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5f660e39eec48348df156877bd7de710, switchToFrame {id=2}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52512/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5f660e39eec48348df156877bd7de710",
+      "time" : {
+        "start" : 1704973332539,
+        "stop" : 1704973341723,
+        "duration" : 9184
+      }
+    } ]
+  },
+  "3446ebc78b6e47abfeea67a642d39284" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7fe41b14e541120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704973318604,
+        "stop" : 1704973332332,
+        "duration" : 13728
+      }
+    } ]
+  },
+  "7f234fded0eb24a941f6c35f1d92455c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93ecb34358617d9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704973341881,
+        "stop" : 1704973365366,
+        "duration" : 23485
+      }
+    } ]
+  },
+  "e54c683c6cd9795c6917f87072a029aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51ce0e33e1ac392c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704973279367,
+        "stop" : 1704973318314,
+        "duration" : 38947
+      }
+    } ]
+  }
+}

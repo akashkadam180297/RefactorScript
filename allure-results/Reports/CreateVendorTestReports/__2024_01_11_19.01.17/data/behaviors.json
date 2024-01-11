@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "Vendors Test",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and go to vendors screen ",
+        "uid" : "86003d8f8d0d4b2f",
+        "parentUid" : "590df2e3807ae9131b8802599333e8e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704979749574,
+          "stop" : 1704979788437,
+          "duration" : 38863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements from the fields",
+        "uid" : "7e34b06ed03bfc0e",
+        "parentUid" : "590df2e3807ae9131b8802599333e8e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1704979788937,
+          "stop" : 1704979802477,
+          "duration" : 13540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter the vendor code and name in the field and click on Ok",
+        "uid" : "7c78ae26eafdabf9",
+        "parentUid" : "590df2e3807ae9131b8802599333e8e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704979802935,
+          "stop" : 1704979845300,
+          "duration" : 42365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Check vendor name in search box and sign out the page",
+        "uid" : "e38bcb48b726cff8",
+        "parentUid" : "590df2e3807ae9131b8802599333e8e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704979845479,
+          "stop" : 1704979876830,
+          "duration" : 31351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "590df2e3807ae9131b8802599333e8e3"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}

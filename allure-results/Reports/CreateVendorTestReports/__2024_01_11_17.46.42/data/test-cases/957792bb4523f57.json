@@ -1,0 +1,137 @@
+{
+  "uid" : "957792bb4523f57",
+  "name" : "Test_004 Check vendor name in search box and sign out the page",
+  "fullName" : "tests.administration.CreateVendor.checkVendorName_SignOutPage",
+  "historyId" : "7f234fded0eb24a941f6c35f1d92455c",
+  "time" : {
+    "start" : 1704975323230,
+    "stop" : 1704975402071,
+    "duration" : 78841
+  },
+  "description" : "Test Description: Check vendor name in search box and sign out the page",
+  "descriptionHtml" : "<p>Test Description: Check vendor name in search box and sign out the page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1704975191499,
+      "stop" : 1704975216013,
+      "duration" : 24514
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Check vendor name in search box and sign out the page",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "604165234d89af5c",
+      "name" : "Page Screenshot",
+      "source" : "604165234d89af5c.png",
+      "type" : "image/png",
+      "size" : 92396
+    }, {
+      "uid" : "4024265897631ebb",
+      "name" : "Page Screenshot",
+      "source" : "4024265897631ebb.png",
+      "type" : "image/png",
+      "size" : 22020
+    }, {
+      "uid" : "4a55dd575969d845",
+      "name" : "Page Screenshot",
+      "source" : "4a55dd575969d845.png",
+      "type" : "image/png",
+      "size" : 22036
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1704975402098,
+      "stop" : 1704975402234,
+      "duration" : 136
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "84b1b09b5f7c5d95",
+      "name" : "Page Screenshot",
+      "source" : "84b1b09b5f7c5d95.png",
+      "type" : "image/png",
+      "size" : 22036
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.CreateVendor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.CreateVendor"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkVendorName_SignOutPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.CreateVendor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "6648@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Vendors Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "957792bb4523f57.json",
+  "parameterValues" : [ ]
+}

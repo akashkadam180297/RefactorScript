@@ -6,18 +6,4 @@
       <class name="tests.administration.CreateVendor"/>
     </classes>
   </test> <!-- Surefire test -->
-  <test name="Surefire test(failed)">
-    <classes>
-      <class name="tests.administration.CreateVendor">
-        <methods>
-          <include name="Test_003_enterfieldandclickonOK"/>
-          <include name="checkVendorName_SignOutPage"/>
-          <include name="generateAllure"/>
-          <include name="afterMethodTakeScreenShot"/>
-          <include name="Test_002_VerifyAllformfields"/>
-          <include name="initialization"/>
-        </methods>
-      </class> <!-- tests.administration.CreateVendor -->
-    </classes>
-  </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
