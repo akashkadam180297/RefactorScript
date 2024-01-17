@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.techRo.ServiceManagerInvoice",
+        "children" : [ {
+          "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+          "uid" : "48f165a4c2ae180d",
+          "parentUid" : "ab108829970baf97652c49d7d4de0e24",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705481360199,
+            "stop" : 1705481392218,
+            "duration" : 32019
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002_verify element Present ",
+          "uid" : "25fb1c15fb0bcbfe",
+          "parentUid" : "ab108829970baf97652c49d7d4de0e24",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705481392384,
+            "stop" : 1705481398450,
+            "duration" : 6066
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003_Input The Ro Number in search TextArea  ",
+          "uid" : "199ac11bb0f3fb4e",
+          "parentUid" : "ab108829970baf97652c49d7d4de0e24",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705481398522,
+            "stop" : 1705481404775,
+            "duration" : 6253
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004_Click On Reference Number ",
+          "uid" : "61a2977e21c4b0a1",
+          "parentUid" : "ab108829970baf97652c49d7d4de0e24",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705481404843,
+            "stop" : 1705481428175,
+            "duration" : 23332
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005_Enter the Yesterday Date ",
+          "uid" : "183716b82ac86f00",
+          "parentUid" : "ab108829970baf97652c49d7d4de0e24",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705481428229,
+            "stop" : 1705481464885,
+            "duration" : 36656
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ab108829970baf97652c49d7d4de0e24"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

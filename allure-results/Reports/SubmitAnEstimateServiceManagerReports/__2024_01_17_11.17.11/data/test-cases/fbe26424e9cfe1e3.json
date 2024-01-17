@@ -1,0 +1,107 @@
+{
+  "uid" : "fbe26424e9cfe1e3",
+  "name" : "Test_007_verify Add Parts",
+  "fullName" : "tests.Estimate.SubmitAnEstimateServiceManager.Test_007_verifyAddParts",
+  "historyId" : "93f8237bd15c3141912d9eb3ef55538",
+  "time" : {
+    "start" : 1705469360698,
+    "stop" : 1705469421405,
+    "duration" : 60707
+  },
+  "description" : "Test Description: verify  Add Parts",
+  "descriptionHtml" : "<p>Test Description: verify  Add Parts</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description: verify  Add Parts",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e8141bb56b4bd4b",
+      "name" : "Page Screenshot",
+      "source" : "7e8141bb56b4bd4b.png",
+      "type" : "image/png",
+      "size" : 47754
+    }, {
+      "uid" : "27cc80df03b2a174",
+      "name" : "Page Screenshot",
+      "source" : "27cc80df03b2a174.png",
+      "type" : "image/png",
+      "size" : 47754
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705469421406,
+      "stop" : 1705469421475,
+      "duration" : 69
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "66bc86cfc14d695c",
+      "name" : "Page Screenshot",
+      "source" : "66bc86cfc14d695c.png",
+      "type" : "image/png",
+      "size" : 50183
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_007_verifyAddParts"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "20156@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbe26424e9cfe1e3.json",
+  "parameterValues" : [ ]
+}

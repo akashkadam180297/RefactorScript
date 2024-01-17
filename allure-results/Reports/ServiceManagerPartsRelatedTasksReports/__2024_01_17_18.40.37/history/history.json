@@ -1,0 +1,155 @@
+{
+  "734c413c6b3db69296c7d58f7b80e0e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "996c79f238748da0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705496145801,
+        "stop" : 1705496364472,
+        "duration" : 218671
+      }
+    } ]
+  },
+  "d6827d44631a815a651ba9cd70881612" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77ca1ee789f50a7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705497009647,
+        "stop" : 1705497037005,
+        "duration" : 27358
+      }
+    } ]
+  },
+  "2f11236c254a754049316d53e8c3a6bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25d27fc27fad1c88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705496757126,
+        "stop" : 1705496900261,
+        "duration" : 143135
+      }
+    } ]
+  },
+  "9049abab75a6be6e7c4d7b6ea7951d9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5d0688507fc92c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705496466251,
+        "stop" : 1705496553906,
+        "duration" : 87655
+      }
+    } ]
+  },
+  "7400702628433b69f7e9ac78b9b991c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a8a170656c77d3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705496638645,
+        "stop" : 1705496757055,
+        "duration" : 118410
+      }
+    } ]
+  },
+  "60f96c0e7eeb5410b14c6c8dd399c1d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1fe3ae14b96eca87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705496553962,
+        "stop" : 1705496638587,
+        "duration" : 84625
+      }
+    } ]
+  },
+  "827464c9db81e02177880176da7e299b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9db9bb4c0059c008",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <img id=\"reg1:0:rWO:0:tWA:1:ciDWA1::icon\" src=\"/kona_eu/afr/delete_ena.png\" class=\"x1aw\"> is not clickable at point (705, 507). Other element would receive the click: <div id=\"reg1:0:rWO:0:r11:4:tWAP::db\" class=\"x17e\" style=\"position: relative; width: 805px; overflow: hidden; height: 360px; z-index: 1;\" _afrcolcount=\"16\">...</div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a38055a35333dda597caa182d9965fd5, clickElement {id=FC366519C67D376EDAFAA971C7EC44A7_element_1534}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55671}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55671/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (a38055a35333dda597caa182d9965fd5)] -> xpath: //span[contains(text(),'Accessories Group')]/parent::a/following::a[4]/child::img]\nSession ID: a38055a35333dda597caa182d9965fd5",
+      "time" : {
+        "start" : 1705496900318,
+        "stop" : 1705497009565,
+        "duration" : 109247
+      }
+    } ]
+  },
+  "9f9464135977372cb67f2957077f4265" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "49a7df154f6bed01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705496364602,
+        "stop" : 1705496466169,
+        "duration" : 101567
+      }
+    } ]
+  }
+}

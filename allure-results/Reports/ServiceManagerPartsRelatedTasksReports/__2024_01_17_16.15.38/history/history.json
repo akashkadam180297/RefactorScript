@@ -1,0 +1,215 @@
+{
+  "fd03c987be315e46f8ef5033344e7db7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43059151a89ad1dd",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//table[@class='af_menuBar_items']//table//td//a[text()='Service']\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4b97ff3cbfd05ed7561d33434edabe0b, findElement {using=xpath, value=//table[@class='af_menuBar_items']//table//td//a[text()='Service']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53698}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53698/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4b97ff3cbfd05ed7561d33434edabe0b",
+      "time" : {
+        "start" : 1705481867529,
+        "stop" : 1705481877976,
+        "duration" : 10447
+      }
+    } ]
+  },
+  "734c413c6b3db69296c7d58f7b80e0e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9f6a86cbc40eee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705487474995,
+        "stop" : 1705487694974,
+        "duration" : 219979
+      }
+    } ]
+  },
+  "1005581e0ae8a7245d982afde93da018" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42810cde06f682d3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Generate Journals']' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705481611515,
+        "stop" : 1705481775007,
+        "duration" : 163492
+      }
+    } ]
+  },
+  "d6827d44631a815a651ba9cd70881612" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3dc847c86eb3ea56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705488307283,
+        "stop" : 1705488338717,
+        "duration" : 31434
+      }
+    } ]
+  },
+  "9049abab75a6be6e7c4d7b6ea7951d9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8caeb764ed7090ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705487798302,
+        "stop" : 1705487885889,
+        "duration" : 87587
+      }
+    } ]
+  },
+  "2f11236c254a754049316d53e8c3a6bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0cfd1ddbb06c1a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705488089104,
+        "stop" : 1705488232175,
+        "duration" : 143071
+      }
+    } ]
+  },
+  "60f96c0e7eeb5410b14c6c8dd399c1d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6917c49c43af35f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705487885960,
+        "stop" : 1705487970546,
+        "duration" : 84586
+      }
+    } ]
+  },
+  "7400702628433b69f7e9ac78b9b991c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0b7681badde5d8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705487970611,
+        "stop" : 1705488089010,
+        "duration" : 118399
+      }
+    } ]
+  },
+  "53c1e9c16f8b5e5b839937054aeac615" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee441101265ac049",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//table[@class='af_menuBar_items']//table//td//a[text()='Financials']\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0a635e0aeb976406b3920a8629413072, findElement {using=xpath, value=//table[@class='af_menuBar_items']//table//td//a[text()='Financials']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53013}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53013/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0a635e0aeb976406b3920a8629413072",
+      "time" : {
+        "start" : 1705481595868,
+        "stop" : 1705481611358,
+        "duration" : 15490
+      }
+    } ]
+  },
+  "827464c9db81e02177880176da7e299b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84791ad233e8f239",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <img id=\"reg1:0:rWO:0:tWA:2:ciDWA1::icon\" src=\"/kona_eu/afr/delete_ena.png\" class=\"x1aw\"> is not clickable at point (722, 474). Other element would receive the click: <div id=\"reg1:0:rWO:0:r11:4:tWAP::db\" class=\"x17e\" style=\"position: relative; width: 805px; overflow: hidden; height: 373px; z-index: 1;\" _afrcolcount=\"13\">...</div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5c9d4853581afb43188fe40d614e2564, clickElement {id=CF8B8D66F17CE608F4AC33537AAB8BB8_element_1594}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51032/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (5c9d4853581afb43188fe40d614e2564)] -> xpath: //a[contains(@id,':tWA:2:ciDWA1')]/img]\nSession ID: 5c9d4853581afb43188fe40d614e2564",
+      "time" : {
+        "start" : 1705488232250,
+        "stop" : 1705488307205,
+        "duration" : 74955
+      }
+    } ]
+  },
+  "9f9464135977372cb67f2957077f4265" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9c39177f89fbf91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705487695120,
+        "stop" : 1705487798217,
+        "duration" : 103097
+      }
+    } ]
+  }
+}

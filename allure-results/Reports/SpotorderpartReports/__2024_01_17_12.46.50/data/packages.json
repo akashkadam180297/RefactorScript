@@ -1,0 +1,156 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "pages.parts.ReceivePart",
+    "children" : [ {
+      "name" : "generateAllure",
+      "uid" : "323e6f76315740df",
+      "parentUid" : "ce55ac329dc46207e609155422bca52d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705475026400,
+        "stop" : 1705475026401,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "pages.parts.ReceivePart"
+  }, {
+    "name" : "tests.parts.Spotorderparts",
+    "children" : [ {
+      "name" : "Test_001_gotoOrderPartsScreen",
+      "uid" : "42d3ffb0066ae7c3",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705475124706,
+        "stop" : 1705475155195,
+        "duration" : 30489
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickOnSpotOrder",
+      "uid" : "ab1d1f6fc214a60",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705475155331,
+        "stop" : 1705475237132,
+        "duration" : 81801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_inputPartialPartNumber",
+      "uid" : "a49629559515f69e",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705475237179,
+        "stop" : 1705475251489,
+        "duration" : 14310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_clickOnAddButton",
+      "uid" : "4c765c29191e116b",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705475251567,
+        "stop" : 1705475325246,
+        "duration" : 73679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_verifySearchPartDescription",
+      "uid" : "e7e2cb9d26faa78f",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705475325319,
+        "stop" : 1705475496903,
+        "duration" : 171584
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_inputCoreParentPart",
+      "uid" : "b4140aebec14e800",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705475496970,
+        "stop" : 1705475646794,
+        "duration" : 149824
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_007_verifyPO",
+      "uid" : "3444b99b5ff403ac",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705475646881,
+        "stop" : 1705475810246,
+        "duration" : 163365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_008_verifyRequiredPart",
+      "uid" : "7a928944405f1cf8",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705475810258,
+        "stop" : 1705475810259,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_009_verifyWarehouseText",
+      "uid" : "1969fc970bed7cbd",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705475810288,
+        "stop" : 1705475810289,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "afterMethodTakeScreenShot",
+      "uid" : "ed872a1dc7d37dc7",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705475810293,
+        "stop" : 1705475810293,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.Spotorderparts"
+  } ]
+}

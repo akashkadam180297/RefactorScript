@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <img id=\"reg1:0:rWO:0:tWA:2:ciDWA1::icon\" src=\"/kona_eu/afr/delete_ena.png\" class=\"x1aw\"> is not clickable at point (705, 474). Other element would receive the click: <div id=\"reg1:0:rWO:0:r11:4:tWAP::db\" class=\"x17e\" style=\"position: relative; width: 805px; overflow: hidden; height: 373px; z-index: 1;\" _afrcolcount=\"13\">...</div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [82012435cf8c55f0ce3504b81ba4c37e, clickElement {id=C0D6A35203F9735BBF010B1B27F339EF_element_1427}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54297/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (82012435cf8c55f0ce3504b81ba4c37e)] -> xpath: //a[contains(@id,':tWA:2:ciDWA1')]/img]\nSession ID: 82012435cf8c55f0ce3504b81ba4c37e",
+      "children" : [ {
+        "name" : "Test_007_click On Non-Catalog Part ",
+        "uid" : "998a1567f7d0c9c5",
+        "parentUid" : "ea8ef72fa238227d28591e302a68dd33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705489661586,
+          "stop" : 1705489736559,
+          "duration" : 74973
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea8ef72fa238227d28591e302a68dd33"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

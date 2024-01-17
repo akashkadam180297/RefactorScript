@@ -190,7 +190,7 @@ public class WaitActions extends TestDriverActions {
     public static void waitForElementToBeRefreshedAndClickable(WebElement element) throws InterruptedException {
         try {
             Thread.sleep(3000);
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(80));
             wait.until(ExpectedConditions.refreshed(ExpectedConditions.elementToBeClickable(element)));
             Thread.sleep(3000);
         }
@@ -209,7 +209,7 @@ public class WaitActions extends TestDriverActions {
     public static void waitForElementToBeRefreshedAndIsVisible(WebElement element) throws InterruptedException {
         try {
             Thread.sleep(3000);
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(80));
             wait.until(ExpectedConditions.refreshed(ExpectedConditions.visibilityOf(element)));
             Thread.sleep(3000);
         }

@@ -32,7 +32,7 @@ public class ECService_Manager_Invoice extends TestDriverActions {
     public WebElement btn_Refresh;
 
 
-    @FindBy(xpath = "//div[contains(@id,'cbROSM')]/a/span[text()='Invoice']")
+    @FindBy(xpath = "//div[contains(@id,'cbROSM')]/a/span")
     public WebElement btn_Invoice;
 
     @FindBy(xpath = "//label[text()='RO Date:']")
@@ -75,12 +75,9 @@ public class ECService_Manager_Invoice extends TestDriverActions {
 
     /** enter Data In Search TextArea */
     public void  enterDataInSearchTextArea () throws InterruptedException {
-         if(LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("EU"))
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(input_SearchTextArea);
         WebElementActions.getActions().inputText(input_SearchTextArea,appProp.getProperty("input"));
-        WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
-
 
     }
 
@@ -119,7 +116,6 @@ public class ECService_Manager_Invoice extends TestDriverActions {
     public void storeRoNumber () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_RoNumber);
         System.out.println("RoNumber");
-
         String originalWindow=driver.getWindowHandle () ;
 
 
@@ -128,7 +124,6 @@ public class ECService_Manager_Invoice extends TestDriverActions {
     public void clickInvoiceButton () throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_Invoice);
-
         WebElementActions.getActions().clickElement(btn_Invoice);
         TestListener.saveScreenshotPNG(driver);
 

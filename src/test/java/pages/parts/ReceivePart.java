@@ -160,7 +160,7 @@ public class ReceivePart extends TestDriverActions {
         @FindBy(xpath = "//span[text()='Core']")
         WebElement label_core;
 
-        @FindBy(xpath = "(//span[text()='Extended Cost'])[2]")
+        @FindBy(xpath = "//span[text()='Extended Cost']")
         WebElement label_extendedCost;
 
         @FindBy(xpath = "//span[contains(.,'Link/Delink Lab')]")
@@ -764,11 +764,11 @@ public class ReceivePart extends TestDriverActions {
             WebElementActions.getActions().inputText(txt_invoiceNumber,invoiceNum);
 
 
-            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_InvoiceDateTextArea);
-            WebElementActions.getActions().inputText(label_InvoiceDateTextArea,appProp.getProperty("InvoiceDate"));
+           // WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_InvoiceDateTextArea);
+          //  WebElementActions.getActions().inputText(label_InvoiceDateTextArea,appProp.getProperty("InvoiceDate"));
 
-            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_DueDateTextArea);
-            WebElementActions.getActions().inputText(label_DueDateTextArea,appProp.getProperty("DueDate"));
+        //    WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_DueDateTextArea);
+        //    WebElementActions.getActions().inputText(label_DueDateTextArea,appProp.getProperty("DueDate"));
 
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);

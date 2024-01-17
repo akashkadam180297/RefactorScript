@@ -1,0 +1,107 @@
+{
+  "uid" : "beade9eb728a5643",
+  "name" : "Test_002_click On Estimate",
+  "fullName" : "tests.Estimate.SubmitAnEstimateServiceManager.Test_002_clickOnEstimate",
+  "historyId" : "50ce502ea50f6f5cf5072aa18cd45ae8",
+  "time" : {
+    "start" : 1705469056831,
+    "stop" : 1705469081501,
+    "duration" : 24670
+  },
+  "description" : "Test Description: Go to Go to Service Board Screen",
+  "descriptionHtml" : "<p>Test Description: Go to Go to Service Board Screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description: Go to Go to Service Board Screen",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d81af66d5f2a65b0",
+      "name" : "Page Screenshot",
+      "source" : "d81af66d5f2a65b0.png",
+      "type" : "image/png",
+      "size" : 117377
+    }, {
+      "uid" : "4485c116c1cebdc6",
+      "name" : "Page Screenshot",
+      "source" : "4485c116c1cebdc6.png",
+      "type" : "image/png",
+      "size" : 117268
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705469081501,
+      "stop" : 1705469081548,
+      "duration" : 47
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ed1d0e96067a78b",
+      "name" : "Page Screenshot",
+      "source" : "ed1d0e96067a78b.png",
+      "type" : "image/png",
+      "size" : 47754
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickOnEstimate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "20156@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "beade9eb728a5643.json",
+  "parameterValues" : [ ]
+}

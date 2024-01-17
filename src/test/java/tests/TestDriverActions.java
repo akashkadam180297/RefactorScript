@@ -129,9 +129,6 @@ public class TestDriverActions {
         else if(this.getClass().getCanonicalName().contains("CreateVendorTest")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/vendors.properties";
         }
-        else if(this.getClass().getCanonicalName().contains("ReceivePartsTest")) {
-            filePath = System.getProperty("user.dir") + "/src/test/java/utils/receviepartkonaQA.properties";
-        }
         else if(this.getClass().getCanonicalName().contains("CreatePart")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/createpartQA.properties";
         }
@@ -192,18 +189,20 @@ public class TestDriverActions {
         else if(this.getClass().getCanonicalName().contains("ApproveNonRepairBill_DMSTest")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/approveanestimatedms.properties";
         }
-        else if(this.getClass().getCanonicalName().contains("cGVTechPerformPMTest")) {
-            filePath = System.getProperty("user.dir") + "/src/test/java/utils/pmworkorderworkflow.properties";
+        else if(this.getClass().getCanonicalName().contains("cGVTechPerformPM")) {
+            filePath = System.getProperty("user.dir") + "/src/test/java/utils/cgvtechperformpmQA.properties";
         }
         else if(this.getClass().getCanonicalName().contains("PerformTheWorkOnAnEstimateTechTest")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/performtheworkonanestimate.properties";
         }
-        else if(this.getClass().getCanonicalName().contains("Spotorderpart")) {
-            filePath = System.getProperty("user.dir") + "/src/test/java/utils/spotorderpartsEU.properties";
-        }
         else if(this.getClass().getCanonicalName().contains("ReceiveParts")) {
-            filePath = System.getProperty("user.dir") + "/src/test/java/utils/receviepartsEU.properties";
+            filePath = System.getProperty("user.dir") + "/src/test/java/utils/receivepartsQA.properties";
         }
+        else if(this.getClass().getCanonicalName().contains("Spotorderparts")) {
+            filePath = System.getProperty("user.dir") + "/src/test/java/utils/spotorderpartsQA.properties";
+        }
+
+
 
 
 
@@ -420,9 +419,6 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("CounterSaleTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CounterSaleManagerTestReports/" + "__" + currentDateTime;
         }
-        else if (getClass().getCanonicalName().contains("ReceiveParts")) {
-            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/ReceivePartsReports/" + "__" + currentDateTime;
-        }
         else if (getClass().getCanonicalName().contains("LoginTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/LoginTestReports/" + "__" + currentDateTime;
         }
@@ -431,9 +427,6 @@ public class TestDriverActions {
         }
         else if (getClass().getCanonicalName().contains("SubmitAnEstimate_ServiceManagerTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/SubmitAnEstimate_ServiceManagerTestReports/" + "__" + currentDateTime;
-        }
-        else if (getClass().getCanonicalName().contains("Spotorderpart")) {
-            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/SpotorderpartReports/" + "__" + currentDateTime;
         }
         else if (getClass().getCanonicalName().contains("SetUpWorkRequiredTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/SetUpWorkRequiredTestReports/" + "__" + currentDateTime;
@@ -483,26 +476,20 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("CreateRedTagDMSTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CreateRedTagDMSTestReports/" + "__" + currentDateTime;
         }
-        else if (getClass().getCanonicalName().contains("InquireFXG_UnitHistoryTest")) {
-            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/InquireFXG_UnitHistoryTestReports/" + "__" + currentDateTime;
+        else if (getClass().getCanonicalName().contains("ReceiveParts")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/ReceivePartsReports/" + "__" + currentDateTime;
         }
         else if (getClass().getCanonicalName().contains("ApproveNonRepairBill_DMSTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/ApproveNonRepairBill_DMSTestReports/" + "__" + currentDateTime;
         }
-        else if (getClass().getCanonicalName().contains("cGVTechPerformPMTest")) {
-            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/cGVTechPerformPMTestReports/" + "__" + currentDateTime;
+        else if (getClass().getCanonicalName().contains("cGVTechPerformPM")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/cGVTechPerformPMReports/" + "__" + currentDateTime;
         }
         else if (getClass().getCanonicalName().contains("PerformTheWorkOnAnEstimateTechTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/PerformTheWorkOnAnEstimateTechTestReports/" + "__" + currentDateTime;
         }
-        else if (getClass().getCanonicalName().contains("Spotorderpart")) {
-            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/SpotorderpartReports/" + "__" + currentDateTime;
-        }
         else if (getClass().getCanonicalName().contains("JournalizePartsInvoice_konaEUTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/JournalizePartsInvoice_konaEUTestReports/" + "__" + currentDateTime;
-        }
-        else if (getClass().getCanonicalName().contains("ReceiveParts")) {
-            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/ReceivePartsReports/" + "__" + currentDateTime;
         }
         else if (getClass().getCanonicalName().contains("ServiceManagerPartsRelatedTasks")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/ServiceManagerPartsRelatedTasksReports/" + "__" + currentDateTime;
@@ -510,12 +497,16 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("CreatePart")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CreatePartReports/" + "__" + currentDateTime;
         }
-        else if (getClass().getCanonicalName().contains("ReceiveParts")) {
-            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/ReceivePartsReports/" + "__" + currentDateTime;
-        }
         else if (getClass().getCanonicalName().contains("SubmitAnEstimateServiceManager")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/SubmitAnEstimateServiceManagerReports/" + "__" + currentDateTime;
         }
+        else if (getClass().getCanonicalName().contains("Spotorderparts")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/SpotorderpartsReports/" + "__" + currentDateTime;
+        }
+        else if (getClass().getCanonicalName().contains("ReceiveParts")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/ReceivePartsReports/" + "__" + currentDateTime;
+        }
+
 
 
 
@@ -558,9 +549,6 @@ public class TestDriverActions {
             else if (getClass().getCanonicalName().contains("CounterSaleTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CounterSaleTestReports\\" + theDir.getName();
             }
-            else if (getClass().getCanonicalName().contains("ReceiveParts")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\ReceivePartsReports\\" + theDir.getName();
-            }
             else if (getClass().getCanonicalName().contains("LoginTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\LoginTestReports\\" +theDir.getName();
             }
@@ -570,17 +558,14 @@ public class TestDriverActions {
             else if (getClass().getCanonicalName().contains("SubmitAnEstimate_ServiceManagerTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SubmitAnEstimate_ServiceManagerTestReports\\" + theDir.getName();
             }
-            else if (getClass().getCanonicalName().contains("Spotorderpart")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SpotorderpartReports\\" + theDir.getName();
-            }
             else if (getClass().getCanonicalName().contains("SetUpWorkRequiredTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SetUpWorkRequiredTestReports\\" + theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("ServiceManagerChangeCustomerPOafterInvoicing")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\ServiceManagerChangeCustomerPOafterInvoicingReports\\" + theDir.getName();
             }
-            else if (getClass().getCanonicalName().contains("InquireFXG_UnitHistoryTest")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\InquireFXG_UnitHistoryTestReports\\" + theDir.getName();
+            else if (getClass().getCanonicalName().contains("ReceiveParts")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\ReceivePartsReports\\" + theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("JournalizePartsInvoiceTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\JournalizePartsInvoiceTestReports\\" + theDir.getName();
@@ -621,26 +606,20 @@ public class TestDriverActions {
             else if (getClass().getCanonicalName().contains("CreateRedTagDMSTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CreateRedTagDMSTestReports\\" + theDir.getName();
             }
-            else if (getClass().getCanonicalName().contains("InquireFXG_UnitHistoryTest")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\InquireFXG_UnitHistoryTestReports\\" + theDir.getName();
+            else if (getClass().getCanonicalName().contains("ReceiveParts")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\ReceivePartsReports\\" + theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("ApproveNonRepairBill_DMSTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\ApproveNonRepairBill_DMSTestReports\\" + theDir.getName();
             }
-            else if (getClass().getCanonicalName().contains("cGVTechPerformPMTest")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\cGVTechPerformPMTestReports\\" + theDir.getName();
+            else if (getClass().getCanonicalName().contains("cGVTechPerformPM")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\cGVTechPerformPMReports\\" + theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("PerformTheWorkOnAnEstimateTechTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\PerformTheWorkOnAnEstimateTechTestReports\\" + theDir.getName();
             }
-            else if (getClass().getCanonicalName().contains("Spotorderpart")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SpotorderpartReports\\" + theDir.getName();
-            }
             else if (getClass().getCanonicalName().contains("JournalizePartsInvoice_konaEUTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\JournalizePartsInvoice_konaEUTestReports\\" + theDir.getName();
-            }
-            else if (getClass().getCanonicalName().contains("ReceiveParts")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\ReceivePartsReports\\" + theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("ServiceManagerPartsRelatedTasks")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\ServiceManagerPartsRelatedTasksReports\\" + theDir.getName();
@@ -648,12 +627,16 @@ public class TestDriverActions {
             else if (getClass().getCanonicalName().contains("CreatePart")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CreatePartReports\\" + theDir.getName();
             }
-            else if (getClass().getCanonicalName().contains("ReceiveParts")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\ReceivePartsReports\\" + theDir.getName();
-            }
             else if (getClass().getCanonicalName().contains("SubmitAnEstimateServiceManager")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SubmitAnEstimateServiceManagerReports\\" + theDir.getName();
             }
+            else if (getClass().getCanonicalName().contains("Spotorderparts")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SpotorderpartsReports\\" + theDir.getName();
+            }
+            else if (getClass().getCanonicalName().contains("ReceiveParts")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\ReceivePartsReports\\" + theDir.getName();
+            }
+
 
 
         System.out.println("Before Report Process");

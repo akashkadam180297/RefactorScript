@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//table[@class='af_menuBar_items']//table//td//a[text()='Financials']\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0a635e0aeb976406b3920a8629413072, findElement {using=xpath, value=//table[@class='af_menuBar_items']//table//td//a[text()='Financials']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53013}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53013/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0a635e0aeb976406b3920a8629413072",
+      "children" : [ {
+        "name" : "Test_001_Login the page and Go to Financials ",
+        "uid" : "ee441101265ac049",
+        "parentUid" : "a1e9f9f8516400ae583b5f7f07992f96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705481595868,
+          "stop" : 1705481611358,
+          "duration" : 15490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1e9f9f8516400ae583b5f7f07992f96"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Generate Journals']' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test_001_Click OnGenerate Journals   ",
+        "uid" : "42810cde06f682d3",
+        "parentUid" : "d593c013ab9e087dd2be07235fa08016",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705481611515,
+          "stop" : 1705481775007,
+          "duration" : 163492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d593c013ab9e087dd2be07235fa08016"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//table[@class='af_menuBar_items']//table//td//a[text()='Service']\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4b97ff3cbfd05ed7561d33434edabe0b, findElement {using=xpath, value=//table[@class='af_menuBar_items']//table//td//a[text()='Service']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53698}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53698/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4b97ff3cbfd05ed7561d33434edabe0b",
+      "children" : [ {
+        "name" : "T_001 Login the page and go to the CompleteRo",
+        "uid" : "43059151a89ad1dd",
+        "parentUid" : "1b648867b2be2831339c8a4c67c5dfd1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705481867529,
+          "stop" : 1705481877976,
+          "duration" : 10447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b648867b2be2831339c8a4c67c5dfd1"
+    }, {
+      "name" : "element click intercepted: Element <img id=\"reg1:0:rWO:0:tWA:2:ciDWA1::icon\" src=\"/kona_eu/afr/delete_ena.png\" class=\"x1aw\"> is not clickable at point (722, 474). Other element would receive the click: <div id=\"reg1:0:rWO:0:r11:4:tWAP::db\" class=\"x17e\" style=\"position: relative; width: 805px; overflow: hidden; height: 373px; z-index: 1;\" _afrcolcount=\"13\">...</div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5c9d4853581afb43188fe40d614e2564, clickElement {id=CF8B8D66F17CE608F4AC33537AAB8BB8_element_1594}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51032/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (5c9d4853581afb43188fe40d614e2564)] -> xpath: //a[contains(@id,':tWA:2:ciDWA1')]/img]\nSession ID: 5c9d4853581afb43188fe40d614e2564",
+      "children" : [ {
+        "name" : "Test_007_click On Non-Catalog Part ",
+        "uid" : "84791ad233e8f239",
+        "parentUid" : "a3f6b975f314887f4b551f0728c9fac4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705488232250,
+          "stop" : 1705488307205,
+          "duration" : 74955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3f6b975f314887f4b551f0728c9fac4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

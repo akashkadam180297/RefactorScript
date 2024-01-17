@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.Spotorderparts" time="1,164.988" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.Spotorderparts" time="1,154.578" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -50,9 +50,9 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\pc9-q\AppData\Local\Temp\"/>
     <property name="java.version" value="11.0.18"/>
-    <property name="user.dir" value="F:\GithubFinal\Emdecs_Test_Automation"/>
+    <property name="user.dir" value="F:\GithubFinal\RefactorScript"/>
     <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="F:\GithubFinal\Emdecs_Test_Automation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\GithubFinal\RefactorScript"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="env" value="EU"/>
@@ -66,13 +66,13 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Test_001_gotoOrderPartsScreen" classname="tests.parts.Spotorderparts" time="28.614"/>
-  <testcase name="Test_002_clickOnSpotOrder" classname="tests.parts.Spotorderparts" time="82.06"/>
-  <testcase name="Test_003_inputPartialPartNumber" classname="tests.parts.Spotorderparts" time="64.802"/>
-  <testcase name="Test_004_clickOnAddButton" classname="tests.parts.Spotorderparts" time="73.175"/>
-  <testcase name="Test_005_verifySearchPartDescription" classname="tests.parts.Spotorderparts" time="171.516"/>
-  <testcase name="Test_006_inputCoreParentPart" classname="tests.parts.Spotorderparts" time="149.727"/>
-  <testcase name="Test_007_verifyPO" classname="tests.parts.Spotorderparts" time="187.631"/>
-  <testcase name="Test_008_verifyRequiredPart" classname="tests.parts.Spotorderparts" time="191.931"/>
-  <testcase name="Test_009_verifyWarehouseText" classname="tests.parts.Spotorderparts" time="182.325"/>
+  <testcase name="Test_001_gotoOrderPartsScreen" classname="tests.parts.Spotorderparts" time="23.544"/>
+  <testcase name="Test_002_clickOnSpotOrder" classname="tests.parts.Spotorderparts" time="81.824"/>
+  <testcase name="Test_003_inputPartialPartNumber" classname="tests.parts.Spotorderparts" time="64.717"/>
+  <testcase name="Test_004_clickOnAddButton" classname="tests.parts.Spotorderparts" time="73.009"/>
+  <testcase name="Test_005_verifySearchPartDescription" classname="tests.parts.Spotorderparts" time="171.257"/>
+  <testcase name="Test_006_inputCoreParentPart" classname="tests.parts.Spotorderparts" time="149.555"/>
+  <testcase name="Test_007_verifyPO" classname="tests.parts.Spotorderparts" time="187.166"/>
+  <testcase name="Test_008_verifyRequiredPart" classname="tests.parts.Spotorderparts" time="191.803"/>
+  <testcase name="Test_009_verifyWarehouseText" classname="tests.parts.Spotorderparts" time="182.777"/>
 </testsuite>

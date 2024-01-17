@@ -1,58 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: tests.parts.ReceiveParts
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 927.51 s <<< FAILURE! - in tests.parts.ReceiveParts
-Test_006_verifyVendorPart(tests.parts.ReceiveParts)  Time elapsed: 177.771 s  <<< FAILURE!
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 741.747 s <<< FAILURE! - in tests.parts.ReceiveParts
+Test_006_verifyVendorPart(tests.parts.ReceiveParts)  Time elapsed: 171.831 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Link/Delink Labor']"}
-  (Session info: chrome=120.0.6099.200)
+no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Extended Cost'])[2]"}
+  (Session info: chrome=120.0.6099.217)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [67b4308d3d3ccd3dea3066d13eed661e, findElement {using=xpath, value=//span[text()='Link/Delink Labor']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63350}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63350/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 67b4308d3d3ccd3dea3066d13eed661e
-	at tests.parts.ReceiveParts.Test_006_verifyVendorPart(ReceiveParts.java:91)
-
-Test_007_verifyLink(tests.parts.ReceiveParts)  Time elapsed: 140.484 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Link Part to RO Activity or Counter Sale']"}
-  (Session info: chrome=120.0.6099.200)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [67b4308d3d3ccd3dea3066d13eed661e, findElement {using=xpath, value=//div[text()='Link Part to RO Activity or Counter Sale']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63350}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63350/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 67b4308d3d3ccd3dea3066d13eed661e
-	at tests.parts.ReceiveParts.Test_007_verifyLink(ReceiveParts.java:102)
-
-Test_008_verifyHash(tests.parts.ReceiveParts)  Time elapsed: 123.505 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='#']"}
-  (Session info: chrome=120.0.6099.200)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [67b4308d3d3ccd3dea3066d13eed661e, findElement {using=xpath, value=//span[text()='#']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63350}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63350/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 67b4308d3d3ccd3dea3066d13eed661e
-	at tests.parts.ReceiveParts.Test_008_verifyHash(ReceiveParts.java:118)
-
-Test_009_clickOnCancelButton(tests.parts.ReceiveParts)  Time elapsed: 163.675 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Counter Sale']/following::span[text()='Cancel'][1]' (tried for 40 second(s) with 500 milliseconds interval)
-	at tests.parts.ReceiveParts.Test_009_clickOnCancelButton(ReceiveParts.java:132)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Counter Sale']/following::span[text()='Cancel'][1]"}
-  (Session info: chrome=120.0.6099.200)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [67b4308d3d3ccd3dea3066d13eed661e, findElement {using=xpath, value=//label[text()='Counter Sale']/following::span[text()='Cancel'][1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63350}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63350/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 67b4308d3d3ccd3dea3066d13eed661e
-	at tests.parts.ReceiveParts.Test_009_clickOnCancelButton(ReceiveParts.java:132)
+Command: [725cf8be02d5f15281e0e39df7a4f9e3, findElement {using=xpath, value=(//span[text()='Extended Cost'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62290/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 725cf8be02d5f15281e0e39df7a4f9e3
+	at tests.parts.ReceiveParts.Test_006_verifyVendorPart(ReceiveParts.java:89)
 

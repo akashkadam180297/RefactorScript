@@ -1,0 +1,98 @@
+{
+  "aac94084aa30ded8f03f0f94409f7a1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed85df687aa781ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705480610912,
+        "stop" : 1705480616956,
+        "duration" : 6044
+      }
+    } ]
+  },
+  "43d5599470e0f16fbe1c6cc811223c4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb5583cc821121c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705480581493,
+        "stop" : 1705480610763,
+        "duration" : 29270
+      }
+    } ]
+  },
+  "469b6ec2d50caf17a4000b04269fd0f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9f32f7797766829",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@id,'cbROSM')]/a/span[text()='Invoice']' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705480648744,
+        "stop" : 1705480824218,
+        "duration" : 175474
+      }
+    } ]
+  },
+  "d4537e50c69c65573a2e1752fa26b24b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e96ffa0d4be1aa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705480617042,
+        "stop" : 1705480625259,
+        "duration" : 8217
+      }
+    } ]
+  },
+  "2ee1e723a7fbad433f02f56c5ec78b47" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ce154e3f0b4e0e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705480625325,
+        "stop" : 1705480648695,
+        "duration" : 23370
+      }
+    } ]
+  }
+}

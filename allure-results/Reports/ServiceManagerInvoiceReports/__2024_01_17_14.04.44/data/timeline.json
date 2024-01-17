@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-9",
+    "children" : [ {
+      "name" : "3400@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_002_verify element Present ",
+        "uid" : "8fb0ec6af2f3d41f",
+        "parentUid" : "ae68636c982667e8ab2334ac66125c19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705480415426,
+          "stop" : 1705480421497,
+          "duration" : 6071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+        "uid" : "c0cff5259a69d3d8",
+        "parentUid" : "ae68636c982667e8ab2334ac66125c19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705480385855,
+          "stop" : 1705480415281,
+          "duration" : 29426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_Enter the Yesterday Date ",
+        "uid" : "f83c215ef78998a",
+        "parentUid" : "ae68636c982667e8ab2334ac66125c19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705480453317,
+          "stop" : 1705480484859,
+          "duration" : 31542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_Input The Ro Number in search TextArea  ",
+        "uid" : "e9c9d62893b1c7a5",
+        "parentUid" : "ae68636c982667e8ab2334ac66125c19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705480421566,
+          "stop" : 1705480429811,
+          "duration" : 8245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_Click On Reference Number ",
+        "uid" : "2b71b8b475a1504a",
+        "parentUid" : "ae68636c982667e8ab2334ac66125c19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705480429872,
+          "stop" : 1705480453269,
+          "duration" : 23397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae68636c982667e8ab2334ac66125c19"
+    } ],
+    "uid" : "2215092bebd5f8b7a7a78f4cc7ca416f"
+  } ]
+}

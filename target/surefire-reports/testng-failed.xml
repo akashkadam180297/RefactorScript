@@ -3,22 +3,21 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test">
     <classes>
-      <class name="tests.parts.ReceiveParts"/>
+      <class name="tests.techRo.ServiceManagerPartsRelatedTasks"/>
     </classes>
   </test> <!-- Surefire test -->
   <test name="Surefire test(failed)">
     <classes>
-      <class name="tests.parts.ReceiveParts">
+      <class name="tests.techRo.ServiceManagerPartsRelatedTasks">
         <methods>
+          <include name="Test_008_clickOnCloseButton"/>
           <include name="generateAllure"/>
+          <include name="Test_001_gotoCompleteRo"/>
           <include name="afterMethodTakeScreenShot"/>
-          <include name="Test_009_clickOnCancelButton"/>
-          <include name="Test_007_verifyLink"/>
-          <include name="Test_006_verifyVendorPart"/>
+          <include name="Test_007_clickOnNonCatalogPart"/>
           <include name="initialization"/>
-          <include name="Test_008_verifyHash"/>
         </methods>
-      </class> <!-- tests.parts.ReceiveParts -->
+      </class> <!-- tests.techRo.ServiceManagerPartsRelatedTasks -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

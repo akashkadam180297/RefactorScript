@@ -1,0 +1,149 @@
+{
+  "uid" : "1235df54e99c4db",
+  "name" : "Test_004_Enter unit, description, VIN number and click on Save/Exit",
+  "fullName" : "tests.fleet.CreateUnit.Test_004_enterFieldsAndClickOnSave",
+  "historyId" : "a3f1911d12cd0afef6b9f87b8f9f8045",
+  "time" : {
+    "start" : 1705468795615,
+    "stop" : 1705468852175,
+    "duration" : 56560
+  },
+  "description" : "Test Description: Enter unit, description, VIN number and click on Save/Exit",
+  "descriptionHtml" : "<p>Test Description: Enter unit, description, VIN number and click on Save/Exit</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705468651976,
+      "stop" : 1705468701881,
+      "duration" : 49905
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Enter unit, description, VIN number and click on Save/Exit",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fe89b562f57dde5",
+      "name" : "Page Screenshot",
+      "source" : "fe89b562f57dde5.png",
+      "type" : "image/png",
+      "size" : 150434
+    }, {
+      "uid" : "69b82e1f85043e79",
+      "name" : "Page Screenshot",
+      "source" : "69b82e1f85043e79.png",
+      "type" : "image/png",
+      "size" : 151255
+    }, {
+      "uid" : "d4970a9b72f6d193",
+      "name" : "Page Screenshot",
+      "source" : "d4970a9b72f6d193.png",
+      "type" : "image/png",
+      "size" : 151798
+    }, {
+      "uid" : "e199bcb364246e34",
+      "name" : "Page Screenshot",
+      "source" : "e199bcb364246e34.png",
+      "type" : "image/png",
+      "size" : 72276
+    }, {
+      "uid" : "664bdbd5eb3804d1",
+      "name" : "Page Screenshot",
+      "source" : "664bdbd5eb3804d1.png",
+      "type" : "image/png",
+      "size" : 72276
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705468852176,
+      "stop" : 1705468852212,
+      "duration" : 36
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "51fb93e820177e1c",
+      "name" : "Page Screenshot",
+      "source" : "51fb93e820177e1c.png",
+      "type" : "image/png",
+      "size" : 72276
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_004_enterFieldsAndClickOnSave"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "1624@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Create Unit Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1235df54e99c4db.json",
+  "parameterValues" : [ ]
+}

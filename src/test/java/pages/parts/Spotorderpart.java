@@ -629,7 +629,7 @@ public class Spotorderpart extends TestDriverActions {
     public void inputPartialPartNumber() throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_SearchPartTextArea);
-        WebElementActions.getActions().inputText(label_SearchPartTextArea, appProp.getProperty("PartialPartNumber"));
+        WebElementActions.getActions().inputText(label_SearchPartTextArea,appProp.getProperty("PartialPartNumber"));
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
 
@@ -1088,7 +1088,7 @@ public class Spotorderpart extends TestDriverActions {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_PurchaseOrder);
         Assert.assertTrue(label_PurchaseOrder.isDisplayed());
-        WaitActions.getWaits().loadingWait(loder);
+
 
     }
     /**verify Required Location, Location , Location Value */

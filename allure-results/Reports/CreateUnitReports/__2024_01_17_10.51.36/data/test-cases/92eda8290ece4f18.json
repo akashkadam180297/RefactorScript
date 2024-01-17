@@ -1,0 +1,137 @@
+{
+  "uid" : "92eda8290ece4f18",
+  "name" : "Test_002_Search and select owner",
+  "fullName" : "tests.fleet.CreateUnit.Test_002_clickAddNewROAndSelectUnit",
+  "historyId" : "3df5b254787b32de9f08cdf522de0e43",
+  "time" : {
+    "start" : 1705468738691,
+    "stop" : 1705468758240,
+    "duration" : 19549
+  },
+  "description" : "Test Description: Search and select owner",
+  "descriptionHtml" : "<p>Test Description: Search and select owner</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705468651976,
+      "stop" : 1705468701881,
+      "duration" : 49905
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Search and select owner",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ebd3e7a558269e5c",
+      "name" : "Page Screenshot",
+      "source" : "ebd3e7a558269e5c.png",
+      "type" : "image/png",
+      "size" : 75202
+    }, {
+      "uid" : "2bb07cf24f54f6df",
+      "name" : "Page Screenshot",
+      "source" : "2bb07cf24f54f6df.png",
+      "type" : "image/png",
+      "size" : 79115
+    }, {
+      "uid" : "1ef5b27baf9a5312",
+      "name" : "Page Screenshot",
+      "source" : "1ef5b27baf9a5312.png",
+      "type" : "image/png",
+      "size" : 79184
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705468758246,
+      "stop" : 1705468758288,
+      "duration" : 42
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f84e0febdf6dbf4e",
+      "name" : "Page Screenshot",
+      "source" : "f84e0febdf6dbf4e.png",
+      "type" : "image/png",
+      "size" : 79184
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickAddNewROAndSelectUnit"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "1624@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Create Unit Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92eda8290ece4f18.json",
+  "parameterValues" : [ ]
+}

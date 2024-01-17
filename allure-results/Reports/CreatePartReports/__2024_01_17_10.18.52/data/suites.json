@@ -1,0 +1,125 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.parts.ReceiveParts",
+        "children" : [ {
+          "name" : "Test_001 Login to the page and go to Receive Part screen ",
+          "uid" : "c8daef2b0dba1217",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704866260834,
+            "stop" : 1704866302197,
+            "duration" : 41363
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test002: click on PO number and verify Link/DeLink Labor",
+          "uid" : "12284cd6c75861b3",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704866302336,
+            "stop" : 1704866345203,
+            "duration" : 42867
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2b4397e5af101dfc3e36b7f0e9eb400c"
+      }, {
+        "name" : "tests.parts.CreatePart",
+        "children" : [ {
+          "name" : "Test_001 Login to the page and Go To Parts Master",
+          "uid" : "d5d0116b6dc64217",
+          "parentUid" : "94a994d2dec635b7e8eb0914665051dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705466722575,
+            "stop" : 1705466754452,
+            "duration" : 31877
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002 click on NewParts and verify all element",
+          "uid" : "257835955ba6dff4",
+          "parentUid" : "94a994d2dec635b7e8eb0914665051dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705466754627,
+            "stop" : 1705466790502,
+            "duration" : 35875
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003 Enter part number and create new part",
+          "uid" : "9f1c68d7f7948cb7",
+          "parentUid" : "94a994d2dec635b7e8eb0914665051dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705466790588,
+            "stop" : 1705466842057,
+            "duration" : 51469
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004 Search Part number ",
+          "uid" : "dd6c82cd74c14fd3",
+          "parentUid" : "94a994d2dec635b7e8eb0914665051dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705466842122,
+            "stop" : 1705466882124,
+            "duration" : 40002
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_005 Verify the Description and click Cost and Pricing Tab",
+          "uid" : "f3b2f2837f00fa79",
+          "parentUid" : "94a994d2dec635b7e8eb0914665051dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705466882193,
+            "stop" : 1705466893545,
+            "duration" : 11352
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_006 click on Sign out",
+          "uid" : "77390b4baf7f14dc",
+          "parentUid" : "94a994d2dec635b7e8eb0914665051dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705466893634,
+            "stop" : 1705466932110,
+            "duration" : 38476
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "94a994d2dec635b7e8eb0914665051dd"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

@@ -1,0 +1,119 @@
+{
+  "uid" : "e9c9d62893b1c7a5",
+  "name" : "Test_003_Input The Ro Number in search TextArea  ",
+  "fullName" : "tests.techRo.ServiceManagerInvoice.Test_003_inputRoNumber",
+  "historyId" : "d4537e50c69c65573a2e1752fa26b24b",
+  "time" : {
+    "start" : 1705480421566,
+    "stop" : 1705480429811,
+    "duration" : 8245
+  },
+  "description" : "Test Description:Input The Ro Number in search TextArea ",
+  "descriptionHtml" : "<p>Test Description:Input The Ro Number in search TextArea</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705480363118,
+      "stop" : 1705480385822,
+      "duration" : 22704
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description:Input The Ro Number in search TextArea ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "92ea093da728340e",
+      "name" : "Page Screenshot",
+      "source" : "92ea093da728340e.png",
+      "type" : "image/png",
+      "size" : 136523
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705480429811,
+      "stop" : 1705480429871,
+      "duration" : 60
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "61d79a69f0c3bf90",
+      "name" : "Page Screenshot",
+      "source" : "61d79a69f0c3bf90.png",
+      "type" : "image/png",
+      "size" : 136523
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerInvoice"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerInvoice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_inputRoNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerInvoice"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "3400@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9c9d62893b1c7a5.json",
+  "parameterValues" : [ ]
+}

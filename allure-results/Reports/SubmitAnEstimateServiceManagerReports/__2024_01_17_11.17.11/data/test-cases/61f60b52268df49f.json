@@ -1,0 +1,139 @@
+{
+  "uid" : "61f60b52268df49f",
+  "name" : "Test_001_Go to Service Board  Screen",
+  "fullName" : "tests.Estimate.SubmitAnEstimateServiceManager.Test_001_gotoServiceBoardScreen",
+  "historyId" : "84d4a2fb907d80f3170d996e8c98bd97",
+  "time" : {
+    "start" : 1705469703614,
+    "stop" : 1705469757446,
+    "duration" : 53832
+  },
+  "description" : "Test Description: Go to Go to Service Board Screen",
+  "descriptionHtml" : "<p>Test Description: Go to Go to Service Board Screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705469651903,
+      "stop" : 1705469703565,
+      "duration" : 51662
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Go to Go to Service Board Screen",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e96df71ca22a300b",
+      "name" : "Page Screenshot",
+      "source" : "e96df71ca22a300b.png",
+      "type" : "image/png",
+      "size" : 124752
+    }, {
+      "uid" : "4cdad4caa36d1e92",
+      "name" : "Page Screenshot",
+      "source" : "4cdad4caa36d1e92.png",
+      "type" : "image/png",
+      "size" : 116820
+    }, {
+      "uid" : "ca4b8d0b06d5afc6",
+      "name" : "Page Screenshot",
+      "source" : "ca4b8d0b06d5afc6.png",
+      "type" : "image/png",
+      "size" : 128128
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705469757501,
+      "stop" : 1705469757571,
+      "duration" : 70
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ad3725a938b9025",
+      "name" : "Page Screenshot",
+      "source" : "ad3725a938b9025.png",
+      "type" : "image/png",
+      "size" : 128128
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoServiceBoardScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "14524@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f1ed740017f194ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705469017735,
+        "stop" : 1705469056706,
+        "duration" : 38971
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61f60b52268df49f.json",
+  "parameterValues" : [ ]
+}

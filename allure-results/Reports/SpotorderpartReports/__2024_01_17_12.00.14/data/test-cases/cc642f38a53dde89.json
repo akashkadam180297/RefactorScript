@@ -1,0 +1,107 @@
+{
+  "uid" : "cc642f38a53dde89",
+  "name" : "Test_002 click On The Spot order Tab ",
+  "fullName" : "tests.parts.Spotorderparts.Test_002_clickOnSpotOrder",
+  "historyId" : "be9f9a4086d87e31cc44dd5458036643",
+  "time" : {
+    "start" : 1705470974223,
+    "stop" : 1705471055978,
+    "duration" : 81755
+  },
+  "description" : "Test Description:   click On The Spot order Tab  ",
+  "descriptionHtml" : "<p>Test Description:   click On The Spot order Tab</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description:   click On The Spot order Tab  ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c5660766ad88444a",
+      "name" : "Page Screenshot",
+      "source" : "c5660766ad88444a.png",
+      "type" : "image/png",
+      "size" : 83909
+    }, {
+      "uid" : "e0f750822b71fe2a",
+      "name" : "Page Screenshot",
+      "source" : "e0f750822b71fe2a.png",
+      "type" : "image/png",
+      "size" : 83909
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705471055986,
+      "stop" : 1705471056030,
+      "duration" : 44
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "49d18e9d22a2c23b",
+      "name" : "Page Screenshot",
+      "source" : "49d18e9d22a2c23b.png",
+      "type" : "image/png",
+      "size" : 83909
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickOnSpotOrder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "18536@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc642f38a53dde89.json",
+  "parameterValues" : [ ]
+}

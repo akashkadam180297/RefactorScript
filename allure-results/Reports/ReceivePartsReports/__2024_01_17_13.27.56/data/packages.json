@@ -1,0 +1,126 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.ReceiveParts",
+    "children" : [ {
+      "name" : "Test_001_gotoReceiveParts",
+      "uid" : "a4aef82cc35767ae",
+      "parentUid" : "55a604a50d985b2cfe95c9eedcd7212b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705477604674,
+        "stop" : 1705477632044,
+        "duration" : 27370
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickOnPoNumber",
+      "uid" : "a9042bed0a21f6e",
+      "parentUid" : "55a604a50d985b2cfe95c9eedcd7212b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705477632166,
+        "stop" : 1705477654403,
+        "duration" : 22237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_verifyPurchesOrder",
+      "uid" : "ef63cd48eb4e6342",
+      "parentUid" : "55a604a50d985b2cfe95c9eedcd7212b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705477654454,
+        "stop" : 1705477727024,
+        "duration" : 72570
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_verifyNotes",
+      "uid" : "c3d8dbcdbf624b5e",
+      "parentUid" : "55a604a50d985b2cfe95c9eedcd7212b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705477727088,
+        "stop" : 1705477781516,
+        "duration" : 54428
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_verifyvoidedDate",
+      "uid" : "2566b2a78fd81de5",
+      "parentUid" : "55a604a50d985b2cfe95c9eedcd7212b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705477781582,
+        "stop" : 1705477866434,
+        "duration" : 84852
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_verifyVendorPart",
+      "uid" : "eb64bd3ec09b90c1",
+      "parentUid" : "55a604a50d985b2cfe95c9eedcd7212b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705477866515,
+        "stop" : 1705478038031,
+        "duration" : 171516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_007_verifyLink",
+      "uid" : "59029a198bb22b77",
+      "parentUid" : "55a604a50d985b2cfe95c9eedcd7212b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705478038134,
+        "stop" : 1705478133903,
+        "duration" : 95769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_008_verifyHash",
+      "uid" : "f2bb5468c06a659",
+      "parentUid" : "55a604a50d985b2cfe95c9eedcd7212b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705478133979,
+        "stop" : 1705478202856,
+        "duration" : 68877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_009_clickOnCancelButton",
+      "uid" : "9d297fb13714403c",
+      "parentUid" : "55a604a50d985b2cfe95c9eedcd7212b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705478202947,
+        "stop" : 1705478276454,
+        "duration" : 73507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.ReceiveParts"
+  } ]
+}

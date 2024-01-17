@@ -356,17 +356,17 @@ public class cGVTechPerformPM extends TestDriverActions {
     @FindBy(xpath = "//label[contains(.,'Pass')]//..//input[contains(@id,':1:sorValueCheck:')]")
     public WebElement txt_CheckForMissing;
 
-    @FindBy(xpath = "//input[contains(@id,':2:itValueNumeric::content')]")
+    @FindBy(xpath = "//span[contains(@id,':2:itValueNumeri')]/child::input")
     public WebElement txt_DualMetingLf;
 
-    @FindBy(xpath = "//input[contains(@id,':3:itValueNumeric::content')]")
+    @FindBy(xpath = "//span[contains(@id,':3:itValueNumeric')]/child::input")
     public WebElement txt_DualMetingRf;
 
-    @FindBy(xpath = "//input[contains(@id,':4:itValueNumeric::content')]")
+    @FindBy(xpath = "//span[contains(@id,':4:itValueNumeric')]/child::input")
     public WebElement txt_DualMetingLr;
 
 
-    @FindBy(xpath = "//input[contains(@id,':5:itValueNumeric::content')]")
+    @FindBy(xpath = "//span[contains(@id,':5:itValueNumeric')]/child::input")
     public WebElement txt_DualMetingRr;
 
     @FindBy(xpath = "//label[contains(.,'Pass')]//..//input[contains(@id,':6:sorValueCheck:')]")
@@ -576,7 +576,7 @@ public class cGVTechPerformPM extends TestDriverActions {
     @FindBy(xpath = "(//div[contains(@id,':tWoAct::db')]//table//td[9]//table//a//img)[1]")
     public WebElement img_cancel;
 
-    @FindBy(xpath = "//span[text()='Save / Exit']")
+    @FindBy(xpath = "(//span[text()='Cancel']/parent::a/parent::div/following::div/child::a/span)[1]")
     public WebElement btn_SaveExitDeleteButton;
 
     @FindBy(xpath = "(//div[contains(@id,':0:cbSelectWoact')]//a//span)[1]")
@@ -593,18 +593,17 @@ public class cGVTechPerformPM extends TestDriverActions {
 
 
 
-
-
     /*** Enter the Tech Badge data*/
     public void enterTechBadge() throws InterruptedException {
         WaitActions.getWaits().loadingWait(loder);
         Thread.sleep(3000);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_scanEmployeeBadge);
-        WebElementActions.getActions().inputText(txt_scanEmployeeBadge, prop.getProperty("Tech"));
+        WebElementActions.getActions().inputText(txt_scanEmployeeBadge, appProp.getProperty("Tech"));
         TestListener.saveScreenshotPNG(driver);
     }
 
     /*** Click on Go*/
+
     public void clickOnGo() throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_GO);
@@ -618,12 +617,12 @@ public class cGVTechPerformPM extends TestDriverActions {
     /** verify Select Work*/
     public void verifySelectWork() throws InterruptedException {
         WaitActions.getWaits().loadingWait(loder);
-        Thread.sleep(5000);
+        Thread.sleep(7000);
         if (txt_SelectAssignedWork.size()>0) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_MoreUnits);
             WebElementActions.getActions().clickElement(btn_MoreUnits);
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_SearchTextArea);
-            WebElementActions.getActions().inputText(label_SearchTextArea,prop.getProperty("UnitNumber"));
+            WebElementActions.getActions().inputText(label_SearchTextArea,appProp.getProperty("UnitNumber"));
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_Select);
             WebElementActions.getActions().clickElement(btn_Select);
             WaitActions.getWaits().loadingWait(loder);
@@ -644,9 +643,10 @@ public class cGVTechPerformPM extends TestDriverActions {
 
     /**click On More links */
     public void clickOnMoreLinks() throws InterruptedException {
-        Thread.sleep(5000);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_MoreLinkText);
         WebElementActions.getActions().clickElement(txt_MoreLinkText);
+        Thread.sleep(7000);
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
 
@@ -655,7 +655,9 @@ public class cGVTechPerformPM extends TestDriverActions {
     public void clickOnSearchTextArea() throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(input_SearchTextArea);
-        WebElementActions.getActions().inputText(input_SearchTextArea, prop.getProperty("Enter"));
+        Thread.sleep(2000);
+        WebElementActions.getActions().inputText(input_SearchTextArea,appProp.getProperty("Enter"));
+        Thread.sleep(4000);
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
 
@@ -664,6 +666,7 @@ public class cGVTechPerformPM extends TestDriverActions {
     public void clickOnInspectionImage() throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_PMInspection);
+        Thread.sleep(3000);
         WebElementActions.getActions().clickElement(img_PMInspection);
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
@@ -687,8 +690,9 @@ public class cGVTechPerformPM extends TestDriverActions {
     public void clickOnAddButton() throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_Add);
+        Thread.sleep(3000);
         WebElementActions.getActions().clickElement(btn_Add);
-        Thread.sleep(7000);
+        Thread.sleep(5000);
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
 
@@ -698,8 +702,9 @@ public class cGVTechPerformPM extends TestDriverActions {
     public void clickOnImage() throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_Images);
-        WebElementActions.getActions().clickElement(img_Images);
         Thread.sleep(3000);
+        WebElementActions.getActions().clickElement(img_Images);
+        Thread.sleep(7000);
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
     }
@@ -758,7 +763,7 @@ public class cGVTechPerformPM extends TestDriverActions {
     public void EnterGPSSeriesNumber() throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_ListTHeGPS);
-        WebElementActions.getActions().inputText(txt_ListTHeGPS, prop.getProperty("GPSSeriesNumber"));
+        WebElementActions.getActions().inputText(txt_ListTHeGPS, appProp.getProperty("GPSSeriesNumber"));
         WaitActions.getWaits().loadingWait(loder);
 
     }
@@ -766,7 +771,7 @@ public class cGVTechPerformPM extends TestDriverActions {
     public void clickEnterTheGPSTransmitDate() throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_TransmitTosDate);
-        WebElementActions.getActions().inputText(txt_TransmitTosDate,prop.getProperty("GPSTransmitDate"));
+        WebElementActions.getActions().inputText(txt_TransmitTosDate,appProp.getProperty("GPSTransmitDate"));
 
     }
     /**select Enter Confirm Trailer Text Boolean pass */
@@ -867,7 +872,7 @@ public class cGVTechPerformPM extends TestDriverActions {
     /**enter Check ABS Function Textarea value */
     public void enterCheckABSFunctionTextArea () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(input_CheckABSFunctionTextArea);
-        WebElementActions.getActions().inputText(input_CheckABSFunctionTextArea,prop.getProperty("CheckABSFunctionTextArea"));
+        WebElementActions.getActions().inputText(input_CheckABSFunctionTextArea,appProp.getProperty("CheckABSFunctionTextArea"));
         TestListener.saveScreenshotPNG(driver);
 
     }
@@ -1148,26 +1153,26 @@ public class cGVTechPerformPM extends TestDriverActions {
     /**enter Record Lf*/
     public void enterRecordLf () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordLf);
-        WebElementActions.getActions().inputText(txt_RecordLf, prop.getProperty("column"));
+        WebElementActions.getActions().inputText(txt_RecordLf, appProp.getProperty("column"));
         WaitActions.getWaits().loadingWait(loder);
     }
     /** enter Record Rf*/
     public void enterRecordRf () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordRf);
-        WebElementActions.getActions().inputText(txt_RecordRf, prop.getProperty("column"));
+        WebElementActions.getActions().inputText(txt_RecordRf, appProp.getProperty("column"));
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
     }
     /**enter Record Lr*/
     public void enterRecordLr () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordLr);
-        WebElementActions.getActions().inputText(txt_RecordLr, prop.getProperty("column"));
+        WebElementActions.getActions().inputText(txt_RecordLr, appProp.getProperty("column"));
         TestListener.saveScreenshotPNG(driver);
     }
     /**enter the RecordRr*/
     public void enterRecordRr () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordRr);
-        WebElementActions.getActions().inputText(txt_RecordRr, prop.getProperty("column"));
+        WebElementActions.getActions().inputText(txt_RecordRr,appProp.getProperty("column"));
         TestListener.saveScreenshotPNG(driver);
     }
     /**select Apply Service*/
@@ -1180,14 +1185,14 @@ public class cGVTechPerformPM extends TestDriverActions {
     /**enter Record Lf PushRod */
     public void enterRecordLfPushRod () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordLfPushRod);
-        WebElementActions.getActions().inputText(txt_RecordLfPushRod,prop.getProperty("value"));
+        WebElementActions.getActions().inputText(txt_RecordLfPushRod,appProp.getProperty("value"));
         WaitActions.getWaits().loadingWait(loder);
 
     }
     /**enter Record Rf Push Rod */
     public void enterRecordRfPushRod () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordRfPushRod);
-        WebElementActions.getActions().inputText(txt_RecordRfPushRod,prop.getProperty("value"));
+        WebElementActions.getActions().inputText(txt_RecordRfPushRod,appProp.getProperty("value"));
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
 
@@ -1195,7 +1200,7 @@ public class cGVTechPerformPM extends TestDriverActions {
     /** enter Lf Push Rod Travel */
     public void enterLfPushRodTravel () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_LfPushRodTravel);
-        WebElementActions.getActions().inputText(txt_LfPushRodTravel,prop.getProperty("value"));
+        WebElementActions.getActions().inputText(txt_LfPushRodTravel,appProp.getProperty("value"));
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
 
@@ -1203,7 +1208,7 @@ public class cGVTechPerformPM extends TestDriverActions {
     /**enter Rf Push Rod Travel */
     public void enterRfPushRodTravel () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RfPushRodTravel);
-        WebElementActions.getActions().inputText(txt_RfPushRodTravel,prop.getProperty("value"));
+        WebElementActions.getActions().inputText(txt_RfPushRodTravel,appProp.getProperty("value"));
         TestListener.saveScreenshotPNG(driver);
 
     }
@@ -1307,32 +1312,38 @@ public class cGVTechPerformPM extends TestDriverActions {
     public void selectCheckForMissing () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_CheckForMissing);
         WebElementActions.getActions().clickElement(txt_CheckForMissing);
+        Thread.sleep(3000);
+        WaitActions.getWaits().loadingWait(loder);
 
     }
     /**enter Dual Meting  Lf TextArea value */
     public void enterDualMetingLf () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_DualMetingLf);
-        WebElementActions.getActions().inputText(txt_DualMetingLf,prop.getProperty("RecordOffset"));
+        Thread.sleep(3000);
+        WebElementActions.getActions().inputText(txt_DualMetingLf,appProp.getProperty("RecordOffset"));
 
     }
     /**enter Dual Meting Rf TextArea Value */
     public void enterDualMetingRf () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_DualMetingRf);
-        WebElementActions.getActions().inputText(txt_DualMetingRf,prop.getProperty("RecordOffset"));
+        Thread.sleep(3000);
+        WebElementActions.getActions().inputText(txt_DualMetingRf,appProp.getProperty("RecordOffset"));
         TestListener.saveScreenshotPNG(driver);
 
     }
     /** enter Dual Meting Lr TextArea Value */
     public void enterDualMetingLr () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_DualMetingLr);
-        WebElementActions.getActions().inputText(txt_DualMetingLr,prop.getProperty("RecordOffset"));
+        Thread.sleep(3000);
+        WebElementActions.getActions().inputText(txt_DualMetingLr,appProp.getProperty("RecordOffset"));
         TestListener.saveScreenshotPNG(driver);
 
     }
     /** enter Dual Meting Rr TextArea Value */
     public void enterDualMetingRr () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_DualMetingRr);
-        WebElementActions.getActions().inputText(txt_DualMetingRr,prop.getProperty("RecordOffset"));
+        Thread.sleep(3000);
+        WebElementActions.getActions().inputText(txt_DualMetingRr,appProp.getProperty("RecordOffset"));
         TestListener.saveScreenshotPNG(driver);
 
     }
@@ -1364,7 +1375,7 @@ public class cGVTechPerformPM extends TestDriverActions {
     /** enter Record LFO Tread Depth Texteara */
     public void enterRecordLFOTreadDepth () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_TreadDepth);
-        WebElementActions.getActions().inputText(txt_TreadDepth,prop.getProperty("TreadDepth"));
+        WebElementActions.getActions().inputText(txt_TreadDepth,appProp.getProperty("TreadDepth"));
         TestListener.saveScreenshotPNG(driver);
 
 
@@ -1372,39 +1383,39 @@ public class cGVTechPerformPM extends TestDriverActions {
     /**enter Recore LFO Tire Pressure Textarea */
     public void enterRecordLFOTirePressure () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_TreadPressure);
-        WebElementActions.getActions().inputText(txt_TreadPressure,prop.getProperty("TirePressure")) ;
+        WebElementActions.getActions().inputText(txt_TreadPressure,appProp.getProperty("TirePressure")) ;
         TestListener.saveScreenshotPNG(driver);
 
     }
     /**enter Record LFI TRead Depth Textarea  value */
     public void enterRecordLfiTreadDepth () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordLfiTreadDepth);
-        WebElementActions.getActions().inputText(txt_RecordLfiTreadDepth,prop.getProperty("TreadDepth"));
+        WebElementActions.getActions().inputText(txt_RecordLfiTreadDepth,appProp.getProperty("TreadDepth"));
         TestListener.saveScreenshotPNG(driver);
 
     }
     /** enter Record LFI Pressure Textarea Value */
     public void enterRecordLfiTirePressure  () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordLfiTirePressure);
-        WebElementActions.getActions().inputText(txt_RecordLfiTirePressure,prop.getProperty("TirePressure"));
+        WebElementActions.getActions().inputText(txt_RecordLfiTirePressure,appProp.getProperty("TirePressure"));
         TestListener.saveScreenshotPNG(driver);
     }
     /** enter Record LRO Tread Depth TextArea Value  */
     public  void enterRecordLroTreadDepth () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordLroTreadDepth);
-        WebElementActions.getActions().inputText(txt_RecordLroTreadDepth,prop.getProperty("TreadDepth"));
+        WebElementActions.getActions().inputText(txt_RecordLroTreadDepth,appProp.getProperty("TreadDepth"));
         TestListener.saveScreenshotPNG(driver);
     }
     /** enter Record  Lor Tire Pressure Textarea Value */
     public void enterRecordLroTirePressure() throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordLroTirePressure);
-        WebElementActions.getActions().inputText(txt_RecordLroTirePressure,prop.getProperty("TirePressure"));
+        WebElementActions.getActions().inputText(txt_RecordLroTirePressure,appProp.getProperty("TirePressure"));
         TestListener.saveScreenshotPNG(driver);
     }
     /** enter Record LRI Tread Depth TextArea Value */
     public void enterRecordLriTreadDepth() throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordLriTreadDepth);
-        WebElementActions.getActions().inputText(txt_RecordLriTreadDepth,prop.getProperty("TreadDepth"));
+        WebElementActions.getActions().inputText(txt_RecordLriTreadDepth,appProp.getProperty("TreadDepth"));
         TestListener.saveScreenshotPNG(driver);
     }
 
@@ -1417,56 +1428,56 @@ public class cGVTechPerformPM extends TestDriverActions {
     /**enter Record LRI Tire Pressure Textarea value */
     public void enterRecordLriTirePressure () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RecordLriTirePressure);
-        WebElementActions.getActions().inputText(txt_RecordLriTirePressure,prop.getProperty("TirePressure")) ;
+        WebElementActions.getActions().inputText(txt_RecordLriTirePressure,appProp.getProperty("TirePressure")) ;
         TestListener.saveScreenshotPNG(driver);
     }
     /** enter RRP Tread Depth Textarea Value */
     public void enterRROTreadDepth() throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RROTreadDepth);
-        WebElementActions.getActions().inputText(txt_RROTreadDepth,prop.getProperty("TreadDepth"));
+        WebElementActions.getActions().inputText(txt_RROTreadDepth,appProp.getProperty("TreadDepth"));
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
     }
     /**enter RRO Tire Pressure Textarea Value */
     public void enterRROTirePressure () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RROTirePressure);
-        WebElementActions.getActions().inputText(txt_RROTirePressure,prop.getProperty("TirePressure")) ;
+        WebElementActions.getActions().inputText(txt_RROTirePressure,appProp.getProperty("TirePressure")) ;
         TestListener.saveScreenshotPNG(driver);
     }
     /** enter  RRI Tread Depth Textarea value*/
     public void enterRRITreadDepth () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(Txt_RRITreadDepth);
-        WebElementActions.getActions().inputText(Txt_RRITreadDepth,prop.getProperty("TreadDepth"));
+        WebElementActions.getActions().inputText(Txt_RRITreadDepth,appProp.getProperty("TreadDepth"));
         TestListener.saveScreenshotPNG(driver);
     }
     /**enter RRI Tire Pressure Textarea value */
     public void enterRRITirePressure () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RRITirePressure);
-        WebElementActions.getActions().inputText(txt_RRITirePressure,prop.getProperty("TirePressure")) ;
+        WebElementActions.getActions().inputText(txt_RRITirePressure,appProp.getProperty("TirePressure")) ;
         TestListener.saveScreenshotPNG(driver);
     }
     /** enter RFO Tread Depth Textarea Value */
     public void enterRFOTreadDepth () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RFOTreadDepth);
-        WebElementActions.getActions().inputText(txt_RFOTreadDepth,prop.getProperty("TreadDepth"));
+        WebElementActions.getActions().inputText(txt_RFOTreadDepth,appProp.getProperty("TreadDepth"));
         TestListener.saveScreenshotPNG(driver);
     }
     /** enter RFO Tire Pressure */
     public void enterRFOTirePressure() throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RFOTirePressure);
-        WebElementActions.getActions().inputText(txt_RFOTirePressure,prop.getProperty("TirePressure")) ;
+        WebElementActions.getActions().inputText(txt_RFOTirePressure,appProp.getProperty("TirePressure")) ;
         TestListener.saveScreenshotPNG(driver);
     }
     /** enter RFI Tread Depth */
     public void enterRFITreadDepth () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RFITreadDepth);
-        WebElementActions.getActions().inputText(txt_RFITreadDepth,prop.getProperty("TreadDepth"));
+        WebElementActions.getActions().inputText(txt_RFITreadDepth,appProp.getProperty("TreadDepth"));
         TestListener.saveScreenshotPNG(driver);
     }
     /** enter RFI Tire Pressure */
     public void enterRFITirePressure() throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_RFITirePressure);
-        WebElementActions.getActions().inputText(txt_RFITirePressure,prop.getProperty("TirePressure")) ;
+        WebElementActions.getActions().inputText(txt_RFITirePressure,appProp.getProperty("TirePressure")) ;
         TestListener.saveScreenshotPNG(driver);
     }
 

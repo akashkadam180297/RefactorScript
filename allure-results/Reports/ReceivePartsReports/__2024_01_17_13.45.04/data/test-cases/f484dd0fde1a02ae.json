@@ -1,0 +1,102 @@
+{
+  "uid" : "f484dd0fde1a02ae",
+  "name" : "Test003: verify Purches Order ",
+  "fullName" : "tests.parts.ReceiveParts.Test_003_verifyPurchesOrder",
+  "historyId" : "56162c551b4bd78d8841710f685d0288",
+  "time" : {
+    "start" : 1705478647870,
+    "stop" : 1705478720422,
+    "duration" : 72552
+  },
+  "description" : "Test Description :  verify Purches Order ",
+  "descriptionHtml" : "<p>Test Description :  verify Purches Order</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705478573962,
+      "stop" : 1705478598069,
+      "duration" : 24107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705478720422,
+      "stop" : 1705478720485,
+      "duration" : 63
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ebe6a0a8d9208dee",
+      "name" : "Page Screenshot",
+      "source" : "ebe6a0a8d9208dee.png",
+      "type" : "image/png",
+      "size" : 96711
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_verifyPurchesOrder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "22772@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f484dd0fde1a02ae.json",
+  "parameterValues" : [ ]
+}
