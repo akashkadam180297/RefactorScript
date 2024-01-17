@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (ec0f247b53ed29c215cd9cf797fe04c2)] -> xpath: (//span[contains(text(),'Cancel')])[1]] (tried for 40 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62252/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ec0f247b53ed29c215cd9cf797fe04c2",
+      "children" : [ {
+        "name" : "Test_006 add part number and core part in counter sale",
+        "uid" : "f2a65ac9b0f25b22",
+        "parentUid" : "99d21a50d08ecf100e01ea1a465da4c4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705395407672,
+          "stop" : 1705395648722,
+          "duration" : 241050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99d21a50d08ecf100e01ea1a465da4c4"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Lost Sale Reason:']/following::a[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test_007 check invoice and signout",
+        "uid" : "3ed46b209ea72ea7",
+        "parentUid" : "4c203144e935c01e10c4e4e46fba4bae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705395648821,
+          "stop" : 1705395812607,
+          "duration" : 163786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c203144e935c01e10c4e4e46fba4bae"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

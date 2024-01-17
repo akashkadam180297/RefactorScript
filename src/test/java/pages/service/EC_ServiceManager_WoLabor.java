@@ -3,6 +3,7 @@ package pages.service;
 import actions.ReusableActions;
 import actions.WaitActions;
 import actions.WebElementActions;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -362,13 +363,13 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     @FindBy(xpath = "(//span[text()='Select'])[1]")
     WebElement btn_select;
 
-    @FindBy(xpath = "//a[text()='Update Rates']")
+    @FindBy(xpath = "//a[contains(@id,'cl12')]/span")
     WebElement label_UpdateRates;
 
-    @FindBy(xpath = "//label[text()='RO Account Group:']/following::label[1]")
+    @FindBy(xpath = "//label[contains(text(),'Lab')]")
     WebElement label_Labor;
 
-    @FindBy(xpath = "//label[text()='RO Account Group:']/following::td[5]")
+    @FindBy(xpath = "(//label[contains(text(),'Lab')]//following::td)[2]")
     WebElement labor_value;
 
     @FindBy(xpath = "//label[text()='Parts:']")
@@ -402,13 +403,13 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//label[text()='RO Total:']/following::span[1]")
     WebElement RoTotal_value;
 
-    @FindBy(xpath = "//label[text()='USD']")
-    WebElement label_USD;
+    @FindBy(xpath = "(//label[contains(text(),'RO Total:')]//following::div)[2]")
+    WebElement label_Currency;
 
-    @FindBy(xpath = "//a[text()='View Profit and Loss']")
+    @FindBy(xpath = "//a[contains(@id,'clVROPL')]/span")
     WebElement viewProfitLoss;
 
-    @FindBy(xpath = "(//a[text()='Purchasing']/preceding::a[1])[1]")
+    @FindBy(xpath = "(//a[text()='Parent/Child']/preceding::a[1])[1]")
     WebElement label_LaborParts;
 
     @FindBy(xpath = "(//a[text()='Purchasing'])[1]/following::h2[1]")
@@ -655,7 +656,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     @FindBy(xpath = "(//span[text()='OK'])[2]")
     WebElement btn_ok;
 
-    @FindBy(xpath = "(//div[contains(@id,'pgltWAIDX')])[2]")
+    @FindBy(xpath = "(//div[contains(@id,'pgltWAIDX')])")
     WebElement number_2row;
 
     @FindBy(xpath = "//span[text()='Status']/following::a[3]")
@@ -904,7 +905,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
      public void enterThisIsStandardNote() throws InterruptedException {
 //         WaitActions.getWaits().waitForElementTobeClickable(textarea_internalNotes);
          WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(textarea_internalNotes);
-         WebElementActions.getActions().inputText(textarea_internalNotes,prop.getProperty("InternalNote"));
+         WebElementActions.getActions().inputText(textarea_internalNotes,appProp.getProperty("InternalNote"));
 
          WaitActions.getWaits().loadingWait(loder);
          TestListener.saveScreenshotPNG(driver);
@@ -926,8 +927,11 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
      public void clickOnThisIsStandardNote() throws InterruptedException {
 
 //         WaitActions.getWaits().waitForElementTobeClickable(hyperlink_InternalNotes);
-         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_InternalNotes);
-         WebElementActions.getActions().clickElement(hyperlink_InternalNotes);
+
+             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_InternalNotes);
+         Thread.sleep(3000);
+             WebElementActions.getActions().clickElement(hyperlink_InternalNotes);
+
 
          WaitActions.getWaits().loadingWait(loder);
          TestListener.saveScreenshotPNG(driver);
@@ -937,8 +941,9 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
      */
     public void entercheckingnotescontain() throws InterruptedException {
 //        WaitActions.getWaits().waitForElementTobeClickable(textarea_internalNotes);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(textarea_internalNotes);
-        WebElementActions.getActions().inputText(textarea_internalNotes,prop.getProperty("InternalNote1"));
+
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(textarea_internalNotes);
+            WebElementActions.getActions().inputText(textarea_internalNotes, appProp.getProperty("InternalNote1"));
 
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
@@ -948,8 +953,10 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
      */
     public void clickOnNoteshyperLink() throws InterruptedException {
 //        WaitActions.getWaits().waitForElementTobeClickable(hyperlink_notes);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_notes);
-        WebElementActions.getActions().clickElement(hyperlink_notes);
+
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_notes);
+        Thread.sleep(3000);
+            WebElementActions.getActions().clickElement(hyperlink_notes);
 
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
@@ -973,7 +980,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     public void entertextNoteField() throws InterruptedException {
 //        WaitActions.getWaits().waitForElementTobeClickable(txtfield_notes);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txtfield_notes);
-        WebElementActions.getActions().inputText(txtfield_notes,prop.getProperty("notes"));
+        WebElementActions.getActions().inputText(txtfield_notes,appProp.getProperty("notes"));
 
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
@@ -1110,6 +1117,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_UpdateRates);
         Assert.assertTrue(label_UpdateRates.isDisplayed());
         Assert.assertTrue(label_Labor.isDisplayed());
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(labor_value);
         Assert.assertTrue(labor_value.isDisplayed());
         Assert.assertTrue(label_Parts.isDisplayed());
         Assert.assertTrue(parts_value1.isDisplayed());
@@ -1122,7 +1130,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
         Assert.assertTrue(tax_value.isDisplayed());
         Assert.assertTrue(RoTotal.isDisplayed());
         Assert.assertTrue(RoTotal_value.isDisplayed());
-        Assert.assertTrue(label_USD.isDisplayed());
+        Assert.assertTrue(label_Currency.isDisplayed());
         Assert.assertTrue(viewProfitLoss.isDisplayed());
         TestListener.saveScreenshotPNG(driver);
     }
@@ -1139,6 +1147,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
         Assert.assertTrue(delete_icon.isDisplayed());
 //        Assert.assertTrue(expandColumn.isDisplayed());
 //        Assert.assertTrue(hash.isDisplayed());
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(p);
         Assert.assertTrue(p.isDisplayed());
         Assert.assertTrue(label_Description.isDisplayed());
         Assert.assertTrue(label_estimatedHrs.isDisplayed());
@@ -1414,12 +1423,13 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
      * click on Number
      */
     public void clickOnNumber() throws InterruptedException {
-       Thread.sleep(2000);
-       WaitActions.getWaits().scrollElementTillView(number_2row);
+       Thread.sleep(3000);
+//       WaitActions.getWaits().scrollElementTillView(number_2row); moveOnTargetElement
+//        WebElementActions.getActions().moveOnTargetElement(number_2row);
 
 //       WaitActions.getWaits().waitForElementTobeClickable(number_2row);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(number_2row);
-        Thread.sleep(2000);
+//        Thread.sleep(2000);
         WebElementActions.getActions().clickElement(number_2row);
 
         WaitActions.getWaits().loadingWait(loder);

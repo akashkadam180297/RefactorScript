@@ -1,0 +1,186 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "parts.CounterSale",
+      "children" : [ {
+        "name" : "goto_countersaleManager_screen",
+        "uid" : "444b109cbed0afdb",
+        "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705400810239,
+          "stop" : 1705400844186,
+          "duration" : 33947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verify_all_fields",
+        "uid" : "12923fff2048573b",
+        "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705400844330,
+          "stop" : 1705400863279,
+          "duration" : 18949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_new_counter_sale",
+        "uid" : "365a45087558ce59",
+        "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705400863353,
+          "stop" : 1705400929989,
+          "duration" : 66636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verify_location_popUp",
+        "uid" : "291d8c6aef136589",
+        "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705400930057,
+          "stop" : 1705400986028,
+          "duration" : 55971
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verify_counter_sale_page",
+        "uid" : "7eaaabf3b39286ef",
+        "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705400986100,
+          "stop" : 1705401009224,
+          "duration" : 23124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_parts_in_counter_sale",
+        "uid" : "de57bcd82bab2707",
+        "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705401009287,
+          "stop" : 1705401148214,
+          "duration" : 138927
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "parts.CounterSale"
+    }, {
+      "name" : "service.CreateRo",
+      "children" : [ {
+        "name" : "Test_001_gotoCompleteROScreen",
+        "uid" : "bd44111e1890a383",
+        "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705402143019,
+          "stop" : 1705402171470,
+          "duration" : 28451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_clickAddNewROAndSelectUnit",
+        "uid" : "8f133f4172c6eee9",
+        "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705402171650,
+          "stop" : 1705402204266,
+          "duration" : 32616
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_clickAddLabor",
+        "uid" : "df9d21ab939ab93c",
+        "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705402204320,
+          "stop" : 1705402223798,
+          "duration" : 19478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_selectServiceProgramAndAdd",
+        "uid" : "cd1fc6043a77937c",
+        "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402223933,
+          "stop" : 1705402243532,
+          "duration" : 19599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_AddPart",
+        "uid" : "e47fd5aa56bba5b8",
+        "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402243638,
+          "stop" : 1705402407546,
+          "duration" : 163908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_006_removePart",
+        "uid" : "d18eddae2d6aed29",
+        "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402407618,
+          "stop" : 1705402407684,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_007_removeLabor",
+        "uid" : "9ff46b7cdc686704",
+        "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402407750,
+          "stop" : 1705402420076,
+          "duration" : 12326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "service.CreateRo"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}

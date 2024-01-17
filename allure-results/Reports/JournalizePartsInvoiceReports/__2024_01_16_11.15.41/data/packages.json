@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.JournalizePartsInvoice",
+    "children" : [ {
+      "name" : "generateAllure",
+      "uid" : "1a018e51607e130f",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705383260916,
+        "stop" : 1705383260916,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "gotoFinancialManager",
+      "uid" : "2d23a19420400987",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705383802600,
+        "stop" : 1705383831837,
+        "duration" : 29237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnGererateJournals_checkbox",
+      "uid" : "69077ea0566022a9",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705383832833,
+        "stop" : 1705383868755,
+        "duration" : 35922
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "serviceBoard",
+      "uid" : "7703a6660df9d227",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705383868885,
+        "stop" : 1705383898045,
+        "duration" : 29160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "financialManager",
+      "uid" : "4b38f1577d9a33b8",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705383898102,
+        "stop" : 1705383941584,
+        "duration" : 43482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.JournalizePartsInvoice"
+  } ]
+}

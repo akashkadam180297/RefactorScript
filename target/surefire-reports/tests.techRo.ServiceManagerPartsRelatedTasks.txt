@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: tests.techRo.ServiceManagerPartsRelatedTasks
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 672.365 s <<< FAILURE! - in tests.techRo.ServiceManagerPartsRelatedTasks
+Test_002_clickOnReference(tests.techRo.ServiceManagerPartsRelatedTasks)  Time elapsed: 59.492 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at tests.techRo.ServiceManagerPartsRelatedTasks.Test_002_clickOnReference(ServiceManagerPartsRelatedTasks.java:25)
+
+Test_003_clickOnPart(tests.techRo.ServiceManagerPartsRelatedTasks)  Time elapsed: 163.723 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//div[contains(@id,':tParts::db')]//table//div//a/child::span[contains(@id,'::text')])[1]' (tried for 40 second(s) with 500 milliseconds interval)
+	at tests.techRo.ServiceManagerPartsRelatedTasks.Test_003_clickOnPart(ServiceManagerPartsRelatedTasks.java:33)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(@id,':tParts::db')]//table//div//a/child::span[contains(@id,'::text')])[1]"}
+  (Session info: chrome=120.0.6099.217)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b28d306d5da2d72a622a4e5db93f5ac, findElement {using=xpath, value=(//div[contains(@id,':tParts::db')]//table//div//a/child::span[contains(@id,'::text')])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc5-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64704/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b28d306d5da2d72a622a4e5db93f5ac
+	at tests.techRo.ServiceManagerPartsRelatedTasks.Test_003_clickOnPart(ServiceManagerPartsRelatedTasks.java:33)
+
+Test_004_verifyLabor(tests.techRo.ServiceManagerPartsRelatedTasks)  Time elapsed: 123.423 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//label[text()='Part Description:']/parent::span/parent::div//following-sibling::div//span//label)[1]"}
+  (Session info: chrome=120.0.6099.217)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b28d306d5da2d72a622a4e5db93f5ac, findElement {using=xpath, value=(//label[text()='Part Description:']/parent::span/parent::div//following-sibling::div//span//label)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc5-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64704/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b28d306d5da2d72a622a4e5db93f5ac
+	at tests.techRo.ServiceManagerPartsRelatedTasks.Test_004_verifyLabor(ServiceManagerPartsRelatedTasks.java:52)
+
+Test_005_verifyChargeQuantityEditable(tests.techRo.ServiceManagerPartsRelatedTasks)  Time elapsed: 123.313 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Charge Quantity (EA):']/parent::span/parent::div/following-sibling::div/child::table//div//input"}
+  (Session info: chrome=120.0.6099.217)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b28d306d5da2d72a622a4e5db93f5ac, findElement {using=xpath, value=//label[text()='Charge Quantity (EA):']/parent::span/parent::div/following-sibling::div/child::table//div//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc5-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64704/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b28d306d5da2d72a622a4e5db93f5ac
+	at tests.techRo.ServiceManagerPartsRelatedTasks.Test_005_verifyChargeQuantityEditable(ServiceManagerPartsRelatedTasks.java:74)
+
+Test_006_clickOnAddPart(tests.techRo.ServiceManagerPartsRelatedTasks)  Time elapsed: 10.105 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="xfx">...</span> is not clickable at point (1269, 403). Other element would receive the click: <div class="AFModalGlassPane" style="width: 1349px; height: 614px; user-select: none; z-index: 34;"></div>
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b28d306d5da2d72a622a4e5db93f5ac, clickElement {id=BF554AA0856A0685F1F4EAA6714EF8FD_element_305}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc5-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64704/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0b28d306d5da2d72a622a4e5db93f5ac)] -> xpath: //span[text()='Add Parts']]
+Session ID: 0b28d306d5da2d72a622a4e5db93f5ac
+	at tests.techRo.ServiceManagerPartsRelatedTasks.Test_006_clickOnAddPart(ServiceManagerPartsRelatedTasks.java:95)
+

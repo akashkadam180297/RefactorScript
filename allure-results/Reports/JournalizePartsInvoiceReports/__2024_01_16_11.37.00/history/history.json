@@ -1,0 +1,80 @@
+{
+  "3f1e2156c37cdb8b0948c51e0915703b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a2413a75a09255a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705384836001,
+        "stop" : 1705384872459,
+        "duration" : 36458
+      }
+    } ]
+  },
+  "9831ec8775259cbb5f37c215f95351d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bbaab6769e5cf789",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//a[text()='TV Search Service Board'])[2]/preceding::a[2]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705385056406,
+        "stop" : 1705385219997,
+        "duration" : 163591
+      }
+    } ]
+  },
+  "5ddb822e4780c470f0718bfd97295335" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0df3a95aafb190f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705384812210,
+        "stop" : 1705384835880,
+        "duration" : 23670
+      }
+    } ]
+  },
+  "bccd51d65bd728e2f21d42bc31f26fdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fc477e903201790",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[text()='TV Search Service Board'])[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705384872521,
+        "stop" : 1705385056345,
+        "duration" : 183824
+      }
+    } ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-5",
+    "children" : [ {
+      "name" : "9128@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+        "uid" : "255daee170c6249f",
+        "parentUid" : "ba2d7d09c5bc5a55a96bfccbe5ace71c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705391045496,
+          "stop" : 1705391083655,
+          "duration" : 38159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "d34ef41555eac704",
+        "parentUid" : "ba2d7d09c5bc5a55a96bfccbe5ace71c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705391112512,
+          "stop" : 1705391157314,
+          "duration" : 44802
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login the page and Go to the Financial Manager",
+        "uid" : "ab6d00770f26c81b",
+        "parentUid" : "ba2d7d09c5bc5a55a96bfccbe5ace71c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705391009857,
+          "stop" : 1705391045352,
+          "duration" : 35495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "92c9ef8ab1caeaac",
+        "parentUid" : "ba2d7d09c5bc5a55a96bfccbe5ace71c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705391083752,
+          "stop" : 1705391112442,
+          "duration" : 28690
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba2d7d09c5bc5a55a96bfccbe5ace71c"
+    }, {
+      "name" : "22080@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Login the page and Go to the Financial Manager",
+        "uid" : "e31b67509e68f936",
+        "parentUid" : "8922a27e3d3b94bc35f24c0de9135340",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705390806765,
+          "stop" : 1705390817247,
+          "duration" : 10482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8922a27e3d3b94bc35f24c0de9135340"
+    } ],
+    "uid" : "a73e966c7298dd236db9463e7eeeeb18"
+  } ]
+}

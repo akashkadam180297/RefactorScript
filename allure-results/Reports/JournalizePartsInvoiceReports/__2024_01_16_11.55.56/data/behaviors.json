@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "Journalize Parts Test",
+      "children" : [ {
+        "name" : "Login the page and Go to the Financial Manager",
+        "uid" : "96796f16e3dc77d2",
+        "parentUid" : "43466c8bd7249c1efdd7c4311ffbac2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705386212862,
+          "stop" : 1705386246824,
+          "duration" : 33962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+        "uid" : "c70a8699b08ab42f",
+        "parentUid" : "43466c8bd7249c1efdd7c4311ffbac2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705386246946,
+          "stop" : 1705386283442,
+          "duration" : 36496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "99210f5e980249c0",
+        "parentUid" : "43466c8bd7249c1efdd7c4311ffbac2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705386283523,
+          "stop" : 1705386312229,
+          "duration" : 28706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "3dfa9d199d7d9349",
+        "parentUid" : "43466c8bd7249c1efdd7c4311ffbac2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705386312282,
+          "stop" : 1705386356399,
+          "duration" : 44117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43466c8bd7249c1efdd7c4311ffbac2f"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}

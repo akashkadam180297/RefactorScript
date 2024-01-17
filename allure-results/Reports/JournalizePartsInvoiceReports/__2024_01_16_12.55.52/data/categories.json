@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[text()='TV Search Service Board'])[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "675c699f5ad42fd9",
+        "parentUid" : "d649699ed4dbdfca055a9fc944dfd534",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705389728719,
+          "stop" : 1705389912971,
+          "duration" : 184252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d649699ed4dbdfca055a9fc944dfd534"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

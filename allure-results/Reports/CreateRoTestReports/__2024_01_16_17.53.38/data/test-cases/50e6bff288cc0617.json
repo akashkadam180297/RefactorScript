@@ -1,0 +1,182 @@
+{
+  "uid" : "50e6bff288cc0617",
+  "name" : "Test_004_Select service program and add",
+  "fullName" : "tests.service.CreateRo.Test_004_selectServiceProgramAndAdd",
+  "historyId" : "ecee6160be2a7a7256bad71eb90c7c1f",
+  "time" : {
+    "start" : 1705407485646,
+    "stop" : 1705407710662,
+    "duration" : 225016
+  },
+  "description" : "Test Description: Select service program and add",
+  "descriptionHtml" : "<p>Test Description: Select service program and add</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705407386684,
+      "stop" : 1705407412750,
+      "duration" : 26066
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Select service program and add",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "616e26679906b3b3",
+      "name" : "Page Screenshot",
+      "source" : "616e26679906b3b3.png",
+      "type" : "image/png",
+      "size" : 71107
+    }, {
+      "uid" : "50201f3638501950",
+      "name" : "Page Screenshot",
+      "source" : "50201f3638501950.png",
+      "type" : "image/png",
+      "size" : 105512
+    }, {
+      "uid" : "1b7ac08012b6babf",
+      "name" : "Page Screenshot",
+      "source" : "1b7ac08012b6babf.png",
+      "type" : "image/png",
+      "size" : 74952
+    }, {
+      "uid" : "2a1688c44af15c83",
+      "name" : "Page Screenshot",
+      "source" : "2a1688c44af15c83.png",
+      "type" : "image/png",
+      "size" : 86996
+    }, {
+      "uid" : "9d8db619123b77d4",
+      "name" : "Page Screenshot",
+      "source" : "9d8db619123b77d4.png",
+      "type" : "image/png",
+      "size" : 94969
+    }, {
+      "uid" : "9c20fb34a67ce39a",
+      "name" : "Page Screenshot",
+      "source" : "9c20fb34a67ce39a.png",
+      "type" : "image/png",
+      "size" : 94969
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705407710679,
+      "stop" : 1705407710737,
+      "duration" : 58
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cdbb028a8a2539f9",
+      "name" : "Page Screenshot",
+      "source" : "cdbb028a8a2539f9.png",
+      "type" : "image/png",
+      "size" : 94969
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_004_selectServiceProgramAndAdd"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "13404@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Create RO Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "41e97546f3f2fd04",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//div[text()='Add Labour']/following::a[text()='VMRS'])[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705406792564,
+        "stop" : 1705406962376,
+        "duration" : 169812
+      }
+    }, {
+      "uid" : "d9af2c36e5fb4dd4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//div[text()='Add Labour']/following::a[text()='VMRS'])[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705406282473,
+        "stop" : 1705406452392,
+        "duration" : 169919
+      }
+    }, {
+      "uid" : "498f42d5541de0e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Search:']/following::td[6]/span/a/img' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705405585076,
+        "stop" : 1705405787744,
+        "duration" : 202668
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50e6bff288cc0617.json",
+  "parameterValues" : [ ]
+}

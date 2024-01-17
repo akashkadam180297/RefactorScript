@@ -1,0 +1,186 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "CounterSaleManager Test",
+      "children" : [ {
+        "name" : "Test_001 Login the page and Go to counterSaleManager",
+        "uid" : "444b109cbed0afdb",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705400810239,
+          "stop" : 1705400844186,
+          "duration" : 33947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements in the field",
+        "uid" : "12923fff2048573b",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705400844330,
+          "stop" : 1705400863279,
+          "duration" : 18949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 click on add new counter sale",
+        "uid" : "365a45087558ce59",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705400863353,
+          "stop" : 1705400929989,
+          "duration" : 66636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 verify location pop up",
+        "uid" : "291d8c6aef136589",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705400930057,
+          "stop" : 1705400986028,
+          "duration" : 55971
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005 verify counter sale page",
+        "uid" : "7eaaabf3b39286ef",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705400986100,
+          "stop" : 1705401009224,
+          "duration" : 23124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_006 add part number and core part in counter sale",
+        "uid" : "de57bcd82bab2707",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705401009287,
+          "stop" : 1705401148214,
+          "duration" : 138927
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c2c6120c16eeac167acfa038c4bc5c0"
+    }, {
+      "name" : "Create RO Test",
+      "children" : [ {
+        "name" : "Test_001_Login the page and go to the CompleteRo",
+        "uid" : "bd44111e1890a383",
+        "parentUid" : "19769040269418394e2af97af4239ef4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705402143019,
+          "stop" : 1705402171470,
+          "duration" : 28451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_Click on Add new RO and select Unit",
+        "uid" : "8f133f4172c6eee9",
+        "parentUid" : "19769040269418394e2af97af4239ef4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705402171650,
+          "stop" : 1705402204266,
+          "duration" : 32616
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_Click on Add labor",
+        "uid" : "df9d21ab939ab93c",
+        "parentUid" : "19769040269418394e2af97af4239ef4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705402204320,
+          "stop" : 1705402223798,
+          "duration" : 19478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_Select service program and add",
+        "uid" : "cd1fc6043a77937c",
+        "parentUid" : "19769040269418394e2af97af4239ef4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402223933,
+          "stop" : 1705402243532,
+          "duration" : 19599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_Add Part",
+        "uid" : "e47fd5aa56bba5b8",
+        "parentUid" : "19769040269418394e2af97af4239ef4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402243638,
+          "stop" : 1705402407546,
+          "duration" : 163908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_006_Remove Part",
+        "uid" : "d18eddae2d6aed29",
+        "parentUid" : "19769040269418394e2af97af4239ef4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402407618,
+          "stop" : 1705402407684,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_007_Remove labor",
+        "uid" : "9ff46b7cdc686704",
+        "parentUid" : "19769040269418394e2af97af4239ef4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402407750,
+          "stop" : 1705402420076,
+          "duration" : 12326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19769040269418394e2af97af4239ef4"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}

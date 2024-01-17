@@ -168,7 +168,7 @@ public class CreateRoPage extends TestDriverActions {
     public void clickAddLabor() throws InterruptedException {
 
 //        WaitActions.getWaits().waitForElementTobeClickable(btn_Add_labor);
-//        Thread.sleep(3000);
+        Thread.sleep(7000);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_Add_labor);
         WebElementActions.getActions().clickElement(btn_Add_labor);
         WaitActions.getWaits().loadingWait(loder);
@@ -216,8 +216,8 @@ public class CreateRoPage extends TestDriverActions {
      */
     public void selectVMRS() throws InterruptedException {
 //        WaitActions.getWaits().waitForElementTobeClickable(select_VMRS);
-       //
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(select_VMRS);
+        Thread.sleep(6000);
         WebElementActions.getActions().clickElement(select_VMRS);
         WaitActions.getWaits().loadingWait(loder);
 
@@ -242,7 +242,7 @@ public class CreateRoPage extends TestDriverActions {
      * Click on + sign to add service program
      */
     public void addServiceProgram() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(6000);
 //      WaitActions.getWaits().waitForElementTobeClickable(plus_service_program_one);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(plus_service_program_one);
       WebElementActions.getActions().clickElement(plus_service_program_one);

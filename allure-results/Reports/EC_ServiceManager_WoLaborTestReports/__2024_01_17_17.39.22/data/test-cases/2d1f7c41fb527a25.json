@@ -1,0 +1,143 @@
+{
+  "uid" : "2d1f7c41fb527a25",
+  "name" : "Check that click on Ro Status, verify the element and click on close button",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnRoStatus_and_CloseButton",
+  "historyId" : "21f561e39629601d76f3ffd8e7f36bc7",
+  "time" : {
+    "start" : 1705492865938,
+    "stop" : 1705492918633,
+    "duration" : 52695
+  },
+  "description" : "Test Description - Check that click on Ro Status, verify the element and click on close button",
+  "descriptionHtml" : "<p>Test Description - Check that click on Ro Status, verify the element and click on close button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705492276924,
+      "stop" : 1705492315368,
+      "duration" : 38444
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that click on Ro Status, verify the element and click on close button",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1eecf58ece320e9",
+      "name" : "Page Screenshot",
+      "source" : "1eecf58ece320e9.png",
+      "type" : "image/png",
+      "size" : 113857
+    }, {
+      "uid" : "8297ee2bef42aba2",
+      "name" : "Page Screenshot",
+      "source" : "8297ee2bef42aba2.png",
+      "type" : "image/png",
+      "size" : 79145
+    }, {
+      "uid" : "a3ee62eb7e003a02",
+      "name" : "Page Screenshot",
+      "source" : "a3ee62eb7e003a02.png",
+      "type" : "image/png",
+      "size" : 114211
+    }, {
+      "uid" : "458a8ee3debbf311",
+      "name" : "Page Screenshot",
+      "source" : "458a8ee3debbf311.png",
+      "type" : "image/png",
+      "size" : 114211
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705492918634,
+      "stop" : 1705492918684,
+      "duration" : 50
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a7db2ece789ec218",
+      "name" : "Page Screenshot",
+      "source" : "a7db2ece789ec218.png",
+      "type" : "image/png",
+      "size" : 114211
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnRoStatus_and_CloseButton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "23568@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d1f7c41fb527a25.json",
+  "parameterValues" : [ ]
+}

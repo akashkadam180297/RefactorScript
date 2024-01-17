@@ -1,0 +1,137 @@
+{
+  "uid" : "1f3773920c4e21f4",
+  "name" : "Login the page and go to the CompleteRo",
+  "fullName" : "tests.service.ServiceManagerWoLabor.gotoCompleteRoScreen",
+  "historyId" : "d8706518e0dfedff90af2e8c39a472a0",
+  "time" : {
+    "start" : 1705494983476,
+    "stop" : 1705495017446,
+    "duration" : 33970
+  },
+  "description" : "Test Description -Login the page and go to the CompleteRo",
+  "descriptionHtml" : "<p>Test Description -Login the page and go to the CompleteRo</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705494944692,
+      "stop" : 1705494983456,
+      "duration" : 38764
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description -Login the page and go to the CompleteRo",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bfadcd91a9e197af",
+      "name" : "Page Screenshot",
+      "source" : "bfadcd91a9e197af.png",
+      "type" : "image/png",
+      "size" : 125268
+    }, {
+      "uid" : "7c4ba56696cb6f9f",
+      "name" : "Page Screenshot",
+      "source" : "7c4ba56696cb6f9f.png",
+      "type" : "image/png",
+      "size" : 141491
+    }, {
+      "uid" : "d28cfcd317f8186b",
+      "name" : "Page Screenshot",
+      "source" : "d28cfcd317f8186b.png",
+      "type" : "image/png",
+      "size" : 141491
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705495017495,
+      "stop" : 1705495017561,
+      "duration" : 66
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b9fab0eec5da264f",
+      "name" : "Page Screenshot",
+      "source" : "b9fab0eec5da264f.png",
+      "type" : "image/png",
+      "size" : 141518
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "gotoCompleteRoScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "17588@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f3773920c4e21f4.json",
+  "parameterValues" : [ ]
+}

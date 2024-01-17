@@ -1,0 +1,137 @@
+{
+  "uid" : "3ef93091a21acb57",
+  "name" : "Select checkBox ,click on GenerateJournal and service board",
+  "fullName" : "tests.parts.JournalizePartsInvoice.serviceBoard",
+  "historyId" : "bccd51d65bd728e2f21d42bc31f26fdd",
+  "time" : {
+    "start" : 1705391296332,
+    "stop" : 1705391323162,
+    "duration" : 26830
+  },
+  "description" : "Test Description : T_002_Select checkBox ,click on GenerateJournal and service board",
+  "descriptionHtml" : "<p>Test Description : T_002_Select checkBox ,click on GenerateJournal and service board</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705391219190,
+      "stop" : 1705391236940,
+      "duration" : 17750
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description : T_002_Select checkBox ,click on GenerateJournal and service board",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "87f21adc88673466",
+      "name" : "Page Screenshot",
+      "source" : "87f21adc88673466.png",
+      "type" : "image/png",
+      "size" : 122873
+    }, {
+      "uid" : "7c1005863a2f0922",
+      "name" : "Page Screenshot",
+      "source" : "7c1005863a2f0922.png",
+      "type" : "image/png",
+      "size" : 122807
+    }, {
+      "uid" : "9827334b9a68a1b5",
+      "name" : "Page Screenshot",
+      "source" : "9827334b9a68a1b5.png",
+      "type" : "image/png",
+      "size" : 121248
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705391323162,
+      "stop" : 1705391323263,
+      "duration" : 101
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c420528791416a82",
+      "name" : "Page Screenshot",
+      "source" : "c420528791416a82.png",
+      "type" : "image/png",
+      "size" : 121248
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testMethod",
+    "value" : "serviceBoard"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "30988@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Journalize Parts Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ef93091a21acb57.json",
+  "parameterValues" : [ ]
+}

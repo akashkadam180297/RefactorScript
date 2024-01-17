@@ -1,0 +1,159 @@
+{
+  "uid" : "7703a6660df9d227",
+  "name" : "Select checkBox ,click on GenerateJournal and service board",
+  "fullName" : "tests.parts.JournalizePartsInvoice.serviceBoard",
+  "historyId" : "bccd51d65bd728e2f21d42bc31f26fdd",
+  "time" : {
+    "start" : 1705383868885,
+    "stop" : 1705383898045,
+    "duration" : 29160
+  },
+  "description" : "Test Description : T_002_Select checkBox ,click on GenerateJournal and service board",
+  "descriptionHtml" : "<p>Test Description : T_002_Select checkBox ,click on GenerateJournal and service board</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705383778361,
+      "stop" : 1705383802545,
+      "duration" : 24184
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description : T_002_Select checkBox ,click on GenerateJournal and service board",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "10c5dd468f73db4a",
+      "name" : "Page Screenshot",
+      "source" : "10c5dd468f73db4a.png",
+      "type" : "image/png",
+      "size" : 107964
+    }, {
+      "uid" : "359d9e5aabd35fa",
+      "name" : "Page Screenshot",
+      "source" : "359d9e5aabd35fa.png",
+      "type" : "image/png",
+      "size" : 107930
+    }, {
+      "uid" : "fa7154b9a192a4a6",
+      "name" : "Page Screenshot",
+      "source" : "fa7154b9a192a4a6.png",
+      "type" : "image/png",
+      "size" : 87788
+    }, {
+      "uid" : "e52b52dc92ecb93e",
+      "name" : "Page Screenshot",
+      "source" : "e52b52dc92ecb93e.png",
+      "type" : "image/png",
+      "size" : 87706
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705383898046,
+      "stop" : 1705383898099,
+      "duration" : 53
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f3b1e63d2ca79ec5",
+      "name" : "Page Screenshot",
+      "source" : "f3b1e63d2ca79ec5.png",
+      "type" : "image/png",
+      "size" : 87782
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testMethod",
+    "value" : "serviceBoard"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "25680@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Journalize Parts Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "df18f6a7e2f98802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705383186828,
+        "stop" : 1705383215531,
+        "duration" : 28703
+      }
+    }, {
+      "uid" : "e5d0e8f7d12607ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705382355581,
+        "stop" : 1705382384256,
+        "duration" : 28675
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7703a6660df9d227.json",
+  "parameterValues" : [ ]
+}

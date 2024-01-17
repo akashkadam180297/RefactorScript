@@ -1,0 +1,104 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "CounterSaleManager Test",
+      "children" : [ {
+        "name" : "Test_001 Login the page and Go to counterSaleManager",
+        "uid" : "dde260861ac54f41",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705397547348,
+          "stop" : 1705397579167,
+          "duration" : 31819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all the elements in the field",
+        "uid" : "d2a87ca112f85c63",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705397579293,
+          "stop" : 1705397598218,
+          "duration" : 18925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 click on add new counter sale",
+        "uid" : "7b27dc258b86da0a",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705397598287,
+          "stop" : 1705397660084,
+          "duration" : 61797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 verify location pop up",
+        "uid" : "a542a4060809dcd0",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705397660132,
+          "stop" : 1705397723422,
+          "duration" : 63290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005 verify counter sale page",
+        "uid" : "9c11595016a8aed8",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705397723490,
+          "stop" : 1705397747741,
+          "duration" : 24251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_006 add part number and core part in counter sale",
+        "uid" : "d43896ff2959e58c",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705397747788,
+          "stop" : 1705397769206,
+          "duration" : 21418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_007 check invoice and signout",
+        "uid" : "469c52c7111ed64",
+        "parentUid" : "0c2c6120c16eeac167acfa038c4bc5c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705397769267,
+          "stop" : 1705397933145,
+          "duration" : 163878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c2c6120c16eeac167acfa038c4bc5c0"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}

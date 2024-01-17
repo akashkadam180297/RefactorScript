@@ -1,0 +1,100 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.service.CreateRo",
+    "children" : [ {
+      "name" : "Test_001_gotoCompleteROScreen",
+      "uid" : "e2e0d9bdd18ac074",
+      "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705407412768,
+        "stop" : 1705407441361,
+        "duration" : 28593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickAddNewROAndSelectUnit",
+      "uid" : "3cfeb54a9623065",
+      "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705407441502,
+        "stop" : 1705407467209,
+        "duration" : 25707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_clickAddLabor",
+      "uid" : "9ccdafdf5886e212",
+      "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705407467263,
+        "stop" : 1705407485594,
+        "duration" : 18331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_selectServiceProgramAndAdd",
+      "uid" : "50e6bff288cc0617",
+      "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705407485646,
+        "stop" : 1705407710662,
+        "duration" : 225016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_AddPart",
+      "uid" : "c909c87d9fe0ba3c",
+      "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705407710738,
+        "stop" : 1705407783404,
+        "duration" : 72666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_removePart",
+      "uid" : "3cfa576423c9b025",
+      "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705407783457,
+        "stop" : 1705407799894,
+        "duration" : 16437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_007_removeLabor",
+      "uid" : "a165d133d2d5b770",
+      "parentUid" : "e5d0572ba2e61c0e3dc777cd2b860456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705407799945,
+        "stop" : 1705407818377,
+        "duration" : 18432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.service.CreateRo"
+  } ]
+}

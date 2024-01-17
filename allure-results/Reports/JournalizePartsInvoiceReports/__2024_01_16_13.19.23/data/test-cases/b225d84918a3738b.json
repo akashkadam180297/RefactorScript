@@ -1,0 +1,149 @@
+{
+  "uid" : "b225d84918a3738b",
+  "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+  "fullName" : "tests.parts.JournalizePartsInvoice.clickOnGererateJournals_checkbox",
+  "historyId" : "3f1e2156c37cdb8b0948c51e0915703b",
+  "time" : {
+    "start" : 1705391260141,
+    "stop" : 1705391296234,
+    "duration" : 36093
+  },
+  "description" : "Test Description : T_001_Click on dropdown,refresh button,generateJournalize and select check box",
+  "descriptionHtml" : "<p>Test Description : T_001_Click on dropdown,refresh button,generateJournalize and select check box</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705391219190,
+      "stop" : 1705391236940,
+      "duration" : 17750
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description : T_001_Click on dropdown,refresh button,generateJournalize and select check box",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e6d8b7aea447b62",
+      "name" : "Page Screenshot",
+      "source" : "7e6d8b7aea447b62.png",
+      "type" : "image/png",
+      "size" : 113969
+    }, {
+      "uid" : "2db16f30d1405dc",
+      "name" : "Page Screenshot",
+      "source" : "2db16f30d1405dc.png",
+      "type" : "image/png",
+      "size" : 110649
+    }, {
+      "uid" : "29c7a122453af998",
+      "name" : "Page Screenshot",
+      "source" : "29c7a122453af998.png",
+      "type" : "image/png",
+      "size" : 110821
+    }, {
+      "uid" : "809e35d1694ab71",
+      "name" : "Page Screenshot",
+      "source" : "809e35d1694ab71.png",
+      "type" : "image/png",
+      "size" : 126363
+    }, {
+      "uid" : "af2259c5e5f3b580",
+      "name" : "Page Screenshot",
+      "source" : "af2259c5e5f3b580.png",
+      "type" : "image/png",
+      "size" : 126439
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705391296255,
+      "stop" : 1705391296329,
+      "duration" : 74
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d3a9e07398a2350",
+      "name" : "Page Screenshot",
+      "source" : "9d3a9e07398a2350.png",
+      "type" : "image/png",
+      "size" : 126502
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnGererateJournals_checkbox"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "30988@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Journalize Parts Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b225d84918a3738b.json",
+  "parameterValues" : [ ]
+}

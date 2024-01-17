@@ -1,0 +1,94 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //ul[@class='AFAutoSuggestItemsContainer']/li[2]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test_006 add part number and core part in counter sale",
+        "uid" : "de57bcd82bab2707",
+        "parentUid" : "6a460f2c62dc886799883044ff184e98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705401009287,
+          "stop" : 1705401148214,
+          "duration" : 138927
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a460f2c62dc886799883044ff184e98"
+    }, {
+      "name" : "element click intercepted: Element <a role=\"tab\" aria-controls=\"reg0:0:rWO:1:rlbg:1:sdiVmrs::body\" id=\"reg0:0:rWO:1:rlbg:1:sdiVmrs::disAcr\" class=\"x164\" data-afr-fcs=\"true\" tabindex=\"-1\" href=\"#\" onclick=\"return false;\">...</a> is not clickable at point (397, 79). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddf0497cd2efce407fa6259b25116a5c, clickElement {id=B131E51AF1ECD7A519E698E1AF9E32DC_element_454}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61263/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (ddf0497cd2efce407fa6259b25116a5c)] -> xpath: (//div[text()='Add Labour']/following::a[text()='VMRS'])[1]]\nSession ID: ddf0497cd2efce407fa6259b25116a5c",
+      "children" : [ {
+        "name" : "Test_004_Select service program and add",
+        "uid" : "cd1fc6043a77937c",
+        "parentUid" : "70e98db16e45e484c8890ca2b386ab26",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402223933,
+          "stop" : 1705402243532,
+          "duration" : 19599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "70e98db16e45e484c8890ca2b386ab26"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //h2[text()='Repair-Accessories Group']/following::span[2]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test_005_Add Part",
+        "uid" : "e47fd5aa56bba5b8",
+        "parentUid" : "536492359b7099b74669c072c412a1d6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402243638,
+          "stop" : 1705402407546,
+          "duration" : 163908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "536492359b7099b74669c072c412a1d6"
+    }, {
+      "name" : "Index 0 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Test_006_Remove Part",
+        "uid" : "d18eddae2d6aed29",
+        "parentUid" : "cd678efc9459eb5fa08af3c540cca518",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402407618,
+          "stop" : 1705402407684,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd678efc9459eb5fa08af3c540cca518"
+    }, {
+      "name" : "element click intercepted: Element <a id=\"reg0:0:rWO:1:trashWA:dc_cil1\" class=\"xgm p_AFDisabled\" style=\"margin:1.0px; border-width:1.0px;\" data-afr-fcs=\"false\" aria-disabled=\"true\" tabindex=\"-1\">...</a> is not clickable at point (714, 382). Other element would receive the click: <div role=\"grid\" tabindex=\"0\" id=\"reg0:0:rWO:1:rlbg:1:tAct\" class=\"xvd\" _leafcolclientids=\"[null,'reg0:0:rWO:1:rlbg:1:tAct:cttActDescription','reg0:0:rWO:1:rlbg:1:tAct:ctLabourQuantity','reg0:0:rWO:1:rlbg:1:tAct:ctActChargeHours','reg0:0:rWO:1:rlbg:1:tAct:ctActHourlyChargeCurrency','reg0:0:rWO:1:rlbg:1:tAct:ctActTotalChargeCurrency','reg0:0:rWO:1:rlbg:1:tAct:citActAtt','reg0:0:rWO:1:rlbg:1:tAct:ctActDelete']\" style=\"position: absolute; width: auto; height: auto; inset: 0px; overflow: hidden;\">...</div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddf0497cd2efce407fa6259b25116a5c, clickElement {id=B131E51AF1ECD7A519E698E1AF9E32DC_element_489}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61263/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (ddf0497cd2efce407fa6259b25116a5c)] -> xpath: //a[contains(@id,'trashWA')]]\nSession ID: ddf0497cd2efce407fa6259b25116a5c",
+      "children" : [ {
+        "name" : "Test_007_Remove labor",
+        "uid" : "9ff46b7cdc686704",
+        "parentUid" : "f1d7ff2c04ba44c17abd624d084c8999",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705402407750,
+          "stop" : 1705402420076,
+          "duration" : 12326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1d7ff2c04ba44c17abd624d084c8999"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

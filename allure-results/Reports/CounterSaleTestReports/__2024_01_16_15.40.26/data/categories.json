@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //ul[@class='AFAutoSuggestItemsContainer']/li[2]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test_006 add part number and core part in counter sale",
+        "uid" : "3bbc202b3d839a33",
+        "parentUid" : "6a460f2c62dc886799883044ff184e98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705399526001,
+          "stop" : 1705399662473,
+          "duration" : 136472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a460f2c62dc886799883044ff184e98"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Lost Sale Reason:']/following::a[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test_007 check invoice and signout",
+        "uid" : "f56e65f7fed4bd1a",
+        "parentUid" : "4c203144e935c01e10c4e4e46fba4bae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705399662556,
+          "stop" : 1705399826139,
+          "duration" : 163583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c203144e935c01e10c4e4e46fba4bae"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

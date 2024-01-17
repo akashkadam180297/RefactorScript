@@ -1,0 +1,108 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.service.CreateRo",
+        "children" : [ {
+          "name" : "Test_001_Login the page and go to the CompleteRo",
+          "uid" : "7cd16add35d828c5",
+          "parentUid" : "33203e1f4403ecc99e3978a79837cb52",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705408413378,
+            "stop" : 1705408442572,
+            "duration" : 29194
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002_Click on Add new RO and select Unit",
+          "uid" : "78743022691cd819",
+          "parentUid" : "33203e1f4403ecc99e3978a79837cb52",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705408442734,
+            "stop" : 1705408469962,
+            "duration" : 27228
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003_Click on Add labor",
+          "uid" : "71bc33be6fcdc4b5",
+          "parentUid" : "33203e1f4403ecc99e3978a79837cb52",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705408470012,
+            "stop" : 1705408488325,
+            "duration" : 18313
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004_Select service program and add",
+          "uid" : "9eec46e48fb5a447",
+          "parentUid" : "33203e1f4403ecc99e3978a79837cb52",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705408488398,
+            "stop" : 1705408569555,
+            "duration" : 81157
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005_Add Part",
+          "uid" : "a2492fb3fa158d8c",
+          "parentUid" : "33203e1f4403ecc99e3978a79837cb52",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705408569621,
+            "stop" : 1705408733273,
+            "duration" : 163652
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_006_Remove Part",
+          "uid" : "62e8ae0fc74e8c06",
+          "parentUid" : "33203e1f4403ecc99e3978a79837cb52",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705408733336,
+            "stop" : 1705408773542,
+            "duration" : 40206
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_007_Remove labor",
+          "uid" : "d9fe48fa63aaa01f",
+          "parentUid" : "33203e1f4403ecc99e3978a79837cb52",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705408773636,
+            "stop" : 1705408785994,
+            "duration" : 12358
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "33203e1f4403ecc99e3978a79837cb52"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

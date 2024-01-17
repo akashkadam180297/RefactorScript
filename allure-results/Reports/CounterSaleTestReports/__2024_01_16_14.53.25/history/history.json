@@ -1,0 +1,137 @@
+{
+  "f3ee5bd589576521d16b2cbd3974eb5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf2972e160f1b76b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705396613052,
+        "stop" : 1705396645645,
+        "duration" : 32593
+      }
+    } ]
+  },
+  "67298149ba382e186c2e545ebcd84a7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9fe9825ca6c3cce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705396645800,
+        "stop" : 1705396664713,
+        "duration" : 18913
+      }
+    } ]
+  },
+  "1a03ef2697ac67c9b603041b494e6b9f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82f584b62f0acc73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705396740377,
+        "stop" : 1705396801648,
+        "duration" : 61271
+      }
+    } ]
+  },
+  "1d19b9e8d6cc865086767d82fd3d3022" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "895eb3f56391ae51",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Lost Sale Reason:']/following::a[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705396841434,
+        "stop" : 1705397005044,
+        "duration" : 163610
+      }
+    } ]
+  },
+  "d2fae9d239cc7c86422194d64634dd3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb3a3e2c18ec1a6b",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <li>...</li> is not clickable at point (370, 262). Other element would receive the click: <div class=\"AFBlockingGlassPane\" style=\"position: absolute; left: 0px; top: 0px; z-index: 2147483647; visibility: visible; user-select: none; opacity: 0; height: 614px; width: 1349px;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [870aef7d4681da5ce1936ff8dff4816d, clickElement {id=633B7BF40DA44994A0ECB21899839631_element_703}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65431/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (870aef7d4681da5ce1936ff8dff4816d)] -> xpath: //ul[@class='AFAutoSuggestItemsContainer']/li]\nSession ID: 870aef7d4681da5ce1936ff8dff4816d",
+      "time" : {
+        "start" : 1705396824893,
+        "stop" : 1705396841362,
+        "duration" : 16469
+      }
+    } ]
+  },
+  "f47b266b725c89e0000c9a78763aff0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b391bd2f8a08601f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705396664781,
+        "stop" : 1705396740323,
+        "duration" : 75542
+      }
+    } ]
+  },
+  "4a4e171637c43ed32c4352a191bd4293" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82cc8aa0c548d8b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705396801721,
+        "stop" : 1705396824837,
+        "duration" : 23116
+      }
+    } ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "WoParts Test",
+      "children" : [ {
+        "name" : "T_006 Enter CorePart and click on search icon",
+        "uid" : "156d87dfe530f22",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705469470605,
+          "stop" : 1705469643573,
+          "duration" : 172968
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_007 Click on CoreReturn and delete core part",
+        "uid" : "efd513825398a69f",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705469643623,
+          "stop" : 1705469830201,
+          "duration" : 186578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_008 click on Non-Catalog Part and enter the value",
+        "uid" : "424673e11668acf5",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705469830261,
+          "stop" : 1705469993706,
+          "duration" : 163445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_009 enter Part number and click on Issue part",
+        "uid" : "d967ce47007fdba9",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705469993802,
+          "stop" : 1705470166542,
+          "duration" : 172740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_010 click on Labour and click on VMRS",
+        "uid" : "42c46a78f03f4e42",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705470166606,
+          "stop" : 1705470311456,
+          "duration" : 144850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_011 Click on MoisesOlivas and Select and ok button",
+        "uid" : "1593e62503ba334e",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705470311519,
+          "stop" : 1705470311566,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_012 Click on FirstLaborItem and Select and Ok button",
+        "uid" : "38b9f7265e1a7e1d",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705470311618,
+          "stop" : 1705470321690,
+          "duration" : 10072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_001 Sign in the page and Go to the Tech RO",
+        "uid" : "9cddd2ae1469e0fb",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705470795749,
+          "stop" : 1705470834123,
+          "duration" : 38374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_002 Verify Unit Number and Click on Parts ",
+        "uid" : "2ed363fd5fb44b72",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705470834295,
+          "stop" : 1705470923802,
+          "duration" : 89507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_003 Check the Generic setup of the screen and enter Part number",
+        "uid" : "5ef319c1eac10f10",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705470923857,
+          "stop" : 1705470999074,
+          "duration" : 75217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_004 verify the part pannel and click on issue part",
+        "uid" : "7a1d97c60c4a055",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "failed",
+        "time" : {
+          "start" : 1705470999133,
+          "stop" : 1705471016385,
+          "duration" : 17252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_005 Verify part added , click on cross button and delete the part",
+        "uid" : "e3b6bb003ee84662",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "failed",
+        "time" : {
+          "start" : 1705471016452,
+          "stop" : 1705471139704,
+          "duration" : 123252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d96f7799932cf5e29cae964d807fb943"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  }, {
+    "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+    "uid" : "ea302f5035703e9e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705474190094,
+      "stop" : 1705474221167,
+      "duration" : 31073
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_002_click On Reference Number",
+    "uid" : "350db0d4bb776c6c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1705474221332,
+      "stop" : 1705474280824,
+      "duration" : 59492
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_003_click On part Number",
+    "uid" : "8add359f9b20e06a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1705474280892,
+      "stop" : 1705474444615,
+      "duration" : 163723
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_004_verify Labor Text ",
+    "uid" : "54ac4c6b9700b829",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1705474444715,
+      "stop" : 1705474568136,
+      "duration" : 123421
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_005_verify Charge Quantity Editable  ",
+    "uid" : "1d15bc749fb2c3ee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1705474568192,
+      "stop" : 1705474691503,
+      "duration" : 123311
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_006_click On Add Part ",
+    "uid" : "15dea8514b8a6aa9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1705474691623,
+      "stop" : 1705474701727,
+      "duration" : 10104
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_007_click On Non-Catalog Part ",
+    "uid" : "20e1d8a4566d1180",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705474701822,
+      "stop" : 1705474796314,
+      "duration" : 94492
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_008_click On Close Button ",
+    "uid" : "371bb75c4fa36e76",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705474796397,
+      "stop" : 1705474821859,
+      "duration" : 25462
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

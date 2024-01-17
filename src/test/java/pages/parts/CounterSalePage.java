@@ -781,11 +781,12 @@ public class CounterSalePage extends TestDriverActions {
     public void addPart() throws InterruptedException {
 //        WaitActions.getWaits().WaitUntilWebElementIsVisible(txt_parts_field);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_parts_field);
-        txt_parts_field.sendKeys(prop.getProperty("PartNumber"));
+        txt_parts_field.sendKeys(appProp.getProperty("PartNumber"));
+        Thread.sleep(2000);
         WebElementActions.getActions().clickElement(tooltip_parts_customer);
         txt_parts_field.clear();
-        Thread.sleep(2000);
-        WebElementActions.getActions().inputText(txt_parts_field, prop.getProperty("PartNumber"));
+        Thread.sleep(6000);
+        WebElementActions.getActions().inputText(txt_parts_field, appProp.getProperty("PartNumber"));
         WebElementActions.getActions().clickElement(tooltip_parts_customer);
 
         WaitActions.getWaits().loadingWait(loder);
@@ -845,7 +846,8 @@ public class CounterSalePage extends TestDriverActions {
 
 //        WaitActions.getWaits().WaitUntilWebElementIsVisible(txt_parts_field);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_parts_field);
-        txt_parts_field.sendKeys(prop.getProperty("CoreParentPart"));
+        txt_parts_field.sendKeys(appProp.getProperty("CoreParentPart"));
+        Thread.sleep(2000);
         WebElementActions.getActions().clickElement(tooltip_parts_core);
         Thread.sleep(2000);
         txt_parts_field.clear();
@@ -853,13 +855,13 @@ public class CounterSalePage extends TestDriverActions {
  //       WaitActions.getWaits().loadingWait(loder);
 
 //        WaitActions.getWaits().waitForElementTobeClickable(cancle_corepart);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(cancle_corepart);
-        WebElementActions.getActions().clickElement(cancle_corepart);
+//        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(cancle_corepart);
+//        WebElementActions.getActions().clickElement(cancle_corepart);
 
           Thread.sleep(3000);
 
-        WebElementActions.getActions().inputText(txt_parts_field, prop.getProperty("CoreParentPart"));
-        Thread.sleep(2000);
+        WebElementActions.getActions().inputText(txt_parts_field, appProp.getProperty("CoreParentPart"));
+        Thread.sleep(6000);
         WebElementActions.getActions().clickElement(tooltip_parts_core);
 
 //        WaitActions.getWaits().WaitUntilWebElementIsVisible(chekbox_coreReturn);
@@ -898,7 +900,9 @@ public class CounterSalePage extends TestDriverActions {
  //       Thread.sleep(2000);
 //        WaitActions.getWaits().WaitUntilWebElementIsVisible(add_quantity);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(add_quantity);
-        WebElementActions.getActions().inputText(add_quantity, prop.getProperty("add"));
+        add_quantity.clear();
+        WebElementActions.getActions().inputText(add_quantity, appProp.getProperty("add"));
+ //       WebElementActions.getActions().inputText(add_quantity, appProp.getProperty("add"));
         Thread.sleep(2000);
 //        WaitActions.getWaits().waitForElementTobeClickable(label_chargeQty);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_chargeQty);

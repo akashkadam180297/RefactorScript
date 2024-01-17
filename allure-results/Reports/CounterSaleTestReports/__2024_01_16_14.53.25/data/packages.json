@@ -1,0 +1,100 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.CounterSale",
+    "children" : [ {
+      "name" : "goto_countersaleManager_screen",
+      "uid" : "cf2972e160f1b76b",
+      "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705396613052,
+        "stop" : 1705396645645,
+        "duration" : 32593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verify_all_fields",
+      "uid" : "a9fe9825ca6c3cce",
+      "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705396645800,
+        "stop" : 1705396664713,
+        "duration" : 18913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "add_new_counter_sale",
+      "uid" : "b391bd2f8a08601f",
+      "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705396664781,
+        "stop" : 1705396740323,
+        "duration" : 75542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verify_location_popUp",
+      "uid" : "82f584b62f0acc73",
+      "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705396740377,
+        "stop" : 1705396801648,
+        "duration" : 61271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verify_counter_sale_page",
+      "uid" : "82cc8aa0c548d8b1",
+      "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705396801721,
+        "stop" : 1705396824837,
+        "duration" : 23116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "add_parts_in_counter_sale",
+      "uid" : "cb3a3e2c18ec1a6b",
+      "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705396824893,
+        "stop" : 1705396841362,
+        "duration" : 16469
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "check_invoice_and_signout",
+      "uid" : "895eb3f56391ae51",
+      "parentUid" : "7284ce077b7192275e507ab517bf7e0d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705396841434,
+        "stop" : 1705397005044,
+        "duration" : 163610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.CounterSale"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.JournalizePartsInvoice",
+    "children" : [ {
+      "name" : "gotoFinancialManager",
+      "uid" : "d27b857dbe5d97b7",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705385446927,
+        "stop" : 1705385479954,
+        "duration" : 33027
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnGererateJournals_checkbox",
+      "uid" : "53b851ec22e1135",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705385480098,
+        "stop" : 1705385517178,
+        "duration" : 37080
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "serviceBoard",
+      "uid" : "7d261bed40583408",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705385517288,
+        "stop" : 1705385701378,
+        "duration" : 184090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "financialManager",
+      "uid" : "4d267e4e74193499",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705385701458,
+        "stop" : 1705385761059,
+        "duration" : 59601
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.JournalizePartsInvoice"
+  } ]
+}

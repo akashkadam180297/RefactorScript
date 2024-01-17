@@ -1,0 +1,137 @@
+{
+  "uid" : "3cfa576423c9b025",
+  "name" : "Test_006_Remove Part",
+  "fullName" : "tests.service.CreateRo.Test_006_removePart",
+  "historyId" : "d9e99d8617cddd3846eec078ba5644c8",
+  "time" : {
+    "start" : 1705407783457,
+    "stop" : 1705407799894,
+    "duration" : 16437
+  },
+  "description" : "Test Description: Remove Part",
+  "descriptionHtml" : "<p>Test Description: Remove Part</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705407386684,
+      "stop" : 1705407412750,
+      "duration" : 26066
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Remove Part",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d022e7e19fe04300",
+      "name" : "Page Screenshot",
+      "source" : "d022e7e19fe04300.png",
+      "type" : "image/png",
+      "size" : 95808
+    }, {
+      "uid" : "68664a74c58e0b0f",
+      "name" : "Page Screenshot",
+      "source" : "68664a74c58e0b0f.png",
+      "type" : "image/png",
+      "size" : 95816
+    }, {
+      "uid" : "9da22fd2a87520cf",
+      "name" : "Page Screenshot",
+      "source" : "9da22fd2a87520cf.png",
+      "type" : "image/png",
+      "size" : 95729
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705407799894,
+      "stop" : 1705407799943,
+      "duration" : 49
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "96ea90f2cb344c37",
+      "name" : "Page Screenshot",
+      "source" : "96ea90f2cb344c37.png",
+      "type" : "image/png",
+      "size" : 95729
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_006_removePart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "13404@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Create RO Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cfa576423c9b025.json",
+  "parameterValues" : [ ]
+}

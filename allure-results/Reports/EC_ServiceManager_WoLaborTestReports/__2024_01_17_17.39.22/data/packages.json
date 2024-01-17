@@ -1,0 +1,243 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.service.ServiceManagerWoLabor",
+    "children" : [ {
+      "name" : "gotoCompleteRoScreen",
+      "uid" : "a2d1178c3772cc46",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492315388,
+        "stop" : 1705492349290,
+        "duration" : 33902
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyAllElements",
+      "uid" : "b0a106c3ddc7af27",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492349416,
+        "stop" : 1705492374454,
+        "duration" : 25038
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnRONumber_VerifyElements",
+      "uid" : "b485443fc9fe4003",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492374523,
+        "stop" : 1705492437782,
+        "duration" : 63259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "ClickInternalLink_and_EnterText",
+      "uid" : "7b76c7cf29b730b2",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492437830,
+        "stop" : 1705492500766,
+        "duration" : 62936
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnThisIsStandardNote_EnterInternalNote",
+      "uid" : "4df84502960508ea",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492500838,
+        "stop" : 1705492558589,
+        "duration" : 57751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnNotes_and_EnterTextInNoteField",
+      "uid" : "3d81a7b483d640c1",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492558639,
+        "stop" : 1705492616422,
+        "duration" : 57783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyAuthorizedBy_and_ClickOnLink",
+      "uid" : "f1e8843dfccc89e7",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492616473,
+        "stop" : 1705492655062,
+        "duration" : 38589
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnAdd_and_EntertheText",
+      "uid" : "4ca1d1adbc2c5c8e",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492655116,
+        "stop" : 1705492716047,
+        "duration" : 60931
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "ennterLastName_and_clickOnSelectBtn",
+      "uid" : "fb66428892948540",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492716134,
+        "stop" : 1705492756822,
+        "duration" : 40688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyElementofMainScreen",
+      "uid" : "bef4ac8b4a55abf",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705492756904,
+        "stop" : 1705492865883,
+        "duration" : 108979
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnRoStatus_and_CloseButton",
+      "uid" : "2d1f7c41fb527a25",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492865938,
+        "stop" : 1705492918633,
+        "duration" : 52695
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnWIPStatus_and_clickCancle",
+      "uid" : "61a44ed819fad7d0",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492918686,
+        "stop" : 1705492987510,
+        "duration" : 68824
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnTypelink_and_clickOnSelect",
+      "uid" : "3a613b4b1170e81b",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705492987560,
+        "stop" : 1705493056390,
+        "duration" : 68830
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnInvoiceTohyperlink_and_clickOnCancle",
+      "uid" : "28a2813d128ca1aa",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493056438,
+        "stop" : 1705493113317,
+        "duration" : 56879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickViewProfitLoss_and_clickOk",
+      "uid" : "ca81390ff3d5e347",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493113368,
+        "stop" : 1705493166136,
+        "duration" : 52768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOn_ShowLabourDetails_Number_ShowPartsDetails",
+      "uid" : "b5192c917cdf758a",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493166193,
+        "stop" : 1705493235946,
+        "duration" : 69753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnBacktoCompleteRo_and_ReferenceNumber",
+      "uid" : "2e5c5e80037acdef",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493236049,
+        "stop" : 1705493280608,
+        "duration" : 44559
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnUpdateRates_and_SignOut",
+      "uid" : "ecf21020712d1114",
+      "parentUid" : "1cf19d77cd1991a25189baccb6c2f3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493280658,
+        "stop" : 1705493362565,
+        "duration" : 81907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.service.ServiceManagerWoLabor"
+  } ]
+}

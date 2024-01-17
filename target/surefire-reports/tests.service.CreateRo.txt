@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------
+Test set: tests.service.CreateRo
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 408.55 s <<< FAILURE! - in tests.service.CreateRo
+Test_004_selectServiceProgramAndAdd(tests.service.CreateRo)  Time elapsed: 81.159 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="xfx">...</span> is not clickable at point (713, 576). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;"></div>
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cc3b456eb7554aefd01718ba01de233, clickElement {id=3C7B535C0E53EA779E32A7453C1E7D30_element_536}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc5-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58613/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6cc3b456eb7554aefd01718ba01de233)] -> xpath: //span[text()='Add']]
+Session ID: 6cc3b456eb7554aefd01718ba01de233
+	at tests.service.CreateRo.Test_004_selectServiceProgramAndAdd(CreateRo.java:48)
+
+Test_005_AddPart(tests.service.CreateRo)  Time elapsed: 163.653 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //h2[text()='Repair-Accessories Group']/following::span[2]' (tried for 40 second(s) with 500 milliseconds interval)
+	at tests.service.CreateRo.Test_005_AddPart(CreateRo.java:58)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Repair-Accessories Group']/following::span[2]"}
+  (Session info: chrome=120.0.6099.217)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cc3b456eb7554aefd01718ba01de233, findElement {using=xpath, value=//h2[text()='Repair-Accessories Group']/following::span[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc5-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58613/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cc3b456eb7554aefd01718ba01de233
+	at tests.service.CreateRo.Test_005_AddPart(CreateRo.java:58)
+
+Test_006_removePart(tests.service.CreateRo)  Time elapsed: 40.206 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (6cc3b456eb7554aefd01718ba01de233)] -> xpath: (//span[text()='Total Charge']/following::a[6]/img)[1]] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc5-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58613/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cc3b456eb7554aefd01718ba01de233
+	at tests.service.CreateRo.Test_006_removePart(CreateRo.java:70)
+
+Test_007_removeLabor(tests.service.CreateRo)  Time elapsed: 12.358 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a id="reg0:0:rWO:1:trashWA:dc_cil1" class="xgm p_AFDisabled" style="margin:1.0px; border-width:1.0px;" data-afr-fcs="false" aria-disabled="true" tabindex="-1">...</a> is not clickable at point (714, 400). Other element would receive the click: <div id="reg0:0:rWO:1:rlbg:1:tAct::db" class="x17e" style="position: relative; width: 467px; overflow: hidden; height: 410px; z-index: 1;" _afrcolcount="8">...</div>
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cc3b456eb7554aefd01718ba01de233, clickElement {id=3C7B535C0E53EA779E32A7453C1E7D30_element_561}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc5-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58613/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6cc3b456eb7554aefd01718ba01de233)] -> xpath: //a[contains(@id,'trashWA')]]
+Session ID: 6cc3b456eb7554aefd01718ba01de233
+	at tests.service.CreateRo.Test_007_removeLabor(CreateRo.java:82)
+

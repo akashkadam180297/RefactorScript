@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-5",
+    "children" : [ {
+      "name" : "30788@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "9e55c3d2d681c7fd",
+        "parentUid" : "bad11877c5ee68fde39300507a26f567",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705389913027,
+          "stop" : 1705389952397,
+          "duration" : 39370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login the page and Go to the Financial Manager",
+        "uid" : "7413eeea14f00184",
+        "parentUid" : "bad11877c5ee68fde39300507a26f567",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705389667255,
+          "stop" : 1705389692639,
+          "duration" : 25384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+        "uid" : "33fdc5df3f040d28",
+        "parentUid" : "bad11877c5ee68fde39300507a26f567",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705389692761,
+          "stop" : 1705389728635,
+          "duration" : 35874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "675c699f5ad42fd9",
+        "parentUid" : "bad11877c5ee68fde39300507a26f567",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705389728719,
+          "stop" : 1705389912971,
+          "duration" : 184252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bad11877c5ee68fde39300507a26f567"
+    } ],
+    "uid" : "a73e966c7298dd236db9463e7eeeeb18"
+  } ]
+}

@@ -1,0 +1,79 @@
+{
+  "3f1e2156c37cdb8b0948c51e0915703b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33fdc5df3f040d28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705389692761,
+        "stop" : 1705389728635,
+        "duration" : 35874
+      }
+    } ]
+  },
+  "9831ec8775259cbb5f37c215f95351d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e55c3d2d681c7fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705389913027,
+        "stop" : 1705389952397,
+        "duration" : 39370
+      }
+    } ]
+  },
+  "5ddb822e4780c470f0718bfd97295335" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7413eeea14f00184",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705389667255,
+        "stop" : 1705389692639,
+        "duration" : 25384
+      }
+    } ]
+  },
+  "bccd51d65bd728e2f21d42bc31f26fdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "675c699f5ad42fd9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[text()='TV Search Service Board'])[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705389728719,
+        "stop" : 1705389912971,
+        "duration" : 184252
+      }
+    } ]
+  }
+}

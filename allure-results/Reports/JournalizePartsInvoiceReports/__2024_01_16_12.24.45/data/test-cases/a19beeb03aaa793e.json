@@ -1,0 +1,137 @@
+{
+  "uid" : "a19beeb03aaa793e",
+  "name" : "Login the page and Go to the Financial Manager",
+  "fullName" : "tests.parts.JournalizePartsInvoice.gotoFinancialManager",
+  "historyId" : "5ddb822e4780c470f0718bfd97295335",
+  "time" : {
+    "start" : 1705387940113,
+    "stop" : 1705387973575,
+    "duration" : 33462
+  },
+  "description" : "Test Description : T_001_Login the page and Go to the Financial Manager",
+  "descriptionHtml" : "<p>Test Description : T_001_Login the page and Go to the Financial Manager</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705387916588,
+      "stop" : 1705387940082,
+      "duration" : 23494
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description : T_001_Login the page and Go to the Financial Manager",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4f296803e010f369",
+      "name" : "Page Screenshot",
+      "source" : "4f296803e010f369.png",
+      "type" : "image/png",
+      "size" : 135638
+    }, {
+      "uid" : "91acccbb053b0ca5",
+      "name" : "Page Screenshot",
+      "source" : "91acccbb053b0ca5.png",
+      "type" : "image/png",
+      "size" : 84758
+    }, {
+      "uid" : "197e44d52202861f",
+      "name" : "Page Screenshot",
+      "source" : "197e44d52202861f.png",
+      "type" : "image/png",
+      "size" : 84758
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705387973645,
+      "stop" : 1705387973689,
+      "duration" : 44
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1214ee3da9ef91bf",
+      "name" : "Page Screenshot",
+      "source" : "1214ee3da9ef91bf.png",
+      "type" : "image/png",
+      "size" : 84758
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testMethod",
+    "value" : "gotoFinancialManager"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "28292@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Journalize Parts Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a19beeb03aaa793e.json",
+  "parameterValues" : [ ]
+}

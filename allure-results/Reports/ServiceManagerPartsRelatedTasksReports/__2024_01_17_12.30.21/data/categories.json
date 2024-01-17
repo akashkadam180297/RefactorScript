@@ -1,0 +1,230 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //ul[@class='AFAutoSuggestItemsContainer']/li[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "T_006 Enter CorePart and click on search icon",
+        "uid" : "156d87dfe530f22",
+        "parentUid" : "5b364488054afcde3ccb82d16df1d5ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705469470605,
+          "stop" : 1705469643573,
+          "duration" : 172968
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b364488054afcde3ccb82d16df1d5ba"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(@id,':cRTWAP1')]/img' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "T_007 Click on CoreReturn and delete core part",
+        "uid" : "efd513825398a69f",
+        "parentUid" : "389c88acb3042c27c791979f04f5b344",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705469643623,
+          "stop" : 1705469830201,
+          "duration" : 186578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "389c88acb3042c27c791979f04f5b344"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Non-Catalog Part']' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "T_008 click on Non-Catalog Part and enter the value",
+        "uid" : "424673e11668acf5",
+        "parentUid" : "ed8803041f2f7a7f99f003257eac99a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705469830261,
+          "stop" : 1705469993706,
+          "duration" : 163445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed8803041f2f7a7f99f003257eac99a2"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //ul[@class='AFAutoSuggestItemsContainer']/li' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "T_009 enter Part number and click on Issue part",
+        "uid" : "d967ce47007fdba9",
+        "parentUid" : "e6a2ede5a608193b371608ebec7ac2f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705469993802,
+          "stop" : 1705470166542,
+          "duration" : 172740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6a2ede5a608193b371608ebec7ac2f5"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[text()='Accessories Group'])[1]\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7a2cdfc2f279b0a58a48005e16705b70, findElement {using=xpath, value=(//a[text()='Accessories Group'])[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53501/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7a2cdfc2f279b0a58a48005e16705b70",
+      "children" : [ {
+        "name" : "T_010 click on Labour and click on VMRS",
+        "uid" : "42c46a78f03f4e42",
+        "parentUid" : "4a9c771713486d9816e1ebefbd049b9b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705470166606,
+          "stop" : 1705470311456,
+          "duration" : 144850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a9c771713486d9816e1ebefbd049b9b"
+    }, {
+      "name" : "Index 0 out of bounds for length 0",
+      "children" : [ {
+        "name" : "T_012 Click on FirstLaborItem and Select and Ok button",
+        "uid" : "38b9f7265e1a7e1d",
+        "parentUid" : "cd678efc9459eb5fa08af3c540cca518",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705470311618,
+          "stop" : 1705470321690,
+          "duration" : 10072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd678efc9459eb5fa08af3c540cca518"
+    }, {
+      "name" : "Keys to send should be a not null CharSequence",
+      "children" : [ {
+        "name" : "Test_002_click On Reference Number",
+        "uid" : "350db0d4bb776c6c",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705474221332,
+          "stop" : 1705474280824,
+          "duration" : 59492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8863195d2002b04b9f89a669982dae2c"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//div[contains(@id,':tParts::db')]//table//div//a/child::span[contains(@id,'::text')])[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test_003_click On part Number",
+        "uid" : "8add359f9b20e06a",
+        "parentUid" : "2822a56094ce8d64bc00285ad971db2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705474280892,
+          "stop" : 1705474444615,
+          "duration" : 163723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2822a56094ce8d64bc00285ad971db2f"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//label[text()='Part Description:']/parent::span/parent::div//following-sibling::div//span//label)[1]\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0b28d306d5da2d72a622a4e5db93f5ac, findElement {using=xpath, value=(//label[text()='Part Description:']/parent::span/parent::div//following-sibling::div//span//label)[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64704/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b28d306d5da2d72a622a4e5db93f5ac",
+      "children" : [ {
+        "name" : "Test_004_verify Labor Text ",
+        "uid" : "54ac4c6b9700b829",
+        "parentUid" : "5eb46853ff4cc85e56e1029aa6dfba62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705474444715,
+          "stop" : 1705474568136,
+          "duration" : 123421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5eb46853ff4cc85e56e1029aa6dfba62"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//label[text()='Charge Quantity (EA):']/parent::span/parent::div/following-sibling::div/child::table//div//input\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0b28d306d5da2d72a622a4e5db93f5ac, findElement {using=xpath, value=//label[text()='Charge Quantity (EA):']/parent::span/parent::div/following-sibling::div/child::table//div//input}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64704/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b28d306d5da2d72a622a4e5db93f5ac",
+      "children" : [ {
+        "name" : "Test_005_verify Charge Quantity Editable  ",
+        "uid" : "1d15bc749fb2c3ee",
+        "parentUid" : "edac5d17f68cbc60501f1cf233d3a104",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705474568192,
+          "stop" : 1705474691503,
+          "duration" : 123311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "edac5d17f68cbc60501f1cf233d3a104"
+    }, {
+      "name" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (1269, 403). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1349px; height: 614px; user-select: none; z-index: 34;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0b28d306d5da2d72a622a4e5db93f5ac, clickElement {id=BF554AA0856A0685F1F4EAA6714EF8FD_element_305}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64704/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (0b28d306d5da2d72a622a4e5db93f5ac)] -> xpath: //span[text()='Add Parts']]\nSession ID: 0b28d306d5da2d72a622a4e5db93f5ac",
+      "children" : [ {
+        "name" : "Test_006_click On Add Part ",
+        "uid" : "15dea8514b8a6aa9",
+        "parentUid" : "797ce5a86531dc582901162835b45ef6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705474691623,
+          "stop" : 1705474701727,
+          "duration" : 10104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "797ce5a86531dc582901162835b45ef6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "T_004 verify the part pannel and click on issue part",
+        "uid" : "7a1d97c60c4a055",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1705470999133,
+          "stop" : 1705471016385,
+          "duration" : 17252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_005 Verify part added , click on cross button and delete the part",
+        "uid" : "e3b6bb003ee84662",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1705471016452,
+          "stop" : 1705471139704,
+          "duration" : 123252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

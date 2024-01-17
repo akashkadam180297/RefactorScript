@@ -1,0 +1,137 @@
+{
+  "f3ee5bd589576521d16b2cbd3974eb5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17b0f82d9443b2a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705398793507,
+        "stop" : 1705398825325,
+        "duration" : 31818
+      }
+    } ]
+  },
+  "67298149ba382e186c2e545ebcd84a7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32717401d5f1ef1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705398825463,
+        "stop" : 1705398844403,
+        "duration" : 18940
+      }
+    } ]
+  },
+  "1a03ef2697ac67c9b603041b494e6b9f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3067944471ba0cc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705398915419,
+        "stop" : 1705398978154,
+        "duration" : 62735
+      }
+    } ]
+  },
+  "d2fae9d239cc7c86422194d64634dd3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37e2c94931692348",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//ul[@class='AFAutoSuggestItemsContainer']/li\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [440c787e626774ec003f26b8ce8ecdc2, findElement {using=xpath, value=//ul[@class='AFAutoSuggestItemsContainer']/li}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53971}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53971/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 440c787e626774ec003f26b8ce8ecdc2",
+      "time" : {
+        "start" : 1705399001990,
+        "stop" : 1705399022900,
+        "duration" : 20910
+      }
+    } ]
+  },
+  "1d19b9e8d6cc865086767d82fd3d3022" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34fb405babf392e5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Lost Sale Reason:']/following::a[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705399022948,
+        "stop" : 1705399186977,
+        "duration" : 164029
+      }
+    } ]
+  },
+  "f47b266b725c89e0000c9a78763aff0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ce127baba6cb006",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705398844467,
+        "stop" : 1705398915361,
+        "duration" : 70894
+      }
+    } ]
+  },
+  "4a4e171637c43ed32c4352a191bd4293" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9fc1c0ae1e5d7346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705398978224,
+        "stop" : 1705399001932,
+        "duration" : 23708
+      }
+    } ]
+  }
+}

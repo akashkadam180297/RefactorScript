@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[text()='Service Board'])[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "7d261bed40583408",
+        "parentUid" : "987f1208b459628f0110bd8116f5cf15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705385517288,
+          "stop" : 1705385701378,
+          "duration" : 184090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "987f1208b459628f0110bd8116f5cf15"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//a[text()='Export Journals'])[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "4d267e4e74193499",
+        "parentUid" : "9c1a7e11032c6eaece4b5ffb80f9db99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705385701458,
+          "stop" : 1705385761059,
+          "duration" : 59601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c1a7e11032c6eaece4b5ffb80f9db99"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

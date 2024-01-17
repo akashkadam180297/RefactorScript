@@ -1,0 +1,149 @@
+{
+  "uid" : "da7cc35420c1c086",
+  "name" : " Check that the selected contact is reflected in the main screen",
+  "fullName" : "tests.service.ServiceManagerWoLabor.verifyElementofMainScreen",
+  "historyId" : "cc0b8d2fe217be5fd42d0b68ed04bfb1",
+  "time" : {
+    "start" : 1705481349617,
+    "stop" : 1705481390669,
+    "duration" : 41052
+  },
+  "description" : "Test Description -  Check that the selected contact is reflected in the main screen",
+  "descriptionHtml" : "<p>Test Description -  Check that the selected contact is reflected in the main screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705480879831,
+      "stop" : 1705480920487,
+      "duration" : 40656
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description -  Check that the selected contact is reflected in the main screen",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "13a3008e88d97cba",
+      "name" : "Page Screenshot",
+      "source" : "13a3008e88d97cba.png",
+      "type" : "image/png",
+      "size" : 127821
+    }, {
+      "uid" : "33a81e0d4a285f83",
+      "name" : "Page Screenshot",
+      "source" : "33a81e0d4a285f83.png",
+      "type" : "image/png",
+      "size" : 127821
+    }, {
+      "uid" : "bd9e00bb90dd8d7e",
+      "name" : "Page Screenshot",
+      "source" : "bd9e00bb90dd8d7e.png",
+      "type" : "image/png",
+      "size" : 127814
+    }, {
+      "uid" : "ee92f4824b01b794",
+      "name" : "Page Screenshot",
+      "source" : "ee92f4824b01b794.png",
+      "type" : "image/png",
+      "size" : 127821
+    }, {
+      "uid" : "986b1bbccfef01e9",
+      "name" : "Page Screenshot",
+      "source" : "986b1bbccfef01e9.png",
+      "type" : "image/png",
+      "size" : 127821
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705481390669,
+      "stop" : 1705481390728,
+      "duration" : 59
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8036b1f16bc9c2e9",
+      "name" : "Page Screenshot",
+      "source" : "8036b1f16bc9c2e9.png",
+      "type" : "image/png",
+      "size" : 127821
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyElementofMainScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "11604@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da7cc35420c1c086.json",
+  "parameterValues" : [ ]
+}

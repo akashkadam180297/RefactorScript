@@ -1,0 +1,149 @@
+{
+  "uid" : "7ac8a5bc351ffa4d",
+  "name" : "Check that click on Internal Link and enter the text in Internal Note field",
+  "fullName" : "tests.service.ServiceManagerWoLabor.ClickInternalLink_and_EnterText",
+  "historyId" : "2d691defedfccde5e06925e409a6452a",
+  "time" : {
+    "start" : 1705495107334,
+    "stop" : 1705495170268,
+    "duration" : 62934
+  },
+  "description" : "Test Description - Check that click on Internal Link and enter the text in Internal Note field",
+  "descriptionHtml" : "<p>Test Description - Check that click on Internal Link and enter the text in Internal Note field</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705494944692,
+      "stop" : 1705494983456,
+      "duration" : 38764
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that click on Internal Link and enter the text in Internal Note field",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a86b332fda63fbf5",
+      "name" : "Page Screenshot",
+      "source" : "a86b332fda63fbf5.png",
+      "type" : "image/png",
+      "size" : 114180
+    }, {
+      "uid" : "b5a7b753ff3a58b6",
+      "name" : "Page Screenshot",
+      "source" : "b5a7b753ff3a58b6.png",
+      "type" : "image/png",
+      "size" : 74017
+    }, {
+      "uid" : "15afb786c5f02bd",
+      "name" : "Page Screenshot",
+      "source" : "15afb786c5f02bd.png",
+      "type" : "image/png",
+      "size" : 73936
+    }, {
+      "uid" : "3a1bac3953e4c4fc",
+      "name" : "Page Screenshot",
+      "source" : "3a1bac3953e4c4fc.png",
+      "type" : "image/png",
+      "size" : 73558
+    }, {
+      "uid" : "49ec61cf799664c3",
+      "name" : "Page Screenshot",
+      "source" : "49ec61cf799664c3.png",
+      "type" : "image/png",
+      "size" : 73558
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705495170279,
+      "stop" : 1705495170333,
+      "duration" : 54
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23a80683eda306f",
+      "name" : "Page Screenshot",
+      "source" : "23a80683eda306f.png",
+      "type" : "image/png",
+      "size" : 73571
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "ClickInternalLink_and_EnterText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "17588@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ac8a5bc351ffa4d.json",
+  "parameterValues" : [ ]
+}

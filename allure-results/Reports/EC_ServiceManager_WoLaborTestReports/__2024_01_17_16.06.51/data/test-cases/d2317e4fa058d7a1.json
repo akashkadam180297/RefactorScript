@@ -1,0 +1,143 @@
+{
+  "uid" : "d2317e4fa058d7a1",
+  "name" : "Check that click on View Profit and Loss hyperlink,verify and click Ok",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickViewProfitLoss_and_clickOk",
+  "historyId" : "f8d338c45cbf6d204c1c83472b4d9543",
+  "time" : {
+    "start" : 1705487561737,
+    "stop" : 1705487614552,
+    "duration" : 52815
+  },
+  "description" : "Test Description -Check that click on View Profit and Loss hyperlink,verify and click Ok",
+  "descriptionHtml" : "<p>Test Description -Check that click on View Profit and Loss hyperlink,verify and click Ok</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705486707447,
+      "stop" : 1705486743015,
+      "duration" : 35568
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description -Check that click on View Profit and Loss hyperlink,verify and click Ok",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b215741f2e359eae",
+      "name" : "Page Screenshot",
+      "source" : "b215741f2e359eae.png",
+      "type" : "image/png",
+      "size" : 114640
+    }, {
+      "uid" : "9fa10c8ab4007cc4",
+      "name" : "Page Screenshot",
+      "source" : "9fa10c8ab4007cc4.png",
+      "type" : "image/png",
+      "size" : 114640
+    }, {
+      "uid" : "4d72954839572f57",
+      "name" : "Page Screenshot",
+      "source" : "4d72954839572f57.png",
+      "type" : "image/png",
+      "size" : 110467
+    }, {
+      "uid" : "97aa0b77e11f645a",
+      "name" : "Page Screenshot",
+      "source" : "97aa0b77e11f645a.png",
+      "type" : "image/png",
+      "size" : 110467
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705487614553,
+      "stop" : 1705487614611,
+      "duration" : 58
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c7f7c8e3dd04fbdb",
+      "name" : "Page Screenshot",
+      "source" : "c7f7c8e3dd04fbdb.png",
+      "type" : "image/png",
+      "size" : 110467
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickViewProfitLoss_and_clickOk"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "7120@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2317e4fa058d7a1.json",
+  "parameterValues" : [ ]
+}

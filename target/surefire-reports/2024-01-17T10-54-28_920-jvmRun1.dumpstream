@@ -1,0 +1,21 @@
+# Created on 2024-01-17T11:15:53.250
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created on 2024-01-17T11:15:56.420
+Unexpected IOException with stream: WebElement is clickable using locator: <[[ChromeDriver: chrome on WINDOWS (7a2cdfc2f279b0a58a48005e16705b70)] -> xpath: //span[text()='Pause']]>
+
+
+# Created on 2024-01-17T11:16:01.498
+Unexpected IOException with stream: Loader is not visible
+
+
+# Created on 2024-01-17T11:16:07.603
+Unexpected IOException with stream: WebElement is visible using locator: <[[ChromeDriver: chrome on WINDOWS (7a2cdfc2f279b0a58a48005e16705b70)] -> xpath: //span[text()='Scan Employee Badge']/following::input[1]]>
+
+

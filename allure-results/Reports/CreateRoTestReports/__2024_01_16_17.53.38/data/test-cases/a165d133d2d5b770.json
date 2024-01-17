@@ -1,0 +1,137 @@
+{
+  "uid" : "a165d133d2d5b770",
+  "name" : "Test_007_Remove labor",
+  "fullName" : "tests.service.CreateRo.Test_007_removeLabor",
+  "historyId" : "b13fcc95a5b3cc423ac9cdc6ceddfe4b",
+  "time" : {
+    "start" : 1705407799945,
+    "stop" : 1705407818377,
+    "duration" : 18432
+  },
+  "description" : "Test Description: Remove labor",
+  "descriptionHtml" : "<p>Test Description: Remove labor</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705407386684,
+      "stop" : 1705407412750,
+      "duration" : 26066
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Remove labor",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3bc14a8a2d55cc53",
+      "name" : "Page Screenshot",
+      "source" : "3bc14a8a2d55cc53.png",
+      "type" : "image/png",
+      "size" : 95702
+    }, {
+      "uid" : "ccb3ff0a98712f73",
+      "name" : "Page Screenshot",
+      "source" : "ccb3ff0a98712f73.png",
+      "type" : "image/png",
+      "size" : 94612
+    }, {
+      "uid" : "1e5cfc8b7bd1c03",
+      "name" : "Page Screenshot",
+      "source" : "1e5cfc8b7bd1c03.png",
+      "type" : "image/png",
+      "size" : 94557
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705407818378,
+      "stop" : 1705407818425,
+      "duration" : 47
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "35047e382759fbad",
+      "name" : "Page Screenshot",
+      "source" : "35047e382759fbad.png",
+      "type" : "image/png",
+      "size" : 94557
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_007_removeLabor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "13404@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Create RO Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a165d133d2d5b770.json",
+  "parameterValues" : [ ]
+}

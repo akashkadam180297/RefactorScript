@@ -35,7 +35,7 @@ public class JournalizePartsInvoice extends TestDriverActions {
 
     @Test(priority=2, description="Select checkBox ,click on GenerateJournal and service board",enabled = true)
     @Description("Test Description : T_002_Select checkBox ,click on GenerateJournal and service board")
-    public void serviceBoard() throws InterruptedException {
+    public void serviceBoard() throws InterruptedException, FileNotFoundException {
         journalize.clickOnCheckBox();
         journalize.clickOnGenerateJournalsBtn();
         journalize.clickOnServiceBoard();

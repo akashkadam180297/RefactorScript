@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.parts.JournalizePartsInvoice",
+        "children" : [ {
+          "name" : "Login the page and Go to the Financial Manager",
+          "uid" : "ab6d00770f26c81b",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705391009857,
+            "stop" : 1705391045352,
+            "duration" : 35495
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+          "uid" : "255daee170c6249f",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705391045496,
+            "stop" : 1705391083655,
+            "duration" : 38159
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Select checkBox ,click on GenerateJournal and service board",
+          "uid" : "92c9ef8ab1caeaac",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705391083752,
+            "stop" : 1705391112442,
+            "duration" : 28690
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Click on Financial manager,verify and sign out the page",
+          "uid" : "d34ef41555eac704",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705391112512,
+            "stop" : 1705391157314,
+            "duration" : 44802
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "875defd0effb370cfd68afb2112fe9c9"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

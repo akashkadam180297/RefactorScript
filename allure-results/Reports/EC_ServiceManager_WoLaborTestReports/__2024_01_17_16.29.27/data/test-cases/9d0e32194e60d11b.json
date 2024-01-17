@@ -1,0 +1,143 @@
+{
+  "uid" : "9d0e32194e60d11b",
+  "name" : "Check that click on InvoiceTo hyperlink, verify element and click on cancle button",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnInvoiceTohyperlink_and_clickOnCancle",
+  "historyId" : "6a8c3c7c0afb23fd7224357c2217b726",
+  "time" : {
+    "start" : 1705488861303,
+    "stop" : 1705488918166,
+    "duration" : 56863
+  },
+  "description" : "Test Description - Check that click on InvoiceTo hyperlink, verify element and click on cancle button",
+  "descriptionHtml" : "<p>Test Description - Check that click on InvoiceTo hyperlink, verify element and click on cancle button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705488166413,
+      "stop" : 1705488203199,
+      "duration" : 36786
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that click on InvoiceTo hyperlink, verify element and click on cancle button",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "58016e61d975a86e",
+      "name" : "Page Screenshot",
+      "source" : "58016e61d975a86e.png",
+      "type" : "image/png",
+      "size" : 71013
+    }, {
+      "uid" : "9e77c69c5035797c",
+      "name" : "Page Screenshot",
+      "source" : "9e77c69c5035797c.png",
+      "type" : "image/png",
+      "size" : 71032
+    }, {
+      "uid" : "6f79ee7266a1166a",
+      "name" : "Page Screenshot",
+      "source" : "6f79ee7266a1166a.png",
+      "type" : "image/png",
+      "size" : 121432
+    }, {
+      "uid" : "236cbffb97cda5c5",
+      "name" : "Page Screenshot",
+      "source" : "236cbffb97cda5c5.png",
+      "type" : "image/png",
+      "size" : 121432
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705488918167,
+      "stop" : 1705488918218,
+      "duration" : 51
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c5c7aec59bae7b84",
+      "name" : "Page Screenshot",
+      "source" : "c5c7aec59bae7b84.png",
+      "type" : "image/png",
+      "size" : 121432
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnInvoiceTohyperlink_and_clickOnCancle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "24420@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d0e32194e60d11b.json",
+  "parameterValues" : [ ]
+}

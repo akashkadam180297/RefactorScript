@@ -1,5 +1,6 @@
 package pages.parts;
 
+import actions.LoginActions;
 import actions.ReusableActions;
 import actions.WaitActions;
 import actions.WebElementActions;
@@ -35,7 +36,7 @@ public class JournalizePartsInvoice extends TestDriverActions {
     @FindBy(xpath = "(//a[text()='TV Search Service Board'])[1]")
     WebElement service_board;
 
-    @FindBy(xpath = "(//a[text()='TV Search Service Board'])[2]/preceding::a[2]")
+    @FindBy(xpath = "(//a[text()='Financial Manager'])[1]")
     WebElement financialManager;
 
     @FindBy(xpath = "(//a[text()='Export Journals'])[1]")
@@ -135,14 +136,20 @@ public class JournalizePartsInvoice extends TestDriverActions {
     /**
      * click on service board
      */
-    public void clickOnServiceBoard() throws InterruptedException {
+    public void clickOnServiceBoard() throws InterruptedException, FileNotFoundException {
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(service_board);
-        WebElementActions.getActions().clickUsingJS(service_board);
+        if(LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(service_board);
+            WebElementActions.getActions().clickUsingJS(service_board);
 
-        WaitActions.getWaits().loadingWait(loder);
+            WaitActions.getWaits().loadingWait(loder);
 
-        TestListener.saveScreenshotPNG(driver);
+            TestListener.saveScreenshotPNG(driver);
+        }
+        else {
+            ReusableActions.getActions().clickParentMenu("Service");
+            ReusableActions.getActions().clickChildMenu("Service Board");
+        }
     }
 
     // Missing View Arrival in Service Board tab
@@ -192,8 +199,8 @@ public class JournalizePartsInvoice extends TestDriverActions {
         Thread.sleep(3000);
         WebElementActions.getActions().clickUsingJS(btn_signOut);
 
- //       WaitActions.getWaits().WaitUntilWebElementIsVisible(inputbox_Username);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(date_cell);
+        WaitActions.getWaits().WaitUntilWebElementIsVisible(inputbox_Username);
+//        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(date_cell);
         Assert.assertTrue(inputbox_Username.isDisplayed());
         TestListener.saveScreenshotPNG(driver);
     }

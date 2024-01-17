@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//a[text()='TV Search Service Board'])[2]/preceding::a[2]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "d9e1c38a9beb681e",
+        "parentUid" : "c23bbf7f1cd2d197d37c5d29cc9be0c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705386525350,
+          "stop" : 1705386689129,
+          "duration" : 163779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c23bbf7f1cd2d197d37c5d29cc9be0c2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

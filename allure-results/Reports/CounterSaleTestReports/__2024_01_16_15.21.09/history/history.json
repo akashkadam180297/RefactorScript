@@ -1,0 +1,137 @@
+{
+  "67298149ba382e186c2e545ebcd84a7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e4184b98c29a66d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705398097146,
+        "stop" : 1705398116084,
+        "duration" : 18938
+      }
+    } ]
+  },
+  "f3ee5bd589576521d16b2cbd3974eb5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1934ac037726b285",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705398064440,
+        "stop" : 1705398096999,
+        "duration" : 32559
+      }
+    } ]
+  },
+  "1a03ef2697ac67c9b603041b494e6b9f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6baa54708ef46508",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705398176226,
+        "stop" : 1705398232990,
+        "duration" : 56764
+      }
+    } ]
+  },
+  "1d19b9e8d6cc865086767d82fd3d3022" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e20c30ca13663c4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Lost Sale Reason:']/following::a[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705398506136,
+        "stop" : 1705398669738,
+        "duration" : 163602
+      }
+    } ]
+  },
+  "d2fae9d239cc7c86422194d64634dd3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6cff7b7e51287b8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1415846b2c3fb4a72df83239444abc22)] -> xpath: (//span[contains(text(),'Cancel')])[1]] (tried for 40 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52293/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1415846b2c3fb4a72df83239444abc22",
+      "time" : {
+        "start" : 1705398256258,
+        "stop" : 1705398506046,
+        "duration" : 249788
+      }
+    } ]
+  },
+  "f47b266b725c89e0000c9a78763aff0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b50c9d5728b5b7a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705398116139,
+        "stop" : 1705398176156,
+        "duration" : 60017
+      }
+    } ]
+  },
+  "4a4e171637c43ed32c4352a191bd4293" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "49aa8ea1146beb4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705398233078,
+        "stop" : 1705398256211,
+        "duration" : 23133
+      }
+    } ]
+  }
+}

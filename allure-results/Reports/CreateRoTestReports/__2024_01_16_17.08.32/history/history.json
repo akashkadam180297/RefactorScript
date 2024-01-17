@@ -1,0 +1,139 @@
+{
+  "d9e99d8617cddd3846eec078ba5644c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3748cafe7605c5d0",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (c79a521915d4b9b7345ee240606e7682)] -> xpath: (//span[text()='Total Charge']/following::a[6]/img)[1]] (tried for 40 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53165}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53165/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c79a521915d4b9b7345ee240606e7682",
+      "time" : {
+        "start" : 1705405059141,
+        "stop" : 1705405099706,
+        "duration" : 40565
+      }
+    } ]
+  },
+  "88d5dcb4f0e70cf43196c32997a9daa8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aeca8020bad8a4fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705404820864,
+        "stop" : 1705404836208,
+        "duration" : 15344
+      }
+    } ]
+  },
+  "4118eed538da955bfa671448688ce6fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26120876da2db4aa",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //h2[text()='Repair-Accessories Group']/following::span[2]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705404895545,
+        "stop" : 1705405059083,
+        "duration" : 163538
+      }
+    } ]
+  },
+  "326430379fa746ef5f80e2ad4fef7a64" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e870458007d04f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705404770638,
+        "stop" : 1705404797197,
+        "duration" : 26559
+      }
+    } ]
+  },
+  "ecee6160be2a7a7256bad71eb90c7c1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66a898bf1cf67ae1",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (713, 576). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c79a521915d4b9b7345ee240606e7682, clickElement {id=6885A34215F7D2C2A2E8679379739B4D_element_514}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53165}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53165/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (c79a521915d4b9b7345ee240606e7682)] -> xpath: //span[text()='Add']]\nSession ID: c79a521915d4b9b7345ee240606e7682",
+      "time" : {
+        "start" : 1705404836323,
+        "stop" : 1705404895463,
+        "duration" : 59140
+      }
+    } ]
+  },
+  "b13fcc95a5b3cc423ac9cdc6ceddfe4b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db1f00d2db379522",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a id=\"reg0:0:rWO:1:trashWA:dc_cil1\" class=\"xgm p_AFDisabled\" style=\"margin:1.0px; border-width:1.0px;\" data-afr-fcs=\"false\" aria-disabled=\"true\" tabindex=\"-1\">...</a> is not clickable at point (714, 382). Other element would receive the click: <td class=\"x15 x4z\">...</td>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c79a521915d4b9b7345ee240606e7682, clickElement {id=6885A34215F7D2C2A2E8679379739B4D_element_543}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53165}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53165/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (c79a521915d4b9b7345ee240606e7682)] -> xpath: //a[contains(@id,'trashWA')]]\nSession ID: c79a521915d4b9b7345ee240606e7682",
+      "time" : {
+        "start" : 1705405099787,
+        "stop" : 1705405112087,
+        "duration" : 12300
+      }
+    } ]
+  },
+  "c38f912d6298cd655a3c95a80bcd38c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24c56a5e0a3e6a5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705404797356,
+        "stop" : 1705404820777,
+        "duration" : 23421
+      }
+    } ]
+  }
+}

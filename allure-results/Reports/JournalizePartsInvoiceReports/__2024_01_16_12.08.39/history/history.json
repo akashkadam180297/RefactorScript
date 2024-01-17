@@ -1,0 +1,79 @@
+{
+  "3f1e2156c37cdb8b0948c51e0915703b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bb71a4b68e2860f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705386881390,
+        "stop" : 1705386917873,
+        "duration" : 36483
+      }
+    } ]
+  },
+  "9831ec8775259cbb5f37c215f95351d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "623e0c08e4098254",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//a[text()='Export Journals'])[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705386946688,
+        "stop" : 1705387119334,
+        "duration" : 172646
+      }
+    } ]
+  },
+  "5ddb822e4780c470f0718bfd97295335" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71df93861e00389e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705386848536,
+        "stop" : 1705386881246,
+        "duration" : 32710
+      }
+    } ]
+  },
+  "bccd51d65bd728e2f21d42bc31f26fdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53fbbd3ba1a9b467",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705386917943,
+        "stop" : 1705386946638,
+        "duration" : 28695
+      }
+    } ]
+  }
+}

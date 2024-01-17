@@ -3,7 +3,19 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test">
     <classes>
-      <class name="tests.administration.CreateVendor"/>
+      <class name="tests.service.ServiceManagerWoLabor"/>
     </classes>
   </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="tests.service.ServiceManagerWoLabor">
+        <methods>
+          <include name="verifyElementofMainScreen"/>
+          <include name="generateAllure"/>
+          <include name="afterMethodTakeScreenShot"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- tests.service.ServiceManagerWoLabor -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

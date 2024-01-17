@@ -1,0 +1,149 @@
+{
+  "uid" : "851184d3521d2907",
+  "name" : "Check that click on update Rates hyperlink and sign out the page",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnUpdateRates_and_SignOut",
+  "historyId" : "57419aa32fee2ea1dcc23e73bb913c3e",
+  "time" : {
+    "start" : 1705484437805,
+    "stop" : 1705484519739,
+    "duration" : 81934
+  },
+  "description" : "Test Description -Check that click on update Rates hyperlink and sign out the page",
+  "descriptionHtml" : "<p>Test Description -Check that click on update Rates hyperlink and sign out the page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705483527727,
+      "stop" : 1705483565638,
+      "duration" : 37911
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description -Check that click on update Rates hyperlink and sign out the page",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8fc08c7ba4ad8a42",
+      "name" : "Page Screenshot",
+      "source" : "8fc08c7ba4ad8a42.png",
+      "type" : "image/png",
+      "size" : 96366
+    }, {
+      "uid" : "d340fdcc551ba445",
+      "name" : "Page Screenshot",
+      "source" : "d340fdcc551ba445.png",
+      "type" : "image/png",
+      "size" : 96366
+    }, {
+      "uid" : "fac8f1df1a495be5",
+      "name" : "Page Screenshot",
+      "source" : "fac8f1df1a495be5.png",
+      "type" : "image/png",
+      "size" : 95767
+    }, {
+      "uid" : "f322ecaaa7b97532",
+      "name" : "Page Screenshot",
+      "source" : "f322ecaaa7b97532.png",
+      "type" : "image/png",
+      "size" : 12610
+    }, {
+      "uid" : "bd8fa133da836418",
+      "name" : "Page Screenshot",
+      "source" : "bd8fa133da836418.png",
+      "type" : "image/png",
+      "size" : 12610
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705484519740,
+      "stop" : 1705484519789,
+      "duration" : 49
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3d8e9f49138a5a25",
+      "name" : "Page Screenshot",
+      "source" : "3d8e9f49138a5a25.png",
+      "type" : "image/png",
+      "size" : 12610
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnUpdateRates_and_SignOut"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "19248@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "851184d3521d2907.json",
+  "parameterValues" : [ ]
+}

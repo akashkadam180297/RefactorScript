@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[text()='TV Search Service Board'])[1]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "3fc477e903201790",
+        "parentUid" : "d649699ed4dbdfca055a9fc944dfd534",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705384872521,
+          "stop" : 1705385056345,
+          "duration" : 183824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d649699ed4dbdfca055a9fc944dfd534"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//a[text()='TV Search Service Board'])[2]/preceding::a[2]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "bbaab6769e5cf789",
+        "parentUid" : "c23bbf7f1cd2d197d37c5d29cc9be0c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705385056406,
+          "stop" : 1705385219997,
+          "duration" : 163591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c23bbf7f1cd2d197d37c5d29cc9be0c2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

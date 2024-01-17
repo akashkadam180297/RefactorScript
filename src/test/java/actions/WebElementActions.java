@@ -51,8 +51,9 @@ public class WebElementActions extends TestDriverActions {
      */
     public void clickElement(WebElement element) throws InterruptedException {
         //WaitActions.getWaits().WaitUntilWebElementIsVisible(element);
-        WaitActions.getWaits().waitForElementTobeClickable(element);
-        Thread.sleep(3000);
+ //       WaitActions.getWaits().waitForElementTobeClickable(element);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(element);
+        Thread.sleep(4000);
         element.click();
     }
 

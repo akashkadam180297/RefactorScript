@@ -40,6 +40,9 @@ public class EC_Tech_WoParts extends TestDriverActions {
     @FindBy(xpath = "//label[text()='Part #:']/following::a[1]/img")
     public WebElement search_icon;
 
+    @FindBy(xpath = "//label[contains(text(),'Scan Part #:')]/following::a[1]/img")
+    public WebElement keyboard_icon;
+
     @FindBy(xpath = "//label[text()='Quantity  (EA):']")
     public WebElement label_Quantity;
 
@@ -507,6 +510,14 @@ public class EC_Tech_WoParts extends TestDriverActions {
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
     }
+    public void clickOnKeyboardIcon() throws InterruptedException {
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(keyboard_icon);
+        WebElementActions.getActions().clickElement(keyboard_icon);
+
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+    }
     /**
      * verify parts tab Element (Check the Generic setup of the screen)
      */
@@ -576,6 +587,7 @@ public class EC_Tech_WoParts extends TestDriverActions {
     /**Verify Part Details Pannel*/
     public void verifyPartDetailsPannel() throws InterruptedException {
 
+        Thread.sleep(5000);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_warehouse);
         Assert.assertTrue(label_warehouse.isDisplayed());
         Assert.assertTrue(txt_warehouse.isDisplayed());
@@ -809,13 +821,15 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * click on Non-catalog part
      */
     public void clickOnNonCatalogPart() throws InterruptedException {
-        System.out.println("clickOnNonCatalogPart()");
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_NonCatalogPart);
-        WebElementActions.getActions().clickElement(btn_NonCatalogPart);
-        System.out.println("btn_NonCatalogPart...:"+btn_NonCatalogPart);
-        Thread.sleep(10000);
-        WaitActions.getWaits().loadingWait(loder);
-        TestListener.saveScreenshotPNG(driver);
+        if(LoginActions.environmentName.contains("QA")) {
+            System.out.println("clickOnNonCatalogPart()");
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_NonCatalogPart);
+            WebElementActions.getActions().clickElement(btn_NonCatalogPart);
+            System.out.println("btn_NonCatalogPart...:" + btn_NonCatalogPart);
+            Thread.sleep(10000);
+            WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
+        }
     }
     /**
      * Verify element of Non-catalog part

@@ -1,0 +1,119 @@
+{
+  "uid" : "c2fadec6fb3366ef",
+  "name" : "Test_002_Click on Add new RO and select Unit",
+  "fullName" : "tests.service.CreateRo.Test_002_clickAddNewROAndSelectUnit",
+  "historyId" : "c38f912d6298cd655a3c95a80bcd38c9",
+  "time" : {
+    "start" : 1705405545045,
+    "stop" : 1705405568036,
+    "duration" : 22991
+  },
+  "description" : "Test Description: Click on Add new RO and select Unit",
+  "descriptionHtml" : "<p>Test Description: Click on Add new RO and select Unit</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description: Click on Add new RO and select Unit",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6283a8520b419dcb",
+      "name" : "Page Screenshot",
+      "source" : "6283a8520b419dcb.png",
+      "type" : "image/png",
+      "size" : 131749
+    }, {
+      "uid" : "3f6da9e5de697821",
+      "name" : "Page Screenshot",
+      "source" : "3f6da9e5de697821.png",
+      "type" : "image/png",
+      "size" : 118316
+    }, {
+      "uid" : "67e54e9ee38a298d",
+      "name" : "Page Screenshot",
+      "source" : "67e54e9ee38a298d.png",
+      "type" : "image/png",
+      "size" : 118382
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705405568042,
+      "stop" : 1705405568105,
+      "duration" : 63
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b88320337a6f19f4",
+      "name" : "Page Screenshot",
+      "source" : "b88320337a6f19f4.png",
+      "type" : "image/png",
+      "size" : 118382
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickAddNewROAndSelectUnit"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "10436@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Create RO Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2fadec6fb3366ef.json",
+  "parameterValues" : [ ]
+}

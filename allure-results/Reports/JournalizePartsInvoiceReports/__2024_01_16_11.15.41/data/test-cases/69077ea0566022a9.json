@@ -1,0 +1,165 @@
+{
+  "uid" : "69077ea0566022a9",
+  "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+  "fullName" : "tests.parts.JournalizePartsInvoice.clickOnGererateJournals_checkbox",
+  "historyId" : "3f1e2156c37cdb8b0948c51e0915703b",
+  "time" : {
+    "start" : 1705383832833,
+    "stop" : 1705383868755,
+    "duration" : 35922
+  },
+  "description" : "Test Description : T_001_Click on dropdown,refresh button,generateJournalize and select check box",
+  "descriptionHtml" : "<p>Test Description : T_001_Click on dropdown,refresh button,generateJournalize and select check box</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705383778361,
+      "stop" : 1705383802545,
+      "duration" : 24184
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description : T_001_Click on dropdown,refresh button,generateJournalize and select check box",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "65cec34d4c6de0fa",
+      "name" : "Page Screenshot",
+      "source" : "65cec34d4c6de0fa.png",
+      "type" : "image/png",
+      "size" : 85375
+    }, {
+      "uid" : "72cd57dd25a7a556",
+      "name" : "Page Screenshot",
+      "source" : "72cd57dd25a7a556.png",
+      "type" : "image/png",
+      "size" : 83899
+    }, {
+      "uid" : "f14c992ded6de9e4",
+      "name" : "Page Screenshot",
+      "source" : "f14c992ded6de9e4.png",
+      "type" : "image/png",
+      "size" : 83953
+    }, {
+      "uid" : "48ef1fdd054a01e3",
+      "name" : "Page Screenshot",
+      "source" : "48ef1fdd054a01e3.png",
+      "type" : "image/png",
+      "size" : 111810
+    }, {
+      "uid" : "75868f5c55b5fcdf",
+      "name" : "Page Screenshot",
+      "source" : "75868f5c55b5fcdf.png",
+      "type" : "image/png",
+      "size" : 111810
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705383868763,
+      "stop" : 1705383868880,
+      "duration" : 117
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "31aa1683cf9a55bf",
+      "name" : "Page Screenshot",
+      "source" : "31aa1683cf9a55bf.png",
+      "type" : "image/png",
+      "size" : 111756
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnGererateJournals_checkbox"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "25680@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Journalize Parts Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f02e8db47f43d3eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705383150896,
+        "stop" : 1705383186743,
+        "duration" : 35847
+      }
+    }, {
+      "uid" : "330d35b8804e8d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705382316687,
+        "stop" : 1705382355495,
+        "duration" : 38808
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69077ea0566022a9.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,138 @@
+{
+  "d9e99d8617cddd3846eec078ba5644c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "925b4ed2aeae3d35",
+      "status" : "broken",
+      "statusDetails" : "Index 0 out of bounds for length 0",
+      "time" : {
+        "start" : 1705403073497,
+        "stop" : 1705403073549,
+        "duration" : 52
+      }
+    } ]
+  },
+  "4118eed538da955bfa671448688ce6fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e492ba7b8b8ae28",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //h2[text()='Repair-Accessories Group']/following::span[2]' (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1705402909878,
+        "stop" : 1705403073445,
+        "duration" : 163567
+      }
+    } ]
+  },
+  "88d5dcb4f0e70cf43196c32997a9daa8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "217ad6fc39db9b35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705402874433,
+        "stop" : 1705402893314,
+        "duration" : 18881
+      }
+    } ]
+  },
+  "326430379fa746ef5f80e2ad4fef7a64" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff5f1f33bb3a838e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705402816274,
+        "stop" : 1705402843862,
+        "duration" : 27588
+      }
+    } ]
+  },
+  "ecee6160be2a7a7256bad71eb90c7c1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67a5e182606674fa",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a role=\"tab\" aria-controls=\"reg0:0:rWO:1:rlbg:1:sdiVmrs::body\" id=\"reg0:0:rWO:1:rlbg:1:sdiVmrs::disAcr\" class=\"x164\" data-afr-fcs=\"true\" tabindex=\"-1\" href=\"#\" onclick=\"return false;\">...</a> is not clickable at point (397, 79). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0f34f3221e349b1cfebff6b6de2a4e23, clickElement {id=D00961454D772A9BADFFA436CBCC5F2A_element_362}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62804/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (0f34f3221e349b1cfebff6b6de2a4e23)] -> xpath: (//div[text()='Add Labour']/following::a[text()='VMRS'])[1]]\nSession ID: 0f34f3221e349b1cfebff6b6de2a4e23",
+      "time" : {
+        "start" : 1705402893365,
+        "stop" : 1705402909827,
+        "duration" : 16462
+      }
+    } ]
+  },
+  "b13fcc95a5b3cc423ac9cdc6ceddfe4b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "223b13fdf840d720",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705403073599,
+        "stop" : 1705403085032,
+        "duration" : 11433
+      }
+    } ]
+  },
+  "c38f912d6298cd655a3c95a80bcd38c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ee1364a7b3f0fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705402844005,
+        "stop" : 1705402874385,
+        "duration" : 30380
+      }
+    } ]
+  }
+}

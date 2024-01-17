@@ -30,6 +30,7 @@ public class TechWoParts extends TestDriverActions {
               part.enterUnitNumber();
               part.clickSelect();
               part.clickOnPartsTab();
+              part.clickOnKeyboardIcon();
 
         }
 

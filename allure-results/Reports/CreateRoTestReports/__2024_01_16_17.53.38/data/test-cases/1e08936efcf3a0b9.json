@@ -1,0 +1,119 @@
+{
+  "uid" : "1e08936efcf3a0b9",
+  "name" : "Test_001_Login the page and go to the CompleteRo",
+  "fullName" : "tests.service.CreateRo.Test_001_gotoCompleteROScreen",
+  "historyId" : "326430379fa746ef5f80e2ad4fef7a64",
+  "time" : {
+    "start" : 1705405518553,
+    "stop" : 1705405544904,
+    "duration" : 26351
+  },
+  "description" : "Test Description: Login the page and go to the CompleteRo",
+  "descriptionHtml" : "<p>Test Description: Login the page and go to the CompleteRo</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description: Login the page and go to the CompleteRo",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f52ebc77cda47d75",
+      "name" : "Page Screenshot",
+      "source" : "f52ebc77cda47d75.png",
+      "type" : "image/png",
+      "size" : 134191
+    }, {
+      "uid" : "6e3f3b2e7ccba76c",
+      "name" : "Page Screenshot",
+      "source" : "6e3f3b2e7ccba76c.png",
+      "type" : "image/png",
+      "size" : 131584
+    }, {
+      "uid" : "19748674e8f078f7",
+      "name" : "Page Screenshot",
+      "source" : "19748674e8f078f7.png",
+      "type" : "image/png",
+      "size" : 131614
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705405544970,
+      "stop" : 1705405545029,
+      "duration" : 59
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "86f3a9fca790aa39",
+      "name" : "Page Screenshot",
+      "source" : "86f3a9fca790aa39.png",
+      "type" : "image/png",
+      "size" : 131520
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoCompleteROScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.CreateRo"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "10436@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Create RO Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e08936efcf3a0b9.json",
+  "parameterValues" : [ ]
+}
