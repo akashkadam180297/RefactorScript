@@ -1,0 +1,149 @@
+{
+  "uid" : "e354c9a3743295d3",
+  "name" : "Check that click on Internal Link and enter the text in Internal Note field",
+  "fullName" : "tests.service.ServiceManagerWoLabor.ClickInternalLink_and_EnterText",
+  "historyId" : "2d691defedfccde5e06925e409a6452a",
+  "time" : {
+    "start" : 1705555842277,
+    "stop" : 1705555906611,
+    "duration" : 64334
+  },
+  "description" : "Test Description - Check that click on Internal Link and enter the text in Internal Note field",
+  "descriptionHtml" : "<p>Test Description - Check that click on Internal Link and enter the text in Internal Note field</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705555677093,
+      "stop" : 1705555716094,
+      "duration" : 39001
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that click on Internal Link and enter the text in Internal Note field",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5ab8d8281ffa9f40",
+      "name" : "Page Screenshot",
+      "source" : "5ab8d8281ffa9f40.png",
+      "type" : "image/png",
+      "size" : 188219
+    }, {
+      "uid" : "abb44f46eb785314",
+      "name" : "Page Screenshot",
+      "source" : "abb44f46eb785314.png",
+      "type" : "image/png",
+      "size" : 101992
+    }, {
+      "uid" : "f8e07795710833dd",
+      "name" : "Page Screenshot",
+      "source" : "f8e07795710833dd.png",
+      "type" : "image/png",
+      "size" : 101949
+    }, {
+      "uid" : "c97a32301603ba1f",
+      "name" : "Page Screenshot",
+      "source" : "c97a32301603ba1f.png",
+      "type" : "image/png",
+      "size" : 189064
+    }, {
+      "uid" : "baaa108e879a389f",
+      "name" : "Page Screenshot",
+      "source" : "baaa108e879a389f.png",
+      "type" : "image/png",
+      "size" : 189064
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705555906621,
+      "stop" : 1705555906769,
+      "duration" : 148
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a301057c860efe4b",
+      "name" : "Page Screenshot",
+      "source" : "a301057c860efe4b.png",
+      "type" : "image/png",
+      "size" : 189064
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "ClickInternalLink_and_EnterText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "24064@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e354c9a3743295d3.json",
+  "parameterValues" : [ ]
+}

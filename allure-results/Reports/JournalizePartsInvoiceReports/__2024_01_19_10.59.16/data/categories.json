@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "f02c4563efd46c9",
+        "parentUid" : "40cecb094cf9d3468f79c6b582e383d1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705642156307,
+          "stop" : 1705642156309,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40cecb094cf9d3468f79c6b582e383d1"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "ed2f81b27bd7efcc",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705642156513,
+          "stop" : 1705642156513,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

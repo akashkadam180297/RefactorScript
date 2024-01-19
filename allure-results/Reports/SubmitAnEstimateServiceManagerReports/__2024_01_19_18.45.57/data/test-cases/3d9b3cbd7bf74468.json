@@ -1,0 +1,125 @@
+{
+  "uid" : "3d9b3cbd7bf74468",
+  "name" : "Test_006_verify Labor",
+  "fullName" : "tests.Estimate.SubmitAnEstimateServiceManager.Test_006_verifyLabour",
+  "historyId" : "1febcdbfcaa3e47b32a1f8df060a56ff",
+  "time" : {
+    "start" : 1705669501832,
+    "stop" : 1705669582644,
+    "duration" : 80812
+  },
+  "description" : "Test Description: verify  Labour ",
+  "descriptionHtml" : "<p>Test Description: verify  Labour</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705669108023,
+      "stop" : 1705669145565,
+      "duration" : 37542
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: verify  Labour ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4141d36322bafc10",
+      "name" : "Page Screenshot",
+      "source" : "4141d36322bafc10.png",
+      "type" : "image/png",
+      "size" : 86248
+    }, {
+      "uid" : "1527efd57bd0a6cb",
+      "name" : "Page Screenshot",
+      "source" : "1527efd57bd0a6cb.png",
+      "type" : "image/png",
+      "size" : 86248
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705669582645,
+      "stop" : 1705669582760,
+      "duration" : 115
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "abd820fc01b10c2e",
+      "name" : "Page Screenshot",
+      "source" : "abd820fc01b10c2e.png",
+      "type" : "image/png",
+      "size" : 86248
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_006_verifyLabour"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "22800@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d9b3cbd7bf74468.json",
+  "parameterValues" : [ ]
+}

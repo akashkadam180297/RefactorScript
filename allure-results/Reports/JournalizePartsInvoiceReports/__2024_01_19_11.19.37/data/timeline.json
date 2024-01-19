@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-RH29BD1",
+    "children" : [ {
+      "name" : "26128@DESKTOP-RH29BD1.main(1)",
+      "children" : [ {
+        "name" : "Login the page and Go to the Financial Manager",
+        "uid" : "9ddd487984cab3a1",
+        "parentUid" : "aec3de06d064933fb0754c4c41bb5726",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705643154394,
+          "stop" : 1705643186637,
+          "duration" : 32243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "109fb1023fd25061",
+        "parentUid" : "aec3de06d064933fb0754c4c41bb5726",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705643310881,
+          "stop" : 1705643376957,
+          "duration" : 66076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+        "uid" : "990b1825678d68d6",
+        "parentUid" : "aec3de06d064933fb0754c4c41bb5726",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705643186855,
+          "stop" : 1705643259353,
+          "duration" : 72498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "6b59fbf89c1d44b7",
+        "parentUid" : "aec3de06d064933fb0754c4c41bb5726",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705643259523,
+          "stop" : 1705643310751,
+          "duration" : 51228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aec3de06d064933fb0754c4c41bb5726"
+    } ],
+    "uid" : "b1441ad176736c5515e66c68c9827861"
+  } ]
+}

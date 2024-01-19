@@ -1,0 +1,166 @@
+{
+  "uid" : "9a15e07a714f1781",
+  "name" : "Check that click on Type hyperlink, verify the element and click on select button",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnTypelink_and_clickOnSelect",
+  "historyId" : "6443bd82b33659723814683265ca49cb",
+  "time" : {
+    "start" : 1705563116177,
+    "stop" : 1705563186793,
+    "duration" : 70616
+  },
+  "description" : "Test Description - Check that click on Type hyperlink, verify the element and click on select button",
+  "descriptionHtml" : "<p>Test Description - Check that click on Type hyperlink, verify the element and click on select button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705562345442,
+      "stop" : 1705562391417,
+      "duration" : 45975
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that click on Type hyperlink, verify the element and click on select button",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eb0bfaeff1d606f",
+      "name" : "Page Screenshot",
+      "source" : "eb0bfaeff1d606f.png",
+      "type" : "image/png",
+      "size" : 161889
+    }, {
+      "uid" : "2fd7e410472eb75f",
+      "name" : "Page Screenshot",
+      "source" : "2fd7e410472eb75f.png",
+      "type" : "image/png",
+      "size" : 129153
+    }, {
+      "uid" : "e2f4d11eca70958d",
+      "name" : "Page Screenshot",
+      "source" : "e2f4d11eca70958d.png",
+      "type" : "image/png",
+      "size" : 128490
+    }, {
+      "uid" : "4dcd8313403be2b1",
+      "name" : "Page Screenshot",
+      "source" : "4dcd8313403be2b1.png",
+      "type" : "image/png",
+      "size" : 161565
+    }, {
+      "uid" : "63cbf83be4183581",
+      "name" : "Page Screenshot",
+      "source" : "63cbf83be4183581.png",
+      "type" : "image/png",
+      "size" : 161565
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705563186793,
+      "stop" : 1705563186910,
+      "duration" : 117
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e1ef53c4cedc96ce",
+      "name" : "Page Screenshot",
+      "source" : "e1ef53c4cedc96ce.png",
+      "type" : "image/png",
+      "size" : 161565
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnTypelink_and_clickOnSelect"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "16592@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6c321cd5a51f5fa0",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a id=\"reg1:0:rWO:0:clRST\" class=\"xgp p_AFTextOnly\" data-afr-fcs=\"true\" href=\"#\" onclick=\"this.focus();return false\" data-afr-tlen=\"9\">...</a> is not clickable at point (323, 175). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1263px; height: 613px; user-select: none; z-index: 62; display: block;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-RH29BD1', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [74a27823f884bb4282b848f0fe36f223, clickElement {id=AD1135CE91DB2298ADA4DA33D4FE69E9_element_733}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57678/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (74a27823f884bb4282b848f0fe36f223)] -> xpath: //label[text()='Type:']/following::a[1]]\nSession ID: 74a27823f884bb4282b848f0fe36f223",
+      "time" : {
+        "start" : 1705562289849,
+        "stop" : 1705562311670,
+        "duration" : 21821
+      }
+    }, {
+      "uid" : "11fbb38cd90edbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705560794056,
+        "stop" : 1705560866054,
+        "duration" : 71998
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a15e07a714f1781.json",
+  "parameterValues" : [ ]
+}

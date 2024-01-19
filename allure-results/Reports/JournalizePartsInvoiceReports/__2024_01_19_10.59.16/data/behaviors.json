@@ -1,0 +1,91 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "Journalize Parts Test",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "f02c4563efd46c9",
+        "parentUid" : "43466c8bd7249c1efdd7c4311ffbac2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705642156307,
+          "stop" : 1705642156309,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login the page and Go to the Financial Manager",
+        "uid" : "ece841bc48db7c11",
+        "parentUid" : "43466c8bd7249c1efdd7c4311ffbac2f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1705642156444,
+          "stop" : 1705642156446,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+        "uid" : "9bb634c1706466d3",
+        "parentUid" : "43466c8bd7249c1efdd7c4311ffbac2f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1705642156485,
+          "stop" : 1705642156486,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "177d01ccbaaa92f2",
+        "parentUid" : "43466c8bd7249c1efdd7c4311ffbac2f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1705642156495,
+          "stop" : 1705642156495,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "78df6a053b5fe41c",
+        "parentUid" : "43466c8bd7249c1efdd7c4311ffbac2f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1705642156508,
+          "stop" : 1705642156508,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "ed2f81b27bd7efcc",
+        "parentUid" : "43466c8bd7249c1efdd7c4311ffbac2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705642156513,
+          "stop" : 1705642156513,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43466c8bd7249c1efdd7c4311ffbac2f"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}

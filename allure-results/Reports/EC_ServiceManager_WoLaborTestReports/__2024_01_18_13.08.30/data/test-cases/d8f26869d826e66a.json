@@ -1,0 +1,147 @@
+{
+  "uid" : "d8f26869d826e66a",
+  "name" : "Check that click on Internal Link and enter the text in Internal Note field",
+  "fullName" : "tests.service.ServiceManagerWoLabor.ClickInternalLink_and_EnterText",
+  "historyId" : "2d691defedfccde5e06925e409a6452a",
+  "time" : {
+    "start" : 1705561826194,
+    "stop" : 1705561893089,
+    "duration" : 66895
+  },
+  "description" : "Test Description - Check that click on Internal Link and enter the text in Internal Note field",
+  "descriptionHtml" : "<p>Test Description - Check that click on Internal Link and enter the text in Internal Note field</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705561649190,
+      "stop" : 1705561690481,
+      "duration" : 41291
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that click on Internal Link and enter the text in Internal Note field",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c28b50b2abf75bd5",
+      "name" : "Page Screenshot",
+      "source" : "c28b50b2abf75bd5.png",
+      "type" : "image/png",
+      "size" : 162664
+    }, {
+      "uid" : "a35f2d26b1f82d7f",
+      "name" : "Page Screenshot",
+      "source" : "a35f2d26b1f82d7f.png",
+      "type" : "image/png",
+      "size" : 128460
+    }, {
+      "uid" : "5fc8412124e8ce14",
+      "name" : "Page Screenshot",
+      "source" : "5fc8412124e8ce14.png",
+      "type" : "image/png",
+      "size" : 128494
+    }, {
+      "uid" : "20ad3729a428b369",
+      "name" : "Page Screenshot",
+      "source" : "20ad3729a428b369.png",
+      "type" : "image/png",
+      "size" : 127219
+    }, {
+      "uid" : "3f4753cdc481a619",
+      "name" : "Page Screenshot",
+      "source" : "3f4753cdc481a619.png",
+      "type" : "image/png",
+      "size" : 127210
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705561893098,
+      "stop" : 1705561893224,
+      "duration" : 126
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a3d00961fb1225d1",
+      "name" : "Page Screenshot",
+      "source" : "a3d00961fb1225d1.png",
+      "type" : "image/png",
+      "size" : 127278
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "ClickInternalLink_and_EnterText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "26004@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8f26869d826e66a.json",
+  "parameterValues" : [ ]
+}

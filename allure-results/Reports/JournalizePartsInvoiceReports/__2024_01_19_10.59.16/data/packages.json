@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.JournalizePartsInvoice",
+    "children" : [ {
+      "name" : "initialization",
+      "uid" : "f02c4563efd46c9",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705642156307,
+        "stop" : 1705642156309,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "gotoFinancialManager",
+      "uid" : "ece841bc48db7c11",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705642156444,
+        "stop" : 1705642156446,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnGererateJournals_checkbox",
+      "uid" : "9bb634c1706466d3",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705642156485,
+        "stop" : 1705642156486,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "serviceBoard",
+      "uid" : "177d01ccbaaa92f2",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705642156495,
+        "stop" : 1705642156495,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "financialManager",
+      "uid" : "78df6a053b5fe41c",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705642156508,
+        "stop" : 1705642156508,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "afterMethodTakeScreenShot",
+      "uid" : "ed2f81b27bd7efcc",
+      "parentUid" : "53ada798f09fb62e4d560349ace3b1d1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705642156513,
+        "stop" : 1705642156513,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.JournalizePartsInvoice"
+  } ]
+}

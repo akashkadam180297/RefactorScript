@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "3376b0dd1513d052",
+        "parentUid" : "40cecb094cf9d3468f79c6b582e383d1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705642156307,
+          "stop" : 1705642156309,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40cecb094cf9d3468f79c6b582e383d1"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "54bf0bf6085a3ce4",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705642156513,
+          "stop" : 1705642156513,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "Input must be set",
+      "children" : [ {
+        "name" : "generateAllure",
+        "uid" : "73960efb1b1abc7e",
+        "parentUid" : "1d3c628265ed0b583d3773da39044e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705642175846,
+          "stop" : 1705642175846,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d3c628265ed0b583d3773da39044e50"
+    }, {
+      "name" : "element click intercepted: Element <a onclick=\"return false\" class=\"x18v\" tabindex=\"-1\" href=\"#\">...</a> is not clickable at point (66, 52). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1280px; height: 559px; user-select: none; z-index: 26;\"></div>\n  (Session info: chrome=120.0.6099.218)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-RH29BD1', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a5d11b77d43e1ef8a537d5bce9e76bc2, clickElement {id=2B697C2832C2C60344D02929A4DEDC07_element_174}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.218, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52927}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52927/devtoo..., se:cdpVersion: 120.0.6099.218, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (a5d11b77d43e1ef8a537d5bce9e76bc2)] -> xpath: //table[@class='af_menuBar_items']//table//td//a[text()='Service']]\nSession ID: a5d11b77d43e1ef8a537d5bce9e76bc2",
+      "children" : [ {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "c070c5ad6dfbc947",
+        "parentUid" : "08936ce363e8334bbc27a7359c1efecb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705642535221,
+          "stop" : 1705642579274,
+          "duration" : 44053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08936ce363e8334bbc27a7359c1efecb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

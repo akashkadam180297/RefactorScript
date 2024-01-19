@@ -1,0 +1,125 @@
+{
+  "uid" : "985e3e9b6846e064",
+  "name" : "Test_002_click On Estimate",
+  "fullName" : "tests.Estimate.SubmitAnEstimateServiceManager.Test_002_clickOnEstimate",
+  "historyId" : "50ce502ea50f6f5cf5072aa18cd45ae8",
+  "time" : {
+    "start" : 1705662958216,
+    "stop" : 1705662985495,
+    "duration" : 27279
+  },
+  "description" : "Test Description: Go to Go to Service Board Screen",
+  "descriptionHtml" : "<p>Test Description: Go to Go to Service Board Screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705662873821,
+      "stop" : 1705662912439,
+      "duration" : 38618
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Go to Go to Service Board Screen",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "159370b60eefea2b",
+      "name" : "Page Screenshot",
+      "source" : "159370b60eefea2b.png",
+      "type" : "image/png",
+      "size" : 177245
+    }, {
+      "uid" : "f68d4a2ed088bfb3",
+      "name" : "Page Screenshot",
+      "source" : "f68d4a2ed088bfb3.png",
+      "type" : "image/png",
+      "size" : 177436
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705662985514,
+      "stop" : 1705662985640,
+      "duration" : 126
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f0e40a5048165e93",
+      "name" : "Page Screenshot",
+      "source" : "f0e40a5048165e93.png",
+      "type" : "image/png",
+      "size" : 86310
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickOnEstimate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "19168@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "985e3e9b6846e064.json",
+  "parameterValues" : [ ]
+}

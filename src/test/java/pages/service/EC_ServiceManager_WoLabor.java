@@ -409,10 +409,10 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//a[contains(@id,'clVROPL')]/span")
     WebElement viewProfitLoss;
 
-    @FindBy(xpath = "(//a[text()='Parent/Child']/preceding::a[1])[1]")
+    @FindBy(xpath = "//a[contains(text(),'Purchasing')]/preceding::a[1]")
     WebElement label_LaborParts;
 
-    @FindBy(xpath = "(//a[text()='Purchasing'])[1]/following::h2[1]")
+    @FindBy(xpath = "(//a[contains(text(),'Purchasing')])[1]/following::h2[1]")
     WebElement label_labor;
 
     @FindBy(xpath = "//span[text()='Re-Sequence']/following::span[1]")

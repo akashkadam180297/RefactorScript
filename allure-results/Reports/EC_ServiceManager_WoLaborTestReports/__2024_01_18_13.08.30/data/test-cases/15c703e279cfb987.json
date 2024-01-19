@@ -1,0 +1,141 @@
+{
+  "uid" : "15c703e279cfb987",
+  "name" : "Verify Authorized By and click on the link of Authorized By",
+  "fullName" : "tests.service.ServiceManagerWoLabor.verifyAuthorizedBy_and_ClickOnLink",
+  "historyId" : "8b0da6227aeff08ff5d72968166f030b",
+  "time" : {
+    "start" : 1705560392740,
+    "stop" : 1705560431883,
+    "duration" : 39143
+  },
+  "description" : "Test Description - Verify Authorized By and click on the link of Authorized By",
+  "descriptionHtml" : "<p>Test Description - Verify Authorized By and click on the link of Authorized By</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705559954365,
+      "stop" : 1705560020177,
+      "duration" : 65812
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Verify Authorized By and click on the link of Authorized By",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b3f4f230fdd7944e",
+      "name" : "Page Screenshot",
+      "source" : "b3f4f230fdd7944e.png",
+      "type" : "image/png",
+      "size" : 127463
+    }, {
+      "uid" : "704fb791ce82bf16",
+      "name" : "Page Screenshot",
+      "source" : "704fb791ce82bf16.png",
+      "type" : "image/png",
+      "size" : 163316
+    }, {
+      "uid" : "1286332fceec2384",
+      "name" : "Page Screenshot",
+      "source" : "1286332fceec2384.png",
+      "type" : "image/png",
+      "size" : 145094
+    }, {
+      "uid" : "abed91a27d7eeaa7",
+      "name" : "Page Screenshot",
+      "source" : "abed91a27d7eeaa7.png",
+      "type" : "image/png",
+      "size" : 145043
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705560431883,
+      "stop" : 1705560432021,
+      "duration" : 138
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "173dd86184276f62",
+      "name" : "Page Screenshot",
+      "source" : "173dd86184276f62.png",
+      "type" : "image/png",
+      "size" : 144933
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyAuthorizedBy_and_ClickOnLink"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "19092@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15c703e279cfb987.json",
+  "parameterValues" : [ ]
+}

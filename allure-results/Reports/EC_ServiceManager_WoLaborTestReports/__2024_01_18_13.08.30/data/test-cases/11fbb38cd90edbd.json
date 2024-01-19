@@ -1,0 +1,147 @@
+{
+  "uid" : "11fbb38cd90edbd",
+  "name" : "Check that click on Type hyperlink, verify the element and click on select button",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnTypelink_and_clickOnSelect",
+  "historyId" : "6443bd82b33659723814683265ca49cb",
+  "time" : {
+    "start" : 1705560794056,
+    "stop" : 1705560866054,
+    "duration" : 71998
+  },
+  "description" : "Test Description - Check that click on Type hyperlink, verify the element and click on select button",
+  "descriptionHtml" : "<p>Test Description - Check that click on Type hyperlink, verify the element and click on select button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705559954365,
+      "stop" : 1705560020177,
+      "duration" : 65812
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that click on Type hyperlink, verify the element and click on select button",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bbff2fba42d843b4",
+      "name" : "Page Screenshot",
+      "source" : "bbff2fba42d843b4.png",
+      "type" : "image/png",
+      "size" : 162514
+    }, {
+      "uid" : "568ebc65fc24dde",
+      "name" : "Page Screenshot",
+      "source" : "568ebc65fc24dde.png",
+      "type" : "image/png",
+      "size" : 130046
+    }, {
+      "uid" : "5d47aba5b4fd95ae",
+      "name" : "Page Screenshot",
+      "source" : "5d47aba5b4fd95ae.png",
+      "type" : "image/png",
+      "size" : 128803
+    }, {
+      "uid" : "c459d59e2d9d0d0d",
+      "name" : "Page Screenshot",
+      "source" : "c459d59e2d9d0d0d.png",
+      "type" : "image/png",
+      "size" : 162603
+    }, {
+      "uid" : "47393618ab21346b",
+      "name" : "Page Screenshot",
+      "source" : "47393618ab21346b.png",
+      "type" : "image/png",
+      "size" : 162603
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705560866055,
+      "stop" : 1705560866183,
+      "duration" : 128
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5974feaa9fd21837",
+      "name" : "Page Screenshot",
+      "source" : "5974feaa9fd21837.png",
+      "type" : "image/png",
+      "size" : 162603
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnTypelink_and_clickOnSelect"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "19092@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11fbb38cd90edbd.json",
+  "parameterValues" : [ ]
+}

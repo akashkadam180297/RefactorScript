@@ -163,7 +163,7 @@ public class ReceivePart extends TestDriverActions {
         @FindBy(xpath = "//span[text()='Extended Cost']")
         WebElement label_extendedCost;
 
-        @FindBy(xpath = "//span[text()='Link/Delink Labor']")
+        @FindBy(xpath = "//span[contains(.,'Link/Delink Lab')]")
         public WebElement label_LinkDeLink;
 
         @FindBy(xpath = "(//span[text()='Cancel'])[1]")
@@ -261,8 +261,16 @@ public class ReceivePart extends TestDriverActions {
         @FindBy(xpath = "(//span[text()='Receive Parts'])[2]")
         public WebElement btn_ReceivePartsButton;
 
-        @FindBy(xpath = "//label[text()='Invoice Number:']/following::input[1]")
+        @FindBy(xpath = "(//label[text()='Invoice Number:']/following::input)[1]")
         public  WebElement txt_invoiceNumber;
+
+        @FindBy(xpath = "//input[contains(@id,':0:id1::content')]")
+        public WebElement label_InvoiceDateTextArea;
+
+        @FindBy(xpath = "//input[contains(@id,':0:id2::content')]")
+        public WebElement label_DueDateTextArea;
+
+
 
         @FindBy(xpath = "//label[text()='Invoice Number:']/following::a[7]/span")
         public WebElement btn_receiveParts2;
@@ -285,41 +293,18 @@ public class ReceivePart extends TestDriverActions {
         /**goto Receive Parts*/
 
         public  void gotoReceiveParts() throws FileNotFoundException, InterruptedException {
-            WaitActions.getWaits().loadingWait(loder);
-            Thread.sleep(3000);
             ReusableActions.getActions().clickParentMenu("Parts");
             ReusableActions.getActions().clickChildMenu("Receive Parts");
-
-            TestListener.saveScreenshotPNG(driver);
-
-        }
-    public void enterDateClickrefresh() throws InterruptedException {
-
-      //  if (LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("QA")) {
-
-            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(dropdown);
-            WebElementActions.getActions().elementSelectByVisibilityText(dropdown, appProp.getProperty("warehouse"));
-
-            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_adddate);
-            txt_adddate.clear();
-            Thread.sleep(1000);
-            txt_adddate.sendKeys(appProp.getProperty("date"));
-
-            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_refresh);
-            WebElementActions.getActions().clickElement(btn_refresh);
             WaitActions.getWaits().loadingWait(loder);
-
             TestListener.saveScreenshotPNG(driver);
+
         }
-  //  }
-
-
-
-    /**click On PO Number */
+        /**click On PO Number */
         public void clickOnPONumber () throws InterruptedException {
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_PONumber);
             WebElementActions.getActions().clickElement(label_PONumber);
+            Thread.sleep(5000);
             WaitActions.getWaits().loadingWait(loder);
 
         }
@@ -777,6 +762,13 @@ public class ReceivePart extends TestDriverActions {
             WaitActions.getWaits().WaitUntilWebElementIsVisible(txt_invoiceNumber);
             String invoiceNum = String.valueOf(WebElementActions.getActions().randomNumber(1000,10000000));
             WebElementActions.getActions().inputText(txt_invoiceNumber,invoiceNum);
+
+
+           // WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_InvoiceDateTextArea);
+          //  WebElementActions.getActions().inputText(label_InvoiceDateTextArea,appProp.getProperty("InvoiceDate"));
+
+        //    WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_DueDateTextArea);
+        //    WebElementActions.getActions().inputText(label_DueDateTextArea,appProp.getProperty("DueDate"));
 
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);

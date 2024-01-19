@@ -1,0 +1,157 @@
+{
+  "uid" : "5d474402bcc6a932",
+  "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+  "fullName" : "tests.parts.JournalizePartsInvoice.clickOnGererateJournals_checkbox",
+  "historyId" : "3f1e2156c37cdb8b0948c51e0915703b",
+  "time" : {
+    "start" : 1705642462460,
+    "stop" : 1705642535049,
+    "duration" : 72589
+  },
+  "description" : "Test Description : T_001_Click on dropdown,refresh button,generateJournalize and select check box",
+  "descriptionHtml" : "<p>Test Description : T_001_Click on dropdown,refresh button,generateJournalize and select check box</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705642393782,
+      "stop" : 1705642431284,
+      "duration" : 37502
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description : T_001_Click on dropdown,refresh button,generateJournalize and select check box",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3ee7a4fbbceec16",
+      "name" : "Page Screenshot",
+      "source" : "3ee7a4fbbceec16.png",
+      "type" : "image/png",
+      "size" : 183893
+    }, {
+      "uid" : "a3b44f69b9df9a9b",
+      "name" : "Page Screenshot",
+      "source" : "a3b44f69b9df9a9b.png",
+      "type" : "image/png",
+      "size" : 181874
+    }, {
+      "uid" : "32d359a1b6804d4f",
+      "name" : "Page Screenshot",
+      "source" : "32d359a1b6804d4f.png",
+      "type" : "image/png",
+      "size" : 191899
+    }, {
+      "uid" : "cd19d237347c6511",
+      "name" : "Page Screenshot",
+      "source" : "cd19d237347c6511.png",
+      "type" : "image/png",
+      "size" : 191260
+    }, {
+      "uid" : "6341d47966a301c7",
+      "name" : "Page Screenshot",
+      "source" : "6341d47966a301c7.png",
+      "type" : "image/png",
+      "size" : 191408
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705642535056,
+      "stop" : 1705642535218,
+      "duration" : 162
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b192859546abacaa",
+      "name" : "Page Screenshot",
+      "source" : "b192859546abacaa.png",
+      "type" : "image/png",
+      "size" : 191703
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnGererateJournals_checkbox"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.JournalizePartsInvoice"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "8360@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Journalize Parts Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4e260e5cc010579a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705642156485,
+        "stop" : 1705642156486,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d474402bcc6a932.json",
+  "parameterValues" : [ ]
+}

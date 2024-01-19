@@ -1,0 +1,95 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.parts.JournalizePartsInvoice",
+        "children" : [ {
+          "name" : "initialization",
+          "uid" : "f02c4563efd46c9",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705642156307,
+            "stop" : 1705642156309,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login the page and Go to the Financial Manager",
+          "uid" : "ece841bc48db7c11",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1705642156444,
+            "stop" : 1705642156446,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+          "uid" : "9bb634c1706466d3",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1705642156485,
+            "stop" : 1705642156486,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Select checkBox ,click on GenerateJournal and service board",
+          "uid" : "177d01ccbaaa92f2",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1705642156495,
+            "stop" : 1705642156495,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Click on Financial manager,verify and sign out the page",
+          "uid" : "78df6a053b5fe41c",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1705642156508,
+            "stop" : 1705642156508,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "afterMethodTakeScreenShot",
+          "uid" : "ed2f81b27bd7efcc",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705642156513,
+            "stop" : 1705642156513,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "875defd0effb370cfd68afb2112fe9c9"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

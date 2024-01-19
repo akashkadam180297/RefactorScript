@@ -1,0 +1,152 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.Estimate.SubmitAnEstimateServiceManager",
+    "children" : [ {
+      "name" : "Test_001_gotoServiceBoardScreen",
+      "uid" : "bdd5a75143859557",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705665513335,
+        "stop" : 1705665555711,
+        "duration" : 42376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickOnEstimate",
+      "uid" : "7c0831623c968d26",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705665555940,
+        "stop" : 1705665582695,
+        "duration" : 26755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_RequiredLocation",
+      "uid" : "db504ec789343b98",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705665582796,
+        "stop" : 1705665688665,
+        "duration" : 105869
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_verifyRequiredDate",
+      "uid" : "789d81393f3ad185",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705665688768,
+        "stop" : 1705665777939,
+        "duration" : 89171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_verifyPart",
+      "uid" : "cfe8e0ff7072dec1",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705665778069,
+        "stop" : 1705665875106,
+        "duration" : 97037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_verifyLabour",
+      "uid" : "eca029b420a5513e",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705665875222,
+        "stop" : 1705665956026,
+        "duration" : 80804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_007_verifyAddParts",
+      "uid" : "97032111463b33d7",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705665956138,
+        "stop" : 1705666028897,
+        "duration" : 72759
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_008_clickonAddLabour",
+      "uid" : "c449ac2ef4db4379",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705666029010,
+        "stop" : 1705666195823,
+        "duration" : 166813
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_009_clickonAddLabour",
+      "uid" : "83b815208f446bdf",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705666195962,
+        "stop" : 1705666301752,
+        "duration" : 105790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_010_clickOnAddParts",
+      "uid" : "33652aaa930d7a51",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705666301851,
+        "stop" : 1705666498402,
+        "duration" : 196551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_011_storeLaborCostHeader",
+      "uid" : "483f0ed399427b46",
+      "parentUid" : "ee31c62d487d3fbc174c8ded5ceec3a6",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705666498532,
+        "stop" : 1705666599216,
+        "duration" : 100684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  } ]
+}

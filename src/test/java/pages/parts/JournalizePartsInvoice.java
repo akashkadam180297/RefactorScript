@@ -147,6 +147,7 @@ public class JournalizePartsInvoice extends TestDriverActions {
             TestListener.saveScreenshotPNG(driver);
         }
         else {
+            Thread.sleep(2000);
             ReusableActions.getActions().clickParentMenu("Service");
             ReusableActions.getActions().clickChildMenu("Service Board");
         }

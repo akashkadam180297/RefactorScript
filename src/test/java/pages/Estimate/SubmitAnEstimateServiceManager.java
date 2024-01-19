@@ -317,7 +317,7 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
 
     public  void gotoServiceBoardScreen() throws FileNotFoundException, InterruptedException {
         WaitActions.getWaits().loadingWait(loder);
-        Thread.sleep(3000);
+//        Thread.sleep(3000);
         ReusableActions.getActions().clickParentMenu("Service");
         ReusableActions.getActions().clickChildMenu("Service Board");
 
@@ -326,7 +326,7 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
     /**Scroll Horizontal */
     public void scrollElementTillView () throws InterruptedException {
          WaitActions.getWaits().loadingWait(loder);
-        Thread.sleep(3000);
+//        Thread.sleep(3000);
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("arguments[0].scrollIntoView();",label_ScrollBar);
         ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, -400)");
@@ -750,12 +750,10 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
     }
     /**type Part Number */
     public void typePartNumber () throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_PartNumber);
             WebElementActions.getActions().inputText(label_PartNumber, appProp.getProperty("PartNumber"));
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
-        }
     }
     /**click On part */
     public void  clickOnPart () throws InterruptedException {
@@ -763,8 +761,6 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
         WebElementActions.getActions().clickElement(label_PartName);
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
-
-
     }
     /**clickOnIssueButton*/
     public void clickOnIssueButton () throws InterruptedException {
@@ -839,13 +835,13 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
     /**verify Pending Approvals*/
     public void verifyPendingApprovals () throws InterruptedException {
 
-        Thread.sleep(5000);
+        Thread.sleep(3000);
         JavascriptExecutor js = (JavascriptExecutor)driver;
        ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, -500)");
         WaitActions.getWaits().loadingWait(loder);
-        Thread.sleep(3000);
+//        Thread.sleep(3000);
         WebElementActions.getActions().moveOnTargetElement(btn_estimate);
-        Thread.sleep(1000);
+//        Thread.sleep(1000);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_PendingApprovals);
         Assert.assertTrue(label_PendingApprovals.isDisplayed());
         TestListener.saveScreenshotPNG(driver);

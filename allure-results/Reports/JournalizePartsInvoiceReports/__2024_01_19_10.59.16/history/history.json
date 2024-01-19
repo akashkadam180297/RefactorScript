@@ -1,0 +1,118 @@
+{
+  "3f1e2156c37cdb8b0948c51e0915703b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9bb634c1706466d3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705642156485,
+        "stop" : 1705642156486,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9831ec8775259cbb5f37c215f95351d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78df6a053b5fe41c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705642156508,
+        "stop" : 1705642156508,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5ddb822e4780c470f0718bfd97295335" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ece841bc48db7c11",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705642156444,
+        "stop" : 1705642156446,
+        "duration" : 2
+      }
+    } ]
+  },
+  "90306bacc0e2c22045baeab576665409" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f02c4563efd46c9",
+      "status" : "broken",
+      "statusDetails" : "io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com",
+      "time" : {
+        "start" : 1705642156307,
+        "stop" : 1705642156309,
+        "duration" : 2
+      }
+    } ]
+  },
+  "b96658dd63d7dc5957afadc30fb0df2e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed2f81b27bd7efcc",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1705642156513,
+        "stop" : 1705642156513,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bccd51d65bd728e2f21d42bc31f26fdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "177d01ccbaaa92f2",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705642156495,
+        "stop" : 1705642156495,
+        "duration" : 0
+      }
+    } ]
+  }
+}
