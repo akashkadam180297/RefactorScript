@@ -1,0 +1,94 @@
+{
+  "uid" : "b387a89cd0b25eb0",
+  "name" : "verify year value ",
+  "fullName" : "tests.estimating.ApproveanEstimateDMSTest.T_003verifyYearValue",
+  "historyId" : "2c6c9440e3865186016abda3afdf85e5",
+  "time" : {
+    "start" : 1705573347492,
+    "stop" : 1705573347494,
+    "duration" : 2
+  },
+  "description" : "Test Description -verify year value ",
+  "descriptionHtml" : "<p>Test Description -verify year value</p>\n",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705573347502,
+      "stop" : 1705573347660,
+      "duration" : 158
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3897f81b73f5841d",
+      "name" : "Page Screenshot",
+      "source" : "3897f81b73f5841d.png",
+      "type" : "image/png",
+      "size" : 4655
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.estimating.ApproveanEstimateDMSTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.estimating.ApproveanEstimateDMSTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "T_003verifyYearValue"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.estimating.ApproveanEstimateDMSTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17728@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4046c57af3a82720",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705572797690,
+        "stop" : 1705572797690,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b387a89cd0b25eb0.json",
+  "parameterValues" : [ ]
+}

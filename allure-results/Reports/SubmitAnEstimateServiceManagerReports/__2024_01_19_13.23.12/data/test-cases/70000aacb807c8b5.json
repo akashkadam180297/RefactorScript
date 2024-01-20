@@ -1,0 +1,137 @@
+{
+  "uid" : "70000aacb807c8b5",
+  "name" : "Test_004_verify Required Date ,Date ,Todays Date",
+  "fullName" : "tests.Estimate.SubmitAnEstimateServiceManager.Test_004_verifyRequiredDate",
+  "historyId" : "5d170e90a20fb6375a94631e710950a5",
+  "time" : {
+    "start" : 1705650057585,
+    "stop" : 1705650147534,
+    "duration" : 89949
+  },
+  "description" : "Test Description: verify Required Date ,Date ,Todays Date",
+  "descriptionHtml" : "<p>Test Description: verify Required Date ,Date ,Todays Date</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705649817435,
+      "stop" : 1705649865432,
+      "duration" : 47997
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: verify Required Date ,Date ,Todays Date",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bd722eefd63121d2",
+      "name" : "Page Screenshot",
+      "source" : "bd722eefd63121d2.png",
+      "type" : "image/png",
+      "size" : 47876
+    }, {
+      "uid" : "2e5b2280ea7e5aa8",
+      "name" : "Page Screenshot",
+      "source" : "2e5b2280ea7e5aa8.png",
+      "type" : "image/png",
+      "size" : 47876
+    }, {
+      "uid" : "386215ba72cda1d2",
+      "name" : "Page Screenshot",
+      "source" : "386215ba72cda1d2.png",
+      "type" : "image/png",
+      "size" : 47876
+    }, {
+      "uid" : "a0049ad4ee101e0",
+      "name" : "Page Screenshot",
+      "source" : "a0049ad4ee101e0.png",
+      "type" : "image/png",
+      "size" : 47876
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705650147538,
+      "stop" : 1705650147650,
+      "duration" : 112
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6d7c07f8afb2bc9f",
+      "name" : "Page Screenshot",
+      "source" : "6d7c07f8afb2bc9f.png",
+      "type" : "image/png",
+      "size" : 47876
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_004_verifyRequiredDate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "11356@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70000aacb807c8b5.json",
+  "parameterValues" : [ ]
+}

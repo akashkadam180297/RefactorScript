@@ -316,8 +316,6 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
     /**goto Service Borad*/
 
     public  void gotoServiceBoardScreen() throws FileNotFoundException, InterruptedException {
-        WaitActions.getWaits().loadingWait(loder);
-        Thread.sleep(3000);
         ReusableActions.getActions().clickParentMenu("Service");
         ReusableActions.getActions().clickChildMenu("Service Board");
 
@@ -658,12 +656,9 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
 
     /** type External Notes  */
     public void ExternalNotes () throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
-
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_ExternalNotes);
             WebElementActions.getActions().inputText(label_ExternalNotes, appProp.getProperty("ExternalNotes"));
         }
-    }
     /**click On Add Labour*/
     public void clickonAddLabour () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_AddLabour);
@@ -708,8 +703,6 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
     }
     /**type Estimate Note */
     public void typeEstimateNote () throws InterruptedException {
-
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_EstimateNote);
         WebElementActions.getActions().inputText(label_EstimateNote,appProp.getProperty("ExternalNotes"));
         WaitActions.getWaits().loadingWait(loder);
@@ -750,16 +743,17 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
     }
     /**type Part Number */
     public void typePartNumber () throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_PartNumber);
             WebElementActions.getActions().inputText(label_PartNumber, appProp.getProperty("PartNumber"));
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
         }
-    }
+
     /**click On part */
     public void  clickOnPart () throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_PartName);
+        Thread.sleep(3000);
         WebElementActions.getActions().clickElement(label_PartName);
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);

@@ -1,0 +1,119 @@
+{
+  "uid" : "a097760952e9ac5a",
+  "name" : "Test_003  input Partial Part Number ",
+  "fullName" : "tests.parts.Spotorderparts.Test_003_inputPartialPartNumber",
+  "historyId" : "79d6c86d9ebe73d92df409f41546c116",
+  "time" : {
+    "start" : 1705580156767,
+    "stop" : 1705580222773,
+    "duration" : 66006
+  },
+  "description" : "Test Description:verify input Partial Part Number ",
+  "descriptionHtml" : "<p>Test Description:verify input Partial Part Number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705579992599,
+      "stop" : 1705580033538,
+      "duration" : 40939
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description:verify input Partial Part Number ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7510b7628b69d0db",
+      "name" : "Page Screenshot",
+      "source" : "7510b7628b69d0db.png",
+      "type" : "image/png",
+      "size" : 84502
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705580222773,
+      "stop" : 1705580222892,
+      "duration" : 119
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b1c55903f73a21fd",
+      "name" : "Page Screenshot",
+      "source" : "b1c55903f73a21fd.png",
+      "type" : "image/png",
+      "size" : 71139
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_inputPartialPartNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "14544@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a097760952e9ac5a.json",
+  "parameterValues" : [ ]
+}

@@ -3,6 +3,7 @@ package pages.service;
 import actions.ReusableActions;
 import actions.WaitActions;
 import actions.WebElementActions;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -156,10 +157,10 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//label[text()='Total Charge:']/following::td[3]")
     WebElement TotalCharges_value;
 
-   @FindBy(xpath = "//span[text()='Status']/following::a[1]")
+    @FindBy(xpath = "//span[text()='Status']/following::a[1]")
     WebElement hyperlink_RoNumber;
 
-   @FindBy(xpath = "//span[text()='Back to Complete RO']/preceding::img[1]")
+    @FindBy(xpath = "//span[text()='Back to Complete RO']/preceding::img[1]")
     WebElement back_icon;
 
     @FindBy(xpath = "//span[text()='Back to Complete RO']")
@@ -315,7 +316,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//div[text()='Notes']/following::textarea")
     WebElement txtfield_notes;
 
-   @FindBy(xpath = "//label[text()='Authorized By:']")
+    @FindBy(xpath = "//label[text()='Authorized By:']")
     WebElement label_authorizedBy;
 
     @FindBy(xpath = "//label[text()='Authorized By:']/following::a[1]")
@@ -362,13 +363,13 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     @FindBy(xpath = "(//span[text()='Select'])[1]")
     WebElement btn_select;
 
-    @FindBy(xpath = "//a[text()='Update Rates']")
+    @FindBy(xpath = "//a[contains(@id,'cl12')]/span")
     WebElement label_UpdateRates;
 
-    @FindBy(xpath = "//label[text()='RO Account Group:']/following::label[1]")
+    @FindBy(xpath = "//label[contains(text(),'Lab')]")
     WebElement label_Labor;
 
-    @FindBy(xpath = "//label[text()='RO Account Group:']/following::td[5]")
+    @FindBy(xpath = "(//label[contains(text(),'Lab')]//following::td)[2]")
     WebElement labor_value;
 
     @FindBy(xpath = "//label[text()='Parts:']")
@@ -402,16 +403,16 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//label[text()='RO Total:']/following::span[1]")
     WebElement RoTotal_value;
 
-    @FindBy(xpath = "//label[text()='USD']")
-    WebElement label_USD;
+    @FindBy(xpath = "(//label[contains(text(),'RO Total:')]//following::div)[2]")
+    WebElement label_Currency;
 
-    @FindBy(xpath = "//a[text()='View Profit and Loss']")
+    @FindBy(xpath = "//a[contains(@id,'clVROPL')]/span")
     WebElement viewProfitLoss;
 
-    @FindBy(xpath = "(//a[text()='Purchasing']/preceding::a[1])[1]")
+    @FindBy(xpath = "//a[contains(text(),'Purchasing')]/preceding::a[1]")
     WebElement label_LaborParts;
 
-    @FindBy(xpath = "(//a[text()='Purchasing'])[1]/following::h2[1]")
+    @FindBy(xpath = "(//a[contains(text(),'Purchasing')])[1]/following::h2[1]")
     WebElement label_labor;
 
     @FindBy(xpath = "//span[text()='Re-Sequence']/following::span[1]")
@@ -655,7 +656,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     @FindBy(xpath = "(//span[text()='OK'])[2]")
     WebElement btn_ok;
 
-    @FindBy(xpath = "(//div[contains(@id,'pgltWAIDX')])[2]")
+    @FindBy(xpath = "(//div[contains(@id,'pgltWAIDX')])")
     WebElement number_2row;
 
     @FindBy(xpath = "//span[text()='Status']/following::a[3]")
@@ -711,234 +712,238 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     /**
      * click on completeRo
      */
-      public void clickOnCompleteRo() throws FileNotFoundException, InterruptedException {
-          ReusableActions.getActions().clickParentMenu("Service");
-          ReusableActions.getActions().clickChildMenu("Complete RO");
-          TestListener.saveScreenshotPNG(driver);
-      }
+    public void clickOnCompleteRo() throws FileNotFoundException, InterruptedException {
+        ReusableActions.getActions().clickParentMenu("Service");
+        ReusableActions.getActions().clickChildMenu("Complete RO");
+        TestListener.saveScreenshotPNG(driver);
+    }
     /**
      * verify element present in Complete Ro Subtitle
      */
-      public void verifyCompleteRoElement() throws InterruptedException {
+    public void verifyCompleteRoElement() throws InterruptedException {
 //          WaitActions.getWaits().WaitUntilWebElementIsVisible(subtitle_msg);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(subtitle_msg);
-          Assert.assertTrue(subtitle_msg.isDisplayed());
-          Assert.assertTrue(label_ThingsToDo.isDisplayed());
-          Assert.assertTrue(label_manageInvoices.isDisplayed());
-          Assert.assertTrue(label_TimeSheet.isDisplayed());
-          Assert.assertTrue(label_ProcessPoInvoice.isDisplayed());
-          Assert.assertTrue(label_UpdateCustomerPoNum.isDisplayed());
-          TestListener.saveScreenshotPNG(driver);
-      }
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(subtitle_msg);
+        Assert.assertTrue(subtitle_msg.isDisplayed());
+        Assert.assertTrue(label_ThingsToDo.isDisplayed());
+        Assert.assertTrue(label_manageInvoices.isDisplayed());
+        Assert.assertTrue(label_TimeSheet.isDisplayed());
+        Assert.assertTrue(label_ProcessPoInvoice.isDisplayed());
+        Assert.assertTrue(label_UpdateCustomerPoNum.isDisplayed());
+        TestListener.saveScreenshotPNG(driver);
+    }
     /**
      * verify radio buttons and labels present in the header section
      */
-      public void verifyRadioButtonsLabels() throws InterruptedException {
+    public void verifyRadioButtonsLabels() throws InterruptedException {
 //          WaitActions.getWaits().WaitUntilWebElementIsVisible(label_Location);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Location);
-          Assert.assertTrue(label_Location.isDisplayed());
-          Assert.assertTrue(location_SearchIcon.isDisplayed());
-          Assert.assertTrue(label_Status.isDisplayed());
-          Assert.assertTrue(radio_ReadyToSubmit.isDisplayed());
-          Assert.assertTrue(label_ReadyToSubmit.isDisplayed());
-          Assert.assertTrue(radio_submitted.isDisplayed());
-          Assert.assertTrue(label_submitted.isDisplayed());
-          Assert.assertTrue(radio_invoiced.isDisplayed());
-          Assert.assertTrue(label_invoiced.isDisplayed());
-          Assert.assertTrue(radio_closed.isDisplayed());
-          Assert.assertTrue(label_closed.isDisplayed());
-          Assert.assertTrue(radio_rejected.isDisplayed());
-          Assert.assertTrue(label_rejected.isDisplayed());
-          Assert.assertTrue(label_search.isDisplayed());
-          Assert.assertTrue(txtfield_search.isDisplayed());
-          Assert.assertTrue(btn_refresh.isDisplayed());
-          Assert.assertTrue(subtitle_ReadyToSubmit.isDisplayed());
-          Assert.assertTrue(label_reference.isDisplayed());
-          Assert.assertTrue(label_TotalCharge.isDisplayed());
-          Assert.assertTrue(label_status.isDisplayed());
-          TestListener.saveScreenshotPNG(driver);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Location);
+        Assert.assertTrue(label_Location.isDisplayed());
+        Assert.assertTrue(location_SearchIcon.isDisplayed());
+        Assert.assertTrue(label_Status.isDisplayed());
+        Assert.assertTrue(radio_ReadyToSubmit.isDisplayed());
+        Assert.assertTrue(label_ReadyToSubmit.isDisplayed());
+        Assert.assertTrue(radio_submitted.isDisplayed());
+        Assert.assertTrue(label_submitted.isDisplayed());
+        Assert.assertTrue(radio_invoiced.isDisplayed());
+        Assert.assertTrue(label_invoiced.isDisplayed());
+        Assert.assertTrue(radio_closed.isDisplayed());
+        Assert.assertTrue(label_closed.isDisplayed());
+        Assert.assertTrue(radio_rejected.isDisplayed());
+        Assert.assertTrue(label_rejected.isDisplayed());
+        Assert.assertTrue(label_search.isDisplayed());
+        Assert.assertTrue(txtfield_search.isDisplayed());
+        Assert.assertTrue(btn_refresh.isDisplayed());
+        Assert.assertTrue(subtitle_ReadyToSubmit.isDisplayed());
+        Assert.assertTrue(label_reference.isDisplayed());
+        Assert.assertTrue(label_TotalCharge.isDisplayed());
+        Assert.assertTrue(label_status.isDisplayed());
+        TestListener.saveScreenshotPNG(driver);
 
-      }
+    }
     /**
      *  Verify Summary Elements
      */
-      public void verifySummaryElements() throws InterruptedException {
+    public void verifySummaryElements() throws InterruptedException {
 //          WaitActions.getWaits().WaitUntilWebElementIsVisible(label_summary);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_summary);
-          Assert.assertTrue(label_summary.isDisplayed());
-          Assert.assertTrue(btn_returnToTechnician.isDisplayed());
-          Assert.assertTrue(btn_closeRO.isDisplayed());
-          Assert.assertTrue(btn_invoice.isDisplayed());
-          Assert.assertTrue(img_costProof.isDisplayed());
-          Assert.assertTrue(label_costProof.isDisplayed());
-          Assert.assertTrue(img_customerProof.isDisplayed());
-          Assert.assertTrue(label_customerProof.isDisplayed());
-          Assert.assertTrue(label_RepairDate.isDisplayed());
-          Assert.assertTrue(label_Labour.isDisplayed());
-          Assert.assertTrue(labour_value.isDisplayed());
-          Assert.assertTrue(label_parts.isDisplayed());
-          Assert.assertTrue(parts_value.isDisplayed());
-          Assert.assertTrue(label_shopSupplies.isDisplayed());
-          Assert.assertTrue(shopSupplies_value.isDisplayed());
-          Assert.assertTrue(label_surcharges.isDisplayed());
-          Assert.assertTrue(surcharges_value.isDisplayed());
-          Assert.assertTrue(label_Taxes.isDisplayed());
-          Assert.assertTrue(taxes_value.isDisplayed());
-          Assert.assertTrue(label_TotalCharges.isDisplayed());
-          Assert.assertTrue(TotalCharges_value.isDisplayed());
-          TestListener.saveScreenshotPNG(driver);
-      }
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_summary);
+        Assert.assertTrue(label_summary.isDisplayed());
+        Assert.assertTrue(btn_returnToTechnician.isDisplayed());
+        Assert.assertTrue(btn_closeRO.isDisplayed());
+        Assert.assertTrue(btn_invoice.isDisplayed());
+        Assert.assertTrue(img_costProof.isDisplayed());
+        Assert.assertTrue(label_costProof.isDisplayed());
+        Assert.assertTrue(img_customerProof.isDisplayed());
+        Assert.assertTrue(label_customerProof.isDisplayed());
+        Assert.assertTrue(label_RepairDate.isDisplayed());
+        Assert.assertTrue(label_Labour.isDisplayed());
+        Assert.assertTrue(labour_value.isDisplayed());
+        Assert.assertTrue(label_parts.isDisplayed());
+        Assert.assertTrue(parts_value.isDisplayed());
+        Assert.assertTrue(label_shopSupplies.isDisplayed());
+        Assert.assertTrue(shopSupplies_value.isDisplayed());
+        Assert.assertTrue(label_surcharges.isDisplayed());
+        Assert.assertTrue(surcharges_value.isDisplayed());
+        Assert.assertTrue(label_Taxes.isDisplayed());
+        Assert.assertTrue(taxes_value.isDisplayed());
+        Assert.assertTrue(label_TotalCharges.isDisplayed());
+        Assert.assertTrue(TotalCharges_value.isDisplayed());
+        TestListener.saveScreenshotPNG(driver);
+    }
     /**
      * click on RONumber
      */
-      public void clickOnRoNumber() throws InterruptedException {
+    public void clickOnRoNumber() throws InterruptedException {
 //          WaitActions.getWaits().waitForElementTobeClickable(hyperlink_RoNumber);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_RoNumber);
-          WebElementActions.getActions().clickElement(hyperlink_RoNumber);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_RoNumber);
+        WebElementActions.getActions().clickElement(hyperlink_RoNumber);
 
-          WaitActions.getWaits().loadingWait(loder);
-          TestListener.saveScreenshotPNG(driver);
-      }
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+    }
     /**
      * verify Header element of Repair Order page
      */
-      public void verifyHeaderElementRepairOrderPage() throws InterruptedException {
+    public void verifyHeaderElementRepairOrderPage() throws InterruptedException {
 //          WaitActions.getWaits().WaitUntilWebElementIsVisible(back_icon);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(back_icon);
-          Assert.assertTrue(back_icon.isDisplayed());
-          Assert.assertTrue(label_backtoCompleteRo.isDisplayed());
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(back_icon);
+        Assert.assertTrue(back_icon.isDisplayed());
+        Assert.assertTrue(label_backtoCompleteRo.isDisplayed());
 //          WaitActions.getWaits().WaitUntilWebElementIsVisible(upArrow_icon);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(upArrow_icon);
-          Assert.assertTrue(upArrow_icon.isDisplayed());
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(upArrow_icon);
+        Assert.assertTrue(upArrow_icon.isDisplayed());
 //          WaitActions.getWaits().WaitUntilWebElementIsVisible(downArrow_icon);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(downArrow_icon);
-          Assert.assertTrue(downArrow_icon.isDisplayed());
-          Assert.assertTrue(pageNumber_start.isDisplayed());
-          Assert.assertTrue(pageNumber_end.isDisplayed());
-          Assert.assertTrue(tab_voidRo.isDisplayed());
-          Assert.assertTrue(tab_returnToTechnician.isDisplayed());
-          Assert.assertTrue(tab_splitRo.isDisplayed());
-          Assert.assertTrue(tab_closeRo.isDisplayed());
-          Assert.assertTrue(tab_invoice.isDisplayed());
-          TestListener.saveScreenshotPNG(driver);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(downArrow_icon);
+        Assert.assertTrue(downArrow_icon.isDisplayed());
+        Assert.assertTrue(pageNumber_start.isDisplayed());
+        Assert.assertTrue(pageNumber_end.isDisplayed());
+        Assert.assertTrue(tab_voidRo.isDisplayed());
+        Assert.assertTrue(tab_returnToTechnician.isDisplayed());
+        Assert.assertTrue(tab_splitRo.isDisplayed());
+        Assert.assertTrue(tab_closeRo.isDisplayed());
+        Assert.assertTrue(tab_invoice.isDisplayed());
+        TestListener.saveScreenshotPNG(driver);
 
-      }
+    }
     /**
      *  Verify element present on the header
      */
-      public void verifyHeaderElement() throws InterruptedException {
- //         WaitActions.getWaits().WaitUntilWebElementIsVisible(email_icon);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(email_icon);
-          Assert.assertTrue(email_icon.isDisplayed());
-          Assert.assertTrue(email_size.isDisplayed());
-          Assert.assertTrue(attachment_icon.isDisplayed());
-          Assert.assertTrue(attachment_size.isDisplayed());
-          Assert.assertTrue(label_cost_Proof.isDisplayed());
-          Assert.assertTrue(label_pick_list.isDisplayed());
-          Assert.assertTrue(label_Repair_Order.isDisplayed());
-          TestListener.saveScreenshotPNG(driver);
+    public void verifyHeaderElement() throws InterruptedException {
+        //         WaitActions.getWaits().WaitUntilWebElementIsVisible(email_icon);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(email_icon);
+        Assert.assertTrue(email_icon.isDisplayed());
+        Assert.assertTrue(email_size.isDisplayed());
+        Assert.assertTrue(attachment_icon.isDisplayed());
+        Assert.assertTrue(attachment_size.isDisplayed());
+        Assert.assertTrue(label_cost_Proof.isDisplayed());
+        Assert.assertTrue(label_pick_list.isDisplayed());
+        Assert.assertTrue(label_Repair_Order.isDisplayed());
+        TestListener.saveScreenshotPNG(driver);
 
-      }
+    }
     /**
      * verify Repair Order SubElement
      */
-      public void verifyRepairOrderSubElement() throws InterruptedException {
+    public void verifyRepairOrderSubElement() throws InterruptedException {
 //          WaitActions.getWaits().WaitUntilWebElementIsVisible(title_RepairOrder);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(title_RepairOrder);
-          Assert.assertTrue(title_RepairOrder.isDisplayed());
-          Assert.assertTrue(label_location.isDisplayed());
-          Assert.assertTrue(label_Owner.isDisplayed());
-          Assert.assertTrue(label_unit.isDisplayed());
-          Assert.assertTrue(label_unitNumber.isDisplayed());
-          Assert.assertTrue(change_Unit_icon.isDisplayed());
-          Assert.assertTrue(label_RO_hash.isDisplayed());
-          Assert.assertTrue(label_RO_Number.isDisplayed());
-          Assert.assertTrue(label_InternalRo.isDisplayed());
-          Assert.assertTrue(txt_InternalRo.isDisplayed());
-          Assert.assertTrue(label_type.isDisplayed());
-          Assert.assertTrue(type_hyperlink.isDisplayed());
-          Assert.assertTrue(label_Ro_Status.isDisplayed());
-          Assert.assertTrue(hyperlink_RoStatus.isDisplayed());
-          Assert.assertTrue(label_WIPStatus.isDisplayed());
-          Assert.assertTrue(hyperlink_wipStatus.isDisplayed());
-          Assert.assertTrue(label_InternalNotes.isDisplayed());
-          Assert.assertTrue(hyperlink_InternalNotes.isDisplayed());
-          Assert.assertTrue(label_notes.isDisplayed());
-          Assert.assertTrue(hyperlink_notes.isDisplayed());
-          Assert.assertTrue(asterisk_RoDate.isDisplayed());
-          Assert.assertTrue(label_RoDate.isDisplayed());
-          Assert.assertTrue(txtfield_RoDate.isDisplayed());
-          Assert.assertTrue(RoDate_img.isDisplayed());
-          Assert.assertTrue(btn_ReadingType.isDisplayed());
-          Assert.assertTrue(label_InvoiceTo.isDisplayed());
-          Assert.assertTrue(label_CustomerPo.isDisplayed());
-          Assert.assertTrue(txtfield_CustomerPo.isDisplayed());
-          TestListener.saveScreenshotPNG(driver);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(title_RepairOrder);
+        Assert.assertTrue(title_RepairOrder.isDisplayed());
+        Assert.assertTrue(label_location.isDisplayed());
+        Assert.assertTrue(label_Owner.isDisplayed());
+        Assert.assertTrue(label_unit.isDisplayed());
+        Assert.assertTrue(label_unitNumber.isDisplayed());
+        Assert.assertTrue(change_Unit_icon.isDisplayed());
+        Assert.assertTrue(label_RO_hash.isDisplayed());
+        Assert.assertTrue(label_RO_Number.isDisplayed());
+        Assert.assertTrue(label_InternalRo.isDisplayed());
+        Assert.assertTrue(txt_InternalRo.isDisplayed());
+        Assert.assertTrue(label_type.isDisplayed());
+        Assert.assertTrue(type_hyperlink.isDisplayed());
+        Assert.assertTrue(label_Ro_Status.isDisplayed());
+        Assert.assertTrue(hyperlink_RoStatus.isDisplayed());
+        Assert.assertTrue(label_WIPStatus.isDisplayed());
+        Assert.assertTrue(hyperlink_wipStatus.isDisplayed());
+        Assert.assertTrue(label_InternalNotes.isDisplayed());
+        Assert.assertTrue(hyperlink_InternalNotes.isDisplayed());
+        Assert.assertTrue(label_notes.isDisplayed());
+        Assert.assertTrue(hyperlink_notes.isDisplayed());
+        Assert.assertTrue(asterisk_RoDate.isDisplayed());
+        Assert.assertTrue(label_RoDate.isDisplayed());
+        Assert.assertTrue(txtfield_RoDate.isDisplayed());
+        Assert.assertTrue(RoDate_img.isDisplayed());
+        Assert.assertTrue(btn_ReadingType.isDisplayed());
+        Assert.assertTrue(label_InvoiceTo.isDisplayed());
+        Assert.assertTrue(label_CustomerPo.isDisplayed());
+        Assert.assertTrue(txtfield_CustomerPo.isDisplayed());
+        TestListener.saveScreenshotPNG(driver);
 
-      }
+    }
     /**
      * click on internal note link
      */
-      public void clickOnInternalNoteLink() throws InterruptedException {
+    public void clickOnInternalNoteLink() throws InterruptedException {
 //          WaitActions.getWaits().waitForElementTobeClickable(hyperlink_InternalNotes);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_InternalNotes);
-          WebElementActions.getActions().clickElement(hyperlink_InternalNotes);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_InternalNotes);
+        WebElementActions.getActions().clickElement(hyperlink_InternalNotes);
 
-          WaitActions.getWaits().loadingWait(loder);
-          TestListener.saveScreenshotPNG(driver);
-      }
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+    }
     /**
      * verify element Internal notes
      */
-      public void verifyInternalNotes() throws InterruptedException {
+    public void verifyInternalNotes() throws InterruptedException {
 //          WaitActions.getWaits().WaitUntilWebElementIsVisible(subtitle_InternalNotes);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(subtitle_InternalNotes);
-          Assert.assertTrue(subtitle_InternalNotes.isDisplayed());
-          Assert.assertTrue(textarea_internalNotes.isDisplayed());
-          TestListener.saveScreenshotPNG(driver);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(subtitle_InternalNotes);
+        Assert.assertTrue(subtitle_InternalNotes.isDisplayed());
+        Assert.assertTrue(textarea_internalNotes.isDisplayed());
+        TestListener.saveScreenshotPNG(driver);
 
-      }
+    }
     /**
      * enter text This is a standard note
      */
-     public void enterThisIsStandardNote() throws InterruptedException {
+    public void enterThisIsStandardNote() throws InterruptedException {
 //         WaitActions.getWaits().waitForElementTobeClickable(textarea_internalNotes);
-         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(textarea_internalNotes);
-         WebElementActions.getActions().inputText(textarea_internalNotes,prop.getProperty("InternalNote"));
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(textarea_internalNotes);
+        WebElementActions.getActions().inputText(textarea_internalNotes,appProp.getProperty("InternalNote"));
 
-         WaitActions.getWaits().loadingWait(loder);
-         TestListener.saveScreenshotPNG(driver);
-     }
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+    }
     /**
      * click on save/exit button
      */
-     public void clickOnSaveExitbtn() throws InterruptedException {
+    public void clickOnSaveExitbtn() throws InterruptedException {
 //         WaitActions.getWaits().waitForElementTobeClickable(btn_saveExit);
-         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_saveExit);
-         WebElementActions.getActions().clickElement(btn_saveExit);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_saveExit);
+        WebElementActions.getActions().clickElement(btn_saveExit);
 
-         WaitActions.getWaits().loadingWait(loder);
-         TestListener.saveScreenshotPNG(driver);
-     }
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+    }
     /**
      * click on This is a standard note
      */
-     public void clickOnThisIsStandardNote() throws InterruptedException {
+    public void clickOnThisIsStandardNote() throws InterruptedException {
 
 //         WaitActions.getWaits().waitForElementTobeClickable(hyperlink_InternalNotes);
-         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_InternalNotes);
-         WebElementActions.getActions().clickElement(hyperlink_InternalNotes);
 
-         WaitActions.getWaits().loadingWait(loder);
-         TestListener.saveScreenshotPNG(driver);
-     }
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_InternalNotes);
+        Thread.sleep(3000);
+        WebElementActions.getActions().clickElement(hyperlink_InternalNotes);
+
+
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+    }
     /**
      * enter text checking notes contain
      */
     public void entercheckingnotescontain() throws InterruptedException {
 //        WaitActions.getWaits().waitForElementTobeClickable(textarea_internalNotes);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(textarea_internalNotes);
-        WebElementActions.getActions().inputText(textarea_internalNotes,prop.getProperty("InternalNote1"));
+        WebElementActions.getActions().inputText(textarea_internalNotes, appProp.getProperty("InternalNote1"));
 
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
@@ -948,7 +953,9 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
      */
     public void clickOnNoteshyperLink() throws InterruptedException {
 //        WaitActions.getWaits().waitForElementTobeClickable(hyperlink_notes);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_notes);
+        Thread.sleep(3000);
         WebElementActions.getActions().clickElement(hyperlink_notes);
 
         WaitActions.getWaits().loadingWait(loder);
@@ -959,7 +966,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
      * verify notes textbox
      */
     public void verifyNotestextbox() throws InterruptedException {
- //       WaitActions.getWaits().WaitUntilWebElementIsVisible(label_notes2);
+        //       WaitActions.getWaits().WaitUntilWebElementIsVisible(label_notes2);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_notes2);
         Assert.assertTrue(label_notes2.isDisplayed());
         Assert.assertTrue(txtfield_notes.isDisplayed());
@@ -973,7 +980,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     public void entertextNoteField() throws InterruptedException {
 //        WaitActions.getWaits().waitForElementTobeClickable(txtfield_notes);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txtfield_notes);
-        WebElementActions.getActions().inputText(txtfield_notes,prop.getProperty("notes"));
+        WebElementActions.getActions().inputText(txtfield_notes,appProp.getProperty("notes"));
 
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
@@ -1003,33 +1010,33 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     /**
      * Verified (Ro to present in header)authorized by hyperlink element
      */
-     public void verifiedAuthorizedByHyperlinkElements() throws InterruptedException {
+    public void verifiedAuthorizedByHyperlinkElements() throws InterruptedException {
 //         WaitActions.getWaits().WaitUntilWebElementIsVisible(label_SearchSelectContact);
-         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_SearchSelectContact);
-         Assert.assertTrue(label_SearchSelectContact.isDisplayed());
-         Assert.assertTrue(label_AuthorizedBy.isDisplayed());
-         Assert.assertTrue(btn_AddContact.isDisplayed());
-         Assert.assertTrue(label_FirstName.isDisplayed());
-         Assert.assertTrue(label_LastName.isDisplayed());
-         Assert.assertTrue(label_selectColumn.isDisplayed());
-         Assert.assertTrue(btn_cancle.isDisplayed());
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_SearchSelectContact);
+        Assert.assertTrue(label_SearchSelectContact.isDisplayed());
+        Assert.assertTrue(label_AuthorizedBy.isDisplayed());
+        Assert.assertTrue(btn_AddContact.isDisplayed());
+        Assert.assertTrue(label_FirstName.isDisplayed());
+        Assert.assertTrue(label_LastName.isDisplayed());
+        Assert.assertTrue(label_selectColumn.isDisplayed());
+        Assert.assertTrue(btn_cancle.isDisplayed());
 
-         TestListener.saveScreenshotPNG(driver);
+        TestListener.saveScreenshotPNG(driver);
 
-     }
+    }
     /**
      *   click on add contact
      */
-      public void clickOnAddContact() throws InterruptedException {
+    public void clickOnAddContact() throws InterruptedException {
 //          WaitActions.getWaits().waitForElementTobeClickable(btn_AddContact);
-          WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_AddContact);
-          WebElementActions.getActions().clickElement(btn_AddContact);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_AddContact);
+        WebElementActions.getActions().clickElement(btn_AddContact);
 
-          WaitActions.getWaits().loadingWait(loder);
-          TestListener.saveScreenshotPNG(driver);
-      }
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+    }
 
-      String randomName = WebElementActions.getActions().randomAlphaNumeric(10);
+    String randomName = WebElementActions.getActions().randomAlphaNumeric(10);
     /**
      * enter ContactFirstName
      */
@@ -1110,6 +1117,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_UpdateRates);
         Assert.assertTrue(label_UpdateRates.isDisplayed());
         Assert.assertTrue(label_Labor.isDisplayed());
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(labor_value);
         Assert.assertTrue(labor_value.isDisplayed());
         Assert.assertTrue(label_Parts.isDisplayed());
         Assert.assertTrue(parts_value1.isDisplayed());
@@ -1122,7 +1130,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
         Assert.assertTrue(tax_value.isDisplayed());
         Assert.assertTrue(RoTotal.isDisplayed());
         Assert.assertTrue(RoTotal_value.isDisplayed());
-        Assert.assertTrue(label_USD.isDisplayed());
+        Assert.assertTrue(label_Currency.isDisplayed());
         Assert.assertTrue(viewProfitLoss.isDisplayed());
         TestListener.saveScreenshotPNG(driver);
     }
@@ -1139,6 +1147,7 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
         Assert.assertTrue(delete_icon.isDisplayed());
 //        Assert.assertTrue(expandColumn.isDisplayed());
 //        Assert.assertTrue(hash.isDisplayed());
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(p);
         Assert.assertTrue(p.isDisplayed());
         Assert.assertTrue(label_Description.isDisplayed());
         Assert.assertTrue(label_estimatedHrs.isDisplayed());
@@ -1391,14 +1400,14 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
     /**
      * click on OK button
      */
-     public void clickOnOKbtn() throws InterruptedException {
+    public void clickOnOKbtn() throws InterruptedException {
 //         WaitActions.getWaits().waitForElementTobeClickable(btn_ok);
-         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_ok);
-         WebElementActions.getActions().clickElement(btn_ok);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_ok);
+        WebElementActions.getActions().clickElement(btn_ok);
 
-         WaitActions.getWaits().loadingWait(loder);
-         TestListener.saveScreenshotPNG(driver);
-     }
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+    }
     /**
      * click on Show labour Details
      */
@@ -1414,12 +1423,13 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
      * click on Number
      */
     public void clickOnNumber() throws InterruptedException {
-       Thread.sleep(2000);
-       WaitActions.getWaits().scrollElementTillView(number_2row);
+        Thread.sleep(3000);
+//       WaitActions.getWaits().scrollElementTillView(number_2row); moveOnTargetElement
+//        WebElementActions.getActions().moveOnTargetElement(number_2row);
 
 //       WaitActions.getWaits().waitForElementTobeClickable(number_2row);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(number_2row);
-        Thread.sleep(2000);
+//        Thread.sleep(2000);
         WebElementActions.getActions().clickElement(number_2row);
 
         WaitActions.getWaits().loadingWait(loder);
@@ -1500,10 +1510,10 @@ public class EC_ServiceManager_WoLabor extends TestDriverActions {
 
         TestListener.saveScreenshotPNG(driver);
     }
-        /**
-         * click on sign out button
-         * verify username
-         */
+    /**
+     * click on sign out button
+     * verify username
+     */
     public void clickOnSignOut () throws InterruptedException {
 //        WaitActions.getWaits().waitForElementTobeClickable(btn_signOut);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_signOut);

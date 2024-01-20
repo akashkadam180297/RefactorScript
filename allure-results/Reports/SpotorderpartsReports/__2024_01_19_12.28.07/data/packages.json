@@ -1,0 +1,143 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "pages.parts.Spotorderpart",
+    "children" : [ {
+      "name" : "generateAllure",
+      "uid" : "db0f47fb9d216881",
+      "parentUid" : "b988aed13ee2557e00aaab0c889b0055",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705645608528,
+        "stop" : 1705645608563,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "pages.parts.Spotorderpart"
+  }, {
+    "name" : "tests.parts.Spotorderparts",
+    "children" : [ {
+      "name" : "Test_001_gotoOrderPartsScreen",
+      "uid" : "16bfec05298f0927",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705645785959,
+        "stop" : 1705645837981,
+        "duration" : 52022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickOnSpotOrder",
+      "uid" : "67d21e277e068d7c",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705645838523,
+        "stop" : 1705645957073,
+        "duration" : 118550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_inputPartialPartNumber",
+      "uid" : "5a3fa8949780bc6a",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705645957208,
+        "stop" : 1705646055650,
+        "duration" : 98442
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_clickOnAddButton",
+      "uid" : "d13f253727577490",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705646055950,
+        "stop" : 1705646176752,
+        "duration" : 120802
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_verifySearchPartDescription",
+      "uid" : "ca112a96d83276aa",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705646176868,
+        "stop" : 1705646463766,
+        "duration" : 286898
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_inputCoreParentPart",
+      "uid" : "363bf82096102aeb",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705646463887,
+        "stop" : 1705646693563,
+        "duration" : 229676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_007_verifyPO",
+      "uid" : "1ae13fa9e6361cdf",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705646693700,
+        "stop" : 1705646946388,
+        "duration" : 252688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_008_verifyRequiredPart",
+      "uid" : "e11896879c7a7f84",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705646946558,
+        "stop" : 1705647219581,
+        "duration" : 273023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_009_verifyWarehouseText",
+      "uid" : "43f15291c3e67013",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705647219713,
+        "stop" : 1705647486910,
+        "duration" : 267197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.Spotorderparts"
+  } ]
+}

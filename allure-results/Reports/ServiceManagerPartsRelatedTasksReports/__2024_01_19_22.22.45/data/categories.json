@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Index 1 out of bounds for length 1",
+      "children" : [ {
+        "name" : "Test_002_click On Reference Number",
+        "uid" : "454fd0db1e74c861",
+        "parentUid" : "9d417e3bac78e5fe6d1a4832206dbf0e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705682271861,
+          "stop" : 1705682395062,
+          "duration" : 123201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d417e3bac78e5fe6d1a4832206dbf0e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,158 @@
+{
+  "uid" : "e8fd94935f6b9421",
+  "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+  "fullName" : "tests.techRo.ServiceManagerPartsRelatedTasks.Test_001_gotoCompleteRo",
+  "historyId" : "734c413c6b3db69296c7d58f7b80e0e5",
+  "time" : {
+    "start" : 1705564544790,
+    "stop" : 1705564858836,
+    "duration" : 314046
+  },
+  "description" : "Test Description: Login the page and Go to CompleteRo Screen",
+  "descriptionHtml" : "<p>Test Description: Login the page and Go to CompleteRo Screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705564497860,
+      "stop" : 1705564544694,
+      "duration" : 46834
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login the page and Go to CompleteRo Screen",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "905ef37369e21fd9",
+      "name" : "Page Screenshot",
+      "source" : "905ef37369e21fd9.png",
+      "type" : "image/png",
+      "size" : 57822
+    }, {
+      "uid" : "2180914dae52b98f",
+      "name" : "Page Screenshot",
+      "source" : "2180914dae52b98f.png",
+      "type" : "image/png",
+      "size" : 83670
+    }, {
+      "uid" : "9549a47523ab77",
+      "name" : "Page Screenshot",
+      "source" : "9549a47523ab77.png",
+      "type" : "image/png",
+      "size" : 138041
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705564859164,
+      "stop" : 1705564859379,
+      "duration" : 215
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45e6393a782ad29e",
+      "name" : "Page Screenshot",
+      "source" : "45e6393a782ad29e.png",
+      "type" : "image/png",
+      "size" : 98455
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoCompleteRo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "18332@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3ae1da4ae538fa42",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (713, 576). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [905609b930433a9f8f5d8797f68c0741, clickElement {id=93C859FE0EB9684446E0781CE6EA020D_element_424}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65223/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (905609b930433a9f8f5d8797f68c0741)] -> xpath: //div[contains(@id,':1:ctbOk')]/a/child::span[text()='Add']]\nSession ID: 905609b930433a9f8f5d8797f68c0741",
+      "time" : {
+        "start" : 1705564035327,
+        "stop" : 1705564225705,
+        "duration" : 190378
+      }
+    }, {
+      "uid" : "bf6969287f8ba3f4",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (713, 576). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4e31f67c25332447a71d33c3c0dfc30b, clickElement {id=21B5F9575B5EC662AC7FCEC890D5DE28_element_437}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64762/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (4e31f67c25332447a71d33c3c0dfc30b)] -> xpath: //span[text()='Add']]\nSession ID: 4e31f67c25332447a71d33c3c0dfc30b",
+      "time" : {
+        "start" : 1705563380237,
+        "stop" : 1705563579659,
+        "duration" : 199422
+      }
+    }, {
+      "uid" : "6612d246ed809e51",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (713, 576). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3778ae4881b18e30ac5b804ce104ee7d, clickElement {id=0734516B48A90DB5A64566BE576772B6_element_421}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63993/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (3778ae4881b18e30ac5b804ce104ee7d)] -> xpath: //span[text()='Add']]\nSession ID: 3778ae4881b18e30ac5b804ce104ee7d",
+      "time" : {
+        "start" : 1705562499420,
+        "stop" : 1705562694846,
+        "duration" : 195426
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8fd94935f6b9421.json",
+  "parameterValues" : [ ]
+}

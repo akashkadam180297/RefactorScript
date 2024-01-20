@@ -1,0 +1,110 @@
+{
+  "uid" : "ff4007c02a8632b7",
+  "name" : "T_002 Check that click on the reference number and Add Labour button",
+  "fullName" : "tests.service.ECServiceManager_AddRemoveLaborTest.clickOnReferenceNum_AddLabourBtn",
+  "historyId" : "91eeaa3c892973952541df61cf6b955a",
+  "time" : {
+    "start" : 1705572838871,
+    "stop" : 1705572838872,
+    "duration" : 1
+  },
+  "description" : "Test Description -  click on the reference number and Add Labour button",
+  "descriptionHtml" : "<p>Test Description -  click on the reference number and Add Labour button</p>\n",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705572835663,
+      "stop" : 1705572838681,
+      "duration" : 3018
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\ecservicemanager_addremovelabortest\\ecservicemanager_addremovelabortestQA.properties (The system cannot find the path specified)",
+    "statusTrace" : "java.io.FileNotFoundException: F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\ecservicemanager_addremovelabortest\\ecservicemanager_addremovelabortestQA.properties (The system cannot find the path specified)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:216)\r\n\tat java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)\r\n\tat actions.LoginActions.getAppUrl1(LoginActions.java:50)\r\n\tat tests.TestDriverActions.initialization(TestDriverActions.java:280)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705572838885,
+      "stop" : 1705572839089,
+      "duration" : 204
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bcf33b0f84d7e188",
+      "name" : "Page Screenshot",
+      "source" : "bcf33b0f84d7e188.png",
+      "type" : "image/png",
+      "size" : 4655
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ECServiceManager_AddRemoveLaborTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ECServiceManager_AddRemoveLaborTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnReferenceNum_AddLabourBtn"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ECServiceManager_AddRemoveLaborTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "6832@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Add/Remove Labour Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff4007c02a8632b7.json",
+  "parameterValues" : [ ]
+}

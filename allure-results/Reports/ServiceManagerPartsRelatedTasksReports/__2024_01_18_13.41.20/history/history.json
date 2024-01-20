@@ -1,0 +1,156 @@
+{
+  "734c413c6b3db69296c7d58f7b80e0e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8fd94935f6b9421",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705564544790,
+        "stop" : 1705564858836,
+        "duration" : 314046
+      }
+    } ]
+  },
+  "d6827d44631a815a651ba9cd70881612" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7cacab1df8ef906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705565447213,
+        "stop" : 1705565480697,
+        "duration" : 33484
+      }
+    } ]
+  },
+  "2f11236c254a754049316d53e8c3a6bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "403f6a0d863cc74a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[contains(@id,'0:ctWAPAQ')]/span\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [285e8b271fa96a69a7d3a0e190a7fdbf, findElement {using=xpath, value=//td[contains(@id,'0:ctWAPAQ')]/span}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49439/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 285e8b271fa96a69a7d3a0e190a7fdbf",
+      "time" : {
+        "start" : 1705565183565,
+        "stop" : 1705565349788,
+        "duration" : 166223
+      }
+    } ]
+  },
+  "9049abab75a6be6e7c4d7b6ea7951d9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bb6d127d0b86e73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705564875987,
+        "stop" : 1705564977589,
+        "duration" : 101602
+      }
+    } ]
+  },
+  "60f96c0e7eeb5410b14c6c8dd399c1d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9398f8605b2bcfce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705564977774,
+        "stop" : 1705565063567,
+        "duration" : 85793
+      }
+    } ]
+  },
+  "7400702628433b69f7e9ac78b9b991c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7f8a7db35b47127",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705565063858,
+        "stop" : 1705565183388,
+        "duration" : 119530
+      }
+    } ]
+  },
+  "9f9464135977372cb67f2957077f4265" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a22a7ebf351c7e1",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (1286, 385). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [285e8b271fa96a69a7d3a0e190a7fdbf, clickElement {id=7BB86D0E3D44BA417297BB611381C744_element_762}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49439/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (285e8b271fa96a69a7d3a0e190a7fdbf)] -> xpath: //span[text()='Add Parts']]\nSession ID: 285e8b271fa96a69a7d3a0e190a7fdbf",
+      "time" : {
+        "start" : 1705564859412,
+        "stop" : 1705564875807,
+        "duration" : 16395
+      }
+    } ]
+  },
+  "827464c9db81e02177880176da7e299b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f03bb8e13a05acf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705565350398,
+        "stop" : 1705565447023,
+        "duration" : 96625
+      }
+    } ]
+  }
+}

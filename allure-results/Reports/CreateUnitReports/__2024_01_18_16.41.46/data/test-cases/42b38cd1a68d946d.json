@@ -1,0 +1,94 @@
+{
+  "uid" : "42b38cd1a68d946d",
+  "name" : "verify Required Location ",
+  "fullName" : "tests.estimating.ApproveanEstimateDMSTest.T_002verifyRequiredLocation",
+  "historyId" : "35847da7d8dbebc03d546fae4c45aa45",
+  "time" : {
+    "start" : 1705573347274,
+    "stop" : 1705573347277,
+    "duration" : 3
+  },
+  "description" : "Test Description -verify Required Location ",
+  "descriptionHtml" : "<p>Test Description -verify Required Location</p>\n",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705573347280,
+      "stop" : 1705573347478,
+      "duration" : 198
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c5c4640b337d885c",
+      "name" : "Page Screenshot",
+      "source" : "c5c4640b337d885c.png",
+      "type" : "image/png",
+      "size" : 4655
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.estimating.ApproveanEstimateDMSTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.estimating.ApproveanEstimateDMSTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "T_002verifyRequiredLocation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.estimating.ApproveanEstimateDMSTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17728@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "778eef0c512f4d3b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705572797508,
+        "stop" : 1705572797509,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42b38cd1a68d946d.json",
+  "parameterValues" : [ ]
+}

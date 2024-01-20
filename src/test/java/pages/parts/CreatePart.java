@@ -563,8 +563,8 @@ public class CreatePart extends TestDriverActions {
     /**
      * verify element Standard present
      */
-      public void verifyElementStandard()
-      {
+      public void verifyElementStandard() throws InterruptedException {
+          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txtfield_standard);
           Assert.assertTrue(txtfield_standard.isDisplayed());
       }
 

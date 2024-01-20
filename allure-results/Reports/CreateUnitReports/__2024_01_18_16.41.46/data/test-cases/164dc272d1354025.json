@@ -1,0 +1,100 @@
+{
+  "uid" : "164dc272d1354025",
+  "name" : "Test_004 Check vendor name in search box and sign out the page",
+  "fullName" : "tests.administration.CreateVendorTest.checkVendorName_SignOutPage",
+  "historyId" : "3234cd6e6d956967749637edf586ea14",
+  "time" : {
+    "start" : 1705573335710,
+    "stop" : 1705573335712,
+    "duration" : 2
+  },
+  "description" : "Test Description: Check vendor name in search box and sign out the page",
+  "descriptionHtml" : "<p>Test Description: Check vendor name in search box and sign out the page</p>\n",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705573335719,
+      "stop" : 1705573335926,
+      "duration" : 207
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f3fdbe7cd0b4c6d4",
+      "name" : "Page Screenshot",
+      "source" : "f3fdbe7cd0b4c6d4.png",
+      "type" : "image/png",
+      "size" : 4655
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.CreateVendorTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.CreateVendorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkVendorName_SignOutPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.CreateVendorTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17728@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Vendors Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "76edd20038d3c769",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705572789865,
+        "stop" : 1705572789865,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "164dc272d1354025.json",
+  "parameterValues" : [ ]
+}

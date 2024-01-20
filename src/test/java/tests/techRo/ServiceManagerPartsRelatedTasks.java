@@ -25,6 +25,9 @@ public class ServiceManagerPartsRelatedTasks extends TestDriverActions {
     @Description("Test Description: click On Reference Number")
     public void Test_002_clickOnReference() throws InterruptedException, IOException {
         servicemanagerpartsrelatedtasks.clickOnAddParts ();
+        servicemanagerpartsrelatedtasks.clickImageCrossIcon();
+        servicemanagerpartsrelatedtasks.clickImageDeleteIcon();
+
         servicemanagerpartsrelatedtasks.clickOnAddLabourSrNo();
 
     }
@@ -118,9 +121,8 @@ public class ServiceManagerPartsRelatedTasks extends TestDriverActions {
         servicemanagerpartsrelatedtasks.verifyPartOnHand();
         servicemanagerpartsrelatedtasks.clickOncancelicon ();
         servicemanagerpartsrelatedtasks.clickOnDelete ();
-        servicemanagerpartsrelatedtasks.clickImageCrossIcon();
-        servicemanagerpartsrelatedtasks.clickImageDeleteIcon();
-
+     //   servicemanagerpartsrelatedtasks.clickImageCrossIcon();
+     //   servicemanagerpartsrelatedtasks.clickImageDeleteIcon();
 
     }
 

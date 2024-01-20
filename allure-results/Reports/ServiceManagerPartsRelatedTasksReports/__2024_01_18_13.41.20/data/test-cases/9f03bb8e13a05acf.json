@@ -1,0 +1,119 @@
+{
+  "uid" : "9f03bb8e13a05acf",
+  "name" : "Test_007_click On Non-Catalog Part ",
+  "fullName" : "tests.techRo.ServiceManagerPartsRelatedTasks.Test_007_clickOnNonCatalogPart",
+  "historyId" : "827464c9db81e02177880176da7e299b",
+  "time" : {
+    "start" : 1705565350398,
+    "stop" : 1705565447023,
+    "duration" : 96625
+  },
+  "description" : "Test Description: click On Non-Catalog Part ",
+  "descriptionHtml" : "<p>Test Description: click On Non-Catalog Part</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705564497860,
+      "stop" : 1705564544694,
+      "duration" : 46834
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: click On Non-Catalog Part ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1258dd432b793a50",
+      "name" : "Page Screenshot",
+      "source" : "1258dd432b793a50.png",
+      "type" : "image/png",
+      "size" : 100271
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705565447063,
+      "stop" : 1705565447207,
+      "duration" : 144
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5eadb28d4a603ce",
+      "name" : "Page Screenshot",
+      "source" : "e5eadb28d4a603ce.png",
+      "type" : "image/png",
+      "size" : 105313
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_007_clickOnNonCatalogPart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "18332@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f03bb8e13a05acf.json",
+  "parameterValues" : [ ]
+}

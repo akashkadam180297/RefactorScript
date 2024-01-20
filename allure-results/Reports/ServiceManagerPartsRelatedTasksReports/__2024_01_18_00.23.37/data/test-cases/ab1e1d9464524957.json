@@ -1,0 +1,113 @@
+{
+  "uid" : "ab1e1d9464524957",
+  "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+  "fullName" : "tests.techRo.ServiceManagerPartsRelatedTasks.Test_001_gotoCompleteRo",
+  "historyId" : "734c413c6b3db69296c7d58f7b80e0e5",
+  "time" : {
+    "start" : 1705515394253,
+    "stop" : 1705515616120,
+    "duration" : 221867
+  },
+  "description" : "Test Description: Login the page and Go to CompleteRo Screen",
+  "descriptionHtml" : "<p>Test Description: Login the page and Go to CompleteRo Screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description: Login the page and Go to CompleteRo Screen",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c893bbf50f5addaa",
+      "name" : "Page Screenshot",
+      "source" : "c893bbf50f5addaa.png",
+      "type" : "image/png",
+      "size" : 128628
+    }, {
+      "uid" : "3d6ffeef66da7d5a",
+      "name" : "Page Screenshot",
+      "source" : "3d6ffeef66da7d5a.png",
+      "type" : "image/png",
+      "size" : 141969
+    }, {
+      "uid" : "b4856258f4d19357",
+      "name" : "Page Screenshot",
+      "source" : "b4856258f4d19357.png",
+      "type" : "image/png",
+      "size" : 138360
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705515616318,
+      "stop" : 1705515616450,
+      "duration" : 132
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "339235c56f049ab1",
+      "name" : "Page Screenshot",
+      "source" : "339235c56f049ab1.png",
+      "type" : "image/png",
+      "size" : 115310
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoCompleteRo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "9472@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab1e1d9464524957.json",
+  "parameterValues" : [ ]
+}

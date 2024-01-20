@@ -1,0 +1,25 @@
+# Created on 2024-01-19T14:50:44.392
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created on 2024-01-19T14:51:03.009
+Unexpected IOException with stream: MethodTest_003_verifyAllFormFields Pass
+
+
+# Created on 2024-01-19T14:51:03.011
+Unexpected IOException with stream: Screen captured for test case : Test_003_verifyAllFormFields:Pass
+
+
+# Created on 2024-01-19T14:51:03.225
+Unexpected IOException: 6,1,tests.fleet.CreateUnit,Test_003_verifyAllFormFields(tests.fleet.CreateUnit),null,null,null
+
+
+# Created on 2024-01-19T14:51:03.456
+Unexpected IOException: 5,1,tests.fleet.CreateUnit,Test_004_enterFieldsAndClickOnSave(tests.fleet.CreateUnit),tests.fleet.CreateUnit,null,null
+
+

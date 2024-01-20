@@ -1,0 +1,158 @@
+{
+  "uid" : "e519a70cc5f3e6ab",
+  "name" : "Test_006_click On Add Part ",
+  "fullName" : "tests.techRo.ServiceManagerPartsRelatedTasks.Test_006_clickOnAddPart",
+  "historyId" : "2f11236c254a754049316d53e8c3a6bf",
+  "time" : {
+    "start" : 1705511504747,
+    "stop" : 1705511651265,
+    "duration" : 146518
+  },
+  "description" : "Test Description: click On Add Part   ",
+  "descriptionHtml" : "<p>Test Description: click On Add Part</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705510839783,
+      "stop" : 1705510877603,
+      "duration" : 37820
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: click On Add Part   ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf8e9a67e8b8ba16",
+      "name" : "Page Screenshot",
+      "source" : "bf8e9a67e8b8ba16.png",
+      "type" : "image/png",
+      "size" : 80020
+    }, {
+      "uid" : "96a6c9eca96ca8e9",
+      "name" : "Page Screenshot",
+      "source" : "96a6c9eca96ca8e9.png",
+      "type" : "image/png",
+      "size" : 97303
+    }, {
+      "uid" : "acb309da7f3dbfa4",
+      "name" : "Page Screenshot",
+      "source" : "acb309da7f3dbfa4.png",
+      "type" : "image/png",
+      "size" : 90050
+    }, {
+      "uid" : "f6e9ac374ada2645",
+      "name" : "Page Screenshot",
+      "source" : "f6e9ac374ada2645.png",
+      "type" : "image/png",
+      "size" : 98122
+    }, {
+      "uid" : "745896cfd321f403",
+      "name" : "Page Screenshot",
+      "source" : "745896cfd321f403.png",
+      "type" : "image/png",
+      "size" : 98531
+    }, {
+      "uid" : "ddfcad0d17aa8f31",
+      "name" : "Page Screenshot",
+      "source" : "ddfcad0d17aa8f31.png",
+      "type" : "image/png",
+      "size" : 95945
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705511651268,
+      "stop" : 1705511651393,
+      "duration" : 125
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "57c632a63e815cb2",
+      "name" : "Page Screenshot",
+      "source" : "57c632a63e815cb2.png",
+      "type" : "image/png",
+      "size" : 95945
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_006_clickOnAddPart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "2992@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "56cc7391069000bd",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (1286, 403). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1366px; height: 607px; user-select: none; z-index: 58;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7b2981d4d1ce5839f0ed912aeb70c231, clickElement {id=2B7F6A7D8DC7C3DE06D7BD640A00F93A_element_1210}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49172/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (7b2981d4d1ce5839f0ed912aeb70c231)] -> xpath: //span[text()='Add Parts']]\nSession ID: 7b2981d4d1ce5839f0ed912aeb70c231",
+      "time" : {
+        "start" : 1705509980348,
+        "stop" : 1705509996799,
+        "duration" : 16451
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e519a70cc5f3e6ab.json",
+  "parameterValues" : [ ]
+}

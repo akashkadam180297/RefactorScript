@@ -36,8 +36,9 @@ public class WebElementActions extends TestDriverActions {
      * @param element
      * @param text
      */
-    public void inputText(WebElement element, String text) {
-        WaitActions.getWaits().WaitUntilWebElementIsVisible(element);
+    public void inputText(WebElement element, String text) throws InterruptedException {
+//        WaitActions.getWaits().WaitUntilWebElementIsVisible(element);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(element);
         element.clear();
         element.sendKeys(text);
     }
@@ -51,9 +52,9 @@ public class WebElementActions extends TestDriverActions {
      */
     public void clickElement(WebElement element) throws InterruptedException {
         //WaitActions.getWaits().WaitUntilWebElementIsVisible(element);
-     //   WaitActions.getWaits().waitForElementTobeClickable(element);
+        //       WaitActions.getWaits().waitForElementTobeClickable(element);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(element);
-        Thread.sleep(3000);
+        Thread.sleep(4000);
         element.click();
     }
 
@@ -70,10 +71,10 @@ public class WebElementActions extends TestDriverActions {
     /**
      * move to horizontally using action class
      */
-       public void moveOnTargetElement(WebElement element) {
-           Actions act = new Actions(driver);
-           act.moveToElement(element).perform();
-       }
+    public void moveOnTargetElement(WebElement element) {
+        Actions act = new Actions(driver);
+        act.moveToElement(element).perform();
+    }
     /**
      * Switch to child window from the parent
      */
@@ -189,7 +190,7 @@ public class WebElementActions extends TestDriverActions {
      */
     public int randomNumber(int low, int high){
         Random r = new Random();
-       int result = r.nextInt((high - low) + 1) + low;
+        int result = r.nextInt((high - low) + 1) + low;
         return result;
     }
 
@@ -199,18 +200,18 @@ public class WebElementActions extends TestDriverActions {
      */
 
     public String randomAlphaNumeric(int n){
-     Random r1 = new Random();
-     String alphaNum = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                     + "0123456789"
-                     + "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-     StringBuilder sb = new StringBuilder(n);
-     for(int i=0;i<n;i++)
-     {
-         int index = (int)(alphaNum.length()*Math.random());
-         sb.append(alphaNum.charAt(index));
-      //   sb.append(alphaNum.length()*Math.random());
-     }
-       return sb.toString();
+        Random r1 = new Random();
+        String alphaNum = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                + "0123456789"
+                + "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        StringBuilder sb = new StringBuilder(n);
+        for(int i=0;i<n;i++)
+        {
+            int index = (int)(alphaNum.length()*Math.random());
+            sb.append(alphaNum.charAt(index));
+            //   sb.append(alphaNum.length()*Math.random());
+        }
+        return sb.toString();
 
 
     }

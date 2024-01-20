@@ -1,0 +1,148 @@
+{
+  "uid" : "203b6ee791a6278f",
+  "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+  "fullName" : "tests.techRo.ServiceManagerPartsRelatedTasks.Test_001_gotoCompleteRo",
+  "historyId" : "734c413c6b3db69296c7d58f7b80e0e5",
+  "time" : {
+    "start" : 1705559966128,
+    "stop" : 1705560202854,
+    "duration" : 236726
+  },
+  "description" : "Test Description: Login the page and Go to CompleteRo Screen",
+  "descriptionHtml" : "<p>Test Description: Login the page and Go to CompleteRo Screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705559925541,
+      "stop" : 1705559965990,
+      "duration" : 40449
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login the page and Go to CompleteRo Screen",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1be0c8f9adbdf289",
+      "name" : "Page Screenshot",
+      "source" : "1be0c8f9adbdf289.png",
+      "type" : "image/png",
+      "size" : 128627
+    }, {
+      "uid" : "212804805b5bfaea",
+      "name" : "Page Screenshot",
+      "source" : "212804805b5bfaea.png",
+      "type" : "image/png",
+      "size" : 142024
+    }, {
+      "uid" : "8cba0e3d3a8627bd",
+      "name" : "Page Screenshot",
+      "source" : "8cba0e3d3a8627bd.png",
+      "type" : "image/png",
+      "size" : 138485
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705560203242,
+      "stop" : 1705560203454,
+      "duration" : 212
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8e2b879c082205cf",
+      "name" : "Page Screenshot",
+      "source" : "8e2b879c082205cf.png",
+      "type" : "image/png",
+      "size" : 114971
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoCompleteRo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "19448@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "18e027ec01747a63",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d46e2392cf5e250081331aba3b39e561, clickElement {id=E0AB9769270D0E040D696CB008D70613_element_871}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62150}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62150/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (d46e2392cf5e250081331aba3b39e561)] -> xpath: //div[contains(@id,':0:pgltWAIDX')]//div]\nSession ID: d46e2392cf5e250081331aba3b39e561",
+      "time" : {
+        "start" : 1705559359798,
+        "stop" : 1705559767708,
+        "duration" : 407910
+      }
+    }, {
+      "uid" : "8d43669ca362a4ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705556849774,
+        "stop" : 1705557080530,
+        "duration" : 230756
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "203b6ee791a6278f.json",
+  "parameterValues" : [ ]
+}

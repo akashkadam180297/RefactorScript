@@ -1,0 +1,86 @@
+{
+  "uid" : "9ad86da4c1091f85",
+  "name" : "Test_003_click On part Number",
+  "fullName" : "tests.techRo.ServiceManagerPartsRelatedTasks.Test_003_clickOnPart",
+  "historyId" : "9049abab75a6be6e7c4d7b6ea7951d9e",
+  "time" : {
+    "start" : 1705567747662,
+    "stop" : 1705567848626,
+    "duration" : 100964
+  },
+  "description" : "Test Description: click On part Number",
+  "descriptionHtml" : "<p>Test Description: click On part Number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705567848630,
+      "stop" : 1705567848778,
+      "duration" : 148
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "316c6935eb597a8e",
+      "name" : "Page Screenshot",
+      "source" : "316c6935eb597a8e.png",
+      "type" : "image/png",
+      "size" : 114252
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_clickOnPart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "1624@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ad86da4c1091f85.json",
+  "parameterValues" : [ ]
+}

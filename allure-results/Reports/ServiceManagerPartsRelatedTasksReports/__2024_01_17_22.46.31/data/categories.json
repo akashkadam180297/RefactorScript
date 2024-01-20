@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <div>...</div> is not clickable at point (42, 465). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1349px; height: 614px; user-select: none; z-index: 66;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8c9b7c6bd910b9393f02463852325ae8, clickElement {id=3492AFE8037BCDFDA28AA59CC79E71DB_element_1425}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49533}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49533/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (8c9b7c6bd910b9393f02463852325ae8)] -> xpath: //div[contains(@id,':0:pgltWAIDX')]//div]\nSession ID: 8c9b7c6bd910b9393f02463852325ae8",
+      "children" : [ {
+        "name" : "Test_007_click On Non-Catalog Part ",
+        "uid" : "2aa6a4b55a59d1cd",
+        "parentUid" : "68b918a1534b3a625a102f2fdd56305e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705511651397,
+          "stop" : 1705511763100,
+          "duration" : 111703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68b918a1534b3a625a102f2fdd56305e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

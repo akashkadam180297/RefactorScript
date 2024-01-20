@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (678, 385). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [da06089ab662ff76685d5f94a13b5042, clickElement {id=14170835ACC1F759432A5BBCE656F491_element_533}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51866/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (da06089ab662ff76685d5f94a13b5042)] -> xpath: (//span[contains(.,'Add Lab')])[1]]\nSession ID: da06089ab662ff76685d5f94a13b5042",
+      "children" : [ {
+        "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+        "uid" : "c333a2493db00fc8",
+        "parentUid" : "dbad6b68e99f6b3ed78c6ddee02ea4e5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705567311605,
+          "stop" : 1705567539671,
+          "duration" : 228066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dbad6b68e99f6b3ed78c6ddee02ea4e5"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[contains(@id,':itSearchPartSelect::su0')]\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [da06089ab662ff76685d5f94a13b5042, findElement {using=xpath, value=//li[contains(@id,':itSearchPartSelect::su0')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51866/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: da06089ab662ff76685d5f94a13b5042",
+      "children" : [ {
+        "name" : "Test_006_click On Add Part ",
+        "uid" : "56f54dab09557b9c",
+        "parentUid" : "f2aba6160c9dff8d27ce049a325c9081",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705568054149,
+          "stop" : 1705568354794,
+          "duration" : 300645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f2aba6160c9dff8d27ce049a325c9081"
+    }, {
+      "name" : "Input must be set",
+      "children" : [ {
+        "name" : "generateAllure",
+        "uid" : "ae14859821a6c973",
+        "parentUid" : "1d3c628265ed0b583d3773da39044e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705569965123,
+          "stop" : 1705569965127,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d3c628265ed0b583d3773da39044e50"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

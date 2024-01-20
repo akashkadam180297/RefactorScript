@@ -1,0 +1,131 @@
+{
+  "uid" : "cd98ce3f61a791ef",
+  "name" : "Test_005_Enter the Yesterday Date ",
+  "fullName" : "tests.techRo.ServiceManagerInvoice.Test_005_enterYesterdayDate",
+  "historyId" : "469b6ec2d50caf17a4000b04269fd0f9",
+  "time" : {
+    "start" : 1705597150916,
+    "stop" : 1705597200657,
+    "duration" : 49741
+  },
+  "description" : "Test Description: Enter the Yesterday Date ",
+  "descriptionHtml" : "<p>Test Description: Enter the Yesterday Date</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705597013887,
+      "stop" : 1705597059444,
+      "duration" : 45557
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Enter the Yesterday Date ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5e95960c9375005f",
+      "name" : "Page Screenshot",
+      "source" : "5e95960c9375005f.png",
+      "type" : "image/png",
+      "size" : 111021
+    }, {
+      "uid" : "ff18b7f22b16cb00",
+      "name" : "Page Screenshot",
+      "source" : "ff18b7f22b16cb00.png",
+      "type" : "image/png",
+      "size" : 92044
+    }, {
+      "uid" : "a5dae56e824ccd85",
+      "name" : "Page Screenshot",
+      "source" : "a5dae56e824ccd85.png",
+      "type" : "image/png",
+      "size" : 12669
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705597200660,
+      "stop" : 1705597200778,
+      "duration" : 118
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f07fe6c9880ed32",
+      "name" : "Page Screenshot",
+      "source" : "2f07fe6c9880ed32.png",
+      "type" : "image/png",
+      "size" : 12669
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerInvoice"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerInvoice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_005_enterYesterdayDate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerInvoice"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "10556@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd98ce3f61a791ef.json",
+  "parameterValues" : [ ]
+}

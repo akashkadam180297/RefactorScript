@@ -1,0 +1,152 @@
+{
+  "uid" : "c569bf35b7fb66a4",
+  "name" : "Test_002_click On Reference Number",
+  "fullName" : "tests.techRo.ServiceManagerPartsRelatedTasks.Test_002_clickOnReference",
+  "historyId" : "9f9464135977372cb67f2957077f4265",
+  "time" : {
+    "start" : 1705516894951,
+    "stop" : 1705517050278,
+    "duration" : 155327
+  },
+  "description" : "Test Description: click On Reference Number",
+  "descriptionHtml" : "<p>Test Description: click On Reference Number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705516630233,
+      "stop" : 1705516669331,
+      "duration" : 39098
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: click On Reference Number",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "57324c75b1b37b7e",
+      "name" : "Page Screenshot",
+      "source" : "57324c75b1b37b7e.png",
+      "type" : "image/png",
+      "size" : 109800
+    }, {
+      "uid" : "7549defd93c459ca",
+      "name" : "Page Screenshot",
+      "source" : "7549defd93c459ca.png",
+      "type" : "image/png",
+      "size" : 108585
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705517050281,
+      "stop" : 1705517050409,
+      "duration" : 128
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff6cfdb7f12b112e",
+      "name" : "Page Screenshot",
+      "source" : "ff6cfdb7f12b112e.png",
+      "type" : "image/png",
+      "size" : 108859
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickOnReference"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "16044@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "77c9afe8c279f9e9",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@id,':ocb1:ctbClose')]//child::a/span[text()='Close']\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d3aa4466842a5c442d98fe1d7786f045, findElement {using=xpath, value=//div[contains(@id,':ocb1:ctbClose')]//child::a/span[text()='Close']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50106}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50106/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d3aa4466842a5c442d98fe1d7786f045",
+      "time" : {
+        "start" : 1705515616467,
+        "stop" : 1705515935257,
+        "duration" : 318790
+      }
+    }, {
+      "uid" : "ef76b501ee082db4",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@id,':ocb1:ctbClose')]//child::a/span[text()='Close']\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2db7ec0434ecaee65b97247a6bfda251, findElement {using=xpath, value=//div[contains(@id,':ocb1:ctbClose')]//child::a/span[text()='Close']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49976/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2db7ec0434ecaee65b97247a6bfda251",
+      "time" : {
+        "start" : 1705514616712,
+        "stop" : 1705514951279,
+        "duration" : 334567
+      }
+    }, {
+      "uid" : "b87b8e0d4c75920c",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <img id=\"reg1:0:rWO:0:trashWA:dc_cil1::icon\" src=\"/kona_eu/res?K=ButtonBgTrashEna\" class=\"x1aq\"> is not clickable at point (714, 402). Other element would receive the click: <div id=\"reg1:0:rWO:0:sCFDWP:tCFDWP::db\" class=\"x17e\" style=\"position: relative; width: 942px; overflow: hidden; height: 462px; z-index: 1;\" _afrcolcount=\"2\">...</div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0cc1df0c562162c2dca17719142150b3, clickElement {id=C83481E911A0E218B1D9EB0EB256BA73_element_1332}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49861/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (0cc1df0c562162c2dca17719142150b3)] -> xpath: //span[contains(text(),'Add Lab')]/following::img[1]]\nSession ID: 0cc1df0c562162c2dca17719142150b3",
+      "time" : {
+        "start" : 1705513909448,
+        "stop" : 1705514190917,
+        "duration" : 281469
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c569bf35b7fb66a4.json",
+  "parameterValues" : [ ]
+}

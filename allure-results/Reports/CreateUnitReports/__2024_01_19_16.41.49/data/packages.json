@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.fleet.CreateUnit",
+    "children" : [ {
+      "name" : "initialization",
+      "uid" : "8a5b51e0586f946b",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705662708121,
+        "stop" : 1705662708125,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_001_gotoUnitMasterScreen",
+      "uid" : "ddc998a4a0ee6b18",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705662708336,
+        "stop" : 1705662708342,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickAddNewROAndSelectUnit",
+      "uid" : "dceeb104fe851054",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705662708564,
+        "stop" : 1705662708564,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_verifyAllFormFields",
+      "uid" : "7bd194996fb68b17",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705662708735,
+        "stop" : 1705662708736,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_enterFieldsAndClickOnSave",
+      "uid" : "20aac190b24e381d",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705662708908,
+        "stop" : 1705662708909,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_Verify_unit_created",
+      "uid" : "98d60b746efd2abb",
+      "parentUid" : "2f5d030df5b33d74c47fdb0d5e09a056",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705662709079,
+        "stop" : 1705662709079,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.fleet.CreateUnit"
+  } ]
+}

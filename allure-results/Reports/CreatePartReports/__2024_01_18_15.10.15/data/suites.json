@@ -1,0 +1,112 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.techRo.ServiceManagerPartsRelatedTasks",
+        "children" : [ {
+          "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+          "uid" : "852054d48bd58b1a",
+          "parentUid" : "e3b00c7177683af68e9caec851bc7de3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705567311605,
+            "stop" : 1705567539671,
+            "duration" : 228066
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002_click On Reference Number",
+          "uid" : "d7440c5c74aeca9b",
+          "parentUid" : "e3b00c7177683af68e9caec851bc7de3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705567540286,
+            "stop" : 1705567747520,
+            "duration" : 207234
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003_click On part Number",
+          "uid" : "248fd345fd4bbe87",
+          "parentUid" : "e3b00c7177683af68e9caec851bc7de3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705567747662,
+            "stop" : 1705567848626,
+            "duration" : 100964
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004_verify Labor Text ",
+          "uid" : "2a9c712f17030248",
+          "parentUid" : "e3b00c7177683af68e9caec851bc7de3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705567848783,
+            "stop" : 1705567934608,
+            "duration" : 85825
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005_verify Charge Quantity Editable  ",
+          "uid" : "ec070926320a564",
+          "parentUid" : "e3b00c7177683af68e9caec851bc7de3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705567934765,
+            "stop" : 1705568054012,
+            "duration" : 119247
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_006_click On Add Part ",
+          "uid" : "ae7152bdec4a83d7",
+          "parentUid" : "e3b00c7177683af68e9caec851bc7de3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705568054149,
+            "stop" : 1705568354794,
+            "duration" : 300645
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e3b00c7177683af68e9caec851bc7de3"
+      }, {
+        "name" : "pages.parts.CreatePart",
+        "children" : [ {
+          "name" : "generateAllure",
+          "uid" : "b47fc99614015b7",
+          "parentUid" : "a20cc1defd9b9dc8ffb81b7c093a3330",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705570639405,
+            "stop" : 1705570639409,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a20cc1defd9b9dc8ffb81b7c093a3330"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

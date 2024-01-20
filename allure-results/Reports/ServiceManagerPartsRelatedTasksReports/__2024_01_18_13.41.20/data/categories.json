@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (1286, 385). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [285e8b271fa96a69a7d3a0e190a7fdbf, clickElement {id=7BB86D0E3D44BA417297BB611381C744_element_762}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49439/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (285e8b271fa96a69a7d3a0e190a7fdbf)] -> xpath: //span[text()='Add Parts']]\nSession ID: 285e8b271fa96a69a7d3a0e190a7fdbf",
+      "children" : [ {
+        "name" : "Test_002_click On Reference Number",
+        "uid" : "4a22a7ebf351c7e1",
+        "parentUid" : "34e5e92250f4665b20cf6e90e75038b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705564859412,
+          "stop" : 1705564875807,
+          "duration" : 16395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34e5e92250f4665b20cf6e90e75038b4"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[contains(@id,'0:ctWAPAQ')]/span\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [285e8b271fa96a69a7d3a0e190a7fdbf, findElement {using=xpath, value=//td[contains(@id,'0:ctWAPAQ')]/span}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49439/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 285e8b271fa96a69a7d3a0e190a7fdbf",
+      "children" : [ {
+        "name" : "Test_006_click On Add Part ",
+        "uid" : "403f6a0d863cc74a",
+        "parentUid" : "10464e015949344cf7c412ef1aec9214",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705565183565,
+          "stop" : 1705565349788,
+          "duration" : 166223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10464e015949344cf7c412ef1aec9214"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

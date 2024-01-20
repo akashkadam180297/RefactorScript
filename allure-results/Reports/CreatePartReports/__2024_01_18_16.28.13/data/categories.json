@@ -1,0 +1,362 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (678, 385). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [da06089ab662ff76685d5f94a13b5042, clickElement {id=14170835ACC1F759432A5BBCE656F491_element_533}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51866/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (da06089ab662ff76685d5f94a13b5042)] -> xpath: (//span[contains(.,'Add Lab')])[1]]\nSession ID: da06089ab662ff76685d5f94a13b5042",
+      "children" : [ {
+        "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+        "uid" : "5129216809f995cd",
+        "parentUid" : "dbad6b68e99f6b3ed78c6ddee02ea4e5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705567311605,
+          "stop" : 1705567539671,
+          "duration" : 228066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dbad6b68e99f6b3ed78c6ddee02ea4e5"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[contains(@id,':itSearchPartSelect::su0')]\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [da06089ab662ff76685d5f94a13b5042, findElement {using=xpath, value=//li[contains(@id,':itSearchPartSelect::su0')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51866/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: da06089ab662ff76685d5f94a13b5042",
+      "children" : [ {
+        "name" : "Test_006_click On Add Part ",
+        "uid" : "5656d1416960ee08",
+        "parentUid" : "f2aba6160c9dff8d27ce049a325c9081",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705568054149,
+          "stop" : 1705568354794,
+          "duration" : 300645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f2aba6160c9dff8d27ce049a325c9081"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\createredtagdmstest\\createredtagdmstestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "f8c793bc7a5f2902",
+        "parentUid" : "45c4d293186501307dab1a30756370c9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572805680,
+          "stop" : 1705572805680,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "45c4d293186501307dab1a30756370c9"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\setupworkrequiredtest\\setupworkrequiredtestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "5d96368552f20e6b",
+        "parentUid" : "9a36d624b56dc5579047124035f54113",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572811687,
+          "stop" : 1705572811688,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a36d624b56dc5579047124035f54113"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\logintest\\logintestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "e11e8cdf0a60751a",
+        "parentUid" : "2fe06053ad0e16dd1f6d4d1e0150e954",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572816379,
+          "stop" : 1705572816379,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2fe06053ad0e16dd1f6d4d1e0150e954"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\approvenonrepairbilltest\\approvenonrepairbilltestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "cc4ac0199ba15e73",
+        "parentUid" : "2827fb660b2f067d0e3f22d6ef4d5031",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572819902,
+          "stop" : 1705572819902,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2827fb660b2f067d0e3f22d6ef4d5031"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\approvenonrepairbill_dmstest\\approvenonrepairbill_dmstestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "47f2174ea8487b1d",
+        "parentUid" : "6fc136fe32cbe7130f16941af8cd8d5b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572823376,
+          "stop" : 1705572823376,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fc136fe32cbe7130f16941af8cd8d5b"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\countersaletest\\countersaletestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "8b8f51237003e872",
+        "parentUid" : "0b610f41a50ae2f18830299e1ab65a6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572827445,
+          "stop" : 1705572827445,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b610f41a50ae2f18830299e1ab65a6a"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\journalizepartsinvoice_konaeutest\\journalizepartsinvoice_konaeutestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "26d25bdc41b2dd59",
+        "parentUid" : "758cf4482bb849537b56967a3178d97a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572830835,
+          "stop" : 1705572830835,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "758cf4482bb849537b56967a3178d97a"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\createrotest\\createrotestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "ecca43ea33aa6a8",
+        "parentUid" : "dab84d992a48e649591e7040ff1a6422",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572834569,
+          "stop" : 1705572834569,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dab84d992a48e649591e7040ff1a6422"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\ecservicemanager_addremovelabortest\\ecservicemanager_addremovelabortestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "d980f60f30c6e83f",
+        "parentUid" : "d2ebd53246231e7c7ac2704946838ea8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572838683,
+          "stop" : 1705572838684,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d2ebd53246231e7c7ac2704946838ea8"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\ec_servicemanager_wolabortest\\ec_servicemanager_wolabortestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "c86646174033eda3",
+        "parentUid" : "21319e073c239b847a93c29d5b7cfec4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572842574,
+          "stop" : 1705572842574,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21319e073c239b847a93c29d5b7cfec4"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\inquirefxg_unithistorytest\\inquirefxg_unithistorytestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "e98eb38b904670e4",
+        "parentUid" : "0adbf3188eaf82b56533fec1affaa14c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572848190,
+          "stop" : 1705572848190,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initialization",
+        "uid" : "92826b9d0824fcfd",
+        "parentUid" : "0adbf3188eaf82b56533fec1affaa14c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705573338877,
+          "stop" : 1705573338877,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0adbf3188eaf82b56533fec1affaa14c"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\cgvtech_wocompliancetest\\cgvtech_wocompliancetestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "6610fdc2bf9e141f",
+        "parentUid" : "471aeebaf05d53f519a6c19844ce10db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572852040,
+          "stop" : 1705572852040,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "471aeebaf05d53f519a6c19844ce10db"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\createnonrepairbill_servicemanagertest\\createnonrepairbill_servicemanagertestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "73bb07680f29f616",
+        "parentUid" : "7cf34d5967f9c3e258e8b612ab12e9fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705572856708,
+          "stop" : 1705572856708,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cf34d5967f9c3e258e8b612ab12e9fe"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\createcustomertest\\createcustomertestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "b3f47eb0628fad96",
+        "parentUid" : "a73c280561bee6d6d956fcc6509336ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705573326747,
+          "stop" : 1705573326750,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a73c280561bee6d6d956fcc6509336ac"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\createvendortest\\createvendortestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "5e37a4c19cffdfac",
+        "parentUid" : "3d1fb64c063c39d8a3048d97df091a80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705573332361,
+          "stop" : 1705573332361,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d1fb64c063c39d8a3048d97df091a80"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\approveanestimatedmstest\\approveanestimatedmstestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "a74de83a2359f95",
+        "parentUid" : "dfb24d2ea62d3f5b3d29a09a20173274",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705573347066,
+          "stop" : 1705573347067,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dfb24d2ea62d3f5b3d29a09a20173274"
+    }, {
+      "name" : "F:\\NewGitFinal\\RefactorScript\\src\\test\\java\\utils\\performtheworkonanestimatetechtest\\performtheworkonanestimatetechtestQA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "e21d0641e2cbae8c",
+        "parentUid" : "a9e6d2ed3d87c78eae1b1d4b8bd1969b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705573351827,
+          "stop" : 1705573351827,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9e6d2ed3d87c78eae1b1d4b8bd1969b"
+    }, {
+      "name" : "Input must be set",
+      "children" : [ {
+        "name" : "generateAllure",
+        "uid" : "fcd3278685cf9eac",
+        "parentUid" : "1d3c628265ed0b583d3773da39044e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705573528613,
+          "stop" : 1705573528618,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d3c628265ed0b583d3773da39044e50"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,130 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "generateAllure",
+    "uid" : "8cbebc23a01274c3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1705576627608,
+      "stop" : 1705576627613,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "generateAllure",
+    "uid" : "3ef92153f5aab443",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1705576750460,
+      "stop" : 1705576750463,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "generateAllure",
+    "uid" : "80e332d20183ed3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1705577026912,
+      "stop" : 1705577026915,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "PartsRelatedItem Test",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "d336acac2cecbfaa",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705577288099,
+          "stop" : 1705577328024,
+          "duration" : 39925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on NewParts and verify all element",
+        "uid" : "73efab390a330a2",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705577328403,
+          "stop" : 1705577380005,
+          "duration" : 51602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 Enter part number and create new part",
+        "uid" : "a10a954c4a01a0eb",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705577380159,
+          "stop" : 1705577439486,
+          "duration" : 59327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Search Part number ",
+        "uid" : "adffa1e819f7e872",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705577439622,
+          "stop" : 1705577499070,
+          "duration" : 59448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_005 Verify the Description and click Cost and Pricing Tab",
+        "uid" : "138c11833e01e35",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705577499196,
+          "stop" : 1705577517332,
+          "duration" : 18136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_006 click on Sign out",
+        "uid" : "deaa9744b2c1fe74",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705577517478,
+          "stop" : 1705577566774,
+          "duration" : 49296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cc84794495f241c550e032cd7307c7a"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}

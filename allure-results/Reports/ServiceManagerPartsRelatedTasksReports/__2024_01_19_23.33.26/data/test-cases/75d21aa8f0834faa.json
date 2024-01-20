@@ -1,0 +1,125 @@
+{
+  "uid" : "75d21aa8f0834faa",
+  "name" : "Test_002_click On Reference Number",
+  "fullName" : "tests.techRo.ServiceManagerPartsRelatedTasks.Test_002_clickOnReference",
+  "historyId" : "9f9464135977372cb67f2957077f4265",
+  "time" : {
+    "start" : 1705686457089,
+    "stop" : 1705686634619,
+    "duration" : 177530
+  },
+  "description" : "Test Description: click On Reference Number",
+  "descriptionHtml" : "<p>Test Description: click On Reference Number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705686085818,
+      "stop" : 1705686140005,
+      "duration" : 54187
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: click On Reference Number",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e04e0111a9ab3a20",
+      "name" : "Page Screenshot",
+      "source" : "e04e0111a9ab3a20.png",
+      "type" : "image/png",
+      "size" : 98232
+    }, {
+      "uid" : "433a9b17c52f2ce1",
+      "name" : "Page Screenshot",
+      "source" : "433a9b17c52f2ce1.png",
+      "type" : "image/png",
+      "size" : 98901
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705686634623,
+      "stop" : 1705686634756,
+      "duration" : 133
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "16c52b03d8a7177e",
+      "name" : "Page Screenshot",
+      "source" : "16c52b03d8a7177e.png",
+      "type" : "image/png",
+      "size" : 98883
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickOnReference"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "9240@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75d21aa8f0834faa.json",
+  "parameterValues" : [ ]
+}

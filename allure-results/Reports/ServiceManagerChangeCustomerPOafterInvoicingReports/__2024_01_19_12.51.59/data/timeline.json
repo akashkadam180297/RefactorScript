@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-HN0C78P",
+    "children" : [ {
+      "name" : "4744@DESKTOP-HN0C78P.main(1)",
+      "children" : [ {
+        "name" : "T_001 Login the page and go to the CompleteRo",
+        "uid" : "4b27e3834796af96",
+        "parentUid" : "4ff547db7bd4eb6656107bb55920350b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705648798045,
+          "stop" : 1705648834483,
+          "duration" : 36438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_002 Check that verify the element click on Save/Exit button and signout",
+        "uid" : "a621bda14bf0085c",
+        "parentUid" : "4ff547db7bd4eb6656107bb55920350b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705648834769,
+          "stop" : 1705648919291,
+          "duration" : 84522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ff547db7bd4eb6656107bb55920350b"
+    } ],
+    "uid" : "341c537f2df029fedd0e6036d92151da"
+  } ]
+}

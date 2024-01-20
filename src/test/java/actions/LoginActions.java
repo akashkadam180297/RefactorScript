@@ -48,6 +48,8 @@ public class LoginActions extends TestDriverActions {
            System.out.println(" configFileName :: " + configFileName);
            appProp = new Properties();
         appProp.load(new FileInputStream(new File(configFileName)));
+        System.out.println(" URl:: " + appProp.getProperty("url"));
+        System.out.println(" Username :: " + appProp.getProperty("username"));
         appUrl=appProp.getProperty("url");
 
         return  appUrl;

@@ -210,7 +210,7 @@ public class CreateUnitPage extends TestDriverActions {
      */
     public void clickNewUnit() throws InterruptedException {
 
-       // WaitActions.getWaits().waitForElementTobeClickable(btn_new_unit);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_new_unit);
         WebElementActions.getActions().clickElement(btn_new_unit);
 

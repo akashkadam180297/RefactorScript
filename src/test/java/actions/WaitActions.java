@@ -2,11 +2,10 @@ package actions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 
 import tests.TestDriverActions;
 
@@ -173,10 +172,10 @@ public class WaitActions extends TestDriverActions {
 
     }
 
-/**
- * Scroll till the top of the element
- * @param element
- **/
+    /**
+     * Scroll till the top of the element
+     * @param element
+     **/
     public void scrollElementTillView(WebElement element){
         PageFactory.initElements(driver, this);
         WaitUntilWebElementIsVisible(element);
@@ -189,10 +188,10 @@ public class WaitActions extends TestDriverActions {
      */
     public static void waitForElementToBeRefreshedAndClickable(WebElement element) throws InterruptedException {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(4000);
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(80));
             wait.until(ExpectedConditions.refreshed(ExpectedConditions.elementToBeClickable(element)));
-            Thread.sleep(3000);
+            Thread.sleep(4000);
         }
         catch(Throwable e)
         {
@@ -208,16 +207,29 @@ public class WaitActions extends TestDriverActions {
 
     public static void waitForElementToBeRefreshedAndIsVisible(WebElement element) throws InterruptedException {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(4000);
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(80));
             wait.until(ExpectedConditions.refreshed(ExpectedConditions.visibilityOf(element)));
-            Thread.sleep(3000);
+            Thread.sleep(4000);
         }
         catch(Throwable e)
         {
             e.printStackTrace();
         }
 
+    }
+
+    public void fluentWait(WebElement element, int timeOut) {
+        Wait<WebDriver> wait = null;
+        try {
+            wait = new FluentWait<WebDriver>((WebDriver) driver)
+                    .withTimeout(Duration.ofSeconds(30))
+                    .pollingEvery(Duration.ofSeconds(2))
+                    .ignoring(Exception.class);
+            wait.until(ExpectedConditions.visibilityOf(element));
+            element.click();
+        }catch(Exception e) {
+        }
     }
 
 

@@ -1,0 +1,84 @@
+{
+  "uid" : "20240a6b6b0ae8e5",
+  "name" : "Test_003_click On part Number",
+  "fullName" : "tests.techRo.ServiceManagerPartsRelatedTasks.Test_003_clickOnPart",
+  "historyId" : "9049abab75a6be6e7c4d7b6ea7951d9e",
+  "time" : {
+    "start" : 1705509748521,
+    "stop" : 1705509839875,
+    "duration" : 91354
+  },
+  "description" : "Test Description: click On part Number",
+  "descriptionHtml" : "<p>Test Description: click On part Number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705509839878,
+      "stop" : 1705509840024,
+      "duration" : 146
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1ae4eef22499c472",
+      "name" : "Page Screenshot",
+      "source" : "1ae4eef22499c472.png",
+      "type" : "image/png",
+      "size" : 113954
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_clickOnPart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17288@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20240a6b6b0ae8e5.json",
+  "parameterValues" : [ ]
+}

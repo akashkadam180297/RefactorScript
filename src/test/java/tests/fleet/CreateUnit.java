@@ -21,7 +21,8 @@ public class CreateUnit extends TestDriverActions {
     @Test(priority = 0, description = "Test_001_Login the page and Go to create unit Screen",enabled = true)
     @Description("Test Description: Login the page and Go to create unit Screen")
     public void Test_001_gotoUnitMasterScreen() throws InterruptedException, IOException {
-        loginPage.loginWithValidCredentials(appProp.getProperty("username"),appProp.getProperty("password"));
+        System.out.println("username..:" +appProp.getProperty("username1"));
+        loginPage.loginWithValidCredentials(appProp.getProperty("username1"),appProp.getProperty("password1"));
         createUnitPage.gotoUnitMasterScreen();
         createUnitPage.clickNewUnit();
     }

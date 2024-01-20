@@ -1,0 +1,189 @@
+{
+  "uid" : "78ca515496f5002c",
+  "name" : "Test_003_verify all element present in New Unit ",
+  "fullName" : "tests.fleet.CreateUnit.Test_003_verifyAllFormFields",
+  "historyId" : "5855190fc802ad5a7e1c5a0b593e9669",
+  "time" : {
+    "start" : 1705656367869,
+    "stop" : 1705656420895,
+    "duration" : 53026
+  },
+  "description" : "Test Description:verify all element present in New Unit",
+  "descriptionHtml" : "<p>Test Description:verify all element present in New Unit</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705656199099,
+      "stop" : 1705656247920,
+      "duration" : 48821
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description:verify all element present in New Unit",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3acecbc5b80dd087",
+      "name" : "Page Screenshot",
+      "source" : "3acecbc5b80dd087.png",
+      "type" : "image/png",
+      "size" : 151416
+    }, {
+      "uid" : "e3c592e39f0f18c8",
+      "name" : "Page Screenshot",
+      "source" : "e3c592e39f0f18c8.png",
+      "type" : "image/png",
+      "size" : 151416
+    }, {
+      "uid" : "3f4571c575626a82",
+      "name" : "Page Screenshot",
+      "source" : "3f4571c575626a82.png",
+      "type" : "image/png",
+      "size" : 151416
+    }, {
+      "uid" : "7890cc1b846cbc95",
+      "name" : "Page Screenshot",
+      "source" : "7890cc1b846cbc95.png",
+      "type" : "image/png",
+      "size" : 151416
+    }, {
+      "uid" : "44c81476b92945ed",
+      "name" : "Page Screenshot",
+      "source" : "44c81476b92945ed.png",
+      "type" : "image/png",
+      "size" : 151416
+    }, {
+      "uid" : "1d0c95f19133394e",
+      "name" : "Page Screenshot",
+      "source" : "1d0c95f19133394e.png",
+      "type" : "image/png",
+      "size" : 151416
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705656420900,
+      "stop" : 1705656421077,
+      "duration" : 177
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab53e8bbccf67c6a",
+      "name" : "Page Screenshot",
+      "source" : "ab53e8bbccf67c6a.png",
+      "type" : "image/png",
+      "size" : 151416
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_verifyAllFormFields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "18244@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Create Unit Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5d52ad8e474d7716",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705656008371,
+        "stop" : 1705656063225,
+        "duration" : 54854
+      }
+    }, {
+      "uid" : "be59eb5f4b20b67e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705655670258,
+        "stop" : 1705655723193,
+        "duration" : 52935
+      }
+    }, {
+      "uid" : "958f8b0ebf335cd2",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'New Unit')]\"}\n  (Session info: chrome=120.0.6099.224)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [03378cfaa1ce798dc0e4ba1bbc3d374b, findElement {using=xpath, value=//div[contains(text(),'New Unit')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64114/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03378cfaa1ce798dc0e4ba1bbc3d374b",
+      "time" : {
+        "start" : 1705654574556,
+        "stop" : 1705654658870,
+        "duration" : 84314
+      }
+    }, {
+      "uid" : "49c828afafebe0",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'New Unit')]\"}\n  (Session info: chrome=120.0.6099.224)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d350d232ba1d84bab21e75dc0e4319a8, findElement {using=xpath, value=//div[contains(text(),'New Unit')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63986}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63986/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d350d232ba1d84bab21e75dc0e4319a8",
+      "time" : {
+        "start" : 1705653555825,
+        "stop" : 1705653640886,
+        "duration" : 85061
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78ca515496f5002c.json",
+  "parameterValues" : [ ]
+}

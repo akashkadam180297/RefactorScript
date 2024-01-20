@@ -1,0 +1,100 @@
+{
+  "uid" : "1a4d901136ea32cf",
+  "name" : "Login the page and go to customer screen",
+  "fullName" : "tests.administration.CreateCustomerTest.Test_001_gotoCustomerScreen",
+  "historyId" : "d8a013d2bf8483793f98ab6ce13a01f1",
+  "time" : {
+    "start" : 1705573327036,
+    "stop" : 1705573327040,
+    "duration" : 4
+  },
+  "description" : "Test Description: Login the page and go to customer screen",
+  "descriptionHtml" : "<p>Test Description: Login the page and go to customer screen</p>\n",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705573327060,
+      "stop" : 1705573327306,
+      "duration" : 246
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ecc8a265e982155e",
+      "name" : "Page Screenshot",
+      "source" : "ecc8a265e982155e.png",
+      "type" : "image/png",
+      "size" : 4655
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.CreateCustomerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.CreateCustomerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoCustomerScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.CreateCustomerTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17728@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Customer Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b706e49c13ffc4d5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705572785685,
+        "stop" : 1705572785689,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a4d901136ea32cf.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,94 @@
+{
+  "uid" : "65cbbaadc84274ca",
+  "name" : "verify Net Book Value to ",
+  "fullName" : "tests.cGVUnitFunctionalityTest.InquireFXG_UnitHistoryTest.verifyNetBookValueTo",
+  "historyId" : "d101591214ee54f1900777db06ad3ac4",
+  "time" : {
+    "start" : 1705573340635,
+    "stop" : 1705573340637,
+    "duration" : 2
+  },
+  "description" : "Test Description -verify Net Book Value to ",
+  "descriptionHtml" : "<p>Test Description -verify Net Book Value to</p>\n",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705573340640,
+      "stop" : 1705573340812,
+      "duration" : 172
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1ea6dccb43ac3e46",
+      "name" : "Page Screenshot",
+      "source" : "1ea6dccb43ac3e46.png",
+      "type" : "image/png",
+      "size" : 4655
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.cGVUnitFunctionalityTest.InquireFXG_UnitHistoryTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.cGVUnitFunctionalityTest.InquireFXG_UnitHistoryTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyNetBookValueTo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.cGVUnitFunctionalityTest.InquireFXG_UnitHistoryTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17728@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "163e8919f01293a1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705572794066,
+        "stop" : 1705572794066,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65cbbaadc84274ca.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "46a8986c711b3b9d",
+  "name" : "Test_002_click On Reference Number",
+  "fullName" : "tests.techRo.ServiceManagerPartsRelatedTasks.Test_002_clickOnReference",
+  "historyId" : "9f9464135977372cb67f2957077f4265",
+  "time" : {
+    "start" : 1705668402991,
+    "stop" : 1705668691692,
+    "duration" : 288701
+  },
+  "description" : "Test Description: click On Reference Number",
+  "descriptionHtml" : "<p>Test Description: click On Reference Number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705668038809,
+      "stop" : 1705668085522,
+      "duration" : 46713
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: click On Reference Number",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bde433629a100df8",
+      "name" : "Page Screenshot",
+      "source" : "bde433629a100df8.png",
+      "type" : "image/png",
+      "size" : 107456
+    }, {
+      "uid" : "4f089a4f5682e849",
+      "name" : "Page Screenshot",
+      "source" : "4f089a4f5682e849.png",
+      "type" : "image/png",
+      "size" : 102873
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705668691697,
+      "stop" : 1705668691822,
+      "duration" : 125
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a17e2244eab9bf63",
+      "name" : "Page Screenshot",
+      "source" : "a17e2244eab9bf63.png",
+      "type" : "image/png",
+      "size" : 103516
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickOnReference"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "6412@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "866808c030227c1d",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <img id=\"reg1:0:rWO:0:tWA:1:ciDWA1::icon\" src=\"/kona_eu/afr/delete_ena.png\" class=\"x1aw\"> is not clickable at point (722, 454). Other element would receive the click: <div id=\"reg1:0:rWO:0:sCFDWP:tCFDWP::db\" class=\"x17e\" style=\"position: relative; width: 942px; overflow: hidden; height: 462px; z-index: 1;\" _afrcolcount=\"2\">...</div>\n  (Session info: chrome=120.0.6099.224)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2a6241a27bf8107bc44613f28a537d7c, clickElement {id=49E5CD6C63D20A1E8625A6DDB51FE44C_element_1131}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64525/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2a6241a27bf8107bc44613f28a537d7c)] -> xpath: //span[contains(text(),'Automatic/Manual Chassis')]/parent::a/following::a[4]/child::img]\nSession ID: 2a6241a27bf8107bc44613f28a537d7c",
+      "time" : {
+        "start" : 1705667695193,
+        "stop" : 1705667863807,
+        "duration" : 168614
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "46a8986c711b3b9d.json",
+  "parameterValues" : [ ]
+}

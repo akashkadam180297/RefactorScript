@@ -1,0 +1,91 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "Create Unit Test",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "ee55bdc34a8af6cb",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705651654603,
+          "stop" : 1705651654605,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Login the page and Go to create unit Screen",
+        "uid" : "410294be2dade19c",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1705651654836,
+          "stop" : 1705651654841,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_Search and select owner",
+        "uid" : "8f4271f387545012",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1705651655118,
+          "stop" : 1705651655119,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_verify all element present in New Unit ",
+        "uid" : "6416dec6f1dc6112",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1705651655335,
+          "stop" : 1705651655335,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_Enter unit, description, VIN number and click on Save/Exit",
+        "uid" : "40b6b25d171bb3e2",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1705651655549,
+          "stop" : 1705651655551,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_Verify unit created and Signout",
+        "uid" : "6e2b3437fc1fe92b",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1705651655769,
+          "stop" : 1705651655769,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "451afc476ed9ad600716fd6f24049246"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}

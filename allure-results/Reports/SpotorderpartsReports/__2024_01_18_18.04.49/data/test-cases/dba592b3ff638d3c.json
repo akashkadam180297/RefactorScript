@@ -1,0 +1,125 @@
+{
+  "uid" : "dba592b3ff638d3c",
+  "name" : "Test_001 Login to the page and go to Order Part screen ",
+  "fullName" : "tests.parts.Spotorderparts.Test_001_gotoOrderPartsScreen",
+  "historyId" : "a36e32347ff2768748df675cea26df4f",
+  "time" : {
+    "start" : 1705580033668,
+    "stop" : 1705580066464,
+    "duration" : 32796
+  },
+  "description" : "Test Description:  Login to the page and go to Order Part screen  ",
+  "descriptionHtml" : "<p>Test Description:  Login to the page and go to Order Part screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705579992599,
+      "stop" : 1705580033538,
+      "duration" : 40939
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description:  Login to the page and go to Order Part screen  ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9ed8456020ce777a",
+      "name" : "Page Screenshot",
+      "source" : "9ed8456020ce777a.png",
+      "type" : "image/png",
+      "size" : 128615
+    }, {
+      "uid" : "f5c5bbf1aef88f4b",
+      "name" : "Page Screenshot",
+      "source" : "f5c5bbf1aef88f4b.png",
+      "type" : "image/png",
+      "size" : 84343
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705580066654,
+      "stop" : 1705580066822,
+      "duration" : 168
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f02f54940d68e3ef",
+      "name" : "Page Screenshot",
+      "source" : "f02f54940d68e3ef.png",
+      "type" : "image/png",
+      "size" : 84321
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoOrderPartsScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "14544@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dba592b3ff638d3c.json",
+  "parameterValues" : [ ]
+}

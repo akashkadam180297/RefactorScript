@@ -1,0 +1,94 @@
+{
+  "uid" : "fcb0ea4c313e363e",
+  "name" : "Enter the Unit Number And verify Text",
+  "fullName" : "tests.cGVUnitFunctionalityTest.InquireFXG_UnitHistoryTest.enterUnitNumber",
+  "historyId" : "ef0bdc1165d472bed9be708361d71fde",
+  "time" : {
+    "start" : 1705573340109,
+    "stop" : 1705573340112,
+    "duration" : 3
+  },
+  "description" : "Test Description -Enter the Unit Number And verify Text ",
+  "descriptionHtml" : "<p>Test Description -Enter the Unit Number And verify Text</p>\n",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705573340123,
+      "stop" : 1705573340275,
+      "duration" : 152
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "16baf367fd134488",
+      "name" : "Page Screenshot",
+      "source" : "16baf367fd134488.png",
+      "type" : "image/png",
+      "size" : 4655
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.cGVUnitFunctionalityTest.InquireFXG_UnitHistoryTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.cGVUnitFunctionalityTest.InquireFXG_UnitHistoryTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "enterUnitNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.cGVUnitFunctionalityTest.InquireFXG_UnitHistoryTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17728@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eed65094157db549",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1705572793508,
+        "stop" : 1705572793508,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fcb0ea4c313e363e.json",
+  "parameterValues" : [ ]
+}

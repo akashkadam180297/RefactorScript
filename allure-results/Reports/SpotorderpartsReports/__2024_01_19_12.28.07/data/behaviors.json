@@ -1,0 +1,135 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "generateAllure",
+    "uid" : "db0f47fb9d216881",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1705645608528,
+      "stop" : 1705645608563,
+      "duration" : 35
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_001 Login to the page and go to Order Part screen ",
+    "uid" : "16bfec05298f0927",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705645785959,
+      "stop" : 1705645837981,
+      "duration" : 52022
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_002 click On The Spot order Tab ",
+    "uid" : "67d21e277e068d7c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705645838523,
+      "stop" : 1705645957073,
+      "duration" : 118550
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_003  input Partial Part Number ",
+    "uid" : "5a3fa8949780bc6a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705645957208,
+      "stop" : 1705646055650,
+      "duration" : 98442
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_004 click On Add Button ",
+    "uid" : "d13f253727577490",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705646055950,
+      "stop" : 1705646176752,
+      "duration" : 120802
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_005 verify Search Part Description ",
+    "uid" : "ca112a96d83276aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705646176868,
+      "stop" : 1705646463766,
+      "duration" : 286898
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_006 input Core Parent Part and sign out  ",
+    "uid" : "363bf82096102aeb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705646463887,
+      "stop" : 1705646693563,
+      "duration" : 229676
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_007 verify PO  ",
+    "uid" : "1ae13fa9e6361cdf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705646693700,
+      "stop" : 1705646946388,
+      "duration" : 252688
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_008 verify Required Part  ",
+    "uid" : "e11896879c7a7f84",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705646946558,
+      "stop" : 1705647219581,
+      "duration" : 273023
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_009 verify Warehouse Text ",
+    "uid" : "43f15291c3e67013",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1705647219713,
+      "stop" : 1705647486910,
+      "duration" : 267197
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

@@ -1,0 +1,138 @@
+{
+  "734c413c6b3db69296c7d58f7b80e0e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e253d9f0e871f054",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (678, 385). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.217)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [da06089ab662ff76685d5f94a13b5042, clickElement {id=14170835ACC1F759432A5BBCE656F491_element_533}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51866/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (da06089ab662ff76685d5f94a13b5042)] -> xpath: (//span[contains(.,'Add Lab')])[1]]\nSession ID: da06089ab662ff76685d5f94a13b5042",
+      "time" : {
+        "start" : 1705567311605,
+        "stop" : 1705567539671,
+        "duration" : 228066
+      }
+    } ]
+  },
+  "f780f33fcb3425e5ed2967f41cdc65da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7c4178e9f0d9937",
+      "status" : "broken",
+      "statusDetails" : "Input must be set",
+      "time" : {
+        "start" : 1705570828597,
+        "stop" : 1705570828602,
+        "duration" : 5
+      }
+    } ]
+  },
+  "9049abab75a6be6e7c4d7b6ea7951d9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7830a8a23aa9f81e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705567747662,
+        "stop" : 1705567848626,
+        "duration" : 100964
+      }
+    } ]
+  },
+  "2f11236c254a754049316d53e8c3a6bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e8281fb6d5da9e2",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[contains(@id,':itSearchPartSelect::su0')]\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.32.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [da06089ab662ff76685d5f94a13b5042, findElement {using=xpath, value=//li[contains(@id,':itSearchPartSelect::su0')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51866/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: da06089ab662ff76685d5f94a13b5042",
+      "time" : {
+        "start" : 1705568054149,
+        "stop" : 1705568354794,
+        "duration" : 300645
+      }
+    } ]
+  },
+  "7400702628433b69f7e9ac78b9b991c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eac219a196f9ccd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705567934765,
+        "stop" : 1705568054012,
+        "duration" : 119247
+      }
+    } ]
+  },
+  "60f96c0e7eeb5410b14c6c8dd399c1d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94949d11434461c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705567848783,
+        "stop" : 1705567934608,
+        "duration" : 85825
+      }
+    } ]
+  },
+  "9f9464135977372cb67f2957077f4265" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a5bfcc8fb1e5be0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705567540286,
+        "stop" : 1705567747520,
+        "duration" : 207234
+      }
+    } ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@aria-label='English']' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "26b69c2f542a4000",
+        "parentUid" : "27d04387443539343c14d0ab77897485",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705596959804,
+          "stop" : 1705596959808,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27d04387443539343c14d0ab77897485"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

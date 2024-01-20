@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.fleet.CreateUnit",
+        "children" : [ {
+          "name" : "Test_001_Login the page and Go to create unit Screen",
+          "uid" : "ad9512a70e773346",
+          "parentUid" : "5e9ec3826f96dd3be4249f12b6b98e32",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705665373958,
+            "stop" : 1705665448224,
+            "duration" : 74266
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002_Search and select owner",
+          "uid" : "358595ef1905e19f",
+          "parentUid" : "5e9ec3826f96dd3be4249f12b6b98e32",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705665448701,
+            "stop" : 1705665491764,
+            "duration" : 43063
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003_verify all element present in New Unit ",
+          "uid" : "e793828f357a6111",
+          "parentUid" : "5e9ec3826f96dd3be4249f12b6b98e32",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705665491935,
+            "stop" : 1705665543983,
+            "duration" : 52048
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004_Enter unit, description, VIN number and click on Save/Exit",
+          "uid" : "2b99bf09b9e081db",
+          "parentUid" : "5e9ec3826f96dd3be4249f12b6b98e32",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705665544272,
+            "stop" : 1705665687346,
+            "duration" : 143074
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005_Verify unit created and Signout",
+          "uid" : "91e8ec00e4a04fe8",
+          "parentUid" : "5e9ec3826f96dd3be4249f12b6b98e32",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705665687504,
+            "stop" : 1705665761450,
+            "duration" : 73946
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5e9ec3826f96dd3be4249f12b6b98e32"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "3f1681dac7570386",
+  "name" : "Test003: verify Purches Order ",
+  "fullName" : "tests.parts.ReceiveParts.Test_003_verifyPurchesOrder",
+  "historyId" : "56162c551b4bd78d8841710f685d0288",
+  "time" : {
+    "start" : 1705652441930,
+    "stop" : 1705652539469,
+    "duration" : 97539
+  },
+  "description" : "Test Description :  verify Purches Order ",
+  "descriptionHtml" : "<p>Test Description :  verify Purches Order</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705652539472,
+      "stop" : 1705652539682,
+      "duration" : 210
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d54906ae7103fb12",
+      "name" : "Page Screenshot",
+      "source" : "d54906ae7103fb12.png",
+      "type" : "image/png",
+      "size" : 96927
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_verifyPurchesOrder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "5936@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f1681dac7570386.json",
+  "parameterValues" : [ ]
+}

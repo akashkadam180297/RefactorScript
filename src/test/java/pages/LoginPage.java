@@ -85,7 +85,7 @@ public class LoginPage extends TestDriverActions {
      *
      * @param password
      */
-    public void enterPassword(String password) {
+    public void enterPassword(String password) throws InterruptedException {
         WebElementActions.getActions().inputText(inputbox_Password, password);
 
 
@@ -103,8 +103,7 @@ public class LoginPage extends TestDriverActions {
      * Enter wrong username
      * @param un
      */
-    public void enterInvalidUsername(String un)
-    {
+    public void enterInvalidUsername(String un) throws InterruptedException {
         WaitActions.getWaits().WaitUntilWebElementIsVisible(inputbox_Username);
         WebElementActions.getActions().inputText(inputbox_Username, un);
     }
@@ -113,8 +112,7 @@ public class LoginPage extends TestDriverActions {
      * Enter wrong password
      * @param pwd
      */
-    public void enterInvalidPassword(String pwd)
-    {
+    public void enterInvalidPassword(String pwd) throws InterruptedException {
         WaitActions.getWaits().WaitUntilWebElementIsVisible(inputbox_Password);
         WebElementActions.getActions().inputText(inputbox_Password,pwd);
     }
@@ -151,6 +149,7 @@ public class LoginPage extends TestDriverActions {
      * @throws InterruptedException
      */
   public void loginWithValidCredentials(String userName,String passWord) throws InterruptedException {
+      System.out.println("Inside login.....");
       enterUserName(userName);
       enterPassword(passWord);
   //    inputbox_Password.sendKeys(Keys.TAB);

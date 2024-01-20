@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (611, 288). Other element would receive the click: <h1>...</h1>\n  (Session info: chrome=120.0.6099.224)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c5ffe3ed22d320757b85668e1db018c8, clickElement {id=04E4E1BF97BFC2E99474BCDEF32780EE_element_213}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62641/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (c5ffe3ed22d320757b85668e1db018c8)] -> xpath: //span[contains(.,'Add Lab')]]\nSession ID: c5ffe3ed22d320757b85668e1db018c8",
+      "children" : [ {
+        "name" : "Test_008_click on add Labour",
+        "uid" : "1ec7d61371ee3e1b",
+        "parentUid" : "b945b962a65c4855d6988201358cbb44",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705650417632,
+          "stop" : 1705650438984,
+          "duration" : 21352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b945b962a65c4855d6988201358cbb44"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[contains(@id,':0:itSearchPartSelect::su0')]\"}\n  (Session info: chrome=120.0.6099.224)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c5ffe3ed22d320757b85668e1db018c8, findElement {using=xpath, value=//li[contains(@id,':0:itSearchPartSelect::su0')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62641/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c5ffe3ed22d320757b85668e1db018c8",
+      "children" : [ {
+        "name" : "Test_010_click on add Parts",
+        "uid" : "5d8fcd1e6020c38",
+        "parentUid" : "da2541eb0b5b50df2e2f2db90a4d7f27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705650554046,
+          "stop" : 1705650691707,
+          "duration" : 137661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da2541eb0b5b50df2e2f2db90a4d7f27"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[contains(@id,'ctEstparTotalChargeCurrency')]/span/span\"}\n  (Session info: chrome=120.0.6099.224)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c5ffe3ed22d320757b85668e1db018c8, findElement {using=xpath, value=//td[contains(@id,'ctEstparTotalChargeCurrency')]/span/span}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62641/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c5ffe3ed22d320757b85668e1db018c8",
+      "children" : [ {
+        "name" : "Test_011_store LaborCost Header ()",
+        "uid" : "d5991b9b47067a3d",
+        "parentUid" : "0df8589b8fd8e2f87c11adaed1faa598",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705650691854,
+          "stop" : 1705650792516,
+          "duration" : 100662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0df8589b8fd8e2f87c11adaed1faa598"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
