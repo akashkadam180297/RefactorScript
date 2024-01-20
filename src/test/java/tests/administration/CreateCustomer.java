@@ -12,7 +12,7 @@ import java.io.FileNotFoundException;
 @Epic("Regression Test")
 @Feature("Customer Test")
 
-public class CreateCustomerTest extends TestDriverActions {
+public class CreateCustomer extends TestDriverActions {
 
     @Test(priority=0, description = "Login the page and go to customer screen",enabled = true)
     @Description("Test Description: Login the page and go to customer screen")
