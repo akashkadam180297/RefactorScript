@@ -223,7 +223,6 @@ public class CreateUnitPage extends TestDriverActions {
      * Search by owner
      */
     public void searchOwner() throws InterruptedException {
-      //  if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_search);
             WebElementActions.getActions().inputText(txt_search, appProp.getProperty("Owner"));
             Assert.assertTrue(txt_search.isDisplayed());
@@ -232,20 +231,17 @@ public class CreateUnitPage extends TestDriverActions {
 
             TestListener.saveScreenshotPNG(driver);
         }
-  //  }
+
 
     /**
      * Verify all fields are display
      */
-
     public void newUnitmandotaryFieldsDisplay() throws InterruptedException {
-     //   WaitActions.getWaits().WaitUntilWebElementIsVisible(label_New_Unit);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_New_Unit);
         Assert.assertTrue(label_New_Unit.isDisplayed());
         Assert.assertTrue(label_owner_asterisk.isDisplayed());
         Assert.assertTrue(label_owner.isDisplayed());
         Assert.assertTrue(txt_Ownere_field.isDisplayed());
-       // WaitActions.getWaits().WaitUntilWebElementIsVisible(search_icon);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(search_icon);
         Assert.assertTrue(search_icon.isDisplayed());
         Assert.assertTrue(label_unit_asterisk.isDisplayed());
@@ -286,7 +282,6 @@ public class CreateUnitPage extends TestDriverActions {
     }
 
     public void initialServiceDisplay() throws InterruptedException {
-       // WaitActions.getWaits().WaitUntilWebElementIsVisible(label_initial_service);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_initial_service);
         Assert.assertTrue(label_initial_service.isDisplayed());
         Assert.assertTrue(label_serviceDate.isDisplayed());
@@ -303,7 +298,6 @@ public class CreateUnitPage extends TestDriverActions {
     }
 
     public void makeAndModelDisplay() throws InterruptedException {
-        //WaitActions.getWaits().WaitUntilWebElementIsVisible(label_makeandModels);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_makeandModels);
         Assert.assertTrue(label_makeandModels.isDisplayed());
         Assert.assertTrue(label_truck.isDisplayed());
@@ -317,7 +311,6 @@ public class CreateUnitPage extends TestDriverActions {
     }
 
     public void groupDisplay() throws InterruptedException {
-       // WaitActions.getWaits().WaitUntilWebElementIsVisible(label_Group);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Group);
         Assert.assertTrue(label_Group.isDisplayed());
         Assert.assertTrue(btn_cancle.isDisplayed());
@@ -329,7 +322,6 @@ public class CreateUnitPage extends TestDriverActions {
      * Enter random 9 digit Unit
      */
     public void enterUnit() throws FileNotFoundException, InterruptedException {
-      //  WaitActions.getWaits().waitForElementTobeClickable(txt_unit);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_unit);
         WebElementActions.getActions().inputText(txt_unit,ReusableActions.returnCurrentTime());
         WebElementActions.getActions().inputText(txt_unit, ReusableActions.getActions().getRandom(9));
@@ -341,18 +333,16 @@ public class CreateUnitPage extends TestDriverActions {
      * Enter Description
      */
     public void enterDescription() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_description);
             WebElementActions.getActions().inputText(txt_description, appProp.getProperty("description"));
             TestListener.saveScreenshotPNG(driver);
         }
-    }
+
 
     /**
      * Enter random 9 digit VIN
      */
     public void enterVIN() throws FileNotFoundException, InterruptedException {
-       // WaitActions.getWaits().waitForElementTobeClickable(txt_VIN);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_VIN);
         WebElementActions.getActions().inputText(txt_VIN, ReusableActions.getActions().getRandom(9));
         TestListener.saveScreenshotPNG(driver);
@@ -397,7 +387,6 @@ public class CreateUnitPage extends TestDriverActions {
      * click on unit number hyperlink
      */
     public void clickOnUnitNumberhyperlink() throws InterruptedException {
-     //   WaitActions.getWaits().waitForElementTobeClickable(hyperlink_unit_number);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_unit_number);
         Thread.sleep(3000);
         WebElementActions.getActions().clickElement(hyperlink_unit_number);
@@ -410,11 +399,9 @@ public class CreateUnitPage extends TestDriverActions {
      * click on save and exit button
      */
     public void verify_unit_created() throws InterruptedException {
-      //  WaitActions.getWaits().WaitUntilWebElementIsVisible(unit_value);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(unit_value);
         Assert.assertTrue(unit_value.isDisplayed());
 
-       // WaitActions.getWaits().waitForElementTobeClickable(saveandExit_btn);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(saveandExit_btn);
         WebElementActions.getActions().clickElement(saveandExit_btn);
         TestListener.saveScreenshotPNG(driver);
@@ -425,14 +412,12 @@ public class CreateUnitPage extends TestDriverActions {
      * click on signOut button
      * verify username
      */
-
     public void clickOnSignOut() throws InterruptedException {
-      //  WaitActions.getWaits().waitForElementTobeClickable(sign_out);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(sign_out);
         Thread.sleep(3000);
         WebElementActions.getActions().clickUsingJS(sign_out);
 
-      //  WaitActions.getWaits().WaitUntilWebElementIsVisible(inputbox_Username);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(inputbox_Username);
         Assert.assertTrue(inputbox_Username.isDisplayed());
         TestListener.saveScreenshotPNG(driver);

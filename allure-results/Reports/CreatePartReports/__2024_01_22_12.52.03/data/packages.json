@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.CreatePart",
+    "children" : [ {
+      "name" : "gotoPartsMaster",
+      "uid" : "999680f41a5c74cc",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907728404,
+        "stop" : 1705907781616,
+        "duration" : 53212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "click_NewPart_Verify_All_Elements",
+      "uid" : "67421b983235864d",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907781994,
+        "stop" : 1705907846938,
+        "duration" : 64944
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "create_new_part",
+      "uid" : "f8656e337dd74828",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907847098,
+        "stop" : 1705907943826,
+        "duration" : 96728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "search_the_number",
+      "uid" : "9068a643d2415ff8",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907944004,
+        "stop" : 1705908028729,
+        "duration" : 84725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verify_standard_field",
+      "uid" : "f8bcb94ffd7c3dda",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705908029068,
+        "stop" : 1705908060073,
+        "duration" : 31005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "signOut_verify_username",
+      "uid" : "c447a95961658525",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705908060298,
+        "stop" : 1705908122896,
+        "duration" : 62598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.CreatePart"
+  } ]
+}

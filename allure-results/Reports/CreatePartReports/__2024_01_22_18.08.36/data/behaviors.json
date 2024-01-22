@@ -1,0 +1,91 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "PartsRelatedItem Test",
+      "children" : [ {
+        "name" : "Test_001 Login to the page and Go To Parts Master",
+        "uid" : "19b88fa869f89a24",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705926710126,
+          "stop" : 1705926811788,
+          "duration" : 101662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on NewParts and verify all element",
+        "uid" : "e2e1fc9a46ecf3d2",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705926812184,
+          "stop" : 1705926868741,
+          "duration" : 56557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 Enter part number and create new part",
+        "uid" : "c4e2faddb7c683d8",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705926868896,
+          "stop" : 1705926949356,
+          "duration" : 80460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004 Search Part number ",
+        "uid" : "8938c2cbcf1570d5",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705926949493,
+          "stop" : 1705927029952,
+          "duration" : 80459
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_005 Verify the Description and click Cost and Pricing Tab",
+        "uid" : "327ad1c8012e8e1b",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705927030170,
+          "stop" : 1705927057177,
+          "duration" : 27007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_006 click on Sign out",
+        "uid" : "a035fec4f55a19bd",
+        "parentUid" : "7cc84794495f241c550e032cd7307c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705927057310,
+          "stop" : 1705927116333,
+          "duration" : 59023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cc84794495f241c550e032cd7307c7a"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}

@@ -12,7 +12,6 @@ public class TechWoLabor extends TestDriverActions {
         loginPage.loginWithValidCredentials(appProp.getProperty("username"),appProp.getProperty("password"));
         labor.enterTechBadge();
         labor.clickOnGo();
-    // labor.clickOnAssignedWork();
         labor.clickOnMoreUnit();
 
     }
@@ -73,7 +72,6 @@ public class TechWoLabor extends TestDriverActions {
         labor.enterAreodynamicDevices(); //3
         labor.clickOnPlusButton();
         labor.verifyAeroDynamicSelectedElement();
-// labor.enterText();
         labor.clickOnAddButton();
         labor.clickOnCrossIcon();
         labor.clickOnDeleteIcon();
@@ -102,7 +100,6 @@ public class TechWoLabor extends TestDriverActions {
     @Description("Test Description - Enter Accessories Group Image")
     public void enter_AccessoriesGroup_Img() throws InterruptedException {
         labor.clickOnWorkRequired();
-// labor.verifyXicon();
         labor.clickOnCrossIconAsapShop();
         labor.clickOnCancleButton();
         labor.clickOnMoreWorkTab();

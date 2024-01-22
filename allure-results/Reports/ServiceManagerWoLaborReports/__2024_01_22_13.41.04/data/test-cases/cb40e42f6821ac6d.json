@@ -1,0 +1,143 @@
+{
+  "uid" : "cb40e42f6821ac6d",
+  "name" : "Check that click on WIP status, verify the element and click on cancle",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnWIPStatus_and_clickCancle",
+  "historyId" : "9100fe920334f63b07908d7556174282",
+  "time" : {
+    "start" : 1705910470390,
+    "stop" : 1705910542912,
+    "duration" : 72522
+  },
+  "description" : "Test Description - Check that click on WIP status, verify the element and click on cancle",
+  "descriptionHtml" : "<p>Test Description - Check that click on WIP status, verify the element and click on cancle</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705909791154,
+      "stop" : 1705909844979,
+      "duration" : 53825
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that click on WIP status, verify the element and click on cancle",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "da28864381527aad",
+      "name" : "Page Screenshot",
+      "source" : "da28864381527aad.png",
+      "type" : "image/png",
+      "size" : 88244
+    }, {
+      "uid" : "804a0df18b5e139a",
+      "name" : "Page Screenshot",
+      "source" : "804a0df18b5e139a.png",
+      "type" : "image/png",
+      "size" : 125610
+    }, {
+      "uid" : "3d61b6fd391e2c40",
+      "name" : "Page Screenshot",
+      "source" : "3d61b6fd391e2c40.png",
+      "type" : "image/png",
+      "size" : 125401
+    }, {
+      "uid" : "9cbcc75fe8dad00a",
+      "name" : "Page Screenshot",
+      "source" : "9cbcc75fe8dad00a.png",
+      "type" : "image/png",
+      "size" : 88376
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705910542916,
+      "stop" : 1705910543091,
+      "duration" : 175
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3fa53a2b75143b6b",
+      "name" : "Page Screenshot",
+      "source" : "3fa53a2b75143b6b.png",
+      "type" : "image/png",
+      "size" : 88376
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnWIPStatus_and_clickCancle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "8520@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb40e42f6821ac6d.json",
+  "parameterValues" : [ ]
+}

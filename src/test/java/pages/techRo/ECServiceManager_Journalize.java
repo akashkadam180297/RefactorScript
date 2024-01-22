@@ -57,8 +57,6 @@ public class ECServiceManager_Journalize extends TestDriverActions {
 
     /**goto Financials */
     public void gotoFinancials () throws InterruptedException, FileNotFoundException {
-        WaitActions.getWaits().loadingWait(loder);
-        Thread.sleep(3000);
         ReusableActions.getActions().clickParentMenu("Financials");
         ReusableActions.getActions().clickChildMenu("Financial Manager");
         TestListener.saveScreenshotPNG(driver);

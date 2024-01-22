@@ -1,0 +1,131 @@
+{
+  "uid" : "a760679fba4eadad",
+  "name" : "T_008 Check that again add Aerodynamic Device ",
+  "fullName" : "tests.tech.TechWoLabor.again_Add_AeroDynamicDevice",
+  "historyId" : "b31d66ff6eb479f35e77a487416b9cc6",
+  "time" : {
+    "start" : 1705935486923,
+    "stop" : 1705935539164,
+    "duration" : 52241
+  },
+  "description" : "Test Description - Check that again add Aerodynamic Device",
+  "descriptionHtml" : "<p>Test Description - Check that again add Aerodynamic Device</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705935063876,
+      "stop" : 1705935113497,
+      "duration" : 49621
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that again add Aerodynamic Device",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cee47b532ca4b050",
+      "name" : "Page Screenshot",
+      "source" : "cee47b532ca4b050.png",
+      "type" : "image/png",
+      "size" : 123481
+    }, {
+      "uid" : "72909bf2b98155b9",
+      "name" : "Page Screenshot",
+      "source" : "72909bf2b98155b9.png",
+      "type" : "image/png",
+      "size" : 123481
+    }, {
+      "uid" : "e157a9508b15f61c",
+      "name" : "Page Screenshot",
+      "source" : "e157a9508b15f61c.png",
+      "type" : "image/png",
+      "size" : 113757
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705935539166,
+      "stop" : 1705935539290,
+      "duration" : 124
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f366888840df3e5",
+      "name" : "Page Screenshot",
+      "source" : "1f366888840df3e5.png",
+      "type" : "image/png",
+      "size" : 113759
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "again_Add_AeroDynamicDevice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "16320@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a760679fba4eadad.json",
+  "parameterValues" : [ ]
+}

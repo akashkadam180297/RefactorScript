@@ -121,8 +121,7 @@ public class ServiceManagerPartsRelatedTasks extends TestDriverActions {
         servicemanagerpartsrelatedtasks.verifyPartOnHand();
         servicemanagerpartsrelatedtasks.clickOncancelicon ();
         servicemanagerpartsrelatedtasks.clickOnDelete ();
-     //   servicemanagerpartsrelatedtasks.clickImageCrossIcon();
-     //   servicemanagerpartsrelatedtasks.clickImageDeleteIcon();
+
 
     }
 

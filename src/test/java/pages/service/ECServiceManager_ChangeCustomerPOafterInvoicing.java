@@ -134,7 +134,6 @@ public class ECServiceManager_ChangeCustomerPOafterInvoicing extends TestDriverA
      * click on save and Exit button
      */
     public void clickOnSaveExit() throws InterruptedException {
-//        WaitActions.getWaits().waitForElementTobeClickable(btn_saveExit);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_saveExit);
         WebElementActions.getActions().clickElement(btn_saveExit);
 
@@ -145,12 +144,10 @@ public class ECServiceManager_ChangeCustomerPOafterInvoicing extends TestDriverA
      * verify username
      */
     public void clickOnSignOut () throws InterruptedException {
-//        WaitActions.getWaits().waitForElementTobeClickable(btn_signOut);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_signOut);
         Thread.sleep(3000);
         WebElementActions.getActions().clickUsingJS(btn_signOut);
 
-//        WaitActions.getWaits().WaitUntilWebElementIsVisible(inputbox_Username);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(inputbox_Username);
         Assert.assertTrue(inputbox_Username.isDisplayed());
 

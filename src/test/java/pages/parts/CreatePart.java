@@ -297,9 +297,9 @@ public class CreatePart extends TestDriverActions {
      * click on New Part button
      */
     public void clickOnNewPart() throws InterruptedException {
-//        WaitActions.getWaits().waitForElementTobeClickable(btn_newPart);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_newPart);
- //       Thread.sleep(2000);
+
         WebElementActions.getActions().clickElement(btn_newPart);
 
         WaitActions.getWaits().loadingWait(loder);
@@ -311,7 +311,6 @@ public class CreatePart extends TestDriverActions {
      * Verify element on New Part Page
      */
     public void verifyNewPart() throws InterruptedException {
-//        WaitActions.getWaits().WaitUntilWebElementIsVisible(label_NewPart);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_NewPart);
         Assert.assertTrue(label_NewPart.isDisplayed());
         Assert.assertTrue(asterick_Part.isDisplayed());
@@ -469,9 +468,6 @@ public class CreatePart extends TestDriverActions {
      * click on create part
      */
     public void clickOnCreatePart() throws InterruptedException {
-
-       //   WebElementActions.getActions().moveOnTargetElement(btn_createpart1);
-        //   WebElementActions.getActions().clickElement(btn_createpart1);
         WebElementActions.getActions().moveOnTargetElement(label_MaxTextArea);
         Thread.sleep(3000);
         WebElementActions.getActions().moveOnTargetElement(label_MaxTextArea);
@@ -584,7 +580,7 @@ public class CreatePart extends TestDriverActions {
           TestListener.saveScreenshotPNG(driver);
 
       }
-
+         /**click on Sign out */
     public void clickOnSignOut() throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_signOut);
         Thread.sleep(3000);

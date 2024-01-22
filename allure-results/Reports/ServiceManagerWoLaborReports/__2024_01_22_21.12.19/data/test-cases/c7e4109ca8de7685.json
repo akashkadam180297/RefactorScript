@@ -1,0 +1,149 @@
+{
+  "uid" : "c7e4109ca8de7685",
+  "name" : "Check that click on Add button and enter the text in name field and save it",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnAdd_and_EntertheText",
+  "historyId" : "cfd7cac7a4bbe350acda91a6e7b004c5",
+  "time" : {
+    "start" : 1705937571127,
+    "stop" : 1705937641650,
+    "duration" : 70523
+  },
+  "description" : "Test Description -Check that click on Add button and enter the text in name field and save it",
+  "descriptionHtml" : "<p>Test Description -Check that click on Add button and enter the text in name field and save it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705937173876,
+      "stop" : 1705937220602,
+      "duration" : 46726
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description -Check that click on Add button and enter the text in name field and save it",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3df813796f8b30b0",
+      "name" : "Page Screenshot",
+      "source" : "3df813796f8b30b0.png",
+      "type" : "image/png",
+      "size" : 127588
+    }, {
+      "uid" : "3261e4183baed3",
+      "name" : "Page Screenshot",
+      "source" : "3261e4183baed3.png",
+      "type" : "image/png",
+      "size" : 128777
+    }, {
+      "uid" : "c395ef23ef0b7362",
+      "name" : "Page Screenshot",
+      "source" : "c395ef23ef0b7362.png",
+      "type" : "image/png",
+      "size" : 129868
+    }, {
+      "uid" : "d3914bcd3555a8f7",
+      "name" : "Page Screenshot",
+      "source" : "d3914bcd3555a8f7.png",
+      "type" : "image/png",
+      "size" : 136260
+    }, {
+      "uid" : "156365e44a045bb8",
+      "name" : "Page Screenshot",
+      "source" : "156365e44a045bb8.png",
+      "type" : "image/png",
+      "size" : 136260
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705937641652,
+      "stop" : 1705937641781,
+      "duration" : 129
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "36e9f33e58ff50da",
+      "name" : "Page Screenshot",
+      "source" : "36e9f33e58ff50da.png",
+      "type" : "image/png",
+      "size" : 136260
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnAdd_and_EntertheText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17428@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7e4109ca8de7685.json",
+  "parameterValues" : [ ]
+}

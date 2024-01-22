@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.service.ServiceManagerWoLabor" time="1,146.124" tests="19" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.service.ServiceManagerWoLabor" time="983.464" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -62,26 +62,22 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="gotoCompleteRoScreen" classname="tests.service.ServiceManagerWoLabor" time="63.63"/>
-  <testcase name="verifyAllElements" classname="tests.service.ServiceManagerWoLabor" time="26.822"/>
-  <testcase name="clickOnRONumber_VerifyElements" classname="tests.service.ServiceManagerWoLabor" time="66.791"/>
-  <testcase name="ClickInternalLink_and_EnterText" classname="tests.service.ServiceManagerWoLabor" time="72.274"/>
-  <testcase name="clickOnThisIsStandardNote_EnterInternalNote" classname="tests.service.ServiceManagerWoLabor" time="67.351"/>
-  <testcase name="clickOnNotes_and_EnterTextInNoteField" classname="tests.service.ServiceManagerWoLabor" time="66.99"/>
-  <testcase name="verifyAuthorizedBy_and_ClickOnLink" classname="tests.service.ServiceManagerWoLabor" time="39.726"/>
-  <testcase name="clickOnAdd_and_EntertheText" classname="tests.service.ServiceManagerWoLabor" time="78.642"/>
-  <testcase name="ennterLastName_and_clickOnSelectBtn" classname="tests.service.ServiceManagerWoLabor" time="49.86"/>
-  <testcase name="verifyElementofMainScreen" classname="tests.service.ServiceManagerWoLabor" time="50.879"/>
-  <testcase name="clickOnRoStatus_and_CloseButton" classname="tests.service.ServiceManagerWoLabor" time="54.073"/>
-  <testcase name="clickOnWIPStatus_and_clickCancle" classname="tests.service.ServiceManagerWoLabor" time="70.193"/>
-  <testcase name="clickOnTypelink_and_clickOnSelect" classname="tests.service.ServiceManagerWoLabor" time="70.234"/>
-  <testcase name="clickOnInvoiceTohyperlink_and_clickOnCancle" classname="tests.service.ServiceManagerWoLabor" time="58.175"/>
-  <testcase name="clickViewProfitLoss_and_clickOk" classname="tests.service.ServiceManagerWoLabor" time="54.153"/>
-  <testcase name="clickOn_ShowLabourDetails_Number_ShowPartsDetails" classname="tests.service.ServiceManagerWoLabor" time="70.946"/>
-  <testcase name="clickOnBacktoCompleteRo_and_ReferenceNumber" classname="tests.service.ServiceManagerWoLabor" time="45.457"/>
-  <testcase name="clickOnUpdateRates_and_SignOut" classname="tests.service.ServiceManagerWoLabor" time="83.661"/>
-  <testcase name="generateAllure" classname="tests.service.ServiceManagerWoLabor" time="83.832">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-</failure>
-  </testcase>
+  <testcase name="gotoCompleteRoScreen" classname="tests.service.ServiceManagerWoLabor" time="65.478"/>
+  <testcase name="verifyAllElements" classname="tests.service.ServiceManagerWoLabor" time="14.961"/>
+  <testcase name="clickOnRONumber_VerifyElements" classname="tests.service.ServiceManagerWoLabor" time="46.33"/>
+  <testcase name="ClickInternalLink_and_EnterText" classname="tests.service.ServiceManagerWoLabor" time="64.569"/>
+  <testcase name="clickOnThisIsStandardNote_EnterInternalNote" classname="tests.service.ServiceManagerWoLabor" time="63.194"/>
+  <testcase name="clickOnNotes_and_EnterTextInNoteField" classname="tests.service.ServiceManagerWoLabor" time="63.021"/>
+  <testcase name="verifyAuthorizedBy_and_ClickOnLink" classname="tests.service.ServiceManagerWoLabor" time="31.688"/>
+  <testcase name="clickOnAdd_and_EntertheText" classname="tests.service.ServiceManagerWoLabor" time="70.527"/>
+  <testcase name="ennterLastName_and_clickOnSelectBtn" classname="tests.service.ServiceManagerWoLabor" time="37.731"/>
+  <testcase name="verifyElementofMainScreen" classname="tests.service.ServiceManagerWoLabor" time="32.865"/>
+  <testcase name="clickOnRoStatus_and_CloseButton" classname="tests.service.ServiceManagerWoLabor" time="49.941"/>
+  <testcase name="clickOnWIPStatus_and_clickCancle" classname="tests.service.ServiceManagerWoLabor" time="58.265"/>
+  <testcase name="clickOnTypelink_and_clickOnSelect" classname="tests.service.ServiceManagerWoLabor" time="58.405"/>
+  <testcase name="clickOnInvoiceTohyperlink_and_clickOnCancle" classname="tests.service.ServiceManagerWoLabor" time="54.074"/>
+  <testcase name="clickViewProfitLoss_and_clickOk" classname="tests.service.ServiceManagerWoLabor" time="50.439"/>
+  <testcase name="clickOn_ShowLabourDetails_Number_ShowPartsDetails" classname="tests.service.ServiceManagerWoLabor" time="45.378"/>
+  <testcase name="clickOnBacktoCompleteRo_and_ReferenceNumber" classname="tests.service.ServiceManagerWoLabor" time="45.75"/>
+  <testcase name="clickOnUpdateRates_and_SignOut" classname="tests.service.ServiceManagerWoLabor" time="63.569"/>
 </testsuite>

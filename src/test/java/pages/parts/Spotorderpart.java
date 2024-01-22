@@ -489,8 +489,6 @@ public class Spotorderpart extends TestDriverActions {
      * goto order parts Screen
      */
     public void gotoOrderPartsScreen() throws FileNotFoundException, InterruptedException {
-      //  WaitActions.getWaits().loadingWait(loder);
-      //  Thread.sleep(3000);
         ReusableActions.getActions().clickParentMenu("Parts");
         ReusableActions.getActions().clickChildMenu("Order Parts");
         TestListener.saveScreenshotPNG(driver);
@@ -1506,9 +1504,6 @@ public class Spotorderpart extends TestDriverActions {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_POPartCost);
         Assert.assertTrue(label_POPartCost.isDisplayed());
-
-    //    WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Text_OrderTotal);
-    //    Assert.assertTrue(Text_OrderTotal.isDisplayed())
 
         TestListener.saveScreenshotPNG(driver);
 

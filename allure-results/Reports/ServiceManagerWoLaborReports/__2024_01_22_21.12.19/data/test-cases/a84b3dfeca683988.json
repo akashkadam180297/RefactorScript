@@ -1,0 +1,143 @@
+{
+  "uid" : "a84b3dfeca683988",
+  "name" : "Check that click on This is Standard Note and enter the text in Internal Note field",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnThisIsStandardNote_EnterInternalNote",
+  "historyId" : "736b080bb25005327b5ea6e1bf3984b8",
+  "time" : {
+    "start" : 1705937412793,
+    "stop" : 1705937475982,
+    "duration" : 63189
+  },
+  "description" : "Test Description - Check that click on This is Standard Note and enter the text in Internal Note field",
+  "descriptionHtml" : "<p>Test Description - Check that click on This is Standard Note and enter the text in Internal Note field</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705937173876,
+      "stop" : 1705937220602,
+      "duration" : 46726
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that click on This is Standard Note and enter the text in Internal Note field",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "79b18a7d4fa25ee5",
+      "name" : "Page Screenshot",
+      "source" : "79b18a7d4fa25ee5.png",
+      "type" : "image/png",
+      "size" : 62025
+    }, {
+      "uid" : "975afff0d2b84c51",
+      "name" : "Page Screenshot",
+      "source" : "975afff0d2b84c51.png",
+      "type" : "image/png",
+      "size" : 61994
+    }, {
+      "uid" : "dfe66806641519b9",
+      "name" : "Page Screenshot",
+      "source" : "dfe66806641519b9.png",
+      "type" : "image/png",
+      "size" : 61718
+    }, {
+      "uid" : "78fffdb8cc24ea8c",
+      "name" : "Page Screenshot",
+      "source" : "78fffdb8cc24ea8c.png",
+      "type" : "image/png",
+      "size" : 88498
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705937475984,
+      "stop" : 1705937476101,
+      "duration" : 117
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c2268ff3cbfee6f9",
+      "name" : "Page Screenshot",
+      "source" : "c2268ff3cbfee6f9.png",
+      "type" : "image/png",
+      "size" : 88468
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnThisIsStandardNote_EnterInternalNote"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17428@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a84b3dfeca683988.json",
+  "parameterValues" : [ ]
+}

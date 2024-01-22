@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.CreatePart",
+    "children" : [ {
+      "name" : "gotoPartsMaster",
+      "uid" : "19b88fa869f89a24",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705926710126,
+        "stop" : 1705926811788,
+        "duration" : 101662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "click_NewPart_Verify_All_Elements",
+      "uid" : "e2e1fc9a46ecf3d2",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705926812184,
+        "stop" : 1705926868741,
+        "duration" : 56557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "create_new_part",
+      "uid" : "c4e2faddb7c683d8",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705926868896,
+        "stop" : 1705926949356,
+        "duration" : 80460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "search_the_number",
+      "uid" : "8938c2cbcf1570d5",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705926949493,
+        "stop" : 1705927029952,
+        "duration" : 80459
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verify_standard_field",
+      "uid" : "327ad1c8012e8e1b",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705927030170,
+        "stop" : 1705927057177,
+        "duration" : 27007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "signOut_verify_username",
+      "uid" : "a035fec4f55a19bd",
+      "parentUid" : "d37dff9f8aff1dfcc11e0cebdd3de9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705927057310,
+        "stop" : 1705927116333,
+        "duration" : 59023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.CreatePart"
+  } ]
+}

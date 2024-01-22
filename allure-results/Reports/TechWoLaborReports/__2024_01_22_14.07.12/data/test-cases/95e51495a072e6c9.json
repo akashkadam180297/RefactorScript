@@ -1,0 +1,131 @@
+{
+  "uid" : "95e51495a072e6c9",
+  "name" : "T_009 Enter Accessories Group Image",
+  "fullName" : "tests.tech.TechWoLabor.enter_AccessoriesGroup_Img",
+  "historyId" : "5655ed5619c3565d20337de0ac28ce08",
+  "time" : {
+    "start" : 1705912443162,
+    "stop" : 1705912526164,
+    "duration" : 83002
+  },
+  "description" : "Test Description - Enter Accessories Group Image",
+  "descriptionHtml" : "<p>Test Description - Enter Accessories Group Image</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705911886310,
+      "stop" : 1705911941284,
+      "duration" : 54974
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Enter Accessories Group Image",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b7fa9a2249f4d4fb",
+      "name" : "Page Screenshot",
+      "source" : "b7fa9a2249f4d4fb.png",
+      "type" : "image/png",
+      "size" : 139073
+    }, {
+      "uid" : "4f41f60b63d60fb1",
+      "name" : "Page Screenshot",
+      "source" : "4f41f60b63d60fb1.png",
+      "type" : "image/png",
+      "size" : 121485
+    }, {
+      "uid" : "3069dbb34c59d970",
+      "name" : "Page Screenshot",
+      "source" : "3069dbb34c59d970.png",
+      "type" : "image/png",
+      "size" : 105984
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705912526168,
+      "stop" : 1705912526329,
+      "duration" : 161
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ef4045ae17254bcd",
+      "name" : "Page Screenshot",
+      "source" : "ef4045ae17254bcd.png",
+      "type" : "image/png",
+      "size" : 105984
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "enter_AccessoriesGroup_Img"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "16924@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95e51495a072e6c9.json",
+  "parameterValues" : [ ]
+}

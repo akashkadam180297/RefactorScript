@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing",
+    "children" : [ {
+      "name" : "gotoCompleteRo",
+      "uid" : "396cb077c0c7e7ae",
+      "parentUid" : "68eda3686f71ccd2b356f8466c13a321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705915032596,
+        "stop" : 1705915113475,
+        "duration" : 80879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verification_ofElement_SignOut",
+      "uid" : "ba0ffa295af6dd2a",
+      "parentUid" : "68eda3686f71ccd2b356f8466c13a321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705915114095,
+        "stop" : 1705915163731,
+        "duration" : 49636
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing"
+  } ]
+}

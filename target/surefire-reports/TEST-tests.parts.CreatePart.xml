@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.CreatePart" time="347.214" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.CreatePart" time="470.661" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -62,10 +62,10 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="gotoPartsMaster" classname="tests.parts.CreatePart" time="39.9"/>
-  <testcase name="click_NewPart_Verify_All_Elements" classname="tests.parts.CreatePart" time="51.605"/>
-  <testcase name="create_new_part" classname="tests.parts.CreatePart" time="59.334"/>
-  <testcase name="search_the_number" classname="tests.parts.CreatePart" time="59.451"/>
-  <testcase name="verify_standard_field" classname="tests.parts.CreatePart" time="18.139"/>
-  <testcase name="signOut_verify_username" classname="tests.parts.CreatePart" time="49.299"/>
+  <testcase name="gotoPartsMaster" classname="tests.parts.CreatePart" time="101.708"/>
+  <testcase name="click_NewPart_Verify_All_Elements" classname="tests.parts.CreatePart" time="56.563"/>
+  <testcase name="create_new_part" classname="tests.parts.CreatePart" time="80.463"/>
+  <testcase name="search_the_number" classname="tests.parts.CreatePart" time="80.462"/>
+  <testcase name="verify_standard_field" classname="tests.parts.CreatePart" time="27.012"/>
+  <testcase name="signOut_verify_username" classname="tests.parts.CreatePart" time="59.026"/>
 </testsuite>

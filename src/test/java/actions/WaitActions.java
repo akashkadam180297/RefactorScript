@@ -136,7 +136,7 @@ public class WaitActions extends TestDriverActions {
         if (element.size() > 0) {
             System.out.println("Loader is found by xpath : " + element);
             int invisibleCount = 0;
-            while (element.size() != 0 && invisibleCount < 120) {
+            while (element.size() != 0 && invisibleCount < 60) {
                 System.out.println("Entered in while loop");
                 Thread.sleep(1000);
                 invisibleCount++;
@@ -207,10 +207,10 @@ public class WaitActions extends TestDriverActions {
 
     public static void waitForElementToBeRefreshedAndIsVisible(WebElement element) throws InterruptedException {
         try {
-            Thread.sleep(4000);
+            Thread.sleep(2000);
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(80));
             wait.until(ExpectedConditions.refreshed(ExpectedConditions.visibilityOf(element)));
-            Thread.sleep(4000);
+            Thread.sleep(2000);
         }
         catch(Throwable e)
         {

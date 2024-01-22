@@ -67,7 +67,7 @@ public class TestDriverActions {
     public EC_Tech_WoLabor labor;
     public EC_Tech_WoParts part;
     public ECServiceManager_AddRemoveLabor addRemove;
-    public EC_ServiceManager_WoLabor servicelabor;
+    public ServiceManagerWoLabor servicelabor;
     public CreateNonRepairBill_ServiceManager nonrepairbills;
     public cGVTech_WoCompliance wocompliance;
     public ECService_Manager_Invoice completeropage;
@@ -244,19 +244,16 @@ public class TestDriverActions {
         }
         LoginActions loginActions = new LoginActions();
         if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU") || LoginActions.environmentName.contains("EC") || LoginActions.environmentName.contains("NA")) {
-            System.out.println("inside if....");
-            System.out.println("inside if...." + getMyClassName());
+
             driver.get(loginActions.getAppUrl1(getMyClassName()));    //new method Akash kadam
         } else {
             driver.get(loginActions.getAppUrl());      //old method
-            System.out.println("inside else....");
+
         }
 
         //      loginPage.selectCountryFromDropDown();
 
 
-//         driver.manage().timeouts().pageLoadTimeout(timeUtil.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
-//         driver.manage().timeouts().implicitlyWait(timeUtil.IMPLICIT_WAIT,TimeUnit.SECONDS);
 
         loginPage = PageFactory.initElements(driver, LoginPage.class);
         createRoPage = PageFactory.initElements(driver, CreateRoPage.class);
@@ -273,7 +270,7 @@ public class TestDriverActions {
         labor = PageFactory.initElements(driver, EC_Tech_WoLabor.class);
         part = PageFactory.initElements(driver, EC_Tech_WoParts.class);
         addRemove = PageFactory.initElements(driver, ECServiceManager_AddRemoveLabor.class);
-        servicelabor = PageFactory.initElements(driver, EC_ServiceManager_WoLabor.class);
+        servicelabor = PageFactory.initElements(driver,ServiceManagerWoLabor.class);
         nonrepairbills = PageFactory.initElements(driver, CreateNonRepairBill_ServiceManager.class);
         wocompliance = PageFactory.initElements(driver, cGVTech_WoCompliance.class);
         completeropage = PageFactory.initElements(driver, ECService_Manager_Invoice.class);

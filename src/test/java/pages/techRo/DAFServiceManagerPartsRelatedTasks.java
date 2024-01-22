@@ -612,6 +612,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_ChargeQuantityTextArea);
         WebElementActions.getActions().clickElement(label_ChargeQuantityTextArea);
         WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
     }
 
     /**

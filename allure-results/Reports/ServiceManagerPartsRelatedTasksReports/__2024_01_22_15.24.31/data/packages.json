@@ -1,0 +1,147 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.techRo",
+    "children" : [ {
+      "name" : "ServiceManagerJournalize",
+      "children" : [ {
+        "name" : "Test_001_gotoFinancials",
+        "uid" : "c68d559bf921ccc8",
+        "parentUid" : "9ad4153c2d2f5abb17885dcbb265a57c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705915704014,
+          "stop" : 1705915746172,
+          "duration" : 42158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_clickOnGenerateJournals",
+        "uid" : "11519eecb1e4d979",
+        "parentUid" : "9ad4153c2d2f5abb17885dcbb265a57c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705915747106,
+          "stop" : 1705915920204,
+          "duration" : 173098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ad4153c2d2f5abb17885dcbb265a57c"
+    }, {
+      "name" : "ServiceManagerPartsRelatedTasks",
+      "children" : [ {
+        "name" : "Test_001_gotoCompleteRo",
+        "uid" : "68141ee207f5a114",
+        "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705916007324,
+          "stop" : 1705916331871,
+          "duration" : 324547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_clickOnReference",
+        "uid" : "3cdf4fa6ded69015",
+        "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705916332330,
+          "stop" : 1705916501123,
+          "duration" : 168793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_clickOnPart",
+        "uid" : "175d8f7ec27a00e5",
+        "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705916501275,
+          "stop" : 1705916619228,
+          "duration" : 117953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_verifyLabor",
+        "uid" : "21bf25c860788e16",
+        "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705916619390,
+          "stop" : 1705916733276,
+          "duration" : 113886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_verifyChargeQuantityEditable",
+        "uid" : "1cbe1d37675ee200",
+        "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705916733444,
+          "stop" : 1705916907676,
+          "duration" : 174232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_006_clickOnAddPart",
+        "uid" : "3cd5ad84272731b9",
+        "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705916907793,
+          "stop" : 1705917107667,
+          "duration" : 199874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_007_clickOnNonCatalogPart",
+        "uid" : "4c3ade13990893b8",
+        "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705917107818,
+          "stop" : 1705917234073,
+          "duration" : 126255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_008_clickOnCloseButton",
+        "uid" : "bdaf785699f52caf",
+        "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705917234272,
+          "stop" : 1705917271194,
+          "duration" : 36922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cafe47b76312541ff8b757cb57aca13c"
+    } ],
+    "uid" : "tests.techRo"
+  } ]
+}

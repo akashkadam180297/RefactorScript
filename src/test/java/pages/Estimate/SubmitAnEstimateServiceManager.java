@@ -646,13 +646,6 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
         Assert.assertTrue(label_DeleteTwo.isDisplayed());
         TestListener.saveScreenshotPNG(driver);
     }
-    /**verify Draft */
- /* public void verifyDraft () {
-
-      WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Draft);
-      Assert.assertTrue(label_Draft.isDisplayed());
-     }
-  */
 
     /** type External Notes  */
     public void ExternalNotes () throws InterruptedException {
@@ -763,7 +756,7 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
     /**clickOnIssueButton*/
     public void clickOnIssueButton () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_IssueButton);
-        WebElementActions.getActions().clickElement(label_IssueButton);
+        WebElementActions.getActions().clickUsingJS(label_IssueButton);
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
     }
@@ -860,8 +853,5 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
         WebElementActions.getActions().clickElement(inputbox_Username);
         TestListener.saveScreenshotPNG(driver);
     }
-
-
-
 
 }
