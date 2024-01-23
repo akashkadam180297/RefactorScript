@@ -1,0 +1,131 @@
+{
+  "uid" : "1c1df61114f8f3bf",
+  "name" : "Test_004 click On Add Button ",
+  "fullName" : "tests.parts.Spotorderparts.Test_004_clickOnAddButton",
+  "historyId" : "660543c6dcb991c4d45a88d195e08136",
+  "time" : {
+    "start" : 1706004876880,
+    "stop" : 1706004966027,
+    "duration" : 89147
+  },
+  "description" : "Test Description:  click On Add Button ",
+  "descriptionHtml" : "<p>Test Description:  click On Add Button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706004670757,
+      "stop" : 1706004722046,
+      "duration" : 51289
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description:  click On Add Button ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3ead59681fe1d039",
+      "name" : "Page Screenshot",
+      "source" : "3ead59681fe1d039.png",
+      "type" : "image/png",
+      "size" : 71243
+    }, {
+      "uid" : "fc59c698982bb4ac",
+      "name" : "Page Screenshot",
+      "source" : "fc59c698982bb4ac.png",
+      "type" : "image/png",
+      "size" : 68374
+    }, {
+      "uid" : "9fc5877bc5834b2f",
+      "name" : "Page Screenshot",
+      "source" : "9fc5877bc5834b2f.png",
+      "type" : "image/png",
+      "size" : 71920
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706004966028,
+      "stop" : 1706004966076,
+      "duration" : 48
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d3ea35f8c7571a7",
+      "name" : "Page Screenshot",
+      "source" : "9d3ea35f8c7571a7.png",
+      "type" : "image/png",
+      "size" : 71920
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_004_clickOnAddButton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "23264@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c1df61114f8f3bf.json",
+  "parameterValues" : [ ]
+}

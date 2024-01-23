@@ -1,0 +1,164 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.tech.TechWoLabor",
+        "children" : [ {
+          "name" : "T_007 Check that add AeroDynamic Device and Delete it from Labour section",
+          "uid" : "ffed5513d28d6710",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705991827474,
+            "stop" : 1705992010129,
+            "duration" : 182655
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_001 Login the page and Go to the Tech Ro",
+          "uid" : "47612a14c4957487",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705995474565,
+            "stop" : 1705995565693,
+            "duration" : 91128
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_002 Verify the Element and Enter the Unit Number",
+          "uid" : "c90494a7bc90bf9d",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705995565829,
+            "stop" : 1705995626762,
+            "duration" : 60933
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_003 Verify the element and click on Unit History",
+          "uid" : "b225d045a132a892",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705995626844,
+            "stop" : 1705995689837,
+            "duration" : 62993
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_004 Click on Labour,MoreWork and VMRS tab",
+          "uid" : "53a9138a6ee22665",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705995689920,
+            "stop" : 1705995712188,
+            "duration" : 22268
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_005 Enter AderoDynamic Device in search field",
+          "uid" : "2be2cc7463e8dc7",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705995712262,
+            "stop" : 1705995712262,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_006 Enter Aerodynamic Device and click on Image",
+          "uid" : "7b55b7d56178493",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705995712339,
+            "stop" : 1705995798871,
+            "duration" : 86532
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "97052421c7fba162099bdca9091aaa93"
+      }, {
+        "name" : "tests.parts.JournalizePartsInvoice",
+        "children" : [ {
+          "name" : "Login the page and Go to the Financial Manager",
+          "uid" : "2d68ec2e192fb17e",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705997037518,
+            "stop" : 1705997072776,
+            "duration" : 35258
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+          "uid" : "474549f6f74a68ef",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705997072933,
+            "stop" : 1705997147086,
+            "duration" : 74153
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Select checkBox ,click on GenerateJournal and service board",
+          "uid" : "7d1fdc15f258d9fc",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "broken",
+          "time" : {
+            "start" : 1705997147185,
+            "stop" : 1705997192838,
+            "duration" : 45653
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Click on Financial manager,verify and sign out the page",
+          "uid" : "444f5e8ae00fab55",
+          "parentUid" : "875defd0effb370cfd68afb2112fe9c9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705997192915,
+            "stop" : 1705997259081,
+            "duration" : 66166
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "875defd0effb370cfd68afb2112fe9c9"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

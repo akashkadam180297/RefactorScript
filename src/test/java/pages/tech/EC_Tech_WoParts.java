@@ -407,12 +407,11 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * Enter TechBadge in the textfield
      */
     public void enterTechBadge() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(TechBadge);
             WebElementActions.getActions().inputText(TechBadge, appProp.getProperty("TechBadge"));
             TestListener.saveScreenshotPNG(driver);
-        }
+
     }
     /**click on Go button*/
     public void clickOnGoBtn() throws InterruptedException {
@@ -464,11 +463,10 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * Enter Unit Number(118888)  //span[text()='More Units']
      */
     public void enterUnitNumber() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(SearchUnit);
             WebElementActions.getActions().inputText(SearchUnit, appProp.getProperty("UnitNumber"));
             WaitActions.getWaits().loadingWait(loder);
-        }
     }
 
     /**
@@ -512,11 +510,13 @@ public class EC_Tech_WoParts extends TestDriverActions {
     }
     public void clickOnKeyboardIcon() throws InterruptedException {
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(keyboard_icon);
-        WebElementActions.getActions().clickElement(keyboard_icon);
+        if(LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(keyboard_icon);
+            WebElementActions.getActions().clickElement(keyboard_icon);
 
-        WaitActions.getWaits().loadingWait(loder);
-        TestListener.saveScreenshotPNG(driver);
+            WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
+        }
     }
     /**
      * verify parts tab Element (Check the Generic setup of the screen)
@@ -561,7 +561,7 @@ public class EC_Tech_WoParts extends TestDriverActions {
      */
     public void enterPart() throws InterruptedException {
 
-        if (LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("EU")) {
+
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_part);
             WebElementActions.getActions().inputText(txt_part, appProp.getProperty("PartName"));
 
@@ -582,7 +582,6 @@ public class EC_Tech_WoParts extends TestDriverActions {
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
 
-        }
     }
     /**Verify Part Details Pannel*/
     public void verifyPartDetailsPannel() throws InterruptedException {

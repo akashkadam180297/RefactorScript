@@ -1,0 +1,251 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.service.ServiceManagerWoLabor",
+        "children" : [ {
+          "name" : "Login the page and go to the CompleteRo",
+          "uid" : "c1ad4e0eb4c27143",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011106438,
+            "stop" : 1706011140757,
+            "duration" : 34319
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verify all the WebElements on the web page ",
+          "uid" : "94484c879ae80905",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011140875,
+            "stop" : 1706011153870,
+            "duration" : 12995
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Click on RO Number and verify the elements",
+          "uid" : "4ea450adc6d8a0cf",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011153938,
+            "stop" : 1706011198493,
+            "duration" : 44555
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on Internal Link and enter the text in Internal Note field",
+          "uid" : "d9bf9de1d4e47a79",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011198547,
+            "stop" : 1706011257605,
+            "duration" : 59058
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on This is Standard Note and enter the text in Internal Note field",
+          "uid" : "e1203282780fd36b",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011257691,
+            "stop" : 1706011315412,
+            "duration" : 57721
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click On Note link, verify the element and enter text in note field and save it ",
+          "uid" : "4d66b07abb0165ad",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011315476,
+            "stop" : 1706011373240,
+            "duration" : 57764
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verify Authorized By and click on the link of Authorized By",
+          "uid" : "9704082a7fe162e9",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011373293,
+            "stop" : 1706011403904,
+            "duration" : 30611
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on Add button and enter the text in name field and save it",
+          "uid" : "d877f829a2a96506",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011403964,
+            "stop" : 1706011464953,
+            "duration" : 60989
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that enter last name, verify the element and click on select button ",
+          "uid" : "2edb2345a5dca6a0",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011465076,
+            "stop" : 1706011497781,
+            "duration" : 32705
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : " Check that the selected contact is reflected in the main screen",
+          "uid" : "52dec784e8dc279c",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011497831,
+            "stop" : 1706011522773,
+            "duration" : 24942
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on Ro Status, verify the element and click on close button",
+          "uid" : "396722ebf5f358d3",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011522819,
+            "stop" : 1706011571490,
+            "duration" : 48671
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on WIP status, verify the element and click on cancle",
+          "uid" : "d8d669a496b66451",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011571558,
+            "stop" : 1706011628403,
+            "duration" : 56845
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on Type hyperlink, verify the element and click on select button",
+          "uid" : "b2783f35838fa2dd",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011628474,
+            "stop" : 1706011685256,
+            "duration" : 56782
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on InvoiceTo hyperlink, verify element and click on cancle button",
+          "uid" : "46e5021753cdda6a",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011685325,
+            "stop" : 1706011738191,
+            "duration" : 52866
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on View Profit and Loss hyperlink,verify and click Ok",
+          "uid" : "755b5c88c4494bac",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011738257,
+            "stop" : 1706011787012,
+            "duration" : 48755
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on Show labour Details,Number and Show parts Details",
+          "uid" : "6ae33d6c6f4df25a",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011787073,
+            "stop" : 1706011831535,
+            "duration" : 44462
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on Back to Complete RO and reference number",
+          "uid" : "4cebf155d32bb2b2",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011831636,
+            "stop" : 1706011876129,
+            "duration" : 44493
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check that click on update Rates hyperlink and sign out the page",
+          "uid" : "ad3ecb2a2f9d129",
+          "parentUid" : "fc51d794e1a47275079443f7d8856222",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706011876177,
+            "stop" : 1706011950133,
+            "duration" : 73956
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fc51d794e1a47275079443f7d8856222"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

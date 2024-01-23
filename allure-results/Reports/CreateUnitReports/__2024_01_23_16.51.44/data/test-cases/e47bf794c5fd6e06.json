@@ -1,0 +1,143 @@
+{
+  "uid" : "e47bf794c5fd6e06",
+  "name" : "Test_001_Login the page and Go to create unit Screen",
+  "fullName" : "tests.fleet.CreateUnit.Test_001_gotoUnitMasterScreen",
+  "historyId" : "d8bafb8e284d70811e671670e4af49b3",
+  "time" : {
+    "start" : 1706008679380,
+    "stop" : 1706008733843,
+    "duration" : 54463
+  },
+  "description" : "Test Description: Login the page and Go to create unit Screen",
+  "descriptionHtml" : "<p>Test Description: Login the page and Go to create unit Screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706008642415,
+      "stop" : 1706008679342,
+      "duration" : 36927
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login the page and Go to create unit Screen",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e229cbb65e43bbbe",
+      "name" : "Page Screenshot",
+      "source" : "e229cbb65e43bbbe.png",
+      "type" : "image/png",
+      "size" : 98812
+    }, {
+      "uid" : "3a12254ae04fa9b4",
+      "name" : "Page Screenshot",
+      "source" : "3a12254ae04fa9b4.png",
+      "type" : "image/png",
+      "size" : 143615
+    }, {
+      "uid" : "966459e8e0fa6f23",
+      "name" : "Page Screenshot",
+      "source" : "966459e8e0fa6f23.png",
+      "type" : "image/png",
+      "size" : 83538
+    }, {
+      "uid" : "196d792d71a0b01f",
+      "name" : "Page Screenshot",
+      "source" : "196d792d71a0b01f.png",
+      "type" : "image/png",
+      "size" : 83538
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706008733899,
+      "stop" : 1706008733956,
+      "duration" : 57
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "37521b7c7d6def44",
+      "name" : "Page Screenshot",
+      "source" : "37521b7c7d6def44.png",
+      "type" : "image/png",
+      "size" : 83538
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoUnitMasterScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.CreateUnit"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "21784@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Create Unit Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e47bf794c5fd6e06.json",
+  "parameterValues" : [ ]
+}

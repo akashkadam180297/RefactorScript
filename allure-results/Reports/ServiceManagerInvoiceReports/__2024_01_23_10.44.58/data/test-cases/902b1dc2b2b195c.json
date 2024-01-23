@@ -1,0 +1,119 @@
+{
+  "uid" : "902b1dc2b2b195c",
+  "name" : "Test_003_Input The Ro Number in search TextArea  ",
+  "fullName" : "tests.techRo.ServiceManagerInvoice.Test_003_inputRoNumber",
+  "historyId" : "d4537e50c69c65573a2e1752fa26b24b",
+  "time" : {
+    "start" : 1705986808490,
+    "stop" : 1705986810662,
+    "duration" : 2172
+  },
+  "description" : "Test Description:Input The Ro Number in search TextArea ",
+  "descriptionHtml" : "<p>Test Description:Input The Ro Number in search TextArea</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705986720405,
+      "stop" : 1705986761865,
+      "duration" : 41460
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description:Input The Ro Number in search TextArea ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7785da0c5108d95c",
+      "name" : "Page Screenshot",
+      "source" : "7785da0c5108d95c.png",
+      "type" : "image/png",
+      "size" : 138881
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705986810662,
+      "stop" : 1705986810727,
+      "duration" : 65
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "16830ac721ee990d",
+      "name" : "Page Screenshot",
+      "source" : "16830ac721ee990d.png",
+      "type" : "image/png",
+      "size" : 138881
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerInvoice"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerInvoice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_inputRoNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerInvoice"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "20796@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "902b1dc2b2b195c.json",
+  "parameterValues" : [ ]
+}

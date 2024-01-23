@@ -1,0 +1,143 @@
+{
+  "uid" : "37de0bb7ae4aa61c",
+  "name" : "Login the page and go to customer screen",
+  "fullName" : "tests.administration.CreateCustomer.Test_001_gotoCustomerScreen",
+  "historyId" : "ac2fef77ae75f4058afce44f30ec434f",
+  "time" : {
+    "start" : 1706000521480,
+    "stop" : 1706000579155,
+    "duration" : 57675
+  },
+  "description" : "Test Description: Login the page and go to customer screen",
+  "descriptionHtml" : "<p>Test Description: Login the page and go to customer screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706000482654,
+      "stop" : 1706000521469,
+      "duration" : 38815
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login the page and go to customer screen",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8aa159441753eb19",
+      "name" : "Page Screenshot",
+      "source" : "8aa159441753eb19.png",
+      "type" : "image/png",
+      "size" : 99289
+    }, {
+      "uid" : "cfa8144c1992e0f8",
+      "name" : "Page Screenshot",
+      "source" : "cfa8144c1992e0f8.png",
+      "type" : "image/png",
+      "size" : 95741
+    }, {
+      "uid" : "87fc98fff6f12295",
+      "name" : "Page Screenshot",
+      "source" : "87fc98fff6f12295.png",
+      "type" : "image/png",
+      "size" : 99242
+    }, {
+      "uid" : "57c805bf05b4e786",
+      "name" : "Page Screenshot",
+      "source" : "57c805bf05b4e786.png",
+      "type" : "image/png",
+      "size" : 99242
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706000579212,
+      "stop" : 1706000579276,
+      "duration" : 64
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69af8f4309e0f2da",
+      "name" : "Page Screenshot",
+      "source" : "69af8f4309e0f2da.png",
+      "type" : "image/png",
+      "size" : 99242
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoCustomerScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.CreateCustomer"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "10592@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Customer Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37de0bb7ae4aa61c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-5",
+    "children" : [ {
+      "name" : "10592@PC-5.main(1)",
+      "children" : [ {
+        "name" : "Check the Customer name in search field and sign out the page",
+        "uid" : "c4439708792be585",
+        "parentUid" : "62d9616bde18e38f9e619614834d0f14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706000645790,
+          "stop" : 1706000669800,
+          "duration" : 24010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login the page and go to customer screen",
+        "uid" : "37de0bb7ae4aa61c",
+        "parentUid" : "62d9616bde18e38f9e619614834d0f14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706000521480,
+          "stop" : 1706000579155,
+          "duration" : 57675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all elements in the field",
+        "uid" : "2a629739eee2f507",
+        "parentUid" : "62d9616bde18e38f9e619614834d0f14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706000579286,
+          "stop" : 1706000604862,
+          "duration" : 25576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter Customer Code and name in the field and click on OK",
+        "uid" : "70b64a2a2c119d8b",
+        "parentUid" : "62d9616bde18e38f9e619614834d0f14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706000604914,
+          "stop" : 1706000645722,
+          "duration" : 40808
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62d9616bde18e38f9e619614834d0f14"
+    } ],
+    "uid" : "a73e966c7298dd236db9463e7eeeeb18"
+  } ]
+}

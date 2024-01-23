@@ -764,12 +764,6 @@ public class ReceivePart extends TestDriverActions {
             WebElementActions.getActions().inputText(txt_invoiceNumber,invoiceNum);
 
 
-           // WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_InvoiceDateTextArea);
-          //  WebElementActions.getActions().inputText(label_InvoiceDateTextArea,appProp.getProperty("InvoiceDate"));
-
-        //    WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_DueDateTextArea);
-        //    WebElementActions.getActions().inputText(label_DueDateTextArea,appProp.getProperty("DueDate"));
-
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
 

@@ -1,0 +1,17 @@
+# Created on 2024-01-23T18:13:11.405
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created on 2024-01-23T18:13:14.446
+Unexpected IOException with stream: Loader is found by xpath : [[[ChromeDriver: chrome on WINDOWS (d97b0f3cbd459c4405e04c531e3fab29)] -> xpath: //h1[contains(.,'Signing In...Please Wait')]]]
+
+
+# Created on 2024-01-23T18:13:14.532
+Unexpected IOException with stream: Entered in while loop
+
+

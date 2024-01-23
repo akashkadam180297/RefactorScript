@@ -1,0 +1,143 @@
+{
+  "uid" : "94484c879ae80905",
+  "name" : "Verify all the WebElements on the web page ",
+  "fullName" : "tests.service.ServiceManagerWoLabor.verifyAllElements",
+  "historyId" : "951f41548bdb235f4f77ff9fe710d660",
+  "time" : {
+    "start" : 1706011140875,
+    "stop" : 1706011153870,
+    "duration" : 12995
+  },
+  "description" : "Test Description - Verify all the WebElements on the web page",
+  "descriptionHtml" : "<p>Test Description - Verify all the WebElements on the web page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706011063517,
+      "stop" : 1706011106410,
+      "duration" : 42893
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Verify all the WebElements on the web page",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "74a01456e6627958",
+      "name" : "Page Screenshot",
+      "source" : "74a01456e6627958.png",
+      "type" : "image/png",
+      "size" : 145043
+    }, {
+      "uid" : "d496f2d1642c98d5",
+      "name" : "Page Screenshot",
+      "source" : "d496f2d1642c98d5.png",
+      "type" : "image/png",
+      "size" : 145043
+    }, {
+      "uid" : "8d54e960605182d6",
+      "name" : "Page Screenshot",
+      "source" : "8d54e960605182d6.png",
+      "type" : "image/png",
+      "size" : 145043
+    }, {
+      "uid" : "8ad446acad062168",
+      "name" : "Page Screenshot",
+      "source" : "8ad446acad062168.png",
+      "type" : "image/png",
+      "size" : 145043
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706011153875,
+      "stop" : 1706011153935,
+      "duration" : 60
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9a63dd0cf1168642",
+      "name" : "Page Screenshot",
+      "source" : "9a63dd0cf1168642.png",
+      "type" : "image/png",
+      "size" : 145011
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyAllElements"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "12492@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94484c879ae80905.json",
+  "parameterValues" : [ ]
+}

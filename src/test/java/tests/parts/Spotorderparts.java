@@ -1,17 +1,12 @@
 package tests.parts;
 
 
-import constants.SheetConstants;
 import io.qameta.allure.Description;
 import org.testng.annotations.Test;
 import tests.TestDriverActions;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
-import static org.apache.log4j.spi.LocationInfo.NA;
-import static org.apache.poi.util.LocaleID.EU;
-import static org.apache.xalan.xsltc.runtime.CallFunction.className;
 
 
 public class Spotorderparts extends TestDriverActions {

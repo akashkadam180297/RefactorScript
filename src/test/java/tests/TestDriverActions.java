@@ -5,7 +5,6 @@ import actions.LoginActions;
 import actions.WaitActions;
 import constants.SheetConstants;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.mozilla.javascript.tools.shell.Environment;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,16 +26,18 @@ import pages.fleet.SetUpWorkRequired;
 
 import pages.parts.*;
 //import pages.pmWorkFlow.WorkOrderWorkflowPage;
+import pages.parts.Spotorderparts;
 import pages.pmWorkFlow.cGVTechPerformPM;
 import pages.service.*;
 
+import pages.tech.EC_Tech_WoLabor;
 import pages.techRo.*;
 import pages.serviceBoard.SubmitAnEstimate_ServiceManagerPage;
-import pages.tech.EC_Tech_WoLabor;
+//import pages.tech.EC_Tech_WoLabor;
 import pages.tech.EC_Tech_WoParts;
 
 
-import tests.parts.Spotorderparts;
+//import tests.parts.Spotorderparts;
 import utils.TestListener;
 
 import java.io.File;
@@ -69,7 +70,7 @@ public class TestDriverActions {
     public EC_Tech_WoLabor labor;
     public EC_Tech_WoParts part;
     public ECServiceManager_AddRemoveLabor addRemove;
-    public EC_ServiceManager_WoLabor servicelabor;
+    public ServiceManagerWoLabor servicelabor;
     public CreateNonRepairBill_ServiceManager nonrepairbills;
     public cGVTech_WoCompliance wocompliance;
     public ECService_Manager_Invoice completeropage;
@@ -86,7 +87,7 @@ public class TestDriverActions {
 
     public PerformTheWorkOnAnEstimateTech performtheworkonanestimatepage;
 
-    public Spotorderpart spotorderparts;
+    public Spotorderparts spotorderparts;
     public ReceivePart  receivepart;
     public JournalizePartsInvoice_konaEU journalizepartinvoice;
     public SubmitAnEstimateServiceManager  submitanestimateservicemanager;
@@ -200,7 +201,7 @@ public class TestDriverActions {
         else if(this.getClass().getCanonicalName().contains("PerformTheWorkOnAnEstimateTechTest")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/performtheworkonanestimate.properties";
         }
-        else if(this.getClass().getCanonicalName().contains("Spotorderpart")) {
+        else if(this.getClass().getCanonicalName().contains("Spotorderparts")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/spotorderpartsEU.properties";
         }
         else if(this.getClass().getCanonicalName().contains("ReceiveParts")) {
@@ -307,7 +308,7 @@ public class TestDriverActions {
         labor = PageFactory.initElements(driver, EC_Tech_WoLabor.class);
         part = PageFactory.initElements(driver, EC_Tech_WoParts.class);
         addRemove = PageFactory.initElements(driver, ECServiceManager_AddRemoveLabor.class);
-        servicelabor = PageFactory.initElements(driver, EC_ServiceManager_WoLabor.class);
+        servicelabor = PageFactory.initElements(driver, ServiceManagerWoLabor.class);
         nonrepairbills = PageFactory.initElements(driver, CreateNonRepairBill_ServiceManager.class);
         wocompliance = PageFactory.initElements(driver, cGVTech_WoCompliance.class);
         completeropage = PageFactory.initElements(driver, ECService_Manager_Invoice.class);
@@ -319,7 +320,7 @@ public class TestDriverActions {
         approveanestimatedmspage = PageFactory.initElements(driver, ApproveanEstimateDMSPage.class);
         pmworkorderworkflowpage = PageFactory.initElements(driver, cGVTechPerformPM.class);
         performtheworkonanestimatepage = PageFactory.initElements(driver, PerformTheWorkOnAnEstimateTech.class);
-        spotorderparts = PageFactory.initElements(driver,Spotorderpart.class);
+        spotorderparts = PageFactory.initElements(driver, Spotorderparts.class);
         journalizepartinvoice = PageFactory.initElements(driver, JournalizePartsInvoice_konaEU.class);
         receivepart= PageFactory.initElements(driver, ReceivePart.class);
         submitanestimateservicemanager=PageFactory.initElements(driver, SubmitAnEstimateServiceManager.class);
@@ -435,7 +436,7 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("SubmitAnEstimate_ServiceManagerTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/SubmitAnEstimate_ServiceManagerTestReports/" + "__" + currentDateTime;
         }
-        else if (getClass().getCanonicalName().contains("Spotorderpart")) {
+        else if (getClass().getCanonicalName().contains("Spotorderparts")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/SpotorderpartReports/" + "__" + currentDateTime;
         }
         else if (getClass().getCanonicalName().contains("SetUpWorkRequiredTest")) {
@@ -498,7 +499,7 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("PerformTheWorkOnAnEstimateTechTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/PerformTheWorkOnAnEstimateTechTestReports/" + "__" + currentDateTime;
         }
-        else if (getClass().getCanonicalName().contains("Spotorderpart")) {
+        else if (getClass().getCanonicalName().contains("Spotorderparts")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/SpotorderpartReports/" + "__" + currentDateTime;
         }
         else if (getClass().getCanonicalName().contains("JournalizePartsInvoice_konaEUTest")) {
@@ -573,7 +574,7 @@ public class TestDriverActions {
             else if (getClass().getCanonicalName().contains("SubmitAnEstimate_ServiceManagerTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SubmitAnEstimate_ServiceManagerTestReports\\" + theDir.getName();
             }
-            else if (getClass().getCanonicalName().contains("Spotorderpart")) {
+            else if (getClass().getCanonicalName().contains("Spotorderparts")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SpotorderpartReports\\" + theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("SetUpWorkRequiredTest")) {
@@ -636,7 +637,7 @@ public class TestDriverActions {
             else if (getClass().getCanonicalName().contains("PerformTheWorkOnAnEstimateTechTest")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\PerformTheWorkOnAnEstimateTechTestReports\\" + theDir.getName();
             }
-            else if (getClass().getCanonicalName().contains("Spotorderpart")) {
+            else if (getClass().getCanonicalName().contains("Spotorderparts")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SpotorderpartReports\\" + theDir.getName();
             }
             else if (getClass().getCanonicalName().contains("JournalizePartsInvoice_konaEUTest")) {
