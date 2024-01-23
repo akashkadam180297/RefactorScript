@@ -3,22 +3,7 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test">
     <classes>
-      <class name="tests.service.ServiceManagerWoLabor"/>
+      <class name="tests.techRo.ServiceManagerPartsRelatedTasks"/>
     </classes>
   </test> <!-- Surefire test -->
-<<<<<<< Updated upstream
-=======
-  <test name="Surefire test(failed)">
-    <classes>
-      <class name="tests.techRo.ServiceManagerPartsRelatedTasks">
-        <methods>
-          <include name="generateAllure"/>
-          <include name="afterMethodTakeScreenShot"/>
-          <include name="Test_007_clickOnNonCatalogPart"/>
-          <include name="initialization"/>
-        </methods>
-      </class> <!-- tests.techRo.ServiceManagerPartsRelatedTasks -->
-    </classes>
-  </test> <!-- Surefire test(failed) -->
->>>>>>> Stashed changes
 </suite> <!-- Failed suite [Surefire suite] -->

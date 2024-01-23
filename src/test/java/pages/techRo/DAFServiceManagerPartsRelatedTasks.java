@@ -204,7 +204,6 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
     @FindBy(xpath = "//img[contains(@id,':cilWAP::icon')]")
     public WebElement img_DeleteIcon;
 
-
     @FindBy(xpath = "//div[contains(@id,':ocb1:ctbClose')]//child::a/span[text()='Close']")
     public WebElement btn_Close;
 
@@ -236,7 +235,6 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         ReusableActions.getActions().clickChildMenu("Complete RO");
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
-
 
     }
     /**click on Add Labour */
@@ -567,7 +565,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_StoreText);
         Assert.assertTrue(label_StoreText.isDisplayed());
 
-        if (LoginActions.environmentName.contains("EU")) {
+        if (LoginActions.environmentName.contains("EU")||LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_ChargeQuantityTextArea);
             WebElementActions.getActions().inputText(label_ChargeQuantityTextArea, appProp.getProperty("Two"));
         }
@@ -596,7 +594,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
      * type Unit charges value
      */
     public void typeUnitChargeValue() throws InterruptedException {
-        if (LoginActions.environmentName.contains("EU")) {
+        if (LoginActions.environmentName.contains("EU")||LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_UnitChargeTextBox);
             WebElementActions.getActions().inputText(txt_UnitChargeTextBox, appProp.getProperty("UnitChargeValue"));
             WaitActions.getWaits().loadingWait(loder);
