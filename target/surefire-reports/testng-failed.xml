@@ -6,4 +6,19 @@
       <class name="tests.service.ServiceManagerWoLabor"/>
     </classes>
   </test> <!-- Surefire test -->
+<<<<<<< Updated upstream
+=======
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="tests.techRo.ServiceManagerPartsRelatedTasks">
+        <methods>
+          <include name="generateAllure"/>
+          <include name="afterMethodTakeScreenShot"/>
+          <include name="Test_007_clickOnNonCatalogPart"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- tests.techRo.ServiceManagerPartsRelatedTasks -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+>>>>>>> Stashed changes
 </suite> <!-- Failed suite [Surefire suite] -->
