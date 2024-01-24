@@ -73,7 +73,8 @@ public class TechWoLabor extends TestDriverActions {
         labor.enterAreodynamicDevices(); //3
         labor.clickOnPlusButton();
         labor.verifyAeroDynamicSelectedElement();
-// labor.enterText();
+        labor.enterText();
+        labor.verifyCancleAddComplaintText();
         labor.clickOnAddButton();
         labor.clickOnCrossIcon();
         labor.clickOnDeleteIcon();

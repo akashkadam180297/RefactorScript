@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "T_005 Verify part added , click on cross button and delete the part",
+        "uid" : "173f8102f95549ec",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706014978072,
+          "stop" : 1706015060370,
+          "duration" : 82298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "F:\\RefactorScript\\src\\test\\java\\utils\\pauselabor\\pauselaborNA.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "bf1dc1f2eac3cf63",
+        "parentUid" : "3a40a5ddcd460dee98c9726287af0bbf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706074947529,
+          "stop" : 1706074947530,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a40a5ddcd460dee98c9726287af0bbf"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

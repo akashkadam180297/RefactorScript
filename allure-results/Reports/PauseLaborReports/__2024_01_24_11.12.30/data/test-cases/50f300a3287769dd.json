@@ -1,0 +1,136 @@
+{
+  "uid" : "50f300a3287769dd",
+  "name" : "T_003 Check the Generic setup of the screen and enter Part number",
+  "fullName" : "tests.tech.TechWoParts.verifyElement_EnterPartNumber",
+  "historyId" : "ab92efb9eed96644663d523af290452f",
+  "time" : {
+    "start" : 1706014866581,
+    "stop" : 1706014959966,
+    "duration" : 93385
+  },
+  "description" : "Test Description - Check the Generic setup of the screen and enter Part number",
+  "descriptionHtml" : "<p>Test Description - Check the Generic setup of the screen and enter Part number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description - Check the Generic setup of the screen and enter Part number",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "35aaf677435be0b2",
+      "name" : "Page Screenshot",
+      "source" : "35aaf677435be0b2.png",
+      "type" : "image/png",
+      "size" : 80219
+    }, {
+      "uid" : "c6bba6d78f6ef405",
+      "name" : "Page Screenshot",
+      "source" : "c6bba6d78f6ef405.png",
+      "type" : "image/png",
+      "size" : 80219
+    }, {
+      "uid" : "a2d4d372c3d95606",
+      "name" : "Page Screenshot",
+      "source" : "a2d4d372c3d95606.png",
+      "type" : "image/png",
+      "size" : 88632
+    }, {
+      "uid" : "f3b94829dd73584",
+      "name" : "Page Screenshot",
+      "source" : "f3b94829dd73584.png",
+      "type" : "image/png",
+      "size" : 88632
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706014959968,
+      "stop" : 1706014960433,
+      "duration" : 465
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "59f31221f87307b4",
+      "name" : "Page Screenshot",
+      "source" : "59f31221f87307b4.png",
+      "type" : "image/png",
+      "size" : 88632
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyElement_EnterPartNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "23992@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "WoParts Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b0412f3e3ed2130c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//ul[@class='AFAutoSuggestItemsContainer']/li\"}\n  (Session info: chrome=120.0.6099.217)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-5', ip: '192.168.29.196', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8f398f0d6a886a5929e8018f239f0913, findElement {using=xpath, value=//ul[@class='AFAutoSuggestItemsContainer']/li}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc5-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49629/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 8f398f0d6a886a5929e8018f239f0913",
+      "time" : {
+        "start" : 1706014458136,
+        "stop" : 1706014510012,
+        "duration" : 51876
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50f300a3287769dd.json",
+  "parameterValues" : [ ]
+}

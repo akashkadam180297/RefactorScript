@@ -1,0 +1,131 @@
+{
+  "uid" : "6dace2ae8db28c4d",
+  "name" : "Click on Summary",
+  "fullName" : "tests.tech.PauseLabor.Test_036_clickOnSummary",
+  "historyId" : "164eaad1dbd53f0fdf2f0bad1dfba324",
+  "time" : {
+    "start" : 1706075851714,
+    "stop" : 1706075873977,
+    "duration" : 22263
+  },
+  "description" : "Test_description : Click on Summary",
+  "descriptionHtml" : "<p>Test_description : Click on Summary</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706075106972,
+      "stop" : 1706075146440,
+      "duration" : 39468
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test_description : Click on Summary",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "951ed2127c9ec7c5",
+      "name" : "Page Screenshot",
+      "source" : "951ed2127c9ec7c5.png",
+      "type" : "image/png",
+      "size" : 77141
+    }, {
+      "uid" : "10c1c20add89ffea",
+      "name" : "Page Screenshot",
+      "source" : "10c1c20add89ffea.png",
+      "type" : "image/png",
+      "size" : 77141
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706075873978,
+      "stop" : 1706075874052,
+      "duration" : 74
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d487a8cfe32e87b4",
+      "name" : "Page Screenshot",
+      "source" : "d487a8cfe32e87b4.png",
+      "type" : "image/png",
+      "size" : 77109
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.PauseLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.PauseLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_036_clickOnSummary"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.PauseLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-5"
+  }, {
+    "name" : "thread",
+    "value" : "13716@PC-5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "PauseLabor"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6dace2ae8db28c4d.json",
+  "parameterValues" : [ ]
+}

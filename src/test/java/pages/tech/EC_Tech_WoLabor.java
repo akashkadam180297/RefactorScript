@@ -28,6 +28,8 @@ public class EC_Tech_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//span[contains(.,'Brian O')]")
     WebElement label_BrianOC;
 
+    @FindBy(xpath = "span[text(),'Rusty Adam']")
+    WebElement label_RustyAdam;
 
     @FindBy(xpath = "//span[text()='Clear Screen']")
     WebElement btn_clearScreen;
@@ -107,6 +109,10 @@ public class EC_Tech_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//td[text()='BLOOMINGTON CA 92316']")
     WebElement label_Blooming;
 
+    @FindBy(xpath = "div[contains(@id,'pgl33')]")
+    WebElement label_123KingStreet;
+
+
     @FindBy(xpath = "(//a[contains(text(),'Summary')])[1]/following::a[1]")
     WebElement btn_labor;
 
@@ -119,8 +125,8 @@ public class EC_Tech_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//span[text()='More Work ...']")
     WebElement btn_moreWork;
 
-    @FindBy(xpath = "(//a[contains(.,'Lab')])[1]")
-    public WebElement label_Lab;
+    @FindBy(xpath = "(//a[contains(text(),'Summary')]/following::a[1])[1]")
+    public WebElement btn_Labour;
 
     @FindBy(xpath = "//span[contains(text(),'Show Labour Details')]/preceding::h1[1]")
     WebElement subtitle_Labor_ASAP;
@@ -423,14 +429,20 @@ public class EC_Tech_WoLabor extends TestDriverActions {
 
     @FindBy(xpath = "//a[contains(@id,'ciDWoAct1')]")
     List<WebElement> crossIcon_All;
+
+    @FindBy(xpath = "//a[contains(@id,'cilvmrsys')]/img")
+    WebElement img_AeroDynamic;
+
+    @FindBy(xpath= "//span[contains(@id,'ot7')]")
+    WebElement name_AeroDynamicDevice;
     /**
      * Enter TechBadge
      */
     public void enterTechBadge() throws InterruptedException {
-// WaitActions.getWaits().waitForElementTobeClickable(txt_scanEmployeeBadge);
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_scanEmployeeBadge);
-            WebElementActions.getActions().inputText(txt_scanEmployeeBadge, appProp.getProperty("TechBadge"));
+            WebElementActions.getActions().inputText(txt_scanEmployeeBadge,appProp.getProperty("TechBadge"));
 
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
@@ -440,7 +452,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on Go
      */
     public void clickOnGo() throws InterruptedException {
-// WaitActions.getWaits().waitForElementTobeClickable(btn_Go);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_Go);
         WebElementActions.getActions().clickElement(btn_Go);
 
@@ -451,7 +463,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on assigned work button
      */
     public void clickOnAssignedWork() throws InterruptedException {
-// WaitActions.getWaits().waitForElementTobeClickable(btn_assignedWork);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_assignedWork.get(0));
         WebElementActions.getActions().clickElement(btn_assignedWork.get(0));
 
@@ -462,7 +474,8 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on MoreUnit tab
      */
     public void clickOnMoreUnit() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")||
+                LoginActions.environmentName.contains("NA") || LoginActions.environmentName.contains("EC") ) {
             Thread.sleep(10000);
             if (btn_assignedWork.size() > 0) {
                 WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_assignedWork.get(0));
@@ -472,7 +485,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
                 TestListener.saveScreenshotPNG(driver);
             }
             Thread.sleep(2000);
-            // WaitActions.getWaits().waitForElementTobeClickable(tab_moreUnits);
+
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(tab_moreUnits);
             WebElementActions.getActions().clickElement(tab_moreUnits);
 
@@ -487,7 +500,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      */
     public void verifyHeaderElement() throws InterruptedException {
 
-// WaitActions.getWaits().WaitUntilWebElementIsVisible(label_MoisesOlivas);
+
         if (LoginActions.environmentName.contains("QA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_MoisesOlivas);
             Assert.assertTrue(label_MoisesOlivas.isDisplayed());
@@ -509,7 +522,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * Verify Element present in table
      */
     public void verifyTableElement() throws InterruptedException {
-// WaitActions.getWaits().WaitUntilWebElementIsVisible(label_owner);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_owner);
         Assert.assertTrue(label_owner.isDisplayed());
         Assert.assertTrue(label_unitNumber.isDisplayed());
@@ -526,7 +539,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * Enter Unit Number
      */
     public void enterUnitNumber() throws InterruptedException {
-// WaitActions.getWaits().waitForElementTobeClickable(txt_searchUnit);
+
         if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_searchUnit);
@@ -566,10 +579,14 @@ public class EC_Tech_WoLabor extends TestDriverActions {
         if (LoginActions.environmentName.contains("QA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_moisesOlivas);
             Assert.assertTrue(label_moisesOlivas.isDisplayed());
-        }
+        }else
         if (LoginActions.environmentName.contains("EU")){
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_BrianOC);
             Assert.assertTrue(label_BrianOC.isDisplayed());
+        }else
+        if (LoginActions.environmentName.contains("NA")){
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_RustyAdam);
+            Assert.assertTrue(label_RustyAdam.isDisplayed());
         }
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Owner2);
         Assert.assertTrue(label_Owner2.isDisplayed());
@@ -580,10 +597,14 @@ public class EC_Tech_WoLabor extends TestDriverActions {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_18298Slover);
             Assert.assertTrue(label_18298Slover.isDisplayed());
             Assert.assertTrue(label_Blooming.isDisplayed());
-        }
+        }else
         if(LoginActions.environmentName.contains("EU")){
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_TN236TT);
             Assert.assertTrue(label_TN236TT.isDisplayed());
+        }else
+        if(LoginActions.environmentName.contains("NA")){
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_123KingStreet);
+            Assert.assertTrue(label_123KingStreet.isDisplayed());
         }
 
         TestListener.saveScreenshotPNG(driver);
@@ -592,47 +613,45 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * verify element of Labour Tab
      */
     public void LabourtabElement() throws InterruptedException {
-        if(LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_labor);
             Assert.assertTrue(btn_labor.isDisplayed());
             Assert.assertTrue(label_WorkRequired.isDisplayed());
             Assert.assertTrue(btn_moreWork.isDisplayed());
-        }
-        if(LoginActions.environmentName.contains("EU")) {
-            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Lab);
-            Assert.assertTrue(label_Lab.isDisplayed());
-        }
-        Assert.assertTrue(btn_UnitHistory.isDisplayed());
-        Assert.assertTrue(subtitle_Labor_ASAP.isDisplayed());
-        Assert.assertTrue(btn_showLaborDetails.isDisplayed());
+            Assert.assertTrue(btn_Labour.isDisplayed());
+            Assert.assertTrue(btn_UnitHistory.isDisplayed());
+            Assert.assertTrue(subtitle_Labor_ASAP.isDisplayed());
+            Assert.assertTrue(btn_showLaborDetails.isDisplayed());
 
-        TestListener.saveScreenshotPNG(driver);
+            TestListener.saveScreenshotPNG(driver);
+        }
     }
     /**
      * Verify Labour - Asap shop element
      */
     public void labourAsapShopElement() throws InterruptedException {
 
-
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(hash_asap_Shop);
-        Assert.assertTrue(hash_asap_Shop.isDisplayed());
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(hash_asap_Shop);
+            Assert.assertTrue(hash_asap_Shop.isDisplayed());
 // Assert.assertTrue(column_before_hash.isDisplayed());
-        Assert.assertTrue(label_description.isDisplayed());
-        Assert.assertTrue(asterisk_asap_Shop.isDisplayed());
-        Assert.assertTrue(label_estimatedHours.isDisplayed());
-        Assert.assertTrue(label_ActualHours.isDisplayed());
-        Assert.assertTrue(label_start.isDisplayed());
+            Assert.assertTrue(label_description.isDisplayed());
+            Assert.assertTrue(asterisk_asap_Shop.isDisplayed());
+            Assert.assertTrue(label_estimatedHours.isDisplayed());
+            Assert.assertTrue(label_ActualHours.isDisplayed());
+            Assert.assertTrue(label_start.isDisplayed());
 // Assert.assertTrue(label_noDataToDisplay.isDisplayed());
-        Assert.assertTrue(label_TotalHours.isDisplayed());
+            Assert.assertTrue(label_TotalHours.isDisplayed());
 // Assert.assertTrue(label_zaro.isDisplayed());
-        TestListener.saveScreenshotPNG(driver);
+            TestListener.saveScreenshotPNG(driver);
 
+        }
     }
     /**
      * click on Unit History tab
      */
     public void clickOnUnitHistorytab() throws InterruptedException {
-// WaitActions.getWaits().waitForElementTobeClickable(btn_UnitHistory);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_UnitHistory);
         WebElementActions.getActions().clickElement(btn_UnitHistory);
 
@@ -645,7 +664,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      */
     public void verifyUnitNumberTabElement() throws InterruptedException {
 
-// WaitActions.getWaits().WaitUntilWebElementIsVisible( label_search);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_search);
         Assert.assertTrue(label_search.isDisplayed());
         Assert.assertTrue(label_date.isDisplayed());
@@ -666,7 +685,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on Labour tab
      */
     public void clickOnLabourTab() throws InterruptedException {
-// WaitActions.getWaits().waitForElementTobeClickable(btn_labor);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_labor);
         WebElementActions.getActions().clickElement(btn_labor);
 
@@ -678,8 +697,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      */
     public void clickOnMoreWorkTab() throws InterruptedException {
 
-// WaitActions.getWaits().waitForElementTobeClickable(btn_moreWork);
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_moreWork);
             WebElementActions.getActions().clickElement(btn_moreWork);
 
@@ -692,21 +710,18 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      */
     public void verifyMoreWorktabElement() throws InterruptedException {
 
-// WaitActions.getWaits().WaitUntilWebElementIsVisible(label_unit);
-        if (LoginActions.environmentName.contains("QA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_unit);
             Assert.assertTrue(label_unit.isDisplayed());
             Assert.assertTrue(label_unit_value.isDisplayed());
             Assert.assertTrue(tab_VMRS.isDisplayed());
             TestListener.saveScreenshotPNG(driver);
 
-        }
     }
     /**
      * click on VMRS tab
      */
     public void clickOnVMRStab() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(tab_VMRS);
             WebElementActions.getActions().clickElement(tab_VMRS);
 
@@ -772,7 +787,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * verify vmrs Element
      */
     public void verifyElementofVMRS() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA") ) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(subtitle_clickicondrilldown);
             Assert.assertTrue(subtitle_clickicondrilldown.isDisplayed());
             Assert.assertTrue(label_search3.isDisplayed());
@@ -782,14 +797,21 @@ public class EC_Tech_WoLabor extends TestDriverActions {
         }
     }
     /**
-     * Enter Aerodynamic Devices
+     * Enter Aerodynamic Devices    img_AeroDynamic
      */
     public void enterAreodynamicDevices() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")
+        || LoginActions.environmentName.contains("NA") ) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(search_txt);
             WebElementActions.getActions().inputText(search_txt, appProp.getProperty("FirstLaborItem"));
 
             WaitActions.getWaits().loadingWait(loder);
+
+            if(LoginActions.environmentName.contains("NA")){
+                WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(img_AeroDynamic);
+                Assert.assertTrue(img_AeroDynamic.isDisplayed());
+                Assert.assertTrue(name_AeroDynamicDevice.isDisplayed());
+            }
             TestListener.saveScreenshotPNG(driver);
         }
     }
@@ -872,7 +894,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      */
     public void verifyAeroDynamicSelectedElement() throws InterruptedException {
 
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_selected);
             Assert.assertTrue(label_selected.isDisplayed());
             Assert.assertTrue(label_selected_column.isDisplayed());
@@ -888,8 +910,9 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      */
     public void enterText() throws InterruptedException {
 
-// WaitActions.getWaits().waitForElementTobeClickable(field_complaint);
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")
+        || LoginActions.environmentName.contains("NA") ) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(field_complaint);
             WebElementActions.getActions().inputText(field_complaint, appProp.getProperty("enterText"));
 
@@ -901,7 +924,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * verify Labour Guide Page Element cancle , Add , This is the Complaint
      */
     public void verifyCancleAddComplaintText() throws InterruptedException {
-// WaitActions.getWaits().WaitUntilWebElementIsVisible(field_complaint);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(field_complaint);
         Assert.assertTrue(field_complaint.isDisplayed());
         Assert.assertTrue(btn_cancle.isDisplayed());

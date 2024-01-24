@@ -516,7 +516,7 @@ public class CounterSalePage extends TestDriverActions {
      * verify counter sale manager elements
      */
     public void counterSaleManager() throws InterruptedException {
-//        WaitActions.getWaits().WaitUntilWebElementIsVisible(label_thingsTodo);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_thingsTodo);
         Assert.assertTrue(label_thingsTodo.isDisplayed());
         Assert.assertTrue(label_toBeInvoiced.isDisplayed());

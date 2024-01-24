@@ -1,0 +1,615 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "WoParts Test",
+      "children" : [ {
+        "name" : "T_001 Sign in the page and Go to the Tech RO",
+        "uid" : "ae8b2dc4b309944b",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706014706850,
+          "stop" : 1706014765075,
+          "duration" : 58225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_002 Verify Unit Number and Click on Parts ",
+        "uid" : "3429054edbf7390a",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706014765219,
+          "stop" : 1706014866479,
+          "duration" : 101260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_003 Check the Generic setup of the screen and enter Part number",
+        "uid" : "50f300a3287769dd",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706014866581,
+          "stop" : 1706014959966,
+          "duration" : 93385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_004 verify the part pannel and click on issue part",
+        "uid" : "b72c90706e54c5e0",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706014960438,
+          "stop" : 1706014977971,
+          "duration" : 17533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_005 Verify part added , click on cross button and delete the part",
+        "uid" : "173f8102f95549ec",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706014978072,
+          "stop" : 1706015060370,
+          "duration" : 82298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_006 Enter CorePart and click on search icon",
+        "uid" : "780f1400315c2526",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706015060464,
+          "stop" : 1706015116442,
+          "duration" : 55978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_007 Click on CoreReturn and delete core part",
+        "uid" : "91d8b6322dce923e",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706015116526,
+          "stop" : 1706015217975,
+          "duration" : 101449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d96f7799932cf5e29cae964d807fb943"
+    }, {
+      "name" : "PauseLabor",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "bf1dc1f2eac3cf63",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706074947529,
+          "stop" : 1706074947530,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login the page ",
+        "uid" : "e50e0fe5d724be04",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948000,
+          "stop" : 1706074948001,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Enter TechBadge and click on go",
+        "uid" : "f27ddeafab02953b",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948247,
+          "stop" : 1706074948247,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on More Units",
+        "uid" : "f9acc5f5d78b7cdf",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948321,
+          "stop" : 1706074948322,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Enter First Unit",
+        "uid" : "73b186dc65c9b0b9",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948404,
+          "stop" : 1706074948404,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Select button",
+        "uid" : "e0887e2e0f03003b",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948554,
+          "stop" : 1706074948554,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on More Works",
+        "uid" : "b114009d4972aab2",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948597,
+          "stop" : 1706074948597,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "click on VMRS",
+        "uid" : "e9e612072383b55b",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948641,
+          "stop" : 1706074948641,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "click on Marine Work image in VMRS",
+        "uid" : "e9647a2578d1fde4",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948740,
+          "stop" : 1706074948740,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "click on plus button",
+        "uid" : "932ef9e1e75c1464",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948812,
+          "stop" : 1706074948812,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Enter text in complaint box",
+        "uid" : "597e6e43264e092d",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948860,
+          "stop" : 1706074948860,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Add button",
+        "uid" : "25433c1bba60f862",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074948997,
+          "stop" : 1706074948997,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Work Required image",
+        "uid" : "d4505e7549980f14",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949121,
+          "stop" : 1706074949121,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Pause button",
+        "uid" : "800d9c37f7587473",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949161,
+          "stop" : 1706074949161,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Again enter TechBadge and click on go",
+        "uid" : "c4a9b5caab800ef4",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949212,
+          "stop" : 1706074949212,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify PauseWork and FirstUnit",
+        "uid" : "f6bcda12154226ae",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949266,
+          "stop" : 1706074949267,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Enter Second unit",
+        "uid" : "adf9e99c91d6defa",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949328,
+          "stop" : 1706074949328,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on select button",
+        "uid" : "15a4166fd824591",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949410,
+          "stop" : 1706074949410,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Pause in play",
+        "uid" : "19ae343193be0d1d",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949513,
+          "stop" : 1706074949513,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on More Works",
+        "uid" : "e095f777febe0bdd",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949565,
+          "stop" : 1706074949565,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on VMRS",
+        "uid" : "66d0660189a553c5",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949614,
+          "stop" : 1706074949614,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click VMRS Image",
+        "uid" : "af1340fb43a7c706",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949670,
+          "stop" : 1706074949670,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on plus button",
+        "uid" : "a372249a86c2c3eb",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949715,
+          "stop" : 1706074949715,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Enter text in complaint textfield",
+        "uid" : "f1565c90481d9d7",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949772,
+          "stop" : 1706074949773,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Add button",
+        "uid" : "49e6c52dde9eb435",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949814,
+          "stop" : 1706074949814,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Work Required Image",
+        "uid" : "940c07a93bbc1d34",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949904,
+          "stop" : 1706074949904,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Again click on pause button",
+        "uid" : "1743a72ff61b9e85",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949946,
+          "stop" : 1706074949946,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Enter TechBadge and click on go",
+        "uid" : "d5a48d278e3fcca0",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074949997,
+          "stop" : 1706074949997,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Second Pause Work",
+        "uid" : "300ce9965fa201cb",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950061,
+          "stop" : 1706074950061,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Assigned Work",
+        "uid" : "61b63cc9581a4c6e",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950096,
+          "stop" : 1706074950096,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify select assigned work",
+        "uid" : "aecf107c77cfbbdf",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950149,
+          "stop" : 1706074950149,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on select",
+        "uid" : "59c6cf4d8b373a0c",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950202,
+          "stop" : 1706074950202,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Summary",
+        "uid" : "52c19a3ef15d6ac6",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950301,
+          "stop" : 1706074950301,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Unit Ready",
+        "uid" : "f23a1e5966bd5ebf",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950347,
+          "stop" : 1706074950347,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Select button",
+        "uid" : "3e64169dea5ba20",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950431,
+          "stop" : 1706074950431,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on clock icon",
+        "uid" : "cc4781939f6bd925",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950463,
+          "stop" : 1706074950463,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Summary",
+        "uid" : "7f392d91f153fbf6",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950516,
+          "stop" : 1706074950516,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Unit Ready",
+        "uid" : "68a0d68162b61b61",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950566,
+          "stop" : 1706074950566,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on SignOut",
+        "uid" : "670fe4747a67bc47",
+        "parentUid" : "432401ca7741c0918a1fa1560d4a44a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1706074950615,
+          "stop" : 1706074950615,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "432401ca7741c0918a1fa1560d4a44a0"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}
