@@ -161,7 +161,7 @@ public class EC_Tech_WoParts extends TestDriverActions {
     @FindBy(xpath = "(//label[text()='Part#:'])[1]/following::input[1]")
     WebElement txtfield_part;
 
-    @FindBy(xpath = "//input[contains(@id,':itItemasCode::content')]")
+    @FindBy(xpath = "(//div[contains(text(),'Create and issue Non-Catalog Part')]/parent::td/following::span/child::label[text()='Part#:'])[1]")
     public WebElement label_PartTextArea;
 
     @FindBy(xpath = "(//label[text()='Description:'])[1]")
@@ -404,13 +404,13 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * Enter TechBadge in the textfield
      */
     public void enterTechBadge() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+     //  if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(TechBadge);
             WebElementActions.getActions().inputText(TechBadge, appProp.getProperty("TechBadge"));
             TestListener.saveScreenshotPNG(driver);
         }
-    }
+  //  }
     /**click on Go button*/
     public void clickOnGoBtn() throws InterruptedException {
 
@@ -425,7 +425,7 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * click on Select Tab
      */
     public void clickOnSelectTab() throws InterruptedException {
-// WaitActions.getWaits().waitForElementTobeClickable(select_btn_TechRO);
+     // WaitActions.getWaits().waitForElementTobeClickable(select_btn_TechRO);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(select_btn_TechRO);
         WebElementActions.getActions().clickElement(select_btn_TechRO);
 
@@ -461,12 +461,12 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * Enter Unit Number(118888)  //span[text()='More Units']
      */
     public void enterUnitNumber() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+    //    if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(SearchUnit);
             WebElementActions.getActions().inputText(SearchUnit, appProp.getProperty("UnitNumber"));
             WaitActions.getWaits().loadingWait(loder);
         }
-    }
+ //   }
 
     /**
      * click on select button
@@ -550,9 +550,9 @@ public class EC_Tech_WoParts extends TestDriverActions {
      */
     public void enterPart() throws InterruptedException {
 
-        if (LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("EU")) {
+      //  if (LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_part);
-            WebElementActions.getActions().inputText(txt_part, appProp.getProperty("PartName"));
+            WebElementActions.getActions().inputText(txt_part,appProp.getProperty("PartName"));
 
             Thread.sleep(3000);
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(number_15_762);
@@ -572,7 +572,7 @@ public class EC_Tech_WoParts extends TestDriverActions {
             TestListener.saveScreenshotPNG(driver);
 
         }
-    }
+   // }
     /**Verify Part Details Pannel*/
     public void verifyPartDetailsPannel() throws InterruptedException {
 
@@ -594,10 +594,10 @@ public class EC_Tech_WoParts extends TestDriverActions {
 
     /**click on Issue Part*/
     public void clickOnIssuePart() throws InterruptedException {
-        if(LoginActions.environmentName.contains("QA")) {
+
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_IssuePart);
             WebElementActions.getActions().clickElement(btn_IssuePart);
-        }
+
         if(LoginActions.environmentName.contains("EU")){
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_IssuePart);
             WebElementActions.getActions().clickElement(label_IssuePart);
@@ -610,18 +610,16 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * The part should now show with a quantity of 1
      */
     public void verifyPartAdded() throws InterruptedException {
-// WaitActions.getWaits().WaitUntilWebElementIsVisible(label_partDescription1);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_partDescription1);
         Assert.assertTrue(label_partDescription1.isDisplayed());
-// WaitActions.getWaits().WaitUntilWebElementIsVisible(label_EA1);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_EA1);
         Assert.assertTrue(label_EA1.isDisplayed());
-       if(LoginActions.environmentName.contains("QA")) {
            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(crossIcon);
            Assert.assertTrue(crossIcon.isDisplayed());
            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(DeleteIcon);
            Assert.assertTrue(DeleteIcon.isDisplayed());
-       }
+
         if(LoginActions.environmentName.contains("EU")){
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(img_CrossIcon);
             Assert.assertTrue(img_CrossIcon.isDisplayed());
@@ -637,12 +635,10 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * click on cross button
      */
     public void clickOnCrossBtn() throws InterruptedException {
-        if(LoginActions.environmentName.contains("QA")) {
+
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(crossIcon);
             WebElementActions.getActions().clickElement(crossIcon);
-        }
         if(LoginActions.environmentName.contains("EU")){
-
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_CrossIcon);
             WebElementActions.getActions().clickElement(img_CrossIcon);
         }
@@ -654,12 +650,10 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * click on Delete button
      */
     public void clickOnDeleteBtn() throws InterruptedException {
-        if(LoginActions.environmentName.contains("QA")) {
+
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(DeleteIcon);
             WebElementActions.getActions().clickElement(DeleteIcon);
-        }
-        if(LoginActions.environmentName.contains("EU")){
-
+           if(LoginActions.environmentName.contains("EU")){
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_DeleteICon);
             WebElementActions.getActions().clickElement(label_DeleteICon);
         }
@@ -671,7 +665,7 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * Verify No data display
      */
     public void verifyNoDataDisplay() throws InterruptedException {
-// WaitActions.getWaits().WaitUntilWebElementIsVisible(label_NodataDisplay);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_NodataDisplay);
         Assert.assertTrue(label_NodataDisplay.isDisplayed());
         TestListener.saveScreenshotPNG(driver);
@@ -680,8 +674,7 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * Enter Core Part
      */
     public void enterCorePart() throws InterruptedException {
-
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+       if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_part);
             WebElementActions.getActions().inputText(txt_part, appProp.getProperty("CorePart"));
             Thread.sleep(3000);
@@ -704,11 +697,12 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * click on Search icon
      */
     public void clickOnSearchIcon() throws InterruptedException {
-
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(search_icon);
-        WebElementActions.getActions().clickUsingJS(search_icon);
-        WaitActions.getWaits().loadingWait(loder);
-        TestListener.saveScreenshotPNG(driver);
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(search_icon);
+            WebElementActions.getActions().clickUsingJS(search_icon);
+            WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
+        }
     }
     /**
      * type core part
@@ -725,19 +719,21 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * click on search button
      */
     public void clickOnSearchBtn() throws InterruptedException {
-
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(search_btn);
-        WebElementActions.getActions().clickElement(search_btn);
-        WaitActions.getWaits().loadingWait(loder);
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(search_btn);
+            WebElementActions.getActions().clickElement(search_btn);
+            WaitActions.getWaits().loadingWait(loder);
+        }
     }
     /**
      * click on select button
      */
     public void selectButton() throws InterruptedException {
-
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(select_button);
-        WebElementActions.getActions().clickElement(select_button);
-        WaitActions.getWaits().loadingWait(loder);
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(select_button);
+            WebElementActions.getActions().clickElement(select_button);
+            WaitActions.getWaits().loadingWait(loder);
+        }
     }
     /**
      * click on cancle button
@@ -752,36 +748,40 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * click on Core Return button
      */
     public void clickOnCoreReturn() throws InterruptedException {
-
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_coreReturn);
-        Thread.sleep(2000);
-        WebElementActions.getActions().clickElement(btn_coreReturn);
-        Thread.sleep(10000);
-        WaitActions.getWaits().loadingWait(loder);
-        TestListener.saveScreenshotPNG(driver);
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_coreReturn);
+            Thread.sleep(2000);
+            WebElementActions.getActions().clickElement(btn_coreReturn);
+            Thread.sleep(10000);
+            WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
+        }
     }
 
     /**
      * click on cross button
      */
     public void clickOnCrossBtnCore() throws InterruptedException {
-
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(crossIcon_core);
-        WebElementActions.getActions().clickElement(crossIcon_core);
-        Thread.sleep(10000);
-        WaitActions.getWaits().loadingWait(loder);
-        TestListener.saveScreenshotPNG(driver);
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(crossIcon_core);
+            WebElementActions.getActions().clickElement(crossIcon_core);
+            Thread.sleep(10000);
+            WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
+        }
     }
     /**
      * click on Delete button
      */
     public void clickOnDeleteBtnCore() throws InterruptedException {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(deleteIcon_core);
+            WebElementActions.getActions().clickElement(deleteIcon_core);
+            Thread.sleep(10000);
+            WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
+        }
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(deleteIcon_core);
-        WebElementActions.getActions().clickElement(deleteIcon_core);
-        Thread.sleep(10000);
-        WaitActions.getWaits().loadingWait(loder);
-        TestListener.saveScreenshotPNG(driver);
     }
 
     /**
@@ -809,11 +809,9 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * click on Non-catalog part
      */
     public void clickOnNonCatalogPart() throws InterruptedException {
-        System.out.println("clickOnNonCatalogPart()");
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_NonCatalogPart);
         WebElementActions.getActions().clickElement(btn_NonCatalogPart);
-        System.out.println("btn_NonCatalogPart...:"+btn_NonCatalogPart);
-        Thread.sleep(10000);
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
     }
@@ -855,26 +853,26 @@ public class EC_Tech_WoParts extends TestDriverActions {
      * type NCPartDescription
      */
     public void typeNCPartDescription() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+       // if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txtfield_description);
             WebElementActions.getActions().inputText(txtfield_description, appProp.getProperty("NCPartDescription"));
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
         }
-    }
+  //  }
     /**
      * type Unit cost
      */
     public void typeUnitcost() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+      //  if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txtfield_UnitCost);
             WebElementActions.getActions().inputText(txtfield_UnitCost, appProp.getProperty("Unitcost"));
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
         }
-    }
+  //  }
     /**
      * click on Issue Part
      */

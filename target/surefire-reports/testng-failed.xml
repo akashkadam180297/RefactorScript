@@ -3,7 +3,20 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test">
     <classes>
-      <class name="tests.techRo.ServiceManagerPartsRelatedTasks"/>
+      <class name="tests.parts.CounterSale"/>
     </classes>
   </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="tests.parts.CounterSale">
+        <methods>
+          <include name="generateAllure"/>
+          <include name="afterMethodTakeScreenShot"/>
+          <include name="add_parts_in_counter_sale"/>
+          <include name="check_invoice_and_signout"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- tests.parts.CounterSale -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

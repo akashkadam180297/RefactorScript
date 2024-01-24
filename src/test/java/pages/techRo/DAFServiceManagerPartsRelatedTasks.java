@@ -321,6 +321,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_Close);
         WebElementActions.getActions().clickElement(btn_Close);
         WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
     }
 
 
@@ -565,7 +566,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_StoreText);
         Assert.assertTrue(label_StoreText.isDisplayed());
 
-        if (LoginActions.environmentName.contains("EU")||LoginActions.environmentName.contains("NA")) {
+        if (LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_ChargeQuantityTextArea);
             WebElementActions.getActions().inputText(label_ChargeQuantityTextArea, appProp.getProperty("Two"));
         }
@@ -624,7 +625,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
 
     /** verify Charge Quantity Editable*/
     public void verifyChargeQuantityEditable2() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_ChargeQuantityTextArea);
             WebElementActions.getActions().inputText(label_ChargeQuantityTextArea, appProp.getProperty("ChargeQuantity"));
             label_ChargeQuantityTextArea.sendKeys(Keys.ENTER);
@@ -835,18 +836,19 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
 
       //  WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SrNo);
       //  WebElementActions.getActions().clickElement(SrNo);
+
             if (img_CrossIcon1.size()>1) {
                 WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_CrossIcon1.get(1));
                 Thread.sleep(2000);
-                WebElementActions.getActions().clickElement(img_CrossIcon1.get(1));
-              //  WaitActions.getWaits().loadingWait(loder);
+                WebElementActions.getActions().clickUsingJS(img_CrossIcon1.get(1));
+
             }
         if (img_CrossIcon2.size()>1) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_CrossIcon2.get(1));
             Thread.sleep(2000);
-            WebElementActions.getActions().clickElement(img_CrossIcon2.get(1));
-        }
+            WebElementActions.getActions().clickUsingJS(img_CrossIcon2.get(1));
 
+        }
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
 
