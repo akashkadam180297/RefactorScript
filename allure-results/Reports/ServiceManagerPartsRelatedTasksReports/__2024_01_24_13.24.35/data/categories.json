@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[contains(@id,':itSearchPartSelect::su0')]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [17f9d23ba02b6feed1e5ea6401c60c39, findElement {using=xpath, value=//li[contains(@id,':itSearchPartSelect::su0')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53993/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 17f9d23ba02b6feed1e5ea6401c60c39",
+      "children" : [ {
+        "name" : "Test_002_click On Reference Number",
+        "uid" : "e3de22ad87594acf",
+        "parentUid" : "ab8c1450d7cd2d9aa0e1073e1c43c52c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706082433244,
+          "stop" : 1706082647173,
+          "duration" : 213929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab8c1450d7cd2d9aa0e1073e1c43c52c"
+    }, {
+      "name" : "element click intercepted: Element <span id=\"reg2:0:rWO:0:tParts:0:cl3::text\" class=\"x1al\">...</span> is not clickable at point (797, 450). Other element would receive the click: <div id=\"reg2:0:rWO:0:r11:1:tWAP::db\" class=\"x17e\" style=\"position: relative; width: 805px; overflow: hidden; height: 373px; z-index: 1;\" _afrcolcount=\"12\">...</div>\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [17f9d23ba02b6feed1e5ea6401c60c39, clickElement {id=4DDBED8F6A2A49A8F1216F549D8452B0_element_1112}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53993/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (17f9d23ba02b6feed1e5ea6401c60c39)] -> xpath: (//div[contains(@id,':tParts::db')]//table//div//a/child::span[contains(@id,'::text')])[1]]\nSession ID: 17f9d23ba02b6feed1e5ea6401c60c39",
+      "children" : [ {
+        "name" : "Test_003_click On part Number",
+        "uid" : "b1db3b41aa7801a4",
+        "parentUid" : "dd6286b4d4c453e5c85d27f22b455721",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706082647267,
+          "stop" : 1706082668435,
+          "duration" : 21168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd6286b4d4c453e5c85d27f22b455721"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//label[text()='Part Description:']/parent::span/parent::div//following-sibling::div//span//select)[1] \"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [17f9d23ba02b6feed1e5ea6401c60c39, findElement {using=xpath, value=(//label[text()='Part Description:']/parent::span/parent::div//following-sibling::div//span//select)[1] }]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53993/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 17f9d23ba02b6feed1e5ea6401c60c39",
+      "children" : [ {
+        "name" : "Test_004_verify Labor Text ",
+        "uid" : "e7474a5c1a570d05",
+        "parentUid" : "a7951a75e457cfa5c5e6d223e602ce99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706082668505,
+          "stop" : 1706082754620,
+          "duration" : 86115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7951a75e457cfa5c5e6d223e602ce99"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//label[text()='Charge Quantity (EA):']/parent::span/parent::div/following-sibling::div/child::table//div//input\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [17f9d23ba02b6feed1e5ea6401c60c39, findElement {using=xpath, value=//label[text()='Charge Quantity (EA):']/parent::span/parent::div/following-sibling::div/child::table//div//input}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53993/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 17f9d23ba02b6feed1e5ea6401c60c39",
+      "children" : [ {
+        "name" : "Test_005_verify Charge Quantity Editable  ",
+        "uid" : "f716efc41ce8683e",
+        "parentUid" : "bed5a563d2763197b21a99efbd91912d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706082754722,
+          "stop" : 1706082837044,
+          "duration" : 82322
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bed5a563d2763197b21a99efbd91912d"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [17f9d23ba02b6feed1e5ea6401c60c39, findElement {using=xpath, value=//img[contains(@id,':tWa:0:vmrImage')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53993/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 17f9d23ba02b6feed1e5ea6401c60c39",
+      "children" : [ {
+        "name" : "Test_006_click On Add Part ",
+        "uid" : "5996d947e1735d74",
+        "parentUid" : "edbb830778466c46a93d090ecd4b1086",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706082837120,
+          "stop" : 1706082875505,
+          "duration" : 38385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "edbb830778466c46a93d090ecd4b1086"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [17f9d23ba02b6feed1e5ea6401c60c39, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53993/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 17f9d23ba02b6feed1e5ea6401c60c39",
+      "children" : [ {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "a9c20f5a88cf4b37",
+        "parentUid" : "e877ca289e72a1eb98b656babe933be0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706082875568,
+          "stop" : 1706082875568,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e877ca289e72a1eb98b656babe933be0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

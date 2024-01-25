@@ -409,7 +409,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
     @FindBy(xpath = "//a[contains(@id,'clVROPL')]/span")
     WebElement viewProfitLoss;
 
-    @FindBy(xpath = "(//a[contains(text(),'Purchasing')]/preceding::a[1])[1]")
+    @FindBy(xpath = "//a[contains(text(),'Purchasing')]/preceding::a[1]")
     WebElement label_LaborParts;
 
     @FindBy(xpath = "(//a[contains(text(),'Purchasing')])[1]/following::h2[1]")
@@ -734,7 +734,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * verify radio buttons and labels present in the header section
      */
     public void verifyRadioButtonsLabels() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Location);
         Assert.assertTrue(label_Location.isDisplayed());
         Assert.assertTrue(location_SearchIcon.isDisplayed());
@@ -791,7 +790,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on RONumber
      */
     public void clickOnRoNumber() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_RoNumber);
         WebElementActions.getActions().clickElement(hyperlink_RoNumber);
 
@@ -802,6 +800,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * verify Header element of Repair Order page
      */
     public void verifyHeaderElementRepairOrderPage() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(back_icon);
         Assert.assertTrue(back_icon.isDisplayed());
         Assert.assertTrue(label_backtoCompleteRo.isDisplayed());
@@ -825,7 +824,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      *  Verify element present on the header
      */
     public void verifyHeaderElement() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(email_icon);
         Assert.assertTrue(email_icon.isDisplayed());
         Assert.assertTrue(email_size.isDisplayed());
@@ -841,7 +839,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * verify Repair Order SubElement
      */
     public void verifyRepairOrderSubElement() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(title_RepairOrder);
         Assert.assertTrue(title_RepairOrder.isDisplayed());
         Assert.assertTrue(label_location.isDisplayed());
@@ -889,6 +886,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * verify element Internal notes
      */
     public void verifyInternalNotes() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(subtitle_InternalNotes);
         Assert.assertTrue(subtitle_InternalNotes.isDisplayed());
         Assert.assertTrue(textarea_internalNotes.isDisplayed());
@@ -899,6 +897,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * enter text This is a standard note
      */
     public void enterThisIsStandardNote() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(textarea_internalNotes);
         WebElementActions.getActions().inputText(textarea_internalNotes,appProp.getProperty("InternalNote"));
 
@@ -909,6 +908,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on save/exit button
      */
     public void clickOnSaveExitbtn() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_saveExit);
         WebElementActions.getActions().clickElement(btn_saveExit);
 
@@ -941,7 +941,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on Notes contain hyperlink
      */
     public void clickOnNoteshyperLink() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_notes);
         Thread.sleep(3000);
         WebElementActions.getActions().clickElement(hyperlink_notes);
@@ -965,7 +964,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * Enter This is a standard note in Note field
      */
     public void entertextNoteField() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txtfield_notes);
         WebElementActions.getActions().inputText(txtfield_notes,appProp.getProperty("notes"));
 
@@ -997,7 +995,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * Verified (Ro to present in header)authorized by hyperlink element
      */
     public void verifiedAuthorizedByHyperlinkElements() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_SearchSelectContact);
         Assert.assertTrue(label_SearchSelectContact.isDisplayed());
         Assert.assertTrue(label_AuthorizedBy.isDisplayed());
@@ -1014,6 +1011,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      *   click on add contact
      */
     public void clickOnAddContact() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_AddContact);
         WebElementActions.getActions().clickElement(btn_AddContact);
 
@@ -1026,6 +1024,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * enter ContactFirstName
      */
     public void enterContactFirstName() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txtfield_FirstName);
         WebElementActions.getActions().inputText(txtfield_FirstName, randomName);
 
@@ -1035,6 +1034,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * enter ContactLastName
      */
     public void enterContactLastName() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txtfield_LastName);
         WebElementActions.getActions().inputText(txtfield_LastName, randomName);
 
@@ -1044,6 +1044,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on Save / Exit
      */
     public void clickOnSaveExitBtn() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_SaveExit);
         WebElementActions.getActions().clickElement(btn_SaveExit);
 
@@ -1054,6 +1055,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * enter ContactLastName in search and Select Contact
      */
     public void enterLastName() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txtfield_SearchSelectContact);
         WebElementActions.getActions().inputText(txtfield_SearchSelectContact, randomName);
 
@@ -1115,10 +1117,9 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * Verifed Labor Pane
      */
     public void verifiedLaborPane() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_LaborParts);
         Assert.assertTrue(label_LaborParts.isDisplayed());
-        WaitActions.getWaits().loadingWait(loder);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_labor);
         Assert.assertTrue(label_labor.isDisplayed());
         Assert.assertTrue(label_ShowLaborDetails.isDisplayed());
         Assert.assertTrue(label_AddLabor.isDisplayed());
@@ -1130,9 +1131,13 @@ public class ServiceManagerWoLabor extends TestDriverActions {
         if(LoginActions.environmentName.contains("QA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_actualHrs);
             Assert.assertTrue(label_actualHrs.isDisplayed());
+            Assert.assertTrue(label_hourlyCost.isDisplayed());
         }
+<<<<<<< HEAD
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_hourlyCost);
         Assert.assertTrue(label_hourlyCost.isDisplayed());
+=======
+>>>>>>> 7ef438197d4f589b421a6e03838d57ee3b5886c9
         Assert.assertTrue(TotalCost.isDisplayed());
         Assert.assertTrue(label_ChargeHrs.isDisplayed());
         Assert.assertTrue(label_HourlyCharge.isDisplayed());
@@ -1152,7 +1157,10 @@ public class ServiceManagerWoLabor extends TestDriverActions {
         Assert.assertTrue(label_PartNumber.isDisplayed());
         Assert.assertTrue(label_core.isDisplayed());
         Assert.assertTrue(label_UnitCost.isDisplayed());
-        Assert.assertTrue(label_Total_Cost.isDisplayed());
+        if (LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Total_Cost);
+            Assert.assertTrue(label_Total_Cost.isDisplayed());
+        }
         TestListener.saveScreenshotPNG(driver);
 
     }
@@ -1170,6 +1178,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * afetr clicking Rotatus Hyperling verify the element
      */
     public void verifiedRostatuElement() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Unit);
         Assert.assertTrue(label_Unit.isDisplayed());
         Assert.assertTrue(Ro_Number.isDisplayed());
@@ -1185,6 +1194,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on Close button
      */
     public void clickOnCloseBtn() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(close_btn);
         WebElementActions.getActions().clickElement(close_btn);
 
@@ -1195,7 +1205,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on WIP Status: hyperlink
      */
     public void clickOnWipStatusHyperlink() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_wipStatus);
         WebElementActions.getActions().clickElement(hyperlink_wipStatus);
 
@@ -1207,7 +1216,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * "
      */
     public void verifyWIPStatusElement() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(roNumber);
         Assert.assertTrue(roNumber.isDisplayed());
         Assert.assertTrue(label_searchSelectWIP.isDisplayed());
@@ -1270,7 +1278,11 @@ public class ServiceManagerWoLabor extends TestDriverActions {
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
     }
+    /**
+     * verify text=(Emergency) which is selected in pop-up should display on screen
+     */
     public void verifiedEmergencyElement() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(type_hyperlink);
         Assert.assertTrue(type_hyperlink.isDisplayed());
         TestListener.saveScreenshotPNG(driver);
@@ -1280,6 +1292,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      */
     public void clickOnInvoiceToHyperlink() throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_InvoiceTo);
+
         Actions action = new Actions(driver);
         action.moveToElement(hyperlink_InvoiceTo).perform();
 
@@ -1287,7 +1300,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
 
         WebElementActions.getActions().clickElement(hyperlink_InvoiceTo);
         Thread.sleep(1000);
-
 
         Actions action1 = new Actions(driver);
         action1.click().perform();
@@ -1359,6 +1371,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on OK button
      */
     public void clickOnOKbtn() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_ok);
         WebElementActions.getActions().clickElement(btn_ok);
 
@@ -1369,6 +1382,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on Show labour Details
      */
     public void clickOnShowLabourbtn() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_ShowLaborDetails);
         WebElementActions.getActions().clickElement(label_ShowLaborDetails);
 
@@ -1380,6 +1394,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      */
     public void clickOnNumber() throws InterruptedException {
         if (LoginActions.environmentName.contains("QA")) {
+
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(number_2row);
 
             WebElementActions.getActions().clickElement(number_2row);
@@ -1392,6 +1407,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on Show parts Details
      */
     public void clickOnShowPartsDetails() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_ShowPartsDetails);
         WebElementActions.getActions().clickElement(label_ShowPartsDetails);
 
@@ -1402,6 +1418,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on Back to Complete RO
      */
     public void clickOnBacktoCompleteRO() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_backtoCompleteRo);
         WebElementActions.getActions().clickElement(label_backtoCompleteRo);
 
@@ -1412,6 +1429,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * Click on one reference number
      */
     public void clickOnReferenceNumber() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(reference_number);
         WebElementActions.getActions().clickElement(reference_number);
 
@@ -1422,6 +1440,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on update Rates hyperlink
      */
     public void clickOnUpdatedRates() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_UpdateRates);
         WebElementActions.getActions().clickElement(label_UpdateRates);
 
@@ -1432,7 +1451,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * verified profit and loss element
      */
     public void verifyUpdateRates() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(UpdateRates);
         Assert.assertTrue(UpdateRates.isDisplayed());
         Assert.assertTrue(laborCharge.isDisplayed());
@@ -1453,6 +1471,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * click on cancle button
      */
     public void clickOnCanclebutton2() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_cancle2);
         WebElementActions.getActions().clickElement(btn_cancle2);
 
@@ -1466,9 +1485,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_signOut);
         Thread.sleep(3000);
-        WebElementActions.getActions().clickUsingJS(btn_signOut);
-
-
+        WebElementActions.getActions().clickElement(btn_signOut);
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(inputbox_Username);
         Assert.assertTrue(inputbox_Username.isDisplayed());

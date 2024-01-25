@@ -1,0 +1,143 @@
+{
+  "uid" : "99ec9c9526a96ffc",
+  "name" : "T_003 Verify the element and click on Unit History",
+  "fullName" : "tests.tech.TechWoLabor.verifyElement_Click_UnitHistory",
+  "historyId" : "34932e23098a80b7ddb47d5bcfa4d4df",
+  "time" : {
+    "start" : 1705994893182,
+    "stop" : 1705994948417,
+    "duration" : 55235
+  },
+  "description" : "Test Description - Verify the element and click on Unit History",
+  "descriptionHtml" : "<p>Test Description - Verify the element and click on Unit History</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705994673625,
+      "stop" : 1705994712350,
+      "duration" : 38725
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Verify the element and click on Unit History",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f116be1c68f51f9",
+      "name" : "Page Screenshot",
+      "source" : "3f116be1c68f51f9.png",
+      "type" : "image/png",
+      "size" : 101058
+    }, {
+      "uid" : "6059e66e66546848",
+      "name" : "Page Screenshot",
+      "source" : "6059e66e66546848.png",
+      "type" : "image/png",
+      "size" : 101058
+    }, {
+      "uid" : "52a212aa20bfa4bb",
+      "name" : "Page Screenshot",
+      "source" : "52a212aa20bfa4bb.png",
+      "type" : "image/png",
+      "size" : 101058
+    }, {
+      "uid" : "ac195036df53c474",
+      "name" : "Page Screenshot",
+      "source" : "ac195036df53c474.png",
+      "type" : "image/png",
+      "size" : 69319
+    }, {
+      "uid" : "f4a9367eba40c2b6",
+      "name" : "Page Screenshot",
+      "source" : "f4a9367eba40c2b6.png",
+      "type" : "image/png",
+      "size" : 89934
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705994948424,
+      "stop" : 1705994948465,
+      "duration" : 41
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e6d09909abcceff",
+      "name" : "Page Screenshot",
+      "source" : "7e6d09909abcceff.png",
+      "type" : "image/png",
+      "size" : 89934
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyElement_Click_UnitHistory"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "15880@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99ec9c9526a96ffc.json",
+  "parameterValues" : [ ]
+}

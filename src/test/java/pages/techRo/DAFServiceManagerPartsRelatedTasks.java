@@ -204,7 +204,6 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
     @FindBy(xpath = "//img[contains(@id,':cilWAP::icon')]")
     public WebElement img_DeleteIcon;
 
-
     @FindBy(xpath = "//div[contains(@id,':ocb1:ctbClose')]//child::a/span[text()='Close']")
     public WebElement btn_Close;
 
@@ -236,7 +235,6 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         ReusableActions.getActions().clickChildMenu("Complete RO");
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
-
 
     }
     /**click on Add Labour */
@@ -323,6 +321,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_Close);
         WebElementActions.getActions().clickElement(btn_Close);
         WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
     }
 
 
@@ -596,7 +595,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
      * type Unit charges value
      */
     public void typeUnitChargeValue() throws InterruptedException {
-        if (LoginActions.environmentName.contains("EU")) {
+        if (LoginActions.environmentName.contains("EU")||LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_UnitChargeTextBox);
             WebElementActions.getActions().inputText(txt_UnitChargeTextBox, appProp.getProperty("UnitChargeValue"));
             WaitActions.getWaits().loadingWait(loder);
@@ -626,7 +625,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
 
     /** verify Charge Quantity Editable*/
     public void verifyChargeQuantityEditable2() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_ChargeQuantityTextArea);
             WebElementActions.getActions().inputText(label_ChargeQuantityTextArea, appProp.getProperty("ChargeQuantity"));
             label_ChargeQuantityTextArea.sendKeys(Keys.ENTER);
@@ -837,18 +836,19 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
 
       //  WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SrNo);
       //  WebElementActions.getActions().clickElement(SrNo);
+
             if (img_CrossIcon1.size()>1) {
                 WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_CrossIcon1.get(1));
                 Thread.sleep(2000);
-                WebElementActions.getActions().clickElement(img_CrossIcon1.get(1));
-              //  WaitActions.getWaits().loadingWait(loder);
+                WebElementActions.getActions().clickUsingJS(img_CrossIcon1.get(1));
+
             }
         if (img_CrossIcon2.size()>1) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_CrossIcon2.get(1));
             Thread.sleep(2000);
-            WebElementActions.getActions().clickElement(img_CrossIcon2.get(1));
-        }
+            WebElementActions.getActions().clickUsingJS(img_CrossIcon2.get(1));
 
+        }
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
 

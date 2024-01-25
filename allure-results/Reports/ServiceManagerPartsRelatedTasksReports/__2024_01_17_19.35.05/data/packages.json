@@ -1,0 +1,113 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.techRo.ServiceManagerPartsRelatedTasks",
+    "children" : [ {
+      "name" : "Test_001_gotoCompleteRo",
+      "uid" : "61a06895cefd791d",
+      "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705499411714,
+        "stop" : 1705499632997,
+        "duration" : 221283
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickOnReference",
+      "uid" : "3bc883108deceaf3",
+      "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705499633152,
+        "stop" : 1705499734145,
+        "duration" : 100993
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_clickOnPart",
+      "uid" : "4e212ac39adf445b",
+      "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705499734233,
+        "stop" : 1705499821895,
+        "duration" : 87662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_verifyLabor",
+      "uid" : "33ac77be0e826d56",
+      "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705499821982,
+        "stop" : 1705499906599,
+        "duration" : 84617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_verifyChargeQuantityEditable",
+      "uid" : "82aa00e737b21971",
+      "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705499906656,
+        "stop" : 1705500025080,
+        "duration" : 118424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_clickOnAddPart",
+      "uid" : "c3a6cd58f7a9fd07",
+      "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705500025164,
+        "stop" : 1705500168210,
+        "duration" : 143046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_007_clickOnNonCatalogPart",
+      "uid" : "72a1f6e5455be30e",
+      "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705500168268,
+        "stop" : 1705500277620,
+        "duration" : 109352
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_008_clickOnCloseButton",
+      "uid" : "2dd23b062c0b3a96",
+      "parentUid" : "cafe47b76312541ff8b757cb57aca13c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705500277701,
+        "stop" : 1705500305098,
+        "duration" : 27397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.techRo.ServiceManagerPartsRelatedTasks"
+  } ]
+}

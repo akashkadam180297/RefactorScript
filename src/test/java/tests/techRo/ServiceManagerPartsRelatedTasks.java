@@ -27,7 +27,6 @@ public class ServiceManagerPartsRelatedTasks extends TestDriverActions {
         servicemanagerpartsrelatedtasks.clickOnAddParts ();
         servicemanagerpartsrelatedtasks.clickImageCrossIcon();
         servicemanagerpartsrelatedtasks.clickImageDeleteIcon();
-
         servicemanagerpartsrelatedtasks.clickOnAddLabourSrNo();
 
     }
@@ -65,8 +64,6 @@ public class ServiceManagerPartsRelatedTasks extends TestDriverActions {
         servicemanagerpartsrelatedtasks.verifyUnitCharge();
         servicemanagerpartsrelatedtasks.verifyUnitChargeTextBox();
         servicemanagerpartsrelatedtasks.verifyTotalCharge();
-
-
         servicemanagerpartsrelatedtasks.verifyTotalChargeValue();
         servicemanagerpartsrelatedtasks.verifyCancelButton();
         servicemanagerpartsrelatedtasks.verifyOkButton();
