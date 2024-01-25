@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.ReceiveParts" time="733.34" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.ReceiveParts" time="714.289" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -62,13 +62,13 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="Test_001_gotoReceiveParts" classname="tests.parts.ReceiveParts" time="53.259"/>
-  <testcase name="Test_002_clickOnPoNumber" classname="tests.parts.ReceiveParts" time="31.737"/>
-  <testcase name="Test_003_verifyPurchesOrder" classname="tests.parts.ReceiveParts" time="49.767"/>
-  <testcase name="Test_004_verifyNotes" classname="tests.parts.ReceiveParts" time="37.25"/>
-  <testcase name="Test_005_verifyvoidedDate" classname="tests.parts.ReceiveParts" time="57.944"/>
-  <testcase name="Test_006_verifyVendorPart" classname="tests.parts.ReceiveParts" time="49.688"/>
-  <testcase name="Test_007_verifyLink" classname="tests.parts.ReceiveParts" time="81.222"/>
-  <testcase name="Test_008_verifyHash" classname="tests.parts.ReceiveParts" time="88.416"/>
-  <testcase name="Test_009_clickOnCancelButton" classname="tests.parts.ReceiveParts" time="217.555"/>
+  <testcase name="Test_001_gotoReceiveParts" classname="tests.parts.ReceiveParts" time="43.787"/>
+  <testcase name="Test_002_clickOnPoNumber" classname="tests.parts.ReceiveParts" time="31.696"/>
+  <testcase name="Test_003_verifyPurchesOrder" classname="tests.parts.ReceiveParts" time="49.778"/>
+  <testcase name="Test_004_verifyNotes" classname="tests.parts.ReceiveParts" time="37.299"/>
+  <testcase name="Test_005_verifyvoidedDate" classname="tests.parts.ReceiveParts" time="57.963"/>
+  <testcase name="Test_006_verifyVendorPart" classname="tests.parts.ReceiveParts" time="49.745"/>
+  <testcase name="Test_007_verifyLink" classname="tests.parts.ReceiveParts" time="80.195"/>
+  <testcase name="Test_008_verifyHash" classname="tests.parts.ReceiveParts" time="88.249"/>
+  <testcase name="Test_009_clickOnCancelButton" classname="tests.parts.ReceiveParts" time="216.53"/>
 </testsuite>

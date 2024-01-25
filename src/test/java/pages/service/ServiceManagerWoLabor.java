@@ -1123,8 +1123,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
         Assert.assertTrue(label_ShowLaborDetails.isDisplayed());
         Assert.assertTrue(label_AddLabor.isDisplayed());
         Assert.assertTrue(delete_icon.isDisplayed());
-//        Assert.assertTrue(expandColumn.isDisplayed());
-//        Assert.assertTrue(hash.isDisplayed());
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(p);
         Assert.assertTrue(p.isDisplayed());
         Assert.assertTrue(label_Description.isDisplayed());
@@ -1133,6 +1131,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_actualHrs);
             Assert.assertTrue(label_actualHrs.isDisplayed());
         }
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_hourlyCost);
         Assert.assertTrue(label_hourlyCost.isDisplayed());
         Assert.assertTrue(TotalCost.isDisplayed());
         Assert.assertTrue(label_ChargeHrs.isDisplayed());

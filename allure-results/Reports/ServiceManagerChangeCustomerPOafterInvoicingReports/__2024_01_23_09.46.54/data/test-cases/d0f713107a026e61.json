@@ -1,0 +1,143 @@
+{
+  "uid" : "d0f713107a026e61",
+  "name" : "T_001 Login the page and go to the CompleteRo",
+  "fullName" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing.gotoCompleteRo",
+  "historyId" : "fd03c987be315e46f8ef5033344e7db7",
+  "time" : {
+    "start" : 1705983307219,
+    "stop" : 1705983372980,
+    "duration" : 65761
+  },
+  "description" : "Test Description -Login the page and go to the CompleteRo",
+  "descriptionHtml" : "<p>Test Description -Login the page and go to the CompleteRo</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1705983261563,
+      "stop" : 1705983307139,
+      "duration" : 45576
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description -Login the page and go to the CompleteRo",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a5ea41157ba5007d",
+      "name" : "Page Screenshot",
+      "source" : "a5ea41157ba5007d.png",
+      "type" : "image/png",
+      "size" : 105448
+    }, {
+      "uid" : "c4f931b3e7e2fd37",
+      "name" : "Page Screenshot",
+      "source" : "c4f931b3e7e2fd37.png",
+      "type" : "image/png",
+      "size" : 138598
+    }, {
+      "uid" : "c86ef7f3f928b23b",
+      "name" : "Page Screenshot",
+      "source" : "c86ef7f3f928b23b.png",
+      "type" : "image/png",
+      "size" : 92490
+    }, {
+      "uid" : "97a3aace5c87d5d4",
+      "name" : "Page Screenshot",
+      "source" : "97a3aace5c87d5d4.png",
+      "type" : "image/png",
+      "size" : 92490
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1705983373142,
+      "stop" : 1705983373261,
+      "duration" : 119
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c84295c098a48a8f",
+      "name" : "Page Screenshot",
+      "source" : "c84295c098a48a8f.png",
+      "type" : "image/png",
+      "size" : 92512
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing"
+  }, {
+    "name" : "testMethod",
+    "value" : "gotoCompleteRo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "15172@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "UpdatePoNumber Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0f713107a026e61.json",
+  "parameterValues" : [ ]
+}

@@ -59,8 +59,6 @@ public class ECService_Manager_Invoice extends TestDriverActions {
 
     /**click on complete Ro */
     public void goToCompleteROScreen() throws InterruptedException, FileNotFoundException {
-        WaitActions.getWaits().loadingWait(loder);
-        Thread.sleep(3000);
         ReusableActions.getActions().clickParentMenu("Service");
         ReusableActions.getActions().clickChildMenu("Complete RO");
         TestListener.saveScreenshotPNG(driver);

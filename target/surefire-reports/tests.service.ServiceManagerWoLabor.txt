@@ -1,4 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: tests.service.ServiceManagerWoLabor
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 983.464 s - in tests.service.ServiceManagerWoLabor
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 952.129 s <<< FAILURE! - in tests.service.ServiceManagerWoLabor
+verifyElementofMainScreen(tests.service.ServiceManagerWoLabor)  Time elapsed: 28.1 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Hourly Cost']"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f93532dd8465dc10379446258af1f9b7, findElement {using=xpath, value=//span[text()='Hourly Cost']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50579/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f93532dd8465dc10379446258af1f9b7
+	at tests.service.ServiceManagerWoLabor.verifyElementofMainScreen(ServiceManagerWoLabor.java:102)
+

@@ -1,0 +1,270 @@
+{
+  "3062258c92465ed78c1ed24ef0c16eed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8408ea7effe82856",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705970651349,
+        "stop" : 1705970666223,
+        "duration" : 14874
+      }
+    } ]
+  },
+  "d8706518e0dfedff90af2e8c39a472a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b810ace6b1e52cfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705969743207,
+        "stop" : 1705969785267,
+        "duration" : 42060
+      }
+    } ]
+  },
+  "951f41548bdb235f4f77ff9fe710d660" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e820f5596863830a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705969785599,
+        "stop" : 1705969800432,
+        "duration" : 14833
+      }
+    } ]
+  },
+  "2d691defedfccde5e06925e409a6452a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9873eaffc5baa218",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7dcceb9893dffa71226ffa5590b3320c, clickElement {id=06C573FC430F76F196BD3BD4F0E0A87C_element_183}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64404/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (7dcceb9893dffa71226ffa5590b3320c)] -> xpath: //label[text()='Internal Notes:']/following::a[1]]\nSession ID: 7dcceb9893dffa71226ffa5590b3320c",
+      "time" : {
+        "start" : 1705969427753,
+        "stop" : 1705969600637,
+        "duration" : 172884
+      }
+    } ]
+  },
+  "4951e95de0bb65da313191aa0b49610c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3905943bb16deedf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705970381579,
+        "stop" : 1705970514825,
+        "duration" : 133246
+      }
+    } ]
+  },
+  "ae43e62e974002ea144f8e1f12749b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7b0e797462e70dd",
+      "status" : "broken",
+      "statusDetails" : "unexpected alert open: {Alert text : ADF_FACES-60097:For more information, please see the server's error log for an entry beginning with: ADF_FACES-60096:Server Exception during PPR, #16}\n  (Session info: chrome=120.0.6099.225): ADF_FACES-60097:For more information, please see the server's error log for an entry beginning with: ADF_FACES-60096:Server Exception during PPR, #16\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f45f206cd6422b478a04481ec8eea020, findElements {using=xpath, value=//h1[text()='Working...Please Wait']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64482}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64482/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f45f206cd6422b478a04481ec8eea020",
+      "time" : {
+        "start" : 1705969800592,
+        "stop" : 1705969822471,
+        "duration" : 21879
+      }
+    } ]
+  },
+  "3d5920d138fe90947db717c310a2f858" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd53f5673f4d0b30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705970710767,
+        "stop" : 1705970748318,
+        "duration" : 37551
+      }
+    } ]
+  },
+  "5655ed5619c3565d20337de0ac28ce08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4661c0d8134b2908",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705970800980,
+        "stop" : 1705970885812,
+        "duration" : 84832
+      }
+    } ]
+  },
+  "3d415d0db09a8ffa441195210d50e5ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "addb9eda4f1e1e53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705970666425,
+        "stop" : 1705970710565,
+        "duration" : 44140
+      }
+    } ]
+  },
+  "6b3b5d4920d677790c08f828f9f850cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9553864bdfa7aa47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705970515371,
+        "stop" : 1705970570333,
+        "duration" : 54962
+      }
+    } ]
+  },
+  "b31d66ff6eb479f35e77a487416b9cc6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87866da4b89e6c50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705970748504,
+        "stop" : 1705970800795,
+        "duration" : 52291
+      }
+    } ]
+  },
+  "34a8b9c888846575477c35369faa6ca4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "551b2417a4683fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705970885984,
+        "stop" : 1705970975408,
+        "duration" : 89424
+      }
+    } ]
+  },
+  "34932e23098a80b7ddb47d5bcfa4d4df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "725c7c6f770f735f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705970570546,
+        "stop" : 1705970628250,
+        "duration" : 57704
+      }
+    } ]
+  },
+  "f4e448109fbdd81a70add4a0bf7e0a45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acdd13c42131e3b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705970628424,
+        "stop" : 1705970651095,
+        "duration" : 22671
+      }
+    } ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.parts.ReceiveParts",
+        "children" : [ {
+          "name" : "Test_001 Login to the page and go to Receive Part screen ",
+          "uid" : "2750b432cfa3afe5",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705980135638,
+            "stop" : 1705980179324,
+            "duration" : 43686
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test002: click on PO number and verify Link/DeLink Labor",
+          "uid" : "4e52bfc3ccdf07f6",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705980179675,
+            "stop" : 1705980211365,
+            "duration" : 31690
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test003: verify Purches Order ",
+          "uid" : "d60448c4577f5309",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705980211514,
+            "stop" : 1705980261289,
+            "duration" : 49775
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test004: verify Notes ",
+          "uid" : "dfa9f5514c6280ec",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705980261431,
+            "stop" : 1705980298728,
+            "duration" : 37297
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test005: verify Voided Date  ",
+          "uid" : "faa0b310cd6969d2",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705980298861,
+            "stop" : 1705980356822,
+            "duration" : 57961
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test006: verify Vendor Part   ",
+          "uid" : "65c06a4cb60dd3ed",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705980356968,
+            "stop" : 1705980406710,
+            "duration" : 49742
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test007: verify Link   ",
+          "uid" : "daa86ff35848c478",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705980406839,
+            "stop" : 1705980487034,
+            "duration" : 80195
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test008: verify Hash ",
+          "uid" : "923d9ef180527731",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705980487194,
+            "stop" : 1705980575427,
+            "duration" : 88233
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test009: click On Cancel Button ",
+          "uid" : "3fcf40d0473ace67",
+          "parentUid" : "2b4397e5af101dfc3e36b7f0e9eb400c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1705980575572,
+            "stop" : 1705980792100,
+            "duration" : 216528
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2b4397e5af101dfc3e36b7f0e9eb400c"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

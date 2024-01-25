@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "UpdatePoNumber Test",
+      "children" : [ {
+        "name" : "T_001 Login the page and go to the CompleteRo",
+        "uid" : "7c4e22fcabc5b91d",
+        "parentUid" : "c2624d975303950bc3e9986ecf357efe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705971091602,
+          "stop" : 1705971162579,
+          "duration" : 70977
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_002 Check that verify the element click on Save/Exit button and signout",
+        "uid" : "139bb397ab41e888",
+        "parentUid" : "c2624d975303950bc3e9986ecf357efe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705971163109,
+          "stop" : 1705971204713,
+          "duration" : 41604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2624d975303950bc3e9986ecf357efe"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}
