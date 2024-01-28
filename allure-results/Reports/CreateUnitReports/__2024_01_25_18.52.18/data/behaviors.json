@@ -1,0 +1,78 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "Create Unit Test",
+      "children" : [ {
+        "name" : "Test_001_Login the page and Go to create unit Screen",
+        "uid" : "761e3fa5548b5e09",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706188708016,
+          "stop" : 1706188762850,
+          "duration" : 54834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_Search and select owner",
+        "uid" : "d606960422b2b2a6",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706188763069,
+          "stop" : 1706188798044,
+          "duration" : 34975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_verify all element present in New Unit ",
+        "uid" : "148fb82fe21c55f0",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706188798198,
+          "stop" : 1706188824635,
+          "duration" : 26437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_Enter unit, description, VIN number and click on Save/Exit",
+        "uid" : "970f77e8c271098a",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706188824784,
+          "stop" : 1706188872595,
+          "duration" : 47811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_Verify unit created and Signout",
+        "uid" : "b4c6d4b97331f47e",
+        "parentUid" : "451afc476ed9ad600716fd6f24049246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706188872711,
+          "stop" : 1706188937991,
+          "duration" : 65280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "451afc476ed9ad600716fd6f24049246"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  } ]
+}

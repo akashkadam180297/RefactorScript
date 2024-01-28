@@ -1,0 +1,131 @@
+{
+  "uid" : "5fe57161d1cf1487",
+  "name" : "click on VMRS",
+  "fullName" : "tests.tech.PauseLabor.Test_007_click_VMRS",
+  "historyId" : "70a2f593ca6bed62395b69f0645935cb",
+  "time" : {
+    "start" : 1706248108790,
+    "stop" : 1706248131765,
+    "duration" : 22975
+  },
+  "description" : "Test_description : click on VMRS",
+  "descriptionHtml" : "<p>Test_description : click on VMRS</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706247913153,
+      "stop" : 1706247960290,
+      "duration" : 47137
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test_description : click on VMRS",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2269c9671d76c767",
+      "name" : "Page Screenshot",
+      "source" : "2269c9671d76c767.png",
+      "type" : "image/png",
+      "size" : 186046
+    }, {
+      "uid" : "e852c0a71fe8e990",
+      "name" : "Page Screenshot",
+      "source" : "e852c0a71fe8e990.png",
+      "type" : "image/png",
+      "size" : 186046
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706248131770,
+      "stop" : 1706248132007,
+      "duration" : 237
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d22df0d6ff60ce5",
+      "name" : "Page Screenshot",
+      "source" : "d22df0d6ff60ce5.png",
+      "type" : "image/png",
+      "size" : 186023
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.PauseLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.PauseLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_007_click_VMRS"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.PauseLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "2528@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "PauseLabor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5fe57161d1cf1487.json",
+  "parameterValues" : [ ]
+}

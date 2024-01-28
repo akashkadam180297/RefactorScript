@@ -300,7 +300,7 @@ public class CreateCustomerPage extends TestDriverActions {
  //       WaitActions.getWaits().WaitUntilWebElementIsVisible(dropdown_country);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(dropdown_country);
         WebElementActions.getActions().selectDropdown(dropdown_country);
-        WebElementActions.getActions().elementSelectByVisibilityText(dropdown_country, prop.getProperty("countryname"));
+        WebElementActions.getActions().elementSelectByVisibilityText(dropdown_country, appProp.getProperty("countryname"));
         TestListener.saveScreenshotPNG(driver);
     }
 

@@ -1,0 +1,98 @@
+{
+  "aac94084aa30ded8f03f0f94409f7a1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1fb5ca5c98797279",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706189582704,
+        "stop" : 1706189586777,
+        "duration" : 4073
+      }
+    } ]
+  },
+  "43d5599470e0f16fbe1c6cc811223c4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "210072c5a2b6babb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706189546227,
+        "stop" : 1706189582464,
+        "duration" : 36237
+      }
+    } ]
+  },
+  "469b6ec2d50caf17a4000b04269fd0f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e75f72e1e984ecf",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-afr-tlen=\"8\" id=\"cl1\" class=\"xgn\" onclick=\"this.focus();return false;\" data-afr-fcs=\"true\" href=\"#\">...</a> is not clickable at point (1251, 13). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1280px; height: 559px; user-select: none; z-index: 30;\"></div>\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-RH29BD1', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a6405fcf5ecff583f67b1732678861ac, clickElement {id=FA7FE33F712B548419AFC650764E080C_element_416}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53618}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53618/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (a6405fcf5ecff583f67b1732678861ac)] -> xpath: //a[text()='Sign Out']]\nSession ID: a6405fcf5ecff583f67b1732678861ac",
+      "time" : {
+        "start" : 1706189613881,
+        "stop" : 1706189667831,
+        "duration" : 53950
+      }
+    } ]
+  },
+  "d4537e50c69c65573a2e1752fa26b24b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12d2e95407962efe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706189586970,
+        "stop" : 1706189589309,
+        "duration" : 2339
+      }
+    } ]
+  },
+  "2ee1e723a7fbad433f02f56c5ec78b47" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9176ff8e9623d7c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706189589443,
+        "stop" : 1706189613733,
+        "duration" : 24290
+      }
+    } ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-RH29BD1",
+    "children" : [ {
+      "name" : "25160@DESKTOP-RH29BD1.main(1)",
+      "children" : [ {
+        "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+        "uid" : "76ff8b16ae239e4c",
+        "parentUid" : "c64a6b738481d56228d5d1e0fe360447",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706185121356,
+          "stop" : 1706185190867,
+          "duration" : 69511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login the page and Go to the Financial Manager",
+        "uid" : "ad3578791042a4a8",
+        "parentUid" : "c64a6b738481d56228d5d1e0fe360447",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706185086945,
+          "stop" : 1706185120889,
+          "duration" : 33944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "d3044c5ec9a6d86a",
+        "parentUid" : "c64a6b738481d56228d5d1e0fe360447",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706185243320,
+          "stop" : 1706185306082,
+          "duration" : 62762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "c37deef5c80e5f36",
+        "parentUid" : "c64a6b738481d56228d5d1e0fe360447",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706185191091,
+          "stop" : 1706185243118,
+          "duration" : 52027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c64a6b738481d56228d5d1e0fe360447"
+    }, {
+      "name" : "16020@DESKTOP-RH29BD1.main(1)",
+      "children" : [ {
+        "name" : "Login the page and Go to the Financial Manager",
+        "uid" : "9cbf9d1076b6eeae",
+        "parentUid" : "7eb90b58a04feb820e188d863e34ea67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706184567404,
+          "stop" : 1706184606223,
+          "duration" : 38819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+        "uid" : "827ba4948818190f",
+        "parentUid" : "7eb90b58a04feb820e188d863e34ea67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706184606735,
+          "stop" : 1706184676157,
+          "duration" : 69422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "5eaf098df10e6b54",
+        "parentUid" : "7eb90b58a04feb820e188d863e34ea67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706184676365,
+          "stop" : 1706184728402,
+          "duration" : 52037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "5ccc0e53f4ba3b17",
+        "parentUid" : "7eb90b58a04feb820e188d863e34ea67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706184728605,
+          "stop" : 1706184791395,
+          "duration" : 62790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "generateAllure",
+        "uid" : "dd6ef3d65f8d9fef",
+        "parentUid" : "7eb90b58a04feb820e188d863e34ea67",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706184791603,
+          "stop" : 1706184791604,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7eb90b58a04feb820e188d863e34ea67"
+    } ],
+    "uid" : "b1441ad176736c5515e66c68c9827861"
+  } ]
+}

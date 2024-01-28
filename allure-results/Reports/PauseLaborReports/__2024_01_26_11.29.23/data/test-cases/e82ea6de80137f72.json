@@ -1,0 +1,131 @@
+{
+  "uid" : "e82ea6de80137f72",
+  "name" : "click on Marine Work image in VMRS",
+  "fullName" : "tests.tech.PauseLabor.Test_008_click_VMRS_Img",
+  "historyId" : "4a431df1d5349cc4e2dc1b05641c158",
+  "time" : {
+    "start" : 1706248132010,
+    "stop" : 1706248154812,
+    "duration" : 22802
+  },
+  "description" : "Test_description : click on Marine Work image in VMRS",
+  "descriptionHtml" : "<p>Test_description : click on Marine Work image in VMRS</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706247913153,
+      "stop" : 1706247960290,
+      "duration" : 47137
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test_description : click on Marine Work image in VMRS",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d63265a37bbaac90",
+      "name" : "Page Screenshot",
+      "source" : "d63265a37bbaac90.png",
+      "type" : "image/png",
+      "size" : 98094
+    }, {
+      "uid" : "4dee7e389fcfc357",
+      "name" : "Page Screenshot",
+      "source" : "4dee7e389fcfc357.png",
+      "type" : "image/png",
+      "size" : 98094
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706248154813,
+      "stop" : 1706248154988,
+      "duration" : 175
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b469d13ea8d32158",
+      "name" : "Page Screenshot",
+      "source" : "b469d13ea8d32158.png",
+      "type" : "image/png",
+      "size" : 98094
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.PauseLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.PauseLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_008_click_VMRS_Img"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.PauseLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RH29BD1"
+  }, {
+    "name" : "thread",
+    "value" : "2528@DESKTOP-RH29BD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "PauseLabor"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e82ea6de80137f72.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.administration.CreateCustomer",
+        "children" : [ {
+          "name" : "Login the page and go to customer screen",
+          "uid" : "419bb2fa6479cc72",
+          "parentUid" : "86559304a42231176d1a4c37bed92e45",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706186868180,
+            "stop" : 1706186925193,
+            "duration" : 57013
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002 verify all elements in the field",
+          "uid" : "e8ecde47cd6220ef",
+          "parentUid" : "86559304a42231176d1a4c37bed92e45",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706186925674,
+            "stop" : 1706186955419,
+            "duration" : 29745
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003 enter Customer Code and name in the field and click on OK",
+          "uid" : "9c12371b9679d55a",
+          "parentUid" : "86559304a42231176d1a4c37bed92e45",
+          "status" : "broken",
+          "time" : {
+            "start" : 1706186955618,
+            "stop" : 1706186977270,
+            "duration" : 21652
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check the Customer name in search field and sign out the page",
+          "uid" : "e370cfe317e2dfb6",
+          "parentUid" : "86559304a42231176d1a4c37bed92e45",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706186977505,
+            "stop" : 1706187001898,
+            "duration" : 24393
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "86559304a42231176d1a4c37bed92e45"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

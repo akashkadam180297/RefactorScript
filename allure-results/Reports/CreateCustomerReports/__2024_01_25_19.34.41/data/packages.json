@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.administration.CreateCustomer",
+    "children" : [ {
+      "name" : "Test_001_gotoCustomerScreen",
+      "uid" : "a9e93d93360bb0a5",
+      "parentUid" : "a56c7104218cc4099d3f9f696f207351",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706191352885,
+        "stop" : 1706191409125,
+        "duration" : 56240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_verifyAllFields",
+      "uid" : "ea6f71f8949b1de8",
+      "parentUid" : "a56c7104218cc4099d3f9f696f207351",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706191409349,
+        "stop" : 1706191436362,
+        "duration" : 27013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_enterfieldsandclickonOK",
+      "uid" : "a4b8c6cd4920263c",
+      "parentUid" : "a56c7104218cc4099d3f9f696f207351",
+      "status" : "broken",
+      "time" : {
+        "start" : 1706191436502,
+        "stop" : 1706191457449,
+        "duration" : 20947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_searchnameandclickonSignout",
+      "uid" : "1f1cf81c4db7a307",
+      "parentUid" : "a56c7104218cc4099d3f9f696f207351",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706191457590,
+        "stop" : 1706191481398,
+        "duration" : 23808
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.administration.CreateCustomer"
+  } ]
+}

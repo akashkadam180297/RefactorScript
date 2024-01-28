@@ -28,7 +28,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//span[contains(.,'Brian O')]")
     WebElement label_BrianOC;
 
-    @FindBy(xpath = "span[text(),'Rusty Adam']")
+    @FindBy(xpath = "//span[contains(text(),'Rusty Adam')]")
     WebElement label_RustyAdam;
 
     @FindBy(xpath = "//span[text()='Clear Screen']")
@@ -76,7 +76,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//span[text()='Current Location']/following::th[1]/div")
     WebElement label_column;
 
-    @FindBy(xpath = "//span[text()='Current Location']/following::a[3]/span")
+    @FindBy(xpath = "//div[contains(@id,'cbSelectUnitLocal')]")
     WebElement btn_select;
 
     @FindBy(xpath = "(//a[text()='Tech RO'])[2]/following::span[1]")
@@ -109,7 +109,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//td[text()='BLOOMINGTON CA 92316']")
     WebElement label_Blooming;
 
-    @FindBy(xpath = "div[contains(@id,'pgl33')]")
+    @FindBy(xpath = "//div[contains(@id,'pgl33')]")
     WebElement label_123KingStreet;
 
 
@@ -203,7 +203,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//div[contains(text(),'Guide')]/following::td[6]/span")
     WebElement label_unit_value;
 
-    @FindBy(xpath = "//div[contains(text(),'Guide')]/following::a[2]")
+    @FindBy(xpath = "(//a[contains(@id,'sdiVmrs::disAcr')])[1]")
     WebElement tab_VMRS;
 
     @FindBy(xpath = "(//a[text()='Unit History'])[3]")
@@ -348,7 +348,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
    @FindBy(xpath = "(//span[text()='Cancel'])[1]")
     WebElement but_cancle;
 
-    @FindBy(xpath = "//h1[text()='Click icon to drill down']/following::a[1]/img")
+    @FindBy(xpath = "//h1[text()='Click icon to drill down']/following::a[4]/img")
     WebElement img_Accessories_Group;
 
     @FindBy(xpath = "//img[contains(@id,':cilvmrsys::icon')]")
@@ -440,14 +440,14 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      */
     public void enterTechBadge() throws InterruptedException {
 
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
+ //       if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_scanEmployeeBadge);
             WebElementActions.getActions().inputText(txt_scanEmployeeBadge,appProp.getProperty("TechBadge"));
 
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
         }
-    }
+ //   }
     /**
      * click on Go
      */
@@ -504,7 +504,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
         if (LoginActions.environmentName.contains("QA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_MoisesOlivas);
             Assert.assertTrue(label_MoisesOlivas.isDisplayed());
-        }
+        }else
         if (LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_BrianOC);
             Assert.assertTrue(label_BrianOC.isDisplayed());
@@ -540,7 +540,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      */
     public void enterUnitNumber() throws InterruptedException {
 
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+//        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_searchUnit);
             WebElementActions.getActions().inputText(txt_searchUnit, appProp.getProperty("UnitNumber"));
@@ -548,20 +548,20 @@ public class EC_Tech_WoLabor extends TestDriverActions {
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
         }
-    }
+ //   }
     /**
      * Click on select button
      */
     public void clickOnSelectBtn() throws InterruptedException {
 
-        if (LoginActions.environmentName.contains("QA")){
+ //       if (LoginActions.environmentName.contains("QA")){
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_select);
         WebElementActions.getActions().clickElement(btn_select);
-    }
+ /*   }
     if (LoginActions.environmentName.contains("EU")) {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_select1);
         WebElementActions.getActions().clickElement(btn_select1);
-    }
+    }  */
 
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
@@ -733,7 +733,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on Unit History tab
      */
     public void clickOnUnitHistoryTab() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") ) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(tab_UnitHistory);
             WebElementActions.getActions().clickElement(tab_UnitHistory);
 
@@ -775,7 +775,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on (Labour Details Page) VMRS tab
      */
     public void clickOnLabourDetailsVMRStab() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") ) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_LabourDetails_VMRS);
             WebElementActions.getActions().clickElement(btn_LabourDetails_VMRS);
 
@@ -807,11 +807,11 @@ public class EC_Tech_WoLabor extends TestDriverActions {
 
             WaitActions.getWaits().loadingWait(loder);
 
-            if(LoginActions.environmentName.contains("NA")){
+     /*       if(LoginActions.environmentName.contains("NA")){
                 WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(img_AeroDynamic);
                 Assert.assertTrue(img_AeroDynamic.isDisplayed());
                 Assert.assertTrue(name_AeroDynamicDevice.isDisplayed());
-            }
+            }  */
             TestListener.saveScreenshotPNG(driver);
         }
     }
@@ -820,7 +820,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      */
     public void clickOnAeroDynamicDevicesImg() throws InterruptedException {
 
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_aeroDynamic);
             WebElementActions.getActions().clickElement(img_aeroDynamic);
 
@@ -857,7 +857,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on hyperlink AeroDynamic Devices
      */
     public void clickOnAeroDynamicsDeviceshyperlink() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_aeroDynamic);
             WebElementActions.getActions().clickElement(hyperlink_aeroDynamic);
         }
@@ -936,8 +936,8 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on add button
      */
     public void clickOnAddButton() throws InterruptedException {
-// WaitActions.getWaits().waitForElementTobeClickable(btn_add);
-        if (LoginActions.environmentName.contains("QA")) {
+
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_add);
             WebElementActions.getActions().clickElement(btn_add);
 
@@ -949,7 +949,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on cross icon
      */
     public void clickOnCrossIcon() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(cross_icon);
             WebElementActions.getActions().clickElement(cross_icon);
 
@@ -961,7 +961,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on Delete icon
      */
     public void clickOnDeleteIcon() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(delete_icon);
             WebElementActions.getActions().clickElement(delete_icon);
 
@@ -973,7 +973,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * verify Add Element
      */
     public void verifyAddElement() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_add);
             Assert.assertTrue(btn_add.isDisplayed());
 
@@ -984,7 +984,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on img Aerodynamic
      */
     public void clickOnWorkRequired() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_workRequired_AeroDynamic);
             WebElementActions.getActions().clickElement(img_workRequired_AeroDynamic);
 
@@ -996,7 +996,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * verify Element AeroDynamic Devices
      */
     public void verifyAerodynamicDevices004() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(hyperlink_aeroDynamic);
             Assert.assertTrue(hyperlink_aeroDynamic.isDisplayed());
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(deviceAero);
@@ -1011,7 +1011,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * verify Aerodynamic Devices Element
      */
     public void verifyAerodynamicDeviceHyperlink() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(hyperlink_aeroDynamic);
             Assert.assertTrue(hyperlink_aeroDynamic.isDisplayed());
 
@@ -1022,7 +1022,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * verify Aerodynamic Devices textarea Element
      */
     public void verifyAerodynamicDeviceTextarea() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_aeroDynamic);
             Assert.assertTrue(txt_aeroDynamic.isDisplayed());
 
@@ -1052,7 +1052,8 @@ TestListener.saveScreenshotPNG(driver);
      */
     public void clickOnCrossIconAsapShop() throws InterruptedException {
 
-        if (LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("EU")) {
+//        if (LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("EU")
+//                || LoginActions.environmentName.contains("NA")) {
 
             //      WebElementActions.getActions().moveOnTargetElement(row_one);
 
@@ -1107,7 +1108,7 @@ TestListener.saveScreenshotPNG(driver);
 //                WebElementActions.getActions().clickElement(yes_delete_labour_and_parts);
 
             }
-        }
+  //      }
 
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
@@ -1117,16 +1118,15 @@ TestListener.saveScreenshotPNG(driver);
      * click on cancle button
      */
     public void clickOnCancleButton() throws InterruptedException {
-// WaitActions.getWaits().waitForElementTobeClickable(but_cancle);
-        //       Thread.sleep(2000);
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+
+//        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(but_cancle);
             WebElementActions.getActions().clickElement(but_cancle);
 
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
         }
-    }
+ //   }
 /**
  * verify Accessories group
  */
@@ -1140,8 +1140,8 @@ Assert.assertTrue(.isDisplayed());
      */
     public void clickOnAccessoriesGroupImg() throws InterruptedException {
 
-// WaitActions.getWaits().waitForElementTobeClickable(img_Accessories_Group);
-        if (LoginActions.environmentName.contains("QA")) {
+
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_Accessories_Group);
             WebElementActions.getActions().clickElement(img_Accessories_Group);
         }
@@ -1157,7 +1157,7 @@ Assert.assertTrue(.isDisplayed());
      * click on plus icon Labour Details
      */
     public void clickOnPlusIcon_LabourDetails() throws InterruptedException {
-        if(LoginActions.environmentName.contains("QA")) {
+        if(LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(plusIcon_LabourDetails);
             WebElementActions.getActions().clickElement(plusIcon_LabourDetails);
         }
@@ -1173,7 +1173,7 @@ Assert.assertTrue(.isDisplayed());
      * click on add button
      */
     public void clickOnAddButton2() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_add2);
             WebElementActions.getActions().clickElement(btn_add2);
 
@@ -1185,7 +1185,7 @@ Assert.assertTrue(.isDisplayed());
      * verify clock icon
      */
     public void verifyClockIcon() throws InterruptedException {
-// WaitActions.getWaits().WaitUntilWebElementIsVisible(clockIcon.get(0));
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(clockIcon.get(0));
         Assert.assertTrue(clockIcon.size()>=0);
 
@@ -1195,15 +1195,15 @@ Assert.assertTrue(.isDisplayed());
      * click on select button     select_btn
      */
     public void clickOnSelectButton2() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA")) {
+  /*      if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_select1);
             WebElementActions.getActions().clickElement(btn_select1);
         }
 
-        if (LoginActions.environmentName.contains("EU")) {
+        if (LoginActions.environmentName.contains("EU")) {   */
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(select_btn);
             WebElementActions.getActions().clickElement(select_btn);
-        }
+  //      }
 
 
             WaitActions.getWaits().loadingWait(loder);
@@ -1225,7 +1225,7 @@ TestListener.saveScreenshotPNG(driver);
     public void clickOnCrossIconAsapShop2() throws InterruptedException {
 
 // WebElementActions.getActions().moveOnTargetElement(row_one);
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
+ //       if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU")) {
             Thread.sleep(10000);
 
             WebElementActions.getActions().moveOnTargetElement(crossIcon_All.get(0));
@@ -1266,7 +1266,7 @@ WebElementActions.getActions().clickUsingJS(btn_YesdeletelabourParts.get(0));
 } */
 
         }
-    }
+ //   }
     /**
      * verify Delete Aerodynamic Device Page
      */

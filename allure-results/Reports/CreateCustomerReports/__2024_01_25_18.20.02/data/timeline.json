@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-RH29BD1",
+    "children" : [ {
+      "name" : "25740@DESKTOP-RH29BD1.main(1)",
+      "children" : [ {
+        "name" : "Login the page and go to customer screen",
+        "uid" : "419bb2fa6479cc72",
+        "parentUid" : "59f8a1d387944b15c2d468a9dac77f9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706186868180,
+          "stop" : 1706186925193,
+          "duration" : 57013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check the Customer name in search field and sign out the page",
+        "uid" : "e370cfe317e2dfb6",
+        "parentUid" : "59f8a1d387944b15c2d468a9dac77f9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706186977505,
+          "stop" : 1706187001898,
+          "duration" : 24393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 verify all elements in the field",
+        "uid" : "e8ecde47cd6220ef",
+        "parentUid" : "59f8a1d387944b15c2d468a9dac77f9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706186925674,
+          "stop" : 1706186955419,
+          "duration" : 29745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003 enter Customer Code and name in the field and click on OK",
+        "uid" : "9c12371b9679d55a",
+        "parentUid" : "59f8a1d387944b15c2d468a9dac77f9b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706186955618,
+          "stop" : 1706186977270,
+          "duration" : 21652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "59f8a1d387944b15c2d468a9dac77f9b"
+    } ],
+    "uid" : "b1441ad176736c5515e66c68c9827861"
+  } ]
+}

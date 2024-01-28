@@ -487,8 +487,6 @@ public class Spotorderparts extends TestDriverActions {
      * goto order parts Screen
      */
     public void gotoOrderPartsScreen() throws FileNotFoundException, InterruptedException {
-      //  WaitActions.getWaits().loadingWait(loder);
-      //  Thread.sleep(3000);
         ReusableActions.getActions().clickParentMenu("Parts");
         ReusableActions.getActions().clickChildMenu("Order Parts");
         TestListener.saveScreenshotPNG(driver);
@@ -627,7 +625,7 @@ public class Spotorderparts extends TestDriverActions {
     public void inputPartialPartNumber() throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_SearchPartTextArea);
-        WebElementActions.getActions().inputText(label_SearchPartTextArea, appProp.getProperty("PartialPartNumber"));
+        WebElementActions.getActions().inputText(label_SearchPartTextArea,appProp.getProperty("PartialPartNumber"));
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
 
@@ -1086,7 +1084,7 @@ public class Spotorderparts extends TestDriverActions {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_PurchaseOrder);
         Assert.assertTrue(label_PurchaseOrder.isDisplayed());
-        WaitActions.getWaits().loadingWait(loder);
+
 
     }
     /**verify Required Location, Location , Location Value */
@@ -1504,9 +1502,6 @@ public class Spotorderparts extends TestDriverActions {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_POPartCost);
         Assert.assertTrue(label_POPartCost.isDisplayed());
-
-    //    WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Text_OrderTotal);
-    //    Assert.assertTrue(Text_OrderTotal.isDisplayed())
 
         TestListener.saveScreenshotPNG(driver);
 

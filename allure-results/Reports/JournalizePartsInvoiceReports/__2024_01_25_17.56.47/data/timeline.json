@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-RH29BD1",
+    "children" : [ {
+      "name" : "1508@DESKTOP-RH29BD1.main(1)",
+      "children" : [ {
+        "name" : "Login the page and Go to the Financial Manager",
+        "uid" : "2f12505a8c94d969",
+        "parentUid" : "2814398485b688d3a4cf8876c6d06d4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706185385770,
+          "stop" : 1706185419767,
+          "duration" : 33997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on dropdown,refresh button,generateJournalize and select check box",
+        "uid" : "b04c06af41b57cb6",
+        "parentUid" : "2814398485b688d3a4cf8876c6d06d4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706185420486,
+          "stop" : 1706185490836,
+          "duration" : 70350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Financial manager,verify and sign out the page",
+        "uid" : "bb5c7162f3f3b1b",
+        "parentUid" : "2814398485b688d3a4cf8876c6d06d4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706185543531,
+          "stop" : 1706185607039,
+          "duration" : 63508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select checkBox ,click on GenerateJournal and service board",
+        "uid" : "818c179099471263",
+        "parentUid" : "2814398485b688d3a4cf8876c6d06d4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706185491060,
+          "stop" : 1706185543129,
+          "duration" : 52069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2814398485b688d3a4cf8876c6d06d4c"
+    } ],
+    "uid" : "b1441ad176736c5515e66c68c9827861"
+  } ]
+}

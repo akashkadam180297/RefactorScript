@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.tech.PauseLabor" time="830.414" tests="38" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.tech.PauseLabor" time="862.999" tests="38" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6\boot\plexus-classworlds-2.7.0.jar"/>
+    <property name="java.class.path" value="D:\apache-maven-3.9.5-bin\apache-maven-3.9.5\boot\plexus-classworlds-2.7.0.jar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="maven.conf" value="C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6/conf"/>
-    <property name="os.name" value="Windows 11"/>
+    <property name="maven.conf" value="D:\apache-maven-3.9.5-bin\apache-maven-3.9.5/conf"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="IN"/>
+    <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=tests.tech.PauseLabor -Denv=NA"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6"/>
+    <property name="maven.home" value="D:\apache-maven-3.9.5-bin\apache-maven-3.9.5"/>
     <property name="test" value="tests.tech.PauseLabor"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\pc5-q"/>
+    <property name="user.home" value="C:\Users\dell"/>
     <property name="user.language" value="en"/>
     <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -39,7 +39,7 @@
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
-    <property name="user.name" value="pc5-q"/>
+    <property name="user.name" value="dell"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -48,60 +48,60 @@
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="java.vendor.version" value="18.9"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\pc5-q\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\"/>
     <property name="java.version" value="11.0.18"/>
-    <property name="user.dir" value="F:\RefactorScript"/>
+    <property name="user.dir" value="D:\GitHub\RefactorScript"/>
     <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="F:\RefactorScript"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\GitHub\RefactorScript"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="env" value="NA"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Git\cmd;C:\Flutter\flutter\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\pc5-q\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.1\bin;;D:\Flutter\flutter\bin;C:\Users\pc5-q\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pc5-q\AppData\Roaming\npm;C:\Users\pc5-q\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Emdecs_Test_Automation\allure-2.13.6\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\flutter\bin;D:\apache-maven-3.9.5-bin\apache-maven-3.9.5\bin;C:\Program Files\nodejs\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.1\bin;;C:\Users\dell\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2\bin;;C:\flutter\bin;;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dell\AppData\Roaming\npm;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
-    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin\m2.conf"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.9.5-bin\apache-maven-3.9.5\bin\m2.conf"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6\lib\jansi-native"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.9.5-bin\apache-maven-3.9.5\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Test_001_Login_gotoTechRo" classname="tests.tech.PauseLabor" time="24.203"/>
-  <testcase name="Test_002_Enter_TechBadge_ClickGo" classname="tests.tech.PauseLabor" time="32.335"/>
-  <testcase name="Test_003_click_MoreUnits" classname="tests.tech.PauseLabor" time="32.319"/>
-  <testcase name="Test_004_Enter_Firstunit" classname="tests.tech.PauseLabor" time="10.489"/>
-  <testcase name="Test_005_Click_SelectButton" classname="tests.tech.PauseLabor" time="25.981"/>
-  <testcase name="Test_006_click_MoreUnit" classname="tests.tech.PauseLabor" time="22.332"/>
-  <testcase name="Test_007_click_VMRS" classname="tests.tech.PauseLabor" time="22.31"/>
-  <testcase name="Test_008_click_VMRS_Img" classname="tests.tech.PauseLabor" time="22.327"/>
-  <testcase name="Test_009_click_PlusButton" classname="tests.tech.PauseLabor" time="22.613"/>
-  <testcase name="Test_010_enterTextinComplaintBox" classname="tests.tech.PauseLabor" time="10.286"/>
-  <testcase name="Test_011_click_AddBtn" classname="tests.tech.PauseLabor" time="22.297"/>
-  <testcase name="Test_012_click_WorkRequired_Img" classname="tests.tech.PauseLabor" time="22.293"/>
-  <testcase name="Test_013_click_PauseButton" classname="tests.tech.PauseLabor" time="22.273"/>
-  <testcase name="Test_014_EnterTechBadge_ClickGo" classname="tests.tech.PauseLabor" time="30.365"/>
-  <testcase name="Test_015_verify_PauseWork_FirstUnit" classname="tests.tech.PauseLabor" time="4.13"/>
-  <testcase name="Test_016_Enter_SecondUnit" classname="tests.tech.PauseLabor" time="10.258"/>
-  <testcase name="Test_016_clickSelect" classname="tests.tech.PauseLabor" time="22.337"/>
-  <testcase name="Test_017_VerifyPause" classname="tests.tech.PauseLabor" time="4.09"/>
-  <testcase name="Test_018_AgainClick_MoreWorks" classname="tests.tech.PauseLabor" time="22.374"/>
-  <testcase name="Test_020_ClickVMRS" classname="tests.tech.PauseLabor" time="22.337"/>
-  <testcase name="Test_021_click_VMRS_Image" classname="tests.tech.PauseLabor" time="22.342"/>
-  <testcase name="Test_022_click_PlusButton" classname="tests.tech.PauseLabor" time="22.31"/>
-  <testcase name="Test_023_enterText_Complaint_Textfield" classname="tests.tech.PauseLabor" time="10.316"/>
-  <testcase name="Test_024_click_On_Add" classname="tests.tech.PauseLabor" time="22.349"/>
-  <testcase name="Test_025_click_MarinWalkAround_Img" classname="tests.tech.PauseLabor" time="22.364"/>
-  <testcase name="Test_026_click_Pause" classname="tests.tech.PauseLabor" time="22.266"/>
-  <testcase name="Test_027_EnterTechBadge_ClickonGo" classname="tests.tech.PauseLabor" time="30.53"/>
-  <testcase name="Test_028_Verify_SecondPauseWork" classname="tests.tech.PauseLabor" time="4.114"/>
-  <testcase name="Test_029_clickOn_AssignedWork" classname="tests.tech.PauseLabor" time="22.353"/>
-  <testcase name="Test_030_verifySelectAssignedWork" classname="tests.tech.PauseLabor" time="4.095"/>
-  <testcase name="Test_031_clickOnSelect" classname="tests.tech.PauseLabor" time="22.298"/>
-  <testcase name="Test_32_clickSummary" classname="tests.tech.PauseLabor" time="22.413"/>
-  <testcase name="Test_033_clickUnitReady" classname="tests.tech.PauseLabor" time="22.305"/>
-  <testcase name="Test_034_Click_Select" classname="tests.tech.PauseLabor" time="22.338"/>
-  <testcase name="Test_035_clickClockIcon" classname="tests.tech.PauseLabor" time="22.347"/>
-  <testcase name="Test_036_clickOnSummary" classname="tests.tech.PauseLabor" time="22.265"/>
-  <testcase name="Test_037_clickOnUnitReady" classname="tests.tech.PauseLabor" time="22.268"/>
-  <testcase name="Test_038_clickSignout" classname="tests.tech.PauseLabor" time="28.655"/>
+  <testcase name="Test_001_Login_gotoTechRo" classname="tests.tech.PauseLabor" time="23.245"/>
+  <testcase name="Test_002_Enter_TechBadge_ClickGo" classname="tests.tech.PauseLabor" time="31.586"/>
+  <testcase name="Test_003_click_MoreUnits" classname="tests.tech.PauseLabor" time="33.017"/>
+  <testcase name="Test_004_Enter_Firstunit" classname="tests.tech.PauseLabor" time="10.857"/>
+  <testcase name="Test_005_Click_SelectButton" classname="tests.tech.PauseLabor" time="25.334"/>
+  <testcase name="Test_006_click_MoreUnit" classname="tests.tech.PauseLabor" time="22.996"/>
+  <testcase name="Test_007_click_VMRS" classname="tests.tech.PauseLabor" time="22.979"/>
+  <testcase name="Test_008_click_VMRS_Img" classname="tests.tech.PauseLabor" time="22.804"/>
+  <testcase name="Test_009_click_PlusButton" classname="tests.tech.PauseLabor" time="22.849"/>
+  <testcase name="Test_010_enterTextinComplaintBox" classname="tests.tech.PauseLabor" time="11.281"/>
+  <testcase name="Test_011_click_AddBtn" classname="tests.tech.PauseLabor" time="22.928"/>
+  <testcase name="Test_012_click_WorkRequired_Img" classname="tests.tech.PauseLabor" time="22.847"/>
+  <testcase name="Test_013_click_PauseButton" classname="tests.tech.PauseLabor" time="22.752"/>
+  <testcase name="Test_014_EnterTechBadge_ClickGo" classname="tests.tech.PauseLabor" time="31.051"/>
+  <testcase name="Test_015_verify_PauseWork_FirstUnit" classname="tests.tech.PauseLabor" time="4.549"/>
+  <testcase name="Test_016_Enter_SecondUnit" classname="tests.tech.PauseLabor" time="10.93"/>
+  <testcase name="Test_016_clickSelect" classname="tests.tech.PauseLabor" time="22.803"/>
+  <testcase name="Test_017_VerifyPause" classname="tests.tech.PauseLabor" time="5.996"/>
+  <testcase name="Test_018_AgainClick_MoreWorks" classname="tests.tech.PauseLabor" time="22.851"/>
+  <testcase name="Test_020_ClickVMRS" classname="tests.tech.PauseLabor" time="23.208"/>
+  <testcase name="Test_021_click_VMRS_Image" classname="tests.tech.PauseLabor" time="22.88"/>
+  <testcase name="Test_022_click_PlusButton" classname="tests.tech.PauseLabor" time="22.89"/>
+  <testcase name="Test_023_enterText_Complaint_Textfield" classname="tests.tech.PauseLabor" time="11.32"/>
+  <testcase name="Test_024_click_On_Add" classname="tests.tech.PauseLabor" time="22.802"/>
+  <testcase name="Test_025_click_MarinWalkAround_Img" classname="tests.tech.PauseLabor" time="22.924"/>
+  <testcase name="Test_026_click_Pause" classname="tests.tech.PauseLabor" time="22.888"/>
+  <testcase name="Test_027_EnterTechBadge_ClickonGo" classname="tests.tech.PauseLabor" time="31.097"/>
+  <testcase name="Test_028_Verify_SecondPauseWork" classname="tests.tech.PauseLabor" time="4.383"/>
+  <testcase name="Test_029_clickOn_AssignedWork" classname="tests.tech.PauseLabor" time="22.751"/>
+  <testcase name="Test_030_verifySelectAssignedWork" classname="tests.tech.PauseLabor" time="4.283"/>
+  <testcase name="Test_031_clickOnSelect" classname="tests.tech.PauseLabor" time="23.022"/>
+  <testcase name="Test_32_clickSummary" classname="tests.tech.PauseLabor" time="23.877"/>
+  <testcase name="Test_033_clickUnitReady" classname="tests.tech.PauseLabor" time="23.028"/>
+  <testcase name="Test_034_Click_Select" classname="tests.tech.PauseLabor" time="22.784"/>
+  <testcase name="Test_035_clickClockIcon" classname="tests.tech.PauseLabor" time="22.843"/>
+  <testcase name="Test_036_clickOnSummary" classname="tests.tech.PauseLabor" time="23.064"/>
+  <testcase name="Test_037_clickOnUnitReady" classname="tests.tech.PauseLabor" time="23.107"/>
+  <testcase name="Test_038_clickSignout" classname="tests.tech.PauseLabor" time="28.76"/>
 </testsuite>

@@ -1,141 +1,591 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="8" passed="8" failed="0" skipped="0">
+<testng-results total="38" passed="38" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-24T12:58:18Z" name="Surefire suite" finished-at="2024-01-24T13:14:06Z" duration-ms="948215">
+  <suite started-at="2024-01-26T05:45:13Z" name="Surefire suite" finished-at="2024-01-26T05:59:23Z" duration-ms="850890">
     <groups>
     </groups>
-    <test started-at="2024-01-24T12:58:18Z" name="Surefire test" finished-at="2024-01-24T13:14:06Z" duration-ms="948215">
-      <class name="tests.techRo.ServiceManagerPartsRelatedTasks">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:28:18Z" name="initialization" finished-at="2024-01-24T18:28:56Z" duration-ms="38308" status="PASS">
+    <test started-at="2024-01-26T05:45:13Z" name="Surefire test" finished-at="2024-01-26T05:59:23Z" duration-ms="850890">
+      <class name="tests.tech.PauseLabor">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:15:13Z" name="initialization" finished-at="2024-01-26T11:16:00Z" duration-ms="47202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="Test_001_gotoCompleteRo()[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:28:56Z" name="Test_001_gotoCompleteRo" description="Test_001_Login the page and Go to CompleteRo Screen" finished-at="2024-01-24T18:33:04Z" duration-ms="247921" status="PASS">
+        <test-method signature="Test_001_Login_gotoTechRo()[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:16:00Z" name="Test_001_Login_gotoTechRo" description="Login the page " finished-at="2024-01-26T11:16:23Z" duration-ms="23112" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_001_gotoCompleteRo -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:33:04Z" name="afterMethodTakeScreenShot" finished-at="2024-01-24T18:33:04Z" duration-ms="72" status="PASS">
+        </test-method> <!-- Test_001_Login_gotoTechRo -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:16:23Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:16:24Z" duration-ms="199" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_001_gotoCompleteRo status=SUCCESS method=ServiceManagerPartsRelatedTasks.Test_001_gotoCompleteRo()[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4] output={null}]]]>
+                <![CDATA[[TestResult name=Test_001_Login_gotoTechRo status=SUCCESS method=PauseLabor.Test_001_Login_gotoTechRo()[pri:0, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_002_clickOnReference()[pri:1, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:33:04Z" name="Test_002_clickOnReference" description="Test_002_click On Reference Number" finished-at="2024-01-24T18:35:19Z" duration-ms="134461" status="PASS">
+        <test-method signature="Test_002_Enter_TechBadge_ClickGo()[pri:1, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:16:24Z" name="Test_002_Enter_TechBadge_ClickGo" description="Enter TechBadge and click on go" finished-at="2024-01-26T11:16:55Z" duration-ms="31447" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_002_clickOnReference -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:35:19Z" name="afterMethodTakeScreenShot" finished-at="2024-01-24T18:35:19Z" duration-ms="69" status="PASS">
+        </test-method> <!-- Test_002_Enter_TechBadge_ClickGo -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:16:55Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:16:55Z" duration-ms="156" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_002_clickOnReference status=SUCCESS method=ServiceManagerPartsRelatedTasks.Test_002_clickOnReference()[pri:1, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4] output={null}]]]>
+                <![CDATA[[TestResult name=Test_002_Enter_TechBadge_ClickGo status=SUCCESS method=PauseLabor.Test_002_Enter_TechBadge_ClickGo()[pri:1, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_003_clickOnPart()[pri:2, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:35:19Z" name="Test_003_clickOnPart" description="Test_003_click On part Number" finished-at="2024-01-24T18:36:28Z" duration-ms="69247" status="PASS">
+        <test-method signature="Test_003_click_MoreUnits()[pri:2, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:16:55Z" name="Test_003_click_MoreUnits" description="Click on More Units" finished-at="2024-01-26T11:17:28Z" duration-ms="32836" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_003_clickOnPart -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:36:28Z" name="afterMethodTakeScreenShot" finished-at="2024-01-24T18:36:28Z" duration-ms="70" status="PASS">
+        </test-method> <!-- Test_003_click_MoreUnits -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:17:28Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:17:28Z" duration-ms="163" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_003_clickOnPart status=SUCCESS method=ServiceManagerPartsRelatedTasks.Test_003_clickOnPart()[pri:2, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4] output={null}]]]>
+                <![CDATA[[TestResult name=Test_003_click_MoreUnits status=SUCCESS method=PauseLabor.Test_003_click_MoreUnits()[pri:2, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_004_verifyLabor()[pri:3, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:36:28Z" name="Test_004_verifyLabor" description="Test_004_verify Labor Text " finished-at="2024-01-24T18:37:24Z" duration-ms="56499" status="PASS">
+        <test-method signature="Test_004_Enter_Firstunit()[pri:3, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:17:28Z" name="Test_004_Enter_Firstunit" description="Enter First Unit" finished-at="2024-01-26T11:17:39Z" duration-ms="10720" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_004_verifyLabor -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:37:24Z" name="afterMethodTakeScreenShot" finished-at="2024-01-24T18:37:24Z" duration-ms="55" status="PASS">
+        </test-method> <!-- Test_004_Enter_Firstunit -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:17:39Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:17:39Z" duration-ms="164" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_004_verifyLabor status=SUCCESS method=ServiceManagerPartsRelatedTasks.Test_004_verifyLabor()[pri:3, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4] output={null}]]]>
+                <![CDATA[[TestResult name=Test_004_Enter_Firstunit status=SUCCESS method=PauseLabor.Test_004_Enter_Firstunit()[pri:3, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_005_verifyChargeQuantityEditable()[pri:4, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:37:24Z" name="Test_005_verifyChargeQuantityEditable" description="Test_005_verify Charge Quantity Editable  " finished-at="2024-01-24T18:39:24Z" duration-ms="119854" status="PASS">
+        <test-method signature="Test_005_Click_SelectButton()[pri:4, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:17:39Z" name="Test_005_Click_SelectButton" description="Click on Select button" finished-at="2024-01-26T11:18:05Z" duration-ms="25163" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_005_verifyChargeQuantityEditable -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:39:24Z" name="afterMethodTakeScreenShot" finished-at="2024-01-24T18:39:24Z" duration-ms="61" status="PASS">
+        </test-method> <!-- Test_005_Click_SelectButton -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:18:05Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:18:05Z" duration-ms="258" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_005_verifyChargeQuantityEditable status=SUCCESS method=ServiceManagerPartsRelatedTasks.Test_005_verifyChargeQuantityEditable()[pri:4, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4] output={null}]]]>
+                <![CDATA[[TestResult name=Test_005_Click_SelectButton status=SUCCESS method=PauseLabor.Test_005_Click_SelectButton()[pri:4, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_006_clickOnAddPart()[pri:5, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:39:24Z" name="Test_006_clickOnAddPart" description="Test_006_click On Add Part " finished-at="2024-01-24T18:41:57Z" duration-ms="152509" status="PASS">
+        <test-method signature="Test_006_click_MoreUnit()[pri:5, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:18:05Z" name="Test_006_click_MoreUnit" description="Click on More Works" finished-at="2024-01-26T11:18:28Z" duration-ms="22798" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_006_clickOnAddPart -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:41:57Z" name="afterMethodTakeScreenShot" finished-at="2024-01-24T18:41:57Z" duration-ms="69" status="PASS">
+        </test-method> <!-- Test_006_click_MoreUnit -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:18:28Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:18:28Z" duration-ms="200" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_006_clickOnAddPart status=SUCCESS method=ServiceManagerPartsRelatedTasks.Test_006_clickOnAddPart()[pri:5, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4] output={null}]]]>
+                <![CDATA[[TestResult name=Test_006_click_MoreUnit status=SUCCESS method=PauseLabor.Test_006_click_MoreUnit()[pri:5, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_007_clickOnNonCatalogPart()[pri:6, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:41:57Z" name="Test_007_clickOnNonCatalogPart" description="Test_007_click On Non-Catalog Part " finished-at="2024-01-24T18:43:41Z" duration-ms="104291" status="PASS">
+        <test-method signature="Test_007_click_VMRS()[pri:6, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:18:28Z" name="Test_007_click_VMRS" description="click on VMRS" finished-at="2024-01-26T11:18:51Z" duration-ms="22727" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_007_clickOnNonCatalogPart -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:43:41Z" name="afterMethodTakeScreenShot" finished-at="2024-01-24T18:43:41Z" duration-ms="98" status="PASS">
+        </test-method> <!-- Test_007_click_VMRS -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:18:51Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:18:52Z" duration-ms="237" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_007_clickOnNonCatalogPart status=SUCCESS method=ServiceManagerPartsRelatedTasks.Test_007_clickOnNonCatalogPart()[pri:6, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4] output={null}]]]>
+                <![CDATA[[TestResult name=Test_007_click_VMRS status=SUCCESS method=PauseLabor.Test_007_click_VMRS()[pri:6, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_008_clickOnCloseButton()[pri:7, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:43:41Z" name="Test_008_clickOnCloseButton" description="Test_008_click On Close Button " finished-at="2024-01-24T18:44:06Z" duration-ms="24398" status="PASS">
+        <test-method signature="Test_008_click_VMRS_Img()[pri:7, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:18:52Z" name="Test_008_click_VMRS_Img" description="click on Marine Work image in VMRS" finished-at="2024-01-26T11:19:14Z" duration-ms="22649" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_008_clickOnCloseButton -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:44:06Z" name="afterMethodTakeScreenShot" finished-at="2024-01-24T18:44:06Z" duration-ms="75" status="PASS">
+        </test-method> <!-- Test_008_click_VMRS_Img -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:19:14Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:19:15Z" duration-ms="286" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_008_clickOnCloseButton status=SUCCESS method=ServiceManagerPartsRelatedTasks.Test_008_clickOnCloseButton()[pri:7, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4] output={null}]]]>
+                <![CDATA[[TestResult name=Test_008_click_VMRS_Img status=SUCCESS method=PauseLabor.Test_008_click_VMRS_Img()[pri:7, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.techRo.ServiceManagerPartsRelatedTasks@31ddd4a4]" started-at="2024-01-24T18:44:06Z" name="generateAllure" finished-at="2024-01-24T18:44:16Z" duration-ms="10077" status="PASS">
+        <test-method signature="Test_009_click_PlusButton()[pri:8, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:19:15Z" name="Test_009_click_PlusButton" description="click on plus button" finished-at="2024-01-26T11:19:37Z" duration-ms="22675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_009_click_PlusButton -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:19:37Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:19:38Z" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_009_click_PlusButton status=SUCCESS method=PauseLabor.Test_009_click_PlusButton()[pri:8, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_010_enterTextinComplaintBox()[pri:9, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:19:38Z" name="Test_010_enterTextinComplaintBox" description="Enter text in complaint box" finished-at="2024-01-26T11:19:49Z" duration-ms="10944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_010_enterTextinComplaintBox -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:19:49Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:19:49Z" duration-ms="343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_010_enterTextinComplaintBox status=SUCCESS method=PauseLabor.Test_010_enterTextinComplaintBox()[pri:9, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_011_click_AddBtn()[pri:10, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:19:49Z" name="Test_011_click_AddBtn" description="Click on Add button" finished-at="2024-01-26T11:20:12Z" duration-ms="22747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_011_click_AddBtn -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:20:12Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:20:12Z" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_011_click_AddBtn status=SUCCESS method=PauseLabor.Test_011_click_AddBtn()[pri:10, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_012_click_WorkRequired_Img()[pri:11, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:20:12Z" name="Test_012_click_WorkRequired_Img" description="Click on Work Required image" finished-at="2024-01-26T11:20:35Z" duration-ms="22679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_012_click_WorkRequired_Img -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:20:35Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:20:35Z" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_012_click_WorkRequired_Img status=SUCCESS method=PauseLabor.Test_012_click_WorkRequired_Img()[pri:11, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_013_click_PauseButton()[pri:12, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:20:35Z" name="Test_013_click_PauseButton" description="Click on Pause button" finished-at="2024-01-26T11:20:58Z" duration-ms="22625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_013_click_PauseButton -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:20:58Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:20:58Z" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_013_click_PauseButton status=SUCCESS method=PauseLabor.Test_013_click_PauseButton()[pri:12, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_014_EnterTechBadge_ClickGo()[pri:13, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:20:58Z" name="Test_014_EnterTechBadge_ClickGo" description="Again enter TechBadge and click on go" finished-at="2024-01-26T11:21:29Z" duration-ms="30894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_014_EnterTechBadge_ClickGo -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:21:29Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:21:29Z" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_014_EnterTechBadge_ClickGo status=SUCCESS method=PauseLabor.Test_014_EnterTechBadge_ClickGo()[pri:13, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_015_verify_PauseWork_FirstUnit()[pri:14, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:21:29Z" name="Test_015_verify_PauseWork_FirstUnit" description="Verify PauseWork and FirstUnit" finished-at="2024-01-26T11:21:34Z" duration-ms="4215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_015_verify_PauseWork_FirstUnit -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:21:34Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:21:34Z" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_015_verify_PauseWork_FirstUnit status=SUCCESS method=PauseLabor.Test_015_verify_PauseWork_FirstUnit()[pri:14, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_016_Enter_SecondUnit()[pri:15, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:21:34Z" name="Test_016_Enter_SecondUnit" description="Enter Second unit" finished-at="2024-01-26T11:21:45Z" duration-ms="10773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_016_Enter_SecondUnit -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:21:45Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:21:46Z" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_016_Enter_SecondUnit status=SUCCESS method=PauseLabor.Test_016_Enter_SecondUnit()[pri:15, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_016_clickSelect()[pri:16, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:21:46Z" name="Test_016_clickSelect" description="Click on select button" finished-at="2024-01-26T11:22:08Z" duration-ms="22657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_016_clickSelect -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:22:08Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:22:09Z" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_016_clickSelect status=SUCCESS method=PauseLabor.Test_016_clickSelect()[pri:16, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_017_VerifyPause()[pri:17, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:22:09Z" name="Test_017_VerifyPause" description="Verify Pause in play" finished-at="2024-01-26T11:22:14Z" duration-ms="5804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_017_VerifyPause -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:22:15Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:22:15Z" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_017_VerifyPause status=SUCCESS method=PauseLabor.Test_017_VerifyPause()[pri:17, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_018_AgainClick_MoreWorks()[pri:18, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:22:15Z" name="Test_018_AgainClick_MoreWorks" description="Click on More Works" finished-at="2024-01-26T11:22:37Z" duration-ms="22664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_018_AgainClick_MoreWorks -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:22:38Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:22:38Z" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_018_AgainClick_MoreWorks status=SUCCESS method=PauseLabor.Test_018_AgainClick_MoreWorks()[pri:18, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_020_ClickVMRS()[pri:19, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:22:38Z" name="Test_020_ClickVMRS" description="Click on VMRS" finished-at="2024-01-26T11:23:01Z" duration-ms="22852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_020_ClickVMRS -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:23:01Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:23:01Z" duration-ms="350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_020_ClickVMRS status=SUCCESS method=PauseLabor.Test_020_ClickVMRS()[pri:19, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_021_click_VMRS_Image()[pri:20, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:23:01Z" name="Test_021_click_VMRS_Image" description="Click VMRS Image" finished-at="2024-01-26T11:23:24Z" duration-ms="22738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_021_click_VMRS_Image -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:23:24Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:23:24Z" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_021_click_VMRS_Image status=SUCCESS method=PauseLabor.Test_021_click_VMRS_Image()[pri:20, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_022_click_PlusButton()[pri:21, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:23:24Z" name="Test_022_click_PlusButton" description="Click on plus button" finished-at="2024-01-26T11:23:47Z" duration-ms="22720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_022_click_PlusButton -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:23:47Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:23:47Z" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_022_click_PlusButton status=SUCCESS method=PauseLabor.Test_022_click_PlusButton()[pri:21, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_023_enterText_Complaint_Textfield()[pri:22, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:23:47Z" name="Test_023_enterText_Complaint_Textfield" description="Enter text in complaint textfield" finished-at="2024-01-26T11:23:58Z" duration-ms="10977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_023_enterText_Complaint_Textfield -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:23:59Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:23:59Z" duration-ms="345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_023_enterText_Complaint_Textfield status=SUCCESS method=PauseLabor.Test_023_enterText_Complaint_Textfield()[pri:22, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_024_click_On_Add()[pri:23, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:23:59Z" name="Test_024_click_On_Add" description="Click on Add button" finished-at="2024-01-26T11:24:22Z" duration-ms="22674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_024_click_On_Add -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:24:22Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:24:22Z" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_024_click_On_Add status=SUCCESS method=PauseLabor.Test_024_click_On_Add()[pri:23, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_025_click_MarinWalkAround_Img()[pri:24, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:24:22Z" name="Test_025_click_MarinWalkAround_Img" description="Click on Work Required Image" finished-at="2024-01-26T11:24:45Z" duration-ms="22782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_025_click_MarinWalkAround_Img -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:24:45Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:24:45Z" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_025_click_MarinWalkAround_Img status=SUCCESS method=PauseLabor.Test_025_click_MarinWalkAround_Img()[pri:24, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_026_click_Pause()[pri:25, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:24:45Z" name="Test_026_click_Pause" description="Again click on pause button" finished-at="2024-01-26T11:25:08Z" duration-ms="22745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_026_click_Pause -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:25:08Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:25:08Z" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_026_click_Pause status=SUCCESS method=PauseLabor.Test_026_click_Pause()[pri:25, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_027_EnterTechBadge_ClickonGo()[pri:26, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:25:08Z" name="Test_027_EnterTechBadge_ClickonGo" description="Enter TechBadge and click on go" finished-at="2024-01-26T11:25:39Z" duration-ms="30956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_027_EnterTechBadge_ClickonGo -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:25:39Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:25:39Z" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_027_EnterTechBadge_ClickonGo status=SUCCESS method=PauseLabor.Test_027_EnterTechBadge_ClickonGo()[pri:26, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_028_Verify_SecondPauseWork()[pri:27, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:25:39Z" name="Test_028_Verify_SecondPauseWork" description="Verify Second Pause Work" finished-at="2024-01-26T11:25:44Z" duration-ms="4192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_028_Verify_SecondPauseWork -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:25:44Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:25:44Z" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_028_Verify_SecondPauseWork status=SUCCESS method=PauseLabor.Test_028_Verify_SecondPauseWork()[pri:27, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_029_clickOn_AssignedWork()[pri:28, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:25:44Z" name="Test_029_clickOn_AssignedWork" description="Click on Assigned Work" finished-at="2024-01-26T11:26:07Z" duration-ms="22633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_029_clickOn_AssignedWork -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:26:07Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:26:07Z" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_029_clickOn_AssignedWork status=SUCCESS method=PauseLabor.Test_029_clickOn_AssignedWork()[pri:28, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_030_verifySelectAssignedWork()[pri:29, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:26:07Z" name="Test_030_verifySelectAssignedWork" description="Verify select assigned work" finished-at="2024-01-26T11:26:11Z" duration-ms="4159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_030_verifySelectAssignedWork -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:26:11Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:26:11Z" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_030_verifySelectAssignedWork status=SUCCESS method=PauseLabor.Test_030_verifySelectAssignedWork()[pri:29, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_031_clickOnSelect()[pri:30, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:26:11Z" name="Test_031_clickOnSelect" description="Click on select" finished-at="2024-01-26T11:26:34Z" duration-ms="22724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_031_clickOnSelect -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:26:34Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:26:35Z" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_031_clickOnSelect status=SUCCESS method=PauseLabor.Test_031_clickOnSelect()[pri:30, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_32_clickSummary()[pri:31, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:26:35Z" name="Test_32_clickSummary" description="Click on Summary" finished-at="2024-01-26T11:26:58Z" duration-ms="23717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_32_clickSummary -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:26:58Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:26:59Z" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_32_clickSummary status=SUCCESS method=PauseLabor.Test_32_clickSummary()[pri:31, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_033_clickUnitReady()[pri:32, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:26:59Z" name="Test_033_clickUnitReady" description="Click on Unit Ready" finished-at="2024-01-26T11:27:21Z" duration-ms="22746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_033_clickUnitReady -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:27:22Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:27:22Z" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_033_clickUnitReady status=SUCCESS method=PauseLabor.Test_033_clickUnitReady()[pri:32, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_034_Click_Select()[pri:33, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:27:22Z" name="Test_034_Click_Select" description="Click on Select button" finished-at="2024-01-26T11:27:45Z" duration-ms="22673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_034_Click_Select -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:27:45Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:27:45Z" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_034_Click_Select status=SUCCESS method=PauseLabor.Test_034_Click_Select()[pri:33, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_035_clickClockIcon()[pri:34, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:27:45Z" name="Test_035_clickClockIcon" description="Click on clock icon" finished-at="2024-01-26T11:28:08Z" duration-ms="22704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_035_clickClockIcon -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:28:08Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:28:08Z" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_035_clickClockIcon status=SUCCESS method=PauseLabor.Test_035_clickClockIcon()[pri:34, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_036_clickOnSummary()[pri:35, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:28:08Z" name="Test_036_clickOnSummary" description="Click on Summary" finished-at="2024-01-26T11:28:31Z" duration-ms="22786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_036_clickOnSummary -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:28:31Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:28:31Z" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_036_clickOnSummary status=SUCCESS method=PauseLabor.Test_036_clickOnSummary()[pri:35, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_037_clickOnUnitReady()[pri:36, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:28:31Z" name="Test_037_clickOnUnitReady" description="Click on Unit Ready" finished-at="2024-01-26T11:28:54Z" duration-ms="22820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_037_clickOnUnitReady -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:28:54Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:28:55Z" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_037_clickOnUnitReady status=SUCCESS method=PauseLabor.Test_037_clickOnUnitReady()[pri:36, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="Test_038_clickSignout()[pri:37, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:28:55Z" name="Test_038_clickSignout" description="Click on SignOut" finished-at="2024-01-26T11:29:23Z" duration-ms="28654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_038_clickSignout -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:29:23Z" name="afterMethodTakeScreenShot" finished-at="2024-01-26T11:29:23Z" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_038_clickSignout status=SUCCESS method=PauseLabor.Test_038_clickSignout()[pri:37, instance:tests.tech.PauseLabor@b967222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.tech.PauseLabor@b967222]" started-at="2024-01-26T11:29:23Z" name="generateAllure" finished-at="2024-01-26T11:29:34Z" duration-ms="10060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateAllure -->
-      </class> <!-- tests.techRo.ServiceManagerPartsRelatedTasks -->
+      </class> <!-- tests.tech.PauseLabor -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

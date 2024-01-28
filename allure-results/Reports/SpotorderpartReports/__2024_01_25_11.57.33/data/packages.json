@@ -1,0 +1,126 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.Spotorderparts",
+    "children" : [ {
+      "name" : "Test_001_gotoOrderPartsScreen",
+      "uid" : "1d3620b98aa2c982",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706163302366,
+        "stop" : 1706163333916,
+        "duration" : 31550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickOnSpotOrder",
+      "uid" : "3c3939c193d43de4",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706163334150,
+        "stop" : 1706163403792,
+        "duration" : 69642
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_inputPartialPartNumber",
+      "uid" : "3466af05eea71612",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706163403921,
+        "stop" : 1706163449287,
+        "duration" : 45366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_clickOnAddButton",
+      "uid" : "9373e7445f8e85d4",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1706163449597,
+        "stop" : 1706163622232,
+        "duration" : 172635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_verifySearchPartDescription",
+      "uid" : "9306eb2a82c35e0d",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1706163622345,
+        "stop" : 1706163704736,
+        "duration" : 82391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_inputCoreParentPart",
+      "uid" : "a7a847823f5e3c28",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1706163704850,
+        "stop" : 1706163797396,
+        "duration" : 92546
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_007_verifyPO",
+      "uid" : "346d716405bc89c8",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1706163797511,
+        "stop" : 1706163879980,
+        "duration" : 82469
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_008_verifyRequiredPart",
+      "uid" : "91fe8a0ca2c65eb0",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1706163880100,
+        "stop" : 1706163962189,
+        "duration" : 82089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_009_verifyWarehouseText",
+      "uid" : "a4166b6f804c5baa",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1706163962352,
+        "stop" : 1706164052843,
+        "duration" : 90491
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.Spotorderparts"
+  } ]
+}
