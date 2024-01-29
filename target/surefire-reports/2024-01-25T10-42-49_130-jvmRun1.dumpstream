@@ -1,0 +1,93 @@
+# Created on 2024-01-25T10:51:16.465
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created on 2024-01-25T10:51:16.981
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created on 2024-01-25T10:51:17.035
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.041
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+
+# Created on 2024-01-25T10:51:17.049
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.059
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+
+# Created on 2024-01-25T10:51:17.062
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.064
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+
+# Created on 2024-01-25T10:51:17.066
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.068
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1064)
+
+# Created on 2024-01-25T10:51:17.072
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.078
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+
+# Created on 2024-01-25T10:51:17.080
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.082
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+
+# Created on 2024-01-25T10:51:17.085
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.089
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+
+# Created on 2024-01-25T10:51:17.091
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.096
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+
+# Created on 2024-01-25T10:51:17.098
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.101
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+
+# Created on 2024-01-25T10:51:17.103
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.105
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+
+# Created on 2024-01-25T10:51:17.107
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T10:51:17.109
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+# Created on 2024-01-25T10:51:17.113
+Unexpected IOException with stream: 
+
+

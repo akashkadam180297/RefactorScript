@@ -1,0 +1,102 @@
+{
+  "uid" : "e4d2162260ea6d6b",
+  "name" : "Test002: click on PO number and verify Link/DeLink Labor",
+  "fullName" : "tests.parts.ReceiveParts.Test_002_clickOnPoNumber",
+  "historyId" : "dd9c7561dd7bb0866bd04d1fd8c28c79",
+  "time" : {
+    "start" : 1706183789365,
+    "stop" : 1706183821112,
+    "duration" : 31747
+  },
+  "description" : "Test Description : Click on PO number and Verify Link/DeLink Labor",
+  "descriptionHtml" : "<p>Test Description : Click on PO number and Verify Link/DeLink Labor</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706183645956,
+      "stop" : 1706183712701,
+      "duration" : 66745
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706183821119,
+      "stop" : 1706183821322,
+      "duration" : 203
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "90503299fafa601c",
+      "name" : "Page Screenshot",
+      "source" : "90503299fafa601c.png",
+      "type" : "image/png",
+      "size" : 95704
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickOnPoNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "13704@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4d2162260ea6d6b.json",
+  "parameterValues" : [ ]
+}

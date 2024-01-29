@@ -1133,11 +1133,9 @@ public class ServiceManagerWoLabor extends TestDriverActions {
             Assert.assertTrue(label_actualHrs.isDisplayed());
             Assert.assertTrue(label_hourlyCost.isDisplayed());
         }
-<<<<<<< HEAD
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_hourlyCost);
         Assert.assertTrue(label_hourlyCost.isDisplayed());
-=======
->>>>>>> 7ef438197d4f589b421a6e03838d57ee3b5886c9
         Assert.assertTrue(TotalCost.isDisplayed());
         Assert.assertTrue(label_ChargeHrs.isDisplayed());
         Assert.assertTrue(label_HourlyCharge.isDisplayed());

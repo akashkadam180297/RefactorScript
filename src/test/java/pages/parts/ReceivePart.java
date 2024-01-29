@@ -264,10 +264,10 @@ public class ReceivePart extends TestDriverActions {
         @FindBy(xpath = "(//label[text()='Invoice Number:']/following::input)[1]")
         public  WebElement txt_invoiceNumber;
 
-        @FindBy(xpath = "//input[contains(@id,':0:id1::content')]")
+        @FindBy(xpath = "//input[contains(@id,':id1::content')]")
         public WebElement label_InvoiceDateTextArea;
 
-        @FindBy(xpath = "//input[contains(@id,':0:id2::content')]")
+        @FindBy(xpath = "//input[contains(@id,':id2::content')]")
         public WebElement label_DueDateTextArea;
 
 
@@ -301,6 +301,8 @@ public class ReceivePart extends TestDriverActions {
         }
         /**click On PO Number */
         public void clickOnPONumber () throws InterruptedException {
+
+
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_PONumber);
             WebElementActions.getActions().clickElement(label_PONumber);
@@ -762,8 +764,13 @@ public class ReceivePart extends TestDriverActions {
             WaitActions.getWaits().WaitUntilWebElementIsVisible(txt_invoiceNumber);
             String invoiceNum = String.valueOf(WebElementActions.getActions().randomNumber(1000,10000000));
             WebElementActions.getActions().inputText(txt_invoiceNumber,invoiceNum);
+            if(LoginActions.environmentName.contains("EC")) {
+                WaitActions.getWaits().WaitUntilWebElementIsVisible(label_InvoiceDateTextArea);
+                WebElementActions.getActions().inputText(label_InvoiceDateTextArea, appProp.getProperty("InvoiceDate"));
 
-
+                WaitActions.getWaits().WaitUntilWebElementIsVisible(label_DueDateTextArea);
+                WebElementActions.getActions().inputText(label_DueDateTextArea, appProp.getProperty("DueDate"));
+            }
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
 

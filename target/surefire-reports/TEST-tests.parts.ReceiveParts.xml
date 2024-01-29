@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.ReceiveParts" time="714.289" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.ReceiveParts" time="767.356" tests="9" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=tests.parts.ReceiveParts -Denv=EU"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=tests.parts.ReceiveParts -Denv=EC"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="C:\Program Files\apache-maven-3.9.6"/>
     <property name="test" value="tests.parts.ReceiveParts"/>
@@ -50,7 +50,7 @@
     <property name="os.arch" value="amd64"/>
     <property name="maven.multiModuleProjectDirectory" value="F:\NewGitFinal\RefactorScript"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="env" value="EU"/>
+    <property name="env" value="EC"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.6\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\GitHubDesktop\bin;."/>
@@ -62,13 +62,38 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="Test_001_gotoReceiveParts" classname="tests.parts.ReceiveParts" time="43.787"/>
-  <testcase name="Test_002_clickOnPoNumber" classname="tests.parts.ReceiveParts" time="31.696"/>
-  <testcase name="Test_003_verifyPurchesOrder" classname="tests.parts.ReceiveParts" time="49.778"/>
-  <testcase name="Test_004_verifyNotes" classname="tests.parts.ReceiveParts" time="37.299"/>
-  <testcase name="Test_005_verifyvoidedDate" classname="tests.parts.ReceiveParts" time="57.963"/>
-  <testcase name="Test_006_verifyVendorPart" classname="tests.parts.ReceiveParts" time="49.745"/>
-  <testcase name="Test_007_verifyLink" classname="tests.parts.ReceiveParts" time="80.195"/>
-  <testcase name="Test_008_verifyHash" classname="tests.parts.ReceiveParts" time="88.249"/>
-  <testcase name="Test_009_clickOnCancelButton" classname="tests.parts.ReceiveParts" time="216.53"/>
+  <testcase name="Test_001_gotoReceiveParts" classname="tests.parts.ReceiveParts" time="76.054"/>
+  <testcase name="Test_002_clickOnPoNumber" classname="tests.parts.ReceiveParts" time="31.754"/>
+  <testcase name="Test_003_verifyPurchesOrder" classname="tests.parts.ReceiveParts" time="49.707"/>
+  <testcase name="Test_004_verifyNotes" classname="tests.parts.ReceiveParts" time="37.225"/>
+  <testcase name="Test_005_verifyvoidedDate" classname="tests.parts.ReceiveParts" time="58.089"/>
+  <testcase name="Test_006_verifyVendorPart" classname="tests.parts.ReceiveParts" time="49.676"/>
+  <testcase name="Test_007_verifyLink" classname="tests.parts.ReceiveParts" time="85.574"/>
+  <testcase name="Test_008_verifyHash" classname="tests.parts.ReceiveParts" time="88.602"/>
+  <testcase name="Test_009_clickOnCancelButton" classname="tests.parts.ReceiveParts" time="198.24">
+    <failure message="element click intercepted: Element &lt;a data-afr-tlen=&quot;8&quot; id=&quot;cl1&quot; class=&quot;xgn&quot; onclick=&quot;this.focus();return false;&quot; data-afr-fcs=&quot;true&quot; href=&quot;#&quot;&gt;...&lt;/a&gt; is not clickable at point (1320, 7). Other element would receive the click: &lt;div class=&quot;AFModalGlassPane&quot; style=&quot;width: 1349px; height: 664px; user-select: none; z-index: 26; display: block;&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=120.0.6099.225)&#10;Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;&#10;System info: host: &apos;DESKTOP-HN0C78P&apos;, ip: &apos;192.168.160.237&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d7265aab18bd904478b98d376b172063, clickElement {id=A9B10014359F7E142406584B77766D54_element_375}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49835/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (d7265aab18bd904478b98d376b172063)] -&gt; xpath: //a[text()=&apos;Sign Out&apos;]]&#10;Session ID: d7265aab18bd904478b98d376b172063" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a data-afr-tlen="8" id="cl1" class="xgn" onclick="this.focus();return false;" data-afr-fcs="true" href="#">...</a> is not clickable at point (1320, 7). Other element would receive the click: <div class="AFModalGlassPane" style="width: 1349px; height: 664px; user-select: none; z-index: 26; display: block;"></div>
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7265aab18bd904478b98d376b172063, clickElement {id=A9B10014359F7E142406584B77766D54_element_375}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49835/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d7265aab18bd904478b98d376b172063)] -> xpath: //a[text()='Sign Out']]
+Session ID: d7265aab18bd904478b98d376b172063
+	at tests.parts.ReceiveParts.Test_009_clickOnCancelButton(ReceiveParts.java:140)
+]]></failure>
+    <system-out><![CDATA[Loader is not visible
+Loader is not visible
+Loader is not visible
+Loader is not visible
+Loader is not visible
+Loader is not visible
+WebElement is visible using locator: <[[ChromeDriver: chrome on WINDOWS (d7265aab18bd904478b98d376b172063)] -> xpath: (//label[text()='Invoice Number:']/following::input)[1]]]]><![CDATA[>
+Loader is not visible
+Loader is not visible
+WebElement is visible using locator: <[[ChromeDriver: chrome on WINDOWS (d7265aab18bd904478b98d376b172063)] -> xpath: //div[contains(@id,':0:cbClose')]//a//span[text()='Cancel']]]]><![CDATA[>
+Loader is not visible
+]]></system-out>
+  </testcase>
 </testsuite>

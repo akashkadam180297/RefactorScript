@@ -1,0 +1,261 @@
+# Created on 2024-01-25T11:37:23.788
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created on 2024-01-25T11:37:38.102
+Unexpected IOException with stream: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition (element to be clickable: [[ChromeDriver: chrome on WINDOWS (09d1bd595ce9bae843d566744cebffed)] -> xpath: (//span[contains(text(),'Cancel')])[1]]) to be refreshed (tried for 80 second(s) with 500 milliseconds interval)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63372}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63372/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09d1bd595ce9bae843d566744cebffed
+
+# Created on 2024-01-25T11:37:38.104
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.106
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+
+# Created on 2024-01-25T11:37:38.108
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.110
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+
+# Created on 2024-01-25T11:37:38.112
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.115
+Unexpected IOException with stream: 	at actions.WaitActions.waitForElementToBeRefreshedAndClickable(WaitActions.java:193)
+
+# Created on 2024-01-25T11:37:38.116
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.118
+Unexpected IOException with stream: 	at actions.WebElementActions.clickElement(WebElementActions.java:56)
+
+# Created on 2024-01-25T11:37:38.120
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.122
+Unexpected IOException with stream: 	at pages.parts.CounterSalePage.addPart(CounterSalePage.java:794)
+
+# Created on 2024-01-25T11:37:38.124
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.126
+Unexpected IOException with stream: 	at tests.parts.CounterSale.add_parts_in_counter_sale(CounterSale.java:59)
+
+# Created on 2024-01-25T11:37:38.128
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.130
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+# Created on 2024-01-25T11:37:38.132
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.135
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+
+# Created on 2024-01-25T11:37:38.137
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.139
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+
+# Created on 2024-01-25T11:37:38.141
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.144
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+
+# Created on 2024-01-25T11:37:38.145
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.147
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+
+# Created on 2024-01-25T11:37:38.149
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.151
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+
+# Created on 2024-01-25T11:37:38.153
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.154
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+
+# Created on 2024-01-25T11:37:38.156
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.159
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+
+# Created on 2024-01-25T11:37:38.161
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.163
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+
+# Created on 2024-01-25T11:37:38.165
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.167
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:632)
+
+# Created on 2024-01-25T11:37:38.170
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.173
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+
+# Created on 2024-01-25T11:37:38.176
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.178
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+
+# Created on 2024-01-25T11:37:38.180
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.181
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+
+# Created on 2024-01-25T11:37:38.183
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.185
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+
+# Created on 2024-01-25T11:37:38.187
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.189
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created on 2024-01-25T11:37:38.191
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.193
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+
+# Created on 2024-01-25T11:37:38.196
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.198
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+
+# Created on 2024-01-25T11:37:38.201
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.203
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+
+# Created on 2024-01-25T11:37:38.205
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.207
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1064)
+
+# Created on 2024-01-25T11:37:38.209
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.212
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+
+# Created on 2024-01-25T11:37:38.214
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.216
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+
+# Created on 2024-01-25T11:37:38.219
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.221
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+
+# Created on 2024-01-25T11:37:38.223
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.225
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+
+# Created on 2024-01-25T11:37:38.227
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.228
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+
+# Created on 2024-01-25T11:37:38.230
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.232
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+
+# Created on 2024-01-25T11:37:38.234
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:38.235
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+# Created on 2024-01-25T11:37:38.237
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T11:37:42.317
+Unexpected IOException with stream: Methodadd_parts_in_counter_sale Fail
+
+
+# Created on 2024-01-25T11:37:42.319
+Unexpected IOException with stream: Screen captured for test case : add_parts_in_counter_sale:Fail
+
+
+# Created on 2024-01-25T11:37:42.508
+Unexpected IOException: 8,1,tests.parts.CounterSale,add_parts_in_counter_sale(tests.parts.CounterSale),null,element not interactable\000A  (Session info: chrome=120.0.6099.225)\000ABuild info: version: '4.4.0'\002C revision: 'e5c75ed026a'\000ASystem info: host: 'DESKTOP-HN0C78P'\002C ip: '192.168.160.237'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.1.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [09d1bd595ce9bae843d566744cebffed\002C clickElement {id=4C12C646932D840F1969E1BEC6B42B52_element_721}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 120.0.6099.225\002C chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66...\002C userDataDir: C:\005CUsers\005Chp\005CAppData\005CLocal\005CT...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:63372}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:63372/devtoo...\002C se:cdpVersion: 120.0.6099.225\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000AElement: [[ChromeDriver: chrome on WINDOWS (09d1bd595ce9bae843d566744cebffed)] -> xpath: (//span[contains(text()\002C'Cancel')])[1]]\000ASession ID: 09d1bd595ce9bae843d566744cebffed,null,element not interactable\000A  (Session info: chrome=120.0.6099.225)\000ABuild info: version: '4.4.0'\002C revision: 'e5c75ed026a'\000ASystem info: host: 'DESKTOP-HN0C78P'\002C ip: '192.168.160.237'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.1.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [09d1bd595ce9bae843d566744cebffed\002C clickElement {id=4C12C646932D840F1969E1BEC6B42B52_element_721}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 120.0.6099.225\002C chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66...\002C userDataDir: C:\005CUsers\005Chp\005CAppData\005CLocal\005CT...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:63372}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:63372/devtoo...\002C se:cdpVersion: 120.0.6099.225\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000AElement: [[ChromeDriver: chrome on WINDOWS (09d1bd595ce9bae843d566744cebffed)] -> xpath: (//span[contains(text()\002C'Cancel')])[1]]\000ASession ID: 09d1bd595ce9bae843d566744cebffed,CounterSale.add_parts_in_counter_sale:59 \00BB ElementNotInteractable element not ...,org.openqa.selenium.ElementNotInteractableException: \000Aelement not interactable\000A  (Session info: chrome=120.0.6099.225)\000ABuild info: version: '4.4.0'\002C revision: 'e5c75ed026a'\000ASystem info: host: 'DESKTOP-HN0C78P'\002C ip: '192.168.160.237'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.1.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [09d1bd595ce9bae843d566744cebffed\002C clickElement {id=4C12C646932D840F1969E1BEC6B42B52_element_721}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 120.0.6099.225\002C chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66...\002C userDataDir: C:\005CUsers\005Chp\005CAppData\005CLocal\005CT...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:63372}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:63372/devtoo...\002C se:cdpVersion: 120.0.6099.225\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000AElement: [[ChromeDriver: chrome on WINDOWS (09d1bd595ce9bae843d566744cebffed)] -> xpath: (//span[contains(text()\002C'Cancel')])[1]]\000ASession ID: 09d1bd595ce9bae843d566744cebffed\000A\0009at tests.parts.CounterSale.add_parts_in_counter_sale(CounterSale.java:59)\000A
+
+
+# Created on 2024-01-25T11:37:42.695
+Unexpected IOException: 5,1,tests.parts.CounterSale,check_invoice_and_signout(tests.parts.CounterSale),tests.parts.CounterSale,null,null
+
+

@@ -1,0 +1,358 @@
+{
+  "uid" : "5c1253992c4b9248",
+  "name" : "Test_003 click on add new counter sale",
+  "fullName" : "tests.parts.CounterSale.add_new_counter_sale",
+  "historyId" : "f47b266b725c89e0000c9a78763aff0c",
+  "time" : {
+    "start" : 1706178881399,
+    "stop" : 1706178987308,
+    "duration" : 105909
+  },
+  "description" : "Test Description : Click on add new counter sale",
+  "descriptionHtml" : "<p>Test Description : Click on add new counter sale</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706178727273,
+      "stop" : 1706178793029,
+      "duration" : 65756
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description : Click on add new counter sale",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6d35d4b44b10de04",
+      "name" : "Page Screenshot",
+      "source" : "6d35d4b44b10de04.png",
+      "type" : "image/png",
+      "size" : 131788
+    }, {
+      "uid" : "164e040f3262905b",
+      "name" : "Page Screenshot",
+      "source" : "164e040f3262905b.png",
+      "type" : "image/png",
+      "size" : 116374
+    }, {
+      "uid" : "ee73043a07eda128",
+      "name" : "Page Screenshot",
+      "source" : "ee73043a07eda128.png",
+      "type" : "image/png",
+      "size" : 116237
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706178987343,
+      "stop" : 1706178987473,
+      "duration" : 130
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1790a501247f607f",
+      "name" : "Page Screenshot",
+      "source" : "1790a501247f607f.png",
+      "type" : "image/png",
+      "size" : 116307
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "generateAllure",
+    "time" : {
+      "start" : 1706179313790,
+      "stop" : 1706179313791,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "java.lang.NullPointerException",
+    "statusTrace" : "java.lang.NullPointerException\r\n\tat java.base/java.io.File.<init>(File.java:278)\r\n\tat tests.TestDriverActions.generateAllure(TestDriverActions.java:477)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_new_counter_sale"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "8740@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b367ac811a31fc33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706177229540,
+        "stop" : 1706177331570,
+        "duration" : 102030
+      }
+    }, {
+      "uid" : "665644c4733ec2f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706176484591,
+        "stop" : 1706176588204,
+        "duration" : 103613
+      }
+    }, {
+      "uid" : "c665eb08e4b70a8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706175629078,
+        "stop" : 1706175731807,
+        "duration" : 102729
+      }
+    }, {
+      "uid" : "636cd7722ec0d1ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706174875684,
+        "stop" : 1706174980870,
+        "duration" : 105186
+      }
+    }, {
+      "uid" : "cf0eadea5cd44378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706172648915,
+        "stop" : 1706172749039,
+        "duration" : 100124
+      }
+    }, {
+      "uid" : "32804ff533e8b23b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706171228706,
+        "stop" : 1706171328425,
+        "duration" : 99719
+      }
+    }, {
+      "uid" : "94f187334e58f67f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706170447613,
+        "stop" : 1706170550614,
+        "duration" : 103001
+      }
+    }, {
+      "uid" : "b7d314a277c59cb6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1706170274253,
+        "stop" : 1706170274253,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ae60689524c47782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706169584320,
+        "stop" : 1706169684986,
+        "duration" : 100666
+      }
+    }, {
+      "uid" : "bfeeb180cba2374d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706168846576,
+        "stop" : 1706168949196,
+        "duration" : 102620
+      }
+    }, {
+      "uid" : "b5e2b1125bcc6764",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706168345202,
+        "stop" : 1706168448316,
+        "duration" : 103114
+      }
+    }, {
+      "uid" : "174e582fc6419a0e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Search']/following::span[18]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3f8cae647435dcce2ce3ff1d7ee9c31f, findElement {using=xpath, value=//span[text()='Search']/following::span[18]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56006/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3f8cae647435dcce2ce3ff1d7ee9c31f",
+      "time" : {
+        "start" : 1706167517042,
+        "stop" : 1706167722751,
+        "duration" : 205709
+      }
+    }, {
+      "uid" : "5fe025b34dbf2b58",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (921, 225). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e9d204b62f0f9ef5e5cb73f59a68cbec, clickElement {id=AB3583D0F0A5DA4583935ADE935ABF41_element_202}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55624}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55624/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (e9d204b62f0f9ef5e5cb73f59a68cbec)] -> xpath: //span[text()='Search']]\nSession ID: e9d204b62f0f9ef5e5cb73f59a68cbec",
+      "time" : {
+        "start" : 1706167244800,
+        "stop" : 1706167287011,
+        "duration" : 42211
+      }
+    }, {
+      "uid" : "27d34fb143d4a70a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1706167087152,
+        "stop" : 1706167087154,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5dad88c4acdfee6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706166379159,
+        "stop" : 1706166493645,
+        "duration" : 114486
+      }
+    }, {
+      "uid" : "39edb86d658b23b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706165692628,
+        "stop" : 1706165791280,
+        "duration" : 98652
+      }
+    }, {
+      "uid" : "47c02cb5a3664d93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706164925105,
+        "stop" : 1706165028476,
+        "duration" : 103371
+      }
+    }, {
+      "uid" : "171c63ff08e079fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706164166854,
+        "stop" : 1706164269982,
+        "duration" : 103128
+      }
+    }, {
+      "uid" : "c1ee8f24db9185f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706163498872,
+        "stop" : 1706163603449,
+        "duration" : 104577
+      }
+    }, {
+      "uid" : "f1195ea8470c9c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706162393440,
+        "stop" : 1706162517518,
+        "duration" : 124078
+      }
+    }, {
+      "uid" : "497e848d6a345ab6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706161434504,
+        "stop" : 1706161533869,
+        "duration" : 99365
+      }
+    }, {
+      "uid" : "ea525ba4a129b54f",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3c78bb46f5686271b31bfbd48cc1f715, clickElement {id=032770C106DCE68ED9C38A153085EBF7_element_193}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59974/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (3c78bb46f5686271b31bfbd48cc1f715)] -> xpath: //span[text()='Search']]\nSession ID: 3c78bb46f5686271b31bfbd48cc1f715",
+      "time" : {
+        "start" : 1706161104726,
+        "stop" : 1706161294590,
+        "duration" : 189864
+      }
+    }, {
+      "uid" : "bc1bdee9e662688e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706159734831,
+        "stop" : 1706159838385,
+        "duration" : 103554
+      }
+    }, {
+      "uid" : "4231655a0aa29155",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706103527430,
+        "stop" : 1706103624327,
+        "duration" : 96897
+      }
+    }, {
+      "uid" : "583447ff71703609",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706102277239,
+        "stop" : 1706102374748,
+        "duration" : 97509
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c1253992c4b9248.json",
+  "parameterValues" : [ ]
+}

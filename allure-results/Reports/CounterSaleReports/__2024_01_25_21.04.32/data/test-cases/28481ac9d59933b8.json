@@ -1,0 +1,220 @@
+{
+  "uid" : "28481ac9d59933b8",
+  "name" : "Test_006 add part number and core part in counter sale",
+  "fullName" : "tests.parts.CounterSale.add_parts_in_counter_sale",
+  "historyId" : "d2fae9d239cc7c86422194d64634dd3e",
+  "time" : {
+    "start" : 1706196543153,
+    "stop" : 1706196688153,
+    "duration" : 145000
+  },
+  "description" : "Test Description: add part number and core part in counter sale",
+  "descriptionHtml" : "<p>Test Description: add part number and core part in counter sale</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706196100791,
+      "stop" : 1706196173576,
+      "duration" : 72785
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: add part number and core part in counter sale",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d0043d24bb4512cc",
+      "name" : "Page Screenshot",
+      "source" : "d0043d24bb4512cc.png",
+      "type" : "image/png",
+      "size" : 103225
+    }, {
+      "uid" : "d2056083b03f4537",
+      "name" : "Page Screenshot",
+      "source" : "d2056083b03f4537.png",
+      "type" : "image/png",
+      "size" : 91767
+    }, {
+      "uid" : "136763c2662c52b3",
+      "name" : "Page Screenshot",
+      "source" : "136763c2662c52b3.png",
+      "type" : "image/png",
+      "size" : 98714
+    }, {
+      "uid" : "da2e16c66aaa4aa0",
+      "name" : "Page Screenshot",
+      "source" : "da2e16c66aaa4aa0.png",
+      "type" : "image/png",
+      "size" : 106432
+    }, {
+      "uid" : "ceaf4d091549d6e0",
+      "name" : "Page Screenshot",
+      "source" : "ceaf4d091549d6e0.png",
+      "type" : "image/png",
+      "size" : 106432
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706196688156,
+      "stop" : 1706196688284,
+      "duration" : 128
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2d604882c5a7147",
+      "name" : "Page Screenshot",
+      "source" : "e2d604882c5a7147.png",
+      "type" : "image/png",
+      "size" : 106432
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_parts_in_counter_sale"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "14988@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "abb6abd3824bdfe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706195332569,
+        "stop" : 1706195478594,
+        "duration" : 146025
+      }
+    }, {
+      "uid" : "1ac61e24d44e45bd",
+      "status" : "broken",
+      "statusDetails" : "Keys to send should be a not null CharSequence",
+      "time" : {
+        "start" : 1706194546514,
+        "stop" : 1706194552768,
+        "duration" : 6254
+      }
+    }, {
+      "uid" : "81e0f10df810c959",
+      "status" : "broken",
+      "statusDetails" : "Keys to send should be a not null CharSequence",
+      "time" : {
+        "start" : 1706193814188,
+        "stop" : 1706193816428,
+        "duration" : 2240
+      }
+    }, {
+      "uid" : "5cf9774aaaa5d2d",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [109815eeed6eb788f1cfd6440cb79540, clearElement {id=2F1761DF26D4B640033714E87F28B962_element_726}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58468}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58468/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (109815eeed6eb788f1cfd6440cb79540)] -> xpath: //input[contains(@id,':val00::content')]]\nSession ID: 109815eeed6eb788f1cfd6440cb79540",
+      "time" : {
+        "start" : 1706193113648,
+        "stop" : 1706193223521,
+        "duration" : 109873
+      }
+    }, {
+      "uid" : "ba40aaaea36732cb",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[contains(text(),'Search and Select Parts')]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [60be3b4bebc71738ce5257e8992e0fa4, findElement {using=xpath, value=//h1[contains(text(),'Search and Select Parts')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56745}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56745/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 60be3b4bebc71738ce5257e8992e0fa4",
+      "time" : {
+        "start" : 1706190234659,
+        "stop" : 1706190253470,
+        "duration" : 18811
+      }
+    }, {
+      "uid" : "ed5cce2ae76a435d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[contains(text(),'Search and Select Parts')]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [754ee3beb682d98dab00d1c0631653f8, findElement {using=xpath, value=//h1[contains(text(),'Search and Select Parts')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56474/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 754ee3beb682d98dab00d1c0631653f8",
+      "time" : {
+        "start" : 1706188784814,
+        "stop" : 1706188803583,
+        "duration" : 18769
+      }
+    }, {
+      "uid" : "fc2f6513e59175fd",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[contains(text(),'Search and Select Parts')]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2958081df1eb5f62c795cc887482afcd, findElement {using=xpath, value=//h1[contains(text(),'Search and Select Parts')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56101/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2958081df1eb5f62c795cc887482afcd",
+      "time" : {
+        "start" : 1706188165977,
+        "stop" : 1706188191154,
+        "duration" : 25177
+      }
+    }, {
+      "uid" : "a45abfebd6b15f0f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[contains(text(),'Search and Select Parts')]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [eb51445132bb1d569c1aa4f80c392224, findElement {using=xpath, value=//h1[contains(text(),'Search and Select Parts')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50311/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: eb51445132bb1d569c1aa4f80c392224",
+      "time" : {
+        "start" : 1706187119446,
+        "stop" : 1706187148322,
+        "duration" : 28876
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28481ac9d59933b8.json",
+  "parameterValues" : [ ]
+}

@@ -846,7 +846,7 @@ public class SubmitAnEstimateServiceManager extends TestDriverActions {
         WebElementActions.getActions().clickUsingJS(btn_signOut);
         TestListener.saveScreenshotPNG(driver);
     }
-    /**click on USername*/
+    /**click on USername Testarea*/
     public void clickUsername () throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(inputbox_Username);

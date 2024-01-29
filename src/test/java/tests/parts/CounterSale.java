@@ -18,7 +18,7 @@ public class CounterSale extends TestDriverActions {
     @Test(priority=0 , description = "Test_001 Login the page and Go to counterSaleManager")
     @Description("Test Description : Login the page and Go to counterSaleManager")
     public void goto_countersaleManager_screen() throws FileNotFoundException, InterruptedException {
-        loginPage.loginWithValidCredentials(appProp.getProperty("username"), appProp.getProperty("password") );
+        loginPage.loginWithValidCredentials(appProp.getProperty("username"),appProp.getProperty("password") );
         counter.gotoCounterSaleManagerScreen();
 
     }

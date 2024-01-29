@@ -1,0 +1,29 @@
+# Created on 2024-01-25T13:00:17.071
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created on 2024-01-25T13:00:33.030
+Unexpected IOException with stream: Loader is not visible
+
+
+# Created on 2024-01-25T13:00:41.226
+Unexpected IOException with stream: Methodverify_counter_sale_page Pass
+
+
+# Created on 2024-01-25T13:00:41.227
+Unexpected IOException with stream: Screen captured for test case : verify_counter_sale_page:Pass
+
+
+# Created on 2024-01-25T13:00:41.384
+Unexpected IOException: 6,1,tests.parts.CounterSale,verify_counter_sale_page(tests.parts.CounterSale),null,null,null
+
+
+# Created on 2024-01-25T13:00:41.544
+Unexpected IOException: 5,1,tests.parts.CounterSale,add_parts_in_counter_sale(tests.parts.CounterSale),tests.parts.CounterSale,null,null
+
+

@@ -1,0 +1,134 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.parts.Spotorderparts",
+        "children" : [ {
+          "name" : "Test_001 Login to the page and go to Order Part screen ",
+          "uid" : "6000d1fabb2a48a1",
+          "parentUid" : "b4b48a4f689bdb863597e16b98f0c586",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706182449444,
+            "stop" : 1706182509644,
+            "duration" : 60200
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002 click On The Spot order Tab ",
+          "uid" : "e76380e6009439fc",
+          "parentUid" : "b4b48a4f689bdb863597e16b98f0c586",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706182510178,
+            "stop" : 1706182580644,
+            "duration" : 70466
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003  input Partial Part Number ",
+          "uid" : "d6668010981e64e0",
+          "parentUid" : "b4b48a4f689bdb863597e16b98f0c586",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706182580847,
+            "stop" : 1706182631018,
+            "duration" : 50171
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004 click On Add Button ",
+          "uid" : "af1383000c80710",
+          "parentUid" : "b4b48a4f689bdb863597e16b98f0c586",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706182631218,
+            "stop" : 1706182726912,
+            "duration" : 95694
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005 verify Search Part Description ",
+          "uid" : "dcea348602d67c6a",
+          "parentUid" : "b4b48a4f689bdb863597e16b98f0c586",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706182727131,
+            "stop" : 1706182951464,
+            "duration" : 224333
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_006 input Core Parent Part and sign out  ",
+          "uid" : "279516f51d648e30",
+          "parentUid" : "b4b48a4f689bdb863597e16b98f0c586",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706182951660,
+            "stop" : 1706183123389,
+            "duration" : 171729
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_007 verify PO  ",
+          "uid" : "9dacd33d0b412db9",
+          "parentUid" : "b4b48a4f689bdb863597e16b98f0c586",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706183123605,
+            "stop" : 1706183252024,
+            "duration" : 128419
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_008 verify Required Part  ",
+          "uid" : "f1844200b7d447cc",
+          "parentUid" : "b4b48a4f689bdb863597e16b98f0c586",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706183252242,
+            "stop" : 1706183413414,
+            "duration" : 161172
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_009 verify Warehouse Text ",
+          "uid" : "6ba5bc62e5116806",
+          "parentUid" : "b4b48a4f689bdb863597e16b98f0c586",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706183413646,
+            "stop" : 1706183589948,
+            "duration" : 176302
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b4b48a4f689bdb863597e16b98f0c586"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

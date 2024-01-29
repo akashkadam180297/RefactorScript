@@ -1,0 +1,326 @@
+{
+  "uid" : "4f5498a91ca8bf88",
+  "name" : "Test_005 verify counter sale page",
+  "fullName" : "tests.parts.CounterSale.verify_counter_sale_page",
+  "historyId" : "4a4e171637c43ed32c4352a191bd4293",
+  "time" : {
+    "start" : 1706179081762,
+    "stop" : 1706179115879,
+    "duration" : 34117
+  },
+  "description" : "Test Description: verify counter sale page ",
+  "descriptionHtml" : "<p>Test Description: verify counter sale page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706178727273,
+      "stop" : 1706178793029,
+      "duration" : 65756
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: verify counter sale page ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69d3414ffe04477a",
+      "name" : "Page Screenshot",
+      "source" : "69d3414ffe04477a.png",
+      "type" : "image/png",
+      "size" : 95666
+    }, {
+      "uid" : "ef5b4edff22d11f6",
+      "name" : "Page Screenshot",
+      "source" : "ef5b4edff22d11f6.png",
+      "type" : "image/png",
+      "size" : 95666
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706179115881,
+      "stop" : 1706179116006,
+      "duration" : 125
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f165d5f4af155685",
+      "name" : "Page Screenshot",
+      "source" : "f165d5f4af155685.png",
+      "type" : "image/png",
+      "size" : 95666
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "generateAllure",
+    "time" : {
+      "start" : 1706179313790,
+      "stop" : 1706179313791,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "java.lang.NullPointerException",
+    "statusTrace" : "java.lang.NullPointerException\r\n\tat java.base/java.io.File.<init>(File.java:278)\r\n\tat tests.TestDriverActions.generateAllure(TestDriverActions.java:477)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify_counter_sale_page"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "8740@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4a52a1194536a76e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706177431327,
+        "stop" : 1706177465742,
+        "duration" : 34415
+      }
+    }, {
+      "uid" : "d34e0ba66d21660d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706175827830,
+        "stop" : 1706175864012,
+        "duration" : 36182
+      }
+    }, {
+      "uid" : "c7ba8a762a30fa22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706175080390,
+        "stop" : 1706175115858,
+        "duration" : 35468
+      }
+    }, {
+      "uid" : "adb2fd06806073c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706172844520,
+        "stop" : 1706172879830,
+        "duration" : 35310
+      }
+    }, {
+      "uid" : "9e03ae0020b01a32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706171421853,
+        "stop" : 1706171456336,
+        "duration" : 34483
+      }
+    }, {
+      "uid" : "12cc54e6d4a88d05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706170644964,
+        "stop" : 1706170679116,
+        "duration" : 34152
+      }
+    }, {
+      "uid" : "992665da51ddff4c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1706170274490,
+        "stop" : 1706170274490,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c928f8307483f7a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706169785224,
+        "stop" : 1706169819449,
+        "duration" : 34225
+      }
+    }, {
+      "uid" : "aa08c803ddf7a3a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706169043713,
+        "stop" : 1706169077839,
+        "duration" : 34126
+      }
+    }, {
+      "uid" : "19eb282516eb16ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706168543272,
+        "stop" : 1706168577455,
+        "duration" : 34183
+      }
+    }, {
+      "uid" : "19f4aaf6770d0a29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706167805537,
+        "stop" : 1706167841384,
+        "duration" : 35847
+      }
+    }, {
+      "uid" : "a334bcdf9076a8a5",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-afr-tlen=\"10\" id=\"reg3:0:pte1:t1:0:cl7\" class=\"xgn\" onclick=\"this.focus();return false;\" data-afr-fcs=\"true\" href=\"#\" tabindex=\"-1\">...</a> is not clickable at point (452, 230). Other element would receive the click: <td style=\"width:100%\">...</td>\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e9d204b62f0f9ef5e5cb73f59a68cbec, clickElement {id=AB3583D0F0A5DA4583935ADE935ABF41_element_318}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55624}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55624/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (e9d204b62f0f9ef5e5cb73f59a68cbec)] -> xpath: //span[text()='Customer']/following::a[4]]\nSession ID: e9d204b62f0f9ef5e5cb73f59a68cbec",
+      "time" : {
+        "start" : 1706167291625,
+        "stop" : 1706167318317,
+        "duration" : 26692
+      }
+    }, {
+      "uid" : "4c76cb29777cdefe",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1706167087255,
+        "stop" : 1706167087258,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "9c3332012faf8b8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706166598435,
+        "stop" : 1706166632720,
+        "duration" : 34285
+      }
+    }, {
+      "uid" : "c8e8f20f218bf05d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706165885332,
+        "stop" : 1706165919422,
+        "duration" : 34090
+      }
+    }, {
+      "uid" : "17751140d024dd46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706165125272,
+        "stop" : 1706165159847,
+        "duration" : 34575
+      }
+    }, {
+      "uid" : "cea948a8e9e427b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706164372816,
+        "stop" : 1706164407283,
+        "duration" : 34467
+      }
+    }, {
+      "uid" : "289bffc4712b8934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706162616117,
+        "stop" : 1706162651595,
+        "duration" : 35478
+      }
+    }, {
+      "uid" : "1495bb4b4d2608e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706161639478,
+        "stop" : 1706161674535,
+        "duration" : 35057
+      }
+    }, {
+      "uid" : "7e4b3bde0c985f27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706159933206,
+        "stop" : 1706159967384,
+        "duration" : 34178
+      }
+    }, {
+      "uid" : "49f3de57c2f3075f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706103715390,
+        "stop" : 1706103747558,
+        "duration" : 32168
+      }
+    }, {
+      "uid" : "642a642fe7a54285",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706102465975,
+        "stop" : 1706102498147,
+        "duration" : 32172
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f5498a91ca8bf88.json",
+  "parameterValues" : [ ]
+}

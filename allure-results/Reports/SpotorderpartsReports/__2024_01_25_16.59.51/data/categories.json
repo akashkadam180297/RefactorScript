@@ -1,0 +1,179 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//table[@class='af_menuBar_items']//table//td//a[text()='Financials']\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f9699713fcc6f178ef7f33f229033f0f, findElement {using=xpath, value=//table[@class='af_menuBar_items']//table//td//a[text()='Financials']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50904}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50904/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f9699713fcc6f178ef7f33f229033f0f",
+      "children" : [ {
+        "name" : "Test_001_Login the page and Go to Financials ",
+        "uid" : "b91de990f79e2825",
+        "parentUid" : "cde2607fa494cc5c9da0fde0de595ac9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705987318908,
+          "stop" : 1705987347339,
+          "duration" : 28431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cde2607fa494cc5c9da0fde0de595ac9"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@id,':1:tWAP:1:cRTWAP1')]//img\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9807b8f150a5cb9c384e637444ef4760, findElement {using=xpath, value=//a[contains(@id,':1:tWAP:1:cRTWAP1')]//img}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62664}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62664/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9807b8f150a5cb9c384e637444ef4760",
+      "children" : [ {
+        "name" : "T_005 Verify part added , click on cross button and delete the part",
+        "uid" : "70202e9a7bc9da2c",
+        "parentUid" : "f134c4f7de10cecc0d72b907cb6349e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706099272837,
+          "stop" : 1706099363528,
+          "duration" : 90691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f134c4f7de10cecc0d72b907cb6349e9"
+    }, {
+      "name" : "Index 0 out of bounds for length 0",
+      "children" : [ {
+        "name" : "T_010 click on Labour and click on VMRS",
+        "uid" : "b53d58ff3c6e1d7e",
+        "parentUid" : "cd678efc9459eb5fa08af3c540cca518",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706099497519,
+          "stop" : 1706099529842,
+          "duration" : 32323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_012 Click on FirstLaborItem and Select and Ok button",
+        "uid" : "be4fbec907726b84",
+        "parentUid" : "cd678efc9459eb5fa08af3c540cca518",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706099530000,
+          "stop" : 1706099540070,
+          "duration" : 10070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd678efc9459eb5fa08af3c540cca518"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [25af056bdc8ef17d65d5fa2230a342ff, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55447/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 25af056bdc8ef17d65d5fa2230a342ff",
+      "children" : [ {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "751818d821d87296",
+        "parentUid" : "b83904751cff1783ffff95c3475a6530",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706167087405,
+          "stop" : 1706167087405,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b83904751cff1783ffff95c3475a6530"
+    }, {
+      "name" : "element not interactable\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4b2957e270c716d0dc20d6efc0df5cec, clickElement {id=F45B1A5A337DE47F1705C582B42C5E68_element_12}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58260/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (4b2957e270c716d0dc20d6efc0df5cec)] -> xpath: //img[contains(@src,'flag-en_CA')]]\nSession ID: 4b2957e270c716d0dc20d6efc0df5cec",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "fef70ef2bfeb0e34",
+        "parentUid" : "9a350c03415a53d2b0f47d8af8c2c537",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706170273717,
+          "stop" : 1706170273719,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a350c03415a53d2b0f47d8af8c2c537"
+    }, {
+      "name" : "Cannot invoke \"java.util.Properties.getProperty(String)\" because \"pages.parts.CounterSalePage.prop\" is null",
+      "children" : [ {
+        "name" : "Test_006 add part number and core part in counter sale",
+        "uid" : "e9be90075c55567d",
+        "parentUid" : "2d748c51290e00344c8638f59b6dda5f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706179116011,
+          "stop" : 1706179140908,
+          "duration" : 24897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d748c51290e00344c8638f59b6dda5f"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//label[text()='Lost Sale Reason:']/following::a[1]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.160.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f3cf3facf8ce82d1944de50de7eae0b5, findElement {using=xpath, value=//label[text()='Lost Sale Reason:']/following::a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64866/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f3cf3facf8ce82d1944de50de7eae0b5",
+      "children" : [ {
+        "name" : "Test_007 check invoice and signout",
+        "uid" : "aae7a183cb0b9b7c",
+        "parentUid" : "b07c47076bd841b3933acc67205f34b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706179141050,
+          "stop" : 1706179313586,
+          "duration" : 172536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b07c47076bd841b3933acc67205f34b3"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "generateAllure",
+        "uid" : "2b1b323bf92e34ec",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706179313794,
+          "stop" : 1706179313794,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "T_008 click on Non-Catalog Part and enter the value",
+        "uid" : "453fdde8dd34d71",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706099363859,
+          "stop" : 1706099390295,
+          "duration" : 26436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

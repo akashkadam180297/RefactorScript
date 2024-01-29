@@ -1,24 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.parts.CounterSale
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 507.404 s <<< FAILURE! - in tests.parts.CounterSale
-add_parts_in_counter_sale(tests.parts.CounterSale)  Time elapsed: 22.258 s  <<< FAILURE!
-java.lang.NullPointerException
-	at tests.parts.CounterSale.add_parts_in_counter_sale(CounterSale.java:59)
-
-check_invoice_and_signout(tests.parts.CounterSale)  Time elapsed: 172.59 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Lost Sale Reason:']/following::a[1]"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [12a0a3280d148f273f60a14e9442a2c4, findElement {using=xpath, value=//label[text()='Lost Sale Reason:']/following::a[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58294}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58294/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 12a0a3280d148f273f60a14e9442a2c4
-	at tests.parts.CounterSale.check_invoice_and_signout(CounterSale.java:71)
-
-generateAllure(tests.parts.CounterSale)  Time elapsed: 172.704 s  <<< FAILURE!
-java.lang.NullPointerException
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 802.481 s - in tests.parts.CounterSale

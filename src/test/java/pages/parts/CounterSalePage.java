@@ -1,6 +1,7 @@
 
 package pages.parts;
 
+import actions.LoginActions;
 import actions.ReusableActions;
 import actions.WaitActions;
 import actions.WebElementActions;
@@ -318,9 +319,9 @@ public class CounterSalePage extends TestDriverActions {
     @FindBy(xpath = "//label[text()='Part#:']/following::input[1]")
     WebElement txt_parts_field;
 
-    @FindBy(xpath = "//ul[@class='AFAutoSuggestItemsContainer']/li")
+    @FindBy(xpath =  "//li[contains(@class,'AFAutoSuggestItem')]")
     WebElement tooltip_parts_customer;
-    @FindBy(xpath = "(//ul[@class='AFAutoSuggestItemsContainer']/li)[1]")
+    @FindBy(xpath = "//ul[@class='AFAutoSuggestItemsContainer']/li")
     WebElement tooltip_parts_core;
 
     @FindBy(xpath = "//label[text()='Quantity:']")
@@ -476,6 +477,9 @@ public class CounterSalePage extends TestDriverActions {
     @FindBy(xpath = "//a[text()='Delivery ']")
     WebElement label_delivery;
 
+    @FindBy(xpath = "//a[contains(text(),'Non-stock item')]")
+    WebElement NonStockItem;
+
     @FindBy(xpath = "//label[text()='Internal PO#:']/following::a[1]")
     WebElement hyperlink_taxes;
 
@@ -491,6 +495,20 @@ public class CounterSalePage extends TestDriverActions {
 
     @FindBy(xpath="(//span[contains(text(),'Cancel')])[1]")
     WebElement cancle_corepart;
+
+    @FindBy(xpath = "//input[contains(@id,':val00::content')]")
+    WebElement PartTextArea;
+
+    @FindBy(xpath = "//span[contains(text(),'Search')]")
+    WebElement Search1;
+
+    @FindBy(xpath = "(//span[contains(text(),'Select')])[1]")
+    WebElement Select1;
+
+
+
+    @FindBy(xpath = "//h1[contains(text(),'Search and Select Parts')]")
+    public WebElement SearchandSelect;
 
     @FindBy(xpath="//label[text()='Sale#:']/following::td[1]/span")
     WebElement saleNumber;
@@ -775,27 +793,24 @@ public class CounterSalePage extends TestDriverActions {
      */
     public void addPart() throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_parts_field);
-        txt_parts_field.sendKeys(appProp.getProperty("PartNumber"));
         Thread.sleep(3000);
+        txt_parts_field.sendKeys(appProp.getProperty("PartNumber"));
         WebElementActions.getActions().clickElement(tooltip_parts_customer);
         txt_parts_field.clear();
         Thread.sleep(3000);
-        WebElementActions.getActions().inputText(txt_parts_field, prop.getProperty("PartNumber"));
-        Thread.sleep(5000);
-        WebElementActions.getActions().clickElement(tooltip_parts_customer);
+        WebElementActions.getActions().inputText(txt_parts_field, appProp.getProperty("PartNumber"));
 
         WaitActions.getWaits().loadingWait(loder);
 
         TestListener.saveScreenshotPNG(driver);
+        }
 
-    }
 
     /**
      * verify the note
      * click on close button
      */
     public void notes() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_notes2);
         Assert.assertTrue(label_notes2.isDisplayed());
         Assert.assertTrue(hyperlink_ThesearePartNote.isDisplayed());
@@ -808,7 +823,7 @@ public class CounterSalePage extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_popupNotes);
         Assert.assertTrue(label_popupNotes.isDisplayed());
 
-//        WaitActions.getWaits().waitForElementTobeClickable(btn_close);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_close);
         WebElementActions.getActions().clickElement(btn_close);
 
@@ -822,8 +837,9 @@ public class CounterSalePage extends TestDriverActions {
      * click on add parts button
      */
     public void clickOnaddParts() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_addParts);
-        WebElementActions.getActions().clickElement(btn_addParts);
+        WebElementActions.getActions().clickUsingJS(btn_addParts);
 
         WaitActions.getWaits().loadingWait(loder);
 
@@ -836,53 +852,48 @@ public class CounterSalePage extends TestDriverActions {
      * click on cross icon and delete icon
      */
     public void addCorePart() throws InterruptedException {
+        if (LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_parts_field);
+            txt_parts_field.sendKeys(appProp.getProperty("CoreParentPart"));
+            WebElementActions.getActions().clickElement(tooltip_parts_core);
+            Thread.sleep(2000);
+            txt_parts_field.clear();
 
-
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_parts_field);
-        Thread.sleep(3000);
-        txt_parts_field.sendKeys(appProp.getProperty("CoreParentPart"));
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(tooltip_parts_core);
-        WebElementActions.getActions().clickElement(tooltip_parts_core);
-        Thread.sleep(2000);
-        txt_parts_field.clear();
-
-        //       WaitActions.getWaits().loadingWait(loder);
+            //       WaitActions.getWaits().loadingWait(loder);
 
 //        WaitActions.getWaits().waitForElementTobeClickable(cancle_corepart);
 //        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(cancle_corepart);
 //        WebElementActions.getActions().clickElement(cancle_corepart);
 
-        WebElementActions.getActions().inputText(txt_parts_field, appProp.getProperty("CoreParentPart"));
-        Thread.sleep(5000);
-        WebElementActions.getActions().clickElement(tooltip_parts_core);
+            WebElementActions.getActions().inputText(txt_parts_field,appProp.getProperty("CoreParentPart"));
+            Thread.sleep(3000);
+            WebElementActions.getActions().clickElement(tooltip_parts_core);
 
-//        WaitActions.getWaits().WaitUntilWebElementIsVisible(chekbox_coreReturn);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(chekbox_coreReturn);
-        Assert.assertTrue(chekbox_coreReturn.isDisplayed());
 
-//        WaitActions.getWaits().WaitUntilWebElementIsVisible(btn_coreReturn);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_coreReturn);
-        Assert.assertTrue(btn_coreReturn.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(chekbox_coreReturn);
+            Assert.assertTrue(chekbox_coreReturn.isDisplayed());
 
-        Thread.sleep(2000);
-//        WaitActions.getWaits().waitForElementTobeClickable(btn_coreReturn);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_coreReturn);
-        WebElementActions.getActions().clickElement(btn_coreReturn);
 
-        Thread.sleep(2000);
-//        WaitActions.getWaits().waitForElementTobeClickable(cross_icon);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(cross_icon);
-        WebElementActions.getActions().clickElement(cross_icon);
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_coreReturn);
+            Assert.assertTrue(btn_coreReturn.isDisplayed());
 
-        Thread.sleep(2000);
-//        WaitActions.getWaits().waitForElementTobeClickable(delete_icon);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(delete_icon);
-        WebElementActions.getActions().clickElement(delete_icon);
 
-        WaitActions.getWaits().loadingWait(loder);
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_coreReturn);
+            WebElementActions.getActions().clickElement(btn_coreReturn);
 
-        TestListener.saveScreenshotPNG(driver);
 
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(cross_icon);
+            WebElementActions.getActions().clickElement(cross_icon);
+
+
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(delete_icon);
+            WebElementActions.getActions().clickElement(delete_icon);
+
+            WaitActions.getWaits().loadingWait(loder);
+
+            TestListener.saveScreenshotPNG(driver);
+
+        }
     }
 
     /**
@@ -891,13 +902,15 @@ public class CounterSalePage extends TestDriverActions {
      * expand the element
      */
     public void addQtyAndExpand() throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(add_quantity);
         WebElementActions.getActions().inputText(add_quantity, appProp.getProperty("add"));
-        Thread.sleep(2000);
+        WaitActions.getWaits().loadingWait(loder);
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_chargeQty);
         WebElementActions.getActions().clickElement(label_chargeQty);
-        Thread.sleep(2000);
+
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(expand_icon);
         WebElementActions.getActions().clickElement(expand_icon);
 
@@ -920,10 +933,9 @@ public class CounterSalePage extends TestDriverActions {
 
         WaitActions.getWaits().loadingWait(loder);
 
-//        WaitActions.getWaits().WaitUntilWebElementIsVisible(title_lostSaleReason);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(title_lostSaleReason);
         Assert.assertTrue(title_lostSaleReason.isDisplayed());
-//        WaitActions.getWaits().WaitUntilWebElementIsVisible(lostSaleReason_asterisk);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(lostSaleReason_asterisk);
         Assert.assertTrue(lostSaleReason_asterisk.isDisplayed());
         Assert.assertTrue(label_lostSaleReason.isDisplayed());
@@ -932,18 +944,28 @@ public class CounterSalePage extends TestDriverActions {
         Assert.assertTrue(btn_cancle.isDisplayed());
         Assert.assertTrue(btn_saveExitLost.isDisplayed());
 
-//        WaitActions.getWaits().WaitUntilWebElementIsVisible(opt_delivery);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(opt_delivery);
-        WebElementActions.getActions().elementSelectByVisibilityText(opt_delivery, "Delivery");
+        if(LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(opt_delivery);
+            WebElementActions.getActions().elementSelectByVisibilityText(opt_delivery, "Delivery");
+        }
+        if(LoginActions.environmentName.contains("NA")){
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(opt_delivery);
+            WebElementActions.getActions().elementSelectByVisibilityText(opt_delivery,"Non-stock item");
+        }
 
-//        WaitActions.getWaits().waitForElementTobeClickable(btn_saveExitLost);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_saveExitLost);
         WebElementActions.getActions().clickElement(btn_saveExitLost);
 
-//        WaitActions.getWaits().WaitUntilWebElementIsVisible(label_delivery);
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_delivery);
-        Assert.assertTrue(label_delivery.isDisplayed());
-
+          if(LoginActions.environmentName.contains("QA")) {
+              WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_delivery);
+              Assert.assertTrue(label_delivery.isDisplayed());
+          }
+          if(LoginActions.environmentName.contains("NA")){
+              WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(NonStockItem);
+              Assert.assertTrue(NonStockItem.isDisplayed());
+          }
+          WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
     }
 
@@ -953,19 +975,17 @@ public class CounterSalePage extends TestDriverActions {
      * click on Ok button
      */
     public void clickOnTaxexhyperlink() throws InterruptedException {
-//        WaitActions.getWaits().waitForElementTobeClickable(hyperlink_taxes);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(hyperlink_taxes);
         WebElementActions.getActions().clickElement(hyperlink_taxes);
 
         WaitActions.getWaits().loadingWait(loder);
 
-//        WaitActions.getWaits().waitForElementTobeClickable(greenPlus_icon);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(greenPlus_icon);
         WebElementActions.getActions().clickElement(greenPlus_icon);
 
         WaitActions.getWaits().loadingWait(loder);
 
-//        WaitActions.getWaits().waitForElementTobeClickable(btn_taxesOk);
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_taxesOk);
         WebElementActions.getActions().clickElement(btn_taxesOk);
 
@@ -980,8 +1000,7 @@ public class CounterSalePage extends TestDriverActions {
      */
     public void invoiceNow() throws InterruptedException {
 
-//        WaitActions.getWaits().waitForElementTobeClickable(btn_invoice);
-//        Thread.sleep(2000);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_invoice);
         WebElementActions.getActions().clickElement(btn_invoice);
 
@@ -1029,12 +1048,12 @@ public class CounterSalePage extends TestDriverActions {
      * verify username
      */
     public void clickOnSignOut () throws InterruptedException {
-        //           WaitActions.getWaits().waitForElementTobeClickable(btn_signOut);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_signOut);
         Thread.sleep(3000);
         WebElementActions.getActions().clickUsingJS(btn_signOut);
 
-//            WaitActions.getWaits().WaitUntilWebElementIsVisible(inputbox_Username);
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(inputbox_Username);
         Assert.assertTrue(inputbox_Username.isDisplayed());
 
@@ -1043,10 +1062,6 @@ public class CounterSalePage extends TestDriverActions {
 
 
 }
-
-
-
-
 
 
 

@@ -1,0 +1,209 @@
+{
+  "uid" : "91285205a1f72e1e",
+  "name" : "Test_003 click on add new counter sale",
+  "fullName" : "tests.parts.CounterSale.add_new_counter_sale",
+  "historyId" : "f47b266b725c89e0000c9a78763aff0c",
+  "time" : {
+    "start" : 1706196305586,
+    "stop" : 1706196406387,
+    "duration" : 100801
+  },
+  "description" : "Test Description : Click on add new counter sale",
+  "descriptionHtml" : "<p>Test Description : Click on add new counter sale</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706196100791,
+      "stop" : 1706196173576,
+      "duration" : 72785
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description : Click on add new counter sale",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5d40f4c2a7e2dd25",
+      "name" : "Page Screenshot",
+      "source" : "5d40f4c2a7e2dd25.png",
+      "type" : "image/png",
+      "size" : 132042
+    }, {
+      "uid" : "88137e5200fd5abf",
+      "name" : "Page Screenshot",
+      "source" : "88137e5200fd5abf.png",
+      "type" : "image/png",
+      "size" : 120133
+    }, {
+      "uid" : "21547c0c43c81713",
+      "name" : "Page Screenshot",
+      "source" : "21547c0c43c81713.png",
+      "type" : "image/png",
+      "size" : 120133
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706196406389,
+      "stop" : 1706196406511,
+      "duration" : 122
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a10b96f44d67368b",
+      "name" : "Page Screenshot",
+      "source" : "a10b96f44d67368b.png",
+      "type" : "image/png",
+      "size" : 120133
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_new_counter_sale"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "14988@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bc6ee6879766cb24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706195102727,
+        "stop" : 1706195204312,
+        "duration" : 101585
+      }
+    }, {
+      "uid" : "587ad015418e1b0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706194311808,
+        "stop" : 1706194413165,
+        "duration" : 101357
+      }
+    }, {
+      "uid" : "96880d3addfac78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706193585244,
+        "stop" : 1706193684605,
+        "duration" : 99361
+      }
+    }, {
+      "uid" : "36e999f71eda4abf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706192883379,
+        "stop" : 1706192985123,
+        "duration" : 101744
+      }
+    }, {
+      "uid" : "eb781e655c20a88b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706190005765,
+        "stop" : 1706190105250,
+        "duration" : 99485
+      }
+    }, {
+      "uid" : "8076f6c91d923c20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706188539992,
+        "stop" : 1706188650366,
+        "duration" : 110374
+      }
+    }, {
+      "uid" : "b93048b743e0b329",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706187936260,
+        "stop" : 1706188036161,
+        "duration" : 99901
+      }
+    }, {
+      "uid" : "5e456b05d9787bef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706187592391,
+        "stop" : 1706187691697,
+        "duration" : 99306
+      }
+    }, {
+      "uid" : "62d65aa5c6aafc1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706186887166,
+        "stop" : 1706186988668,
+        "duration" : 101502
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91285205a1f72e1e.json",
+  "parameterValues" : [ ]
+}

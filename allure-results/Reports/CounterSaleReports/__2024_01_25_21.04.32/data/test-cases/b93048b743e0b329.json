@@ -1,0 +1,119 @@
+{
+  "uid" : "b93048b743e0b329",
+  "name" : "Test_003 click on add new counter sale",
+  "fullName" : "tests.parts.CounterSale.add_new_counter_sale",
+  "historyId" : "f47b266b725c89e0000c9a78763aff0c",
+  "time" : {
+    "start" : 1706187936260,
+    "stop" : 1706188036161,
+    "duration" : 99901
+  },
+  "description" : "Test Description : Click on add new counter sale",
+  "descriptionHtml" : "<p>Test Description : Click on add new counter sale</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description : Click on add new counter sale",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2dbeacdf8b74be2",
+      "name" : "Page Screenshot",
+      "source" : "e2dbeacdf8b74be2.png",
+      "type" : "image/png",
+      "size" : 131916
+    }, {
+      "uid" : "f5ade64fe07ede73",
+      "name" : "Page Screenshot",
+      "source" : "f5ade64fe07ede73.png",
+      "type" : "image/png",
+      "size" : 116307
+    }, {
+      "uid" : "b42d2a1c7c899130",
+      "name" : "Page Screenshot",
+      "source" : "b42d2a1c7c899130.png",
+      "type" : "image/png",
+      "size" : 116280
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706188036164,
+      "stop" : 1706188036322,
+      "duration" : 158
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47f92d579545e5f2",
+      "name" : "Page Screenshot",
+      "source" : "47f92d579545e5f2.png",
+      "type" : "image/png",
+      "size" : 115619
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_new_counter_sale"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "1320@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b93048b743e0b329.json",
+  "parameterValues" : [ ]
+}

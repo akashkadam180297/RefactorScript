@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.Spotorderparts" time="1,158.912" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.Spotorderparts" time="1,246.161" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=tests.parts.Spotorderparts -Denv=EU"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=tests.parts.Spotorderparts -Denv=EC"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="C:\Program Files\apache-maven-3.9.6"/>
     <property name="test" value="tests.parts.Spotorderparts"/>
@@ -50,7 +50,7 @@
     <property name="os.arch" value="amd64"/>
     <property name="maven.multiModuleProjectDirectory" value="F:\NewGitFinal\RefactorScript"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="env" value="EU"/>
+    <property name="env" value="EC"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.6\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\GitHubDesktop\bin;."/>
@@ -62,13 +62,13 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="Test_001_gotoOrderPartsScreen" classname="tests.parts.Spotorderparts" time="42.036"/>
-  <testcase name="Test_002_clickOnSpotOrder" classname="tests.parts.Spotorderparts" time="70.497"/>
-  <testcase name="Test_003_inputPartialPartNumber" classname="tests.parts.Spotorderparts" time="50.214"/>
-  <testcase name="Test_004_clickOnAddButton" classname="tests.parts.Spotorderparts" time="93.275"/>
-  <testcase name="Test_005_verifySearchPartDescription" classname="tests.parts.Spotorderparts" time="222.621"/>
-  <testcase name="Test_006_inputCoreParentPart" classname="tests.parts.Spotorderparts" time="156.043"/>
-  <testcase name="Test_007_verifyPO" classname="tests.parts.Spotorderparts" time="128.551"/>
-  <testcase name="Test_008_verifyRequiredPart" classname="tests.parts.Spotorderparts" time="160.892"/>
-  <testcase name="Test_009_verifyWarehouseText" classname="tests.parts.Spotorderparts" time="174.714"/>
+  <testcase name="Test_001_gotoOrderPartsScreen" classname="tests.parts.Spotorderparts" time="60.278"/>
+  <testcase name="Test_002_clickOnSpotOrder" classname="tests.parts.Spotorderparts" time="70.472"/>
+  <testcase name="Test_003_inputPartialPartNumber" classname="tests.parts.Spotorderparts" time="50.179"/>
+  <testcase name="Test_004_clickOnAddButton" classname="tests.parts.Spotorderparts" time="95.698"/>
+  <testcase name="Test_005_verifySearchPartDescription" classname="tests.parts.Spotorderparts" time="224.34"/>
+  <testcase name="Test_006_inputCoreParentPart" classname="tests.parts.Spotorderparts" time="171.737"/>
+  <testcase name="Test_007_verifyPO" classname="tests.parts.Spotorderparts" time="128.425"/>
+  <testcase name="Test_008_verifyRequiredPart" classname="tests.parts.Spotorderparts" time="161.178"/>
+  <testcase name="Test_009_verifyWarehouseText" classname="tests.parts.Spotorderparts" time="176.305"/>
 </testsuite>

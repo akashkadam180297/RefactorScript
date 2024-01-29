@@ -1,0 +1,125 @@
+{
+  "uid" : "caf6898fe9a8b060",
+  "name" : "Test_002 verify all the elements in the field",
+  "fullName" : "tests.parts.CounterSale.verify_all_fields",
+  "historyId" : "67298149ba382e186c2e545ebcd84a7a",
+  "time" : {
+    "start" : 1706186872512,
+    "stop" : 1706186887026,
+    "duration" : 14514
+  },
+  "description" : "Test Description :  verify all the elements in the field",
+  "descriptionHtml" : "<p>Test Description :  verify all the elements in the field</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description :  verify all the elements in the field",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c187f313cb23e52b",
+      "name" : "Page Screenshot",
+      "source" : "c187f313cb23e52b.png",
+      "type" : "image/png",
+      "size" : 131281
+    }, {
+      "uid" : "4a81d02248aecfc6",
+      "name" : "Page Screenshot",
+      "source" : "4a81d02248aecfc6.png",
+      "type" : "image/png",
+      "size" : 131281
+    }, {
+      "uid" : "65a68cfa845ee953",
+      "name" : "Page Screenshot",
+      "source" : "65a68cfa845ee953.png",
+      "type" : "image/png",
+      "size" : 131307
+    }, {
+      "uid" : "a8e69988c27765bd",
+      "name" : "Page Screenshot",
+      "source" : "a8e69988c27765bd.png",
+      "type" : "image/png",
+      "size" : 131307
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706186887029,
+      "stop" : 1706186887159,
+      "duration" : 130
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb92dd5778412e01",
+      "name" : "Page Screenshot",
+      "source" : "fb92dd5778412e01.png",
+      "type" : "image/png",
+      "size" : 131307
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify_all_fields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "12540@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "caf6898fe9a8b060.json",
+  "parameterValues" : [ ]
+}

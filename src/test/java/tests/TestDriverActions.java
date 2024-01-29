@@ -383,8 +383,8 @@ public class TestDriverActions {
          else if (getClass().getCanonicalName().contains("CreateCustomerTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CreateCustomerTestReports/" + "__" + currentDateTime;
         }
-        else if (getClass().getCanonicalName().contains("CounterSaleTest")) {
-            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CounterSaleManagerTestReports/" + "__" + currentDateTime;
+        else if (getClass().getCanonicalName().contains("CounterSale")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CounterSaleReports/" + "__" + currentDateTime;
         }
         else if (getClass().getCanonicalName().contains("LoginTest")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/LoginTestReports/" + "__" + currentDateTime;
