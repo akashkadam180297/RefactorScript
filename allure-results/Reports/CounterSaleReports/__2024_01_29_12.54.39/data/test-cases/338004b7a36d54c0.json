@@ -1,0 +1,159 @@
+{
+  "uid" : "338004b7a36d54c0",
+  "name" : "Test_002 verify all the elements in the field",
+  "fullName" : "tests.parts.CounterSale.verify_all_fields",
+  "historyId" : "67298149ba382e186c2e545ebcd84a7a",
+  "time" : {
+    "start" : 1706512628707,
+    "stop" : 1706512641593,
+    "duration" : 12886
+  },
+  "description" : "Test Description :  verify all the elements in the field",
+  "descriptionHtml" : "<p>Test Description :  verify all the elements in the field</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706512544790,
+      "stop" : 1706512585128,
+      "duration" : 40338
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description :  verify all the elements in the field",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a810fe4877dc6cbf",
+      "name" : "Page Screenshot",
+      "source" : "a810fe4877dc6cbf.png",
+      "type" : "image/png",
+      "size" : 132439
+    }, {
+      "uid" : "ea5083fc21460d17",
+      "name" : "Page Screenshot",
+      "source" : "ea5083fc21460d17.png",
+      "type" : "image/png",
+      "size" : 132439
+    }, {
+      "uid" : "c4a7445db9a205ce",
+      "name" : "Page Screenshot",
+      "source" : "c4a7445db9a205ce.png",
+      "type" : "image/png",
+      "size" : 132439
+    }, {
+      "uid" : "b915805cb841dbe3",
+      "name" : "Page Screenshot",
+      "source" : "b915805cb841dbe3.png",
+      "type" : "image/png",
+      "size" : 132439
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706512641598,
+      "stop" : 1706512641661,
+      "duration" : 63
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "98bd4db296139ca3",
+      "name" : "Page Screenshot",
+      "source" : "98bd4db296139ca3.png",
+      "type" : "image/png",
+      "size" : 132439
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify_all_fields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "6232@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "16c2dec4c5f2cc99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706510370735,
+        "stop" : 1706510383691,
+        "duration" : 12956
+      }
+    }, {
+      "uid" : "d6816f3986380a3b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1706510147676,
+        "stop" : 1706510147676,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "338004b7a36d54c0.json",
+  "parameterValues" : [ ]
+}

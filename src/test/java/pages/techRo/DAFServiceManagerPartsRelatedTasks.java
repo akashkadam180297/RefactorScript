@@ -566,7 +566,7 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_StoreText);
         Assert.assertTrue(label_StoreText.isDisplayed());
 
-        if (LoginActions.environmentName.contains("EU")) {
+        if (LoginActions.environmentName.contains("EU")||LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_ChargeQuantityTextArea);
             WebElementActions.getActions().inputText(label_ChargeQuantityTextArea, appProp.getProperty("Two"));
         }
@@ -595,13 +595,12 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
      * type Unit charges value
      */
     public void typeUnitChargeValue() throws InterruptedException {
-        if (LoginActions.environmentName.contains("EU")||LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_UnitChargeTextBox);
             WebElementActions.getActions().inputText(txt_UnitChargeTextBox, appProp.getProperty("UnitChargeValue"));
             WaitActions.getWaits().loadingWait(loder);
 
         }
-    }
+
 
     /**
      * click On Charge Quantity

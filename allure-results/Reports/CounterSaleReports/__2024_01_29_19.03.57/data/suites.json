@@ -1,0 +1,108 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.parts.CounterSale",
+        "children" : [ {
+          "name" : "Test_001 Login the page and Go to counterSaleManager",
+          "uid" : "2c4b93b75f15151f",
+          "parentUid" : "5f8ab0d4d144b5f8f44e62d6f61d00da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706534618686,
+            "stop" : 1706534664495,
+            "duration" : 45809
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002 verify all the elements in the field",
+          "uid" : "c7a560e0e0a7d728",
+          "parentUid" : "5f8ab0d4d144b5f8f44e62d6f61d00da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706534664618,
+            "stop" : 1706534677557,
+            "duration" : 12939
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003 click on add new counter sale",
+          "uid" : "a8aa7d0e767c594a",
+          "parentUid" : "5f8ab0d4d144b5f8f44e62d6f61d00da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706534677624,
+            "stop" : 1706534778804,
+            "duration" : 101180
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004 verify location pop up",
+          "uid" : "c445cddf9fd39e22",
+          "parentUid" : "5f8ab0d4d144b5f8f44e62d6f61d00da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706534778880,
+            "stop" : 1706534870290,
+            "duration" : 91410
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005 verify counter sale page",
+          "uid" : "d28d01486b59408",
+          "parentUid" : "5f8ab0d4d144b5f8f44e62d6f61d00da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706534870370,
+            "stop" : 1706534902527,
+            "duration" : 32157
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_006 add part number and core part in counter sale",
+          "uid" : "90cbb7af14f40170",
+          "parentUid" : "5f8ab0d4d144b5f8f44e62d6f61d00da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706534902608,
+            "stop" : 1706535034297,
+            "duration" : 131689
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_007 check invoice and signout",
+          "uid" : "cd2faf9b67cbe0a3",
+          "parentUid" : "5f8ab0d4d144b5f8f44e62d6f61d00da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706535034354,
+            "stop" : 1706535237703,
+            "duration" : 203349
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5f8ab0d4d144b5f8f44e62d6f61d00da"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "F:\\GithubFinal\\RefactorScript\\src\\test\\java\\utils\\issueparttotech\\issueparttotechNA.properties (The system cannot find the file specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "94aa80d0cf800baa",
+        "parentUid" : "2a74078bc280a2ac77e8db932c5a9196",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706508317995,
+          "stop" : 1706508317996,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2a74078bc280a2ac77e8db932c5a9196"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "generateAllure",
+        "uid" : "2e95875cc400826f",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706508319825,
+          "stop" : 1706508319825,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "46fc564e958b7e62",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706510147794,
+          "stop" : 1706510147795,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "Could not start a new session. Response code 500. Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}}]",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "1a1072946aa459cf",
+        "parentUid" : "6bbb5e7a9772001f19e4949a8afd78de",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706510147476,
+          "stop" : 1706510147477,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bbb5e7a9772001f19e4949a8afd78de"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

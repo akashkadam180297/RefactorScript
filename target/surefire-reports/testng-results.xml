@@ -2,121 +2,121 @@
 <testng-results total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T15:21:40Z" name="Surefire suite" finished-at="2024-01-25T15:34:32Z" duration-ms="771433">
+  <suite started-at="2024-01-29T13:22:48Z" name="Surefire suite" finished-at="2024-01-29T13:33:57Z" duration-ms="668918">
     <groups>
     </groups>
-    <test started-at="2024-01-25T15:21:40Z" name="Surefire test" finished-at="2024-01-25T15:34:32Z" duration-ms="771433">
+    <test started-at="2024-01-29T13:22:48Z" name="Surefire test" finished-at="2024-01-29T13:33:57Z" duration-ms="668918">
       <class name="tests.parts.CounterSale">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:51:40Z" name="initialization" finished-at="2024-01-25T20:52:53Z" duration-ms="72834" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:52:48Z" name="initialization" finished-at="2024-01-29T18:53:38Z" duration-ms="49793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="goto_countersaleManager_screen()[pri:0, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:52:53Z" name="goto_countersaleManager_screen" description="Test_001 Login the page and Go to counterSaleManager" finished-at="2024-01-25T20:54:45Z" duration-ms="111480" status="PASS">
+        <test-method signature="goto_countersaleManager_screen()[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:53:38Z" name="goto_countersaleManager_screen" description="Test_001 Login the page and Go to counterSaleManager" finished-at="2024-01-29T18:54:24Z" duration-ms="45779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goto_countersaleManager_screen -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:54:45Z" name="afterMethodTakeScreenShot" finished-at="2024-01-25T20:54:45Z" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:54:24Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T18:54:24Z" duration-ms="70" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goto_countersaleManager_screen status=SUCCESS method=CounterSale.goto_countersaleManager_screen()[pri:0, instance:tests.parts.CounterSale@4d6f623d] output={null}]]]>
+                <![CDATA[[TestResult name=goto_countersaleManager_screen status=SUCCESS method=CounterSale.goto_countersaleManager_screen()[pri:0, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="verify_all_fields()[pri:1, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:54:45Z" name="verify_all_fields" description="Test_002 verify all the elements in the field" finished-at="2024-01-25T20:55:05Z" duration-ms="19703" status="PASS">
+        <test-method signature="verify_all_fields()[pri:1, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:54:24Z" name="verify_all_fields" description="Test_002 verify all the elements in the field" finished-at="2024-01-29T18:54:37Z" duration-ms="12861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_all_fields -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:55:05Z" name="afterMethodTakeScreenShot" finished-at="2024-01-25T20:55:05Z" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:54:37Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T18:54:37Z" duration-ms="60" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_all_fields status=SUCCESS method=CounterSale.verify_all_fields()[pri:1, instance:tests.parts.CounterSale@4d6f623d] output={null}]]]>
+                <![CDATA[[TestResult name=verify_all_fields status=SUCCESS method=CounterSale.verify_all_fields()[pri:1, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="add_new_counter_sale()[pri:2, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:55:05Z" name="add_new_counter_sale" description="Test_003 click on add new counter sale" finished-at="2024-01-25T20:56:46Z" duration-ms="100650" status="PASS">
+        <test-method signature="add_new_counter_sale()[pri:2, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:54:37Z" name="add_new_counter_sale" description="Test_003 click on add new counter sale" finished-at="2024-01-29T18:56:18Z" duration-ms="101134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_new_counter_sale -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:56:46Z" name="afterMethodTakeScreenShot" finished-at="2024-01-25T20:56:46Z" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:56:18Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T18:56:18Z" duration-ms="54" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=add_new_counter_sale status=SUCCESS method=CounterSale.add_new_counter_sale()[pri:2, instance:tests.parts.CounterSale@4d6f623d] output={null}]]]>
+                <![CDATA[[TestResult name=add_new_counter_sale status=SUCCESS method=CounterSale.add_new_counter_sale()[pri:2, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="verify_location_popUp()[pri:3, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:56:46Z" name="verify_location_popUp" description="Test_004 verify location pop up" finished-at="2024-01-25T20:58:28Z" duration-ms="101913" status="PASS">
+        <test-method signature="verify_location_popUp()[pri:3, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:56:18Z" name="verify_location_popUp" description="Test_004 verify location pop up" finished-at="2024-01-29T18:57:50Z" duration-ms="91370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_location_popUp -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:58:28Z" name="afterMethodTakeScreenShot" finished-at="2024-01-25T20:58:28Z" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:57:50Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T18:57:50Z" duration-ms="56" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_location_popUp status=SUCCESS method=CounterSale.verify_location_popUp()[pri:3, instance:tests.parts.CounterSale@4d6f623d] output={null}]]]>
+                <![CDATA[[TestResult name=verify_location_popUp status=SUCCESS method=CounterSale.verify_location_popUp()[pri:3, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="verify_counter_sale_page()[pri:4, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:58:28Z" name="verify_counter_sale_page" description="Test_005 verify counter sale page" finished-at="2024-01-25T20:59:02Z" duration-ms="34042" status="PASS">
+        <test-method signature="verify_counter_sale_page()[pri:4, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:57:50Z" name="verify_counter_sale_page" description="Test_005 verify counter sale page" finished-at="2024-01-29T18:58:22Z" duration-ms="32113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_counter_sale_page -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:59:02Z" name="afterMethodTakeScreenShot" finished-at="2024-01-25T20:59:03Z" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:58:22Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T18:58:22Z" duration-ms="70" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_counter_sale_page status=SUCCESS method=CounterSale.verify_counter_sale_page()[pri:4, instance:tests.parts.CounterSale@4d6f623d] output={null}]]]>
+                <![CDATA[[TestResult name=verify_counter_sale_page status=SUCCESS method=CounterSale.verify_counter_sale_page()[pri:4, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="add_parts_in_counter_sale()[pri:5, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T20:59:03Z" name="add_parts_in_counter_sale" description="Test_006 add part number and core part in counter sale" finished-at="2024-01-25T21:01:28Z" duration-ms="144876" status="PASS">
+        <test-method signature="add_parts_in_counter_sale()[pri:5, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:58:22Z" name="add_parts_in_counter_sale" description="Test_006 add part number and core part in counter sale" finished-at="2024-01-29T19:00:34Z" duration-ms="131629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_parts_in_counter_sale -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T21:01:28Z" name="afterMethodTakeScreenShot" finished-at="2024-01-25T21:01:28Z" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T19:00:34Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T19:00:34Z" duration-ms="56" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=add_parts_in_counter_sale status=SUCCESS method=CounterSale.add_parts_in_counter_sale()[pri:5, instance:tests.parts.CounterSale@4d6f623d] output={null}]]]>
+                <![CDATA[[TestResult name=add_parts_in_counter_sale status=SUCCESS method=CounterSale.add_parts_in_counter_sale()[pri:5, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="check_invoice_and_signout()[pri:6, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T21:01:28Z" name="check_invoice_and_signout" description="Test_007 check invoice and signout" finished-at="2024-01-25T21:04:31Z" duration-ms="183613" status="PASS">
+        <test-method signature="check_invoice_and_signout()[pri:6, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T19:00:34Z" name="check_invoice_and_signout" description="Test_007 check invoice and signout" finished-at="2024-01-29T19:03:57Z" duration-ms="203297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_invoice_and_signout -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T21:04:32Z" name="afterMethodTakeScreenShot" finished-at="2024-01-25T21:04:32Z" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T19:03:57Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T19:03:57Z" duration-ms="50" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=check_invoice_and_signout status=SUCCESS method=CounterSale.check_invoice_and_signout()[pri:6, instance:tests.parts.CounterSale@4d6f623d] output={null}]]]>
+                <![CDATA[[TestResult name=check_invoice_and_signout status=SUCCESS method=CounterSale.check_invoice_and_signout()[pri:6, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.parts.CounterSale@4d6f623d]" started-at="2024-01-25T21:04:32Z" name="generateAllure" finished-at="2024-01-25T21:05:00Z" duration-ms="28348" status="PASS">
+        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T19:03:57Z" name="generateAllure" finished-at="2024-01-29T19:04:07Z" duration-ms="10061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateAllure -->

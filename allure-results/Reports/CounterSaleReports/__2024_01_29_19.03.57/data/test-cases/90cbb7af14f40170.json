@@ -1,0 +1,149 @@
+{
+  "uid" : "90cbb7af14f40170",
+  "name" : "Test_006 add part number and core part in counter sale",
+  "fullName" : "tests.parts.CounterSale.add_parts_in_counter_sale",
+  "historyId" : "d2fae9d239cc7c86422194d64634dd3e",
+  "time" : {
+    "start" : 1706534902608,
+    "stop" : 1706535034297,
+    "duration" : 131689
+  },
+  "description" : "Test Description: add part number and core part in counter sale",
+  "descriptionHtml" : "<p>Test Description: add part number and core part in counter sale</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706534568859,
+      "stop" : 1706534618639,
+      "duration" : 49780
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: add part number and core part in counter sale",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eeee210ee04208b2",
+      "name" : "Page Screenshot",
+      "source" : "eeee210ee04208b2.png",
+      "type" : "image/png",
+      "size" : 106805
+    }, {
+      "uid" : "94d5e854a2f4da89",
+      "name" : "Page Screenshot",
+      "source" : "94d5e854a2f4da89.png",
+      "type" : "image/png",
+      "size" : 105958
+    }, {
+      "uid" : "8c5971fb3f449d15",
+      "name" : "Page Screenshot",
+      "source" : "8c5971fb3f449d15.png",
+      "type" : "image/png",
+      "size" : 96995
+    }, {
+      "uid" : "2c15ac2f3d833742",
+      "name" : "Page Screenshot",
+      "source" : "2c15ac2f3d833742.png",
+      "type" : "image/png",
+      "size" : 108819
+    }, {
+      "uid" : "8152288ceadd9fd",
+      "name" : "Page Screenshot",
+      "source" : "8152288ceadd9fd.png",
+      "type" : "image/png",
+      "size" : 108819
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706535034297,
+      "stop" : 1706535034352,
+      "duration" : 55
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1e71934a24b03825",
+      "name" : "Page Screenshot",
+      "source" : "1e71934a24b03825.png",
+      "type" : "image/png",
+      "size" : 108819
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_parts_in_counter_sale"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "17364@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90cbb7af14f40170.json",
+  "parameterValues" : [ ]
+}

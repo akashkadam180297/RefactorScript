@@ -1,0 +1,157 @@
+{
+  "uid" : "d7cb57cf10ee18cc",
+  "name" : "Test_006 add part number and core part in counter sale",
+  "fullName" : "tests.parts.CounterSale.add_parts_in_counter_sale",
+  "historyId" : "d2fae9d239cc7c86422194d64634dd3e",
+  "time" : {
+    "start" : 1706512863117,
+    "stop" : 1706513004933,
+    "duration" : 141816
+  },
+  "description" : "Test Description: add part number and core part in counter sale",
+  "descriptionHtml" : "<p>Test Description: add part number and core part in counter sale</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706512544790,
+      "stop" : 1706512585128,
+      "duration" : 40338
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: add part number and core part in counter sale",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "125813b3ed51030f",
+      "name" : "Page Screenshot",
+      "source" : "125813b3ed51030f.png",
+      "type" : "image/png",
+      "size" : 106742
+    }, {
+      "uid" : "4dc7334882acbc6e",
+      "name" : "Page Screenshot",
+      "source" : "4dc7334882acbc6e.png",
+      "type" : "image/png",
+      "size" : 106180
+    }, {
+      "uid" : "5496f4d0caf8ac4a",
+      "name" : "Page Screenshot",
+      "source" : "5496f4d0caf8ac4a.png",
+      "type" : "image/png",
+      "size" : 100787
+    }, {
+      "uid" : "c6d802023172d9e",
+      "name" : "Page Screenshot",
+      "source" : "c6d802023172d9e.png",
+      "type" : "image/png",
+      "size" : 109661
+    }, {
+      "uid" : "29b15f84f4356c46",
+      "name" : "Page Screenshot",
+      "source" : "29b15f84f4356c46.png",
+      "type" : "image/png",
+      "size" : 109661
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706513004933,
+      "stop" : 1706513004980,
+      "duration" : 47
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3aab3008e2c8d627",
+      "name" : "Page Screenshot",
+      "source" : "3aab3008e2c8d627.png",
+      "type" : "image/png",
+      "size" : 109661
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_parts_in_counter_sale"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "6232@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1bdd0da1f95d8267",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1706510147787,
+        "stop" : 1706510147788,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7cb57cf10ee18cc.json",
+  "parameterValues" : [ ]
+}

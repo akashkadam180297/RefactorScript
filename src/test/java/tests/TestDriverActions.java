@@ -30,6 +30,7 @@ import pages.parts.*;
 import pages.pmWorkFlow.cGVTechPerformPM;
 import pages.service.*;
 
+import pages.tech.IssuePartToTech;
 import pages.techRo.*;
 import pages.tech.EC_Tech_WoLabor;
 import pages.tech.EC_Tech_WoParts;
@@ -88,6 +89,7 @@ public class TestDriverActions {
     public ReceivePart receivepart;
     public JournalizePartsInvoice_konaEU journalizepartinvoice;
     public SubmitAnEstimateServiceManager submitanestimateservicemanager;
+    public IssuePartToTech issueparttotech;
 
 
     LoginActions loginActions;
@@ -285,8 +287,8 @@ public class TestDriverActions {
         spotorderparts = PageFactory.initElements(driver, Spotorderpart.class);
         journalizepartinvoice = PageFactory.initElements(driver, JournalizePartsInvoice_konaEU.class);
         receivepart = PageFactory.initElements(driver, ReceivePart.class);
-        submitanestimateservicemanager = PageFactory.initElements(driver, SubmitAnEstimateServiceManager.class);
-
+        submitanestimateservicemanager = PageFactory.initElements(driver,SubmitAnEstimateServiceManager.class);
+        issueparttotech=PageFactory.initElements(driver,IssuePartToTech.class);
 
         loginPage.selectCountryFromDropDown();
 
@@ -470,6 +472,9 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("CreatePart")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CreatePartReports/" + "__" + currentDateTime;
         }
+        else if (getClass().getCanonicalName().contains("IssuePartToTech")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/IssuePartToTechReports/" + "__" + currentDateTime;
+        }
 
 
 
@@ -596,6 +601,9 @@ public class TestDriverActions {
             }
             else if (getClass().getCanonicalName().contains("CreatePart")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CreatePartReports\\" + theDir.getName();
+            }
+            else if (getClass().getCanonicalName().contains("IssuePartToTech ")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\IssuePartToTechReports\\" + theDir.getName();
             }
 
 

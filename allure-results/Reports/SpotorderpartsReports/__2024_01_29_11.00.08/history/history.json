@@ -1,0 +1,194 @@
+{
+  "3f339d96ddcb8c2d9b8ff8072ca27238" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "518a6103854ed841",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [31be4f6156e325dca1a2747adb82899d, findElement {using=xpath, value=//input[contains(@id,'username::content')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54852/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 31be4f6156e325dca1a2747adb82899d",
+      "time" : {
+        "start" : 1706505960873,
+        "stop" : 1706506208099,
+        "duration" : 247226
+      }
+    } ]
+  },
+  "660543c6dcb991c4d45a88d195e08136" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61c601af24e19933",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706505214140,
+        "stop" : 1706505305207,
+        "duration" : 91067
+      }
+    } ]
+  },
+  "b83e3ef404193953be149edf0835d93e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ed6b8080df537e9",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [31be4f6156e325dca1a2747adb82899d, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54852/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 31be4f6156e325dca1a2747adb82899d",
+      "time" : {
+        "start" : 1706506208104,
+        "stop" : 1706506208104,
+        "duration" : 0
+      }
+    } ]
+  },
+  "74e80ffe158e35f0642f2a9c05e905ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e7f7bba74101689",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706505305258,
+        "stop" : 1706505524347,
+        "duration" : 219089
+      }
+    } ]
+  },
+  "b90843b755c656bf1b825ee6eca2c1f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5fbeaa052db5f6e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706505803065,
+        "stop" : 1706505960807,
+        "duration" : 157742
+      }
+    } ]
+  },
+  "bc1770a13b4143407fc0bd63600d79bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1eea72f3cd49a47c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706505677161,
+        "stop" : 1706505803002,
+        "duration" : 125841
+      }
+    } ]
+  },
+  "a36e32347ff2768748df675cea26df4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd4060477ad04772",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706505050212,
+        "stop" : 1706505096216,
+        "duration" : 46004
+      }
+    } ]
+  },
+  "3b1c96043401a7889d7df4bbb1a65095" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "406c01532e407a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706505524391,
+        "stop" : 1706505677103,
+        "duration" : 152712
+      }
+    } ]
+  },
+  "79d6c86d9ebe73d92df409f41546c116" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90a0d26621eff7ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706505165309,
+        "stop" : 1706505214093,
+        "duration" : 48784
+      }
+    } ]
+  },
+  "be9f9a4086d87e31cc44dd5458036643" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11284c05f388c06d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706505096354,
+        "stop" : 1706505165248,
+        "duration" : 68894
+      }
+    } ]
+  }
+}

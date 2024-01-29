@@ -1,0 +1,107 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "F:\\GithubFinal\\RefactorScript\\src\\test\\java\\utils\\issueparttotech\\issueparttotechNA.properties (The system cannot find the file specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "2b1030b014232e22",
+        "parentUid" : "2a74078bc280a2ac77e8db932c5a9196",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706508317995,
+          "stop" : 1706508317996,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2a74078bc280a2ac77e8db932c5a9196"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "generateAllure",
+        "uid" : "470e8d39cb547483",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706508319825,
+          "stop" : 1706508319825,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "17b95959cd692f72",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706510147794,
+          "stop" : 1706510147795,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "Could not start a new session. Response code 500. Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}}]",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "95575f16504557a8",
+        "parentUid" : "6bbb5e7a9772001f19e4949a8afd78de",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706510147476,
+          "stop" : 1706510147477,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bbb5e7a9772001f19e4949a8afd78de"
+    }, {
+      "name" : "Input must be set",
+      "children" : [ {
+        "name" : "generateAllure",
+        "uid" : "52309e6f88df6b2f",
+        "parentUid" : "1d3c628265ed0b583d3773da39044e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706510157858,
+          "stop" : 1706510157858,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d3c628265ed0b583d3773da39044e50"
+    }, {
+      "name" : "element click intercepted: Element <a id=\"reg2:0:pte1:issDet:3:cl6\" class=\"xgn\" onclick=\"this.focus();return false;\" data-afr-fcs=\"true\" href=\"#\">...</a> is not clickable at point (1069, 71). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1349px; height: 614px; user-select: none; z-index: 116;\"></div>\n  (Session info: chrome=120.0.6099.227)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1faa675710ad66137beab7a5521e7acb, clickElement {id=F3C9B7D1EBE18077624B29F39F13ED3F_element_828}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56013}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56013/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (1faa675710ad66137beab7a5521e7acb)] -> xpath: //label[text()='Internal PO#:']/following::a[1]]\nSession ID: 1faa675710ad66137beab7a5521e7acb",
+      "children" : [ {
+        "name" : "Test_007 check invoice and signout",
+        "uid" : "7af33d64aeecef3e",
+        "parentUid" : "d6e0487b3e1fac78255709688074be15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706513004981,
+          "stop" : 1706513079038,
+          "duration" : 74057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d6e0487b3e1fac78255709688074be15"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
