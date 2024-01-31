@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (1286, 403). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.227)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e12cfa583d7ed57b43e71fa25c0de7d4, clickElement {id=317A6768D431FC4DA23F0F18C7460F28_element_546}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49636/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (e12cfa583d7ed57b43e71fa25c0de7d4)] -> xpath: //span[text()='Add Parts']]\nSession ID: e12cfa583d7ed57b43e71fa25c0de7d4",
+      "children" : [ {
+        "name" : "Test_002_click On Reference Number",
+        "uid" : "69aa13d20d43dd0c",
+        "parentUid" : "fe98943baa6e89371b774664ed8c43d1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706598802996,
+          "stop" : 1706598820173,
+          "duration" : 17177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe98943baa6e89371b774664ed8c43d1"
+    }, {
+      "name" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (678, 403). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 2147483647; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(153, 153, 153); opacity: 0.5; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=120.0.6099.227)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [465fa5992f5a61e7e64d0ad80fe081cd, clickElement {id=1E960BF9CA96F55F7F70ACE0D1866F4C_element_565}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50842}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50842/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (465fa5992f5a61e7e64d0ad80fe081cd)] -> xpath: (//span[contains(.,'Add Lab')])[1]]\nSession ID: 465fa5992f5a61e7e64d0ad80fe081cd",
+      "children" : [ {
+        "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+        "uid" : "fe7ff3d7e785f08e",
+        "parentUid" : "804182b6e8e299389203b6f4decab920",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706599086225,
+          "stop" : 1706599330355,
+          "duration" : 244130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "804182b6e8e299389203b6f4decab920"
+    }, {
+      "name" : "element click intercepted: Element <a data-afr-tlen=\"8\" id=\"cl1\" class=\"xgn\" onclick=\"this.focus();return false;\" data-afr-fcs=\"true\" href=\"#\">...</a> is not clickable at point (1320, 13). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1349px; height: 664px; user-select: none; z-index: 46; display: block;\"></div>\n  (Session info: chrome=120.0.6099.227)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6e09144201a749bf8a390e5b09f84c88, clickElement {id=ECD67DFAB5C698A6805372A70B8D57EF_element_436}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62541/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (6e09144201a749bf8a390e5b09f84c88)] -> xpath: //a[text()='Sign Out']]\nSession ID: 6e09144201a749bf8a390e5b09f84c88",
+      "children" : [ {
+        "name" : "Test009: click On Cancel Button ",
+        "uid" : "3d92aad45820f7ae",
+        "parentUid" : "fc854199a78c4320a56360fa3d50698f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706604974340,
+          "stop" : 1706605178010,
+          "duration" : 203670
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc854199a78c4320a56360fa3d50698f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

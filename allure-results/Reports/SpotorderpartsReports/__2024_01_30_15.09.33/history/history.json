@@ -1,0 +1,175 @@
+{
+  "660543c6dcb991c4d45a88d195e08136" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f458eecf7aa2f0a",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1706606817898,
+        "stop" : 1706606877600,
+        "duration" : 59702
+      }
+    } ]
+  },
+  "3f339d96ddcb8c2d9b8ff8072ca27238" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7468c7a050b9bbe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706607402268,
+        "stop" : 1706607573670,
+        "duration" : 171402
+      }
+    } ]
+  },
+  "74e80ffe158e35f0642f2a9c05e905ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea9b0f952379753f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//td[contains(@id,'c5')]/span/span)[2]\"}\n  (Session info: chrome=120.0.6099.227)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9cc3cb1214b1d77687c6f017020da196, findElement {using=xpath, value=(//td[contains(@id,'c5')]/span/span)[2]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50856}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50856/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9cc3cb1214b1d77687c6f017020da196",
+      "time" : {
+        "start" : 1706606877648,
+        "stop" : 1706606959688,
+        "duration" : 82040
+      }
+    } ]
+  },
+  "b90843b755c656bf1b825ee6eca2c1f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4fcad5386fb830a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706607244035,
+        "stop" : 1706607402185,
+        "duration" : 158150
+      }
+    } ]
+  },
+  "bc1770a13b4143407fc0bd63600d79bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16d8a631da65099b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706607117685,
+        "stop" : 1706607243972,
+        "duration" : 126287
+      }
+    } ]
+  },
+  "a36e32347ff2768748df675cea26df4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6200420eb464c98c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706606652155,
+        "stop" : 1706606699985,
+        "duration" : 47830
+      }
+    } ]
+  },
+  "3b1c96043401a7889d7df4bbb1a65095" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d50990417c22b53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706606959738,
+        "stop" : 1706607117602,
+        "duration" : 157864
+      }
+    } ]
+  },
+  "be9f9a4086d87e31cc44dd5458036643" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cedda53b8c9aa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706606700133,
+        "stop" : 1706606768935,
+        "duration" : 68802
+      }
+    } ]
+  },
+  "79d6c86d9ebe73d92df409f41546c116" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3bad338cf8db63e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706606768986,
+        "stop" : 1706606817833,
+        "duration" : 48847
+      }
+    } ]
+  }
+}

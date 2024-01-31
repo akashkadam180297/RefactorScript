@@ -1,0 +1,143 @@
+{
+  "uid" : "fa2e066edf98a966",
+  "name" : "Check that enter last name, verify the element and click on select button ",
+  "fullName" : "tests.service.ServiceManagerWoLabor.ennterLastName_and_clickOnSelectBtn",
+  "historyId" : "2d5609862a97dcc594cddd2923439b44",
+  "time" : {
+    "start" : 1706684620726,
+    "stop" : 1706684657384,
+    "duration" : 36658
+  },
+  "description" : "Test Description - Check that enter last name, verify the element and click on select button",
+  "descriptionHtml" : "<p>Test Description - Check that enter last name, verify the element and click on select button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706684195303,
+      "stop" : 1706684234327,
+      "duration" : 39024
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that enter last name, verify the element and click on select button",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "760e9a7a93200d51",
+      "name" : "Page Screenshot",
+      "source" : "760e9a7a93200d51.png",
+      "type" : "image/png",
+      "size" : 146877
+    }, {
+      "uid" : "fb75bd55156e8439",
+      "name" : "Page Screenshot",
+      "source" : "fb75bd55156e8439.png",
+      "type" : "image/png",
+      "size" : 94467
+    }, {
+      "uid" : "2797f975625d2716",
+      "name" : "Page Screenshot",
+      "source" : "2797f975625d2716.png",
+      "type" : "image/png",
+      "size" : 93998
+    }, {
+      "uid" : "5baefeda2a6b68a5",
+      "name" : "Page Screenshot",
+      "source" : "5baefeda2a6b68a5.png",
+      "type" : "image/png",
+      "size" : 93998
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706684657405,
+      "stop" : 1706684657465,
+      "duration" : 60
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7cf750fc7a440910",
+      "name" : "Page Screenshot",
+      "source" : "7cf750fc7a440910.png",
+      "type" : "image/png",
+      "size" : 93963
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "ennterLastName_and_clickOnSelectBtn"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "17188@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa2e066edf98a966.json",
+  "parameterValues" : [ ]
+}

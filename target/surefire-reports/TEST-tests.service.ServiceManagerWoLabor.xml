@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.service.ServiceManagerWoLabor" time="952.129" tests="18" errors="0" skipped="0" failures="1">
-=======
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.service.ServiceManagerWoLabor" time="924.358" tests="18" errors="0" skipped="0" failures="0">
->>>>>>> 7ef438197d4f589b421a6e03838d57ee3b5886c9
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.service.ServiceManagerWoLabor" time="921.828" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -70,60 +66,22 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-<<<<<<< HEAD
-  <testcase name="gotoCompleteRoScreen" classname="tests.service.ServiceManagerWoLabor" time="46.58"/>
-  <testcase name="verifyAllElements" classname="tests.service.ServiceManagerWoLabor" time="14.898"/>
-  <testcase name="clickOnRONumber_VerifyElements" classname="tests.service.ServiceManagerWoLabor" time="45.478"/>
-  <testcase name="ClickInternalLink_and_EnterText" classname="tests.service.ServiceManagerWoLabor" time="64.464"/>
-  <testcase name="clickOnThisIsStandardNote_EnterInternalNote" classname="tests.service.ServiceManagerWoLabor" time="62.97"/>
-  <testcase name="clickOnNotes_and_EnterTextInNoteField" classname="tests.service.ServiceManagerWoLabor" time="63.191"/>
-  <testcase name="verifyAuthorizedBy_and_ClickOnLink" classname="tests.service.ServiceManagerWoLabor" time="31.55"/>
-  <testcase name="clickOnAdd_and_EntertheText" classname="tests.service.ServiceManagerWoLabor" time="70.506"/>
-  <testcase name="ennterLastName_and_clickOnSelectBtn" classname="tests.service.ServiceManagerWoLabor" time="37.752"/>
-  <testcase name="verifyElementofMainScreen" classname="tests.service.ServiceManagerWoLabor" time="28.1">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Hourly Cost&apos;]&quot;}&#10;  (Session info: chrome=120.0.6099.225)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;&#10;System info: host: &apos;DESKTOP-HN0C78P&apos;, ip: &apos;192.168.136.237&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f93532dd8465dc10379446258af1f9b7, findElement {using=xpath, value=//span[text()=&apos;Hourly Cost&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50579/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f93532dd8465dc10379446258af1f9b7" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Hourly Cost']"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-HN0C78P', ip: '192.168.136.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f93532dd8465dc10379446258af1f9b7, findElement {using=xpath, value=//span[text()='Hourly Cost']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50579/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f93532dd8465dc10379446258af1f9b7
-	at tests.service.ServiceManagerWoLabor.verifyElementofMainScreen(ServiceManagerWoLabor.java:102)
-</failure>
-    <system-out><![CDATA[Loader is not visible
-MethodverifyElementofMainScreen Fail
-Screen captured for test case : verifyElementofMainScreen:Fail
-]]></system-out>
-  </testcase>
-  <testcase name="clickOnRoStatus_and_CloseButton" classname="tests.service.ServiceManagerWoLabor" time="49.821"/>
-  <testcase name="clickOnWIPStatus_and_clickCancle" classname="tests.service.ServiceManagerWoLabor" time="58.311"/>
-  <testcase name="clickOnTypelink_and_clickOnSelect" classname="tests.service.ServiceManagerWoLabor" time="58.18"/>
-  <testcase name="clickOnInvoiceTohyperlink_and_clickOnCancle" classname="tests.service.ServiceManagerWoLabor" time="54.246"/>
-  <testcase name="clickViewProfitLoss_and_clickOk" classname="tests.service.ServiceManagerWoLabor" time="50.16"/>
-  <testcase name="clickOn_ShowLabourDetails_Number_ShowPartsDetails" classname="tests.service.ServiceManagerWoLabor" time="45.31"/>
-  <testcase name="clickOnBacktoCompleteRo_and_ReferenceNumber" classname="tests.service.ServiceManagerWoLabor" time="45.561"/>
-  <testcase name="clickOnUpdateRates_and_SignOut" classname="tests.service.ServiceManagerWoLabor" time="63.549"/>
-=======
-  <testcase name="gotoCompleteRoScreen" classname="tests.service.ServiceManagerWoLabor" time="42.186"/>
-  <testcase name="verifyAllElements" classname="tests.service.ServiceManagerWoLabor" time="13.138"/>
-  <testcase name="clickOnRONumber_VerifyElements" classname="tests.service.ServiceManagerWoLabor" time="44.092"/>
-  <testcase name="ClickInternalLink_and_EnterText" classname="tests.service.ServiceManagerWoLabor" time="63.075"/>
-  <testcase name="clickOnThisIsStandardNote_EnterInternalNote" classname="tests.service.ServiceManagerWoLabor" time="61.805"/>
-  <testcase name="clickOnNotes_and_EnterTextInNoteField" classname="tests.service.ServiceManagerWoLabor" time="61.847"/>
-  <testcase name="verifyAuthorizedBy_and_ClickOnLink" classname="tests.service.ServiceManagerWoLabor" time="30.565"/>
-  <testcase name="clickOnAdd_and_EntertheText" classname="tests.service.ServiceManagerWoLabor" time="69.037"/>
-  <testcase name="ennterLastName_and_clickOnSelectBtn" classname="tests.service.ServiceManagerWoLabor" time="36.708"/>
-  <testcase name="verifyElementofMainScreen" classname="tests.service.ServiceManagerWoLabor" time="24.955"/>
-  <testcase name="clickOnRoStatus_and_CloseButton" classname="tests.service.ServiceManagerWoLabor" time="48.854"/>
-  <testcase name="clickOnWIPStatus_and_clickCancle" classname="tests.service.ServiceManagerWoLabor" time="56.767"/>
-  <testcase name="clickOnTypelink_and_clickOnSelect" classname="tests.service.ServiceManagerWoLabor" time="56.83"/>
-  <testcase name="clickOnInvoiceTohyperlink_and_clickOnCancle" classname="tests.service.ServiceManagerWoLabor" time="52.785"/>
-  <testcase name="clickViewProfitLoss_and_clickOk" classname="tests.service.ServiceManagerWoLabor" time="48.791"/>
-  <testcase name="clickOn_ShowLabourDetails_Number_ShowPartsDetails" classname="tests.service.ServiceManagerWoLabor" time="44.472"/>
-  <testcase name="clickOnBacktoCompleteRo_and_ReferenceNumber" classname="tests.service.ServiceManagerWoLabor" time="44.506"/>
-  <testcase name="clickOnUpdateRates_and_SignOut" classname="tests.service.ServiceManagerWoLabor" time="73.844"/>
->>>>>>> 7ef438197d4f589b421a6e03838d57ee3b5886c9
+  <testcase name="gotoCompleteRoScreen" classname="tests.service.ServiceManagerWoLabor" time="41.71"/>
+  <testcase name="verifyAllElements" classname="tests.service.ServiceManagerWoLabor" time="13.058"/>
+  <testcase name="clickOnRONumber_VerifyElements" classname="tests.service.ServiceManagerWoLabor" time="43.926"/>
+  <testcase name="ClickInternalLink_and_EnterText" classname="tests.service.ServiceManagerWoLabor" time="62.958"/>
+  <testcase name="clickOnThisIsStandardNote_EnterInternalNote" classname="tests.service.ServiceManagerWoLabor" time="58.868"/>
+  <testcase name="clickOnNotes_and_EnterTextInNoteField" classname="tests.service.ServiceManagerWoLabor" time="61.843"/>
+  <testcase name="verifyAuthorizedBy_and_ClickOnLink" classname="tests.service.ServiceManagerWoLabor" time="30.641"/>
+  <testcase name="clickOnAdd_and_EntertheText" classname="tests.service.ServiceManagerWoLabor" time="69.012"/>
+  <testcase name="ennterLastName_and_clickOnSelectBtn" classname="tests.service.ServiceManagerWoLabor" time="36.649"/>
+  <testcase name="verifyElementofMainScreen" classname="tests.service.ServiceManagerWoLabor" time="24.963"/>
+  <testcase name="clickOnRoStatus_and_CloseButton" classname="tests.service.ServiceManagerWoLabor" time="48.769"/>
+  <testcase name="clickOnWIPStatus_and_clickCancle" classname="tests.service.ServiceManagerWoLabor" time="56.821"/>
+  <testcase name="clickOnTypelink_and_clickOnSelect" classname="tests.service.ServiceManagerWoLabor" time="56.93"/>
+  <testcase name="clickOnInvoiceTohyperlink_and_clickOnCancle" classname="tests.service.ServiceManagerWoLabor" time="52.889"/>
+  <testcase name="clickViewProfitLoss_and_clickOk" classname="tests.service.ServiceManagerWoLabor" time="48.889"/>
+  <testcase name="clickOn_ShowLabourDetails_Number_ShowPartsDetails" classname="tests.service.ServiceManagerWoLabor" time="44.542"/>
+  <testcase name="clickOnBacktoCompleteRo_and_ReferenceNumber" classname="tests.service.ServiceManagerWoLabor" time="44.567"/>
+  <testcase name="clickOnUpdateRates_and_SignOut" classname="tests.service.ServiceManagerWoLabor" time="74.705"/>
 </testsuite>

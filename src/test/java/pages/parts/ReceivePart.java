@@ -796,6 +796,7 @@ public class ReceivePart extends TestDriverActions {
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_signOut);
             WebElementActions.getActions().clickElement(btn_signOut);
+            WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
         }
         /**click On UserName */

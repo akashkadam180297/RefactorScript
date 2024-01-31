@@ -1,0 +1,84 @@
+{
+  "uid" : "62d68d10d570476",
+  "name" : "Test002: click on PO number and verify Link/DeLink Labor",
+  "fullName" : "tests.parts.ReceiveParts.Test_002_clickOnPoNumber",
+  "historyId" : "dd9c7561dd7bb0866bd04d1fd8c28c79",
+  "time" : {
+    "start" : 1706604301641,
+    "stop" : 1706604332926,
+    "duration" : 31285
+  },
+  "description" : "Test Description : Click on PO number and Verify Link/DeLink Labor",
+  "descriptionHtml" : "<p>Test Description : Click on PO number and Verify Link/DeLink Labor</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706604332932,
+      "stop" : 1706604332998,
+      "duration" : 66
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2d4b87038c4cde58",
+      "name" : "Page Screenshot",
+      "source" : "2d4b87038c4cde58.png",
+      "type" : "image/png",
+      "size" : 95117
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickOnPoNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.ReceiveParts"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "10072@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62d68d10d570476.json",
+  "parameterValues" : [ ]
+}

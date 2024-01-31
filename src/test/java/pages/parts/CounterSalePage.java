@@ -1021,17 +1021,12 @@ public class CounterSalePage extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_taxesOk);
         WebElementActions.getActions().clickElement(btn_taxesOk);
 
-/*
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(sale_Date);
-        WebElementActions.getActions().inputText(sale_Date,appProp.getProperty("Sale"));
-        WaitActions.getWaits().loadingWait(loder);
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(invoice);
-        WebElementActions.getActions().inputText(invoice,appProp.getProperty("invice"));
-
-*/
-
-
+         if(LoginActions.environmentName.contains("EC")) {
+             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(invoice);
+             WebElementActions.getActions().inputText(invoice, appProp.getProperty("invoice"));
+             Thread.sleep(3000);
+         }
 
         WaitActions.getWaits().loadingWait(loder);
 

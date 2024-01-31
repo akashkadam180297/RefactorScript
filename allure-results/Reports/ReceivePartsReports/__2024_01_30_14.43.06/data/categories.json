@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <a data-afr-tlen=\"8\" id=\"cl1\" class=\"xgn\" onclick=\"this.focus();return false;\" data-afr-fcs=\"true\" href=\"#\">...</a> is not clickable at point (1320, 13). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1349px; height: 664px; user-select: none; z-index: 46; display: block;\"></div>\n  (Session info: chrome=120.0.6099.227)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6dfe81556f1f8bcf256dcba8d27bd804, clickElement {id=10B2F797D52100915297378ABECB900C_element_425}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64350}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64350/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (6dfe81556f1f8bcf256dcba8d27bd804)] -> xpath: //a[text()='Sign Out']]\nSession ID: 6dfe81556f1f8bcf256dcba8d27bd804",
+      "children" : [ {
+        "name" : "Test009: click On Cancel Button ",
+        "uid" : "d5eed27ca41b28e3",
+        "parentUid" : "2b3b1aecb63ff7d812eeb741f7a14fa2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706605784421,
+          "stop" : 1706605986072,
+          "duration" : 201651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b3b1aecb63ff7d812eeb741f7a14fa2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

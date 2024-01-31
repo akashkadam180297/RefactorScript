@@ -1,0 +1,149 @@
+{
+  "uid" : "40af121a01db040e",
+  "name" : "Check that click on Add button and enter the text in name field and save it",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnAdd_and_EntertheText",
+  "historyId" : "cfd7cac7a4bbe350acda91a6e7b004c5",
+  "time" : {
+    "start" : 1706684551551,
+    "stop" : 1706684620624,
+    "duration" : 69073
+  },
+  "description" : "Test Description -Check that click on Add button and enter the text in name field and save it",
+  "descriptionHtml" : "<p>Test Description -Check that click on Add button and enter the text in name field and save it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706684195303,
+      "stop" : 1706684234327,
+      "duration" : 39024
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description -Check that click on Add button and enter the text in name field and save it",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "150a266c74d65f71",
+      "name" : "Page Screenshot",
+      "source" : "150a266c74d65f71.png",
+      "type" : "image/png",
+      "size" : 139754
+    }, {
+      "uid" : "e3f9c8726447a6c2",
+      "name" : "Page Screenshot",
+      "source" : "e3f9c8726447a6c2.png",
+      "type" : "image/png",
+      "size" : 137616
+    }, {
+      "uid" : "dacad87a65532ce9",
+      "name" : "Page Screenshot",
+      "source" : "dacad87a65532ce9.png",
+      "type" : "image/png",
+      "size" : 138610
+    }, {
+      "uid" : "b8b8e96a80fa0dd8",
+      "name" : "Page Screenshot",
+      "source" : "b8b8e96a80fa0dd8.png",
+      "type" : "image/png",
+      "size" : 146461
+    }, {
+      "uid" : "7d3dcbf23c80a5f",
+      "name" : "Page Screenshot",
+      "source" : "7d3dcbf23c80a5f.png",
+      "type" : "image/png",
+      "size" : 146461
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706684620643,
+      "stop" : 1706684620701,
+      "duration" : 58
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9cc4b83a5a24e631",
+      "name" : "Page Screenshot",
+      "source" : "9cc4b83a5a24e631.png",
+      "type" : "image/png",
+      "size" : 146461
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnAdd_and_EntertheText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "17188@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40af121a01db040e.json",
+  "parameterValues" : [ ]
+}

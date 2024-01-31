@@ -1,0 +1,125 @@
+{
+  "uid" : "81b89cfbd658f068",
+  "name" : "Test_002 click On The Spot order Tab ",
+  "fullName" : "tests.parts.Spotorderparts.Test_002_clickOnSpotOrder",
+  "historyId" : "be9f9a4086d87e31cc44dd5458036643",
+  "time" : {
+    "start" : 1706693089253,
+    "stop" : 1706693158176,
+    "duration" : 68923
+  },
+  "description" : "Test Description:   click On The Spot order Tab  ",
+  "descriptionHtml" : "<p>Test Description:   click On The Spot order Tab</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706693010072,
+      "stop" : 1706693047042,
+      "duration" : 36970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description:   click On The Spot order Tab  ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5f58bceb060d2a16",
+      "name" : "Page Screenshot",
+      "source" : "5f58bceb060d2a16.png",
+      "type" : "image/png",
+      "size" : 83909
+    }, {
+      "uid" : "6cd6422498b0de31",
+      "name" : "Page Screenshot",
+      "source" : "6cd6422498b0de31.png",
+      "type" : "image/png",
+      "size" : 83909
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706693158183,
+      "stop" : 1706693158239,
+      "duration" : 56
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fd07ac363c907712",
+      "name" : "Page Screenshot",
+      "source" : "fd07ac363c907712.png",
+      "type" : "image/png",
+      "size" : 83909
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickOnSpotOrder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "14820@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81b89cfbd658f068.json",
+  "parameterValues" : [ ]
+}

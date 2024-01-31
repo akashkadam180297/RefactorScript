@@ -1,0 +1,125 @@
+{
+  "uid" : "9b9f3bb4e6487d4e",
+  "name" : "Test_007 verify PO  ",
+  "fullName" : "tests.parts.Spotorderparts.Test_007_verifyPO",
+  "historyId" : "bc1770a13b4143407fc0bd63600d79bf",
+  "time" : {
+    "start" : 1706693670712,
+    "stop" : 1706693796562,
+    "duration" : 125850
+  },
+  "description" : "Test Description: verify PO ",
+  "descriptionHtml" : "<p>Test Description: verify PO</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706693010072,
+      "stop" : 1706693047042,
+      "duration" : 36970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: verify PO ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "676a8b2e548319b3",
+      "name" : "Page Screenshot",
+      "source" : "676a8b2e548319b3.png",
+      "type" : "image/png",
+      "size" : 105464
+    }, {
+      "uid" : "24ed1a23fe58576e",
+      "name" : "Page Screenshot",
+      "source" : "24ed1a23fe58576e.png",
+      "type" : "image/png",
+      "size" : 105464
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706693796562,
+      "stop" : 1706693796686,
+      "duration" : 124
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6f74e5bbb205af1c",
+      "name" : "Page Screenshot",
+      "source" : "6f74e5bbb205af1c.png",
+      "type" : "image/png",
+      "size" : 105464
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_007_verifyPO"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.Spotorderparts"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "14820@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b9f3bb4e6487d4e.json",
+  "parameterValues" : [ ]
+}

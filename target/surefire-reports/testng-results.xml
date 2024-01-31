@@ -1,126 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="7" passed="7" failed="0" skipped="0">
+<testng-results total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-29T13:22:48Z" name="Surefire suite" finished-at="2024-01-29T13:33:57Z" duration-ms="668918">
+  <suite started-at="2024-01-31T09:59:36Z" name="Surefire suite" finished-at="2024-01-31T10:14:47Z" duration-ms="910852">
     <groups>
     </groups>
-    <test started-at="2024-01-29T13:22:48Z" name="Surefire test" finished-at="2024-01-29T13:33:57Z" duration-ms="668918">
-      <class name="tests.parts.CounterSale">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:52:48Z" name="initialization" finished-at="2024-01-29T18:53:38Z" duration-ms="49793" status="PASS">
+    <test started-at="2024-01-31T09:59:36Z" name="Surefire test" finished-at="2024-01-31T10:14:47Z" duration-ms="910852">
+      <class name="tests.service.ServiceManagerWoLabor">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:29:36Z" name="initialization" finished-at="2024-01-31T15:30:14Z" duration-ms="37836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="goto_countersaleManager_screen()[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:53:38Z" name="goto_countersaleManager_screen" description="Test_001 Login the page and Go to counterSaleManager" finished-at="2024-01-29T18:54:24Z" duration-ms="45779" status="PASS">
+        <test-method signature="gotoCompleteRoScreen()[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:30:14Z" name="gotoCompleteRoScreen" description="Login the page and go to the CompleteRo" finished-at="2024-01-31T15:30:55Z" duration-ms="41642" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goto_countersaleManager_screen -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:54:24Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T18:54:24Z" duration-ms="70" status="PASS">
+        </test-method> <!-- gotoCompleteRoScreen -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:30:55Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:30:55Z" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goto_countersaleManager_screen status=SUCCESS method=CounterSale.goto_countersaleManager_screen()[pri:0, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
+                <![CDATA[[TestResult name=gotoCompleteRoScreen status=SUCCESS method=ServiceManagerWoLabor.gotoCompleteRoScreen()[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="verify_all_fields()[pri:1, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:54:24Z" name="verify_all_fields" description="Test_002 verify all the elements in the field" finished-at="2024-01-29T18:54:37Z" duration-ms="12861" status="PASS">
+        <test-method signature="verifyAllElements()[pri:1, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:30:55Z" name="verifyAllElements" description="Verify all the WebElements on the web page " finished-at="2024-01-31T15:31:08Z" duration-ms="12993" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_all_fields -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:54:37Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T18:54:37Z" duration-ms="60" status="PASS">
+        </test-method> <!-- verifyAllElements -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:31:09Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:31:09Z" duration-ms="60" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_all_fields status=SUCCESS method=CounterSale.verify_all_fields()[pri:1, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllElements status=SUCCESS method=ServiceManagerWoLabor.verifyAllElements()[pri:1, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="add_new_counter_sale()[pri:2, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:54:37Z" name="add_new_counter_sale" description="Test_003 click on add new counter sale" finished-at="2024-01-29T18:56:18Z" duration-ms="101134" status="PASS">
+        <test-method signature="clickOnRONumber_VerifyElements()[pri:2, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:31:09Z" name="clickOnRONumber_VerifyElements" description="Click on RO Number and verify the elements" finished-at="2024-01-31T15:31:52Z" duration-ms="43876" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- add_new_counter_sale -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:56:18Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T18:56:18Z" duration-ms="54" status="PASS">
+        </test-method> <!-- clickOnRONumber_VerifyElements -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:31:53Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:31:53Z" duration-ms="52" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=add_new_counter_sale status=SUCCESS method=CounterSale.add_new_counter_sale()[pri:2, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnRONumber_VerifyElements status=SUCCESS method=ServiceManagerWoLabor.clickOnRONumber_VerifyElements()[pri:2, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="verify_location_popUp()[pri:3, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:56:18Z" name="verify_location_popUp" description="Test_004 verify location pop up" finished-at="2024-01-29T18:57:50Z" duration-ms="91370" status="PASS">
+        <test-method signature="ClickInternalLink_and_EnterText()[pri:3, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:31:53Z" name="ClickInternalLink_and_EnterText" description="Check that click on Internal Link and enter the text in Internal Note field" finished-at="2024-01-31T15:32:55Z" duration-ms="62887" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_location_popUp -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:57:50Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T18:57:50Z" duration-ms="56" status="PASS">
+        </test-method> <!-- ClickInternalLink_and_EnterText -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:32:56Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:32:56Z" duration-ms="62" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_location_popUp status=SUCCESS method=CounterSale.verify_location_popUp()[pri:3, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
+                <![CDATA[[TestResult name=ClickInternalLink_and_EnterText status=SUCCESS method=ServiceManagerWoLabor.ClickInternalLink_and_EnterText()[pri:3, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="verify_counter_sale_page()[pri:4, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:57:50Z" name="verify_counter_sale_page" description="Test_005 verify counter sale page" finished-at="2024-01-29T18:58:22Z" duration-ms="32113" status="PASS">
+        <test-method signature="clickOnThisIsStandardNote_EnterInternalNote()[pri:4, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:32:56Z" name="clickOnThisIsStandardNote_EnterInternalNote" description="Check that click on This is Standard Note and enter the text in Internal Note field" finished-at="2024-01-31T15:33:54Z" duration-ms="58784" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_counter_sale_page -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:58:22Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T18:58:22Z" duration-ms="70" status="PASS">
+        </test-method> <!-- clickOnThisIsStandardNote_EnterInternalNote -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:33:54Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:33:55Z" duration-ms="52" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_counter_sale_page status=SUCCESS method=CounterSale.verify_counter_sale_page()[pri:4, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnThisIsStandardNote_EnterInternalNote status=SUCCESS method=ServiceManagerWoLabor.clickOnThisIsStandardNote_EnterInternalNote()[pri:4, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="add_parts_in_counter_sale()[pri:5, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T18:58:22Z" name="add_parts_in_counter_sale" description="Test_006 add part number and core part in counter sale" finished-at="2024-01-29T19:00:34Z" duration-ms="131629" status="PASS">
+        <test-method signature="clickOnNotes_and_EnterTextInNoteField()[pri:5, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:33:55Z" name="clickOnNotes_and_EnterTextInNoteField" description="Check that click On Note link, verify the element and enter text in note field and save it " finished-at="2024-01-31T15:34:56Z" duration-ms="61803" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- add_parts_in_counter_sale -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T19:00:34Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T19:00:34Z" duration-ms="56" status="PASS">
+        </test-method> <!-- clickOnNotes_and_EnterTextInNoteField -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:34:56Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:34:56Z" duration-ms="67" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=add_parts_in_counter_sale status=SUCCESS method=CounterSale.add_parts_in_counter_sale()[pri:5, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnNotes_and_EnterTextInNoteField status=SUCCESS method=ServiceManagerWoLabor.clickOnNotes_and_EnterTextInNoteField()[pri:5, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="check_invoice_and_signout()[pri:6, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T19:00:34Z" name="check_invoice_and_signout" description="Test_007 check invoice and signout" finished-at="2024-01-29T19:03:57Z" duration-ms="203297" status="PASS">
+        <test-method signature="verifyAuthorizedBy_and_ClickOnLink()[pri:6, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:34:56Z" name="verifyAuthorizedBy_and_ClickOnLink" description="Verify Authorized By and click on the link of Authorized By" finished-at="2024-01-31T15:35:27Z" duration-ms="30580" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- check_invoice_and_signout -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T19:03:57Z" name="afterMethodTakeScreenShot" finished-at="2024-01-29T19:03:57Z" duration-ms="50" status="PASS">
+        </test-method> <!-- verifyAuthorizedBy_and_ClickOnLink -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:35:27Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:35:27Z" duration-ms="56" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=check_invoice_and_signout status=SUCCESS method=CounterSale.check_invoice_and_signout()[pri:6, instance:tests.parts.CounterSale@141e879d] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAuthorizedBy_and_ClickOnLink status=SUCCESS method=ServiceManagerWoLabor.verifyAuthorizedBy_and_ClickOnLink()[pri:6, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.parts.CounterSale@141e879d]" started-at="2024-01-29T19:03:57Z" name="generateAllure" finished-at="2024-01-29T19:04:07Z" duration-ms="10061" status="PASS">
+        <test-method signature="clickOnAdd_and_EntertheText()[pri:7, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:35:27Z" name="clickOnAdd_and_EntertheText" description="Check that click on Add button and enter the text in name field and save it" finished-at="2024-01-31T15:36:36Z" duration-ms="68946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAdd_and_EntertheText -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:36:36Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:36:36Z" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAdd_and_EntertheText status=SUCCESS method=ServiceManagerWoLabor.clickOnAdd_and_EntertheText()[pri:7, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="ennterLastName_and_clickOnSelectBtn()[pri:8, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:36:36Z" name="ennterLastName_and_clickOnSelectBtn" description="Check that enter last name, verify the element and click on select button " finished-at="2024-01-31T15:37:13Z" duration-ms="36580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ennterLastName_and_clickOnSelectBtn -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:37:13Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:37:13Z" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ennterLastName_and_clickOnSelectBtn status=SUCCESS method=ServiceManagerWoLabor.ennterLastName_and_clickOnSelectBtn()[pri:8, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="verifyElementofMainScreen()[pri:9, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:37:13Z" name="verifyElementofMainScreen" description=" Check that the selected contact is reflected in the main screen" finished-at="2024-01-31T15:37:38Z" duration-ms="24913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementofMainScreen -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:37:38Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:37:38Z" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyElementofMainScreen status=SUCCESS method=ServiceManagerWoLabor.verifyElementofMainScreen()[pri:9, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="clickOnRoStatus_and_CloseButton()[pri:10, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:37:38Z" name="clickOnRoStatus_and_CloseButton" description="Check that click on Ro Status, verify the element and click on close button" finished-at="2024-01-31T15:38:27Z" duration-ms="48722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnRoStatus_and_CloseButton -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:38:27Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:38:27Z" duration-ms="66" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnRoStatus_and_CloseButton status=SUCCESS method=ServiceManagerWoLabor.clickOnRoStatus_and_CloseButton()[pri:10, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="clickOnWIPStatus_and_clickCancle()[pri:11, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:38:27Z" name="clickOnWIPStatus_and_clickCancle" description="Check that click on WIP status, verify the element and click on cancle" finished-at="2024-01-31T15:39:24Z" duration-ms="56779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnWIPStatus_and_clickCancle -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:39:24Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:39:24Z" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnWIPStatus_and_clickCancle status=SUCCESS method=ServiceManagerWoLabor.clickOnWIPStatus_and_clickCancle()[pri:11, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="clickOnTypelink_and_clickOnSelect()[pri:12, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:39:24Z" name="clickOnTypelink_and_clickOnSelect" description="Check that click on Type hyperlink, verify the element and click on select button" finished-at="2024-01-31T15:40:21Z" duration-ms="56870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTypelink_and_clickOnSelect -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:40:21Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:40:21Z" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnTypelink_and_clickOnSelect status=SUCCESS method=ServiceManagerWoLabor.clickOnTypelink_and_clickOnSelect()[pri:12, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="clickOnInvoiceTohyperlink_and_clickOnCancle()[pri:13, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:40:21Z" name="clickOnInvoiceTohyperlink_and_clickOnCancle" description="Check that click on InvoiceTo hyperlink, verify element and click on cancle button" finished-at="2024-01-31T15:41:14Z" duration-ms="52824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnInvoiceTohyperlink_and_clickOnCancle -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:41:14Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:41:14Z" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnInvoiceTohyperlink_and_clickOnCancle status=SUCCESS method=ServiceManagerWoLabor.clickOnInvoiceTohyperlink_and_clickOnCancle()[pri:13, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="clickViewProfitLoss_and_clickOk()[pri:14, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:41:14Z" name="clickViewProfitLoss_and_clickOk" description="Check that click on View Profit and Loss hyperlink,verify and click Ok" finished-at="2024-01-31T15:42:02Z" duration-ms="48838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickViewProfitLoss_and_clickOk -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:42:03Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:42:03Z" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickViewProfitLoss_and_clickOk status=SUCCESS method=ServiceManagerWoLabor.clickViewProfitLoss_and_clickOk()[pri:14, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="clickOn_ShowLabourDetails_Number_ShowPartsDetails()[pri:15, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:42:03Z" name="clickOn_ShowLabourDetails_Number_ShowPartsDetails" description="Check that click on Show labour Details,Number and Show parts Details" finished-at="2024-01-31T15:42:47Z" duration-ms="44494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_ShowLabourDetails_Number_ShowPartsDetails -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:42:47Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:42:47Z" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOn_ShowLabourDetails_Number_ShowPartsDetails status=SUCCESS method=ServiceManagerWoLabor.clickOn_ShowLabourDetails_Number_ShowPartsDetails()[pri:15, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="clickOnBacktoCompleteRo_and_ReferenceNumber()[pri:16, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:42:47Z" name="clickOnBacktoCompleteRo_and_ReferenceNumber" description="Check that click on Back to Complete RO and reference number" finished-at="2024-01-31T15:43:32Z" duration-ms="44524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBacktoCompleteRo_and_ReferenceNumber -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:43:32Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:43:32Z" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnBacktoCompleteRo_and_ReferenceNumber status=SUCCESS method=ServiceManagerWoLabor.clickOnBacktoCompleteRo_and_ReferenceNumber()[pri:16, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="clickOnUpdateRates_and_SignOut()[pri:17, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:43:32Z" name="clickOnUpdateRates_and_SignOut" description="Check that click on update Rates hyperlink and sign out the page" finished-at="2024-01-31T15:44:46Z" duration-ms="74660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnUpdateRates_and_SignOut -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:44:47Z" name="afterMethodTakeScreenShot" finished-at="2024-01-31T15:44:47Z" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnUpdateRates_and_SignOut status=SUCCESS method=ServiceManagerWoLabor.clickOnUpdateRates_and_SignOut()[pri:17, instance:tests.service.ServiceManagerWoLabor@749ab7b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.service.ServiceManagerWoLabor@749ab7b4]" started-at="2024-01-31T15:44:47Z" name="generateAllure" finished-at="2024-01-31T15:44:57Z" duration-ms="10057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateAllure -->
-      </class> <!-- tests.parts.CounterSale -->
+      </class> <!-- tests.service.ServiceManagerWoLabor -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

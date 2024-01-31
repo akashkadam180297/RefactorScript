@@ -75,12 +75,4 @@ public class CounterSale extends TestDriverActions {
     }
 
 
-
-
-
-
-
-
-
-
 }

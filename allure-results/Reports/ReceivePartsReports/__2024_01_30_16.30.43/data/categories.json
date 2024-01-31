@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unexpected alert open: {Alert text : ADF_FACES-60097:For more information, please see the server's error log for an entry beginning with: ADF_FACES-60096:Server Exception during PPR, #7}\n  (Session info: chrome=120.0.6099.227): ADF_FACES-60097:For more information, please see the server's error log for an entry beginning with: ADF_FACES-60096:Server Exception during PPR, #7\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [216c9db1fa3cc0f9ba84635f01246272, findElements {using=xpath, value=//h1[text()='Working...Please Wait']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62343/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 216c9db1fa3cc0f9ba84635f01246272",
+      "children" : [ {
+        "name" : "Test009: click On Cancel Button ",
+        "uid" : "123df4165d710e06",
+        "parentUid" : "c9838ef213299e6e98e65cfcc2a43494",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706612373276,
+          "stop" : 1706612443378,
+          "duration" : 70102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9838ef213299e6e98e65cfcc2a43494"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

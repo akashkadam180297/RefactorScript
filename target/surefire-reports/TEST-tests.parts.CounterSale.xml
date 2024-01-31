@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.CounterSale" time="680.112" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.CounterSale" time="651.096" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -66,11 +66,11 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="goto_countersaleManager_screen" classname="tests.parts.CounterSale" time="45.841"/>
-  <testcase name="verify_all_fields" classname="tests.parts.CounterSale" time="12.939"/>
-  <testcase name="add_new_counter_sale" classname="tests.parts.CounterSale" time="101.181"/>
-  <testcase name="verify_location_popUp" classname="tests.parts.CounterSale" time="91.413"/>
-  <testcase name="verify_counter_sale_page" classname="tests.parts.CounterSale" time="32.173"/>
-  <testcase name="add_parts_in_counter_sale" classname="tests.parts.CounterSale" time="131.691"/>
-  <testcase name="check_invoice_and_signout" classname="tests.parts.CounterSale" time="203.35"/>
+  <testcase name="goto_countersaleManager_screen" classname="tests.parts.CounterSale" time="42.205"/>
+  <testcase name="verify_all_fields" classname="tests.parts.CounterSale" time="12.936"/>
+  <testcase name="add_new_counter_sale" classname="tests.parts.CounterSale" time="97.671"/>
+  <testcase name="verify_location_popUp" classname="tests.parts.CounterSale" time="91.601"/>
+  <testcase name="verify_counter_sale_page" classname="tests.parts.CounterSale" time="32.242"/>
+  <testcase name="add_parts_in_counter_sale" classname="tests.parts.CounterSale" time="131.948"/>
+  <testcase name="check_invoice_and_signout" classname="tests.parts.CounterSale" time="193.244"/>
 </testsuite>
