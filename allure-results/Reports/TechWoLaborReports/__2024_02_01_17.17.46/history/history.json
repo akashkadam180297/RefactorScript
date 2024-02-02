@@ -1,0 +1,195 @@
+{
+  "4951e95de0bb65da313191aa0b49610c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9006766b355adfe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706787050358,
+        "stop" : 1706787181493,
+        "duration" : 131135
+      }
+    } ]
+  },
+  "3062258c92465ed78c1ed24ef0c16eed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b899d8d37c609585",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706787362403,
+        "stop" : 1706787446249,
+        "duration" : 83846
+      }
+    } ]
+  },
+  "3d5920d138fe90947db717c310a2f858" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d587545eb94e47fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706787515031,
+        "stop" : 1706787620211,
+        "duration" : 105180
+      }
+    } ]
+  },
+  "5655ed5619c3565d20337de0ac28ce08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "50a67ae7249b956e",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.58.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dee71cba238e8ff37a4f17975e198c12, clickElement {id=B2EE8252B0B71A2DB2CFE0A46A8D27FD_element_754}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63743}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63743/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (dee71cba238e8ff37a4f17975e198c12)] -> xpath: (//span[text()='Cancel'])[1]]\nSession ID: dee71cba238e8ff37a4f17975e198c12",
+      "time" : {
+        "start" : 1706787641914,
+        "stop" : 1706787893167,
+        "duration" : 251253
+      }
+    } ]
+  },
+  "3d415d0db09a8ffa441195210d50e5ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5aee29884d27e005",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706787446411,
+        "stop" : 1706787514892,
+        "duration" : 68481
+      }
+    } ]
+  },
+  "b31d66ff6eb479f35e77a487416b9cc6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af9cfa6577e48ab4",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (540, 242). Other element would receive the click: <div class=\"blockUI blockMsg blockPage\" style=\"z-index: 2147483647; position: fixed; padding: 15px; margin: 0px; width: 30%; top: 40%; left: 35%; text-align: center; color: rgb(0, 61, 91); background-color: rgb(235, 239, 245); cursor: wait; border: none; border-radius: 10px; opacity: 0.9;\">...</div>\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.58.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dee71cba238e8ff37a4f17975e198c12, clickElement {id=B2EE8252B0B71A2DB2CFE0A46A8D27FD_element_716}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63743}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63743/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (dee71cba238e8ff37a4f17975e198c12)] -> xpath: //span[text()='More Work ...']]\nSession ID: dee71cba238e8ff37a4f17975e198c12",
+      "time" : {
+        "start" : 1706787620333,
+        "stop" : 1706787641772,
+        "duration" : 21439
+      }
+    } ]
+  },
+  "6b3b5d4920d677790c08f828f9f850cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84d7a12b03ff763",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706787181961,
+        "stop" : 1706787232393,
+        "duration" : 50432
+      }
+    } ]
+  },
+  "34a8b9c888846575477c35369faa6ca4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6a2e12b34033ee4",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.58.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dee71cba238e8ff37a4f17975e198c12, clickElement {id=B2EE8252B0B71A2DB2CFE0A46A8D27FD_element_755}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63743}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63743/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (dee71cba238e8ff37a4f17975e198c12)] -> xpath: (//span[text()='Description'])[3]/following::a[1]/img]\nSession ID: dee71cba238e8ff37a4f17975e198c12",
+      "time" : {
+        "start" : 1706787893319,
+        "stop" : 1706788065821,
+        "duration" : 172502
+      }
+    } ]
+  },
+  "f4e448109fbdd81a70add4a0bf7e0a45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cc772a6014b30ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706787289921,
+        "stop" : 1706787362252,
+        "duration" : 72331
+      }
+    } ]
+  },
+  "34932e23098a80b7ddb47d5bcfa4d4df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e07ce9efab684763",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706787232538,
+        "stop" : 1706787289795,
+        "duration" : 57257
+      }
+    } ]
+  }
+}

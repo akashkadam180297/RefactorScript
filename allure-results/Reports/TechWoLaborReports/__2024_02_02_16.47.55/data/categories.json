@@ -1,0 +1,107 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'Guide')]/following::label[2]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dcbb6a081013d2e9d761887765adfb5a, findElement {using=xpath, value=//div[contains(text(),'Guide')]/following::label[2]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61611}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61611/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dcbb6a081013d2e9d761887765adfb5a",
+      "children" : [ {
+        "name" : "T_004 Click on Labour,MoreWork and VMRS tab",
+        "uid" : "a11a0c69e26f2841",
+        "parentUid" : "3b8f34114e3c48278c49b0e1cc7fa472",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706871583373,
+          "stop" : 1706871688099,
+          "duration" : 104726
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b8f34114e3c48278c49b0e1cc7fa472"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[text()='Unit History'])[3]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dcbb6a081013d2e9d761887765adfb5a, findElement {using=xpath, value=(//a[text()='Unit History'])[3]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61611}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61611/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dcbb6a081013d2e9d761887765adfb5a",
+      "children" : [ {
+        "name" : "T_005 Enter AderoDynamic Device in search field",
+        "uid" : "3e93a7442a419f10",
+        "parentUid" : "69068ff1de97ecf6767e6d00d03c142b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706871688292,
+          "stop" : 1706871860883,
+          "duration" : 172591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69068ff1de97ecf6767e6d00d03c142b"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//label[text()='Search:']/following::a[3]/img\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dcbb6a081013d2e9d761887765adfb5a, findElement {using=xpath, value=//label[text()='Search:']/following::a[3]/img}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61611}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61611/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dcbb6a081013d2e9d761887765adfb5a",
+      "children" : [ {
+        "name" : "T_007 Check that add AeroDynamic Device and Delete it from Labour section",
+        "uid" : "b8cfa762f7ec4265",
+        "parentUid" : "8b32bd14e3b21d49c6c30d52b67a39a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706871905235,
+          "stop" : 1706872092646,
+          "duration" : 187411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_008 Check that again add Aerodynamic Device ",
+        "uid" : "15565618b8abdd02",
+        "parentUid" : "8b32bd14e3b21d49c6c30d52b67a39a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706872092800,
+          "stop" : 1706872295334,
+          "duration" : 202534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b32bd14e3b21d49c6c30d52b67a39a5"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@id,':sdiVmrs::ti')]/div/child::div/a' (tried for 40 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "T_009 Enter Accessories Group Image",
+        "uid" : "1ad6a88249443c9b",
+        "parentUid" : "5a9fc50770e50912850225685c5f008b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706872295484,
+          "stop" : 1706872502551,
+          "duration" : 207067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a9fc50770e50912850225685c5f008b"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//img[contains(@id,'ciAddVmrs::icon')]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dcbb6a081013d2e9d761887765adfb5a, findElement {using=xpath, value=//img[contains(@id,'ciAddVmrs::icon')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61611}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61611/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dcbb6a081013d2e9d761887765adfb5a",
+      "children" : [ {
+        "name" : "T_010 Click on Select Button and Again start from Aerodynamic Device ",
+        "uid" : "98e86975cc07656a",
+        "parentUid" : "865faff683c1cd83fe72a04ee9868798",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706872502685,
+          "stop" : 1706872675241,
+          "duration" : 172556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "865faff683c1cd83fe72a04ee9868798"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

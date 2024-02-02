@@ -3,7 +3,23 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test">
     <classes>
-      <class name="tests.service.ServiceManagerWoLabor"/>
+      <class name="tests.tech.TechWoLabor"/>
     </classes>
   </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="tests.tech.TechWoLabor">
+        <methods>
+          <include name="clickOn_SelectButton"/>
+          <include name="add_AeroDynamic_Delete_Labour"/>
+          <include name="generateAllure"/>
+          <include name="enter_AeroDynamic_Device_First"/>
+          <include name="afterMethodTakeScreenShot"/>
+          <include name="enter_AccessoriesGroup_Img"/>
+          <include name="again_Add_AeroDynamicDevice"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- tests.tech.TechWoLabor -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

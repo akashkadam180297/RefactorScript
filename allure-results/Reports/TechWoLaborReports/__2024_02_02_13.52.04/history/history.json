@@ -1,0 +1,193 @@
+{
+  "4951e95de0bb65da313191aa0b49610c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c46626385dbcf5e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706861085505,
+        "stop" : 1706861215394,
+        "duration" : 129889
+      }
+    } ]
+  },
+  "3062258c92465ed78c1ed24ef0c16eed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6bf7ae61b2657f15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706861400555,
+        "stop" : 1706861484535,
+        "duration" : 83980
+      }
+    } ]
+  },
+  "3d5920d138fe90947db717c310a2f858" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfb7889efdd79a87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706861549223,
+        "stop" : 1706861659381,
+        "duration" : 110158
+      }
+    } ]
+  },
+  "5655ed5619c3565d20337de0ac28ce08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b7fdcdf412f648b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706861823405,
+        "stop" : 1706861966433,
+        "duration" : 143028
+      }
+    } ]
+  },
+  "3d415d0db09a8ffa441195210d50e5ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6db530be9bb57c1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706861484668,
+        "stop" : 1706861549037,
+        "duration" : 64369
+      }
+    } ]
+  },
+  "6b3b5d4920d677790c08f828f9f850cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "822ac827c6a2ad89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706861215913,
+        "stop" : 1706861270497,
+        "duration" : 54584
+      }
+    } ]
+  },
+  "b31d66ff6eb479f35e77a487416b9cc6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b608a92ff38eb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706861659514,
+        "stop" : 1706861823245,
+        "duration" : 163731
+      }
+    } ]
+  },
+  "34a8b9c888846575477c35369faa6ca4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce911473c682ce01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706861966557,
+        "stop" : 1706862124128,
+        "duration" : 157571
+      }
+    } ]
+  },
+  "34932e23098a80b7ddb47d5bcfa4d4df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b70b0bc47af28146",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Charge Hours']\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [669b04e380e9e2da3ff3e8bf6e1317ce, findElement {using=xpath, value=//span[text()='Charge Hours']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57272/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 669b04e380e9e2da3ff3e8bf6e1317ce",
+      "time" : {
+        "start" : 1706861270641,
+        "stop" : 1706861327875,
+        "duration" : 57234
+      }
+    } ]
+  },
+  "f4e448109fbdd81a70add4a0bf7e0a45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3dff4854482da7ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706861328016,
+        "stop" : 1706861400390,
+        "duration" : 72374
+      }
+    } ]
+  }
+}
