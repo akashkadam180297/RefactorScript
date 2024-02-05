@@ -1,0 +1,234 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test",
+    "children" : [ {
+      "name" : "WoParts Test",
+      "children" : [ {
+        "name" : "T_006 Enter CorePart and click on search icon",
+        "uid" : "16b1e9a2a534a48b",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706703381991,
+          "stop" : 1706703569688,
+          "duration" : 187697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_007 Click on CoreReturn and delete core part",
+        "uid" : "98c3de2855c3b059",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706703569778,
+          "stop" : 1706703808928,
+          "duration" : 239150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_001 Sign in the page and Go to the Tech RO",
+        "uid" : "e47612f36233e918",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706706653595,
+          "stop" : 1706706720982,
+          "duration" : 67387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_002 Verify Unit Number and Click on Parts ",
+        "uid" : "5a694499d24d4517",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706706728893,
+          "stop" : 1706706838648,
+          "duration" : 109755
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_003 Check the Generic setup of the screen and enter Part number",
+        "uid" : "1ccf77086a302edb",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706706838731,
+          "stop" : 1706706944477,
+          "duration" : 105746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_004 verify the part pannel and click on issue part",
+        "uid" : "683c4a343eb34bd1",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706706944562,
+          "stop" : 1706706952818,
+          "duration" : 8256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_005 Verify part added , click on cross button and delete the part",
+        "uid" : "e90b9b2aaf31f7f5",
+        "parentUid" : "d96f7799932cf5e29cae964d807fb943",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706706952903,
+          "stop" : 1706707101159,
+          "duration" : 148256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d96f7799932cf5e29cae964d807fb943"
+    } ],
+    "uid" : "4ec242477f64dbad10ea90f28e043795"
+  }, {
+    "name" : "T_001 Login the page and Go to the Tech Ro",
+    "uid" : "94e8b27e31fa8fcb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1706763992058,
+      "stop" : 1706764119032,
+      "duration" : 126974
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "T_002 Verify the Element and Enter the Unit Number",
+    "uid" : "1d6a0bc8de98cd7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1706764119522,
+      "stop" : 1706764174297,
+      "duration" : 54775
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "T_003 Verify the element and click on Unit History",
+    "uid" : "ad73769e9a71b98",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1706764174476,
+      "stop" : 1706764231802,
+      "duration" : 57326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "T_004 Click on Labour,MoreWork and VMRS tab",
+    "uid" : "5cd79d8b69bc0b8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1706764231971,
+      "stop" : 1706764254594,
+      "duration" : 22623
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "T_005 Enter AderoDynamic Device in search field",
+    "uid" : "b28021bea52293e6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1706764254782,
+      "stop" : 1706764269588,
+      "duration" : 14806
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "T_006 Enter Aerodynamic Device and click on Image",
+    "uid" : "6a4f5b1b438b235d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1706764269785,
+      "stop" : 1706764313850,
+      "duration" : 44065
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "T_007 Check that add AeroDynamic Device and Delete it from Labour section",
+    "uid" : "98250be3d3959111",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1706764314033,
+      "stop" : 1706764351396,
+      "duration" : 37363
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "T_008 Check that again add Aerodynamic Device ",
+    "uid" : "5a1b11c104a6b4ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1706764351566,
+      "stop" : 1706764403709,
+      "duration" : 52143
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "T_009 Enter Accessories Group Image",
+    "uid" : "5264910e800f6b9a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1706764403874,
+      "stop" : 1706764486863,
+      "duration" : 82989
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "T_010 Click on Select Button and Again start from Aerodynamic Device ",
+    "uid" : "af4775768282f96c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1706764487031,
+      "stop" : 1706764576840,
+      "duration" : 89809
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

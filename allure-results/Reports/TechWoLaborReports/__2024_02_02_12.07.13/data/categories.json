@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Charge Hours']\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.58.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0a43dc836162c96ea6194c7d8d340302, findElement {using=xpath, value=//span[text()='Charge Hours']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54699/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0a43dc836162c96ea6194c7d8d340302",
+      "children" : [ {
+        "name" : "T_003 Verify the element and click on Unit History",
+        "uid" : "ef173cdde4133bb7",
+        "parentUid" : "5db15f7a17ee67df71c41b35ae04a9be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706855072844,
+          "stop" : 1706855130700,
+          "duration" : 57856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5db15f7a17ee67df71c41b35ae04a9be"
+    }, {
+      "name" : "Index 0 out of bounds for length 0",
+      "children" : [ {
+        "name" : "T_009 Enter Accessories Group Image",
+        "uid" : "3ccac73ca42f8f32",
+        "parentUid" : "cd678efc9459eb5fa08af3c540cca518",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706855626182,
+          "stop" : 1706855660888,
+          "duration" : 34706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd678efc9459eb5fa08af3c540cca518"
+    }, {
+      "name" : "element not interactable\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.58.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0a43dc836162c96ea6194c7d8d340302, clickElement {id=8ADBBDBE36C3B6400F5A6B1809CE824F_element_737}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54699/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (0a43dc836162c96ea6194c7d8d340302)] -> xpath: //a[contains(@id,'ciAddVmrs')]]\nSession ID: 0a43dc836162c96ea6194c7d8d340302",
+      "children" : [ {
+        "name" : "T_010 Click on Select Button and Again start from Aerodynamic Device ",
+        "uid" : "83689b2295a4e738",
+        "parentUid" : "f646e902f845240b859f570b64e06103",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706855661028,
+          "stop" : 1706855833694,
+          "duration" : 172666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f646e902f845240b859f570b64e06103"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <a role=\"tab\" aria-controls=\"reg0:0:r1:5:ptTRO:sdiHistory::body\" id=\"reg0:0:r1:5:ptTRO:sdiHistory::disAcr\" class=\"x164\" data-afr-fcs=\"true\" tabindex=\"-1\" href=\"#\" onclick=\"return false;\">...</a> is not clickable at point (416, 210). Other element would receive the click: <div align=\"center\" id=\"reg0:0:r1:5:ptTRO:rSV:1:rlbg:0:j_id-1186056126_be8aa92_1\" class=\"x1a\" style=\"padding:10.0px;;float:left;\">...</div>\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [55d5d353fa7ab1c00b648122cd6cd928, clickElement {id=54DBA739BD900DA8FC1561AAFC849BA9_element_592}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58922/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (55d5d353fa7ab1c00b648122cd6cd928)] -> xpath: //div[contains(@id,':sdiHistory::ti')]/div/child::div/a]\nSession ID: 55d5d353fa7ab1c00b648122cd6cd928",
+      "children" : [ {
+        "name" : "T_005 Enter AderoDynamic Device in search field",
+        "uid" : "a0b5a8affaef4eee",
+        "parentUid" : "e12ce5488e62fbc9affd8503478edced",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706774564794,
+          "stop" : 1706774586196,
+          "duration" : 21402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e12ce5488e62fbc9affd8503478edced"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@id,'ciBackToVmrsys')]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [55d5d353fa7ab1c00b648122cd6cd928, findElement {using=xpath, value=//a[contains(@id,'ciBackToVmrsys')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58922/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 55d5d353fa7ab1c00b648122cd6cd928",
+      "children" : [ {
+        "name" : "T_006 Enter Aerodynamic Device and click on Image",
+        "uid" : "a0866b0cacc87875",
+        "parentUid" : "b232ff0d99a607766368a2199fe4feb1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706774586338,
+          "stop" : 1706774668688,
+          "duration" : 82350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b232ff0d99a607766368a2199fe4feb1"
+    }, {
+      "name" : "element not interactable\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [55d5d353fa7ab1c00b648122cd6cd928, clickElement {id=54DBA739BD900DA8FC1561AAFC849BA9_element_859}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58922/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (55d5d353fa7ab1c00b648122cd6cd928)] -> xpath: (//span[text()='Cancel'])[1]]\nSession ID: 55d5d353fa7ab1c00b648122cd6cd928",
+      "children" : [ {
+        "name" : "T_009 Enter Accessories Group Image",
+        "uid" : "72da9af713b44796",
+        "parentUid" : "94a4efda5cd74ef371f00a0b594d83e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706774943604,
+          "stop" : 1706775176430,
+          "duration" : 232826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94a4efda5cd74ef371f00a0b594d83e8"
+    }, {
+      "name" : "element not interactable\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [55d5d353fa7ab1c00b648122cd6cd928, clickElement {id=54DBA739BD900DA8FC1561AAFC849BA9_element_899}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58922/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (55d5d353fa7ab1c00b648122cd6cd928)] -> xpath: (//span[text()='Description'])[3]/following::a[1]/img]\nSession ID: 55d5d353fa7ab1c00b648122cd6cd928",
+      "children" : [ {
+        "name" : "T_010 Click on Select Button and Again start from Aerodynamic Device ",
+        "uid" : "b7ddfb00cfab8206",
+        "parentUid" : "4df8a4924f744cceb29515df5eba8d12",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706775176579,
+          "stop" : 1706775348992,
+          "duration" : 172413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4df8a4924f744cceb29515df5eba8d12"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

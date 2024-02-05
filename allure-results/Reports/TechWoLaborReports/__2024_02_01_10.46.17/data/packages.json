@@ -1,0 +1,238 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.tech",
+    "children" : [ {
+      "name" : "TechWoParts",
+      "children" : [ {
+        "name" : "verifyPartadded_",
+        "uid" : "16b1e9a2a534a48b",
+        "parentUid" : "11d434acd3cb5e656562bfcf03e12e5b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706703381991,
+          "stop" : 1706703569688,
+          "duration" : 187697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickOnCoreReturn_deleteCorePart",
+        "uid" : "98c3de2855c3b059",
+        "parentUid" : "11d434acd3cb5e656562bfcf03e12e5b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706703569778,
+          "stop" : 1706703808928,
+          "duration" : 239150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "gotoTechRo",
+        "uid" : "e47612f36233e918",
+        "parentUid" : "11d434acd3cb5e656562bfcf03e12e5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706706653595,
+          "stop" : 1706706720982,
+          "duration" : 67387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUnitNumber_ClickOnParts",
+        "uid" : "5a694499d24d4517",
+        "parentUid" : "11d434acd3cb5e656562bfcf03e12e5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706706728893,
+          "stop" : 1706706838648,
+          "duration" : 109755
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyElement_EnterPartNumber",
+        "uid" : "1ccf77086a302edb",
+        "parentUid" : "11d434acd3cb5e656562bfcf03e12e5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706706838731,
+          "stop" : 1706706944477,
+          "duration" : 105746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPartPannel_ClickOnIssuePart",
+        "uid" : "683c4a343eb34bd1",
+        "parentUid" : "11d434acd3cb5e656562bfcf03e12e5b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706706944562,
+          "stop" : 1706706952818,
+          "duration" : 8256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPartadded_deletePart",
+        "uid" : "e90b9b2aaf31f7f5",
+        "parentUid" : "11d434acd3cb5e656562bfcf03e12e5b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706706952903,
+          "stop" : 1706707101159,
+          "duration" : 148256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11d434acd3cb5e656562bfcf03e12e5b"
+    }, {
+      "name" : "TechWoLabor",
+      "children" : [ {
+        "name" : "gotoTechRo",
+        "uid" : "94e8b27e31fa8fcb",
+        "parentUid" : "9d88ccc0b939a04640f9a62ab04b79d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706763992058,
+          "stop" : 1706764119032,
+          "duration" : 126974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "enter_Unit_Number",
+        "uid" : "1d6a0bc8de98cd7d",
+        "parentUid" : "9d88ccc0b939a04640f9a62ab04b79d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706764119522,
+          "stop" : 1706764174297,
+          "duration" : 54775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyElement_Click_UnitHistory",
+        "uid" : "ad73769e9a71b98",
+        "parentUid" : "9d88ccc0b939a04640f9a62ab04b79d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706764174476,
+          "stop" : 1706764231802,
+          "duration" : 57326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickOn_Labour_MoreWork_VMRSTab",
+        "uid" : "5cd79d8b69bc0b8",
+        "parentUid" : "9d88ccc0b939a04640f9a62ab04b79d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706764231971,
+          "stop" : 1706764254594,
+          "duration" : 22623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "enter_AeroDynamic_Device_First",
+        "uid" : "b28021bea52293e6",
+        "parentUid" : "9d88ccc0b939a04640f9a62ab04b79d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706764254782,
+          "stop" : 1706764269588,
+          "duration" : 14806
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "enter_AeroDynamic_ClickIMG",
+        "uid" : "6a4f5b1b438b235d",
+        "parentUid" : "9d88ccc0b939a04640f9a62ab04b79d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706764269785,
+          "stop" : 1706764313850,
+          "duration" : 44065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_AeroDynamic_Delete_Labour",
+        "uid" : "98250be3d3959111",
+        "parentUid" : "9d88ccc0b939a04640f9a62ab04b79d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706764314033,
+          "stop" : 1706764351396,
+          "duration" : 37363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "again_Add_AeroDynamicDevice",
+        "uid" : "5a1b11c104a6b4ce",
+        "parentUid" : "9d88ccc0b939a04640f9a62ab04b79d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706764351566,
+          "stop" : 1706764403709,
+          "duration" : 52143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "enter_AccessoriesGroup_Img",
+        "uid" : "5264910e800f6b9a",
+        "parentUid" : "9d88ccc0b939a04640f9a62ab04b79d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706764403874,
+          "stop" : 1706764486863,
+          "duration" : 82989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickOn_SelectButton",
+        "uid" : "af4775768282f96c",
+        "parentUid" : "9d88ccc0b939a04640f9a62ab04b79d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706764487031,
+          "stop" : 1706764576840,
+          "duration" : 89809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d88ccc0b939a04640f9a62ab04b79d4"
+    } ],
+    "uid" : "tests.tech"
+  } ]
+}

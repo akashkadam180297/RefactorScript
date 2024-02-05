@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//ul[@class='AFAutoSuggestItemsContainer']/li[1]\"}\n  (Session info: chrome=120.0.6099.227)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [eb8b04f4854a13c862c5237410b2a3f5, findElement {using=xpath, value=//ul[@class='AFAutoSuggestItemsContainer']/li[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53600}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53600/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: eb8b04f4854a13c862c5237410b2a3f5",
+      "children" : [ {
+        "name" : "T_006 Enter CorePart and click on search icon",
+        "uid" : "16b1e9a2a534a48b",
+        "parentUid" : "6b38345f8a2baa868fc7bc956f53140d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706703381991,
+          "stop" : 1706703569688,
+          "duration" : 187697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b38345f8a2baa868fc7bc956f53140d"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Non-Catalog Part']/following::td[2]/a/img\"}\n  (Session info: chrome=120.0.6099.227)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [eb8b04f4854a13c862c5237410b2a3f5, findElement {using=xpath, value=//span[text()='Non-Catalog Part']/following::td[2]/a/img}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53600}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53600/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: eb8b04f4854a13c862c5237410b2a3f5",
+      "children" : [ {
+        "name" : "T_007 Click on CoreReturn and delete core part",
+        "uid" : "98c3de2855c3b059",
+        "parentUid" : "65b4e91df4b0538288b28282ba421122",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706703569778,
+          "stop" : 1706703808928,
+          "duration" : 239150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65b4e91df4b0538288b28282ba421122"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@id,':1:tWAP:1:cRTWAP1')]//img\"}\n  (Session info: chrome=120.0.6099.227)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [acb2c653eaa243943f508f2b7e11b170, findElement {using=xpath, value=//a[contains(@id,':1:tWAP:1:cRTWAP1')]//img}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62959/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: acb2c653eaa243943f508f2b7e11b170",
+      "children" : [ {
+        "name" : "T_005 Verify part added , click on cross button and delete the part",
+        "uid" : "e90b9b2aaf31f7f5",
+        "parentUid" : "53ef6cb34acc9fa65ab2f4b718093964",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706706952903,
+          "stop" : 1706707101159,
+          "duration" : 148256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53ef6cb34acc9fa65ab2f4b718093964"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "T_004 verify the part pannel and click on issue part",
+        "uid" : "683c4a343eb34bd1",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706706944562,
+          "stop" : 1706706952818,
+          "duration" : 8256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,194 @@
+{
+  "3062258c92465ed78c1ed24ef0c16eed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ec71b401af583e4",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a role=\"tab\" aria-controls=\"reg0:0:r1:5:ptTRO:sdiHistory::body\" id=\"reg0:0:r1:5:ptTRO:sdiHistory::disAcr\" class=\"x164\" data-afr-fcs=\"true\" tabindex=\"-1\" href=\"#\" onclick=\"return false;\">...</a> is not clickable at point (416, 210). Other element would receive the click: <div align=\"center\" id=\"reg0:0:r1:5:ptTRO:rSV:1:rlbg:0:j_id-1186056126_be8aa92_1\" class=\"x1a\" style=\"padding:10.0px;;float:left;\">...</div>\n  (Session info: chrome=120.0.6099.225)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f008d7331ae05ac02da44ffccf88bbb9, clickElement {id=A930E2748D290EA9AA30BBE82AEA8523_element_573}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55882/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (f008d7331ae05ac02da44ffccf88bbb9)] -> xpath: (//a[text()='Unit History'])[1]]\nSession ID: f008d7331ae05ac02da44ffccf88bbb9",
+      "time" : {
+        "start" : 1706768454926,
+        "stop" : 1706768476393,
+        "duration" : 21467
+      }
+    } ]
+  },
+  "4951e95de0bb65da313191aa0b49610c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e235c2f821c9956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706768142401,
+        "stop" : 1706768273488,
+        "duration" : 131087
+      }
+    } ]
+  },
+  "3d5920d138fe90947db717c310a2f858" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "730c3c3f044c2447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706768559282,
+        "stop" : 1706768669617,
+        "duration" : 110335
+      }
+    } ]
+  },
+  "5655ed5619c3565d20337de0ac28ce08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "edb9dc2811abd302",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706768835524,
+        "stop" : 1706768993376,
+        "duration" : 157852
+      }
+    } ]
+  },
+  "3d415d0db09a8ffa441195210d50e5ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81913407f83c64b0",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@id,'ciBackToVmrsys')]\"}\n  (Session info: chrome=120.0.6099.225)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f008d7331ae05ac02da44ffccf88bbb9, findElement {using=xpath, value=//a[contains(@id,'ciBackToVmrsys')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55882/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f008d7331ae05ac02da44ffccf88bbb9",
+      "time" : {
+        "start" : 1706768476557,
+        "stop" : 1706768558816,
+        "duration" : 82259
+      }
+    } ]
+  },
+  "b31d66ff6eb479f35e77a487416b9cc6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96e6220fe640032c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706768669769,
+        "stop" : 1706768835338,
+        "duration" : 165569
+      }
+    } ]
+  },
+  "6b3b5d4920d677790c08f828f9f850cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1392f1580bb566c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706768273918,
+        "stop" : 1706768324451,
+        "duration" : 50533
+      }
+    } ]
+  },
+  "34a8b9c888846575477c35369faa6ca4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f58a33edb066e6b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706768993566,
+        "stop" : 1706769153537,
+        "duration" : 159971
+      }
+    } ]
+  },
+  "34932e23098a80b7ddb47d5bcfa4d4df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b0c6d522300dc6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706768324610,
+        "stop" : 1706768382193,
+        "duration" : 57583
+      }
+    } ]
+  },
+  "f4e448109fbdd81a70add4a0bf7e0a45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "748fe480f1711886",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706768382318,
+        "stop" : 1706768454769,
+        "duration" : 72451
+      }
+    } ]
+  }
+}

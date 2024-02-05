@@ -1,0 +1,119 @@
+{
+  "uid" : "5cd79d8b69bc0b8",
+  "name" : "T_004 Click on Labour,MoreWork and VMRS tab",
+  "fullName" : "tests.tech.TechWoLabor.clickOn_Labour_MoreWork_VMRSTab",
+  "historyId" : "f4e448109fbdd81a70add4a0bf7e0a45",
+  "time" : {
+    "start" : 1706764231971,
+    "stop" : 1706764254594,
+    "duration" : 22623
+  },
+  "description" : "Test Description - Click on Labour,MoreWork and VMRS tab",
+  "descriptionHtml" : "<p>Test Description - Click on Labour,MoreWork and VMRS tab</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706763938413,
+      "stop" : 1706763991988,
+      "duration" : 53575
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Click on Labour,MoreWork and VMRS tab",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5db0f0b7a6d2f3b5",
+      "name" : "Page Screenshot",
+      "source" : "5db0f0b7a6d2f3b5.png",
+      "type" : "image/png",
+      "size" : 87714
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706764254597,
+      "stop" : 1706764254774,
+      "duration" : 177
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "df10a489c467dc3",
+      "name" : "Page Screenshot",
+      "source" : "df10a489c467dc3.png",
+      "type" : "image/png",
+      "size" : 87639
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOn_Labour_MoreWork_VMRSTab"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "15108@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cd79d8b69bc0b8.json",
+  "parameterValues" : [ ]
+}

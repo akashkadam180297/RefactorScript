@@ -1,0 +1,147 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.tech.TechWoLabor",
+        "children" : [ {
+          "name" : "T_001 Login the page and Go to the Tech Ro",
+          "uid" : "73a608ce0e831abc",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706854879988,
+            "stop" : 1706855017402,
+            "duration" : 137414
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_002 Verify the Element and Enter the Unit Number",
+          "uid" : "a4e6dbb5bc738df",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706855018036,
+            "stop" : 1706855072701,
+            "duration" : 54665
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_003 Verify the element and click on Unit History",
+          "uid" : "ef173cdde4133bb7",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "broken",
+          "time" : {
+            "start" : 1706855072844,
+            "stop" : 1706855130700,
+            "duration" : 57856
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_004 Click on Labour,MoreWork and VMRS tab",
+          "uid" : "7a84f09cdbdc70a3",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706855130945,
+            "stop" : 1706855203141,
+            "duration" : 72196
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_005 Enter AderoDynamic Device in search field",
+          "uid" : "f239cef0d1f1cb86",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706855203320,
+            "stop" : 1706855287304,
+            "duration" : 83984
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_006 Enter Aerodynamic Device and click on Image",
+          "uid" : "7104141a45b941f8",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706855287434,
+            "stop" : 1706855351971,
+            "duration" : 64537
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_007 Check that add AeroDynamic Device and Delete it from Labour section",
+          "uid" : "8a9a648b5dedece7",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706855352120,
+            "stop" : 1706855462005,
+            "duration" : 109885
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_008 Check that again add Aerodynamic Device ",
+          "uid" : "8e11bc7896c935c3",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706855462136,
+            "stop" : 1706855626046,
+            "duration" : 163910
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_009 Enter Accessories Group Image",
+          "uid" : "3ccac73ca42f8f32",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "broken",
+          "time" : {
+            "start" : 1706855626182,
+            "stop" : 1706855660888,
+            "duration" : 34706
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_010 Click on Select Button and Again start from Aerodynamic Device ",
+          "uid" : "83689b2295a4e738",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "broken",
+          "time" : {
+            "start" : 1706855661028,
+            "stop" : 1706855833694,
+            "duration" : 172666
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "97052421c7fba162099bdca9091aaa93"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

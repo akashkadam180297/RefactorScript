@@ -1,0 +1,159 @@
+{
+  "uid" : "1c5656293bb55c08",
+  "name" : "T_001 Login the page and Go to the Tech Ro",
+  "fullName" : "tests.tech.TechWoLabor.gotoTechRo",
+  "historyId" : "4951e95de0bb65da313191aa0b49610c",
+  "time" : {
+    "start" : 1706783903200,
+    "stop" : 1706784048288,
+    "duration" : 145088
+  },
+  "description" : "Test Description - Login the page and Go to the Tech Ro ",
+  "descriptionHtml" : "<p>Test Description - Login the page and Go to the Tech Ro</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706783850300,
+      "stop" : 1706783903128,
+      "duration" : 52828
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Login the page and Go to the Tech Ro ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9039e82d4f296b2",
+      "name" : "Page Screenshot",
+      "source" : "f9039e82d4f296b2.png",
+      "type" : "image/png",
+      "size" : 24297
+    }, {
+      "uid" : "ffd26404679f2936",
+      "name" : "Page Screenshot",
+      "source" : "ffd26404679f2936.png",
+      "type" : "image/png",
+      "size" : 24714
+    }, {
+      "uid" : "ba3e5e54d8c6b04d",
+      "name" : "Page Screenshot",
+      "source" : "ba3e5e54d8c6b04d.png",
+      "type" : "image/png",
+      "size" : 23937
+    }, {
+      "uid" : "7e511280bb00c3c",
+      "name" : "Page Screenshot",
+      "source" : "7e511280bb00c3c.png",
+      "type" : "image/png",
+      "size" : 45183
+    }, {
+      "uid" : "77ef48728c92c264",
+      "name" : "Page Screenshot",
+      "source" : "77ef48728c92c264.png",
+      "type" : "image/png",
+      "size" : 126124
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706784048503,
+      "stop" : 1706784048666,
+      "duration" : 163
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "17cfa94241c14229",
+      "name" : "Page Screenshot",
+      "source" : "17cfa94241c14229.png",
+      "type" : "image/png",
+      "size" : 126124
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "gotoTechRo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "7940@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dd311d2eb1ce5528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706783272945,
+        "stop" : 1706783404025,
+        "duration" : 131080
+      }
+    }, {
+      "uid" : "889d9d551965cd21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706782293079,
+        "stop" : 1706782422207,
+        "duration" : 129128
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c5656293bb55c08.json",
+  "parameterValues" : [ ]
+}

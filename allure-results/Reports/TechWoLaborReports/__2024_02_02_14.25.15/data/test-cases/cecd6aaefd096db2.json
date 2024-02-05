@@ -1,0 +1,149 @@
+{
+  "uid" : "cecd6aaefd096db2",
+  "name" : "T_007 Check that add AeroDynamic Device and Delete it from Labour section",
+  "fullName" : "tests.tech.TechWoLabor.add_AeroDynamic_Delete_Labour",
+  "historyId" : "3d5920d138fe90947db717c310a2f858",
+  "time" : {
+    "start" : 1706863545075,
+    "stop" : 1706863656455,
+    "duration" : 111380
+  },
+  "description" : "Test Description - Check that add AeroDynamic Device and Delete it from Labour section",
+  "descriptionHtml" : "<p>Test Description - Check that add AeroDynamic Device and Delete it from Labour section</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706863021909,
+      "stop" : 1706863072675,
+      "duration" : 50766
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that add AeroDynamic Device and Delete it from Labour section",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eb6e521aa02cb4c8",
+      "name" : "Page Screenshot",
+      "source" : "eb6e521aa02cb4c8.png",
+      "type" : "image/png",
+      "size" : 70324
+    }, {
+      "uid" : "ff925e79daf2feea",
+      "name" : "Page Screenshot",
+      "source" : "ff925e79daf2feea.png",
+      "type" : "image/png",
+      "size" : 80146
+    }, {
+      "uid" : "2cf1d5eb32021a8c",
+      "name" : "Page Screenshot",
+      "source" : "2cf1d5eb32021a8c.png",
+      "type" : "image/png",
+      "size" : 80146
+    }, {
+      "uid" : "12d5a1630a633af8",
+      "name" : "Page Screenshot",
+      "source" : "12d5a1630a633af8.png",
+      "type" : "image/png",
+      "size" : 103644
+    }, {
+      "uid" : "83e7e6974eda480f",
+      "name" : "Page Screenshot",
+      "source" : "83e7e6974eda480f.png",
+      "type" : "image/png",
+      "size" : 104296
+    }, {
+      "uid" : "12979201df985f49",
+      "name" : "Page Screenshot",
+      "source" : "12979201df985f49.png",
+      "type" : "image/png",
+      "size" : 103828
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706863656459,
+      "stop" : 1706863656632,
+      "duration" : 173
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e43bba7f105ba44f",
+      "name" : "Page Screenshot",
+      "source" : "e43bba7f105ba44f.png",
+      "type" : "image/png",
+      "size" : 103828
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_AeroDynamic_Delete_Labour"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "9132@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cecd6aaefd096db2.json",
+  "parameterValues" : [ ]
+}

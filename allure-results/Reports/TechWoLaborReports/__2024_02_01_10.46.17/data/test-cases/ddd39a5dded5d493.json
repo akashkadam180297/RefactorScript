@@ -1,0 +1,125 @@
+{
+  "uid" : "ddd39a5dded5d493",
+  "name" : "T_001 Sign in the page and Go to the Tech RO",
+  "fullName" : "tests.tech.TechWoParts.gotoTechRo",
+  "historyId" : "a17c33fc3fa057ad1f780564ac4d21b8",
+  "time" : {
+    "start" : 1706701345637,
+    "stop" : 1706701421451,
+    "duration" : 75814
+  },
+  "description" : "Test Description - Sign in the page and Go to the Tech RO",
+  "descriptionHtml" : "<p>Test Description - Sign in the page and Go to the Tech RO</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description - Sign in the page and Go to the Tech RO",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "348fd1d618e5d494",
+      "name" : "Page Screenshot",
+      "source" : "348fd1d618e5d494.png",
+      "type" : "image/png",
+      "size" : 23081
+    }, {
+      "uid" : "2714dce2858de528",
+      "name" : "Page Screenshot",
+      "source" : "2714dce2858de528.png",
+      "type" : "image/png",
+      "size" : 23306
+    }, {
+      "uid" : "df53a59ad2d343cb",
+      "name" : "Page Screenshot",
+      "source" : "df53a59ad2d343cb.png",
+      "type" : "image/png",
+      "size" : 22600
+    }, {
+      "uid" : "e0c66ad75426859f",
+      "name" : "Page Screenshot",
+      "source" : "e0c66ad75426859f.png",
+      "type" : "image/png",
+      "size" : 64457
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706701421515,
+      "stop" : 1706701421587,
+      "duration" : 72
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c522b2a8f1fd329f",
+      "name" : "Page Screenshot",
+      "source" : "c522b2a8f1fd329f.png",
+      "type" : "image/png",
+      "size" : 64524
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "gotoTechRo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "15352@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "WoParts Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ddd39a5dded5d493.json",
+  "parameterValues" : [ ]
+}

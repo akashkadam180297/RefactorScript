@@ -1,0 +1,149 @@
+{
+  "uid" : "bd39a8ca81b52432",
+  "name" : "Test_007 check invoice and signout",
+  "fullName" : "tests.parts.CounterSale.check_invoice_and_signout",
+  "historyId" : "1d19b9e8d6cc865086767d82fd3d3022",
+  "time" : {
+    "start" : 1706850874151,
+    "stop" : 1706851058645,
+    "duration" : 184494
+  },
+  "description" : "Test Description: check invoice and signout",
+  "descriptionHtml" : "<p>Test Description: check invoice and signout</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1706850369963,
+      "stop" : 1706850438258,
+      "duration" : 68295
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: check invoice and signout",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6a29efc9b7e901d8",
+      "name" : "Page Screenshot",
+      "source" : "6a29efc9b7e901d8.png",
+      "type" : "image/png",
+      "size" : 106480
+    }, {
+      "uid" : "7fc0186f9d0ca26c",
+      "name" : "Page Screenshot",
+      "source" : "7fc0186f9d0ca26c.png",
+      "type" : "image/png",
+      "size" : 106545
+    }, {
+      "uid" : "12c13d547eb2976d",
+      "name" : "Page Screenshot",
+      "source" : "12c13d547eb2976d.png",
+      "type" : "image/png",
+      "size" : 80201
+    }, {
+      "uid" : "3a2af0f3702eca",
+      "name" : "Page Screenshot",
+      "source" : "3a2af0f3702eca.png",
+      "type" : "image/png",
+      "size" : 12654
+    }, {
+      "uid" : "1efedf874263e9ed",
+      "name" : "Page Screenshot",
+      "source" : "1efedf874263e9ed.png",
+      "type" : "image/png",
+      "size" : 12669
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1706851058681,
+      "stop" : 1706851058813,
+      "duration" : 132
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "abe87e8cd3335cd1",
+      "name" : "Page Screenshot",
+      "source" : "abe87e8cd3335cd1.png",
+      "type" : "image/png",
+      "size" : 12669
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "check_invoice_and_signout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "9200@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd39a8ca81b52432.json",
+  "parameterValues" : [ ]
+}
