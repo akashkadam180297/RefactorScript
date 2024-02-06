@@ -1,524 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="10" passed="5" failed="5" skipped="0">
+<testng-results total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-02T11:52:08Z" name="Surefire suite" finished-at="2024-02-02T12:13:24Z" duration-ms="1276155">
+  <suite started-at="2024-02-04T10:07:54Z" name="Surefire suite" finished-at="2024-02-04T10:26:14Z" duration-ms="1099533">
     <groups>
     </groups>
-    <test started-at="2024-02-02T11:52:08Z" name="Surefire test" finished-at="2024-02-02T12:13:24Z" duration-ms="1276155">
+    <test started-at="2024-02-04T10:07:54Z" name="Surefire test" finished-at="2024-02-04T10:26:14Z" duration-ms="1099533">
       <class name="tests.tech.TechWoLabor">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:22:08Z" name="initialization" finished-at="2024-02-02T17:22:53Z" duration-ms="45800" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:37:54Z" name="initialization" finished-at="2024-02-04T15:38:57Z" duration-ms="63079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="gotoTechRo()[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:22:53Z" name="gotoTechRo" description="T_001 Login the page and Go to the Tech Ro" finished-at="2024-02-02T17:25:09Z" duration-ms="135446" status="PASS">
+        <test-method signature="gotoTechRo()[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:38:57Z" name="gotoTechRo" description="T_001 Login the page and Go to the Tech Ro" finished-at="2024-02-04T15:41:11Z" duration-ms="133434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoTechRo -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:25:09Z" name="afterMethodTakeScreenShot" finished-at="2024-02-02T17:25:09Z" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:41:11Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:41:11Z" duration-ms="169" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=gotoTechRo status=SUCCESS method=TechWoLabor.gotoTechRo()[pri:0, instance:tests.tech.TechWoLabor@323659f8] output={null}]]]>
+                <![CDATA[[TestResult name=gotoTechRo status=SUCCESS method=TechWoLabor.gotoTechRo()[pri:0, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="enter_Unit_Number()[pri:1, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:25:09Z" name="enter_Unit_Number" description="T_002 Verify the Element and Enter the Unit Number" finished-at="2024-02-02T17:26:05Z" duration-ms="55469" status="PASS">
+        <test-method signature="enter_Unit_Number()[pri:1, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:41:11Z" name="enter_Unit_Number" description="T_002 Verify the Element and Enter the Unit Number" finished-at="2024-02-04T15:42:06Z" duration-ms="54742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_Unit_Number -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:26:05Z" name="afterMethodTakeScreenShot" finished-at="2024-02-02T17:26:05Z" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:42:06Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:42:06Z" duration-ms="122" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enter_Unit_Number status=SUCCESS method=TechWoLabor.enter_Unit_Number()[pri:1, instance:tests.tech.TechWoLabor@323659f8] output={null}]]]>
+                <![CDATA[[TestResult name=enter_Unit_Number status=SUCCESS method=TechWoLabor.enter_Unit_Number()[pri:1, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="verifyElement_Click_UnitHistory()[pri:2, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:26:05Z" name="verifyElement_Click_UnitHistory" description="T_003 Verify the element and click on Unit History" finished-at="2024-02-02T17:26:54Z" duration-ms="49186" status="PASS">
+        <test-method signature="verifyElement_Click_UnitHistory()[pri:2, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:42:06Z" name="verifyElement_Click_UnitHistory" description="T_003 Verify the element and click on Unit History" finished-at="2024-02-04T15:43:04Z" duration-ms="57595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyElement_Click_UnitHistory -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:26:54Z" name="afterMethodTakeScreenShot" finished-at="2024-02-02T17:26:54Z" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:43:04Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:43:04Z" duration-ms="127" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyElement_Click_UnitHistory status=SUCCESS method=TechWoLabor.verifyElement_Click_UnitHistory()[pri:2, instance:tests.tech.TechWoLabor@323659f8] output={null}]]]>
+                <![CDATA[[TestResult name=verifyElement_Click_UnitHistory status=SUCCESS method=TechWoLabor.verifyElement_Click_UnitHistory()[pri:2, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="clickOn_Labour_MoreWork_VMRSTab()[pri:3, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:26:54Z" name="clickOn_Labour_MoreWork_VMRSTab" description="T_004 Click on Labour,MoreWork and VMRS tab" finished-at="2024-02-02T17:27:17Z" duration-ms="22875" status="PASS">
+        <test-method signature="clickOn_Labour_MoreWork_VMRSTab()[pri:3, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:43:04Z" name="clickOn_Labour_MoreWork_VMRSTab" description="T_004 Click on Labour,MoreWork and VMRS tab" finished-at="2024-02-04T15:44:12Z" duration-ms="68150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOn_Labour_MoreWork_VMRSTab -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:27:17Z" name="afterMethodTakeScreenShot" finished-at="2024-02-02T17:27:17Z" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:44:12Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:44:12Z" duration-ms="162" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOn_Labour_MoreWork_VMRSTab status=SUCCESS method=TechWoLabor.clickOn_Labour_MoreWork_VMRSTab()[pri:3, instance:tests.tech.TechWoLabor@323659f8] output={null}]]]>
+                <![CDATA[[TestResult name=clickOn_Labour_MoreWork_VMRSTab status=SUCCESS method=TechWoLabor.clickOn_Labour_MoreWork_VMRSTab()[pri:3, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="enter_AeroDynamic_Device_First()[pri:4, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:27:17Z" name="enter_AeroDynamic_Device_First" description="T_005 Enter AderoDynamic Device in search field" finished-at="2024-02-02T17:30:10Z" duration-ms="172813" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='Unit History'])[3]"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1426f2980973428fa0a42836c7e9fb90, findElement {using=xpath, value=(//a[text()='Unit History'])[3]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63343/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1426f2980973428fa0a42836c7e9fb90]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='Unit History'])[3]"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1426f2980973428fa0a42836c7e9fb90, findElement {using=xpath, value=(//a[text()='Unit History'])[3]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63343/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1426f2980973428fa0a42836c7e9fb90
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at actions.WebElementActions.clickElement(WebElementActions.java:58)
-	at pages.tech.EC_Tech_WoLabor.clickOnUnitHistoryTab(EC_Tech_WoLabor.java:787)
-	at tests.tech.TechWoLabor.enter_AeroDynamic_Device_First(TechWoLabor.java:50)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="enter_AeroDynamic_Device_First()[pri:4, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:44:12Z" name="enter_AeroDynamic_Device_First" description="T_005 Enter AderoDynamic Device in search field" finished-at="2024-02-04T15:45:36Z" duration-ms="84220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_AeroDynamic_Device_First -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:30:10Z" name="afterMethodTakeScreenShot" finished-at="2024-02-02T17:30:10Z" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:45:36Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:45:37Z" duration-ms="136" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enter_AeroDynamic_Device_First status=FAILURE method=TechWoLabor.enter_AeroDynamic_Device_First()[pri:4, instance:tests.tech.TechWoLabor@323659f8] output={null}]]]>
+                <![CDATA[[TestResult name=enter_AeroDynamic_Device_First status=SUCCESS method=TechWoLabor.enter_AeroDynamic_Device_First()[pri:4, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="enter_AeroDynamic_ClickIMG()[pri:5, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:30:10Z" name="enter_AeroDynamic_ClickIMG" description="T_006 Enter Aerodynamic Device and click on Image" finished-at="2024-02-02T17:30:55Z" duration-ms="45069" status="PASS">
+        <test-method signature="enter_AeroDynamic_ClickIMG()[pri:5, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:45:37Z" name="enter_AeroDynamic_ClickIMG" description="T_006 Enter Aerodynamic Device and click on Image" finished-at="2024-02-04T15:46:41Z" duration-ms="64337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_AeroDynamic_ClickIMG -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:30:55Z" name="afterMethodTakeScreenShot" finished-at="2024-02-02T17:30:55Z" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:46:41Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:46:41Z" duration-ms="165" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enter_AeroDynamic_ClickIMG status=SUCCESS method=TechWoLabor.enter_AeroDynamic_ClickIMG()[pri:5, instance:tests.tech.TechWoLabor@323659f8] output={null}]]]>
+                <![CDATA[[TestResult name=enter_AeroDynamic_ClickIMG status=SUCCESS method=TechWoLabor.enter_AeroDynamic_ClickIMG()[pri:5, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="add_AeroDynamic_Delete_Labour()[pri:6, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:30:55Z" name="add_AeroDynamic_Delete_Labour" description="T_007 Check that add AeroDynamic Device and Delete it from Labour section" finished-at="2024-02-02T17:34:03Z" duration-ms="187592" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Search:']/following::a[3]/img"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1426f2980973428fa0a42836c7e9fb90, findElement {using=xpath, value=//label[text()='Search:']/following::a[3]/img}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63343/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1426f2980973428fa0a42836c7e9fb90]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Search:']/following::a[3]/img"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1426f2980973428fa0a42836c7e9fb90, findElement {using=xpath, value=//label[text()='Search:']/following::a[3]/img}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63343/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1426f2980973428fa0a42836c7e9fb90
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at actions.WebElementActions.clickElement(WebElementActions.java:58)
-	at pages.tech.EC_Tech_WoLabor.clickOnPlusButton(EC_Tech_WoLabor.java:934)
-	at tests.tech.TechWoLabor.add_AeroDynamic_Delete_Labour(TechWoLabor.java:73)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="add_AeroDynamic_Delete_Labour()[pri:6, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:46:41Z" name="add_AeroDynamic_Delete_Labour" description="T_007 Check that add AeroDynamic Device and Delete it from Labour section" finished-at="2024-02-04T15:48:31Z" duration-ms="110128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_AeroDynamic_Delete_Labour -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:34:03Z" name="afterMethodTakeScreenShot" finished-at="2024-02-02T17:34:03Z" duration-ms="210" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:48:31Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:48:31Z" duration-ms="127" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=add_AeroDynamic_Delete_Labour status=FAILURE method=TechWoLabor.add_AeroDynamic_Delete_Labour()[pri:6, instance:tests.tech.TechWoLabor@323659f8] output={null}]]]>
+                <![CDATA[[TestResult name=add_AeroDynamic_Delete_Labour status=SUCCESS method=TechWoLabor.add_AeroDynamic_Delete_Labour()[pri:6, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="again_Add_AeroDynamicDevice()[pri:7, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:34:03Z" name="again_Add_AeroDynamicDevice" description="T_008 Check that again add Aerodynamic Device " finished-at="2024-02-02T17:37:26Z" duration-ms="202370" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Search:']/following::a[3]/img"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1426f2980973428fa0a42836c7e9fb90, findElement {using=xpath, value=//label[text()='Search:']/following::a[3]/img}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63343/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1426f2980973428fa0a42836c7e9fb90]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Search:']/following::a[3]/img"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1426f2980973428fa0a42836c7e9fb90, findElement {using=xpath, value=//label[text()='Search:']/following::a[3]/img}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63343/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1426f2980973428fa0a42836c7e9fb90
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at actions.WebElementActions.clickElement(WebElementActions.java:58)
-	at pages.tech.EC_Tech_WoLabor.clickOnPlusButton(EC_Tech_WoLabor.java:934)
-	at tests.tech.TechWoLabor.again_Add_AeroDynamicDevice(TechWoLabor.java:92)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="again_Add_AeroDynamicDevice()[pri:7, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:48:31Z" name="again_Add_AeroDynamicDevice" description="T_008 Check that again add Aerodynamic Device " finished-at="2024-02-04T15:51:16Z" duration-ms="164259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- again_Add_AeroDynamicDevice -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:37:26Z" name="afterMethodTakeScreenShot" finished-at="2024-02-02T17:37:26Z" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:51:16Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:51:16Z" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=again_Add_AeroDynamicDevice status=FAILURE method=TechWoLabor.again_Add_AeroDynamicDevice()[pri:7, instance:tests.tech.TechWoLabor@323659f8] output={null}]]]>
+                <![CDATA[[TestResult name=again_Add_AeroDynamicDevice status=SUCCESS method=TechWoLabor.again_Add_AeroDynamicDevice()[pri:7, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="enter_AccessoriesGroup_Img()[pri:8, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:37:26Z" name="enter_AccessoriesGroup_Img" description="T_009 Enter Accessories Group Image" finished-at="2024-02-02T17:40:31Z" duration-ms="185108" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@id,':sdiVmrs::ti')]/div/child::div/a' (tried for 40 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@id,':sdiVmrs::ti')]/div/child::div/a' (tried for 40 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at actions.WaitActions.WaitUntilWebElementIsVisible(WaitActions.java:54)
-	at actions.WebElementActions.clickUsingJS(WebElementActions.java:116)
-	at pages.tech.EC_Tech_WoLabor.clickOnLabourDetailsVMRStab(EC_Tech_WoLabor.java:825)
-	at tests.tech.TechWoLabor.enter_AccessoriesGroup_Img(TechWoLabor.java:106)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,':sdiVmrs::ti')]/div/child::div/a"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1426f2980973428fa0a42836c7e9fb90, findElement {using=xpath, value=//div[contains(@id,':sdiVmrs::ti')]/div/child::div/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63343/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1426f2980973428fa0a42836c7e9fb90
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="enter_AccessoriesGroup_Img()[pri:8, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:51:16Z" name="enter_AccessoriesGroup_Img" description="T_009 Enter Accessories Group Image" finished-at="2024-02-04T15:53:35Z" duration-ms="139796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_AccessoriesGroup_Img -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:40:31Z" name="afterMethodTakeScreenShot" finished-at="2024-02-02T17:40:31Z" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:53:35Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:53:36Z" duration-ms="146" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enter_AccessoriesGroup_Img status=FAILURE method=TechWoLabor.enter_AccessoriesGroup_Img()[pri:8, instance:tests.tech.TechWoLabor@323659f8] output={null}]]]>
+                <![CDATA[[TestResult name=enter_AccessoriesGroup_Img status=SUCCESS method=TechWoLabor.enter_AccessoriesGroup_Img()[pri:8, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="clickOn_SelectButton()[pri:9, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:40:31Z" name="clickOn_SelectButton" description="T_010 Click on Select Button and Again start from Aerodynamic Device " finished-at="2024-02-02T17:43:23Z" duration-ms="172310" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@id,':0:ciAddVmrs::icon')]"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1426f2980973428fa0a42836c7e9fb90, findElement {using=xpath, value=//img[contains(@id,':0:ciAddVmrs::icon')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63343/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1426f2980973428fa0a42836c7e9fb90]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@id,':0:ciAddVmrs::icon')]"}
-  (Session info: chrome=120.0.6099.225)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-HN0C78P', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1426f2980973428fa0a42836c7e9fb90, findElement {using=xpath, value=//img[contains(@id,':0:ciAddVmrs::icon')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63343/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1426f2980973428fa0a42836c7e9fb90
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at actions.WebElementActions.clickElement(WebElementActions.java:58)
-	at pages.tech.EC_Tech_WoLabor.clickOnPlusIcon_LabourDetails(EC_Tech_WoLabor.java:1222)
-	at tests.tech.TechWoLabor.clickOn_SelectButton(TechWoLabor.java:113)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="clickOn_SelectButton()[pri:9, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:53:36Z" name="clickOn_SelectButton" description="T_010 Click on Select Button and Again start from Aerodynamic Device " finished-at="2024-02-04T15:56:14Z" duration-ms="157955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOn_SelectButton -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:43:23Z" name="afterMethodTakeScreenShot" finished-at="2024-02-02T17:43:24Z" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:56:14Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:56:14Z" duration-ms="108" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOn_SelectButton status=FAILURE method=TechWoLabor.clickOn_SelectButton()[pri:9, instance:tests.tech.TechWoLabor@323659f8] output={null}]]]>
+                <![CDATA[[TestResult name=clickOn_SelectButton status=SUCCESS method=TechWoLabor.clickOn_SelectButton()[pri:9, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.tech.TechWoLabor@323659f8]" started-at="2024-02-02T17:43:24Z" name="generateAllure" finished-at="2024-02-02T17:43:40Z" duration-ms="16078" status="PASS">
+        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:56:14Z" name="generateAllure" finished-at="2024-02-04T15:56:27Z" duration-ms="13505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateAllure -->
