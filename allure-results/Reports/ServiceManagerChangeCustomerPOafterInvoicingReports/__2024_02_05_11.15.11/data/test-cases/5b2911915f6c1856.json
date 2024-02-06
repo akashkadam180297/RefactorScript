@@ -1,0 +1,137 @@
+{
+  "uid" : "5b2911915f6c1856",
+  "name" : "T_002 Check that verify the element click on Save/Exit button and signout",
+  "fullName" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing.verification_ofElement_SignOut",
+  "historyId" : "e225f1f044433520505b801dc2018de8",
+  "time" : {
+    "start" : 1707111871924,
+    "stop" : 1707111911769,
+    "duration" : 39845
+  },
+  "description" : "Test Description -Check that verify the element click on Save/Exit button and signout",
+  "descriptionHtml" : "<p>Test Description -Check that verify the element click on Save/Exit button and signout</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1707111769135,
+      "stop" : 1707111808221,
+      "duration" : 39086
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description -Check that verify the element click on Save/Exit button and signout",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "926a42fd1cd4f1bb",
+      "name" : "Page Screenshot",
+      "source" : "926a42fd1cd4f1bb.png",
+      "type" : "image/png",
+      "size" : 92979
+    }, {
+      "uid" : "3fce16dc924c0d15",
+      "name" : "Page Screenshot",
+      "source" : "3fce16dc924c0d15.png",
+      "type" : "image/png",
+      "size" : 12610
+    }, {
+      "uid" : "84da5d200cc06324",
+      "name" : "Page Screenshot",
+      "source" : "84da5d200cc06324.png",
+      "type" : "image/png",
+      "size" : 12610
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707111911815,
+      "stop" : 1707111911851,
+      "duration" : 36
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb48ef33b2366a4a",
+      "name" : "Page Screenshot",
+      "source" : "fb48ef33b2366a4a.png",
+      "type" : "image/png",
+      "size" : 12610
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing"
+  }, {
+    "name" : "testMethod",
+    "value" : "verification_ofElement_SignOut"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "7392@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "UpdatePoNumber Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b2911915f6c1856.json",
+  "parameterValues" : [ ]
+}

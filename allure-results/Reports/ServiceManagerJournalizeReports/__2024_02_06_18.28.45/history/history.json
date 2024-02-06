@@ -1,0 +1,79 @@
+{
+  "1005581e0ae8a7245d982afde93da018" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83de9e4b7fdad44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707224037427,
+        "stop" : 1707224103876,
+        "duration" : 66449
+      }
+    } ]
+  },
+  "dc4c79576ce60cad9042a82dc0032d3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f03e81009f42e5e6",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//span[contains(text(),'O0')])[1]\"}\n  (Session info: chrome=121.0.6167.140)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6ca7aabb782e5ea6d1325540464307c0, findElement {using=xpath, value=(//span[contains(text(),'O0')])[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57678/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 6ca7aabb782e5ea6d1325540464307c0",
+      "time" : {
+        "start" : 1707224110225,
+        "stop" : 1707224325181,
+        "duration" : 214956
+      }
+    } ]
+  },
+  "53c1e9c16f8b5e5b839937054aeac615" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f661e54679001167",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707223994569,
+        "stop" : 1707224037279,
+        "duration" : 42710
+      }
+    } ]
+  },
+  "4560fbcc9f9245f27bda8b52a2bca830" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e22c4f15335d1fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707224103978,
+        "stop" : 1707224110172,
+        "duration" : 6194
+      }
+    } ]
+  }
+}

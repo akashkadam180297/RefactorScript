@@ -1,0 +1,102 @@
+{
+  "uid" : "5e5678c650c6b188",
+  "name" : "Test_001_Click On Service Board   ",
+  "fullName" : "tests.techRo.ServiceManagerJournalize.Test_003_clickOnServiceBoard",
+  "historyId" : "4560fbcc9f9245f27bda8b52a2bca830",
+  "time" : {
+    "start" : 1707133917448,
+    "stop" : 1707133923614,
+    "duration" : 6166
+  },
+  "description" : "Test Description: Click On Service Board  ",
+  "descriptionHtml" : "<p>Test Description: Click On Service Board</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1707133772320,
+      "stop" : 1707133811036,
+      "duration" : 38716
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707133923615,
+      "stop" : 1707133923681,
+      "duration" : 66
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6105005ce80db40b",
+      "name" : "Page Screenshot",
+      "source" : "6105005ce80db40b.png",
+      "type" : "image/png",
+      "size" : 124551
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerJournalize"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerJournalize"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_clickOnServiceBoard"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerJournalize"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "21384@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e5678c650c6b188.json",
+  "parameterValues" : [ ]
+}

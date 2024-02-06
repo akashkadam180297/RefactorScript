@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.techRo.ServiceManagerJournalize",
+        "children" : [ {
+          "name" : "Test_001_Login the page and Go to Financials ",
+          "uid" : "88fea5ed1014573f",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707112325338,
+            "stop" : 1707112366994,
+            "duration" : 41656
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click OnGenerate Journals   ",
+          "uid" : "368223bc469a1b4c",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707112367110,
+            "stop" : 1707112434707,
+            "duration" : 67597
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click On Service Board   ",
+          "uid" : "b8228e0e0c73dfd",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "broken",
+          "time" : {
+            "start" : 1707112434761,
+            "stop" : 1707112607275,
+            "duration" : 172514
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click Financial manager   ",
+          "uid" : "a2daad705ffc8d38",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707112607354,
+            "stop" : 1707112670022,
+            "duration" : 62668
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d6477c78d6edb6a2b2324f8d95029421"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ],
+  "name" : "suites"
+}

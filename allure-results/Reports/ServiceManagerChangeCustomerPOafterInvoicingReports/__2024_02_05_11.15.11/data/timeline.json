@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-9",
+    "children" : [ {
+      "name" : "7392@PC-9.main(1)",
+      "children" : [ {
+        "name" : "T_001 Login the page and go to the CompleteRo",
+        "uid" : "6ec7fde9f1d2f61d",
+        "parentUid" : "b2271e964140dd304c244babdd38fa4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707111808263,
+          "stop" : 1707111871763,
+          "duration" : 63500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T_002 Check that verify the element click on Save/Exit button and signout",
+        "uid" : "5b2911915f6c1856",
+        "parentUid" : "b2271e964140dd304c244babdd38fa4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707111871924,
+          "stop" : 1707111911769,
+          "duration" : 39845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2271e964140dd304c244babdd38fa4a"
+    } ],
+    "uid" : "2215092bebd5f8b7a7a78f4cc7ca416f"
+  } ]
+}

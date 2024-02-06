@@ -1,0 +1,95 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.techRo.ServiceManagerJournalize",
+        "children" : [ {
+          "name" : "initialization",
+          "uid" : "b0f849a79f43695b",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "broken",
+          "time" : {
+            "start" : 1707221365408,
+            "stop" : 1707221365409,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Login the page and Go to Financials ",
+          "uid" : "da2f0b4c29da4476",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1707221365466,
+            "stop" : 1707221365467,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click OnGenerate Journals   ",
+          "uid" : "3ee875b0426772e8",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1707221365528,
+            "stop" : 1707221365528,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click On Service Board   ",
+          "uid" : "d59dbd2bfe0cd423",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1707221365535,
+            "stop" : 1707221365535,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click Financial manager   ",
+          "uid" : "1dc3eadcbcb8e464",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1707221365543,
+            "stop" : 1707221365543,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "afterMethodTakeScreenShot",
+          "uid" : "e9ea091d49359200",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "broken",
+          "time" : {
+            "start" : 1707221365547,
+            "stop" : 1707221365547,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d6477c78d6edb6a2b2324f8d95029421"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

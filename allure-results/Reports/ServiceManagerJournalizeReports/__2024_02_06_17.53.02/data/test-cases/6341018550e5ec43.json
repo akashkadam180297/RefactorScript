@@ -1,0 +1,125 @@
+{
+  "uid" : "6341018550e5ec43",
+  "name" : "Test_001_Login the page and Go to Financials ",
+  "fullName" : "tests.techRo.ServiceManagerJournalize.Test_001_gotoFinancials",
+  "historyId" : "53c1e9c16f8b5e5b839937054aeac615",
+  "time" : {
+    "start" : 1707221943277,
+    "stop" : 1707221985444,
+    "duration" : 42167
+  },
+  "description" : "Test Description: Login the page and Go to Financials ",
+  "descriptionHtml" : "<p>Test Description: Login the page and Go to Financials</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1707221905887,
+      "stop" : 1707221943249,
+      "duration" : 37362
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login the page and Go to Financials ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5778b136c0ef5271",
+      "name" : "Page Screenshot",
+      "source" : "5778b136c0ef5271.png",
+      "type" : "image/png",
+      "size" : 103131
+    }, {
+      "uid" : "8ad4bb52ea473e5b",
+      "name" : "Page Screenshot",
+      "source" : "8ad4bb52ea473e5b.png",
+      "type" : "image/png",
+      "size" : 119035
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707221985522,
+      "stop" : 1707221985585,
+      "duration" : 63
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "211cd398547561b9",
+      "name" : "Page Screenshot",
+      "source" : "211cd398547561b9.png",
+      "type" : "image/png",
+      "size" : 119035
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.techRo.ServiceManagerJournalize"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.techRo.ServiceManagerJournalize"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoFinancials"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.techRo.ServiceManagerJournalize"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "11216@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6341018550e5ec43.json",
+  "parameterValues" : [ ]
+}
