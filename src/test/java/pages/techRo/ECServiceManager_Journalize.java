@@ -1,5 +1,6 @@
 package pages.techRo;
 
+import actions.LoginActions;
 import actions.ReusableActions;
 import actions.WaitActions;
 import actions.WebElementActions;
@@ -22,6 +23,16 @@ public class ECServiceManager_Journalize extends TestDriverActions {
     @FindBy(xpath = "//span[text()='Generate Journals']")
     public WebElement btn_GenerateJournals;
 
+    @FindBy(xpath = "//select[contains(@id,':soc1::content')]")
+    WebElement year;
+
+    @FindBy(xpath = "//select[contains(@id,':soc2::content')]")
+    WebElement period;
+
+    @FindBy(xpath = "(//input[contains(@id,':sbc1::content')])[1]")
+    WebElement closeworkorderexternal;
+
+
     @FindBy(xpath = "(//input[contains(@id,'2:sbc1::content')])[1]")
     public WebElement txt_AssertDisposal;
 
@@ -31,14 +42,26 @@ public class ECServiceManager_Journalize extends TestDriverActions {
     @FindBy(xpath = "(//div[contains(@id,'::db')]/child::table)[1]")
     public WebElement label_NoDataPresent;
 
-   /*@FindBy(xpath = "(//a[contains(text(),'Service Board')]/parent::div)[1]")
+   @FindBy(xpath = "(//a[contains(text(),'Service Board')]/parent::div)[1]")
     public WebElement label_ServiceBoard;
-   */
-    @FindBy(xpath = "(//a[text()='Complete RO'])[1]")
+
+   @FindBy(xpath = "(//a[text()='Complete RO'])[1]")
     public WebElement label_CompleteRO;
 
     @FindBy(xpath = "(//a[contains(text(),'Financial Manager')])[1]")
     public WebElement txt_FinancialManager;
+
+    @FindBy(xpath = "(//span[text()='Reference']/parent::div/parent::th/parent::tr/following::div/table/colgroup/following-sibling::tbody/tr/td[2]/child::span)[1]")
+    WebElement RoNmber;
+
+    @FindBy(xpath = "(//span[contains(text(),'O0')])[1]")
+    public WebElement label_ReferenceNumber;
+
+    @FindBy(xpath = "(//span[contains(.,'GL00')])[2]")
+    WebElement BatchHash;
+
+    @FindBy(xpath = "(//label[contains(text(),'RO#:')]/parent::span/following::div)[1]")
+    WebElement RoNumberText;
 
     @FindBy(xpath = "//a[text()='Journal Sources']/parent::div[contains(@id,'::_afrTabCnt')]")
     public WebElement label_JournalSources;
@@ -52,17 +75,14 @@ public class ECServiceManager_Journalize extends TestDriverActions {
 
 
 
-
-
-
     /**goto Financials */
     public void gotoFinancials () throws InterruptedException, FileNotFoundException {
         ReusableActions.getActions().clickParentMenu("Financials");
         ReusableActions.getActions().clickChildMenu("Financial Manager");
         TestListener.saveScreenshotPNG(driver);
 
-    }
 
+    }
 
     /** click On Generate Journals Button*/
     public void clickOnGenerateJournals () throws InterruptedException {
@@ -73,11 +93,30 @@ public class ECServiceManager_Journalize extends TestDriverActions {
         TestListener.saveScreenshotPNG(driver);
 
     }
+    /**click on year ,period */
+    public void clickonyear () throws InterruptedException {
+        if (LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(year);
+            WebElementActions.getActions().clickElement(year);
+
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(period);
+            WebElementActions.getActions().clickElement(period);
+
+        }
+    }
+
     /** select  On Assert Disposal Boolean*/
     public void clickOnAssertDisposal () throws InterruptedException {
+        if(LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_AssertDisposal);
+            WebElementActions.getActions().clickElement(txt_AssertDisposal);
+        }
+        if(LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(closeworkorderexternal);
+            WebElementActions.getActions().clickElement(closeworkorderexternal);
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_AssertDisposal);
-        WebElementActions.getActions().clickElement(txt_AssertDisposal);
+        }
+
         TestListener.saveScreenshotPNG(driver);
     }
     /** click On Table Generate Journals Button */
@@ -87,20 +126,15 @@ public class ECServiceManager_Journalize extends TestDriverActions {
         WebElementActions.getActions().clickElement(label_GenerateButton);
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
-    }
-    /** verify Element not Present */
-    public void verifyElementNotPresent () throws InterruptedException {
-        Assert.assertFalse(label_NoDataPresent.isDisplayed());
-        WaitActions.getWaits().loadingWait(loder);
 
     }
     /**click On Service Board */
-    public void clickOnCompleteRo () throws InterruptedException {
+    public void clickOnServiceBoard () throws InterruptedException, FileNotFoundException {
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_CompleteRO);
-        WebElementActions.getActions().clickElement(label_CompleteRO);
-        WaitActions.getWaits().loadingWait(loder);
+        ReusableActions.getActions().clickParentMenu("Service");
+        ReusableActions.getActions().clickChildMenu("Service Board");
         TestListener.saveScreenshotPNG(driver);
+
     }
     /**click On Financial Manager */
     public void clickOnFinancialManagerText () throws InterruptedException {
@@ -110,14 +144,37 @@ public class ECServiceManager_Journalize extends TestDriverActions {
         TestListener.saveScreenshotPNG(driver);
 
     }
-    /** click On  Journal Sources */
-    public void clickOnJournalSources () throws InterruptedException {
+    /** click On Ro Number  */
+    public void clickOnRoNumber() throws InterruptedException {
+        if (LoginActions.environmentName.contains("EU")) {
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_JournalSources);
-        WebElementActions.getActions().clickElement(label_JournalSources);
-        WaitActions.getWaits().loadingWait(loder);
-        TestListener.saveScreenshotPNG(driver);
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(BatchHash);
+            WebElementActions.getActions().clickElement(BatchHash);
+            WaitActions.getWaits().loadingWait(loder);
+
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(RoNmber);
+            WebElementActions.getActions().clickElement(RoNmber);
+            WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
+        }
+        if(LoginActions.environmentName.contains("QA")){
+            System.out.println("Data is not available");
+        }
     }
+    /**verify Ro Number text */
+    public void verifyRoNumbertext () throws InterruptedException {
+        if (LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(RoNumberText);
+            org.testng.Assert.assertTrue(RoNumberText.isDisplayed());
+            WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
+        }
+        if(LoginActions.environmentName.contains("QA")){
+            System.out.println("Data is not available");
+        }
+
+    }
+
     /** click On Sign Out */
 
     public void clickOnSignOut () throws InterruptedException {

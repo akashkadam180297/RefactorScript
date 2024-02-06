@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.techRo.ServiceManagerJournalize",
+        "children" : [ {
+          "name" : "Test_001_Login the page and Go to Financials ",
+          "uid" : "c9edca07609bb1e5",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707133811073,
+            "stop" : 1707133851957,
+            "duration" : 40884
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click OnGenerate Journals   ",
+          "uid" : "b8134431e8ab7e79",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707133852093,
+            "stop" : 1707133917367,
+            "duration" : 65274
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click On Service Board   ",
+          "uid" : "5e5678c650c6b188",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707133917448,
+            "stop" : 1707133923614,
+            "duration" : 6166
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click Financial manager   ",
+          "uid" : "e8753fb84d2eec4b",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "broken",
+          "time" : {
+            "start" : 1707133923683,
+            "stop" : 1707134026226,
+            "duration" : 102543
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d6477c78d6edb6a2b2324f8d95029421"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

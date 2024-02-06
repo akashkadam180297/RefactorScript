@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-9",
+    "children" : [ {
+      "name" : "17188@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_001_Click On Service Board   ",
+        "uid" : "de6e7e4054f3f8ab",
+        "parentUid" : "fd21f280b46527f1280b051ffd2ff91f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707221587793,
+          "stop" : 1707221593996,
+          "duration" : 6203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Login the page and Go to Financials ",
+        "uid" : "40d366fb35345a74",
+        "parentUid" : "fd21f280b46527f1280b051ffd2ff91f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707221479765,
+          "stop" : 1707221521793,
+          "duration" : 42028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Click Financial manager   ",
+        "uid" : "1ccc8fe02246491e",
+        "parentUid" : "fd21f280b46527f1280b051ffd2ff91f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707221594062,
+          "stop" : 1707221786660,
+          "duration" : 192598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Click OnGenerate Journals   ",
+        "uid" : "369cd876819d58af",
+        "parentUid" : "fd21f280b46527f1280b051ffd2ff91f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707221521935,
+          "stop" : 1707221587723,
+          "duration" : 65788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd21f280b46527f1280b051ffd2ff91f"
+    } ],
+    "uid" : "2215092bebd5f8b7a7a78f4cc7ca416f"
+  } ]
+}

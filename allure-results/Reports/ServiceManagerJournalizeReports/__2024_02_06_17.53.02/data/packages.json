@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.techRo.ServiceManagerJournalize",
+    "children" : [ {
+      "name" : "Test_001_gotoFinancials",
+      "uid" : "6341018550e5ec43",
+      "parentUid" : "9ad4153c2d2f5abb17885dcbb265a57c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707221943277,
+        "stop" : 1707221985444,
+        "duration" : 42167
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickOnGenerateJournals",
+      "uid" : "97265e991fe7b540",
+      "parentUid" : "9ad4153c2d2f5abb17885dcbb265a57c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707221985594,
+        "stop" : 1707222051097,
+        "duration" : 65503
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_clickOnServiceBoard",
+      "uid" : "a701a807a3eca3c",
+      "parentUid" : "9ad4153c2d2f5abb17885dcbb265a57c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707222051147,
+        "stop" : 1707222057342,
+        "duration" : 6195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_clickOnFinancialManagerText",
+      "uid" : "637044b1e97aa054",
+      "parentUid" : "9ad4153c2d2f5abb17885dcbb265a57c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707222057391,
+        "stop" : 1707222182269,
+        "duration" : 124878
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.techRo.ServiceManagerJournalize"
+  } ],
+  "name" : "packages"
+}

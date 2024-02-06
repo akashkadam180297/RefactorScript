@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.service.ServiceManagerChangeCustomerPOafterInvoicing",
+        "children" : [ {
+          "name" : "T_001 Login the page and go to the CompleteRo",
+          "uid" : "6ec7fde9f1d2f61d",
+          "parentUid" : "8855e7711ad0178b3532a893f473c119",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707111808263,
+            "stop" : 1707111871763,
+            "duration" : 63500
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_002 Check that verify the element click on Save/Exit button and signout",
+          "uid" : "5b2911915f6c1856",
+          "parentUid" : "8855e7711ad0178b3532a893f473c119",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707111871924,
+            "stop" : 1707111911769,
+            "duration" : 39845
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8855e7711ad0178b3532a893f473c119"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

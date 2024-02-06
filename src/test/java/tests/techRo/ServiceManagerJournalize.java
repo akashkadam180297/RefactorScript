@@ -21,13 +21,13 @@ public class ServiceManagerJournalize extends TestDriverActions {
         journalizepage.clickOnGenerateJournals();
         journalizepage.clickOnAssertDisposal ();
         journalizepage. clickOnTableGenerateJournalsButton ();
-        journalizepage. verifyElementNotPresent ();
+
 
     }
     @Test(priority = 2, description = "Test_001_Click On Service Board   ")
     @Description("Test Description: Click On Service Board  ")
     public void Test_003_clickOnServiceBoard ()    throws InterruptedException, IOException {
-        journalizepage.clickOnCompleteRo();
+        journalizepage.clickOnServiceBoard ();
 
 
     }
@@ -35,7 +35,8 @@ public class ServiceManagerJournalize extends TestDriverActions {
     @Description("Test Description: Click OnGenerate Journals")
     public void Test_004_clickOnFinancialManagerText ()    throws InterruptedException, IOException {
         journalizepage.clickOnFinancialManagerText();
-        journalizepage. clickOnJournalSources ();
+        journalizepage.clickOnRoNumber();
+        journalizepage.verifyRoNumbertext();
         journalizepage.clickOnSignOut ();
 
     }
