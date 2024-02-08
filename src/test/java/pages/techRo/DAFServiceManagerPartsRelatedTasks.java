@@ -875,9 +875,8 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
     }
     /**click on UserName */
     public void clickOnUsername () throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_UserName);
-        Assert.assertTrue(label_UserName.isDisplayed());
+        WebElementActions.getActions().clickElement(label_UserName);
 
     }
 }
