@@ -1,171 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="10" passed="10" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-04T10:07:54Z" name="Surefire suite" finished-at="2024-02-04T10:26:14Z" duration-ms="1099533">
+  <suite started-at="2024-02-06T18:20:51Z" name="Surefire suite" finished-at="2024-02-06T18:25:15Z" duration-ms="264052">
     <groups>
     </groups>
-    <test started-at="2024-02-04T10:07:54Z" name="Surefire test" finished-at="2024-02-04T10:26:14Z" duration-ms="1099533">
-      <class name="tests.tech.TechWoLabor">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:37:54Z" name="initialization" finished-at="2024-02-04T15:38:57Z" duration-ms="63079" status="PASS">
+    <test started-at="2024-02-06T18:20:51Z" name="Surefire test" finished-at="2024-02-06T18:25:15Z" duration-ms="264052">
+      <class name="tests.techRo.ServiceManagerJournalize">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.techRo.ServiceManagerJournalize@78dc4696]" started-at="2024-02-06T23:50:51Z" name="initialization" finished-at="2024-02-06T23:51:46Z" duration-ms="54513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="gotoTechRo()[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:38:57Z" name="gotoTechRo" description="T_001 Login the page and Go to the Tech Ro" finished-at="2024-02-04T15:41:11Z" duration-ms="133434" status="PASS">
+        <test-method signature="Test_001_gotoFinancials()[pri:0, instance:tests.techRo.ServiceManagerJournalize@78dc4696]" started-at="2024-02-06T23:51:46Z" name="Test_001_gotoFinancials" description="Test_001_Login the page and Go to Financials " finished-at="2024-02-06T23:52:28Z" duration-ms="42375" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gotoTechRo -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:41:11Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:41:11Z" duration-ms="169" status="PASS">
+        </test-method> <!-- Test_001_gotoFinancials -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerJournalize@78dc4696]" started-at="2024-02-06T23:52:29Z" name="afterMethodTakeScreenShot" finished-at="2024-02-06T23:52:29Z" duration-ms="181" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=gotoTechRo status=SUCCESS method=TechWoLabor.gotoTechRo()[pri:0, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
+                <![CDATA[[TestResult name=Test_001_gotoFinancials status=SUCCESS method=ServiceManagerJournalize.Test_001_gotoFinancials()[pri:0, instance:tests.techRo.ServiceManagerJournalize@78dc4696] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="enter_Unit_Number()[pri:1, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:41:11Z" name="enter_Unit_Number" description="T_002 Verify the Element and Enter the Unit Number" finished-at="2024-02-04T15:42:06Z" duration-ms="54742" status="PASS">
+        <test-method signature="Test_002_clickOnGenerateJournals()[pri:1, instance:tests.techRo.ServiceManagerJournalize@78dc4696]" started-at="2024-02-06T23:52:29Z" name="Test_002_clickOnGenerateJournals" description="Test_001_Click OnGenerate Journals   " finished-at="2024-02-06T23:53:36Z" duration-ms="66912" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enter_Unit_Number -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:42:06Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:42:06Z" duration-ms="122" status="PASS">
+        </test-method> <!-- Test_002_clickOnGenerateJournals -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerJournalize@78dc4696]" started-at="2024-02-06T23:53:36Z" name="afterMethodTakeScreenShot" finished-at="2024-02-06T23:53:36Z" duration-ms="132" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enter_Unit_Number status=SUCCESS method=TechWoLabor.enter_Unit_Number()[pri:1, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
+                <![CDATA[[TestResult name=Test_002_clickOnGenerateJournals status=SUCCESS method=ServiceManagerJournalize.Test_002_clickOnGenerateJournals()[pri:1, instance:tests.techRo.ServiceManagerJournalize@78dc4696] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="verifyElement_Click_UnitHistory()[pri:2, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:42:06Z" name="verifyElement_Click_UnitHistory" description="T_003 Verify the element and click on Unit History" finished-at="2024-02-04T15:43:04Z" duration-ms="57595" status="PASS">
+        <test-method signature="Test_003_clickOnServiceBoard()[pri:2, instance:tests.techRo.ServiceManagerJournalize@78dc4696]" started-at="2024-02-06T23:53:36Z" name="Test_003_clickOnServiceBoard" description="Test_001_Click On Service Board   " finished-at="2024-02-06T23:53:42Z" duration-ms="6577" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyElement_Click_UnitHistory -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:43:04Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:43:04Z" duration-ms="127" status="PASS">
+        </test-method> <!-- Test_003_clickOnServiceBoard -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerJournalize@78dc4696]" started-at="2024-02-06T23:53:42Z" name="afterMethodTakeScreenShot" finished-at="2024-02-06T23:53:42Z" duration-ms="140" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyElement_Click_UnitHistory status=SUCCESS method=TechWoLabor.verifyElement_Click_UnitHistory()[pri:2, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
+                <![CDATA[[TestResult name=Test_003_clickOnServiceBoard status=SUCCESS method=ServiceManagerJournalize.Test_003_clickOnServiceBoard()[pri:2, instance:tests.techRo.ServiceManagerJournalize@78dc4696] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="clickOn_Labour_MoreWork_VMRSTab()[pri:3, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:43:04Z" name="clickOn_Labour_MoreWork_VMRSTab" description="T_004 Click on Labour,MoreWork and VMRS tab" finished-at="2024-02-04T15:44:12Z" duration-ms="68150" status="PASS">
+        <test-method signature="Test_004_clickOnFinancialManagerText()[pri:3, instance:tests.techRo.ServiceManagerJournalize@78dc4696]" started-at="2024-02-06T23:53:42Z" name="Test_004_clickOnFinancialManagerText" description="Test_001_Click Financial manager   " finished-at="2024-02-06T23:55:15Z" duration-ms="92763" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOn_Labour_MoreWork_VMRSTab -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:44:12Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:44:12Z" duration-ms="162" status="PASS">
+        </test-method> <!-- Test_004_clickOnFinancialManagerText -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.techRo.ServiceManagerJournalize@78dc4696]" started-at="2024-02-06T23:55:15Z" name="afterMethodTakeScreenShot" finished-at="2024-02-06T23:55:15Z" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOn_Labour_MoreWork_VMRSTab status=SUCCESS method=TechWoLabor.clickOn_Labour_MoreWork_VMRSTab()[pri:3, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
+                <![CDATA[[TestResult name=Test_004_clickOnFinancialManagerText status=SUCCESS method=ServiceManagerJournalize.Test_004_clickOnFinancialManagerText()[pri:3, instance:tests.techRo.ServiceManagerJournalize@78dc4696] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="enter_AeroDynamic_Device_First()[pri:4, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:44:12Z" name="enter_AeroDynamic_Device_First" description="T_005 Enter AderoDynamic Device in search field" finished-at="2024-02-04T15:45:36Z" duration-ms="84220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enter_AeroDynamic_Device_First -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:45:36Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:45:37Z" duration-ms="136" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=enter_AeroDynamic_Device_First status=SUCCESS method=TechWoLabor.enter_AeroDynamic_Device_First()[pri:4, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="enter_AeroDynamic_ClickIMG()[pri:5, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:45:37Z" name="enter_AeroDynamic_ClickIMG" description="T_006 Enter Aerodynamic Device and click on Image" finished-at="2024-02-04T15:46:41Z" duration-ms="64337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enter_AeroDynamic_ClickIMG -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:46:41Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:46:41Z" duration-ms="165" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=enter_AeroDynamic_ClickIMG status=SUCCESS method=TechWoLabor.enter_AeroDynamic_ClickIMG()[pri:5, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="add_AeroDynamic_Delete_Labour()[pri:6, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:46:41Z" name="add_AeroDynamic_Delete_Labour" description="T_007 Check that add AeroDynamic Device and Delete it from Labour section" finished-at="2024-02-04T15:48:31Z" duration-ms="110128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add_AeroDynamic_Delete_Labour -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:48:31Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:48:31Z" duration-ms="127" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=add_AeroDynamic_Delete_Labour status=SUCCESS method=TechWoLabor.add_AeroDynamic_Delete_Labour()[pri:6, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="again_Add_AeroDynamicDevice()[pri:7, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:48:31Z" name="again_Add_AeroDynamicDevice" description="T_008 Check that again add Aerodynamic Device " finished-at="2024-02-04T15:51:16Z" duration-ms="164259" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- again_Add_AeroDynamicDevice -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:51:16Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:51:16Z" duration-ms="111" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=again_Add_AeroDynamicDevice status=SUCCESS method=TechWoLabor.again_Add_AeroDynamicDevice()[pri:7, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="enter_AccessoriesGroup_Img()[pri:8, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:51:16Z" name="enter_AccessoriesGroup_Img" description="T_009 Enter Accessories Group Image" finished-at="2024-02-04T15:53:35Z" duration-ms="139796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enter_AccessoriesGroup_Img -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:53:35Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:53:36Z" duration-ms="146" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=enter_AccessoriesGroup_Img status=SUCCESS method=TechWoLabor.enter_AccessoriesGroup_Img()[pri:8, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="clickOn_SelectButton()[pri:9, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:53:36Z" name="clickOn_SelectButton" description="T_010 Click on Select Button and Again start from Aerodynamic Device " finished-at="2024-02-04T15:56:14Z" duration-ms="157955" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOn_SelectButton -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:56:14Z" name="afterMethodTakeScreenShot" finished-at="2024-02-04T15:56:14Z" duration-ms="108" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickOn_SelectButton status=SUCCESS method=TechWoLabor.clickOn_SelectButton()[pri:9, instance:tests.tech.TechWoLabor@55120f99] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.tech.TechWoLabor@55120f99]" started-at="2024-02-04T15:56:14Z" name="generateAllure" finished-at="2024-02-04T15:56:27Z" duration-ms="13505" status="PASS">
+        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.techRo.ServiceManagerJournalize@78dc4696]" started-at="2024-02-06T23:55:15Z" name="generateAllure" finished-at="2024-02-06T23:55:30Z" duration-ms="14714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateAllure -->
-      </class> <!-- tests.tech.TechWoLabor -->
+      </class> <!-- tests.techRo.ServiceManagerJournalize -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
