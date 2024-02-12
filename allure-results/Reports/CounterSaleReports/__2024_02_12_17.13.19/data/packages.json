@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.CounterSaleInvoiceCharacterLimit",
+    "children" : [ {
+      "name" : "initialization",
+      "uid" : "2cfe5fa0c28f906d",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707738199188,
+        "stop" : 1707738199189,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_001_goto_countersaleManager_screen",
+      "uid" : "f2dbd72461f37a7f",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707738199351,
+        "stop" : 1707738199352,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickonHistory",
+      "uid" : "8ddee8b7e8c183a7",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707738199606,
+        "stop" : 1707738199606,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_verifyInvoice",
+      "uid" : "199e9bf9cd894ea",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707738199661,
+        "stop" : 1707738199661,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_verifyCountersale",
+      "uid" : "ed8c649e11e3ea7c",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707738199717,
+        "stop" : 1707738199717,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_clickOnReprint",
+      "uid" : "2294c3a668d48fd6",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707738199766,
+        "stop" : 1707738199766,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  } ]
+}

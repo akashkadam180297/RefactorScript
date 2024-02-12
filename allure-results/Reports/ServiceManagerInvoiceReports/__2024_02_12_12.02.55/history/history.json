@@ -1,0 +1,233 @@
+{
+  "d36571154effcd51b491d041b3eacd8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d385415d6779cbf",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@id,':0:rPOH:1:cb2')]//a//span\"}\n  (Session info: chrome=121.0.6167.140)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c9f7e3ef2f91193c7cd59a2ec811ce84, findElement {using=xpath, value=//div[contains(@id,':0:rPOH:1:cb2')]//a//span}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60512/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c9f7e3ef2f91193c7cd59a2ec811ce84",
+      "time" : {
+        "start" : 1707311165157,
+        "stop" : 1707311386828,
+        "duration" : 221671
+      }
+    } ]
+  },
+  "aac94084aa30ded8f03f0f94409f7a1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f322e383a52eda9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707719574975,
+        "stop" : 1707719574975,
+        "duration" : 0
+      }
+    } ]
+  },
+  "43d5599470e0f16fbe1c6cc811223c4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12e55c3417a1eb3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707719574850,
+        "stop" : 1707719574850,
+        "duration" : 0
+      }
+    } ]
+  },
+  "194a1dafc2a3c11074fe03e5760d5bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f85d3c1cc5c9640",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (1286, 403). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1366px; height: 599px; user-select: none; z-index: 50;\"></div>\n  (Session info: chrome=121.0.6167.140)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c9f7e3ef2f91193c7cd59a2ec811ce84, clickElement {id=369B18555C56FB2920286C3C53D80602_element_1009}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60512/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (c9f7e3ef2f91193c7cd59a2ec811ce84)] -> xpath: //span[text()='Add Parts']]\nSession ID: c9f7e3ef2f91193c7cd59a2ec811ce84",
+      "time" : {
+        "start" : 1707311386919,
+        "stop" : 1707311404069,
+        "duration" : 17150
+      }
+    } ]
+  },
+  "add248497145b2effdc5ede9d7bcab9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a80f4431f558babb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707310944019,
+        "stop" : 1707310987873,
+        "duration" : 43854
+      }
+    } ]
+  },
+  "b1d9145d5c98197247f2aeef9bfa62dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28b888042a645fa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707310988033,
+        "stop" : 1707311040447,
+        "duration" : 52414
+      }
+    } ]
+  },
+  "469b6ec2d50caf17a4000b04269fd0f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54ccaa7c7b2c2392",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707719575131,
+        "stop" : 1707719575131,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d4537e50c69c65573a2e1752fa26b24b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc6a8944a85d909",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707719575038,
+        "stop" : 1707719575038,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d3667bc7fc828f866cebee84598ef1a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cb371e4322ce9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707311146922,
+        "stop" : 1707311165053,
+        "duration" : 18131
+      }
+    } ]
+  },
+  "b0a233b9223191225f875b12ad974b86" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a905ab570b3b966d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707311040513,
+        "stop" : 1707311146837,
+        "duration" : 106324
+      }
+    } ]
+  },
+  "2ee1e723a7fbad433f02f56c5ec78b47" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "122895bd9a0adfa0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707719575080,
+        "stop" : 1707719575080,
+        "duration" : 0
+      }
+    } ]
+  },
+  "dca5e8e69ae5f45378626394db201a36" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa678d8eae1e2e6a",
+      "status" : "broken",
+      "statusDetails" : "F:\\GithubFinal\\RefactorScript\\src\\test\\java\\utils\\servicemanagerinvoice\\servicemanagerinvoiceNA.properties (The system cannot find the file specified)",
+      "time" : {
+        "start" : 1707719574767,
+        "stop" : 1707719574768,
+        "duration" : 1
+      }
+    } ]
+  }
+}

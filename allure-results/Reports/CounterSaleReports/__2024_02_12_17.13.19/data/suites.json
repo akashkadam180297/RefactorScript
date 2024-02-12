@@ -1,0 +1,95 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.parts.CounterSaleInvoiceCharacterLimit",
+        "children" : [ {
+          "name" : "initialization",
+          "uid" : "2cfe5fa0c28f906d",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "broken",
+          "time" : {
+            "start" : 1707738199188,
+            "stop" : 1707738199189,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001 Login the page and Go to counterSaleManager",
+          "uid" : "f2dbd72461f37a7f",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1707738199351,
+            "stop" : 1707738199352,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002 click on History Tab ",
+          "uid" : "8ddee8b7e8c183a7",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1707738199606,
+            "stop" : 1707738199606,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003  verify on invoice  ",
+          "uid" : "199e9bf9cd894ea",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1707738199661,
+            "stop" : 1707738199661,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004  verify on invoice  ",
+          "uid" : "ed8c649e11e3ea7c",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1707738199717,
+            "stop" : 1707738199717,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005 click on Reprint",
+          "uid" : "2294c3a668d48fd6",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1707738199766,
+            "stop" : 1707738199766,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e8db35f046085c7f5b4aac846ac1f447"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

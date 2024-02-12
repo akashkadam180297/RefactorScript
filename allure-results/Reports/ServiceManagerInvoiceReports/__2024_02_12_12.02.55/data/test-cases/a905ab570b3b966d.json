@@ -1,0 +1,102 @@
+{
+  "uid" : "a905ab570b3b966d",
+  "name" : "Test_003_click On Labour",
+  "fullName" : "tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder.Test_003_clickOnLabour",
+  "historyId" : "b0a233b9223191225f875b12ad974b86",
+  "time" : {
+    "start" : 1707311040513,
+    "stop" : 1707311146837,
+    "duration" : 106324
+  },
+  "description" : "Test Description: click On Labour",
+  "descriptionHtml" : "<p>Test Description: click On Labour</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707311146865,
+      "stop" : 1707311146920,
+      "duration" : 55
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "73a47fad301bf8c6",
+      "name" : "Page Screenshot",
+      "source" : "73a47fad301bf8c6.png",
+      "type" : "image/png",
+      "size" : 87100
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_clickOnLabour"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "13940@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eef64c155ecbbec0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707306801441,
+        "stop" : 1707306908868,
+        "duration" : 107427
+      }
+    }, {
+      "uid" : "21b8b26e07b8f625",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707304820591,
+        "stop" : 1707304973522,
+        "duration" : 152931
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a905ab570b3b966d.json",
+  "parameterValues" : [ ]
+}

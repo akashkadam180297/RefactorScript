@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.parts.CounterSaleInvoiceCharacterLimit",
+        "children" : [ {
+          "name" : "Test_001 Login the page and Go to counterSaleManager",
+          "uid" : "511e0951bc2dc3d9",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707740275230,
+            "stop" : 1707740319481,
+            "duration" : 44251
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002 click on History Tab ",
+          "uid" : "171bc905c0d3b0b7",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707740319623,
+            "stop" : 1707740339746,
+            "duration" : 20123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003  verify on invoice  ",
+          "uid" : "3b32adda83a384b7",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707740339829,
+            "stop" : 1707740397646,
+            "duration" : 57817
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004  verify on invoice  ",
+          "uid" : "b53941ccbad365a2",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707740397709,
+            "stop" : 1707740442424,
+            "duration" : 44715
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005 click on Reprint",
+          "uid" : "14dea6c7ff95fd4c",
+          "parentUid" : "e8db35f046085c7f5b4aac846ac1f447",
+          "status" : "broken",
+          "time" : {
+            "start" : 1707740442475,
+            "stop" : 1707740663597,
+            "duration" : 221122
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e8db35f046085c7f5b4aac846ac1f447"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

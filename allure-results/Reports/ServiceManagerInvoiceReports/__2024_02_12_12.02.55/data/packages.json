@@ -1,0 +1,173 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "Partsrelateditems.Addafabricatedparttoaclosedworkorder",
+      "children" : [ {
+        "name" : "Test_001_gotoCompleteRo",
+        "uid" : "a80f4431f558babb",
+        "parentUid" : "f6e5cd0679458e88a8214d4104caa8b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707310944019,
+          "stop" : 1707310987873,
+          "duration" : 43854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_clickoNewRo",
+        "uid" : "28b888042a645fa5",
+        "parentUid" : "f6e5cd0679458e88a8214d4104caa8b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707310988033,
+          "stop" : 1707311040447,
+          "duration" : 52414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_clickOnLabour",
+        "uid" : "a905ab570b3b966d",
+        "parentUid" : "f6e5cd0679458e88a8214d4104caa8b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707311040513,
+          "stop" : 1707311146837,
+          "duration" : 106324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_clickonReferenceNumber",
+        "uid" : "6cb371e4322ce9e",
+        "parentUid" : "f6e5cd0679458e88a8214d4104caa8b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707311146922,
+          "stop" : 1707311165053,
+          "duration" : 18131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_clickonAddPart",
+        "uid" : "d385415d6779cbf",
+        "parentUid" : "f6e5cd0679458e88a8214d4104caa8b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707311165157,
+          "stop" : 1707311386828,
+          "duration" : 221671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_006_clickOnAddPart",
+        "uid" : "7f85d3c1cc5c9640",
+        "parentUid" : "f6e5cd0679458e88a8214d4104caa8b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707311386919,
+          "stop" : 1707311404069,
+          "duration" : 17150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Partsrelateditems.Addafabricatedparttoaclosedworkorder"
+    }, {
+      "name" : "techRo.ServiceManagerInvoice",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "fa678d8eae1e2e6a",
+        "parentUid" : "bf70fcb28edd217da9321c3726745dea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707719574767,
+          "stop" : 1707719574768,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_gotoCompleteRo",
+        "uid" : "12e55c3417a1eb3",
+        "parentUid" : "bf70fcb28edd217da9321c3726745dea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1707719574850,
+          "stop" : 1707719574850,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_verifyElement",
+        "uid" : "8f322e383a52eda9",
+        "parentUid" : "bf70fcb28edd217da9321c3726745dea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1707719574975,
+          "stop" : 1707719574975,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_inputRoNumber",
+        "uid" : "cc6a8944a85d909",
+        "parentUid" : "bf70fcb28edd217da9321c3726745dea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1707719575038,
+          "stop" : 1707719575038,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004_clickReferenceNumber",
+        "uid" : "122895bd9a0adfa0",
+        "parentUid" : "bf70fcb28edd217da9321c3726745dea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1707719575080,
+          "stop" : 1707719575080,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_enterYesterdayDate",
+        "uid" : "54ccaa7c7b2c2392",
+        "parentUid" : "bf70fcb28edd217da9321c3726745dea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1707719575131,
+          "stop" : 1707719575131,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "techRo.ServiceManagerInvoice"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}

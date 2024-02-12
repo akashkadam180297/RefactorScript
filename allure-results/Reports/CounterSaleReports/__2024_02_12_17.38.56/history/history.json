@@ -1,0 +1,98 @@
+{
+  "3c66b3ae425bb3591b667e1e4745252e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83a4d26fec080e97",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()='Sign Out']\"}\n  (Session info: chrome=121.0.6167.161)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a9f9238c90f5db3babd584b238c1cac9, findElement {using=xpath, value=//a[text()='Sign Out']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58890/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a9f9238c90f5db3babd584b238c1cac9",
+      "time" : {
+        "start" : 1707739518927,
+        "stop" : 1707739736153,
+        "duration" : 217226
+      }
+    } ]
+  },
+  "297632ac8628c93d6d7f25eeb2d84f5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf120d6a9ac8e779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707739405665,
+        "stop" : 1707739425814,
+        "duration" : 20149
+      }
+    } ]
+  },
+  "50fd057385cdcc66db747fba9d8a99c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7cb48d5eee27a86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707739479756,
+        "stop" : 1707739518868,
+        "duration" : 39112
+      }
+    } ]
+  },
+  "52098555eea27ddf9b48b0e5b384631a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f3f19f0ba9c35b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707739362130,
+        "stop" : 1707739405517,
+        "duration" : 43387
+      }
+    } ]
+  },
+  "7bdbad12d8fb1b756e9c4a347b8a793e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f9da48ddfedfe8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707739425895,
+        "stop" : 1707739479679,
+        "duration" : 53784
+      }
+    } ]
+  }
+}

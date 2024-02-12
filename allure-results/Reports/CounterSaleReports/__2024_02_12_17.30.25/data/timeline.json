@@ -1,0 +1,108 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-9",
+    "children" : [ {
+      "name" : "7756@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_001 Login the page and Go to counterSaleManager",
+        "uid" : "ae62ba302aa8b36e",
+        "parentUid" : "f098dae9bcc70d6afaec9fefb0cff84a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707738540876,
+          "stop" : 1707738585944,
+          "duration" : 45068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on History Tab ",
+        "uid" : "8487ea0085729df9",
+        "parentUid" : "f098dae9bcc70d6afaec9fefb0cff84a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707738586080,
+          "stop" : 1707738758676,
+          "duration" : 172596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f098dae9bcc70d6afaec9fefb0cff84a"
+    }, {
+      "name" : "24828@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_005 click on Reprint",
+        "uid" : "13de1c7896fd5322",
+        "parentUid" : "d87ab7083c5b2eeae4aabc23fbd0a6cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707739009892,
+          "stop" : 1707739225140,
+          "duration" : 215248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login the page and Go to counterSaleManager",
+        "uid" : "174ce3e1e62ac7f2",
+        "parentUid" : "d87ab7083c5b2eeae4aabc23fbd0a6cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707738853044,
+          "stop" : 1707738896951,
+          "duration" : 43907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on History Tab ",
+        "uid" : "d399fde44c0de593",
+        "parentUid" : "d87ab7083c5b2eeae4aabc23fbd0a6cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707738897129,
+          "stop" : 1707738917273,
+          "duration" : 20144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003  verify on invoice  ",
+        "uid" : "4620792d29e71473",
+        "parentUid" : "d87ab7083c5b2eeae4aabc23fbd0a6cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707738917357,
+          "stop" : 1707738971149,
+          "duration" : 53792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_004  verify on invoice  ",
+        "uid" : "bf430650e62ce9a",
+        "parentUid" : "d87ab7083c5b2eeae4aabc23fbd0a6cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707738971238,
+          "stop" : 1707739009822,
+          "duration" : 38584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d87ab7083c5b2eeae4aabc23fbd0a6cc"
+    } ],
+    "uid" : "2215092bebd5f8b7a7a78f4cc7ca416f"
+  } ]
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-9",
+    "children" : [ {
+      "name" : "8296@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_004  verify on invoice  ",
+        "uid" : "b02b7636fad3e61",
+        "parentUid" : "85866380ee9aed9e0b22a9130b17aa09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707739938363,
+          "stop" : 1707739983061,
+          "duration" : 44698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login the page and Go to counterSaleManager",
+        "uid" : "3148549e6ba6faa1",
+        "parentUid" : "85866380ee9aed9e0b22a9130b17aa09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707739817459,
+          "stop" : 1707739861136,
+          "duration" : 43677
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003  verify on invoice  ",
+        "uid" : "2e04b1868615a679",
+        "parentUid" : "85866380ee9aed9e0b22a9130b17aa09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707739881499,
+          "stop" : 1707739938315,
+          "duration" : 56816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on History Tab ",
+        "uid" : "65981589714cc9ef",
+        "parentUid" : "85866380ee9aed9e0b22a9130b17aa09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707739861275,
+          "stop" : 1707739881432,
+          "duration" : 20157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85866380ee9aed9e0b22a9130b17aa09"
+    }, {
+      "name" : "7608@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_004  verify on invoice  ",
+        "uid" : "b53941ccbad365a2",
+        "parentUid" : "345dd0bad30de8630edd66fdab0bdfa1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707740397709,
+          "stop" : 1707740442424,
+          "duration" : 44715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003  verify on invoice  ",
+        "uid" : "3b32adda83a384b7",
+        "parentUid" : "345dd0bad30de8630edd66fdab0bdfa1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707740339829,
+          "stop" : 1707740397646,
+          "duration" : 57817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005 click on Reprint",
+        "uid" : "14dea6c7ff95fd4c",
+        "parentUid" : "345dd0bad30de8630edd66fdab0bdfa1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707740442475,
+          "stop" : 1707740663597,
+          "duration" : 221122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login the page and Go to counterSaleManager",
+        "uid" : "511e0951bc2dc3d9",
+        "parentUid" : "345dd0bad30de8630edd66fdab0bdfa1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707740275230,
+          "stop" : 1707740319481,
+          "duration" : 44251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on History Tab ",
+        "uid" : "171bc905c0d3b0b7",
+        "parentUid" : "345dd0bad30de8630edd66fdab0bdfa1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707740319623,
+          "stop" : 1707740339746,
+          "duration" : 20123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "345dd0bad30de8630edd66fdab0bdfa1"
+    } ],
+    "uid" : "2215092bebd5f8b7a7a78f4cc7ca416f"
+  } ]
+}

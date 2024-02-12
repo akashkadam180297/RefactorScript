@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@id,':0:rPOH:1:cb2')]//a//span\"}\n  (Session info: chrome=121.0.6167.140)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c9f7e3ef2f91193c7cd59a2ec811ce84, findElement {using=xpath, value=//div[contains(@id,':0:rPOH:1:cb2')]//a//span}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60512/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c9f7e3ef2f91193c7cd59a2ec811ce84",
+      "children" : [ {
+        "name" : "Test_005_click on Add Part",
+        "uid" : "d385415d6779cbf",
+        "parentUid" : "e80d8521fa66d732622b30c2025f0bf2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707311165157,
+          "stop" : 1707311386828,
+          "duration" : 221671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e80d8521fa66d732622b30c2025f0bf2"
+    }, {
+      "name" : "element click intercepted: Element <span class=\"xfx\">...</span> is not clickable at point (1286, 403). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1366px; height: 599px; user-select: none; z-index: 50;\"></div>\n  (Session info: chrome=121.0.6167.140)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c9f7e3ef2f91193c7cd59a2ec811ce84, clickElement {id=369B18555C56FB2920286C3C53D80602_element_1009}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60512/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (c9f7e3ef2f91193c7cd59a2ec811ce84)] -> xpath: //span[text()='Add Parts']]\nSession ID: c9f7e3ef2f91193c7cd59a2ec811ce84",
+      "children" : [ {
+        "name" : "Test_006_click On Add Part ",
+        "uid" : "7f85d3c1cc5c9640",
+        "parentUid" : "17f966ca6b144d9fff43ce292a5b041a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707311386919,
+          "stop" : 1707311404069,
+          "duration" : 17150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17f966ca6b144d9fff43ce292a5b041a"
+    }, {
+      "name" : "F:\\GithubFinal\\RefactorScript\\src\\test\\java\\utils\\servicemanagerinvoice\\servicemanagerinvoiceNA.properties (The system cannot find the file specified)",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "fa678d8eae1e2e6a",
+        "parentUid" : "7c569cd2d5938786ef287210467b67ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707719574767,
+          "stop" : 1707719574768,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c569cd2d5938786ef287210467b67ca"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

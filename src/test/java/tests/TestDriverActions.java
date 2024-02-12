@@ -91,6 +91,8 @@ public class TestDriverActions {
     public SubmitAnEstimateServiceManager submitanestimateservicemanager;
     public IssuePartToTech issueparttotech;
 
+    public CounterSaleInvoiceCharacterLimit countersaleinvoicecharacterlimit;
+
 
     LoginActions loginActions;
 
@@ -289,6 +291,9 @@ public class TestDriverActions {
         receivepart = PageFactory.initElements(driver, ReceivePart.class);
         submitanestimateservicemanager = PageFactory.initElements(driver,SubmitAnEstimateServiceManager.class);
         issueparttotech=PageFactory.initElements(driver,IssuePartToTech.class);
+        countersaleinvoicecharacterlimit=PageFactory.initElements(driver,CounterSaleInvoiceCharacterLimit.class);
+
+
 
         loginPage.selectCountryFromDropDown();
 
@@ -475,6 +480,9 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("IssuePartToTech")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/IssuePartToTechReports/" + "__" + currentDateTime;
         }
+        else if (getClass().getCanonicalName().contains("CounterSaleInvoiceCharacterLimit")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CounterSaleInvoiceCharacterLimitReports/" + "__" + currentDateTime;
+        }
 
 
 
@@ -604,6 +612,9 @@ public class TestDriverActions {
             }
             else if (getClass().getCanonicalName().contains("IssuePartToTech ")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\IssuePartToTechReports\\" + theDir.getName();
+            }
+            else if (getClass().getCanonicalName().contains("CounterSaleInvoiceCharacterLimit")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CounterSaleInvoiceCharacterLimitReports\\" + theDir.getName();
             }
 
 

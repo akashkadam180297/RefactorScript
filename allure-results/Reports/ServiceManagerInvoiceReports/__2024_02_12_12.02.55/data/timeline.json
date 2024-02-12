@@ -1,0 +1,272 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-9",
+    "children" : [ {
+      "name" : "19224@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+        "uid" : "d9037affc4653969",
+        "parentUid" : "eca5b9651f8a90a5340452d7b401290b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707304725334,
+          "stop" : 1707304767904,
+          "duration" : 42570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_click On RO Number",
+        "uid" : "2017455bb0fe9658",
+        "parentUid" : "eca5b9651f8a90a5340452d7b401290b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707304768070,
+          "stop" : 1707304820518,
+          "duration" : 52448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_click On Labour",
+        "uid" : "21b8b26e07b8f625",
+        "parentUid" : "eca5b9651f8a90a5340452d7b401290b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707304820591,
+          "stop" : 1707304973522,
+          "duration" : 152931
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eca5b9651f8a90a5340452d7b401290b"
+    }, {
+      "name" : "13940@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_002_click On RO Number",
+        "uid" : "28b888042a645fa5",
+        "parentUid" : "a0c04ff4f0289828bbfdd51d061a2fee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707310988033,
+          "stop" : 1707311040447,
+          "duration" : 52414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_006_click On Add Part ",
+        "uid" : "7f85d3c1cc5c9640",
+        "parentUid" : "a0c04ff4f0289828bbfdd51d061a2fee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707311386919,
+          "stop" : 1707311404069,
+          "duration" : 17150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_click On Labour",
+        "uid" : "a905ab570b3b966d",
+        "parentUid" : "a0c04ff4f0289828bbfdd51d061a2fee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707311040513,
+          "stop" : 1707311146837,
+          "duration" : 106324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_click on Reference Number",
+        "uid" : "6cb371e4322ce9e",
+        "parentUid" : "a0c04ff4f0289828bbfdd51d061a2fee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707311146922,
+          "stop" : 1707311165053,
+          "duration" : 18131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_click on Add Part",
+        "uid" : "d385415d6779cbf",
+        "parentUid" : "a0c04ff4f0289828bbfdd51d061a2fee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707311165157,
+          "stop" : 1707311386828,
+          "duration" : 221671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+        "uid" : "a80f4431f558babb",
+        "parentUid" : "a0c04ff4f0289828bbfdd51d061a2fee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707310944019,
+          "stop" : 1707310987873,
+          "duration" : 43854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0c04ff4f0289828bbfdd51d061a2fee"
+    }, {
+      "name" : "20168@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_004_Click On Reference Number ",
+        "uid" : "122895bd9a0adfa0",
+        "parentUid" : "18ff59b024c736a11d961328759eb4bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1707719575080,
+          "stop" : 1707719575080,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_Input The Ro Number in search TextArea  ",
+        "uid" : "cc6a8944a85d909",
+        "parentUid" : "18ff59b024c736a11d961328759eb4bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1707719575038,
+          "stop" : 1707719575038,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initialization",
+        "uid" : "fa678d8eae1e2e6a",
+        "parentUid" : "18ff59b024c736a11d961328759eb4bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707719574767,
+          "stop" : 1707719574768,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_Enter the Yesterday Date ",
+        "uid" : "54ccaa7c7b2c2392",
+        "parentUid" : "18ff59b024c736a11d961328759eb4bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1707719575131,
+          "stop" : 1707719575131,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_verify element Present ",
+        "uid" : "8f322e383a52eda9",
+        "parentUid" : "18ff59b024c736a11d961328759eb4bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1707719574975,
+          "stop" : 1707719574975,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+        "uid" : "12e55c3417a1eb3",
+        "parentUid" : "18ff59b024c736a11d961328759eb4bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1707719574850,
+          "stop" : 1707719574850,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18ff59b024c736a11d961328759eb4bc"
+    }, {
+      "name" : "1908@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_005_click on Reference Number",
+        "uid" : "c08bdb3d4a05295a",
+        "parentUid" : "15ef4e24c63553badc46d48a3e913e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707306908954,
+          "stop" : 1707306927144,
+          "duration" : 18190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003_click On Labour",
+        "uid" : "eef64c155ecbbec0",
+        "parentUid" : "15ef4e24c63553badc46d48a3e913e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707306801441,
+          "stop" : 1707306908868,
+          "duration" : 107427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+        "uid" : "d74c7ce56156b29b",
+        "parentUid" : "15ef4e24c63553badc46d48a3e913e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707306705919,
+          "stop" : 1707306748796,
+          "duration" : 42877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002_click On RO Number",
+        "uid" : "4aa9b1ec2171af3c",
+        "parentUid" : "15ef4e24c63553badc46d48a3e913e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707306748922,
+          "stop" : 1707306801358,
+          "duration" : 52436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15ef4e24c63553badc46d48a3e913e0e"
+    } ],
+    "uid" : "2215092bebd5f8b7a7a78f4cc7ca416f"
+  } ]
+}
