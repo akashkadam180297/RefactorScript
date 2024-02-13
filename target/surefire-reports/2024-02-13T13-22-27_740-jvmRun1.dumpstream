@@ -1,0 +1,466 @@
+# Created on 2024-02-13T13:33:52.934
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created on 2024-02-13T13:34:02.329
+Unexpected IOException with stream: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition (element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Search:']/following::a[3]/img') to be refreshed (tried for 80 second(s) with 500 milliseconds interval)
+
+# Created on 2024-02-13T13:34:02.329
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.330
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+
+# Created on 2024-02-13T13:34:02.330
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.331
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+
+# Created on 2024-02-13T13:34:02.331
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.331
+Unexpected IOException with stream: 	at actions.WaitActions.waitForElementToBeRefreshedAndClickable(WaitActions.java:193)
+
+# Created on 2024-02-13T13:34:02.331
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.331
+Unexpected IOException with stream: 	at actions.WebElementActions.clickElement(WebElementActions.java:56)
+
+# Created on 2024-02-13T13:34:02.332
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.332
+Unexpected IOException with stream: 	at pages.tech.EC_Tech_WoLabor.clickOnPlusButton(EC_Tech_WoLabor.java:930)
+
+# Created on 2024-02-13T13:34:02.332
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.332
+Unexpected IOException with stream: 	at tests.tech.TechWoLabor.add_AeroDynamic_Delete_Labour(TechWoLabor.java:73)
+
+# Created on 2024-02-13T13:34:02.332
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.333
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created on 2024-02-13T13:34:02.333
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.333
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created on 2024-02-13T13:34:02.333
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.333
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created on 2024-02-13T13:34:02.334
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.334
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+# Created on 2024-02-13T13:34:02.334
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.334
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+
+# Created on 2024-02-13T13:34:02.335
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.335
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+
+# Created on 2024-02-13T13:34:02.335
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.335
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+
+# Created on 2024-02-13T13:34:02.336
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.336
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+
+# Created on 2024-02-13T13:34:02.336
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.336
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+
+# Created on 2024-02-13T13:34:02.338
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.340
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+
+# Created on 2024-02-13T13:34:02.346
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.347
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+
+# Created on 2024-02-13T13:34:02.347
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.347
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:632)
+
+# Created on 2024-02-13T13:34:02.348
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.349
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+
+# Created on 2024-02-13T13:34:02.350
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.350
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+
+# Created on 2024-02-13T13:34:02.350
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.350
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+
+# Created on 2024-02-13T13:34:02.351
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.351
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+
+# Created on 2024-02-13T13:34:02.351
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.352
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created on 2024-02-13T13:34:02.352
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.352
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+
+# Created on 2024-02-13T13:34:02.352
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.352
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+
+# Created on 2024-02-13T13:34:02.353
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.353
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+
+# Created on 2024-02-13T13:34:02.353
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.353
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1064)
+
+# Created on 2024-02-13T13:34:02.353
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.354
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+
+# Created on 2024-02-13T13:34:02.354
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.354
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+
+# Created on 2024-02-13T13:34:02.354
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.354
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+
+# Created on 2024-02-13T13:34:02.355
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.355
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+
+# Created on 2024-02-13T13:34:02.355
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.355
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+
+# Created on 2024-02-13T13:34:02.355
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.356
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+
+# Created on 2024-02-13T13:34:02.356
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.356
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+# Created on 2024-02-13T13:34:02.356
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.356
+Unexpected IOException with stream: Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Search:']/following::a[3]/img"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15f40e7f1de93012208db174673bf9c9, findElement {using=xpath, value=//label[text()='Search:']/following::a[3]/img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62999/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15f40e7f1de93012208db174673bf9c9
+
+# Created on 2024-02-13T13:34:02.357
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.357
+Unexpected IOException with stream: 	at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+
+# Created on 2024-02-13T13:34:02.357
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.357
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created on 2024-02-13T13:34:02.358
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.358
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+
+# Created on 2024-02-13T13:34:02.358
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.358
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+
+# Created on 2024-02-13T13:34:02.358
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.358
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+
+# Created on 2024-02-13T13:34:02.359
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.359
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+
+# Created on 2024-02-13T13:34:02.359
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.359
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+
+# Created on 2024-02-13T13:34:02.359
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.359
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+
+# Created on 2024-02-13T13:34:02.360
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.360
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+
+# Created on 2024-02-13T13:34:02.360
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.360
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+
+# Created on 2024-02-13T13:34:02.360
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.360
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+
+# Created on 2024-02-13T13:34:02.360
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.361
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+
+# Created on 2024-02-13T13:34:02.361
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.361
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+
+# Created on 2024-02-13T13:34:02.361
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.361
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+
+# Created on 2024-02-13T13:34:02.361
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.362
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+
+# Created on 2024-02-13T13:34:02.363
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.363
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+
+# Created on 2024-02-13T13:34:02.363
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.364
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+
+# Created on 2024-02-13T13:34:02.364
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.364
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+
+# Created on 2024-02-13T13:34:02.365
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.365
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+
+# Created on 2024-02-13T13:34:02.365
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.365
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+
+# Created on 2024-02-13T13:34:02.365
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.366
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+
+# Created on 2024-02-13T13:34:02.366
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.366
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+
+# Created on 2024-02-13T13:34:02.366
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.366
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+
+# Created on 2024-02-13T13:34:02.366
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.367
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$25.apply(ExpectedConditions.java:721)
+
+# Created on 2024-02-13T13:34:02.367
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.369
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$25.apply(ExpectedConditions.java:717)
+
+# Created on 2024-02-13T13:34:02.369
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.370
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+
+# Created on 2024-02-13T13:34:02.370
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:02.370
+Unexpected IOException with stream: 	... 32 more
+
+# Created on 2024-02-13T13:34:02.370
+Unexpected IOException with stream: 
+
+
+# Created on 2024-02-13T13:34:06.407
+Unexpected IOException: 8,1,tests.tech.TechWoLabor,add_AeroDynamic_Delete_Labour(tests.tech.TechWoLabor),null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//label[text()='Search:']/following::a[3]/img"}\000A  (Session info: chrome=121.0.6167.161)\000AFor documentation on this error\002C please visit: https://selenium.dev/exceptions/#no_such_element\000ABuild info: version: '4.4.0'\002C revision: 'e5c75ed026a'\000ASystem info: host: 'PC-9'\002C ip: '192.168.29.154'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.18'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [15f40e7f1de93012208db174673bf9c9\002C findElement {using=xpath\002C value=//label[text()='Search:']/following::a[3]/img}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 121.0.6167.161\002C chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e...\002C userDataDir: C:\005CUsers\005Cpc9-q\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:62999}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:62999/devtoo...\002C se:cdpVersion: 121.0.6167.161\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 15f40e7f1de93012208db174673bf9c9,null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//label[text()='Search:']/following::a[3]/img"}\000A  (Session info: chrome=121.0.6167.161)\000AFor documentation on this error\002C please visit: https://selenium.dev/exceptions/#no_such_element\000ABuild info: version: '4.4.0'\002C revision: 'e5c75ed026a'\000ASystem info: host: 'PC-9'\002C ip: '192.168.29.154'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.18'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [15f40e7f1de93012208db174673bf9c9\002C findElement {using=xpath\002C value=//label[text()='Search:']/following::a[3]/img}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 121.0.6167.161\002C chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e...\002C userDataDir: C:\005CUsers\005Cpc9-q\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:62999}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:62999/devtoo...\002C se:cdpVersion: 121.0.6167.161\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 15f40e7f1de93012208db174673bf9c9,TechWoLabor.add_AeroDynamic_Delete_Labour:73 \00BB NoSuchElement no such element: ...,org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//label[text()='Search:']/following::a[3]/img"}\000A  (Session info: chrome=121.0.6167.161)\000AFor documentation on this error\002C please visit: https://selenium.dev/exceptions/#no_such_element\000ABuild info: version: '4.4.0'\002C revision: 'e5c75ed026a'\000ASystem info: host: 'PC-9'\002C ip: '192.168.29.154'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.18'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [15f40e7f1de93012208db174673bf9c9\002C findElement {using=xpath\002C value=//label[text()='Search:']/following::a[3]/img}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 121.0.6167.161\002C chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e...\002C userDataDir: C:\005CUsers\005Cpc9-q\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:62999}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:62999/devtoo...\002C se:cdpVersion: 121.0.6167.161\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 15f40e7f1de93012208db174673bf9c9\000A\0009at tests.tech.TechWoLabor.add_AeroDynamic_Delete_Labour(TechWoLabor.java:73)\000A
+
+
+# Created on 2024-02-13T13:34:06.479
+Unexpected IOException: 5,1,tests.tech.TechWoLabor,again_Add_AeroDynamicDevice(tests.tech.TechWoLabor),tests.tech.TechWoLabor,null,null
+
+

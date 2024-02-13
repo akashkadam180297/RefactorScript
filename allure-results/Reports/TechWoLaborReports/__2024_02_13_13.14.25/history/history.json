@@ -1,0 +1,214 @@
+{
+  "4951e95de0bb65da313191aa0b49610c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e10d650717015793",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707809808405,
+        "stop" : 1707809913774,
+        "duration" : 105369
+      }
+    } ]
+  },
+  "3062258c92465ed78c1ed24ef0c16eed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "353f46b342c40c1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707810041898,
+        "stop" : 1707810078480,
+        "duration" : 36582
+      }
+    } ]
+  },
+  "3d5920d138fe90947db717c310a2f858" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0606d757792509c",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=121.0.6167.161)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [23fec7dab92db6e085d3e3296bf62bc3, findElement {using=xpath, value=//label[text()='Search:']/following::a[3]/img}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60396}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60396/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 23fec7dab92db6e085d3e3296bf62bc3",
+      "time" : {
+        "start" : 1707810078701,
+        "stop" : 1707810265503,
+        "duration" : 186802
+      }
+    } ]
+  },
+  "5655ed5619c3565d20337de0ac28ce08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e01aa805ea1b7e3d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707810265544,
+        "stop" : 1707810265544,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3d415d0db09a8ffa441195210d50e5ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28b060a0dfe9957d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//label[text()='Search:']/following::a[3]/img\"}\n  (Session info: chrome=121.0.6167.161)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [23fec7dab92db6e085d3e3296bf62bc3, findElement {using=xpath, value=//label[text()='Search:']/following::a[3]/img}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60396}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60396/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 23fec7dab92db6e085d3e3296bf62bc3",
+      "time" : {
+        "start" : 1707810078547,
+        "stop" : 1707810078597,
+        "duration" : 50
+      }
+    } ]
+  },
+  "6b3b5d4920d677790c08f828f9f850cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c99c4591405a35ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707809913923,
+        "stop" : 1707809972551,
+        "duration" : 58628
+      }
+    } ]
+  },
+  "b31d66ff6eb479f35e77a487416b9cc6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4601a9266c0eacfd",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707810265515,
+        "stop" : 1707810265515,
+        "duration" : 0
+      }
+    } ]
+  },
+  "aefbc5ae8bd6c94ea9987dfb34298b08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "50e2d0100bc56f23",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=121.0.6167.161)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [23fec7dab92db6e085d3e3296bf62bc3, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60396}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60396/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 23fec7dab92db6e085d3e3296bf62bc3",
+      "time" : {
+        "start" : 1707810265563,
+        "stop" : 1707810265563,
+        "duration" : 0
+      }
+    } ]
+  },
+  "34a8b9c888846575477c35369faa6ca4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5500fbf431129ffc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1707810265549,
+        "stop" : 1707810265549,
+        "duration" : 0
+      }
+    } ]
+  },
+  "34932e23098a80b7ddb47d5bcfa4d4df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4398b765c81f3cdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707809972620,
+        "stop" : 1707810019534,
+        "duration" : 46914
+      }
+    } ]
+  },
+  "f4e448109fbdd81a70add4a0bf7e0a45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d462205f96113ece",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707810019592,
+        "stop" : 1707810041830,
+        "duration" : 22238
+      }
+    } ]
+  }
+}

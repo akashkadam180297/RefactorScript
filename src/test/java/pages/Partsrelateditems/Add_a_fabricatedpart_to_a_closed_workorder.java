@@ -40,6 +40,15 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
     @FindBy(xpath = "//span[text()='Add']")
     public WebElement label_AddButton;
 
+    @FindBy(xpath = "//div[contains(@id,':0:pgltWAIDX')]//div")
+   WebElement SrNo;
+
+    @FindBy(xpath = "//span[contains(text(),'Accessories Group')]/parent::a/following::a[4]/child::img")
+    public List <WebElement> img_CrossIcon1;
+
+    @FindBy(xpath = "//span[contains(text(),'Add Lab')]/following::img[1]")
+    public WebElement label_Delete3;
+
 
     @FindBy(xpath = "(//div[contains(@id,':tParts::db')]//table//div//a/child::span[contains(@id,'::text')])[1]")
     public WebElement label_PartsSrNo;
@@ -141,7 +150,7 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
     @FindBy(xpath = "(//div[contains(@id,'pslStockOnHand::b')]//a//span)[1]")
     public WebElement label_CancelButton;
 
-    @FindBy(xpath = "//div[contains(@id,':0:rPOH:1:cb2')]//a//span")
+    @FindBy(xpath = "//span[contains(text(),'Save / Exit')]")
     public WebElement label_OkButton;
 
     @FindBy(xpath = "//a[contains(.,'New Part')]")
@@ -253,8 +262,16 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
     @FindBy(xpath = "//label[text()='Unit Cost:']")
      WebElement UnitCost2;
 
-    @FindBy(xpath = "(//span[text()='Cancel'])[1]")
-    WebElement CancelButton1;
+    //@FindBy(xpath = "(//span[text()='Cancel'])[2]")
+    @FindBy(xpath = "//div[contains(@id,':pslStockOnHand::b')]/div/div/table/tbody/tr/td/div/a/span")
+    WebElement Button1;
+
+    @FindBy(xpath = "//a[contains(@id,':0:cRTWAP1')]/child::img")
+    WebElement trash1;
+
+    @FindBy(xpath = "//img[contains(@id,':cilWAP::icon')]")
+    WebElement Delete1;
+
 
     @FindBy(xpath = "//a[text()='Sign Out']")
     public WebElement label_SignOut;
@@ -284,6 +301,7 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
    public void typeUnitNumber () throws InterruptedException {
        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(SerachUnit);
        WebElementActions.getActions().inputText(SerachUnit,appProp.getProperty("SearchUnit"));
+       WaitActions.getWaits().loadingWait(loder);
    }
    /**click on Select Button*/
    public void clickonSelectButton () throws InterruptedException {
@@ -346,37 +364,48 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
         WebElementActions.getActions().clickElement(label_ReferenceNumber);
         WaitActions.getWaits().loadingWait(loder);
     }
-    /**click on invoice Delete */
-    public void  clickoninvoiceDelete () throws InterruptedException {
+    /**click on Add Labour */
+    public void clickOnAddLabour2() throws InterruptedException {
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(invoiceDelete);
-        WebElementActions.getActions().clickElement(invoiceDelete);
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddLabor);
+        WebElementActions.getActions().clickElement(label_AddLabor);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_VMRS);
+        WebElementActions.getActions().clickElement(label_VMRS);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
+        WebElementActions.getActions().clickElement(label_AccessoriesGroup);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Add);
+        WebElementActions.getActions().clickElement(label_Add);
         WaitActions.getWaits().loadingWait(loder);
-        if(ThisTransation.isDisplayed()){
-            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Close);
-            WebElementActions.getActions().clickElement(Close);
+
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddButton);
+        Thread.sleep(2000);
+        WebElementActions.getActions().clickElement(label_AddButton);
+        Thread.sleep(3000);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SrNo);
+        WebElementActions.getActions().clickElement(SrNo);
+
+
+        if (img_CrossIcon1.size()>1) {
+
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(img_CrossIcon1.get(1));
+            Thread.sleep(2000);
+            WebElementActions.getActions().clickUsingJS(img_CrossIcon1.get(1));
+
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Delete3);
+            WebElementActions.getActions().clickUsingJS(label_Delete3);
             WaitActions.getWaits().loadingWait(loder);
 
-            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(BacktocompleteRO);
-            WebElementActions.getActions().clickElement(BacktocompleteRO);
-            WaitActions.getWaits().loadingWait(loder);
+
+            }
 
         }
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_ReferenceNumber1);
-        WebElementActions.getActions().clickElement(label_ReferenceNumber1);
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(invoiceDelete);
-        WebElementActions.getActions().clickElement(invoiceDelete);
-
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(DeleteCustomerivoice);
-        WebElementActions.getActions().inputText(DeleteCustomerivoice,appProp.getProperty("a"));
-
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(DeleteCustomerinvoiceButton);
-        WebElementActions.getActions().clickElement(DeleteCustomerinvoiceButton);
-        WaitActions.getWaits().loadingWait(loder);
-
-    }
     /**click On Add Parts*/
     public void clickOnAddParts () throws InterruptedException {
 
@@ -388,6 +417,7 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_PartTextArea);
         WebElementActions.getActions().inputText(txt_PartTextArea,appProp.getProperty("PartValue"));
+        Thread.sleep(5000);
         txt_PartTextArea.sendKeys(Keys.ENTER);
         WaitActions.getWaits().loadingWait(loder);
 
@@ -398,6 +428,7 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_Close);
         WebElementActions.getActions().clickElement(btn_Close);
+
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
     }
@@ -576,7 +607,7 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
       Assert.assertTrue(OKButton.isDisplayed());
   }
   /**click on Cancel Button*/
-  public void verifyCacelButton () throws InterruptedException {
+  public void clickonCacelButton () throws InterruptedException {
       WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CancelButton);
       WebElementActions.getActions().clickElement(CancelButton);
   }
@@ -585,13 +616,14 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
 
        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(txt_PartTextArea);
        WebElementActions.getActions().inputText(txt_PartTextArea, appProp.getProperty("PartValue"));
+       Thread.sleep(5000);
        txt_PartTextArea.sendKeys(Keys.ENTER);
        WaitActions.getWaits().loadingWait(loder);
 
-       WaitActions.getWaits().loadingWait(loder);
-       WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_PartNumber);
-       WebElementActions.getActions().clickElement(label_PartNumber);
-       WaitActions.getWaits().loadingWait(loder);
+
+     //  WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_PartNumber);
+    //   WebElementActions.getActions().clickElement(label_PartNumber);
+    //   WaitActions.getWaits().loadingWait(loder);
 
        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_IssuePartBtn);
        WebElementActions.getActions().clickElement(btn_IssuePartBtn);
@@ -648,13 +680,22 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
        Assert.assertTrue(UnitCost2.isDisplayed());
 
 
-       WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CancelButton1);
-       Assert.assertTrue(CancelButton1.isDisplayed());
+       WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Button1);
+       Assert.assertTrue(Button1.isDisplayed());
    }
    /**click on close Button */
    public void clickOnCloseButton () throws InterruptedException {
-       WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(CancelButton1);
-       WebElementActions.getActions().clickElement(CancelButton1);
+       WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(Button1);
+       WebElementActions.getActions().clickElement(Button1);
+
+
+       WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(trash1);
+       WebElementActions.getActions().clickElement(trash1);
+
+
+       WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(Delete1);
+       WebElementActions.getActions().clickElement(Delete1);
+
 
        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_Close);
        WebElementActions.getActions().clickElement(btn_Close);

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" class="method navigator-link" hash-for-method="Test_003_typeSearchTextArea">Test_003_typeSearchTextArea</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,22 +116,22 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.techRo.ServiceManagerJournalize" class="method navigator-link" hash-for-method="Test_001_gotoFinancials">Test_001_gotoFinancials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" class="method navigator-link" hash-for-method="Test_001_gotoCompleteRo">Test_001_gotoCompleteRo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.techRo.ServiceManagerJournalize" class="method navigator-link" hash-for-method="Test_002_clickOnGenerateJournals">Test_002_clickOnGenerateJournals</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" class="method navigator-link" hash-for-method="Test_002_clickoNewRo">Test_002_clickoNewRo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.techRo.ServiceManagerJournalize" class="method navigator-link" hash-for-method="Test_003_clickOnServiceBoard">Test_003_clickOnServiceBoard</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" class="method navigator-link" hash-for-method="Test_004_clickonAddPart">Test_004_clickonAddPart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.techRo.ServiceManagerJournalize" class="method navigator-link" hash-for-method="Test_004_clickOnFinancialManagerText">Test_004_clickOnFinancialManagerText</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" class="method navigator-link" hash-for-method="Test_005_clickonPartTextArea">Test_005_clickonPartTextArea</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -132,46 +146,75 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-passed">
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.techRo.ServiceManagerJournalize</span>
+              <img src="failed.png"/>
+              <span class="class-name">tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Test_001_gotoFinancials">
-                  </a> <!-- Test_001_gotoFinancials -->
-                  <span class="method-name">Test_001_gotoFinancials</span>
+                  <a name="Test_003_typeSearchTextArea">
+                  </a> <!-- Test_003_typeSearchTextArea -->
+                  <span class="method-name">Test_003_typeSearchTextArea</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
+	at com.sun.proxy.$Proxy19.get(Unknown Source)
+	at pages.Partsrelateditems.Add_a_fabricatedpart_to_a_closed_workorder.clickOnAddLabour2(Add_a_fabricatedpart_to_a_closed_workorder.java:395)
+	at tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder.Test_003_typeSearchTextArea(Addafabricatedparttoaclosedworkorder.java:34)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                   <em>
-(Test_001_Login the page and Go to Financials )                  </em>
+(Test_003_type Search Text Area)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_001_gotoCompleteRo">
+                  </a> <!-- Test_001_gotoCompleteRo -->
+                  <span class="method-name">Test_001_gotoCompleteRo</span>
+                  <em>
+(Test_001_Login the page and Go to CompleteRo Screen)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Test_002_clickOnGenerateJournals">
-                  </a> <!-- Test_002_clickOnGenerateJournals -->
-                  <span class="method-name">Test_002_clickOnGenerateJournals</span>
+                  <a name="Test_002_clickoNewRo">
+                  </a> <!-- Test_002_clickoNewRo -->
+                  <span class="method-name">Test_002_clickoNewRo</span>
                   <em>
-(Test_001_Click OnGenerate Journals   )                  </em>
+(Test_002_click On New RO)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Test_003_clickOnServiceBoard">
-                  </a> <!-- Test_003_clickOnServiceBoard -->
-                  <span class="method-name">Test_003_clickOnServiceBoard</span>
+                  <a name="Test_004_clickonAddPart">
+                  </a> <!-- Test_004_clickonAddPart -->
+                  <span class="method-name">Test_004_clickonAddPart</span>
                   <em>
-(Test_001_Click On Service Board   )                  </em>
+(Test_004_click on Add Part)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Test_004_clickOnFinancialManagerText">
-                  </a> <!-- Test_004_clickOnFinancialManagerText -->
-                  <span class="method-name">Test_004_clickOnFinancialManagerText</span>
+                  <a name="Test_005_clickonPartTextArea">
+                  </a> <!-- Test_005_clickonPartTextArea -->
+                  <span class="method-name">Test_005_clickonPartTextArea</span>
                   <em>
-(Test_001_Click Financial manager   )                  </em>
+(Test_005_click on part Text Area)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,7 +230,7 @@
 &lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test name=&quot;Surefire test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.techRo.ServiceManagerJournalize&quot;/&gt;
+      &lt;class name=&quot;tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -227,28 +270,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Test_004_clickOnFinancialManagerText')
-data.setCell(0, 2, 'tests.techRo.ServiceManagerJournalize')
-data.setCell(0, 3, 92763);
+data.setCell(0, 1, 'Test_005_clickonPartTextArea')
+data.setCell(0, 2, 'tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder')
+data.setCell(0, 3, 204239);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Test_002_clickOnGenerateJournals')
-data.setCell(1, 2, 'tests.techRo.ServiceManagerJournalize')
-data.setCell(1, 3, 66912);
+data.setCell(1, 1, 'Test_002_clickoNewRo')
+data.setCell(1, 2, 'tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder')
+data.setCell(1, 3, 165680);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Test_001_gotoFinancials')
-data.setCell(2, 2, 'tests.techRo.ServiceManagerJournalize')
-data.setCell(2, 3, 42375);
+data.setCell(2, 1, 'Test_003_typeSearchTextArea')
+data.setCell(2, 2, 'tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder')
+data.setCell(2, 3, 157955);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Test_003_clickOnServiceBoard')
-data.setCell(3, 2, 'tests.techRo.ServiceManagerJournalize')
-data.setCell(3, 3, 6577);
+data.setCell(3, 1, 'Test_004_clickonAddPart')
+data.setCell(3, 2, 'tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder')
+data.setCell(3, 3, 156594);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test_001_gotoCompleteRo')
+data.setCell(4, 2, 'tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder')
+data.setCell(4, 3, 49305);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 12 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -274,46 +321,58 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.techRo.ServiceManagerJournalize</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initialization</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Test_001_gotoFinancials</span>
-                <span class="method-start">54520 ms</span>
+                <span class="method-name">Test_001_gotoCompleteRo</span>
+                <span class="method-start">39151 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_001_gotoFinancials status=SUCCESS method=ServiceManagerJournalize.Test_001_got...)</span>
-                <span class="method-start">97130 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_001_gotoCompleteRo status=SUCCESS method=Addafabricatedparttoaclosedworkorder....)</span>
+                <span class="method-start">88554 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">Test_002_clickOnGenerateJournals</span>
-                <span class="method-start">97311 ms</span>
+                <span class="method-name">Test_002_clickoNewRo</span>
+                <span class="method-start">88651 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_002_clickOnGenerateJournals status=SUCCESS method=ServiceManagerJournalize.Tes...)</span>
-                <span class="method-start">164226 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_002_clickoNewRo status=SUCCESS method=Addafabricatedparttoaclosedworkorder.Tes...)</span>
+                <span class="method-start">254358 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">Test_003_clickOnServiceBoard</span>
-                <span class="method-start">164359 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_003_typeSearchTextArea</span>
+                <span class="method-start">254475 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_003_clickOnServiceBoard status=SUCCESS method=ServiceManagerJournalize.Test_00...)</span>
-                <span class="method-start">170941 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_003_typeSearchTextArea status=FAILURE method=Addafabricatedparttoaclosedworkor...)</span>
+                <span class="method-start">412438 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">Test_004_clickOnFinancialManagerText</span>
-                <span class="method-start">171082 ms</span>
+                <span class="method-name">Test_004_clickonAddPart</span>
+                <span class="method-start">412574 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_004_clickOnFinancialManagerText status=SUCCESS method=ServiceManagerJournalize...)</span>
-                <span class="method-start">263847 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_004_clickonAddPart status=SUCCESS method=Addafabricatedparttoaclosedworkorder....)</span>
+                <span class="method-start">569168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test_005_clickonPartTextArea</span>
+                <span class="method-start">569316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_005_clickonPartTextArea status=SUCCESS method=Addafabricatedparttoaclosedworko...)</span>
+                <span class="method-start">773556 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">generateAllure</span>
-                <span class="method-start">264094 ms</span>
+                <span class="method-start">773626 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

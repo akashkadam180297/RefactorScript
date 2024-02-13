@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=121.0.6167.161)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cbb1d7586a7a89ae4866c3c112affe65, findElement {using=xpath, value=//input[@name='username']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61160/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cbb1d7586a7a89ae4866c3c112affe65",
+      "children" : [ {
+        "name" : "Test_005 click on Reprint",
+        "uid" : "ff5b880279f1dfc1",
+        "parentUid" : "17c56f12920f4b25e71f8e09f646d7aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707803114543,
+          "stop" : 1707803256569,
+          "duration" : 142026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17c56f12920f4b25e71f8e09f646d7aa"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=121.0.6167.161)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cbb1d7586a7a89ae4866c3c112affe65, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61160/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cbb1d7586a7a89ae4866c3c112affe65",
+      "children" : [ {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "a4bb2374640a137c",
+        "parentUid" : "ae38180f4e17d6d03b6c9ad3281b9c92",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707803256578,
+          "stop" : 1707803256578,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae38180f4e17d6d03b6c9ad3281b9c92"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

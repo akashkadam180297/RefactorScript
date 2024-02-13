@@ -1,10 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 2, Errors: 0, Skipped: 9, Time elapsed: 6.258 s <<< FAILURE! - in tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder
-initialization(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 5.315 s  <<< FAILURE!
-java.io.FileNotFoundException: F:\GithubFinal\RefactorScript\src\test\java\utils\addafabricatedparttoaclosedworkorder\addafabricatedparttoaclosedworkorderEU.properties (The system cannot find the path specified)
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 774.649 s <<< FAILURE! - in tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder
+Test_003_typeSearchTextArea(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 157.963 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder.Test_003_typeSearchTextArea(Addafabricatedparttoaclosedworkorder.java:34)
 
-generateAllure(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 0.102 s  <<< FAILURE!
+generateAllure(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 204.321 s  <<< FAILURE!
 java.lang.NullPointerException
 

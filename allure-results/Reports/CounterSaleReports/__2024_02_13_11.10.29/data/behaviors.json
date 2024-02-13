@@ -1,0 +1,70 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test_001 Login the page and Go to counterSaleManager",
+    "uid" : "b433bb188d330313",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707802526087,
+      "stop" : 1707802567864,
+      "duration" : 41777
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_002 click on History Tab ",
+    "uid" : "4edee7dd965ce4f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707802568004,
+      "stop" : 1707802588166,
+      "duration" : 20162
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_003  verify on invoice  ",
+    "uid" : "1d027970396e23d8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707802588253,
+      "stop" : 1707802643607,
+      "duration" : 55354
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_004  verify on invoice  ",
+    "uid" : "5a32e7483f9ed340",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707802643681,
+      "stop" : 1707802687439,
+      "duration" : 43758
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test_005 click on Reprint",
+    "uid" : "4960ce8616da45bb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1707802687482,
+      "stop" : 1707802829400,
+      "duration" : 141918
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

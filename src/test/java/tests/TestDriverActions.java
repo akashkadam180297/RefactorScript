@@ -16,6 +16,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import pages.Estimate.SubmitAnEstimateServiceManager;
 import pages.LoginPage;
+import pages.Partsrelateditems.Add_a_fabricatedpart_to_a_closed_workorder;
 import pages.administration.CreateCustomerPage;
 import pages.administration.CreateVendorPage;
 import pages.estimating.ApproveanEstimateDMSPage;
@@ -93,7 +94,7 @@ public class TestDriverActions {
 
     public CounterSaleInvoiceCharacterLimit countersaleinvoicecharacterlimit;
 
-
+     public Add_a_fabricatedpart_to_a_closed_workorder addafabricatedparttoaclosedworkorder;
     LoginActions loginActions;
 
 
@@ -292,7 +293,7 @@ public class TestDriverActions {
         submitanestimateservicemanager = PageFactory.initElements(driver,SubmitAnEstimateServiceManager.class);
         issueparttotech=PageFactory.initElements(driver,IssuePartToTech.class);
         countersaleinvoicecharacterlimit=PageFactory.initElements(driver,CounterSaleInvoiceCharacterLimit.class);
-
+        addafabricatedparttoaclosedworkorder=PageFactory.initElements(driver,Add_a_fabricatedpart_to_a_closed_workorder.class);
 
 
         loginPage.selectCountryFromDropDown();
@@ -483,7 +484,9 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("CounterSaleInvoiceCharacterLimit")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CounterSaleInvoiceCharacterLimitReports/" + "__" + currentDateTime;
         }
-
+        else if (getClass().getCanonicalName().contains("Addafabricatedparttoaclosedworkorder")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/AddafabricatedparttoaclosedworkorderReports/" + "__" + currentDateTime;
+        }
 
 
 
@@ -615,6 +618,9 @@ public class TestDriverActions {
             }
             else if (getClass().getCanonicalName().contains("CounterSaleInvoiceCharacterLimit")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CounterSaleInvoiceCharacterLimitReports\\" + theDir.getName();
+            }
+            else if (getClass().getCanonicalName().contains("Add_a_fabricatedpart_to_a_closed_workorder")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\Add_a_fabricatedpart_to_a_closed_workorderReports\\" + theDir.getName();
             }
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.Spotorderparts" time="1,127.045" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.parts.Spotorderparts" time="1,128.622" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -66,13 +66,13 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Test_001_gotoOrderPartsScreen" classname="tests.parts.Spotorderparts" time="42.049"/>
-  <testcase name="Test_002_clickOnSpotOrder" classname="tests.parts.Spotorderparts" time="68.924"/>
-  <testcase name="Test_003_inputPartialPartNumber" classname="tests.parts.Spotorderparts" time="48.811"/>
-  <testcase name="Test_004_clickOnAddButton" classname="tests.parts.Spotorderparts" time="91.911"/>
-  <testcase name="Test_005_verifySearchPartDescription" classname="tests.parts.Spotorderparts" time="218.582"/>
-  <testcase name="Test_006_inputCoreParentPart" classname="tests.parts.Spotorderparts" time="152.976"/>
-  <testcase name="Test_007_verifyPO" classname="tests.parts.Spotorderparts" time="125.853"/>
-  <testcase name="Test_008_verifyRequiredPart" classname="tests.parts.Spotorderparts" time="157.986"/>
-  <testcase name="Test_009_verifyWarehouseText" classname="tests.parts.Spotorderparts" time="171.347"/>
+  <testcase name="Test_001_gotoOrderPartsScreen" classname="tests.parts.Spotorderparts" time="42.696"/>
+  <testcase name="Test_002_clickOnSpotOrder" classname="tests.parts.Spotorderparts" time="68.902"/>
+  <testcase name="Test_003_inputPartialPartNumber" classname="tests.parts.Spotorderparts" time="48.791"/>
+  <testcase name="Test_004_clickOnAddButton" classname="tests.parts.Spotorderparts" time="91.212"/>
+  <testcase name="Test_005_verifySearchPartDescription" classname="tests.parts.Spotorderparts" time="218.611"/>
+  <testcase name="Test_006_inputCoreParentPart" classname="tests.parts.Spotorderparts" time="152.774"/>
+  <testcase name="Test_007_verifyPO" classname="tests.parts.Spotorderparts" time="125.806"/>
+  <testcase name="Test_008_verifyRequiredPart" classname="tests.parts.Spotorderparts" time="158.055"/>
+  <testcase name="Test_009_verifyWarehouseText" classname="tests.parts.Spotorderparts" time="171.277"/>
 </testsuite>

@@ -1,0 +1,21 @@
+# Created on 2024-02-13T12:34:47.990
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created on 2024-02-13T12:34:52.117
+Unexpected IOException with stream: WebElement is clickable using locator: <[[ChromeDriver: chrome on WINDOWS (06e01885a4976f7d1e5a28d4114cd411)] -> xpath: //div[@id='signin']]>
+
+
+# Created on 2024-02-13T12:35:04.254
+Unexpected IOException with stream: Loader is found by xpath : [[[ChromeDriver: chrome on WINDOWS (06e01885a4976f7d1e5a28d4114cd411)] -> xpath: //h1[contains(.,'Signing In...Please Wait')]]]
+
+
+# Created on 2024-02-13T12:35:04.260
+Unexpected IOException with stream: Entered in while loop
+
+

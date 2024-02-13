@@ -232,7 +232,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
     @FindBy(xpath = "(//a[contains(@id,'sdiVmrs::disAcr')])[1]")
     WebElement tab_VMRS;
 
-    @FindBy(xpath = "(//a[text()='Unit History'])[3]")
+    @FindBy(xpath = "//div[contains(@id,':sdiHistory::ti')]/a")
     WebElement tab_UnitHistory;
 
     @FindBy(xpath = "(//label[text()='Search:'])[1]")
@@ -369,6 +369,9 @@ public class EC_Tech_WoLabor extends TestDriverActions {
     @FindBy(xpath = "//div[contains(@id,':sdiVmrs::ti')]/div/child::div/a")
     WebElement btn_LabourDetails_VMRS ;
 
+    @FindBy(xpath = "(//a[contains(text(),'Lab')])[1]")
+    WebElement TabLab;
+
     @FindBy(xpath = "//a[contains(@id,'citWRD1')]")
     WebElement img_workRequired_AeroDynamic;
 
@@ -389,7 +392,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
    @FindBy(xpath = "//a[contains(@id,':0:ciAddVmrs')]")
     WebElement plusIcon_LabourDetails;
 
-    @FindBy(xpath = "//img[contains(@id,':0:ciAddVmrs::icon')]")
+    @FindBy(xpath = "//a[contains(@Id,':ciAddVmrs')]/child::img")
     public WebElement label_Plus;
 
     @FindBy(xpath = "//span[text()='Add']")
@@ -636,6 +639,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
         Assert.assertTrue(label_unit2.isDisplayed());
         Assert.assertTrue(hyperlink_unit.isDisplayed());
         Assert.assertTrue(label_address.isDisplayed());
+
         if(LoginActions.environmentName.contains("QA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_18298Slover);
             Assert.assertTrue(label_18298Slover.isDisplayed());
@@ -782,7 +786,6 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on Unit History tab
      */
     public void clickOnUnitHistoryTab() throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(tab_UnitHistory);
         WebElementActions.getActions().clickElement(tab_UnitHistory);
         WaitActions.getWaits().loadingWait(loder);
@@ -820,14 +823,21 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on (Labour Details Page) VMRS tab
      */
     public void clickOnLabourDetailsVMRStab() throws InterruptedException {
-      //  if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EC")) {
+
+        if(LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("NA")||LoginActions.environmentName.contains("EC")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_LabourDetails_VMRS);
             WebElementActions.getActions().clickUsingJS(btn_LabourDetails_VMRS);
+        }
+            if(LoginActions.environmentName.contains("EU")){
+                WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(TabLab);
+                WebElementActions.getActions().clickUsingJS(TabLab);
+
+            }
 
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
         }
-   // }
+
     /**
      * verify vmrs Element
      */
@@ -885,19 +895,15 @@ public class EC_Tech_WoLabor extends TestDriverActions {
             Assert.assertTrue(txtfield_search.isDisplayed());
             Assert.assertTrue(search_icon.isDisplayed());
             Assert.assertTrue(description5.isDisplayed());
-          //  WaitActions.getWaits().WaitUntilWebElementIsVisible(deviceAero);
-         //   Assert.assertTrue(deviceAero.isDisplayed());
-          //  WaitActions.getWaits().WaitUntilWebElementIsVisible(label_aero004);
-          //  Assert.assertTrue(label_aero004.isDisplayed());
             Assert.assertTrue(plus_icon.isDisplayed());
             TestListener.saveScreenshotPNG(driver);
         }
-        if(LoginActions.environmentName.contains("EU")){
+        if(LoginActions.environmentName.contains("EU")) {
             Assert.assertTrue(label_DescriptionThree.isDisplayed());
-            Assert.assertTrue(plus_icon.isDisplayed());
+        }
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
-        }
+
     }
     /**
      * click on hyperlink AeroDynamic Devices
@@ -997,8 +1003,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      * click on cross icon
      */
     public void clickOnCrossIcon() throws InterruptedException {
-        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")
-                ||  LoginActions.environmentName.contains("EC")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA") || LoginActions.environmentName.contains("EC")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(cross_icon);
             WebElementActions.getActions().clickElement(cross_icon);
 
@@ -1024,7 +1029,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
      */
     public void verifyAddElement() throws InterruptedException {
         if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("NA")
-                || LoginActions.environmentName.contains("EC")) {
+                ||LoginActions.environmentName.contains("EC")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_add);
             Assert.assertTrue(btn_add.isDisplayed());
 

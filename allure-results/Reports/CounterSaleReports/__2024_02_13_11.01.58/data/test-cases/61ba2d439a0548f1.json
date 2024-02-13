@@ -1,0 +1,102 @@
+{
+  "uid" : "61ba2d439a0548f1",
+  "name" : "Test_002 click on History Tab ",
+  "fullName" : "tests.parts.CounterSaleInvoiceCharacterLimit.Test_002_clickonHistory",
+  "historyId" : "297632ac8628c93d6d7f25eeb2d84f5b",
+  "time" : {
+    "start" : 1707802132180,
+    "stop" : 1707802152305,
+    "duration" : 20125
+  },
+  "description" : "Test Description : click on History Tab ",
+  "descriptionHtml" : "<p>Test Description : click on History Tab</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1707802052691,
+      "stop" : 1707802090855,
+      "duration" : 38164
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707802152313,
+      "stop" : 1707802152389,
+      "duration" : 76
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7ba701c09a96a44d",
+      "name" : "Page Screenshot",
+      "source" : "7ba701c09a96a44d.png",
+      "type" : "image/png",
+      "size" : 116634
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickonHistory"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "19412@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61ba2d439a0548f1.json",
+  "parameterValues" : [ ]
+}

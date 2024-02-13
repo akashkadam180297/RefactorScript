@@ -1,0 +1,102 @@
+{
+  "uid" : "faaad67e5e3803d",
+  "name" : "Test_002 click on History Tab ",
+  "fullName" : "tests.parts.CounterSaleInvoiceCharacterLimit.Test_002_clickonHistory",
+  "historyId" : "297632ac8628c93d6d7f25eeb2d84f5b",
+  "time" : {
+    "start" : 1707806713252,
+    "stop" : 1707806733390,
+    "duration" : 20138
+  },
+  "description" : "Test Description : click on History Tab ",
+  "descriptionHtml" : "<p>Test Description : click on History Tab</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1707806628297,
+      "stop" : 1707806668421,
+      "duration" : 40124
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707806733398,
+      "stop" : 1707806733467,
+      "duration" : 69
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "527bcca054ff4fa1",
+      "name" : "Page Screenshot",
+      "source" : "527bcca054ff4fa1.png",
+      "type" : "image/png",
+      "size" : 116709
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickonHistory"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "6988@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "faaad67e5e3803d.json",
+  "parameterValues" : [ ]
+}

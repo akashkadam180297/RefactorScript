@@ -1,0 +1,118 @@
+{
+  "3c66b3ae425bb3591b667e1e4745252e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff5b880279f1dfc1",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=121.0.6167.161)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cbb1d7586a7a89ae4866c3c112affe65, findElement {using=xpath, value=//input[@name='username']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61160/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cbb1d7586a7a89ae4866c3c112affe65",
+      "time" : {
+        "start" : 1707803114543,
+        "stop" : 1707803256569,
+        "duration" : 142026
+      }
+    } ]
+  },
+  "297632ac8628c93d6d7f25eeb2d84f5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a706a024570e951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707802994921,
+        "stop" : 1707803015050,
+        "duration" : 20129
+      }
+    } ]
+  },
+  "50fd057385cdcc66db747fba9d8a99c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0d44ae950dcce24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707803070733,
+        "stop" : 1707803114452,
+        "duration" : 43719
+      }
+    } ]
+  },
+  "52098555eea27ddf9b48b0e5b384631a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f20d668049b36e87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707802952609,
+        "stop" : 1707802994762,
+        "duration" : 42153
+      }
+    } ]
+  },
+  "7bdbad12d8fb1b756e9c4a347b8a793e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b84ebd35e87e34d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707803015126,
+        "stop" : 1707803070657,
+        "duration" : 55531
+      }
+    } ]
+  },
+  "7fc73eafc5b731e8bb215c76cc3bc68c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4bb2374640a137c",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=121.0.6167.161)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cbb1d7586a7a89ae4866c3c112affe65, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61160/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cbb1d7586a7a89ae4866c3c112affe65",
+      "time" : {
+        "start" : 1707803256578,
+        "stop" : 1707803256578,
+        "duration" : 0
+      }
+    } ]
+  }
+}

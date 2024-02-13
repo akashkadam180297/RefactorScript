@@ -1,0 +1,125 @@
+{
+  "uid" : "b8c34995bcda98f3",
+  "name" : "T_007 Check that add AeroDynamic Device and Delete it from Labour section",
+  "fullName" : "tests.tech.TechWoLabor.add_AeroDynamic_Delete_Labour",
+  "historyId" : "3d5920d138fe90947db717c310a2f858",
+  "time" : {
+    "start" : 1707814151556,
+    "stop" : 1707814188061,
+    "duration" : 36505
+  },
+  "description" : "Test Description - Check that add AeroDynamic Device and Delete it from Labour section",
+  "descriptionHtml" : "<p>Test Description - Check that add AeroDynamic Device and Delete it from Labour section</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1707813772130,
+      "stop" : 1707813811959,
+      "duration" : 39829
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that add AeroDynamic Device and Delete it from Labour section",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "90bb19ac61b5ccf0",
+      "name" : "Page Screenshot",
+      "source" : "90bb19ac61b5ccf0.png",
+      "type" : "image/png",
+      "size" : 84210
+    }, {
+      "uid" : "917434f98b72dbf4",
+      "name" : "Page Screenshot",
+      "source" : "917434f98b72dbf4.png",
+      "type" : "image/png",
+      "size" : 101091
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707814188061,
+      "stop" : 1707814188108,
+      "duration" : 47
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a225481d982b469e",
+      "name" : "Page Screenshot",
+      "source" : "a225481d982b469e.png",
+      "type" : "image/png",
+      "size" : 101091
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_AeroDynamic_Delete_Labour"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "20948@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8c34995bcda98f3.json",
+  "parameterValues" : [ ]
+}

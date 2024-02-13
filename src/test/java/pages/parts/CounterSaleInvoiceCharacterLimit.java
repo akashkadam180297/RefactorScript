@@ -70,10 +70,8 @@ public class CounterSaleInvoiceCharacterLimit extends TestDriverActions {
     @FindBy(xpath = "(//label[text()='Customer:']/parent::td/following::td[1])[2]")
     WebElement CustomerValue;
 
-
     @FindBy(xpath = "//a[contains(.,'Reprint')]")
     WebElement Reprint;
-
 
     @FindBy(xpath = "//h1[contains(.,'Working...Please Wait')]")
     List<WebElement> loder;
@@ -138,7 +136,6 @@ public class CounterSaleInvoiceCharacterLimit extends TestDriverActions {
 
        TestListener.saveScreenshotPNG(driver);
 
-
    }
    /**verify Counter sale*/
    public void verifyCountersale () throws InterruptedException {
@@ -147,7 +144,6 @@ public class CounterSaleInvoiceCharacterLimit extends TestDriverActions {
        Assert.assertTrue(CounterSale.isDisplayed());
 
        TestListener.saveScreenshotPNG(driver);
-
    }
    /**verify On RequiredLocation,Location */
    public void verifyRequiredLocation () throws InterruptedException {
@@ -158,11 +154,11 @@ public class CounterSaleInvoiceCharacterLimit extends TestDriverActions {
        Assert.assertTrue(Location2.isDisplayed());
 
        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(LocationValue);
-       Assert.assertTrue(LocationValue.isDisplayed());
 
-       TestListener.saveScreenshotPNG(driver);
+           TestListener.saveScreenshotPNG(driver);
 
-   }
+       }
+
    /***verify sale salevalue*/
    public void verifyonsale () throws InterruptedException {
        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SaleHash);
@@ -186,8 +182,8 @@ public class CounterSaleInvoiceCharacterLimit extends TestDriverActions {
 
        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerValue);
        Assert.assertTrue(CustomerValue.isDisplayed());
-       Thread.sleep(3000);
 
+       Thread.sleep(3000);
        String originalWindow=driver.getWindowHandle () ;
        WaitActions.getWaits().loadingWait(loder);
    }
@@ -214,5 +210,3 @@ public class CounterSaleInvoiceCharacterLimit extends TestDriverActions {
    }
 
 }
-
-

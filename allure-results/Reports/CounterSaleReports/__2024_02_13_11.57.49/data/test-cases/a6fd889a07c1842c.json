@@ -1,0 +1,125 @@
+{
+  "uid" : "a6fd889a07c1842c",
+  "name" : "Test_003  verify on invoice  ",
+  "fullName" : "tests.parts.CounterSaleInvoiceCharacterLimit.Test_003_verifyInvoice",
+  "historyId" : "7bdbad12d8fb1b756e9c4a347b8a793e",
+  "time" : {
+    "start" : 1707805503778,
+    "stop" : 1707805559697,
+    "duration" : 55919
+  },
+  "description" : "Test Description : verify on invoice ",
+  "descriptionHtml" : "<p>Test Description : verify on invoice</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1707805403043,
+      "stop" : 1707805440072,
+      "duration" : 37029
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description : verify on invoice ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ee93c5e18e522741",
+      "name" : "Page Screenshot",
+      "source" : "ee93c5e18e522741.png",
+      "type" : "image/png",
+      "size" : 87222
+    }, {
+      "uid" : "c9f0ead8a07875db",
+      "name" : "Page Screenshot",
+      "source" : "c9f0ead8a07875db.png",
+      "type" : "image/png",
+      "size" : 76018
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707805559698,
+      "stop" : 1707805559762,
+      "duration" : 64
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "638152b2ce0d30bf",
+      "name" : "Page Screenshot",
+      "source" : "638152b2ce0d30bf.png",
+      "type" : "image/png",
+      "size" : 76088
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_003_verifyInvoice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "14080@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6fd889a07c1842c.json",
+  "parameterValues" : [ ]
+}

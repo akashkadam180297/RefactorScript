@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-9",
+    "children" : [ {
+      "name" : "17428@PC-9.main(1)",
+      "children" : [ {
+        "name" : "Test_004  verify on invoice  ",
+        "uid" : "80f66a33548add54",
+        "parentUid" : "3dd5dd037af830194f90bdf7f662a860",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707806119816,
+          "stop" : 1707806132065,
+          "duration" : 12249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005 click on Reprint",
+        "uid" : "daf77704224e23ba",
+        "parentUid" : "3dd5dd037af830194f90bdf7f662a860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707806132157,
+          "stop" : 1707806197716,
+          "duration" : 65559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_003  verify on invoice  ",
+        "uid" : "f3f55e523f24bef1",
+        "parentUid" : "3dd5dd037af830194f90bdf7f662a860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707806063844,
+          "stop" : 1707806119738,
+          "duration" : 55894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_001 Login the page and Go to counterSaleManager",
+        "uid" : "4dc32668ea96b7ac",
+        "parentUid" : "3dd5dd037af830194f90bdf7f662a860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707805999680,
+          "stop" : 1707806043441,
+          "duration" : 43761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_002 click on History Tab ",
+        "uid" : "f374b08551c1e9a",
+        "parentUid" : "3dd5dd037af830194f90bdf7f662a860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707806043600,
+          "stop" : 1707806063758,
+          "duration" : 20158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3dd5dd037af830194f90bdf7f662a860"
+    } ],
+    "uid" : "2215092bebd5f8b7a7a78f4cc7ca416f"
+  } ]
+}

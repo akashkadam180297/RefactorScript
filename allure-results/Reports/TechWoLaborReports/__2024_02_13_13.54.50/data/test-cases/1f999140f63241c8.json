@@ -1,0 +1,146 @@
+{
+  "uid" : "1f999140f63241c8",
+  "name" : "T_006 Enter Aerodynamic Device and click on Image",
+  "fullName" : "tests.tech.TechWoLabor.enter_AeroDynamic_ClickIMG",
+  "historyId" : "3d415d0db09a8ffa441195210d50e5ee",
+  "time" : {
+    "start" : 1707812292160,
+    "stop" : 1707812335081,
+    "duration" : 42921
+  },
+  "description" : "Test Description : Enter Aerodynamic Device and click on Image",
+  "descriptionHtml" : "<p>Test Description : Enter Aerodynamic Device and click on Image</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1707811953607,
+      "stop" : 1707811992492,
+      "duration" : 38885
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description : Enter Aerodynamic Device and click on Image",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fe07d40eeb8529f1",
+      "name" : "Page Screenshot",
+      "source" : "fe07d40eeb8529f1.png",
+      "type" : "image/png",
+      "size" : 81479
+    }, {
+      "uid" : "6ea9db9d0d3b6fa1",
+      "name" : "Page Screenshot",
+      "source" : "6ea9db9d0d3b6fa1.png",
+      "type" : "image/png",
+      "size" : 75086
+    }, {
+      "uid" : "6cdebdc4cebaa938",
+      "name" : "Page Screenshot",
+      "source" : "6cdebdc4cebaa938.png",
+      "type" : "image/png",
+      "size" : 82301
+    }, {
+      "uid" : "37b5d29b2415494",
+      "name" : "Page Screenshot",
+      "source" : "37b5d29b2415494.png",
+      "type" : "image/png",
+      "size" : 83672
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707812335082,
+      "stop" : 1707812335137,
+      "duration" : 55
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2dc623912dbe1ba7",
+      "name" : "Page Screenshot",
+      "source" : "2dc623912dbe1ba7.png",
+      "type" : "image/png",
+      "size" : 76934
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "enter_AeroDynamic_ClickIMG"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "5412@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c1944e8d9a40aa10",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@id,':cilvmrsys')]//img\"}\n  (Session info: chrome=121.0.6167.161)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [15f40e7f1de93012208db174673bf9c9, findElement {using=xpath, value=//a[contains(@id,':cilvmrsys')]//img}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62999/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 15f40e7f1de93012208db174673bf9c9",
+      "time" : {
+        "start" : 1707811083911,
+        "stop" : 1707811258755,
+        "duration" : 174844
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f999140f63241c8.json",
+  "parameterValues" : [ ]
+}

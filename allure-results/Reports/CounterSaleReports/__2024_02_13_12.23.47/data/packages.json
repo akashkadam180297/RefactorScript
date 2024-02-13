@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.CounterSaleInvoiceCharacterLimit",
+    "children" : [ {
+      "name" : "Test_001_goto_countersaleManager_screen",
+      "uid" : "6eeb50ee43342b02",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707806990322,
+        "stop" : 1707807041224,
+        "duration" : 50902
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickonHistory",
+      "uid" : "6fb9e6fe659dec0",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707807041362,
+        "stop" : 1707807061512,
+        "duration" : 20150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_verifyInvoice",
+      "uid" : "317ffcdcb6f7f792",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707807061592,
+        "stop" : 1707807117432,
+        "duration" : 55840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_verifyCountersale",
+      "uid" : "be43f4aedb2a35e3",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707807117478,
+        "stop" : 1707807161251,
+        "duration" : 43773
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_clickOnReprint",
+      "uid" : "39fa26fd83c6a546",
+      "parentUid" : "6c712bb03435b792a3d6b3aad65bf62f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1707807161318,
+        "stop" : 1707807226957,
+        "duration" : 65639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  } ]
+}

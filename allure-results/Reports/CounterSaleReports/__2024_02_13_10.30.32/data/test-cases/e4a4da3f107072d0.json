@@ -1,0 +1,125 @@
+{
+  "uid" : "e4a4da3f107072d0",
+  "name" : "Test_001 Login the page and Go to counterSaleManager",
+  "fullName" : "tests.parts.CounterSaleInvoiceCharacterLimit.Test_001_goto_countersaleManager_screen",
+  "historyId" : "52098555eea27ddf9b48b0e5b384631a",
+  "time" : {
+    "start" : 1707800198879,
+    "stop" : 1707800243984,
+    "duration" : 45105
+  },
+  "description" : "Test Description : Login the page and Go to counterSaleManager",
+  "descriptionHtml" : "<p>Test Description : Login the page and Go to counterSaleManager</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1707800162273,
+      "stop" : 1707800198860,
+      "duration" : 36587
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description : Login the page and Go to counterSaleManager",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6ea8bddb2827fa9a",
+      "name" : "Page Screenshot",
+      "source" : "6ea8bddb2827fa9a.png",
+      "type" : "image/png",
+      "size" : 96869
+    }, {
+      "uid" : "bf618badfa53e59c",
+      "name" : "Page Screenshot",
+      "source" : "bf618badfa53e59c.png",
+      "type" : "image/png",
+      "size" : 129094
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707800244074,
+      "stop" : 1707800244131,
+      "duration" : 57
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "226349dbe24ccc4a",
+      "name" : "Page Screenshot",
+      "source" : "226349dbe24ccc4a.png",
+      "type" : "image/png",
+      "size" : 129094
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_goto_countersaleManager_screen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "12048@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4a4da3f107072d0.json",
+  "parameterValues" : [ ]
+}

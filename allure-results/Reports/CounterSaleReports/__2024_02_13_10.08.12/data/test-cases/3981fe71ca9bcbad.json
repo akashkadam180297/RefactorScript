@@ -1,0 +1,119 @@
+{
+  "uid" : "3981fe71ca9bcbad",
+  "name" : "Test_005 click on Reprint",
+  "fullName" : "tests.parts.CounterSaleInvoiceCharacterLimit.Test_005_clickOnReprint",
+  "historyId" : "3c66b3ae425bb3591b667e1e4745252e",
+  "time" : {
+    "start" : 1707799026382,
+    "stop" : 1707799091961,
+    "duration" : 65579
+  },
+  "description" : "Test Description : click on Reprint ",
+  "descriptionHtml" : "<p>Test Description : click on Reprint</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1707798826747,
+      "stop" : 1707798864166,
+      "duration" : 37419
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description : click on Reprint ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "37aa6b5a9e683295",
+      "name" : "Page Screenshot",
+      "source" : "37aa6b5a9e683295.png",
+      "type" : "image/png",
+      "size" : 92767
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707799091982,
+      "stop" : 1707799092049,
+      "duration" : 67
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5973cbc6303c6b3b",
+      "name" : "Page Screenshot",
+      "source" : "5973cbc6303c6b3b.png",
+      "type" : "image/png",
+      "size" : 12595
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_005_clickOnReprint"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSaleInvoiceCharacterLimit"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "8432@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3981fe71ca9bcbad.json",
+  "parameterValues" : [ ]
+}
