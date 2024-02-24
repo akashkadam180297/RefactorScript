@@ -1,0 +1,113 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.administration.TransitonedPaccar",
+    "children" : [ {
+      "name" : "Test_001_gotoStandardCodesScrren",
+      "uid" : "2a9e8ece1c8d3e51",
+      "parentUid" : "06fdc8e11db32e8043abfc6e48752220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708594861857,
+        "stop" : 1708594904837,
+        "duration" : 42980
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickonEquipment",
+      "uid" : "e012a90610ab5de2",
+      "parentUid" : "06fdc8e11db32e8043abfc6e48752220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708594905245,
+        "stop" : 1708594945977,
+        "duration" : 40732
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_verifyNewOnPartPosition",
+      "uid" : "623fd4fb82329fc5",
+      "parentUid" : "06fdc8e11db32e8043abfc6e48752220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708594946142,
+        "stop" : 1708594983179,
+        "duration" : 37037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_goToCompleteROScreen",
+      "uid" : "3c90775394b5d840",
+      "parentUid" : "06fdc8e11db32e8043abfc6e48752220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708594983300,
+        "stop" : 1708595030625,
+        "duration" : 47325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_clickOnReferece",
+      "uid" : "913d43a67564dd7f",
+      "parentUid" : "06fdc8e11db32e8043abfc6e48752220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708595030795,
+        "stop" : 1708595075834,
+        "duration" : 45039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_verifyPart",
+      "uid" : "62053d14335a6f9c",
+      "parentUid" : "06fdc8e11db32e8043abfc6e48752220",
+      "status" : "broken",
+      "time" : {
+        "start" : 1708595076022,
+        "stop" : 1708595183687,
+        "duration" : 107665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_007_verifyPartFailureRequired",
+      "uid" : "e4f08ca14bb046d8",
+      "parentUid" : "06fdc8e11db32e8043abfc6e48752220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708595184060,
+        "stop" : 1708595212908,
+        "duration" : 28848
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_009_vifyTotalCharge",
+      "uid" : "4c14129d0b8894c3",
+      "parentUid" : "06fdc8e11db32e8043abfc6e48752220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708595213066,
+        "stop" : 1708595263600,
+        "duration" : 50534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.administration.TransitonedPaccar"
+  } ]
+}

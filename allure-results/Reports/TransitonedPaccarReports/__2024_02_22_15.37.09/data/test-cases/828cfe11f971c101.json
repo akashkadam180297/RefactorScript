@@ -1,0 +1,102 @@
+{
+  "uid" : "828cfe11f971c101",
+  "name" : "Test_007_verify Part Failure Required",
+  "fullName" : "tests.administration.TransitonedPaccar.Test_007_verifyPartFailureRequired",
+  "historyId" : "b823c1edde60137b2baaaf5337b71941",
+  "time" : {
+    "start" : 1708596349263,
+    "stop" : 1708596378094,
+    "duration" : 28831
+  },
+  "description" : "Test Description: verify Part Failure Required",
+  "descriptionHtml" : "<p>Test Description: verify Part Failure Required</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1708596048352,
+      "stop" : 1708596097286,
+      "duration" : 48934
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1708596378098,
+      "stop" : 1708596378541,
+      "duration" : 443
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "83389572bc9d1a18",
+      "name" : "Page Screenshot",
+      "source" : "83389572bc9d1a18.png",
+      "type" : "image/png",
+      "size" : 134136
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.TransitonedPaccar"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.TransitonedPaccar"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_007_verifyPartFailureRequired"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.TransitonedPaccar"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17948@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "828cfe11f971c101.json",
+  "parameterValues" : [ ]
+}

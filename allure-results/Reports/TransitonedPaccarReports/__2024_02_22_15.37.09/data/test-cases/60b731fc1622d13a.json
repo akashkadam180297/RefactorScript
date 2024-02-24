@@ -1,0 +1,102 @@
+{
+  "uid" : "60b731fc1622d13a",
+  "name" : "Test_006_verify Part",
+  "fullName" : "tests.administration.TransitonedPaccar.Test_006_verifyPart",
+  "historyId" : "7a57c98bd8adc65e8693318d4171c151",
+  "time" : {
+    "start" : 1708596319953,
+    "stop" : 1708596348811,
+    "duration" : 28858
+  },
+  "description" : "Test Description: verify Part",
+  "descriptionHtml" : "<p>Test Description: verify Part</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1708596048352,
+      "stop" : 1708596097286,
+      "duration" : 48934
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1708596348815,
+      "stop" : 1708596349258,
+      "duration" : 443
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c8a047a0b946b4b",
+      "name" : "Page Screenshot",
+      "source" : "c8a047a0b946b4b.png",
+      "type" : "image/png",
+      "size" : 134136
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.TransitonedPaccar"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.TransitonedPaccar"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_006_verifyPart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.TransitonedPaccar"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17948@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60b731fc1622d13a.json",
+  "parameterValues" : [ ]
+}

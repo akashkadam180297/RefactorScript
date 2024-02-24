@@ -91,10 +91,11 @@ public class TestDriverActions {
     public JournalizePartsInvoice_konaEU journalizepartinvoice;
     public SubmitAnEstimateServiceManager submitanestimateservicemanager;
     public IssuePartToTech issueparttotech;
+    public Add_a_fabricatedpart_to_a_closed_workorder addafabricatedparttoaclosedworkorder;
 
-    public CounterSaleInvoiceCharacterLimit countersaleinvoicecharacterlimit;
+     public CounterSaleInvoiceCharacterLimit  countersaleinvoicecharacterlimit;
 
-     public Add_a_fabricatedpart_to_a_closed_workorder addafabricatedparttoaclosedworkorder;
+
     LoginActions loginActions;
 
 
@@ -292,9 +293,8 @@ public class TestDriverActions {
         receivepart = PageFactory.initElements(driver, ReceivePart.class);
         submitanestimateservicemanager = PageFactory.initElements(driver,SubmitAnEstimateServiceManager.class);
         issueparttotech=PageFactory.initElements(driver,IssuePartToTech.class);
-        countersaleinvoicecharacterlimit=PageFactory.initElements(driver,CounterSaleInvoiceCharacterLimit.class);
         addafabricatedparttoaclosedworkorder=PageFactory.initElements(driver,Add_a_fabricatedpart_to_a_closed_workorder.class);
-
+        countersaleinvoicecharacterlimit=PageFactory.initElements(driver,CounterSaleInvoiceCharacterLimit.class);
 
         loginPage.selectCountryFromDropDown();
 
@@ -481,12 +481,13 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("IssuePartToTech")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/IssuePartToTechReports/" + "__" + currentDateTime;
         }
-        else if (getClass().getCanonicalName().contains("CounterSaleInvoiceCharacterLimit")) {
-            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CounterSaleInvoiceCharacterLimitReports/" + "__" + currentDateTime;
-        }
         else if (getClass().getCanonicalName().contains("Addafabricatedparttoaclosedworkorder")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/AddafabricatedparttoaclosedworkorderReports/" + "__" + currentDateTime;
         }
+        else if (getClass().getCanonicalName().contains("CounterSaleInvoiceCharacterLimit")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/CounterSaleInvoiceCharacterLimitReports/" + "__" + currentDateTime;
+        }
+
 
 
 
@@ -616,11 +617,11 @@ public class TestDriverActions {
             else if (getClass().getCanonicalName().contains("IssuePartToTech ")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\IssuePartToTechReports\\" + theDir.getName();
             }
+            else if (getClass().getCanonicalName().contains("Addafabricatedparttoaclosedworkorder")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\AddafabricatedparttoaclosedworkorderReports\\" + theDir.getName();
+            }
             else if (getClass().getCanonicalName().contains("CounterSaleInvoiceCharacterLimit")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\CounterSaleInvoiceCharacterLimitReports\\" + theDir.getName();
-            }
-            else if (getClass().getCanonicalName().contains("Add_a_fabricatedpart_to_a_closed_workorder")) {
-                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\Add_a_fabricatedpart_to_a_closed_workorderReports\\" + theDir.getName();
             }
 
 

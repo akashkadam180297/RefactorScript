@@ -1,0 +1,415 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder",
+        "children" : [ {
+          "name" : "Test_003_type Search Text Area",
+          "uid" : "3bcaf67cee894e6c",
+          "parentUid" : "631a2080b73575891747d896cf86be2b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1707817498671,
+            "stop" : 1707817656633,
+            "duration" : 157962
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004_click on Add Part",
+          "uid" : "afa3ce0a6f9df2ed",
+          "parentUid" : "631a2080b73575891747d896cf86be2b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707817656771,
+            "stop" : 1707817813363,
+            "duration" : 156592
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005_click on part Text Area",
+          "uid" : "c2266ed710a0ed79",
+          "parentUid" : "631a2080b73575891747d896cf86be2b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707817813514,
+            "stop" : 1707818017750,
+            "duration" : 204236
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "generateAllure",
+          "uid" : "65a40f60bed2de92",
+          "parentUid" : "631a2080b73575891747d896cf86be2b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1707818017832,
+            "stop" : 1707818017832,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Login the page and Go to CompleteRo Screen",
+          "uid" : "33ac68578dc09f46",
+          "parentUid" : "631a2080b73575891747d896cf86be2b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707818279858,
+            "stop" : 1707818324087,
+            "duration" : 44229
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002_click On New RO",
+          "uid" : "2954a922b405dfdf",
+          "parentUid" : "631a2080b73575891747d896cf86be2b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1707818324261,
+            "stop" : 1707818486382,
+            "duration" : 162121
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "631a2080b73575891747d896cf86be2b"
+      }, {
+        "name" : "tests.tech.TechWoLabor",
+        "children" : [ {
+          "name" : "initialization",
+          "uid" : "4cdf5f9d248b3735",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "broken",
+          "time" : {
+            "start" : 1708345292246,
+            "stop" : 1708345292250,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_001 Login the page and Go to the Tech Ro",
+          "uid" : "19089db6d1e0eb0b",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708345292520,
+            "stop" : 1708345292524,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_002 Verify the Element and Enter the Unit Number",
+          "uid" : "3f5fa4dff767f4a3",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708345292654,
+            "stop" : 1708345292654,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_003 Verify the element and click on Unit History",
+          "uid" : "794d7430a31b8025",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708345292670,
+            "stop" : 1708345292671,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_004 Click on Labour,MoreWork and VMRS tab",
+          "uid" : "d42b35fe15c43fc6",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708345292690,
+            "stop" : 1708345292690,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_005 Enter AderoDynamic Device in search field",
+          "uid" : "9d9214dfcc1ac1de",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708345292707,
+            "stop" : 1708345292708,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_006 Enter Aerodynamic Device and click on Image",
+          "uid" : "ecd13825b080bbcf",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708345292725,
+            "stop" : 1708345292725,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_007 Check that add AeroDynamic Device and Delete it from Labour section",
+          "uid" : "4f518f295345f00b",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708345292753,
+            "stop" : 1708345292754,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_008 Check that again add Aerodynamic Device ",
+          "uid" : "793ab58d2464b180",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708345292791,
+            "stop" : 1708345292792,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_009 Enter Accessories Group Image",
+          "uid" : "8cc939c83273913e",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708345292830,
+            "stop" : 1708345292831,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "T_010 Click on Select Button and Again start from Aerodynamic Device ",
+          "uid" : "7b4289dfc38a46da",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708345292859,
+            "stop" : 1708345292860,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "afterMethodTakeScreenShot",
+          "uid" : "1578fa9aa7821db1",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "broken",
+          "time" : {
+            "start" : 1708345292877,
+            "stop" : 1708345292877,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "generateAllure",
+          "uid" : "323c41fae1e4f29",
+          "parentUid" : "97052421c7fba162099bdca9091aaa93",
+          "status" : "broken",
+          "time" : {
+            "start" : 1708345322198,
+            "stop" : 1708345322199,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "97052421c7fba162099bdca9091aaa93"
+      }, {
+        "name" : "tests.administration.TransitonedPaccar",
+        "children" : [ {
+          "name" : "generateAllure",
+          "uid" : "4c0051b81f26cf85",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "broken",
+          "time" : {
+            "start" : 1708588261726,
+            "stop" : 1708588261726,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "initialization",
+          "uid" : "7c673ef97a768bed",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "broken",
+          "time" : {
+            "start" : 1708588987503,
+            "stop" : 1708588987506,
+            "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Login the page and Go to Standard Codes Screen",
+          "uid" : "2eab7b7b8307db61",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708588987825,
+            "stop" : 1708588987829,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002_click on Equipment ",
+          "uid" : "8a4655df1cacf9a0",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708588987978,
+            "stop" : 1708588987979,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003_verify New On Part Position  ",
+          "uid" : "a58ef7142d1dc237",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708588987997,
+            "stop" : 1708588987997,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004_go To Complete RO Screen",
+          "uid" : "da4d2d6930fb7216",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708588988036,
+            "stop" : 1708588988036,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005_click On Referece",
+          "uid" : "c1debd847066038b",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708588988068,
+            "stop" : 1708588988068,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_006_verify Part",
+          "uid" : "8cce8594bd65a93a",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708588988100,
+            "stop" : 1708588988100,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_007_verify Part Failure Required",
+          "uid" : "585a458bcab77351",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708588988136,
+            "stop" : 1708588988136,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_009_verify Part Failure Required",
+          "uid" : "75e01549560de1c1",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1708588988155,
+            "stop" : 1708588988155,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "afterMethodTakeScreenShot",
+          "uid" : "7a045ac30ecafdf6",
+          "parentUid" : "1bd5c6b874090a7c22b122782ee6f8ce",
+          "status" : "broken",
+          "time" : {
+            "start" : 1708588988175,
+            "stop" : 1708588988176,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1bd5c6b874090a7c22b122782ee6f8ce"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

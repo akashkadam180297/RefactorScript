@@ -3,19 +3,7 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test">
     <classes>
-      <class name="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder"/>
+      <class name="tests.parts.CounterSale"/>
     </classes>
   </test> <!-- Surefire test -->
-  <test name="Surefire test(failed)">
-    <classes>
-      <class name="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder">
-        <methods>
-          <include name="generateAllure"/>
-          <include name="afterMethodTakeScreenShot"/>
-          <include name="Test_003_typeSearchTextArea"/>
-          <include name="initialization"/>
-        </methods>
-      </class> <!-- tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder -->
-    </classes>
-  </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

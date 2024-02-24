@@ -1,177 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="5" passed="4" failed="1" skipped="0">
+<testng-results total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-13T09:40:44Z" name="Surefire suite" finished-at="2024-02-13T09:53:37Z" duration-ms="773619">
+  <suite started-at="2024-02-23T05:16:18Z" name="Surefire suite" finished-at="2024-02-23T05:31:23Z" duration-ms="905174">
     <groups>
     </groups>
-    <test started-at="2024-02-13T09:40:44Z" name="Surefire test" finished-at="2024-02-13T09:53:37Z" duration-ms="773619">
-      <class name="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:10:44Z" name="initialization" finished-at="2024-02-13T15:11:23Z" duration-ms="39147" status="PASS">
+    <test started-at="2024-02-23T05:16:18Z" name="Surefire test" finished-at="2024-02-23T05:31:23Z" duration-ms="905174">
+      <class name="tests.parts.CounterSale">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:46:18Z" name="initialization" finished-at="2024-02-23T10:47:09Z" duration-ms="51173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="Test_001_gotoCompleteRo()[pri:0, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:11:23Z" name="Test_001_gotoCompleteRo" description="Test_001_Login the page and Go to CompleteRo Screen" finished-at="2024-02-13T15:12:12Z" duration-ms="49305" status="PASS">
+        <test-method signature="goto_countersaleManager_screen()[pri:0, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:47:09Z" name="goto_countersaleManager_screen" description="Test_001 Login the page and Go to counterSaleManager" finished-at="2024-02-23T10:47:59Z" duration-ms="49601" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_001_gotoCompleteRo -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:12:12Z" name="afterMethodTakeScreenShot" finished-at="2024-02-13T15:12:12Z" duration-ms="97" status="PASS">
+        </test-method> <!-- goto_countersaleManager_screen -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:47:59Z" name="afterMethodTakeScreenShot" finished-at="2024-02-23T10:47:59Z" duration-ms="246" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_001_gotoCompleteRo status=SUCCESS method=Addafabricatedparttoaclosedworkorder.Test_001_gotoCompleteRo()[pri:0, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13] output={null}]]]>
+                <![CDATA[[TestResult name=goto_countersaleManager_screen status=SUCCESS method=CounterSale.goto_countersaleManager_screen()[pri:0, instance:tests.parts.CounterSale@5d05ef57] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_002_clickoNewRo()[pri:1, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:12:12Z" name="Test_002_clickoNewRo" description="Test_002_click On New RO" finished-at="2024-02-13T15:14:58Z" duration-ms="165680" status="PASS">
+        <test-method signature="verify_all_fields()[pri:1, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:47:59Z" name="verify_all_fields" description="Test_002 verify all the elements in the field" finished-at="2024-02-23T10:48:14Z" duration-ms="14632" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_002_clickoNewRo -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:14:58Z" name="afterMethodTakeScreenShot" finished-at="2024-02-13T15:14:58Z" duration-ms="116" status="PASS">
+        </test-method> <!-- verify_all_fields -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:48:14Z" name="afterMethodTakeScreenShot" finished-at="2024-02-23T10:48:14Z" duration-ms="160" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_002_clickoNewRo status=SUCCESS method=Addafabricatedparttoaclosedworkorder.Test_002_clickoNewRo()[pri:1, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13] output={null}]]]>
+                <![CDATA[[TestResult name=verify_all_fields status=SUCCESS method=CounterSale.verify_all_fields()[pri:1, instance:tests.parts.CounterSale@5d05ef57] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_003_typeSearchTextArea()[pri:2, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:14:58Z" name="Test_003_typeSearchTextArea" description="Test_003_type Search Text Area" finished-at="2024-02-13T15:17:36Z" duration-ms="157955" status="FAIL">
-          <exception class="java.lang.IndexOutOfBoundsException">
-            <message>
-              <![CDATA[Index 2 out of bounds for length 2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:372)
-	at java.base/java.util.ArrayList.get(ArrayList.java:459)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
-	at com.sun.proxy.$Proxy19.get(Unknown Source)
-	at pages.Partsrelateditems.Add_a_fabricatedpart_to_a_closed_workorder.clickOnAddLabour2(Add_a_fabricatedpart_to_a_closed_workorder.java:395)
-	at tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder.Test_003_typeSearchTextArea(Addafabricatedparttoaclosedworkorder.java:34)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+        <test-method signature="add_new_counter_sale()[pri:2, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:48:14Z" name="add_new_counter_sale" description="Test_003 click on add new counter sale" finished-at="2024-02-23T10:49:55Z" duration-ms="100466" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_003_typeSearchTextArea -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:17:36Z" name="afterMethodTakeScreenShot" finished-at="2024-02-13T15:17:36Z" duration-ms="134" status="PASS">
+        </test-method> <!-- add_new_counter_sale -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:49:55Z" name="afterMethodTakeScreenShot" finished-at="2024-02-23T10:49:55Z" duration-ms="231" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_003_typeSearchTextArea status=FAILURE method=Addafabricatedparttoaclosedworkorder.Test_003_typeSearchTextArea()[pri:2, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13] output={null}]]]>
+                <![CDATA[[TestResult name=add_new_counter_sale status=SUCCESS method=CounterSale.add_new_counter_sale()[pri:2, instance:tests.parts.CounterSale@5d05ef57] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_004_clickonAddPart()[pri:3, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:17:36Z" name="Test_004_clickonAddPart" description="Test_004_click on Add Part" finished-at="2024-02-13T15:20:13Z" duration-ms="156594" status="PASS">
+        <test-method signature="verify_location_popUp()[pri:3, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:49:55Z" name="verify_location_popUp" description="Test_004 verify location pop up" finished-at="2024-02-23T10:51:31Z" duration-ms="96212" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_004_clickonAddPart -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:20:13Z" name="afterMethodTakeScreenShot" finished-at="2024-02-13T15:20:13Z" duration-ms="148" status="PASS">
+        </test-method> <!-- verify_location_popUp -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:51:32Z" name="afterMethodTakeScreenShot" finished-at="2024-02-23T10:51:32Z" duration-ms="146" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_004_clickonAddPart status=SUCCESS method=Addafabricatedparttoaclosedworkorder.Test_004_clickonAddPart()[pri:3, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13] output={null}]]]>
+                <![CDATA[[TestResult name=verify_location_popUp status=SUCCESS method=CounterSale.verify_location_popUp()[pri:3, instance:tests.parts.CounterSale@5d05ef57] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method signature="Test_005_clickonPartTextArea()[pri:4, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:20:13Z" name="Test_005_clickonPartTextArea" description="Test_005_click on part Text Area" finished-at="2024-02-13T15:23:37Z" duration-ms="204239" status="PASS">
+        <test-method signature="verify_counter_sale_page()[pri:4, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:51:32Z" name="verify_counter_sale_page" description="Test_005 verify counter sale page" finished-at="2024-02-23T10:52:06Z" duration-ms="34156" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_005_clickonPartTextArea -->
-        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:23:37Z" name="afterMethodTakeScreenShot" finished-at="2024-02-13T15:23:37Z" duration-ms="51" status="PASS">
+        </test-method> <!-- verify_counter_sale_page -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:52:06Z" name="afterMethodTakeScreenShot" finished-at="2024-02-23T10:52:06Z" duration-ms="154" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_005_clickonPartTextArea status=SUCCESS method=Addafabricatedparttoaclosedworkorder.Test_005_clickonPartTextArea()[pri:4, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13] output={null}]]]>
+                <![CDATA[[TestResult name=verify_counter_sale_page status=SUCCESS method=CounterSale.verify_counter_sale_page()[pri:4, instance:tests.parts.CounterSale@5d05ef57] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTakeScreenShot -->
-        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder@677b8e13]" started-at="2024-02-13T15:23:37Z" name="generateAllure" finished-at="2024-02-13T15:23:37Z" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at java.base/java.lang.Runtime.exec(Runtime.java:406)
-	at java.base/java.lang.Runtime.exec(Runtime.java:310)
-	at tests.TestDriverActions.generateAllure(TestDriverActions.java:630)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="add_parts_in_counter_sale()[pri:5, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:52:06Z" name="add_parts_in_counter_sale" description="Test_006 add part number and core part in counter sale" finished-at="2024-02-23T10:55:53Z" duration-ms="226394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_parts_in_counter_sale -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:55:53Z" name="afterMethodTakeScreenShot" finished-at="2024-02-23T10:55:53Z" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=add_parts_in_counter_sale status=SUCCESS method=CounterSale.add_parts_in_counter_sale()[pri:5, instance:tests.parts.CounterSale@5d05ef57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method signature="check_invoice_and_signout()[pri:6, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T10:55:53Z" name="check_invoice_and_signout" description="Test_007 check invoice and signout" finished-at="2024-02-23T11:01:22Z" duration-ms="329471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_invoice_and_signout -->
+        <test-method is-config="true" signature="afterMethodTakeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T11:01:23Z" name="afterMethodTakeScreenShot" finished-at="2024-02-23T11:01:23Z" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_invoice_and_signout status=SUCCESS method=CounterSale.check_invoice_and_signout()[pri:6, instance:tests.parts.CounterSale@5d05ef57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTakeScreenShot -->
+        <test-method is-config="true" signature="generateAllure()[pri:0, instance:tests.parts.CounterSale@5d05ef57]" started-at="2024-02-23T11:01:23Z" name="generateAllure" finished-at="2024-02-23T11:01:51Z" duration-ms="27457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateAllure -->
-      </class> <!-- tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder -->
+      </class> <!-- tests.parts.CounterSale -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

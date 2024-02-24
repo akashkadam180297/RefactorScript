@@ -257,7 +257,6 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddButton);
         Thread.sleep(2000);
         WebElementActions.getActions().clickElement(label_AddButton);
-        Thread.sleep(3000);
         WaitActions.getWaits().loadingWait(loder);
 
     }
@@ -265,7 +264,6 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AddLabor);
         WebElementActions.getActions().clickElement(label_AddLabor);
-         WaitActions.getWaits().loadingWait(loder);
 
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_VMRS);
@@ -875,8 +873,9 @@ public class DAFServiceManagerPartsRelatedTasks extends TestDriverActions {
     }
     /**click on UserName */
     public void clickOnUsername () throws InterruptedException {
+
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_UserName);
-        WebElementActions.getActions().clickElement(label_UserName);
+        Assert.assertTrue(label_UserName.isDisplayed());
 
     }
 }

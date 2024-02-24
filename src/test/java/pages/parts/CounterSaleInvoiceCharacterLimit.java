@@ -53,7 +53,7 @@ public class CounterSaleInvoiceCharacterLimit extends TestDriverActions {
 
 
     @FindBy(xpath = "(//label[text()='Location:']/parent::td/following-sibling::td)[2]")
-    WebElement LocationValue;
+   WebElement LocationValue;
 
     @FindBy(xpath = "//label[text()='Sale#:']")
     WebElement SaleHash;
@@ -154,8 +154,11 @@ public class CounterSaleInvoiceCharacterLimit extends TestDriverActions {
        Assert.assertTrue(Location2.isDisplayed());
 
        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(LocationValue);
+       Assert.assertTrue(LocationValue.isDisplayed());
+       System.out.println("Location :"+LocationValue.getText());
 
-           TestListener.saveScreenshotPNG(driver);
+
+       TestListener.saveScreenshotPNG(driver);
 
        }
 
@@ -166,6 +169,8 @@ public class CounterSaleInvoiceCharacterLimit extends TestDriverActions {
 
        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SaleHash2);
        Assert.assertTrue(SaleHash2.isDisplayed());
+
+       System.out.println("SaleNumber:"+SaleHash2.getText());
 
        String originalWindow=driver.getWindowHandle () ;
        WaitActions.getWaits().loadingWait(loder);
@@ -182,6 +187,8 @@ public class CounterSaleInvoiceCharacterLimit extends TestDriverActions {
 
        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerValue);
        Assert.assertTrue(CustomerValue.isDisplayed());
+
+       System.out.println("CustomerName:"+CustomerValue.getText());
 
        Thread.sleep(3000);
        String originalWindow=driver.getWindowHandle () ;

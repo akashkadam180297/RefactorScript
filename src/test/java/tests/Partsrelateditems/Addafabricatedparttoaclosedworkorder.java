@@ -22,8 +22,9 @@ public class Addafabricatedparttoaclosedworkorder extends TestDriverActions {
         addafabricatedparttoaclosedworkorder.clickoNewRo();
         addafabricatedparttoaclosedworkorder.typeUnitNumber();
         addafabricatedparttoaclosedworkorder.clickonSelectButton();
-        addafabricatedparttoaclosedworkorder.clickOnAddLabour();
-        addafabricatedparttoaclosedworkorder.clickOnCloseRO();
+         addafabricatedparttoaclosedworkorder.clickOnAddLabour();
+        addafabricatedparttoaclosedworkorder.clickonBackOnCompleteRo();
+        // addafabricatedparttoaclosedworkorder.clickOnCloseRO();
     }
     @Test(priority = 2, description = "Test_003_type Search Text Area")
     @Description("Test Description: type Search Text Area")

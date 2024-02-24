@@ -51,13 +51,20 @@ public class ECServiceManager_Journalize extends TestDriverActions {
     @FindBy(xpath = "(//a[contains(text(),'Financial Manager')])[1]")
     public WebElement txt_FinancialManager;
 
+    @FindBy(xpath = "//input[contains(@id,':sbc2::content')]")
+    WebElement showbatchesErrorsonly;
+
+    @FindBy(xpath = "//span[text()='Refresh']")
+    WebElement Refresh;
+
+
     @FindBy(xpath = "(//span[text()='Reference']/parent::div/parent::th/parent::tr/following::div/table/colgroup/following-sibling::tbody/tr/td[2]/child::span)[1]")
     WebElement RoNmber;
 
     @FindBy(xpath = "(//span[contains(text(),'O0')])[1]")
     public WebElement label_ReferenceNumber;
 
-    @FindBy(xpath = "(//span[contains(.,'GL00')])[2]")
+    @FindBy(xpath = "//span[contains(.,'GL00')]")
     WebElement BatchHash;
 
     @FindBy(xpath = "(//label[contains(text(),'RO#:')]/parent::span/following::div)[1]")
@@ -141,8 +148,20 @@ public class ECServiceManager_Journalize extends TestDriverActions {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(txt_FinancialManager);
         WebElementActions.getActions().clickElement(txt_FinancialManager);
-        TestListener.saveScreenshotPNG(driver);
+        WaitActions.getWaits().loadingWait(loder);
 
+
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(showbatchesErrorsonly);
+        WebElementActions.getActions().clickElement(showbatchesErrorsonly);
+        WaitActions.getWaits().loadingWait(loder);
+
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(Refresh);
+        WebElementActions.getActions().clickElement(Refresh);
+        WaitActions.getWaits().loadingWait(loder);
+
+        TestListener.saveScreenshotPNG(driver);
     }
     /** click On Ro Number  */
     public void clickOnRoNumber() throws InterruptedException {
@@ -166,6 +185,7 @@ public class ECServiceManager_Journalize extends TestDriverActions {
         if (LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(RoNumberText);
             org.testng.Assert.assertTrue(RoNumberText.isDisplayed());
+
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
         }
