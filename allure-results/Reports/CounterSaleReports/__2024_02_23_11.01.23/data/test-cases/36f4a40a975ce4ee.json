@@ -1,0 +1,197 @@
+{
+  "uid" : "36f4a40a975ce4ee",
+  "name" : "Test_007 check invoice and signout",
+  "fullName" : "tests.parts.CounterSale.check_invoice_and_signout",
+  "historyId" : "1d19b9e8d6cc865086767d82fd3d3022",
+  "time" : {
+    "start" : 1708665953555,
+    "stop" : 1708666283344,
+    "duration" : 329789
+  },
+  "description" : "Test Description: check invoice and signout",
+  "descriptionHtml" : "<p>Test Description: check invoice and signout</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1708665378471,
+      "stop" : 1708665429603,
+      "duration" : 51132
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: check invoice and signout",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b89dbe6dc51ad7f",
+      "name" : "Page Screenshot",
+      "source" : "4b89dbe6dc51ad7f.png",
+      "type" : "image/png",
+      "size" : 109121
+    }, {
+      "uid" : "ed3c9b847d49994e",
+      "name" : "Page Screenshot",
+      "source" : "ed3c9b847d49994e.png",
+      "type" : "image/png",
+      "size" : 109378
+    }, {
+      "uid" : "c83f8e349825247e",
+      "name" : "Page Screenshot",
+      "source" : "c83f8e349825247e.png",
+      "type" : "image/png",
+      "size" : 86743
+    }, {
+      "uid" : "f28ec6c5e45138dc",
+      "name" : "Page Screenshot",
+      "source" : "f28ec6c5e45138dc.png",
+      "type" : "image/png",
+      "size" : 86743
+    }, {
+      "uid" : "11526129ad13b35c",
+      "name" : "Page Screenshot",
+      "source" : "11526129ad13b35c.png",
+      "type" : "image/png",
+      "size" : 83542
+    }, {
+      "uid" : "5075f55f27ecedbb",
+      "name" : "Page Screenshot",
+      "source" : "5075f55f27ecedbb.png",
+      "type" : "image/png",
+      "size" : 82031
+    }, {
+      "uid" : "221ffca41bd010b7",
+      "name" : "Page Screenshot",
+      "source" : "221ffca41bd010b7.png",
+      "type" : "image/png",
+      "size" : 82031
+    }, {
+      "uid" : "2fb87bee35619456",
+      "name" : "Page Screenshot",
+      "source" : "2fb87bee35619456.png",
+      "type" : "image/png",
+      "size" : 82031
+    }, {
+      "uid" : "278d952bd1be74d7",
+      "name" : "Page Screenshot",
+      "source" : "278d952bd1be74d7.png",
+      "type" : "image/png",
+      "size" : 82031
+    }, {
+      "uid" : "907353e01fe21105",
+      "name" : "Page Screenshot",
+      "source" : "907353e01fe21105.png",
+      "type" : "image/png",
+      "size" : 87673
+    }, {
+      "uid" : "8175d17eec64dcb3",
+      "name" : "Page Screenshot",
+      "source" : "8175d17eec64dcb3.png",
+      "type" : "image/png",
+      "size" : 86396
+    }, {
+      "uid" : "6c5710b456f8e737",
+      "name" : "Page Screenshot",
+      "source" : "6c5710b456f8e737.png",
+      "type" : "image/png",
+      "size" : 12669
+    }, {
+      "uid" : "caa4d94485cd766f",
+      "name" : "Page Screenshot",
+      "source" : "caa4d94485cd766f.png",
+      "type" : "image/png",
+      "size" : 12654
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1708666283355,
+      "stop" : 1708666283528,
+      "duration" : 173
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6d5be2c0924fedc3",
+      "name" : "Page Screenshot",
+      "source" : "6d5be2c0924fedc3.png",
+      "type" : "image/png",
+      "size" : 12654
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "testMethod",
+    "value" : "check_invoice_and_signout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.parts.CounterSale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "11224@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "CounterSaleManager Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36f4a40a975ce4ee.json",
+  "parameterValues" : [ ]
+}

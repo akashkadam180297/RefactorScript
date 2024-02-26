@@ -61,7 +61,7 @@ public class CounterSale extends TestDriverActions {
         counter.clickOnaddParts();
         counter.addCorePart();
         counter.addQtyAndExpand();
-      // TESTING
+        // TESTING
 
     }
 
@@ -71,6 +71,14 @@ public class CounterSale extends TestDriverActions {
         counter.lostSaleReasonPopup();
         counter.clickOnTaxexhyperlink();
         counter.invoiceNow();
+        counter. verifyInvoice ();
+        counter.clickonInvoiceNo ();
+        counter. verifyCountersale();
+        counter. verifyRequiredLocation ();
+        counter. verifyonsale ();
+        counter.verifyCustomer ();
+        counter. clickOnReprint();
+        counter.verifyinvoiceNumber();
         counter.clickOnSignOut();
     }
 

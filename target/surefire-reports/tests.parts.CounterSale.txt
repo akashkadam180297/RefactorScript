@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.parts.CounterSale
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 726.23 s <<< FAILURE! - in tests.parts.CounterSale
-check_invoice_and_signout(tests.parts.CounterSale)  Time elapsed: 162.864 s  <<< FAILURE!
-java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
-	at tests.parts.CounterSale.check_invoice_and_signout(CounterSale.java:73)
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 935.463 s - in tests.parts.CounterSale

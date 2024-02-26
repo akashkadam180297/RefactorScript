@@ -1,5 +1,6 @@
 package pages.Partsrelateditems;
 
+import actions.LoginActions;
 import actions.ReusableActions;
 import actions.WaitActions;
 import actions.WebElementActions;
@@ -33,6 +34,12 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
 
     @FindBy(xpath = "//img[@title='Accessories Group']")
     public WebElement label_AccessoriesGroup;
+
+    @FindBy(xpath = "(//td[contains(.,'Search:')]/following-sibling::td/child::input)[1]")
+    WebElement SearchTextArea1;
+
+    @FindBy(xpath = "//a[contains(@id,':cilvmrsys')]/img")
+    WebElement Clutch;
 
     @FindBy(xpath = "(//img[contains(@id,':ciAddVmrs::icon')])[1]")
     public WebElement label_Add;
@@ -317,9 +324,18 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_VMRS);
         WebElementActions.getActions().clickElement(label_VMRS);
+        if(LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
+            WebElementActions.getActions().clickElement(label_AccessoriesGroup);
+        }
+        if(LoginActions.environmentName.contains("EC")){
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(SearchTextArea1);
+            WebElementActions.getActions().inputText(SearchTextArea1,appProp.getProperty("Clutch"));
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
-        WebElementActions.getActions().clickElement(label_AccessoriesGroup);
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Clutch);
+            WebElementActions.getActions().clickElement(Clutch);
+
+        }
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Add);
         WebElementActions.getActions().clickElement(label_Add);
@@ -372,9 +388,21 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_VMRS);
         WebElementActions.getActions().clickElement(label_VMRS);
+        WaitActions.getWaits().loadingWait(loder);
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
-        WebElementActions.getActions().clickElement(label_AccessoriesGroup);
+         if(LoginActions.environmentName.contains("EU")) {
+             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
+             WebElementActions.getActions().clickElement(label_AccessoriesGroup);
+         }
+        if(LoginActions.environmentName.contains("EC")){
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(SearchTextArea1);
+            Thread.sleep(3000);
+            WebElementActions.getActions().inputText(SearchTextArea1,appProp.getProperty("Clutch"));
+
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Clutch);
+            WebElementActions.getActions().clickElement(Clutch);
+
+        }
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Add);
         WebElementActions.getActions().clickElement(label_Add);

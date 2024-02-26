@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//label[text()='Part Description:']/parent::span/parent::div//following-sibling::div//span//select)[1] \"}\n  (Session info: chrome=122.0.6261.58)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1a640293c28fcbd48df7747b70cade06, findElement {using=xpath, value=(//label[text()='Part Description:']/parent::span/parent::div//following-sibling::div//span//select)[1] }]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.58, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62134/devtoo..., se:cdpVersion: 122.0.6261.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1a640293c28fcbd48df7747b70cade06",
+      "children" : [ {
+        "name" : "Test_006_verify Part",
+        "uid" : "62053d14335a6f9c",
+        "parentUid" : "8f86a9ba1da4f6c5b1263a19fdd6163c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708595076022,
+          "stop" : 1708595183687,
+          "duration" : 107665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f86a9ba1da4f6c5b1263a19fdd6163c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

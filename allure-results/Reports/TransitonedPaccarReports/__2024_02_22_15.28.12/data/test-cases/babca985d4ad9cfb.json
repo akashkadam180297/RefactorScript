@@ -1,0 +1,102 @@
+{
+  "uid" : "babca985d4ad9cfb",
+  "name" : "Test_007_verify Part Failure Required",
+  "fullName" : "tests.administration.TransitonedPaccar.Test_007_verifyPartFailureRequired",
+  "historyId" : "b823c1edde60137b2baaaf5337b71941",
+  "time" : {
+    "start" : 1708595813725,
+    "stop" : 1708595842584,
+    "duration" : 28859
+  },
+  "description" : "Test Description: verify Part Failure Required",
+  "descriptionHtml" : "<p>Test Description: verify Part Failure Required</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1708595521122,
+      "stop" : 1708595571282,
+      "duration" : 50160
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1708595842587,
+      "stop" : 1708595842721,
+      "duration" : 134
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f6283ff5186df70",
+      "name" : "Page Screenshot",
+      "source" : "3f6283ff5186df70.png",
+      "type" : "image/png",
+      "size" : 94638
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.administration.TransitonedPaccar"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.administration.TransitonedPaccar"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_007_verifyPartFailureRequired"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.administration.TransitonedPaccar"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "1276@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "babca985d4ad9cfb.json",
+  "parameterValues" : [ ]
+}
