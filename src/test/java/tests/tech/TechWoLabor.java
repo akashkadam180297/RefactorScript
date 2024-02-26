@@ -110,7 +110,6 @@ public class TechWoLabor extends TestDriverActions {
     @Test(priority=9, description="T_010 Click on Select Button and Again start from Aerodynamic Device ",enabled = true)
     @Description("Test Description - Click on Select Button and Again start from Aerodynamic Device")
     public void clickOn_SelectButton() throws InterruptedException {
-
         labor.clickOnPlusIcon_LabourDetails();
         labor.clickOnAddButton2();
         labor.clickOnWorkRequired();

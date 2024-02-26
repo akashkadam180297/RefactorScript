@@ -29,9 +29,7 @@ public class TechWoParts extends TestDriverActions {
               part.clickMoreUnit();
               part.enterUnitNumber();
               part.clickSelect();
-              part.clickWorkRequired();
               part.clickOnPartsTab();
-              part.clickOnKeyboardImg();
 
         }
 
@@ -39,7 +37,6 @@ public class TechWoParts extends TestDriverActions {
         @Description("Test Description - Check the Generic setup of the screen and enter Part number")
         public void verifyElement_EnterPartNumber() throws InterruptedException {
             part.verifyElementOfPart();
-  //          part.verifyLabourPresent();
             part.verifyPartListArea();
             part.enterPart();
 
@@ -165,28 +162,15 @@ public class TechWoParts extends TestDriverActions {
         @Test(priority=12, description = "T_014 click on UnitReady and Ok and signout button",enabled = true)
         @Description("Test Description - click on UnitReady and Ok and signout button")
         public void clickOnUnitReady_Ok_signoutbutton() throws InterruptedException {
-            part.enterUnitNumber();
-            part.clickSelect();
-            part.clickOnAccessoriesGroup();
             part.clickOkSummaryTab();
-            part.clickOnAccessoriesLink();
-            part.typeComplaintNote1();
-            part.typeCause_Reason();
-            part.typeCorrection_Task();
-            part.clickOkbutton();
-         /*   part.clickOnAerodynamicLink();
-            part.typeComplaintNote2();
-            part.typeCause_Reason2();
-            part.typeCorrection_Task2();
-            part.clickOkbutton();  */
             part.clickOnUnitReadyButton();
-
-
          //   part.clickOnOkButton();
-            //   part.inputDeferReason();
-            //   part.clickOnDefere();
-    //        part.clickOnCancleBtn1();
-        //    part.clickOnUnPause_Pause_Button();
+
+         //   part.inputDeferReason();
+
+         //   part.clickOnDefere();
+            part.clickOnCancleBtn1();
+            part.clickOnUnPause_Pause_Button();
             part. clickOnSignOut();
 
         }

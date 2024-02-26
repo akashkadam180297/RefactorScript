@@ -1,5 +1,6 @@
 package pages.Partsrelateditems;
 
+import actions.LoginActions;
 import actions.ReusableActions;
 import actions.WaitActions;
 import actions.WebElementActions;
@@ -25,18 +26,20 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
     @FindBy(xpath = "//a[contains(.,'Select')]")
     WebElement Select;
 
-    @FindBy(xpath = "//span[contains(text(),'Back to Complete RO')]")
-      WebElement BacktocompleteRo;
     @FindBy(xpath = "(//span[contains(.,'Add Lab')])[1]")
     public  WebElement label_AddLabor;
-
-
 
     @FindBy(xpath = "(//a[text()='VMRS'])[1]")
     public  WebElement label_VMRS;
 
     @FindBy(xpath = "//img[@title='Accessories Group']")
     public WebElement label_AccessoriesGroup;
+
+    @FindBy(xpath = "(//td[contains(.,'Search:')]/following-sibling::td/child::input)[1]")
+    WebElement SearchTextArea1;
+
+    @FindBy(xpath = "//a[contains(@id,':cilvmrsys')]/img")
+    WebElement Clutch;
 
     @FindBy(xpath = "(//img[contains(@id,':ciAddVmrs::icon')])[1]")
     public WebElement label_Add;
@@ -45,7 +48,7 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
     public WebElement label_AddButton;
 
     @FindBy(xpath = "//div[contains(@id,':0:pgltWAIDX')]//div")
-     WebElement SrNo;
+   WebElement SrNo;
 
     @FindBy(xpath = "//span[contains(text(),'Accessories Group')]/parent::a/following::a[4]/child::img")
     public List <WebElement> img_CrossIcon1;
@@ -92,6 +95,31 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
     @FindBy(xpath = "(//a[contains(text(),'O0')])[1]")
     WebElement label_ReferenceNumber;
 
+    @FindBy(xpath = "//a[contains(.,'Delete Customer Invoice')]")
+    WebElement invoiceDelete;
+
+    @FindBy(xpath = "//span[contains(text(),'This transaction has been journalized in GL000119.')]")
+    WebElement ThisTransation;
+
+    @FindBy(xpath = "(//a[contains(.,'Close')])[2]")
+    WebElement Close;
+
+    @FindBy(xpath = "//a[contains(.,'Back to Complete RO')]/child::span")
+    WebElement BacktocompleteRO;
+
+    @FindBy(xpath = "(//a[contains(text(),'O0')])[2]")
+    WebElement label_ReferenceNumber1;
+
+
+    @FindBy(xpath = "//textarea[contains(@id,':itINotes::content')]")
+    WebElement DeleteCustomerivoice;
+
+    @FindBy(xpath = "(//a[contains(.,'Delete Customer Invoice')])[2]")
+    WebElement DeleteCustomerinvoiceButton;
+
+
+    @FindBy(xpath = "(//label[text()='RO#:']/parent::span/following::div)[1]")
+     WebElement FabricatedParts;
 
     @FindBy(xpath = "(//span[contains(text(),'Total Cost')])[2]")
     WebElement TotalCost;
@@ -296,9 +324,18 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_VMRS);
         WebElementActions.getActions().clickElement(label_VMRS);
+        if(LoginActions.environmentName.contains("EU")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
+            WebElementActions.getActions().clickElement(label_AccessoriesGroup);
+        }
+        if(LoginActions.environmentName.contains("EC")){
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(SearchTextArea1);
+            WebElementActions.getActions().inputText(SearchTextArea1,appProp.getProperty("Clutch"));
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
-        WebElementActions.getActions().clickElement(label_AccessoriesGroup);
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Clutch);
+            WebElementActions.getActions().clickElement(Clutch);
+
+        }
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Add);
         WebElementActions.getActions().clickElement(label_Add);
@@ -312,21 +349,12 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
         WaitActions.getWaits().loadingWait(loder);
 
     }
-
     /**click on close Ro*/
-
-  /*  public void clickOnCloseRO () throws InterruptedException {
+    public void clickOnCloseRO () throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(closeRO);
         WebElementActions.getActions().clickElement(closeRO);
 
-    }
-    */
-    /**click on Back to complete RO*/
-    public void clickonBackOnCompleteRo() throws InterruptedException {
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(BacktocompleteRo);
-        WebElementActions.getActions().clickElement(BacktocompleteRo);
-        WaitActions.getWaits().loadingWait(loder);
     }
     /**click on invoiced*/
     public void clickOnIvoiced () throws InterruptedException {
@@ -334,7 +362,7 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
         WebElementActions.getActions().clickElement(Invoiced);
     }
     /**type Search TextArea */
-   public void typeSearchTextArea () throws InterruptedException {
+    public void typeSearchTextArea () throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(SearchTextArea);
         WebElementActions.getActions().inputText(SearchTextArea,appProp.getProperty("Referance"));
 
@@ -348,7 +376,6 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
     }
     /**click Reference Number */
     public void clickonReferenceNumber () throws InterruptedException {
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_ReferenceNumber);
         WebElementActions.getActions().clickElement(label_ReferenceNumber);
         WaitActions.getWaits().loadingWait(loder);
@@ -361,9 +388,21 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_VMRS);
         WebElementActions.getActions().clickElement(label_VMRS);
+        WaitActions.getWaits().loadingWait(loder);
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
-        WebElementActions.getActions().clickElement(label_AccessoriesGroup);
+         if(LoginActions.environmentName.contains("EU")) {
+             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_AccessoriesGroup);
+             WebElementActions.getActions().clickElement(label_AccessoriesGroup);
+         }
+        if(LoginActions.environmentName.contains("EC")){
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(SearchTextArea1);
+            Thread.sleep(3000);
+            WebElementActions.getActions().inputText(SearchTextArea1,appProp.getProperty("Clutch"));
+
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Clutch);
+            WebElementActions.getActions().clickElement(Clutch);
+
+        }
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Add);
         WebElementActions.getActions().clickElement(label_Add);
@@ -375,7 +414,8 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
         WebElementActions.getActions().clickElement(label_AddButton);
         Thread.sleep(3000);
 
-
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SrNo);
+        WebElementActions.getActions().clickElement(SrNo);
 
 
         if (img_CrossIcon1.size()>1) {
@@ -385,11 +425,10 @@ public class Add_a_fabricatedpart_to_a_closed_workorder extends TestDriverAction
             WebElementActions.getActions().clickUsingJS(img_CrossIcon1.get(1));
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_Delete3);
-            WebElementActions.getActions().clickElement(label_Delete3);
+            WebElementActions.getActions().clickUsingJS(label_Delete3);
             WaitActions.getWaits().loadingWait(loder);
 
-            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SrNo);
-            WebElementActions.getActions().clickElement(SrNo);
+
             }
 
         }

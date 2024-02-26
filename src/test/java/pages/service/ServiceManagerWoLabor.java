@@ -1204,7 +1204,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
         Assert.assertTrue(label_username.isDisplayed());
         Assert.assertTrue(label_employee.isDisplayed());
         Assert.assertTrue(label_RoStatus.isDisplayed());
-     //   Assert.assertTrue(label_notes1.isDisplayed());
+        Assert.assertTrue(label_notes1.isDisplayed());
         Assert.assertTrue(close_btn.isDisplayed());
         TestListener.saveScreenshotPNG(driver);
     }
@@ -1213,7 +1213,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      */
     public void clickOnCloseBtn() throws InterruptedException {
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(close_btn);
-        WebElementActions.getActions().clickUsingJS(close_btn);
+        WebElementActions.getActions().clickElement(close_btn);
 
         WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);

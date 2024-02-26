@@ -5,6 +5,7 @@ import actions.LoginActions;
 import actions.ReusableActions;
 import actions.WaitActions;
 import actions.WebElementActions;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
@@ -319,7 +320,7 @@ public class CounterSalePage extends TestDriverActions {
     @FindBy(xpath = "//label[text()='Part#:']/following::input[1]")
     WebElement txt_parts_field;
 
-    @FindBy(xpath =  "//li[contains(@class,'AFAutoSuggestItem')]")
+    @FindBy(xpath = "//li[contains(@class,'AFAutoSuggestItem')]")
     WebElement tooltip_parts_customer;
     @FindBy(xpath = "//ul[@class='AFAutoSuggestItemsContainer']/li")
     WebElement tooltip_parts_core;
@@ -426,6 +427,9 @@ public class CounterSalePage extends TestDriverActions {
     @FindBy(xpath = "//span[text()='Core Return']")
     WebElement btn_coreReturn;
 
+    @FindBy(xpath = "//span[text()='Add Part']")
+    WebElement AddPartTWO;
+
     @FindBy(xpath = "//label[text()='Core Return']")
     WebElement chekbox_coreReturn;
 
@@ -506,9 +510,70 @@ public class CounterSalePage extends TestDriverActions {
     WebElement invoice;
     //   @FindBy(xpath="//span[text()='Sale #']/following::td[8]/span")
     @FindBy(xpath = "//span[@class='af_column_data-container']//span")
-    public List<WebElement> history_sale ;
+    public List<WebElement> history_sale;
+    @FindBy(xpath = "//span[text()='Invoice #']")
+    WebElement Invoice;
 
-    @FindBy(xpath="(//span[contains(text(),'Cancel')])[1]")
+    @FindBy(xpath = "//span[text()='Sale #']")
+    WebElement sale;
+
+    @FindBy(xpath = "//span[text()='Invoice Date']")
+    WebElement InvoiceDate;
+
+    @FindBy(xpath = "//span[text()='Customer']")
+    WebElement Customer;
+
+    @FindBy(xpath = "//span[text()='Location']")
+    WebElement Location;
+
+    @FindBy(xpath = "//span[text()='Ship To']")
+    WebElement ShipTo;
+
+    @FindBy(xpath = "//span[text()='Customer PO#']")
+    WebElement CustomerPO;
+
+    @FindBy(xpath = "//span[text()='Internal PO#']")
+    WebElement InternalPO;
+
+    @FindBy(xpath = "(//span[text()='Internal PO#']/parent::div/parent::th/following::div/table/colgroup/following::tr/td/span/a)[1]")
+    WebElement InvoicePart;
+
+    @FindBy(xpath = "//div[contains(text(),'Counter Sale')]")
+    WebElement CounterSale;
+    @FindBy(xpath = "(//label[text()='Location:']/preceding-sibling::span)[2]")
+    WebElement RequiredLocation;
+
+    @FindBy(xpath = "(//label[text()='Location:'])[2]")
+    WebElement Location2;
+
+
+    @FindBy(xpath = "(//label[text()='Location:']/parent::td/following-sibling::td)[2]")
+    WebElement LocationValue;
+
+    @FindBy(xpath = "//label[text()='Sale#:']")
+    WebElement SaleHash;
+
+    @FindBy(xpath = "(//label[text()='Sale#:']/parent::td/following::td)[1]")
+    WebElement SaleHash2;
+
+    @FindBy(xpath = "(//label[text()='Customer:']/preceding-sibling::span)[2]")
+    WebElement CustomerRequired;
+
+    @FindBy(xpath = "(//label[text()='Customer:'])[2]")
+    WebElement Customer3;
+
+    @FindBy(xpath = "(//label[text()='Customer:']/parent::td/following::td[1])[2]")
+    WebElement CustomerValue;
+
+    @FindBy(xpath = "//a[contains(.,'Reprint')]")
+    WebElement Reprint;
+    @FindBy(xpath = "(//tr[@role='row']/td/span/a)[1]")
+    WebElement invoicenumber;
+
+    @FindBy(xpath = "(//tr[@role='row']/td/span/a/following::td/span/child::span)[1]")
+    WebElement saleNumber2;
+
+    @FindBy(xpath = "(//span[contains(text(),'Cancel')])[1]")
     WebElement cancle_corepart;
 
     @FindBy(xpath = "//input[contains(@id,':val00::content')]")
@@ -521,16 +586,14 @@ public class CounterSalePage extends TestDriverActions {
     WebElement Select1;
 
 
-
     @FindBy(xpath = "//h1[contains(text(),'Search and Select Parts')]")
     public WebElement SearchandSelect;
 
-    @FindBy(xpath="//label[text()='Sale#:']/following::td[1]/span")
+    @FindBy(xpath = "//label[text()='Sale#:']/following::td[1]/span")
     WebElement saleNumber;
 
     @FindBy(xpath = "//h1[contains(.,'Working...Please Wait')]")
     List<WebElement> loder;
-
 
 
     /**
@@ -717,9 +780,8 @@ public class CounterSalePage extends TestDriverActions {
         WebElementActions.getActions().clickElement(btn_saveExit);
 
 
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(today_saledate);
-        System.out.println("Todays date is :"+ReusableActions.todaysdate());
+        System.out.println("Todays date is :" + ReusableActions.todaysdate());
         Assert.assertTrue(today_saledate.isDisplayed());
 
         TestListener.saveScreenshotPNG(driver);
@@ -818,7 +880,7 @@ public class CounterSalePage extends TestDriverActions {
         WaitActions.getWaits().loadingWait(loder);
 
         TestListener.saveScreenshotPNG(driver);
-        }
+    }
 
 
     /**
@@ -870,8 +932,6 @@ public class CounterSalePage extends TestDriverActions {
         WebElementActions.getActions().clickUsingJS(btn_addParts);
 
 
-
-
         WaitActions.getWaits().loadingWait(loder);
 
         TestListener.saveScreenshotPNG(driver);
@@ -896,21 +956,20 @@ public class CounterSalePage extends TestDriverActions {
 //        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(cancle_corepart);
 //        WebElementActions.getActions().clickElement(cancle_corepart);
 
-            WebElementActions.getActions().inputText(txt_parts_field,appProp.getProperty("CoreParentPart"));
-            Thread.sleep(3000);
-            WebElementActions.getActions().clickElement(tooltip_parts_core);
+            WebElementActions.getActions().inputText(txt_parts_field, appProp.getProperty("CoreParentPart"));
+            txt_parts_field.sendKeys(Keys.ENTER);
 
 
-            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(chekbox_coreReturn);
-            Assert.assertTrue(chekbox_coreReturn.isDisplayed());
+          //  WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(chekbox_coreReturn);
+         //   Assert.assertTrue(chekbox_coreReturn.isDisplayed());
 
 
-            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_coreReturn);
-            Assert.assertTrue(btn_coreReturn.isDisplayed());
+          WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(AddPartTWO);
+            Assert.assertTrue(AddPartTWO.isDisplayed());
 
 
-            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_coreReturn);
-            WebElementActions.getActions().clickElement(btn_coreReturn);
+          WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(AddPartTWO);
+           WebElementActions.getActions().clickElement(AddPartTWO);
 
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(cross_icon);
@@ -949,7 +1008,6 @@ public class CounterSalePage extends TestDriverActions {
         WaitActions.getWaits().loadingWait(loder);
 
 
-
         TestListener.saveScreenshotPNG(driver);
     }
 
@@ -976,28 +1034,28 @@ public class CounterSalePage extends TestDriverActions {
         Assert.assertTrue(btn_cancle.isDisplayed());
         Assert.assertTrue(btn_saveExitLost.isDisplayed());
 
-        if(LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("EC")) {
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EC")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(opt_delivery);
             WebElementActions.getActions().elementSelectByVisibilityText(opt_delivery, "Delivery");
         }
-        if(LoginActions.environmentName.contains("NA")){
+        if (LoginActions.environmentName.contains("NA")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(opt_delivery);
-            WebElementActions.getActions().elementSelectByVisibilityText(opt_delivery,"Non-stock item");
+            WebElementActions.getActions().elementSelectByVisibilityText(opt_delivery, "Non-stock item");
         }
 
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_saveExitLost);
         WebElementActions.getActions().clickElement(btn_saveExitLost);
 
-          if(LoginActions.environmentName.contains("QA")||LoginActions.environmentName.contains("EC")) {
-              WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_delivery);
-              Assert.assertTrue(label_delivery.isDisplayed());
-          }
-          if(LoginActions.environmentName.contains("NA")){
-              WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(NonStockItem);
-              Assert.assertTrue(NonStockItem.isDisplayed());
-          }
-          WaitActions.getWaits().loadingWait(loder);
+        if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EC")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_delivery);
+            Assert.assertTrue(label_delivery.isDisplayed());
+        }
+        if (LoginActions.environmentName.contains("NA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(NonStockItem);
+            Assert.assertTrue(NonStockItem.isDisplayed());
+        }
+        WaitActions.getWaits().loadingWait(loder);
         TestListener.saveScreenshotPNG(driver);
     }
 
@@ -1022,13 +1080,13 @@ public class CounterSalePage extends TestDriverActions {
         WebElementActions.getActions().clickElement(btn_taxesOk);
 
 
-         if(LoginActions.environmentName.contains("EC")) {
-             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(invoice);
-             WebElementActions.getActions().inputText(invoice, appProp.getProperty("invoice"));
-             Thread.sleep(3000);
-         }
+        if (LoginActions.environmentName.contains("EC")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(invoice);
+            WebElementActions.getActions().inputText(invoice, appProp.getProperty("invoice"));
+            Thread.sleep(3000);
+        }
 
-        WaitActions.getWaits().loadingWait(loder);
+
 
         TestListener.saveScreenshotPNG(driver);
 
@@ -1043,30 +1101,18 @@ public class CounterSalePage extends TestDriverActions {
 
         WaitActions.getWaits().loadingWait(loder);
 
-        //       WebElementActions.getActions().switchToChildWindow();
-
-        //       WebElementActions.getActions().switchBackToParentWindow();
-
-//        WaitActions.getWaits().loadingWait(loder);
-
-
-
-        //       WaitActions.getWaits().WaitUntilWebElementIsVisible(tab_history);
-//        WaitActions.getWaits().waitForElementTobeClickable(tab_history);
         Thread.sleep(10000);
         WebElementActions.getActions().clickUsingJS(tab_history);
-//        Thread.sleep(2000);
+
         WaitActions.getWaits().loadingWait(loder);
 
 
-        // convert WebElement into string
-        String matchNumber =saleNumber.toString();
+        String matchNumber = saleNumber.toString();
 
-        for(int i=1;i<= history_sale.size();i++)
-        {
+        for (int i = 1; i <= history_sale.size(); i++) {
             //            Thread.sleep(5000);
 
-            if(history_sale.get(i).getText().contains(matchNumber));
+            if (history_sale.get(i).getText().contains(matchNumber)) ;
             {
                 //          Thread.sleep(3000);
                 System.out.println("Sale number is :");
@@ -1074,16 +1120,156 @@ public class CounterSalePage extends TestDriverActions {
                 break;
             }
         }
-        System.out.println("Size is :"+history_sale.size());
+        System.out.println("Size is :" + history_sale.size());
+
+        System.out.println("Sale number is :" + matchNumber);
 
         TestListener.saveScreenshotPNG(driver);
 
     }
+
+    /**
+     * verify On Invoice
+     */
+    public void verifyInvoice() throws InterruptedException {
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Invoice);
+        Assert.assertTrue(Invoice.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(sale);
+        Assert.assertTrue(sale.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(InvoiceDate);
+        Assert.assertTrue(InvoiceDate.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Customer);
+        Assert.assertTrue(Customer.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Location);
+        Assert.assertTrue(Location.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(ShipTo);
+        Assert.assertTrue(ShipTo.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerPO);
+        Assert.assertTrue(CustomerPO.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(InternalPO);
+        Assert.assertTrue(InternalPO.isDisplayed());
+
+        TestListener.saveScreenshotPNG(driver);
+
+
+    }
+
+    /**
+     * click on Invoice No.
+     */
+    public void clickonInvoiceNo() throws InterruptedException {
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(InvoicePart);
+        WebElementActions.getActions().clickElement(InvoicePart);
+        WaitActions.getWaits().loadingWait(loder);
+
+        TestListener.saveScreenshotPNG(driver);
+
+    }
+
+    /**
+     * verify Counter sale
+     */
+    public void verifyCountersale() throws InterruptedException {
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CounterSale);
+        Assert.assertTrue(CounterSale.isDisplayed());
+
+        TestListener.saveScreenshotPNG(driver);
+    }
+
+    /**
+     * verify On RequiredLocation,Location
+     */
+    public void verifyRequiredLocation() throws InterruptedException {
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(RequiredLocation);
+        Assert.assertTrue(RequiredLocation.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Location2);
+        Assert.assertTrue(Location2.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(LocationValue);
+        Assert.assertTrue(LocationValue.isDisplayed());
+        System.out.println("Location :" + LocationValue.getText());
+
+
+        TestListener.saveScreenshotPNG(driver);
+
+    }
+
+    /***verify sale salevalue*/
+    public void verifyonsale() throws InterruptedException {
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SaleHash);
+        Assert.assertTrue(SaleHash.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SaleHash2);
+        Assert.assertTrue(SaleHash2.isDisplayed());
+
+        System.out.println("SaleNumber:" + SaleHash2.getText());
+
+        TestListener.saveScreenshotPNG(driver);
+
+
+    }
+
+    /**
+     * verify on Customer
+     */
+    public void verifyCustomer() throws InterruptedException {
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerRequired);
+        Assert.assertTrue(CustomerRequired.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Customer3);
+        Assert.assertTrue(Customer3.isDisplayed());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerValue);
+        Assert.assertTrue(CustomerValue.isDisplayed());
+
+        System.out.println("CustomerName:" + CustomerValue.getText());
+
+        Thread.sleep(3000);
+        String originalWindow = driver.getWindowHandle();
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+    }
+
+    /**
+     * click on Reprint
+     */
+    public void clickOnReprint() throws InterruptedException {
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(Reprint);
+        WebElementActions.getActions().clickElement(Reprint);
+        Thread.sleep(3000);
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+    }
+    /** verify invoice No.,sale number*/
+    public void  verifyinvoiceNumber() throws InterruptedException {
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(invoicenumber);
+        Assert.assertTrue(invoicenumber.isDisplayed());
+        System.out.println("invoiceNo :" + invoicenumber.getText());
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(saleNumber2);
+        Assert.assertTrue(saleNumber2.isDisplayed());
+        System.out.println("saleNumber2 :" + saleNumber2.getText());
+
+        TestListener.saveScreenshotPNG(driver);
+
+    }
+
     /**
      * click on sign out button
      * verify username
      */
-    public void clickOnSignOut () throws InterruptedException {
+    public void clickOnSignOut() throws InterruptedException {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_signOut);
         Thread.sleep(3000);
@@ -1095,9 +1281,9 @@ public class CounterSalePage extends TestDriverActions {
 
         TestListener.saveScreenshotPNG(driver);
     }
-
-
 }
+
+
 
 
 

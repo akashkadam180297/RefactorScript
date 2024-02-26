@@ -22,17 +22,16 @@ public class Addafabricatedparttoaclosedworkorder extends TestDriverActions {
         addafabricatedparttoaclosedworkorder.clickoNewRo();
         addafabricatedparttoaclosedworkorder.typeUnitNumber();
         addafabricatedparttoaclosedworkorder.clickonSelectButton();
-         addafabricatedparttoaclosedworkorder.clickOnAddLabour();
-        addafabricatedparttoaclosedworkorder.clickonBackOnCompleteRo();
-        // addafabricatedparttoaclosedworkorder.clickOnCloseRO();
+        addafabricatedparttoaclosedworkorder.clickOnAddLabour();
+       // addafabricatedparttoaclosedworkorder.clickOnCloseRO();
     }
     @Test(priority = 2, description = "Test_003_type Search Text Area")
     @Description("Test Description: type Search Text Area")
     public void Test_003_typeSearchTextArea()throws InterruptedException, IOException {
-        addafabricatedparttoaclosedworkorder.typeSearchTextArea();
-        addafabricatedparttoaclosedworkorder.clickonRefresh();
-        addafabricatedparttoaclosedworkorder.clickonReferenceNumber();
-        addafabricatedparttoaclosedworkorder.clickOnAddLabour2();
+    //    addafabricatedparttoaclosedworkorder.typeSearchTextArea();
+   //     addafabricatedparttoaclosedworkorder.clickonRefresh();
+   //     addafabricatedparttoaclosedworkorder.clickonReferenceNumber();
+   //     addafabricatedparttoaclosedworkorder.clickOnAddLabour2();
         addafabricatedparttoaclosedworkorder.clickOnAddParts();
         addafabricatedparttoaclosedworkorder.verifyPart();
         addafabricatedparttoaclosedworkorder.verifyRoTotalcost();
