@@ -1,0 +1,125 @@
+{
+  "uid" : "34a57e5e7c56f006",
+  "name" : "Test_005_Go to Unit Master",
+  "fullName" : "tests.fleet.UomforpressureonInspectionInformationAllowed.Test_005_gotoUnitMaster",
+  "historyId" : "55b6c0078ee336114ab40e92d6907a38",
+  "time" : {
+    "start" : 1708432715291,
+    "stop" : 1708432751109,
+    "duration" : 35818
+  },
+  "description" : "Test Description: go to unit master",
+  "descriptionHtml" : "<p>Test Description: go to unit master</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1708432265753,
+      "stop" : 1708432308929,
+      "duration" : 43176
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: go to unit master",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ca1417512cd46eb",
+      "name" : "Page Screenshot",
+      "source" : "ca1417512cd46eb.png",
+      "type" : "image/png",
+      "size" : 79305
+    }, {
+      "uid" : "3857faf1e90eae5b",
+      "name" : "Page Screenshot",
+      "source" : "3857faf1e90eae5b.png",
+      "type" : "image/png",
+      "size" : 148582
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1708432751110,
+      "stop" : 1708432751162,
+      "duration" : 52
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2329e29eadb226b9",
+      "name" : "Page Screenshot",
+      "source" : "2329e29eadb226b9.png",
+      "type" : "image/png",
+      "size" : 148652
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.UomforpressureonInspectionInformationAllowed"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.UomforpressureonInspectionInformationAllowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_005_gotoUnitMaster"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.UomforpressureonInspectionInformationAllowed"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "18508@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34a57e5e7c56f006.json",
+  "parameterValues" : [ ]
+}

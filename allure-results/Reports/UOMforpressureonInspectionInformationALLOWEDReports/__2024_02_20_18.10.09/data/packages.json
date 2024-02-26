@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.fleet.UomforpressureonInspectionInformationAllowed",
+    "children" : [ {
+      "name" : "Test_001_gotoPMInspectionManager",
+      "uid" : "955950957a355ff0",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708432308949,
+        "stop" : 1708432359677,
+        "duration" : 50728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickOnUnitInspectionInformation",
+      "uid" : "d7f559ae719dab26",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708432359837,
+        "stop" : 1708432495261,
+        "duration" : 135424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_clickOnAddUnitInspectionInformation",
+      "uid" : "db27b5777be1c60d",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708432495366,
+        "stop" : 1708432594909,
+        "duration" : 99543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_clickOnAddUnitInspectionInformationTwo",
+      "uid" : "9a5135b355a43e49",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708432594971,
+        "stop" : 1708432715214,
+        "duration" : 120243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_gotoUnitMaster",
+      "uid" : "34a57e5e7c56f006",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708432715291,
+        "stop" : 1708432751109,
+        "duration" : 35818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_clickonMoreInfo",
+      "uid" : "df9350b3f5e0194e",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1708432751163,
+        "stop" : 1708432809159,
+        "duration" : 57996
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.fleet.UomforpressureonInspectionInformationAllowed"
+  } ]
+}

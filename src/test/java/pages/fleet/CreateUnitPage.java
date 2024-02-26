@@ -186,8 +186,6 @@ public class CreateUnitPage extends TestDriverActions {
     @FindBy(name = "username")
     public WebElement inputbox_Username;
 
-    int no_of_unit_before_added;
-
     @FindBy(xpath = "//h1[text()='Working...Please Wait']")
     List<WebElement> loder;
 
@@ -209,8 +207,6 @@ public class CreateUnitPage extends TestDriverActions {
      * Click on new Unit button
      */
     public void clickNewUnit() throws InterruptedException {
-
-
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_new_unit);
         WebElementActions.getActions().clickElement(btn_new_unit);
 

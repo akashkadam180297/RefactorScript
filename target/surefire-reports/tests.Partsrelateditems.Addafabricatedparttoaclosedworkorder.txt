@@ -1,11 +1,31 @@
 -------------------------------------------------------------------------------
 Test set: tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 774.649 s <<< FAILURE! - in tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder
-Test_003_typeSearchTextArea(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 157.963 s  <<< FAILURE!
-java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
-	at tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder.Test_003_typeSearchTextArea(Addafabricatedparttoaclosedworkorder.java:34)
+Tests run: 12, Failures: 7, Errors: 0, Skipped: 5, Time elapsed: 9.259 s <<< FAILURE! - in tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder
+initialization(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 8.934 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.161 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}}]
 
-generateAllure(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 204.321 s  <<< FAILURE!
+afterMethodTakeScreenShot(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 0.086 s  <<< FAILURE!
+java.lang.NullPointerException
+
+afterMethodTakeScreenShot(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException
+
+afterMethodTakeScreenShot(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException
+
+afterMethodTakeScreenShot(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+
+afterMethodTakeScreenShot(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 0.073 s  <<< FAILURE!
+java.lang.NullPointerException
+
+generateAllure(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder)  Time elapsed: 0.108 s  <<< FAILURE!
 java.lang.NullPointerException
 

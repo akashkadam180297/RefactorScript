@@ -1,0 +1,142 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 121.0.6167.161 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}}]",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "a2d5b4a593e47446",
+        "parentUid" : "8f8af6395a03dfa2080761d6af6b2ab7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320156761,
+          "stop" : 1708320156762,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initialization",
+        "uid" : "91897a9879283fd1",
+        "parentUid" : "8f8af6395a03dfa2080761d6af6b2ab7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320180374,
+          "stop" : 1708320180374,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f8af6395a03dfa2080761d6af6b2ab7"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "5be3bb51340d1678",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320156984,
+          "stop" : 1708320156984,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "generateAllure",
+        "uid" : "86784ca15660f60a",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320157084,
+          "stop" : 1708320157084,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "d8efdb5b6b50e40d",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320180630,
+          "stop" : 1708320180630,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "a6304cdd25420db",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708334275175,
+          "stop" : 1708334275175,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "Input must be set",
+      "children" : [ {
+        "name" : "generateAllure",
+        "uid" : "efdfa0626ede3e29",
+        "parentUid" : "1d3c628265ed0b583d3773da39044e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320190706,
+          "stop" : 1708320190706,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "generateAllure",
+        "uid" : "26bfa312ed81963b",
+        "parentUid" : "1d3c628265ed0b583d3773da39044e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708334151884,
+          "stop" : 1708334151884,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d3c628265ed0b583d3773da39044e50"
+    }, {
+      "name" : "Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method abstract findDefaultExecutable()Ljava/io/File; of abstract class org.openqa.selenium.remote.service.DriverService$Builder.",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "179a59a989a147ab",
+        "parentUid" : "301bb404fc086433b9c9650c436bce1a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708334275004,
+          "stop" : 1708334275005,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "301bb404fc086433b9c9650c436bce1a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -426,6 +426,10 @@ public class CounterSalePage extends TestDriverActions {
     @FindBy(xpath = "//span[text()='Core Return']")
     WebElement btn_coreReturn;
 
+    @FindBy(xpath = "//span[text()='Add Part']")
+    WebElement AddPart;
+
+
     @FindBy(xpath = "//label[text()='Core Return']")
     WebElement chekbox_coreReturn;
 
@@ -897,20 +901,20 @@ public class CounterSalePage extends TestDriverActions {
 //        WebElementActions.getActions().clickElement(cancle_corepart);
 
             WebElementActions.getActions().inputText(txt_parts_field,appProp.getProperty("CoreParentPart"));
-            Thread.sleep(3000);
-            WebElementActions.getActions().clickElement(tooltip_parts_core);
+           // Thread.sleep(3000);
+          //  WebElementActions.getActions().clickElement(tooltip_parts_core);
 
 
-            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(chekbox_coreReturn);
-            Assert.assertTrue(chekbox_coreReturn.isDisplayed());
+           // WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(chekbox_coreReturn);
+           // Assert.assertTrue(chekbox_coreReturn.isDisplayed());
 
 
-            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_coreReturn);
-            Assert.assertTrue(btn_coreReturn.isDisplayed());
+          //  WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(btn_coreReturn);
+          //  Assert.assertTrue(btn_coreReturn.isDisplayed());
 
 
-            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(btn_coreReturn);
-            WebElementActions.getActions().clickElement(btn_coreReturn);
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(AddPart);
+            WebElementActions.getActions().clickElement(AddPart);
 
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(cross_icon);

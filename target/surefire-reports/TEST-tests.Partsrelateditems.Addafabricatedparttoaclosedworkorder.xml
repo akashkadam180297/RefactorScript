@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="774.649" tests="6" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="9.259" tests="12" errors="0" skipped="5" failures="7">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -57,7 +57,7 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="env" value="EU"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Java\jre-1.8\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Users\pc9-q\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.3\bin;;C:\IntelliJ IDEA Community Edition 2023.1.3\bin;;C:\Users\pc9-q\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\EaseUS\Todo Backup\bin\x64\;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Java\jre-1.8\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Users\pc9-q\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.3\bin;;C:\IntelliJ IDEA Community Edition 2023.1.3\bin;;C:\Users\pc9-q\AppData\Local\GitHubDesktop\bin;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
@@ -66,23 +66,63 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Test_001_gotoCompleteRo" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="49.305"/>
-  <testcase name="Test_002_clickoNewRo" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="165.681"/>
-  <testcase name="Test_003_typeSearchTextArea" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="157.963">
-    <failure message="Index 2 out of bounds for length 2" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
-	at tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder.Test_003_typeSearchTextArea(Addafabricatedparttoaclosedworkorder.java:34)
+  <testcase name="initialization" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="8.934">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 121.0.6167.161 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;&#10;System info: host: &apos;PC-9&apos;, ip: &apos;192.168.29.154&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.161 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}}]
 </failure>
-    <system-out><![CDATA[Loader is not visible
-Loader is not visible
-Loader is not visible
-]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 56353
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
   </testcase>
-  <testcase name="Test_004_clickonAddPart" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="156.594"/>
-  <testcase name="Test_005_clickonPartTextArea" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="204.239"/>
-  <testcase name="generateAllure" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="204.321">
+  <testcase name="Test_001_gotoCompleteRo" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethodTakeScreenShot" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0.086">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 </failure>
-    <system-out><![CDATA[creating directory: __2024_02_13_15.23.37
+  </testcase>
+  <testcase name="afterMethodTakeScreenShot" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+  <testcase name="afterMethodTakeScreenShot" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+  <testcase name="afterMethodTakeScreenShot" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0.01">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+  <testcase name="afterMethodTakeScreenShot" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0.073">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+  <testcase name="Test_002_clickoNewRo" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test_003_typeSearchTextArea" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test_004_clickonAddPart" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test_005_clickonPartTextArea" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="generateAllure" classname="tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder" time="0.108">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+    <system-out><![CDATA[creating directory: __2024_02_19_10.52.37
 Folder created
 Before Report Process
 This is CMD : null

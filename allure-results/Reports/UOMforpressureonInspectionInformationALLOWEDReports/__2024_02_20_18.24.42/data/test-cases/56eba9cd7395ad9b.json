@@ -1,0 +1,125 @@
+{
+  "uid" : "56eba9cd7395ad9b",
+  "name" : "Test_001_Login the page and Go to create unit Screen",
+  "fullName" : "tests.fleet.UomforpressureonInspectionInformationAllowed.Test_001_gotoPMInspectionManager",
+  "historyId" : "1dc73d7f38500c33a92affe488b39170",
+  "time" : {
+    "start" : 1708433219904,
+    "stop" : 1708433265038,
+    "duration" : 45134
+  },
+  "description" : "Test Description: Login the page and Go to create unit Screen",
+  "descriptionHtml" : "<p>Test Description: Login the page and Go to create unit Screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1708433181602,
+      "stop" : 1708433219875,
+      "duration" : 38273
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login the page and Go to create unit Screen",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "df8bd157d10be1a8",
+      "name" : "Page Screenshot",
+      "source" : "df8bd157d10be1a8.png",
+      "type" : "image/png",
+      "size" : 57766
+    }, {
+      "uid" : "f892f98aa7f9b3b2",
+      "name" : "Page Screenshot",
+      "source" : "f892f98aa7f9b3b2.png",
+      "type" : "image/png",
+      "size" : 76332
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1708433265127,
+      "stop" : 1708433265172,
+      "duration" : 45
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "547fb9dd9ce5974d",
+      "name" : "Page Screenshot",
+      "source" : "547fb9dd9ce5974d.png",
+      "type" : "image/png",
+      "size" : 76294
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.fleet.UomforpressureonInspectionInformationAllowed"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.fleet.UomforpressureonInspectionInformationAllowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001_gotoPMInspectionManager"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.fleet.UomforpressureonInspectionInformationAllowed"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "20008@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56eba9cd7395ad9b.json",
+  "parameterValues" : [ ]
+}

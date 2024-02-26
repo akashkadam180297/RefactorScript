@@ -1,0 +1,142 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 121.0.6167.161 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}}]",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "d6bfec611381946e",
+        "parentUid" : "8f8af6395a03dfa2080761d6af6b2ab7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320156761,
+          "stop" : 1708320156762,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initialization",
+        "uid" : "584c7615d1701a3d",
+        "parentUid" : "8f8af6395a03dfa2080761d6af6b2ab7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320180374,
+          "stop" : 1708320180374,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f8af6395a03dfa2080761d6af6b2ab7"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "2fee067b8270156c",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320156984,
+          "stop" : 1708320156984,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "generateAllure",
+        "uid" : "641f35ec8e7441bb",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320157084,
+          "stop" : 1708320157084,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "6b6010119c3809b",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320180630,
+          "stop" : 1708320180630,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "afterMethodTakeScreenShot",
+        "uid" : "50131f7d4c530210",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708334333919,
+          "stop" : 1708334333919,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "Input must be set",
+      "children" : [ {
+        "name" : "generateAllure",
+        "uid" : "aee8e0a51337e385",
+        "parentUid" : "1d3c628265ed0b583d3773da39044e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708320190706,
+          "stop" : 1708320190706,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "generateAllure",
+        "uid" : "ea8638133f8b76f8",
+        "parentUid" : "1d3c628265ed0b583d3773da39044e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708334285260,
+          "stop" : 1708334285260,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d3c628265ed0b583d3773da39044e50"
+    }, {
+      "name" : "Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 121.0.6167.185 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'PC-9', ip: '192.168.29.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --window-size=1366,768, --no-sandbox, --disable-popup-blocking, --disable-dev-shm-usage, --disable-gpu, --dns-prefetch-disable, --always-authorize-plugins, enable-automation, --disable-browser-side-navi..., --ignore-certificate-errors, --disable-extensions, --allow-running-insecure-co...], extensions: [], prefs: {}}, pageLoadStrategy: normal}}]",
+      "children" : [ {
+        "name" : "initialization",
+        "uid" : "d5d2a7db423dd4bc",
+        "parentUid" : "54acee28358f14a51e33fe838f2bb848",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708334333638,
+          "stop" : 1708334333639,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54acee28358f14a51e33fe838f2bb848"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

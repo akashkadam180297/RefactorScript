@@ -1,0 +1,100 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.fleet.UomforpressureonInspectionInformationAllowed",
+    "children" : [ {
+      "name" : "Test_001_gotoPMInspectionManager",
+      "uid" : "46c8d442e38cecd0",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708496453678,
+        "stop" : 1708496499434,
+        "duration" : 45756
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickOnUnitInspectionInformation",
+      "uid" : "bfbfd8b1ef7cb5bc",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708496499548,
+        "stop" : 1708496623181,
+        "duration" : 123633
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_clickOnAddUnitInspectionInformation",
+      "uid" : "7f6374aab77fb8bd",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708496623250,
+        "stop" : 1708496696244,
+        "duration" : 72994
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_clickOnAddUnitInspectionInformationTwo",
+      "uid" : "db74abdf5b7779f5",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708496696309,
+        "stop" : 1708496796553,
+        "duration" : 100244
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_gotoUnitMaster",
+      "uid" : "ec9bc91928e7d7ce",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708496796607,
+        "stop" : 1708496825013,
+        "duration" : 28406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_clickonMoreInfo",
+      "uid" : "3531291f05c8d37",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1708496825080,
+        "stop" : 1708497004733,
+        "duration" : 179653
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "afterMethodTakeScreenShot",
+      "uid" : "4e3ea6692e744873",
+      "parentUid" : "63b3ac095fe90e45b5239274f8676cbb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1708497004749,
+        "stop" : 1708497004749,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.fleet.UomforpressureonInspectionInformationAllowed"
+  } ]
+}

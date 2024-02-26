@@ -26,6 +26,7 @@ import pages.fleet.CreateUnitPage;
 import pages.fleet.SetUpWorkRequired;
 
 
+import pages.fleet.UOMforpressureonInspectionInformation_ALLOWED;
 import pages.parts.*;
 //import pages.pmWorkFlow.WorkOrderWorkflowPage;
 import pages.pmWorkFlow.cGVTechPerformPM;
@@ -95,6 +96,8 @@ public class TestDriverActions {
     public CounterSaleInvoiceCharacterLimit countersaleinvoicecharacterlimit;
 
      public Add_a_fabricatedpart_to_a_closed_workorder addafabricatedparttoaclosedworkorder;
+
+     public UOMforpressureonInspectionInformation_ALLOWED unitinspectioninformation;
     LoginActions loginActions;
 
 
@@ -223,7 +226,7 @@ public class TestDriverActions {
             options.setExperimentalOption("prefs", chromePrefs);
             WebDriverManager.chromedriver().setup();
             options.addArguments("--start-maximized");
-            //          options.addArguments("--headless=new");
+            options.addArguments("--headless=new");
             options.addArguments("--window-size=1366,768");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-popup-blocking");
@@ -294,7 +297,7 @@ public class TestDriverActions {
         issueparttotech=PageFactory.initElements(driver,IssuePartToTech.class);
         countersaleinvoicecharacterlimit=PageFactory.initElements(driver,CounterSaleInvoiceCharacterLimit.class);
         addafabricatedparttoaclosedworkorder=PageFactory.initElements(driver,Add_a_fabricatedpart_to_a_closed_workorder.class);
-
+        unitinspectioninformation=PageFactory.initElements(driver,UOMforpressureonInspectionInformation_ALLOWED.class);
 
         loginPage.selectCountryFromDropDown();
 
@@ -487,6 +490,9 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("Addafabricatedparttoaclosedworkorder")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/AddafabricatedparttoaclosedworkorderReports/" + "__" + currentDateTime;
         }
+        else if (getClass().getCanonicalName().contains("UomforpressureonInspectionInformationAllowed")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/UomforpressureonInspectionInformationAllowedReports/" + "__" + currentDateTime;
+        }
 
 
 
@@ -621,6 +627,9 @@ public class TestDriverActions {
             }
             else if (getClass().getCanonicalName().contains("Add_a_fabricatedpart_to_a_closed_workorder")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\Add_a_fabricatedpart_to_a_closed_workorderReports\\" + theDir.getName();
+            }
+            else if (getClass().getCanonicalName().contains("UomforpressureonInspectionInformationAllowed")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\UomforpressureonInspectionInformationAllowedReports\\" + theDir.getName();
             }
 
 

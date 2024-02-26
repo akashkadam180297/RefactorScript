@@ -1,0 +1,95 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.fleet.UomforpressureonInspectionInformationAllowed",
+        "children" : [ {
+          "name" : "Test_001_Login the page and Go to create unit Screen",
+          "uid" : "6198c8db23368b9d",
+          "parentUid" : "4639d990ccb6c07c11872351ad6de8de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708434099450,
+            "stop" : 1708434151706,
+            "duration" : 52256
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002_click on Unit Inspection Information ",
+          "uid" : "8b1575c86beead02",
+          "parentUid" : "4639d990ccb6c07c11872351ad6de8de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708434151848,
+            "stop" : 1708434279546,
+            "duration" : 127698
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003_click On Add Unit Inspection Information",
+          "uid" : "f11c076f7252763a",
+          "parentUid" : "4639d990ccb6c07c11872351ad6de8de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708434279614,
+            "stop" : 1708434370827,
+            "duration" : 91213
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004_click On Add Unit Inspection Information",
+          "uid" : "153134b0555c572e",
+          "parentUid" : "4639d990ccb6c07c11872351ad6de8de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708434370881,
+            "stop" : 1708434484785,
+            "duration" : 113904
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005_Go to Unit Master",
+          "uid" : "e47f06f766ef54d7",
+          "parentUid" : "4639d990ccb6c07c11872351ad6de8de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708434484847,
+            "stop" : 1708434513251,
+            "duration" : 28404
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_006_click on MoreInfo",
+          "uid" : "3ff79107d4a6f78e",
+          "parentUid" : "4639d990ccb6c07c11872351ad6de8de",
+          "status" : "broken",
+          "time" : {
+            "start" : 1708434513322,
+            "stop" : 1708434534009,
+            "duration" : 20687
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4639d990ccb6c07c11872351ad6de8de"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

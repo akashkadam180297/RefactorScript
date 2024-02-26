@@ -1,0 +1,109 @@
+{
+  "uid" : "df4beaf44ad74bbd",
+  "name" : "T_007 Check that add AeroDynamic Device and Delete it from Labour section",
+  "fullName" : "tests.tech.TechWoLabor.add_AeroDynamic_Delete_Labour",
+  "historyId" : "3d5920d138fe90947db717c310a2f858",
+  "time" : {
+    "start" : 1707816160201,
+    "stop" : 1707816196758,
+    "duration" : 36557
+  },
+  "description" : "Test Description - Check that add AeroDynamic Device and Delete it from Labour section",
+  "descriptionHtml" : "<p>Test Description - Check that add AeroDynamic Device and Delete it from Labour section</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description - Check that add AeroDynamic Device and Delete it from Labour section",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4f569a87b8258f35",
+      "name" : "Page Screenshot",
+      "source" : "4f569a87b8258f35.png",
+      "type" : "image/png",
+      "size" : 73615
+    }, {
+      "uid" : "67cd1a98b144948a",
+      "name" : "Page Screenshot",
+      "source" : "67cd1a98b144948a.png",
+      "type" : "image/png",
+      "size" : 88112
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707816196760,
+      "stop" : 1707816196806,
+      "duration" : 46
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1cf163a024e1855f",
+      "name" : "Page Screenshot",
+      "source" : "1cf163a024e1855f.png",
+      "type" : "image/png",
+      "size" : 88112
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_AeroDynamic_Delete_Labour"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "20644@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df4beaf44ad74bbd.json",
+  "parameterValues" : [ ]
+}

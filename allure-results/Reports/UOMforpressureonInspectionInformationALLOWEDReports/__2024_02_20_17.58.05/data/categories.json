@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <a onclick=\"return false\" class=\"x18v\" tabindex=\"-1\" href=\"#\">...</a> is not clickable at point (163, 52). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1333px; height: 614px; user-select: none; z-index: 26; display: block;\"></div>\n  (Session info: chrome=121.0.6167.185)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5450c613bb6859c64043ef81e2b1b457, clickElement {id=520B4CA87A5B1D75E284933CCA00E62D_element_290}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62896}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62896/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (5450c613bb6859c64043ef81e2b1b457)] -> xpath: //table[@class='af_menuBar_items']//table//td//a[text()='Fleet']]\nSession ID: 5450c613bb6859c64043ef81e2b1b457",
+      "children" : [ {
+        "name" : "Test_005_Go to Unit Master",
+        "uid" : "60b7ad1e7c78038c",
+        "parentUid" : "f22d7ec84c5c2b4f5d086623e9d69765",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708431911150,
+          "stop" : 1708431912275,
+          "duration" : 1125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f22d7ec84c5c2b4f5d086623e9d69765"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(.,'More Info')]\"}\n  (Session info: chrome=121.0.6167.185)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5450c613bb6859c64043ef81e2b1b457, findElement {using=xpath, value=//a[contains(.,'More Info')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62896}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62896/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5450c613bb6859c64043ef81e2b1b457",
+      "children" : [ {
+        "name" : "Test_006_click on MoreInfo",
+        "uid" : "2d84c7f21efc4690",
+        "parentUid" : "8dac9c520d8fcd0e5cf4afb20ab118eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708431912347,
+          "stop" : 1708432085020,
+          "duration" : 172673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8dac9c520d8fcd0e5cf4afb20ab118eb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,121 @@
+{
+  "uid" : "f24f88632026c811",
+  "name" : "T_001 Login the page and Go to the Tech Ro",
+  "fullName" : "tests.tech.TechWoLabor.gotoTechRo",
+  "historyId" : "4951e95de0bb65da313191aa0b49610c",
+  "time" : {
+    "start" : 1707815837422,
+    "stop" : 1707815942920,
+    "duration" : 105498
+  },
+  "description" : "Test Description - Login the page and Go to the Tech Ro ",
+  "descriptionHtml" : "<p>Test Description - Login the page and Go to the Tech Ro</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description - Login the page and Go to the Tech Ro ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5c94ad5d0361c755",
+      "name" : "Page Screenshot",
+      "source" : "5c94ad5d0361c755.png",
+      "type" : "image/png",
+      "size" : 23081
+    }, {
+      "uid" : "5c045eb49b66a47c",
+      "name" : "Page Screenshot",
+      "source" : "5c045eb49b66a47c.png",
+      "type" : "image/png",
+      "size" : 23284
+    }, {
+      "uid" : "bd190aadc0bb4056",
+      "name" : "Page Screenshot",
+      "source" : "bd190aadc0bb4056.png",
+      "type" : "image/png",
+      "size" : 27993
+    }, {
+      "uid" : "11e32584710ba915",
+      "name" : "Page Screenshot",
+      "source" : "11e32584710ba915.png",
+      "type" : "image/png",
+      "size" : 102141
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1707815942980,
+      "stop" : 1707815943043,
+      "duration" : 63
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9360d8fa60fd7ae2",
+      "name" : "Page Screenshot",
+      "source" : "9360d8fa60fd7ae2.png",
+      "type" : "image/png",
+      "size" : 102141
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "gotoTechRo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "20644@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f24f88632026c811.json",
+  "parameterValues" : [ ]
+}
