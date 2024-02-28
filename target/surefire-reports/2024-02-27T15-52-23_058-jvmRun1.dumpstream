@@ -1,0 +1,29 @@
+# Created on 2024-02-27T15:52:33.738
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created on 2024-02-27T15:52:35.270
+Unexpected IOException with stream: WebElement is visible using locator: <[[ChromeDriver: chrome on WINDOWS (1340a92ba0c9c701d4b6c90598364410)] -> xpath: //div[@role='menuitem']]>
+
+
+# Created on 2024-02-27T15:52:48.446
+Unexpected IOException with stream: WebElement is visible using locator: <[[ChromeDriver: chrome on WINDOWS (1340a92ba0c9c701d4b6c90598364410)] -> xpath: //img[contains(@src,'flag-en_CA')]]>
+
+
+# Created on 2024-02-27T15:53:01.283
+Unexpected IOException with stream: WebElement is visible using locator: <[[ChromeDriver: chrome on WINDOWS (1340a92ba0c9c701d4b6c90598364410)] -> xpath: //div[@aria-label='English']]>
+
+
+# Created on 2024-02-27T15:53:01.321
+Unexpected IOException: 5,1,tests.parts.CounterSale,goto_countersaleManager_screen(tests.parts.CounterSale),tests.parts.CounterSale,null,null
+
+
+# Created on 2024-02-27T15:53:01.356
+Unexpected IOException with stream: Inside login.....
+
+

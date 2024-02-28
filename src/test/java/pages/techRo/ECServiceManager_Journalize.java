@@ -51,13 +51,19 @@ public class ECServiceManager_Journalize extends TestDriverActions {
     @FindBy(xpath = "(//a[contains(text(),'Financial Manager')])[1]")
     public WebElement txt_FinancialManager;
 
+    @FindBy(xpath = "//label[contains(text(),'Show Batches With Errors Only')]/preceding-sibling::input")
+    WebElement RadioshowerrorButton;
+
+    @FindBy(xpath = "//span[text()='Refresh']")
+    WebElement Refresh;
+
     @FindBy(xpath = "(//span[text()='Reference']/parent::div/parent::th/parent::tr/following::div/table/colgroup/following-sibling::tbody/tr/td[2]/child::span)[1]")
     WebElement RoNmber;
 
     @FindBy(xpath = "(//span[contains(text(),'O0')])[1]")
     public WebElement label_ReferenceNumber;
 
-    @FindBy(xpath = "(//span[contains(.,'GL00')])[2]")
+    @FindBy(xpath = "(//span[contains(.,'GL00')])[1]")
     WebElement BatchHash;
 
     @FindBy(xpath = "(//label[contains(text(),'RO#:')]/parent::span/following::div)[1]")
@@ -144,10 +150,22 @@ public class ECServiceManager_Journalize extends TestDriverActions {
         TestListener.saveScreenshotPNG(driver);
 
     }
+    /**click On show batch error only radio button */
+    public void clickonRadioButton () throws InterruptedException {
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(RadioshowerrorButton);
+        WebElementActions.getActions().clickElement(RadioshowerrorButton);
+
+        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(Refresh);
+        WebElementActions.getActions().clickElement(Refresh);
+
+        WaitActions.getWaits().loadingWait(loder);
+        TestListener.saveScreenshotPNG(driver);
+
+    }
+
     /** click On Ro Number  */
     public void clickOnRoNumber() throws InterruptedException {
         if (LoginActions.environmentName.contains("EU")) {
-
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(BatchHash);
             WebElementActions.getActions().clickElement(BatchHash);
             WaitActions.getWaits().loadingWait(loder);

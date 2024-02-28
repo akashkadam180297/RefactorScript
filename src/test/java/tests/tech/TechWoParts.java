@@ -29,7 +29,10 @@ public class TechWoParts extends TestDriverActions {
               part.clickMoreUnit();
               part.enterUnitNumber();
               part.clickSelect();
+              part.addWorkRequired();
+              part.clickWorkRequired();
               part.clickOnPartsTab();
+              part.clickOnKeyboardImg();
 
         }
 
@@ -37,9 +40,9 @@ public class TechWoParts extends TestDriverActions {
         @Description("Test Description - Check the Generic setup of the screen and enter Part number")
         public void verifyElement_EnterPartNumber() throws InterruptedException {
             part.verifyElementOfPart();
+  //          part.verifyLabourPresent();
             part.verifyPartListArea();
             part.enterPart();
-
         }
 
 
@@ -48,7 +51,6 @@ public class TechWoParts extends TestDriverActions {
         public void verifyPartPannel_ClickOnIssuePart() throws InterruptedException {
             part.verifyPartDetailsPannel();
             part.clickOnIssuePart();
-
         }
 
         @Test(priority=4, description = "T_005 Verify part added , click on cross button and delete the part",enabled = true)
@@ -57,8 +59,6 @@ public class TechWoParts extends TestDriverActions {
             part.verifyPartAdded();
             part.clickOnCrossBtn();
             part.clickOnDeleteBtn();
-
-
         }
 
         @Test(priority=5, description = "T_006 Enter CorePart and click on search icon",enabled = true)
@@ -77,8 +77,6 @@ public class TechWoParts extends TestDriverActions {
             part.clickOnCoreReturn();
             part.clickOnCrossBtnCore();
             part.clickOnDeleteBtnCore();
-
-
 
         }
 
@@ -162,15 +160,23 @@ public class TechWoParts extends TestDriverActions {
         @Test(priority=12, description = "T_014 click on UnitReady and Ok and signout button",enabled = true)
         @Description("Test Description - click on UnitReady and Ok and signout button")
         public void clickOnUnitReady_Ok_signoutbutton() throws InterruptedException {
+            part.enterUnitNumber();
+            part.clickSelect();
+  //          part.clickOnAccessoriesGroup();
             part.clickOkSummaryTab();
+        /*    part.clickOnAccessoriesLink();
+            part.typeComplaintNote1();
+            part.typeCause_Reason();
+            part.typeCorrection_Task();
+            part.clickOkbutton();   */
             part.clickOnUnitReadyButton();
+
+
          //   part.clickOnOkButton();
-
-         //   part.inputDeferReason();
-
-         //   part.clickOnDefere();
-            part.clickOnCancleBtn1();
-            part.clickOnUnPause_Pause_Button();
+            //   part.inputDeferReason();
+            //   part.clickOnDefere();
+    //        part.clickOnCancleBtn1();
+        //    part.clickOnUnPause_Pause_Button();
             part. clickOnSignOut();
 
         }

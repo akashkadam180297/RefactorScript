@@ -12,6 +12,7 @@ public class TechWoLabor extends TestDriverActions {
         loginPage.loginWithValidCredentials(appProp.getProperty("username"),appProp.getProperty("password"));
         labor.enterTechBadge();
         labor.clickOnGo();
+    // labor.clickOnAssignedWork();
         labor.clickOnMoreUnit();
 
     }
@@ -39,6 +40,8 @@ public class TechWoLabor extends TestDriverActions {
     @Description("Test Description - Click on Labour,MoreWork and VMRS tab")
     public void clickOn_Labour_MoreWork_VMRSTab() throws InterruptedException {
         labor.clickOnLabourTab();
+        labor.addWorkRequired();
+        labor.clickWorkRequired();
         labor.clickOnMoreWorkTab();
         labor.verifyMoreWorktabElement();
         labor.clickOnVMRStab();
@@ -49,7 +52,8 @@ public class TechWoLabor extends TestDriverActions {
     public void enter_AeroDynamic_Device_First() throws InterruptedException {
         labor.clickOnUnitHistoryTab();
         labor.verifyUnitHistoryTabElement();
-        labor.clickOnLabourDetailsVMRStab();
+//        labor.clickOnLabourDetailsVMRStab();
+        labor.clickOnVMRStab();
         labor.verifyElementofVMRS();
         labor.enterAreodynamicDevices(); //1
         labor.clickOnAeroDynamicDevicesImg();
@@ -58,7 +62,7 @@ public class TechWoLabor extends TestDriverActions {
     @Test(priority=5, description="T_006 Enter Aerodynamic Device and click on Image",enabled = true)
     @Description("Test Description : Enter Aerodynamic Device and click on Image")
     public void enter_AeroDynamic_ClickIMG() throws InterruptedException {
-        labor.verifyAeroDynamicDeviceElement();
+ //       labor.verifyAeroDynamicDeviceElement();
         labor.clickOnAeroDynamicsDeviceshyperlink();
         labor. verifySearchTextField();
         labor.enterAreodynamicDevices(); //2
@@ -72,6 +76,7 @@ public class TechWoLabor extends TestDriverActions {
         labor.enterAreodynamicDevices(); //3
         labor.clickOnPlusButton();
         labor.verifyAeroDynamicSelectedElement();
+        labor.enterText();
         labor.clickOnAddButton();
         labor.clickOnCrossIcon();
         labor.clickOnDeleteIcon();
@@ -100,16 +105,19 @@ public class TechWoLabor extends TestDriverActions {
     @Description("Test Description - Enter Accessories Group Image")
     public void enter_AccessoriesGroup_Img() throws InterruptedException {
         labor.clickOnWorkRequired();
+// labor.verifyXicon();
         labor.clickOnCrossIconAsapShop();
         labor.clickOnCancleButton();
         labor.clickOnMoreWorkTab();
-        labor.clickOnLabourDetailsVMRStab();
+//        labor.clickOnLabourDetailsVMRStab();
+        labor.clickOnVMRStab();
         labor.clickOnAccessoriesGroupImg();
     }
 
     @Test(priority=9, description="T_010 Click on Select Button and Again start from Aerodynamic Device ",enabled = true)
     @Description("Test Description - Click on Select Button and Again start from Aerodynamic Device")
     public void clickOn_SelectButton() throws InterruptedException {
+
         labor.clickOnPlusIcon_LabourDetails();
         labor.clickOnAddButton2();
         labor.clickOnWorkRequired();

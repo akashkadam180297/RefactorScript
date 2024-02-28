@@ -1,4 +1,99 @@
 -------------------------------------------------------------------------------
 Test set: tests.service.ServiceManagerWoLabor
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 921.828 s - in tests.service.ServiceManagerWoLabor
+Tests run: 18, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 676.087 s <<< FAILURE! - in tests.service.ServiceManagerWoLabor
+clickOnRoStatus_and_CloseButton(tests.service.ServiceManagerWoLabor)  Time elapsed: 26.427 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.service.ServiceManagerWoLabor.clickOnRoStatus_and_CloseButton(ServiceManagerWoLabor.java:111)
+
+clickOnWIPStatus_and_clickCancle(tests.service.ServiceManagerWoLabor)  Time elapsed: 21.221 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a id="reg1:0:rWO:0:cl53" class="xgp p_AFTextOnly" style="" data-afr-fcs="true" href="#" onclick="this.focus();return false" data-afr-tlen="17">...</a> is not clickable at point (150, 274). Other element would receive the click: <div class="AFModalGlassPane" style="width: 1366px; height: 599px; user-select: none; z-index: 82;"></div>
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2f139424945a5973edb80cc95667290, clickElement {id=f.6E06E68C46627C5B6117A8E39BC1C267.d.2C9EB75440878EBCCEC09EC3B5583C5D.e.1253}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56976/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b2f139424945a5973edb80cc95667290)] -> xpath: //label[text()='WIP Status:']/following::a[1]]
+Session ID: b2f139424945a5973edb80cc95667290
+	at tests.service.ServiceManagerWoLabor.clickOnWIPStatus_and_clickCancle(ServiceManagerWoLabor.java:118)
+
+clickOnTypelink_and_clickOnSelect(tests.service.ServiceManagerWoLabor)  Time elapsed: 21.242 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a id="reg1:0:rWO:0:clRST" class="xgp p_AFTextOnly" data-afr-fcs="true" href="#" onclick="this.focus();return false" data-afr-tlen="8">...</a> is not clickable at point (316, 229). Other element would receive the click: <div id="reg1:0:rWO:0:r7:1:tRSH::db" class="x17e" style="position: relative; width: 720px; overflow: hidden; height: 426px; z-index: 1;" _afrcolcount="4">...</div>
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2f139424945a5973edb80cc95667290, clickElement {id=f.6E06E68C46627C5B6117A8E39BC1C267.d.2C9EB75440878EBCCEC09EC3B5583C5D.e.1254}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56976/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b2f139424945a5973edb80cc95667290)] -> xpath: //label[text()='Type:']/following::a[1]]
+Session ID: b2f139424945a5973edb80cc95667290
+	at tests.service.ServiceManagerWoLabor.clickOnTypelink_and_clickOnSelect(ServiceManagerWoLabor.java:126)
+
+clickOnInvoiceTohyperlink_and_clickOnCancle(tests.service.ServiceManagerWoLabor)  Time elapsed: 24.379 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a id="reg1:0:rWO:0:clSearchCustomerQuery" class="xgp p_AFTextOnly" data-afr-fcs="true" href="#" onclick="this.focus();return false" data-afr-tlen="19">...</a> is not clickable at point (965, 148). Other element would receive the click: <div id="reg1:0:rWO:0:r7:1:pgl79" class="x1a" style="position:absolute;width:auto;height:auto;top:0px;left:0px;bottom:0px;right:0px;overflow:auto;">...</div>
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2f139424945a5973edb80cc95667290, clickElement {id=f.6E06E68C46627C5B6117A8E39BC1C267.d.2C9EB75440878EBCCEC09EC3B5583C5D.e.1255}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56976/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b2f139424945a5973edb80cc95667290)] -> xpath: //label[text()='Invoice To:']/following::a[1]]
+Session ID: b2f139424945a5973edb80cc95667290
+	at tests.service.ServiceManagerWoLabor.clickOnInvoiceTohyperlink_and_clickOnCancle(ServiceManagerWoLabor.java:135)
+
+clickViewProfitLoss_and_clickOk(tests.service.ServiceManagerWoLabor)  Time elapsed: 21.203 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span id="reg1:0:rWO:0:clVROPL::text" class="x1al">...</span> is not clickable at point (1054, 303). Other element would receive the click: <div id="reg1:0:rWO:0:r7:1:pgl79" class="x1a" style="position:absolute;width:auto;height:auto;top:0px;left:0px;bottom:0px;right:0px;overflow:auto;">...</div>
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2f139424945a5973edb80cc95667290, clickElement {id=f.6E06E68C46627C5B6117A8E39BC1C267.d.2C9EB75440878EBCCEC09EC3B5583C5D.e.1256}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56976/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b2f139424945a5973edb80cc95667290)] -> xpath: //a[contains(@id,'clVROPL')]/span]
+Session ID: b2f139424945a5973edb80cc95667290
+	at tests.service.ServiceManagerWoLabor.clickViewProfitLoss_and_clickOk(ServiceManagerWoLabor.java:143)
+
+clickOn_ShowLabourDetails_Number_ShowPartsDetails(tests.service.ServiceManagerWoLabor)  Time elapsed: 21.252 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="xfx">...</span> is not clickable at point (560, 402). Other element would receive the click: <div id="reg1:0:rWO:0:r7:1:tRSH::db" class="x17e" style="position: relative; width: 720px; overflow: hidden; height: 426px; z-index: 1;" _afrcolcount="4">...</div>
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2f139424945a5973edb80cc95667290, clickElement {id=f.6E06E68C46627C5B6117A8E39BC1C267.d.2C9EB75440878EBCCEC09EC3B5583C5D.e.1257}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56976/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b2f139424945a5973edb80cc95667290)] -> xpath: //span[text()='Re-Sequence']/following::span[1]]
+Session ID: b2f139424945a5973edb80cc95667290
+	at tests.service.ServiceManagerWoLabor.clickOn_ShowLabourDetails_Number_ShowPartsDetails(ServiceManagerWoLabor.java:152)
+
+clickOnBacktoCompleteRo_and_ReferenceNumber(tests.service.ServiceManagerWoLabor)  Time elapsed: 21.202 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span id="reg1:0:rWO:0:ciTFR::text" class="x1al">...</span> is not clickable at point (77, 102). Other element would receive the click: <div class="AFModalGlassPane" style="width: 1366px; height: 599px; user-select: none; z-index: 82;"></div>
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2f139424945a5973edb80cc95667290, clickElement {id=f.6E06E68C46627C5B6117A8E39BC1C267.d.2C9EB75440878EBCCEC09EC3B5583C5D.e.1258}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56976/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b2f139424945a5973edb80cc95667290)] -> xpath: //span[text()='Back to Complete RO']]
+Session ID: b2f139424945a5973edb80cc95667290
+	at tests.service.ServiceManagerWoLabor.clickOnBacktoCompleteRo_and_ReferenceNumber(ServiceManagerWoLabor.java:160)
+
+clickOnUpdateRates_and_SignOut(tests.service.ServiceManagerWoLabor)  Time elapsed: 21.254 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span id="reg1:0:rWO:0:cl12::text" class="x1al">...</span> is not clickable at point (1070, 225). Other element would receive the click: <div id="reg1:0:rWO:0:r7:1:pgl79" class="x1a" style="position:absolute;width:auto;height:auto;top:0px;left:0px;bottom:0px;right:0px;overflow:auto;">...</div>
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2f139424945a5973edb80cc95667290, clickElement {id=f.6E06E68C46627C5B6117A8E39BC1C267.d.2C9EB75440878EBCCEC09EC3B5583C5D.e.1259}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56976/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b2f139424945a5973edb80cc95667290)] -> xpath: //a[contains(@id,'cl12')]/span]
+Session ID: b2f139424945a5973edb80cc95667290
+	at tests.service.ServiceManagerWoLabor.clickOnUpdateRates_and_SignOut(ServiceManagerWoLabor.java:168)
+

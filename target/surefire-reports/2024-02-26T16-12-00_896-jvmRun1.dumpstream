@@ -1,0 +1,29 @@
+# Created on 2024-02-26T16:12:34.690
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created on 2024-02-26T16:12:39.141
+Unexpected IOException with stream: WebElement is visible using locator: <[[ChromeDriver: chrome on WINDOWS (15bcbc7a3bd3ccc2f870777265cab8a8)] -> xpath: //div[@aria-label='English']]>
+
+
+# Created on 2024-02-26T16:12:39.147
+Unexpected IOException: 5,1,tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder,Test_001_gotoCompleteRo(tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder),tests.Partsrelateditems.Addafabricatedparttoaclosedworkorder,null,null
+
+
+# Created on 2024-02-26T16:12:39.164
+Unexpected IOException with stream: Inside login.....
+
+
+# Created on 2024-02-26T16:12:42.192
+Unexpected IOException with stream: WebElement is visible using locator: <[[ChromeDriver: chrome on WINDOWS (15bcbc7a3bd3ccc2f870777265cab8a8)] -> name: username]>
+
+
+# Created on 2024-02-26T16:12:53.428
+Unexpected IOException with stream: WebElement is clickable using locator: <[[ChromeDriver: chrome on WINDOWS (15bcbc7a3bd3ccc2f870777265cab8a8)] -> xpath: //div[@id='signin']]>
+
+

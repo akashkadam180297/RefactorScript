@@ -1,4 +1,4 @@
-package pages.administration;
+package pages.ticket;
 
 import actions.ReusableActions;
 import actions.WaitActions;

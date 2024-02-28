@@ -35,6 +35,7 @@ public class ServiceManagerJournalize extends TestDriverActions {
     @Description("Test Description: Click OnGenerate Journals")
     public void Test_004_clickOnFinancialManagerText ()    throws InterruptedException, IOException {
         journalizepage.clickOnFinancialManagerText();
+        journalizepage.clickonRadioButton ();
         journalizepage.clickOnRoNumber();
         journalizepage.verifyRoNumbertext();
         journalizepage.clickOnSignOut ();

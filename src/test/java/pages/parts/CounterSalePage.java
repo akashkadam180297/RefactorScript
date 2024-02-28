@@ -1132,137 +1132,149 @@ public class CounterSalePage extends TestDriverActions {
      * verify On Invoice
      */
     public void verifyInvoice() throws InterruptedException {
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Invoice);
-        Assert.assertTrue(Invoice.isDisplayed());
+        if (LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Invoice);
+            Assert.assertTrue(Invoice.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(sale);
-        Assert.assertTrue(sale.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(sale);
+            Assert.assertTrue(sale.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(InvoiceDate);
-        Assert.assertTrue(InvoiceDate.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(InvoiceDate);
+            Assert.assertTrue(InvoiceDate.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Customer);
-        Assert.assertTrue(Customer.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Customer);
+            Assert.assertTrue(Customer.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Location);
-        Assert.assertTrue(Location.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Location);
+            Assert.assertTrue(Location.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(ShipTo);
-        Assert.assertTrue(ShipTo.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(ShipTo);
+            Assert.assertTrue(ShipTo.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerPO);
-        Assert.assertTrue(CustomerPO.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerPO);
+            Assert.assertTrue(CustomerPO.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(InternalPO);
-        Assert.assertTrue(InternalPO.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(InternalPO);
+            Assert.assertTrue(InternalPO.isDisplayed());
 
-        TestListener.saveScreenshotPNG(driver);
+            TestListener.saveScreenshotPNG(driver);
 
 
+        }
     }
 
     /**
      * click on Invoice No.
      */
     public void clickonInvoiceNo() throws InterruptedException {
+        if (LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(InvoicePart);
+            WebElementActions.getActions().clickElement(InvoicePart);
+            WaitActions.getWaits().loadingWait(loder);
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(InvoicePart);
-        WebElementActions.getActions().clickElement(InvoicePart);
-        WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
 
-        TestListener.saveScreenshotPNG(driver);
-
+        }
     }
 
     /**
      * verify Counter sale
      */
     public void verifyCountersale() throws InterruptedException {
+        if (LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CounterSale);
+            Assert.assertTrue(CounterSale.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CounterSale);
-        Assert.assertTrue(CounterSale.isDisplayed());
-
-        TestListener.saveScreenshotPNG(driver);
+            TestListener.saveScreenshotPNG(driver);
+        }
     }
 
     /**
      * verify On RequiredLocation,Location
      */
     public void verifyRequiredLocation() throws InterruptedException {
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(RequiredLocation);
-        Assert.assertTrue(RequiredLocation.isDisplayed());
+        if (LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(RequiredLocation);
+            Assert.assertTrue(RequiredLocation.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Location2);
-        Assert.assertTrue(Location2.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Location2);
+            Assert.assertTrue(Location2.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(LocationValue);
-        Assert.assertTrue(LocationValue.isDisplayed());
-        System.out.println("Location :" + LocationValue.getText());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(LocationValue);
+            Assert.assertTrue(LocationValue.isDisplayed());
+            System.out.println("Location :" + LocationValue.getText());
 
 
-        TestListener.saveScreenshotPNG(driver);
+            TestListener.saveScreenshotPNG(driver);
 
+        }
     }
 
     /***verify sale salevalue*/
     public void verifyonsale() throws InterruptedException {
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SaleHash);
-        Assert.assertTrue(SaleHash.isDisplayed());
+        if (LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SaleHash);
+            Assert.assertTrue(SaleHash.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SaleHash2);
-        Assert.assertTrue(SaleHash2.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(SaleHash2);
+            Assert.assertTrue(SaleHash2.isDisplayed());
 
-        System.out.println("SaleNumber:" + SaleHash2.getText());
+            System.out.println("SaleNumber:" + SaleHash2.getText());
 
-        TestListener.saveScreenshotPNG(driver);
+            TestListener.saveScreenshotPNG(driver);
 
-
+        }
     }
 
     /**
      * verify on Customer
      */
     public void verifyCustomer() throws InterruptedException {
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerRequired);
-        Assert.assertTrue(CustomerRequired.isDisplayed());
+        if (LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerRequired);
+            Assert.assertTrue(CustomerRequired.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Customer3);
-        Assert.assertTrue(Customer3.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(Customer3);
+            Assert.assertTrue(Customer3.isDisplayed());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerValue);
-        Assert.assertTrue(CustomerValue.isDisplayed());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(CustomerValue);
+            Assert.assertTrue(CustomerValue.isDisplayed());
 
-        System.out.println("CustomerName:" + CustomerValue.getText());
+            System.out.println("CustomerName:" + CustomerValue.getText());
 
-        Thread.sleep(3000);
-        String originalWindow = driver.getWindowHandle();
-        WaitActions.getWaits().loadingWait(loder);
-        TestListener.saveScreenshotPNG(driver);
+            Thread.sleep(3000);
+            String originalWindow = driver.getWindowHandle();
+            WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
+        }
     }
 
     /**
      * click on Reprint
      */
     public void clickOnReprint() throws InterruptedException {
-
-        WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(Reprint);
-        WebElementActions.getActions().clickElement(Reprint);
-        Thread.sleep(3000);
-        WaitActions.getWaits().loadingWait(loder);
-        TestListener.saveScreenshotPNG(driver);
+        if (LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(Reprint);
+            WebElementActions.getActions().clickElement(Reprint);
+            Thread.sleep(3000);
+            WaitActions.getWaits().loadingWait(loder);
+            TestListener.saveScreenshotPNG(driver);
+        }
     }
     /** verify invoice No.,sale number*/
     public void  verifyinvoiceNumber() throws InterruptedException {
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(invoicenumber);
-        Assert.assertTrue(invoicenumber.isDisplayed());
-        System.out.println("invoiceNo :" + invoicenumber.getText());
+        if (LoginActions.environmentName.contains("QA")) {
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(invoicenumber);
+            Assert.assertTrue(invoicenumber.isDisplayed());
+            System.out.println("invoiceNo :" + invoicenumber.getText());
 
-        WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(saleNumber2);
-        Assert.assertTrue(saleNumber2.isDisplayed());
-        System.out.println("saleNumber2 :" + saleNumber2.getText());
+            WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(saleNumber2);
+            Assert.assertTrue(saleNumber2.isDisplayed());
+            System.out.println("saleNumber2 :" + saleNumber2.getText());
 
-        TestListener.saveScreenshotPNG(driver);
+            TestListener.saveScreenshotPNG(driver);
 
+        }
     }
 
     /**

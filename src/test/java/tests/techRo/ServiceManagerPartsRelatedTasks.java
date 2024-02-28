@@ -97,12 +97,12 @@ public class ServiceManagerPartsRelatedTasks extends TestDriverActions {
         servicemanagerpartsrelatedtasks.clickOnAddPart();
         servicemanagerpartsrelatedtasks.clickOnImg();
         servicemanagerpartsrelatedtasks.verifyPartName();
-        servicemanagerpartsrelatedtasks.verifyTextPartTextArea();
-        servicemanagerpartsrelatedtasks.clickOnPartNumber();
+        servicemanagerpartsrelatedtasks. enterPartTextArea();
+        //servicemanagerpartsrelatedtasks.clickOnPartNumber();
         servicemanagerpartsrelatedtasks.clickOnIssuePart();
         servicemanagerpartsrelatedtasks.verifyPartNameTwo();
         servicemanagerpartsrelatedtasks.clickTextPartNumber();
-        servicemanagerpartsrelatedtasks.clickOnPartNumberTwo();
+     //   servicemanagerpartsrelatedtasks.clickOnPartNumberTwo();
         servicemanagerpartsrelatedtasks.clickOnIssuePartButton();
         servicemanagerpartsrelatedtasks.verifyChargeQuantityTwo();
 

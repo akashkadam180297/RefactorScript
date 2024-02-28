@@ -19,7 +19,7 @@ import pages.LoginPage;
 import pages.Partsrelateditems.Add_a_fabricatedpart_to_a_closed_workorder;
 import pages.administration.CreateCustomerPage;
 import pages.administration.CreateVendorPage;
-import pages.administration.TransitonedPaccar;
+
 import pages.estimating.ApproveanEstimateDMSPage;
 import pages.estimating.PerformTheWorkOnAnEstimateTech;
 import pages.fleet.CreateRedTagDMS;
@@ -27,7 +27,6 @@ import pages.fleet.CreateUnitPage;
 import pages.fleet.SetUpWorkRequired;
 
 
-import pages.fleet.UOMforpressureonInspectionInformation_ALLOWED;
 import pages.parts.*;
 //import pages.pmWorkFlow.WorkOrderWorkflowPage;
 import pages.pmWorkFlow.cGVTechPerformPM;
@@ -39,6 +38,9 @@ import pages.tech.EC_Tech_WoLabor;
 import pages.tech.EC_Tech_WoParts;
 
 
+import pages.ticket.OverRideTaxesCauseOtherTaxDisappear;
+import pages.ticket.TransitonedPaccar;
+import pages.ticket.UOMforpressureonInspectionInformation_ALLOWED;
 import tests.parts.Spotorderparts;
 import utils.TestListener;
 
@@ -93,6 +95,8 @@ public class TestDriverActions {
 
     public TransitonedPaccar location;
     public UOMforpressureonInspectionInformation_ALLOWED unitinspectioninformation;
+
+    public OverRideTaxesCauseOtherTaxDisappear overRideTaxes;
 
 
 
@@ -221,6 +225,10 @@ public class TestDriverActions {
 
             HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
             ChromeOptions options = new ChromeOptions();
+            chromePrefs.put("plugins.plugins_disabled", new String[] { "Chrome PDF Viewer" });
+            chromePrefs.put("plugins.always_open_pdf_externally", true);
+            chromePrefs.put("download.prompt_for_download", false);
+            chromePrefs.put("download.default_directory", System.getProperty("user.dir")+"\\downloadFiles");
             options.addArguments("--remote-allow-origins=*");
             options.setExperimentalOption("prefs", chromePrefs);
             WebDriverManager.chromedriver().setup();
@@ -298,6 +306,8 @@ public class TestDriverActions {
         addafabricatedparttoaclosedworkorder=PageFactory.initElements(driver,Add_a_fabricatedpart_to_a_closed_workorder.class);
         location=PageFactory.initElements(driver,TransitonedPaccar.class);
         unitinspectioninformation=PageFactory.initElements(driver,UOMforpressureonInspectionInformation_ALLOWED.class);
+        overRideTaxes=PageFactory.initElements(driver,OverRideTaxesCauseOtherTaxDisappear.class);
+
         loginPage.selectCountryFromDropDown();
 
         property();
@@ -495,6 +505,9 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("UomforpressureonInspectionInformationAllowed")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/UomforpressureonInspectionInformationAllowedReports/" + "__" + currentDateTime;
         }
+        else if (getClass().getCanonicalName().contains("OverRideTaxesCauseOtherTaxDisappear")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/OverRideTaxesCauseOtherTaxDisappearReports/" + "__" + currentDateTime;
+        }
 
 
 
@@ -635,6 +648,9 @@ public class TestDriverActions {
             }
             else if (getClass().getCanonicalName().contains("UomforpressureonInspectionInformationAllowed")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\UomforpressureonInspectionInformationAllowedReports\\" + theDir.getName();
+            }
+            else if (getClass().getCanonicalName().contains("OverRideTaxesCauseOtherTaxDisappear")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\OverRideTaxesCauseOtherTaxDisappearReports\\" + theDir.getName();
             }
 
 
