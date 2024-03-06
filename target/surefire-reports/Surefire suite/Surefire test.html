@@ -1,0 +1,323 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 06 18:30:18 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>617 seconds (617349 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_006_verifyWarehouseName()'><b>Test_006_verifyWarehouseName</b><br>Test class: tests.ticket.UnableToRemoveCoreLink_CONVOY<br>Test method: Test_006_verify Warehouse Name</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at pages.ticket.UnableToRemoveCoreLink_CONVOY.verifypartdescription(UnableToRemoveCoreLink_CONVOY.java:611)
+	at tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_006_verifyWarehouseName(UnableToRemoveCoreLink_CONVOY.java:70)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace694986604", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace694986604'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pages.ticket.UnableToRemoveCoreLink_CONVOY.verifypartdescription(UnableToRemoveCoreLink_CONVOY.java:611)
+	at tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_006_verifyWarehouseName(UnableToRemoveCoreLink_CONVOY.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>126</td>
+<td>tests.ticket.UnableToRemoveCoreLink_CONVOY@319854f0</td></tr>
+<tr>
+<td title='tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_007_gotoPartMaster()'><b>Test_007_gotoPartMaster</b><br>Test class: tests.ticket.UnableToRemoveCoreLink_CONVOY<br>Test method: Test_007_go to Part Master</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a onclick=&quot;return false&quot; class=&quot;x18v&quot; tabindex=&quot;-1&quot; href=&quot;#&quot;&gt;...&lt;/a&gt; is not clickable at point (165, 52). Other element would receive the click: &lt;div class=&quot;AFModalGlassPane&quot; style=&quot;width: 1349px; height: 664px; user-select: none; z-index: 110;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=122.0.6261.95)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [302e688dc5b24d5e2e8fbc81b4687ef0, clickElement {id=f.971715C47851DA93327C117C56ECD26B.d.CD1CFC0B90F1EDF53AC41037541F935B.e.620}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (302e688dc5b24d5e2e8fbc81b4687ef0)] -&gt; xpath: //table[@class=&apos;af_menuBar_items&apos;]//table//td//a[text()=&apos;Parts&apos;]]
+Session ID: 302e688dc5b24d5e2e8fbc81b4687ef0
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at actions.ReusableActions.clickParentMenu(ReusableActions.java:38)
+	at pages.ticket.UnableToRemoveCoreLink_CONVOY.gotoPartMaster(UnableToRemoveCoreLink_CONVOY.java:303)
+	at tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_007_gotoPartMaster(UnableToRemoveCoreLink_CONVOY.java:79)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace910260446", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace910260446'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a onclick=&quot;return false&quot; class=&quot;x18v&quot; tabindex=&quot;-1&quot; href=&quot;#&quot;&gt;...&lt;/a&gt; is not clickable at point (165, 52). Other element would receive the click: &lt;div class=&quot;AFModalGlassPane&quot; style=&quot;width: 1349px; height: 664px; user-select: none; z-index: 110;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=122.0.6261.95)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [302e688dc5b24d5e2e8fbc81b4687ef0, clickElement {id=f.971715C47851DA93327C117C56ECD26B.d.CD1CFC0B90F1EDF53AC41037541F935B.e.620}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (302e688dc5b24d5e2e8fbc81b4687ef0)] -&gt; xpath: //table[@class=&apos;af_menuBar_items&apos;]//table//td//a[text()=&apos;Parts&apos;]]
+Session ID: 302e688dc5b24d5e2e8fbc81b4687ef0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at actions.ReusableActions.clickParentMenu(ReusableActions.java:38)
+	at pages.ticket.UnableToRemoveCoreLink_CONVOY.gotoPartMaster(UnableToRemoveCoreLink_CONVOY.java:303)
+	at tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_007_gotoPartMaster(UnableToRemoveCoreLink_CONVOY.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>1</td>
+<td>tests.ticket.UnableToRemoveCoreLink_CONVOY@319854f0</td></tr>
+<tr>
+<td title='tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_008_clickOnSignOut()'><b>Test_008_clickOnSignOut</b><br>Test class: tests.ticket.UnableToRemoveCoreLink_CONVOY<br>Test method: Test_009_click On SignOut () </td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a data-afr-tlen=&quot;8&quot; id=&quot;cl1&quot; class=&quot;xgn&quot; onclick=&quot;this.focus();return false;&quot; data-afr-fcs=&quot;true&quot; href=&quot;#&quot;&gt;...&lt;/a&gt; is not clickable at point (1320, 13). Other element would receive the click: &lt;div class=&quot;AFModalGlassPane&quot; style=&quot;width: 1349px; height: 664px; user-select: none; z-index: 110;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=122.0.6261.95)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [302e688dc5b24d5e2e8fbc81b4687ef0, clickElement {id=f.971715C47851DA93327C117C56ECD26B.d.CD1CFC0B90F1EDF53AC41037541F935B.e.621}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (302e688dc5b24d5e2e8fbc81b4687ef0)] -&gt; xpath: //a[text()=&apos;Sign Out&apos;]]
+Session ID: 302e688dc5b24d5e2e8fbc81b4687ef0
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.ticket.UnableToRemoveCoreLink_CONVOY.clickOnSignOut(UnableToRemoveCoreLink_CONVOY.java:651)
+	at tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_008_clickOnSignOut(UnableToRemoveCoreLink_CONVOY.java:91)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1274104476", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1274104476'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a data-afr-tlen=&quot;8&quot; id=&quot;cl1&quot; class=&quot;xgn&quot; onclick=&quot;this.focus();return false;&quot; data-afr-fcs=&quot;true&quot; href=&quot;#&quot;&gt;...&lt;/a&gt; is not clickable at point (1320, 13). Other element would receive the click: &lt;div class=&quot;AFModalGlassPane&quot; style=&quot;width: 1349px; height: 664px; user-select: none; z-index: 110;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=122.0.6261.95)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [302e688dc5b24d5e2e8fbc81b4687ef0, clickElement {id=f.971715C47851DA93327C117C56ECD26B.d.CD1CFC0B90F1EDF53AC41037541F935B.e.621}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (302e688dc5b24d5e2e8fbc81b4687ef0)] -&gt; xpath: //a[text()=&apos;Sign Out&apos;]]
+Session ID: 302e688dc5b24d5e2e8fbc81b4687ef0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.ticket.UnableToRemoveCoreLink_CONVOY.clickOnSignOut(UnableToRemoveCoreLink_CONVOY.java:651)
+	at tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_008_clickOnSignOut(UnableToRemoveCoreLink_CONVOY.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>21</td>
+<td>tests.ticket.UnableToRemoveCoreLink_CONVOY@319854f0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_001_gotoPartMaster()'><b>Test_001_gotoPartMaster</b><br>Test class: tests.ticket.UnableToRemoveCoreLink_CONVOY<br>Test method: Test_001_verify and using Login and password credentials</td>
+<td></td>
+<td>46</td>
+<td>tests.ticket.UnableToRemoveCoreLink_CONVOY@319854f0</td></tr>
+<tr>
+<td title='tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_002_clickonPartNumber()'><b>Test_002_clickonPartNumber</b><br>Test class: tests.ticket.UnableToRemoveCoreLink_CONVOY<br>Test method: Test_002_click on part number</td>
+<td></td>
+<td>111</td>
+<td>tests.ticket.UnableToRemoveCoreLink_CONVOY@319854f0</td></tr>
+<tr>
+<td title='tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_003_verifyName()'><b>Test_003_verifyName</b><br>Test class: tests.ticket.UnableToRemoveCoreLink_CONVOY<br>Test method: Test_003_click on part number</td>
+<td></td>
+<td>73</td>
+<td>tests.ticket.UnableToRemoveCoreLink_CONVOY@319854f0</td></tr>
+<tr>
+<td title='tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_004_RequiredproductGroup()'><b>Test_004_RequiredproductGroup</b><br>Test class: tests.ticket.UnableToRemoveCoreLink_CONVOY<br>Test method: Test_004_verify required product group</td>
+<td></td>
+<td>137</td>
+<td>tests.ticket.UnableToRemoveCoreLink_CONVOY@319854f0</td></tr>
+<tr>
+<td title='tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_005_gotoInventoryAdjustment()'><b>Test_005_gotoInventoryAdjustment</b><br>Test class: tests.ticket.UnableToRemoveCoreLink_CONVOY<br>Test method: Test_005_go to Inventory Adjustment</td>
+<td></td>
+<td>59</td>
+<td>tests.ticket.UnableToRemoveCoreLink_CONVOY@319854f0</td></tr>
+</table><p>
+</body>
+</html>

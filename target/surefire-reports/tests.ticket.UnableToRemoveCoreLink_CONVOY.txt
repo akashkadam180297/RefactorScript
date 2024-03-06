@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: tests.ticket.UnableToRemoveCoreLink_CONVOY
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 618.404 s <<< FAILURE! - in tests.ticket.UnableToRemoveCoreLink_CONVOY
+Test_006_verifyWarehouseName(tests.ticket.UnableToRemoveCoreLink_CONVOY)  Time elapsed: 127.065 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_006_verifyWarehouseName(UnableToRemoveCoreLink_CONVOY.java:70)
+
+Test_007_gotoPartMaster(tests.ticket.UnableToRemoveCoreLink_CONVOY)  Time elapsed: 1.128 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a onclick="return false" class="x18v" tabindex="-1" href="#">...</a> is not clickable at point (165, 52). Other element would receive the click: <div class="AFModalGlassPane" style="width: 1349px; height: 664px; user-select: none; z-index: 110;"></div>
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [302e688dc5b24d5e2e8fbc81b4687ef0, clickElement {id=f.971715C47851DA93327C117C56ECD26B.d.CD1CFC0B90F1EDF53AC41037541F935B.e.620}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (302e688dc5b24d5e2e8fbc81b4687ef0)] -> xpath: //table[@class='af_menuBar_items']//table//td//a[text()='Parts']]
+Session ID: 302e688dc5b24d5e2e8fbc81b4687ef0
+	at tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_007_gotoPartMaster(UnableToRemoveCoreLink_CONVOY.java:79)
+
+Test_008_clickOnSignOut(tests.ticket.UnableToRemoveCoreLink_CONVOY)  Time elapsed: 21.212 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a data-afr-tlen="8" id="cl1" class="xgn" onclick="this.focus();return false;" data-afr-fcs="true" href="#">...</a> is not clickable at point (1320, 13). Other element would receive the click: <div class="AFModalGlassPane" style="width: 1349px; height: 664px; user-select: none; z-index: 110;"></div>
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [302e688dc5b24d5e2e8fbc81b4687ef0, clickElement {id=f.971715C47851DA93327C117C56ECD26B.d.CD1CFC0B90F1EDF53AC41037541F935B.e.621}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (302e688dc5b24d5e2e8fbc81b4687ef0)] -> xpath: //a[text()='Sign Out']]
+Session ID: 302e688dc5b24d5e2e8fbc81b4687ef0
+	at tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_008_clickOnSignOut(UnableToRemoveCoreLink_CONVOY.java:91)
+
+generateAllure(tests.ticket.UnableToRemoveCoreLink_CONVOY)  Time elapsed: 21.423 s  <<< FAILURE!
+java.io.IOException: Cannot run program "F:\GithubFinal\RefactorScript\allure-2.13.6\bin\allure.bat": CreateProcess error=2, The system cannot find the file specified
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+
