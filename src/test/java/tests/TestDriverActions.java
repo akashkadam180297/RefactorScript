@@ -41,6 +41,7 @@ import pages.tech.EC_Tech_WoParts;
 import pages.ticket.OverRideTaxesCauseOtherTaxDisappear;
 import pages.ticket.TransitonedPaccar;
 import pages.ticket.UOMforpressureonInspectionInformation_ALLOWED;
+import pages.ticket.UnableToRemoveCoreLink_CONVOY;
 import tests.parts.Spotorderparts;
 import utils.TestListener;
 
@@ -97,7 +98,7 @@ public class TestDriverActions {
     public UOMforpressureonInspectionInformation_ALLOWED unitinspectioninformation;
 
     public OverRideTaxesCauseOtherTaxDisappear overRideTaxes;
-
+    public UnableToRemoveCoreLink_CONVOY unabletoremovecorelink;
 
 
 
@@ -307,6 +308,7 @@ public class TestDriverActions {
         location=PageFactory.initElements(driver,TransitonedPaccar.class);
         unitinspectioninformation=PageFactory.initElements(driver,UOMforpressureonInspectionInformation_ALLOWED.class);
         overRideTaxes=PageFactory.initElements(driver,OverRideTaxesCauseOtherTaxDisappear.class);
+        unabletoremovecorelink=PageFactory.initElements(driver,UnableToRemoveCoreLink_CONVOY.class);
 
         loginPage.selectCountryFromDropDown();
 
@@ -508,6 +510,9 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("OverRideTaxesCauseOtherTaxDisappear")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/OverRideTaxesCauseOtherTaxDisappearReports/" + "__" + currentDateTime;
         }
+        else if (getClass().getCanonicalName().contains("UnableToRemoveCoreLink_CONVOY")) {
+            folderPath = System.getProperty("user.dir") + "/allure-results/Reports/UnableToRemoveCoreLink_CONVOYReports/" + "__" + currentDateTime;
+        }
 
 
 
@@ -651,6 +656,9 @@ public class TestDriverActions {
             }
             else if (getClass().getCanonicalName().contains("OverRideTaxesCauseOtherTaxDisappear")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\OverRideTaxesCauseOtherTaxDisappearReports\\" + theDir.getName();
+            }
+            else if (getClass().getCanonicalName().contains("UnableToRemoveCoreLink_CONVOY")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\UnableToRemoveCoreLink_CONVOYReports\\" + theDir.getName();
             }
 
 

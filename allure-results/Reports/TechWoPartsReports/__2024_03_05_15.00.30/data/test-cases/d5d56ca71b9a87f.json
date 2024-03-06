@@ -1,0 +1,155 @@
+{
+  "uid" : "d5d56ca71b9a87f",
+  "name" : "T_013 Click on Summary and pause and select button",
+  "fullName" : "tests.tech.TechWoParts.ClickOnSummary_pause_selectbutton",
+  "historyId" : "9bc372c238bc24dbbea0eed5afd8d9ec",
+  "time" : {
+    "start" : 1709630834189,
+    "stop" : 1709630934010,
+    "duration" : 99821
+  },
+  "description" : "Test Description - Click on Summary and pause and select button",
+  "descriptionHtml" : "<p>Test Description - Click on Summary and pause and select button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1709630233016,
+      "stop" : 1709630270245,
+      "duration" : 37229
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Click on Summary and pause and select button",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "976e2d4d303a4fe5",
+      "name" : "Page Screenshot",
+      "source" : "976e2d4d303a4fe5.png",
+      "type" : "image/png",
+      "size" : 77562
+    }, {
+      "uid" : "22a8576fc6b7e12f",
+      "name" : "Page Screenshot",
+      "source" : "22a8576fc6b7e12f.png",
+      "type" : "image/png",
+      "size" : 83030
+    }, {
+      "uid" : "8763afe0cc76be47",
+      "name" : "Page Screenshot",
+      "source" : "8763afe0cc76be47.png",
+      "type" : "image/png",
+      "size" : 23063
+    }, {
+      "uid" : "fcd77845b7afe9b6",
+      "name" : "Page Screenshot",
+      "source" : "fcd77845b7afe9b6.png",
+      "type" : "image/png",
+      "size" : 23306
+    }, {
+      "uid" : "45addb514b3efe54",
+      "name" : "Page Screenshot",
+      "source" : "45addb514b3efe54.png",
+      "type" : "image/png",
+      "size" : 91055
+    }, {
+      "uid" : "858a80a963d547f0",
+      "name" : "Page Screenshot",
+      "source" : "858a80a963d547f0.png",
+      "type" : "image/png",
+      "size" : 91055
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709630934010,
+      "stop" : 1709630934076,
+      "duration" : 66
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "da4c312f0c736997",
+      "name" : "Page Screenshot",
+      "source" : "da4c312f0c736997.png",
+      "type" : "image/png",
+      "size" : 91036
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "ClickOnSummary_pause_selectbutton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "19988@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "WoParts Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5d56ca71b9a87f.json",
+  "parameterValues" : [ ]
+}

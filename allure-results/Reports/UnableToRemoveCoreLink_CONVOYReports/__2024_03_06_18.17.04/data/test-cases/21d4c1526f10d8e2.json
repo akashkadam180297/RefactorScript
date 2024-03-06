@@ -1,0 +1,101 @@
+{
+  "uid" : "21d4c1526f10d8e2",
+  "name" : "Test_002_click on part number",
+  "fullName" : "tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_002_clickonPartNumber",
+  "historyId" : "df283bde3ef05792b60a55807c705e3c",
+  "time" : {
+    "start" : 1709727615679,
+    "stop" : 1709727727740,
+    "duration" : 112061
+  },
+  "description" : "Test Description - click on part number ",
+  "descriptionHtml" : "<p>Test Description - click on part number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description - click on part number ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2867f3a2cf80f82d",
+      "name" : "Page Screenshot",
+      "source" : "2867f3a2cf80f82d.png",
+      "type" : "image/png",
+      "size" : 113450
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709727727744,
+      "stop" : 1709727727807,
+      "duration" : 63
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e0f2b3a2044f2af5",
+      "name" : "Page Screenshot",
+      "source" : "e0f2b3a2044f2af5.png",
+      "type" : "image/png",
+      "size" : 113450
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_002_clickonPartNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "24440@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21d4c1526f10d8e2.json",
+  "parameterValues" : [ ]
+}

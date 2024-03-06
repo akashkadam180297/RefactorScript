@@ -1,0 +1,125 @@
+{
+  "uid" : "a395f879377730ea",
+  "name" : "Test_009_click On SignOut () ",
+  "fullName" : "tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_008_clickOnSignOut",
+  "historyId" : "251c30d75ced0185e2c31d653bf4b559",
+  "time" : {
+    "start" : 1709724622103,
+    "stop" : 1709724650451,
+    "duration" : 28348
+  },
+  "description" : "Test Description -click On Sign Out",
+  "descriptionHtml" : "<p>Test Description -click On Sign Out</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1709724269580,
+      "stop" : 1709724307637,
+      "duration" : 38057
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description -click On Sign Out",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "86bd0b5202954526",
+      "name" : "Page Screenshot",
+      "source" : "86bd0b5202954526.png",
+      "type" : "image/png",
+      "size" : 113125
+    }, {
+      "uid" : "110880510dcaa8db",
+      "name" : "Page Screenshot",
+      "source" : "110880510dcaa8db.png",
+      "type" : "image/png",
+      "size" : 13130
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709724650452,
+      "stop" : 1709724650487,
+      "duration" : 35
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "95c10a1fde620c8a",
+      "name" : "Page Screenshot",
+      "source" : "95c10a1fde620c8a.png",
+      "type" : "image/png",
+      "size" : 13130
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_008_clickOnSignOut"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "5396@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a395f879377730ea.json",
+  "parameterValues" : [ ]
+}

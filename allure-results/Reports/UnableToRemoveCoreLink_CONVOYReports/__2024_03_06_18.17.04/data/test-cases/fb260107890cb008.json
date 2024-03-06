@@ -1,0 +1,110 @@
+{
+  "uid" : "fb260107890cb008",
+  "name" : "Test_005_go to Inventory Adjustment",
+  "fullName" : "tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_005_gotoInventoryAdjustment",
+  "historyId" : "fc258c973b8027ac982098c5247bc672",
+  "time" : {
+    "start" : 1709729106386,
+    "stop" : 1709729165104,
+    "duration" : 58718
+  },
+  "description" : "Test Description -go to Inventory Adjustment ",
+  "descriptionHtml" : "<p>Test Description -go to Inventory Adjustment</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1709728697483,
+      "stop" : 1709728738562,
+      "duration" : 41079
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709729165106,
+      "stop" : 1709729165170,
+      "duration" : 64
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2c05ece3fa172f82",
+      "name" : "Page Screenshot",
+      "source" : "2c05ece3fa172f82.png",
+      "type" : "image/png",
+      "size" : 65434
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_005_gotoInventoryAdjustment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "16376@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "81914a05dce3776d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709727938185,
+        "stop" : 1709727997361,
+        "duration" : 59176
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb260107890cb008.json",
+  "parameterValues" : [ ]
+}

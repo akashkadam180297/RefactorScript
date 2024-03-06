@@ -1,0 +1,125 @@
+{
+  "uid" : "a7acc4b73c1c66f3",
+  "name" : "T_012 Click on FirstLaborItem and Select and Ok button",
+  "fullName" : "tests.tech.TechWoParts.ClickOnMoisesOlivas_Select_OkButton1",
+  "historyId" : "cf137cea4937d28f8d54ef8a63115bf0",
+  "time" : {
+    "start" : 1709630834033,
+    "stop" : 1709630834111,
+    "duration" : 78
+  },
+  "description" : "Test Description - Click on FirstLaborItem and Select and Ok button",
+  "descriptionHtml" : "<p>Test Description - Click on FirstLaborItem and Select and Ok button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1709630233016,
+      "stop" : 1709630270245,
+      "duration" : 37229
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Click on FirstLaborItem and Select and Ok button",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "780bf5449c718097",
+      "name" : "Page Screenshot",
+      "source" : "780bf5449c718097.png",
+      "type" : "image/png",
+      "size" : 90820
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709630834111,
+      "stop" : 1709630834187,
+      "duration" : 76
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e0848765571b97a7",
+      "name" : "Page Screenshot",
+      "source" : "e0848765571b97a7.png",
+      "type" : "image/png",
+      "size" : 90834
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "ClickOnMoisesOlivas_Select_OkButton1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "19988@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "WoParts Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7acc4b73c1c66f3.json",
+  "parameterValues" : [ ]
+}

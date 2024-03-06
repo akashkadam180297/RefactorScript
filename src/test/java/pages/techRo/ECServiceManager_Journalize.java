@@ -66,8 +66,12 @@ public class ECServiceManager_Journalize extends TestDriverActions {
     @FindBy(xpath = "(//span[contains(.,'GL00')])[1]")
     WebElement BatchHash;
 
-    @FindBy(xpath = "(//label[contains(text(),'RO#:')]/parent::span/following::div)[1]")
+    @FindBy(xpath = "//label[contains(text(),'Reference:')]/parent::td/following-sibling::td/span/child::span")
     WebElement RoNumberText;
+
+    @FindBy(xpath = "//span[contains(text(),'Close')]")
+    WebElement close;
+
 
     @FindBy(xpath = "//a[text()='Journal Sources']/parent::div[contains(@id,'::_afrTabCnt')]")
     public WebElement label_JournalSources;
@@ -165,16 +169,18 @@ public class ECServiceManager_Journalize extends TestDriverActions {
 
     /** click On Ro Number  */
     public void clickOnRoNumber() throws InterruptedException {
-        if (LoginActions.environmentName.contains("EU")) {
+      /*  if (LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(BatchHash);
             WebElementActions.getActions().clickElement(BatchHash);
             WaitActions.getWaits().loadingWait(loder);
+
+       */
 
             WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(RoNmber);
             WebElementActions.getActions().clickElement(RoNmber);
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
-        }
+
         if(LoginActions.environmentName.contains("QA")){
             System.out.println("Data is not available");
         }
@@ -183,7 +189,13 @@ public class ECServiceManager_Journalize extends TestDriverActions {
     public void verifyRoNumbertext () throws InterruptedException {
         if (LoginActions.environmentName.contains("EU")) {
             WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(RoNumberText);
-            org.testng.Assert.assertTrue(RoNumberText.isDisplayed());
+             Assert.assertTrue(RoNumberText.isDisplayed());
+
+
+            WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(close);
+            WebElementActions.getActions().clickElement(close);
+
+
             WaitActions.getWaits().loadingWait(loder);
             TestListener.saveScreenshotPNG(driver);
         }
@@ -199,7 +211,6 @@ public class ECServiceManager_Journalize extends TestDriverActions {
 
         WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(label_SignOut);
         WebElementActions.getActions().clickElement(label_SignOut);
-        TestListener.saveScreenshotPNG(driver);
     }
 
 

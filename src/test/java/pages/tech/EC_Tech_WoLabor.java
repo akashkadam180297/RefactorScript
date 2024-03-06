@@ -58,7 +58,7 @@ public class EC_Tech_WoLabor extends TestDriverActions {
     @FindBy(xpath = "(//span[text()='Owner'])[1]")
     WebElement label_owner;
 
-    @FindBy(xpath = "(//span[text()='Unit Number'])[1]")
+    @FindBy(xpath = "(//span[contains(text(),'Unit ')])[1]")
     WebElement label_unitNumber;
 
     @FindBy(xpath = "(//span[text()='VIN / Description'])[1]")

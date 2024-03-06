@@ -1,0 +1,113 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.ticket.UnableToRemoveCoreLink_CONVOY",
+    "children" : [ {
+      "name" : "Test_001_gotoPartMaster",
+      "uid" : "fb05e4f3cd1e6f1",
+      "parentUid" : "fc3ddc73b29043f78b64bf159a083737",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709723312587,
+        "stop" : 1709723355536,
+        "duration" : 42949
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_002_clickonPartNumber",
+      "uid" : "8e78fc7318486f",
+      "parentUid" : "fc3ddc73b29043f78b64bf159a083737",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709723355674,
+        "stop" : 1709723459295,
+        "duration" : 103621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_003_verifyName",
+      "uid" : "5a1e71a0d8179c03",
+      "parentUid" : "fc3ddc73b29043f78b64bf159a083737",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709723459357,
+        "stop" : 1709723528427,
+        "duration" : 69070
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_004_RequiredproductGroup",
+      "uid" : "b3cbd41c08c90e2f",
+      "parentUid" : "fc3ddc73b29043f78b64bf159a083737",
+      "status" : "broken",
+      "time" : {
+        "start" : 1709723528479,
+        "stop" : 1709723547735,
+        "duration" : 19256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_005_gotoInventoryAdjustment",
+      "uid" : "ce7c743fb6e0be79",
+      "parentUid" : "fc3ddc73b29043f78b64bf159a083737",
+      "status" : "broken",
+      "time" : {
+        "start" : 1709723547797,
+        "stop" : 1709723548855,
+        "duration" : 1058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_006_verifyWarehouseName",
+      "uid" : "555182eaeecbbab3",
+      "parentUid" : "fc3ddc73b29043f78b64bf159a083737",
+      "status" : "broken",
+      "time" : {
+        "start" : 1709723548990,
+        "stop" : 1709723631184,
+        "duration" : 82194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_007_gotoPartMaster",
+      "uid" : "af094350117e6852",
+      "parentUid" : "fc3ddc73b29043f78b64bf159a083737",
+      "status" : "broken",
+      "time" : {
+        "start" : 1709723631268,
+        "stop" : 1709723632385,
+        "duration" : 1117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_008_clickOnSignOut",
+      "uid" : "ff266069444165c7",
+      "parentUid" : "fc3ddc73b29043f78b64bf159a083737",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709723632456,
+        "stop" : 1709723660923,
+        "duration" : 28467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  } ]
+}

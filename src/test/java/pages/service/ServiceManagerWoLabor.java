@@ -121,7 +121,7 @@ public class ServiceManagerWoLabor extends TestDriverActions {
     @FindBy(xpath = "//label[text()='Repair Date:']")
     WebElement label_RepairDate;
 
-    @FindBy(xpath = "//label[text()='Labour:']")
+    @FindBy(xpath = "//label[contains(.,'Lab')]")
     WebElement label_Labour;
 
     @FindBy(xpath = "//label[text()='Labour:']/following::td[3]")
@@ -721,7 +721,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * verify element present in Complete Ro Subtitle
      */
     public void verifyCompleteRoElement() throws InterruptedException {
-//          WaitActions.getWaits().WaitUntilWebElementIsVisible(subtitle_msg);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(subtitle_msg);
         Assert.assertTrue(subtitle_msg.isDisplayed());
         Assert.assertTrue(label_ThingsToDo.isDisplayed());
@@ -764,7 +763,6 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      *  Verify Summary Elements
      */
     public void verifySummaryElements() throws InterruptedException {
-//          WaitActions.getWaits().WaitUntilWebElementIsVisible(label_summary);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(label_summary);
         Assert.assertTrue(label_summary.isDisplayed());
         Assert.assertTrue(btn_returnToTechnician.isDisplayed());
@@ -1099,10 +1097,10 @@ public class ServiceManagerWoLabor extends TestDriverActions {
      * Verifed firstname Lastname
      */
     public void verifiedFirstAndLastName() throws InterruptedException {
-//        WaitActions.getWaits().WaitUntilWebElementIsVisible(hyperlink_authorizedBy);
         WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(hyperlink_authorizedBy);
         Assert.assertTrue(hyperlink_authorizedBy.isDisplayed());
         TestListener.saveScreenshotPNG(driver);
+
     }
     /**
      * Subtotals and totals area in header

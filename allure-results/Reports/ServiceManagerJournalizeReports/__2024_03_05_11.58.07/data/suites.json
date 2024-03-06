@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.techRo.ServiceManagerJournalize",
+        "children" : [ {
+          "name" : "Test_001_Login the page and Go to Financials ",
+          "uid" : "21f2ca84866defa0",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "passed",
+          "time" : {
+            "start" : 1709619851147,
+            "stop" : 1709619891181,
+            "duration" : 40034
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click OnGenerate Journals   ",
+          "uid" : "aea15772f6b6730c",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "passed",
+          "time" : {
+            "start" : 1709619891342,
+            "stop" : 1709619956698,
+            "duration" : 65356
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click On Service Board   ",
+          "uid" : "7ecd712c6865a186",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "passed",
+          "time" : {
+            "start" : 1709619956757,
+            "stop" : 1709619962945,
+            "duration" : 6188
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_001_Click Financial manager   ",
+          "uid" : "606e0462005bb355",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "broken",
+          "time" : {
+            "start" : 1709619963014,
+            "stop" : 1709620087751,
+            "duration" : 124737
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "afterMethodTakeScreenShot",
+          "uid" : "19af12556319189a",
+          "parentUid" : "d6477c78d6edb6a2b2324f8d95029421",
+          "status" : "broken",
+          "time" : {
+            "start" : 1709620087757,
+            "stop" : 1709620087758,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d6477c78d6edb6a2b2324f8d95029421"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

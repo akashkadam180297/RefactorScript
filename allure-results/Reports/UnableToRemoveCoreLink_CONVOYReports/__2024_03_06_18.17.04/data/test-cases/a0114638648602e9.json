@@ -1,0 +1,84 @@
+{
+  "uid" : "a0114638648602e9",
+  "name" : "Test_004_verify required product group",
+  "fullName" : "tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_004_RequiredproductGroup",
+  "historyId" : "bdef208cb350395272d4814c7f7ca674",
+  "time" : {
+    "start" : 1709727800921,
+    "stop" : 1709727938120,
+    "duration" : 137199
+  },
+  "description" : "Test Description -verify required product group ",
+  "descriptionHtml" : "<p>Test Description -verify required product group</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709727938121,
+      "stop" : 1709727938184,
+      "duration" : 63
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "94eb3f158a6b24c",
+      "name" : "Page Screenshot",
+      "source" : "94eb3f158a6b24c.png",
+      "type" : "image/png",
+      "size" : 143418
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_004_RequiredproductGroup"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "24440@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0114638648602e9.json",
+  "parameterValues" : [ ]
+}

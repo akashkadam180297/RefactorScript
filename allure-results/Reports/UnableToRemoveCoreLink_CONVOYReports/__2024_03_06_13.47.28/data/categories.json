@@ -1,0 +1,124 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(.,'More Info')]/span\"}\n  (Session info: chrome=122.0.6261.95)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f11870587f2e287016acfecc0da564cd, findElement {using=xpath, value=//a[contains(.,'More Info')]/span}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61178/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f11870587f2e287016acfecc0da564cd",
+      "children" : [ {
+        "name" : "Test_002_click on part number",
+        "uid" : "a5a23b3945c87c08",
+        "parentUid" : "274084475c508781859cea15c6be3975",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709712188116,
+          "stop" : 1709712377008,
+          "duration" : 188892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_005_verify required product group",
+        "uid" : "7a5aa8c7d500dc7",
+        "parentUid" : "274084475c508781859cea15c6be3975",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709712541477,
+          "stop" : 1709712729988,
+          "duration" : 188511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "274084475c508781859cea15c6be3975"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//label[contains(text(),'Name:')]/preceding-sibling::span\"}\n  (Session info: chrome=122.0.6261.95)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f11870587f2e287016acfecc0da564cd, findElement {using=xpath, value=//label[contains(text(),'Name:')]/preceding-sibling::span}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61178/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f11870587f2e287016acfecc0da564cd",
+      "children" : [ {
+        "name" : "Test_003_click on part number",
+        "uid" : "266105cd53d17c24",
+        "parentUid" : "1ab4bdf96ae33787def112a2854ddf22",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709712377129,
+          "stop" : 1709712459245,
+          "duration" : 82116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ab4bdf96ae33787def112a2854ddf22"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//label[text()='Product Group:']/preceding-sibling::span)[2]\"}\n  (Session info: chrome=122.0.6261.95)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f11870587f2e287016acfecc0da564cd, findElement {using=xpath, value=(//label[text()='Product Group:']/preceding-sibling::span)[2]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61178/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f11870587f2e287016acfecc0da564cd",
+      "children" : [ {
+        "name" : "Test_004_verify required product group",
+        "uid" : "b0551585a1b27d2f",
+        "parentUid" : "72c60e62ee71a4de85044de4af72c557",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709712459325,
+          "stop" : 1709712541373,
+          "duration" : 82048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_006_verify Core Part",
+        "uid" : "6d8e509a59f6c2fb",
+        "parentUid" : "72c60e62ee71a4de85044de4af72c557",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709712730060,
+          "stop" : 1709712812512,
+          "duration" : 82452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72c60e62ee71a4de85044de4af72c557"
+    }, {
+      "name" : "element click intercepted: Element <a onclick=\"return false\" class=\"x18v\" tabindex=\"-1\" href=\"#\">...</a> is not clickable at point (165, 52). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1349px; height: 664px; user-select: none; z-index: 38;\"></div>\n  (Session info: chrome=122.0.6261.95)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f11870587f2e287016acfecc0da564cd, clickElement {id=f.4E29C838E43BCEF5E6B4A94F7B67329A.d.AA1593056477B368F43A4D7938B6EC37.e.277}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61178/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (f11870587f2e287016acfecc0da564cd)] -> xpath: //table[@class='af_menuBar_items']//table//td//a[text()='Parts']]\nSession ID: f11870587f2e287016acfecc0da564cd",
+      "children" : [ {
+        "name" : "Test_010_verify Warehouse Name ",
+        "uid" : "beb7da4909007b37",
+        "parentUid" : "23c202a742810a0d399b23c47afe3e9c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709713018980,
+          "stop" : 1709713020085,
+          "duration" : 1105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23c202a742810a0d399b23c47afe3e9c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "Test_009_verify Warehouse Name ",
+        "uid" : "24a9ca2ef80ff959",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1709712885489,
+          "stop" : 1709713018890,
+          "duration" : 133401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

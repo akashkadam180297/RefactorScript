@@ -1,0 +1,149 @@
+{
+  "uid" : "8068b292e4d8b3",
+  "name" : "Check that click on Type hyperlink, verify the element and click on select button",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnTypelink_and_clickOnSelect",
+  "historyId" : "6443bd82b33659723814683265ca49cb",
+  "time" : {
+    "start" : 1709619287111,
+    "stop" : 1709619344076,
+    "duration" : 56965
+  },
+  "description" : "Test Description - Check that click on Type hyperlink, verify the element and click on select button",
+  "descriptionHtml" : "<p>Test Description - Check that click on Type hyperlink, verify the element and click on select button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1709618697152,
+      "stop" : 1709618735803,
+      "duration" : 38651
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that click on Type hyperlink, verify the element and click on select button",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25905a727ed85059",
+      "name" : "Page Screenshot",
+      "source" : "25905a727ed85059.png",
+      "type" : "image/png",
+      "size" : 94139
+    }, {
+      "uid" : "945d28a28c369dd5",
+      "name" : "Page Screenshot",
+      "source" : "945d28a28c369dd5.png",
+      "type" : "image/png",
+      "size" : 96445
+    }, {
+      "uid" : "290b65035585b41a",
+      "name" : "Page Screenshot",
+      "source" : "290b65035585b41a.png",
+      "type" : "image/png",
+      "size" : 111162
+    }, {
+      "uid" : "e78002b7239c2d05",
+      "name" : "Page Screenshot",
+      "source" : "e78002b7239c2d05.png",
+      "type" : "image/png",
+      "size" : 111162
+    }, {
+      "uid" : "14a6e83ffff7236",
+      "name" : "Page Screenshot",
+      "source" : "14a6e83ffff7236.png",
+      "type" : "image/png",
+      "size" : 111162
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709619344076,
+      "stop" : 1709619344120,
+      "duration" : 44
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1ff455458dc9407d",
+      "name" : "Page Screenshot",
+      "source" : "1ff455458dc9407d.png",
+      "type" : "image/png",
+      "size" : 111162
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnTypelink_and_clickOnSelect"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "22652@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8068b292e4d8b3.json",
+  "parameterValues" : [ ]
+}

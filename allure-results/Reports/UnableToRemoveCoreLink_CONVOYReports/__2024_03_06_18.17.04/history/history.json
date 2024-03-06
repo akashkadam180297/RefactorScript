@@ -1,0 +1,157 @@
+{
+  "fc258c973b8027ac982098c5247bc672" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb260107890cb008",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709729106386,
+        "stop" : 1709729165104,
+        "duration" : 58718
+      }
+    } ]
+  },
+  "870481dbff2c2fca3adb21e12e76d45f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71b90cfdcbbe70ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709728738629,
+        "stop" : 1709728783905,
+        "duration" : 45276
+      }
+    } ]
+  },
+  "251c30d75ced0185e2c31d653bf4b559" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "337d3725e44b1226",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-afr-tlen=\"8\" id=\"cl1\" class=\"xgn\" onclick=\"this.focus();return false;\" data-afr-fcs=\"true\" href=\"#\">...</a> is not clickable at point (1320, 13). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1349px; height: 614px; user-select: none; z-index: 130;\"></div>\n  (Session info: chrome=122.0.6261.95)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [deeeae341207f32f21dc2dfb5a1c8840, clickElement {id=f.AC4107EEC2805D31B8B8738EFC8BE724.d.9782D39F1A62841A4CC723C263E9DBD8.e.600}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57014/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (deeeae341207f32f21dc2dfb5a1c8840)] -> xpath: //a[text()='Sign Out']]\nSession ID: deeeae341207f32f21dc2dfb5a1c8840",
+      "time" : {
+        "start" : 1709729202854,
+        "stop" : 1709729224055,
+        "duration" : 21201
+      }
+    } ]
+  },
+  "f2390ac6d7da3841d836e7740ccadcfa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "605dcb0e18d165d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709728895807,
+        "stop" : 1709728969055,
+        "duration" : 73248
+      }
+    } ]
+  },
+  "bdef208cb350395272d4814c7f7ca674" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d9a8ade502192bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709728969130,
+        "stop" : 1709729106279,
+        "duration" : 137149
+      }
+    } ]
+  },
+  "cac0b1a4ad5947d31b23238d7ee978d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5b86f2d2e31f60a",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a onclick=\"return false\" class=\"x18v\" tabindex=\"-1\" href=\"#\">...</a> is not clickable at point (165, 52). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1349px; height: 664px; user-select: none; z-index: 106;\"></div>\n  (Session info: chrome=122.0.6261.95)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [deeeae341207f32f21dc2dfb5a1c8840, clickElement {id=f.AC4107EEC2805D31B8B8738EFC8BE724.d.9782D39F1A62841A4CC723C263E9DBD8.e.594}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57014/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (deeeae341207f32f21dc2dfb5a1c8840)] -> xpath: //table[@class='af_menuBar_items']//table//td//a[text()='Parts']]\nSession ID: deeeae341207f32f21dc2dfb5a1c8840",
+      "time" : {
+        "start" : 1709729201747,
+        "stop" : 1709729202807,
+        "duration" : 1060
+      }
+    } ]
+  },
+  "df283bde3ef05792b60a55807c705e3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2144c1a9a5dff4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709728784057,
+        "stop" : 1709728895696,
+        "duration" : 111639
+      }
+    } ]
+  },
+  "966842a66725c0a75a804113b4368b19" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "764c516de45b3ff0",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[contains(@id,':0:itSearchPartSelect::su0')]\"}\n  (Session info: chrome=122.0.6261.95)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [deeeae341207f32f21dc2dfb5a1c8840, findElement {using=xpath, value=//li[contains(@id,':0:itSearchPartSelect::su0')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57014/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: deeeae341207f32f21dc2dfb5a1c8840",
+      "time" : {
+        "start" : 1709729165172,
+        "stop" : 1709729201662,
+        "duration" : 36490
+      }
+    } ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "fc258c973b8027ac982098c5247bc672" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72e22bd6bf1cfa61",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a onclick=\"return false\" class=\"x18v\" tabindex=\"-1\" href=\"#\">...</a> is not clickable at point (165, 52). Other element would receive the click: <div class=\"AFModalGlassPane\" style=\"width: 1366px; height: 599px; user-select: none; z-index: 26; display: block;\"></div>\n  (Session info: chrome=122.0.6261.95)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [28236fde661380e96a59fd1be8d5835c, clickElement {id=f.0A6E6B56D6AB8DFA301D0C2F384A1350.d.102EDFEB243AD9E80FAFDA95E678B06A.e.512}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50797/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (28236fde661380e96a59fd1be8d5835c)] -> xpath: //table[@class='af_menuBar_items']//table//td//a[text()='Parts']]\nSession ID: 28236fde661380e96a59fd1be8d5835c",
+      "time" : {
+        "start" : 1709726740543,
+        "stop" : 1709726741667,
+        "duration" : 1124
+      }
+    } ]
+  },
+  "870481dbff2c2fca3adb21e12e76d45f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74e7a104a30dd37c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709726407364,
+        "stop" : 1709726452974,
+        "duration" : 45610
+      }
+    } ]
+  },
+  "f2390ac6d7da3841d836e7740ccadcfa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1cd70e7aff7d148d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709726557832,
+        "stop" : 1709726626901,
+        "duration" : 69069
+      }
+    } ]
+  },
+  "251c30d75ced0185e2c31d653bf4b559" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "190a4e21ab76b99f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709726912796,
+        "stop" : 1709726941169,
+        "duration" : 28373
+      }
+    } ]
+  },
+  "bdef208cb350395272d4814c7f7ca674" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2543aab07462199",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709726626954,
+        "stop" : 1709726740474,
+        "duration" : 113520
+      }
+    } ]
+  },
+  "cac0b1a4ad5947d31b23238d7ee978d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c0ff74f485a77c1",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//label[text()='Core Part #:'])[1]\"}\n  (Session info: chrome=122.0.6261.95)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [28236fde661380e96a59fd1be8d5835c, findElement {using=xpath, value=(//label[text()='Core Part #:'])[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50797/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 28236fde661380e96a59fd1be8d5835c",
+      "time" : {
+        "start" : 1709726824035,
+        "stop" : 1709726912689,
+        "duration" : 88654
+      }
+    } ]
+  },
+  "df283bde3ef05792b60a55807c705e3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3307ac1454da3fd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709726453122,
+        "stop" : 1709726557771,
+        "duration" : 104649
+      }
+    } ]
+  },
+  "966842a66725c0a75a804113b4368b19" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68c99bf1a0065539",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(@id,'it1::content')]\"}\n  (Session info: chrome=122.0.6261.95)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [28236fde661380e96a59fd1be8d5835c, findElement {using=xpath, value=//span[contains(@id,'it1::content')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\pc9-q\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50797/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 28236fde661380e96a59fd1be8d5835c",
+      "time" : {
+        "start" : 1709726741724,
+        "stop" : 1709726823959,
+        "duration" : 82235
+      }
+    } ]
+  }
+}

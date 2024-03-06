@@ -1,0 +1,121 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.ticket.UnableToRemoveCoreLink_CONVOY",
+        "children" : [ {
+          "name" : "Test_001_verify and using Login and password credentials",
+          "uid" : "fb05e4f3cd1e6f1",
+          "parentUid" : "c1b8a5e1f4f7e97b1bb96a5ad0c08306",
+          "status" : "passed",
+          "time" : {
+            "start" : 1709723312587,
+            "stop" : 1709723355536,
+            "duration" : 42949
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_002_click on part number",
+          "uid" : "8e78fc7318486f",
+          "parentUid" : "c1b8a5e1f4f7e97b1bb96a5ad0c08306",
+          "status" : "passed",
+          "time" : {
+            "start" : 1709723355674,
+            "stop" : 1709723459295,
+            "duration" : 103621
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_003_click on part number",
+          "uid" : "5a1e71a0d8179c03",
+          "parentUid" : "c1b8a5e1f4f7e97b1bb96a5ad0c08306",
+          "status" : "passed",
+          "time" : {
+            "start" : 1709723459357,
+            "stop" : 1709723528427,
+            "duration" : 69070
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_004_verify required product group",
+          "uid" : "b3cbd41c08c90e2f",
+          "parentUid" : "c1b8a5e1f4f7e97b1bb96a5ad0c08306",
+          "status" : "broken",
+          "time" : {
+            "start" : 1709723528479,
+            "stop" : 1709723547735,
+            "duration" : 19256
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_005_go to Inventory Adjustment",
+          "uid" : "ce7c743fb6e0be79",
+          "parentUid" : "c1b8a5e1f4f7e97b1bb96a5ad0c08306",
+          "status" : "broken",
+          "time" : {
+            "start" : 1709723547797,
+            "stop" : 1709723548855,
+            "duration" : 1058
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_006_verify Warehouse Name",
+          "uid" : "555182eaeecbbab3",
+          "parentUid" : "c1b8a5e1f4f7e97b1bb96a5ad0c08306",
+          "status" : "broken",
+          "time" : {
+            "start" : 1709723548990,
+            "stop" : 1709723631184,
+            "duration" : 82194
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_007_go to Part Master",
+          "uid" : "af094350117e6852",
+          "parentUid" : "c1b8a5e1f4f7e97b1bb96a5ad0c08306",
+          "status" : "broken",
+          "time" : {
+            "start" : 1709723631268,
+            "stop" : 1709723632385,
+            "duration" : 1117
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test_009_click On SignOut () ",
+          "uid" : "ff266069444165c7",
+          "parentUid" : "c1b8a5e1f4f7e97b1bb96a5ad0c08306",
+          "status" : "passed",
+          "time" : {
+            "start" : 1709723632456,
+            "stop" : 1709723660923,
+            "duration" : 28467
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c1b8a5e1f4f7e97b1bb96a5ad0c08306"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

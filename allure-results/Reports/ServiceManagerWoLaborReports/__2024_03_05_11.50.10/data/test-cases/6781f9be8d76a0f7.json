@@ -1,0 +1,143 @@
+{
+  "uid" : "6781f9be8d76a0f7",
+  "name" : "Check that click On Note link, verify the element and enter text in note field and save it ",
+  "fullName" : "tests.service.ServiceManagerWoLabor.clickOnNotes_and_EnterTextInNoteField",
+  "historyId" : "39c212287e554b6680b834612ff5bd3",
+  "time" : {
+    "start" : 1709618957565,
+    "stop" : 1709619019294,
+    "duration" : 61729
+  },
+  "description" : "Test Description -Check that click On Note link, verify the element and enter text in note field and save it ",
+  "descriptionHtml" : "<p>Test Description -Check that click On Note link, verify the element and enter text in note field and save it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1709618697152,
+      "stop" : 1709618735803,
+      "duration" : 38651
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description -Check that click On Note link, verify the element and enter text in note field and save it ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d40e63a90ad129f",
+      "name" : "Page Screenshot",
+      "source" : "9d40e63a90ad129f.png",
+      "type" : "image/png",
+      "size" : 67515
+    }, {
+      "uid" : "6a40c20706226e34",
+      "name" : "Page Screenshot",
+      "source" : "6a40c20706226e34.png",
+      "type" : "image/png",
+      "size" : 74634
+    }, {
+      "uid" : "b4530c2c63e66a4d",
+      "name" : "Page Screenshot",
+      "source" : "b4530c2c63e66a4d.png",
+      "type" : "image/png",
+      "size" : 74326
+    }, {
+      "uid" : "ff372156def03ad8",
+      "name" : "Page Screenshot",
+      "source" : "ff372156def03ad8.png",
+      "type" : "image/png",
+      "size" : 74316
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709619019295,
+      "stop" : 1709619019363,
+      "duration" : 68
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6646c091291090d8",
+      "name" : "Page Screenshot",
+      "source" : "6646c091291090d8.png",
+      "type" : "image/png",
+      "size" : 74287
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnNotes_and_EnterTextInNoteField"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.service.ServiceManagerWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "PC-9"
+  }, {
+    "name" : "thread",
+    "value" : "22652@PC-9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Service Manager Labor Test"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6781f9be8d76a0f7.json",
+  "parameterValues" : [ ]
+}
