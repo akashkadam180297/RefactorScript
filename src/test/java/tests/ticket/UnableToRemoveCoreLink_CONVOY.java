@@ -79,8 +79,8 @@ public class UnableToRemoveCoreLink_CONVOY extends TestDriverActions {
         unabletoremovecorelink.gotoPartMaster();
         unabletoremovecorelink.clickonPartNumber();
         unabletoremovecorelink.clickmoreinfo();
-
-        unabletoremovecorelink.clickOnCancelButton();
+        unabletoremovecorelink.clickonStockAvailablity();
+        unabletoremovecorelink. clickonCancelButton();
 
 
     }

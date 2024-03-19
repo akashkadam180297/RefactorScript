@@ -180,6 +180,8 @@ public class TestDriverActions {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/spotorderpartsQA.properties";
         } else if (this.getClass().getCanonicalName().contains("CreatePart")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/createpartQA.properties";
+        } else if (this.getClass().getCanonicalName().contains("UnableToRemoveCoreLink_CONVOY")) {
+            filePath = System.getProperty("user.dir") + "/src/test/java/utils/unabletoremovecorelink_convoyQA.properties";
         }
 
 

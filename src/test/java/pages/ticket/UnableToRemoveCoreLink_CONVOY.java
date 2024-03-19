@@ -285,6 +285,9 @@ public class UnableToRemoveCoreLink_CONVOY extends TestDriverActions {
 
  @FindBy(xpath = "//span[text()='MOBILE4 (BROKER)']")
  WebElement MOBILEBROKER;
+
+ @FindBy(xpath = "(//span[text()='Cancel'])[2]")
+ WebElement Cancel3;
  @FindBy(xpath = "//a[text()='Sign Out']")
  public WebElement label_Signout;
 
@@ -299,7 +302,9 @@ public class UnableToRemoveCoreLink_CONVOY extends TestDriverActions {
   * Click on Parts
   * click on Part Master
   */
- public static void gotoPartMaster() throws FileNotFoundException, InterruptedException {
+ public void gotoPartMaster() throws FileNotFoundException, InterruptedException {
+  WaitActions.getWaits().loadingWait(loder);
+  Thread.sleep(3000);
   ReusableActions.getActions().clickParentMenu("Parts");
   ReusableActions.getActions().clickChildMenu("Part Master");
 
@@ -378,7 +383,8 @@ public class UnableToRemoveCoreLink_CONVOY extends TestDriverActions {
  public void enterPartNumber() throws InterruptedException {
 
   WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(CodeTextArea);
-  WebElementActions.getActions().inputText(CodeTextArea,appProp.getProperty("vendarname"));
+  WebElementActions.getActions().inputText(CodeTextArea, partNumber);
+
    System.out.println(CodeTextArea.getText());
 
   TestListener.saveScreenshotPNG(driver);
@@ -393,12 +399,13 @@ public class UnableToRemoveCoreLink_CONVOY extends TestDriverActions {
   Assert.assertTrue(Name.isDisplayed());
  }
 
- String var = WebElementActions.getActions().randomAlphaNumeric(10);
+// String var = WebElementActions.getActions().randomAlphaNumeric(10);
 
  public void typenameTextArea() throws InterruptedException {
 
   WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(NameTextarea);
-  WebElementActions.getActions().inputText(NameTextarea, var);
+  WebElementActions.getActions().inputText(NameTextarea,appProp.getProperty("vendarname"));
+
 
  }
 
@@ -525,7 +532,9 @@ public class UnableToRemoveCoreLink_CONVOY extends TestDriverActions {
   * Click on Parts
   * click on Inventory Adjustment
   */
- public static void  gotoInventoryAdjustment() throws FileNotFoundException, InterruptedException {
+ public  void  gotoInventoryAdjustment() throws FileNotFoundException, InterruptedException {
+  WaitActions.getWaits().loadingWait(loder);
+  Thread.sleep(3000);
   ReusableActions.getActions().clickParentMenu("Parts");
   ReusableActions.getActions().clickChildMenu("Inventory Adjustment");
 
@@ -583,7 +592,8 @@ public class UnableToRemoveCoreLink_CONVOY extends TestDriverActions {
  /**enter the part value */
  public void partValue () throws InterruptedException {
   WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(PartTextArea);
-  WebElementActions.getActions().inputText(PartTextArea,appProp.getProperty("vendarname"));
+  Thread.sleep(2000);
+  WebElementActions.getActions().inputText(PartTextArea,appProp.getProperty("partName"));
 
 
 
@@ -592,6 +602,7 @@ public class UnableToRemoveCoreLink_CONVOY extends TestDriverActions {
  /**clickonPartValuePopup*/
  public void clickonPartValuePopup () throws InterruptedException {
   WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(partPopup);
+  Thread.sleep(2000);
   WebElementActions.getActions().clickElement(partPopup);
 
  }
@@ -615,6 +626,9 @@ public class UnableToRemoveCoreLink_CONVOY extends TestDriverActions {
 
   WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(OnHandvalue);
   Assert.assertTrue(OnHandvalue.isDisplayed());
+
+  WaitActions.getWaits().waitForElementToBeRefreshedAndIsVisible(OnHandEA);
+  Assert.assertTrue(OnHandEA.isDisplayed());
 
 
  }
@@ -640,7 +654,15 @@ public class UnableToRemoveCoreLink_CONVOY extends TestDriverActions {
   Assert.assertTrue(MOBILEBROKER.isDisplayed());
 
  }
+/**click on cancel Button*/
+public void clickonCancelButton() throws InterruptedException {
+ WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(Cancel3);
+ WebElementActions.getActions().clickElement(Cancel3);
 
+ WaitActions.getWaits().waitForElementToBeRefreshedAndClickable(SaveExit);
+ WebElementActions.getActions().clickElement(SaveExit);
+
+}
 
 
 
