@@ -1,4 +1,4 @@
-package tests.Partsrelateditems;
+package tests.parts;
 
 import io.qameta.allure.Description;
 import org.testng.annotations.Test;

@@ -33,16 +33,16 @@ public class TransitonedPaccar extends TestDriverActions {
     @Description("Test Description: go To Complete RO Screen ")
     public void Test_004_goToCompleteROScreen()throws InterruptedException, IOException, FileNotFoundException {
         location.goToCompleteROScreen();
-        location.clickOnInvoice ();
-        location.clickOnRefresh ();
+        location. clickOnReferanceNumber();
 
     }
     @Test(priority = 4, description = "Test_005_click On Referece")
     @Description("Test Description: click On Referece")
     public void Test_005_clickOnReferece () throws InterruptedException, IOException, FileNotFoundException {
-        location.clickOnReferece();
-        location.verifyDeleteCustomerInvoice ();
-        location.clickOnPartNumber ();
+        location.clickOnAddLabourone() ;
+        location.clickOnAddParts ();
+        location.clickOnPartNumber();
+
     }
     @Test(priority = 5, description = "Test_006_verify Part")
     @Description("Test Description: verify Part")
@@ -72,6 +72,8 @@ public class TransitonedPaccar extends TestDriverActions {
         location.verifyTotalCharge();
         location.verifyTotalChargeValue();
         location.clickoncancel ();
+        location.clickImageCrossIcon ();
+        location.clickImageDeleteIcon ();
         location. clickOnSignOut ();
         location.clickOnUsername ();
     }

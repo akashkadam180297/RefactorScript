@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -20,11 +21,11 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+            <a href="#" panel-name="suite-Parallel" class="navigator-link">
+              <span class="suite-name border-failed">Parallel</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
-                    <span>[unset file name]</span>
+                  <a href="#" panel-name="test-xml-Parallel" class="navigator-link ">
+                    <span>F:\GithubFinal\RefactorScript\config\administrationtest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-Parallel" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Parallel" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Parallel" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Parallel" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Parallel" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Parallel" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,86 +92,124 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">18 methods, 1 failed,  16 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Parallel" class="hide-methods failed suite-Parallel"> (hide)</a> <!-- hide-methods failed suite-Parallel -->
+                      <a href="#" panel-name="suite-Parallel" class="show-methods failed suite-Parallel"> (show)</a> <!-- show-methods failed suite-Parallel -->
+                    </span>
+                    <div class="method-list-content failed suite-Parallel">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.Spotorderparts" class="method navigator-link" hash-for-method="Test_002_clickOnSpotOrder">Test_002_clickOnSpotOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Parallel -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Parallel" class="hide-methods skipped suite-Parallel"> (hide)</a> <!-- hide-methods skipped suite-Parallel -->
+                      <a href="#" panel-name="suite-Parallel" class="show-methods skipped suite-Parallel"> (show)</a> <!-- show-methods skipped suite-Parallel -->
+                    </span>
+                    <div class="method-list-content skipped suite-Parallel">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.ReceiveParts" class="method navigator-link" hash-for-method="Test_001_gotoReceiveParts">Test_001_gotoReceiveParts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.ReceiveParts" class="method navigator-link" hash-for-method="Test_002_clickOnPoNumber">Test_002_clickOnPoNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.Spotorderparts" class="method navigator-link" hash-for-method="Test_003_inputPartialPartNumber">Test_003_inputPartialPartNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.ReceiveParts" class="method navigator-link" hash-for-method="Test_003_verifyPurchesOrder">Test_003_verifyPurchesOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.Spotorderparts" class="method navigator-link" hash-for-method="Test_004_clickOnAddButton">Test_004_clickOnAddButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.ReceiveParts" class="method navigator-link" hash-for-method="Test_004_verifyNotes">Test_004_verifyNotes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.Spotorderparts" class="method navigator-link" hash-for-method="Test_005_verifySearchPartDescription">Test_005_verifySearchPartDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.ReceiveParts" class="method navigator-link" hash-for-method="Test_005_verifyvoidedDate">Test_005_verifyvoidedDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.Spotorderparts" class="method navigator-link" hash-for-method="Test_006_inputCoreParentPart">Test_006_inputCoreParentPart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.ReceiveParts" class="method navigator-link" hash-for-method="Test_006_verifyVendorPart">Test_006_verifyVendorPart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.ReceiveParts" class="method navigator-link" hash-for-method="Test_007_verifyLink">Test_007_verifyLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.Spotorderparts" class="method navigator-link" hash-for-method="Test_007_verifyPO">Test_007_verifyPO</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.ReceiveParts" class="method navigator-link" hash-for-method="Test_008_verifyHash">Test_008_verifyHash</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.Spotorderparts" class="method navigator-link" hash-for-method="Test_008_verifyRequiredPart">Test_008_verifyRequiredPart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.ReceiveParts" class="method navigator-link" hash-for-method="Test_009_clickOnCancelButton">Test_009_clickOnCancelButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.Spotorderparts" class="method navigator-link" hash-for-method="Test_009_verifyWarehouseText">Test_009_verifyWarehouseText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Parallel -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Parallel" class="hide-methods passed suite-Parallel"> (hide)</a> <!-- hide-methods passed suite-Parallel -->
+                      <a href="#" panel-name="suite-Parallel" class="show-methods passed suite-Parallel"> (show)</a> <!-- show-methods passed suite-Parallel -->
                     </span>
-                    <div class="method-list-content passed suite-Surefire_suite">
+                    <div class="method-list-content passed suite-Parallel">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="ClickOnMoisesOlivas_Select_OkButton">ClickOnMoisesOlivas_Select_OkButton</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Parallel" title="tests.parts.Spotorderparts" class="method navigator-link" hash-for-method="Test_001_gotoOrderPartsScreen">Test_001_gotoOrderPartsScreen</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="ClickOnMoisesOlivas_Select_OkButton1">ClickOnMoisesOlivas_Select_OkButton1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="ClickOnSummary_pause_selectbutton">ClickOnSummary_pause_selectbutton</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="EnterPartNumber_clickIssuePart">EnterPartNumber_clickIssuePart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="clickOnCoreReturn_deleteCorePart">clickOnCoreReturn_deleteCorePart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="clickOnLabour_clickOnVMRS">clickOnLabour_clickOnVMRS</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="clickOnNonCatalogPart_enterValue">clickOnNonCatalogPart_enterValue</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="clickOnUnitReady_Ok_signoutbutton">clickOnUnitReady_Ok_signoutbutton</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="gotoTechRo">gotoTechRo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="verifyElement_EnterPartNumber">verifyElement_EnterPartNumber</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="verifyPartPannel_ClickOnIssuePart">verifyPartPannel_ClickOnIssuePart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="verifyPartadded_">verifyPartadded_</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="verifyPartadded_deletePart">verifyPartadded_deletePart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.tech.TechWoParts" class="method navigator-link" hash-for-method="verifyUnitNumber_ClickOnParts">verifyUnitNumber_ClickOnParts</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                    </div> <!-- method-list-content passed suite-Parallel -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -181,405 +220,1054 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-passed">
+        <div panel-name="suite-Parallel" class="panel Parallel">
+          <div class="suite-Parallel-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.tech.TechWoParts</span>
+              <img src="failed.png"/>
+              <span class="class-name">tests.parts.Spotorderparts</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ClickOnMoisesOlivas_Select_OkButton">
-                  </a> <!-- ClickOnMoisesOlivas_Select_OkButton -->
-                  <span class="method-name">ClickOnMoisesOlivas_Select_OkButton</span>
+                  <a name="Test_002_clickOnSpotOrder">
+                  </a> <!-- Test_002_clickOnSpotOrder -->
+                  <span class="method-name">Test_002_clickOnSpotOrder</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, findElement {using=xpath, value=//span[text()=&apos;Quantity&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pages.parts.Spotorderpart.verifyQuantity(Spotorderpart.java:603)
+	at tests.parts.Spotorderparts.Test_002_clickOnSpotOrder(Spotorderparts.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
                   <em>
-(T_011 Click on MoisesOlivas and Select and ok button)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="ClickOnMoisesOlivas_Select_OkButton1">
-                  </a> <!-- ClickOnMoisesOlivas_Select_OkButton1 -->
-                  <span class="method-name">ClickOnMoisesOlivas_Select_OkButton1</span>
-                  <em>
-(T_012 Click on FirstLaborItem and Select and Ok button)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="ClickOnSummary_pause_selectbutton">
-                  </a> <!-- ClickOnSummary_pause_selectbutton -->
-                  <span class="method-name">ClickOnSummary_pause_selectbutton</span>
-                  <em>
-(T_013 Click on Summary and pause and select button)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="EnterPartNumber_clickIssuePart">
-                  </a> <!-- EnterPartNumber_clickIssuePart -->
-                  <span class="method-name">EnterPartNumber_clickIssuePart</span>
-                  <em>
-(T_009 enter Part number and click on Issue part)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnCoreReturn_deleteCorePart">
-                  </a> <!-- clickOnCoreReturn_deleteCorePart -->
-                  <span class="method-name">clickOnCoreReturn_deleteCorePart</span>
-                  <em>
-(T_007 Click on CoreReturn and delete core part)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnLabour_clickOnVMRS">
-                  </a> <!-- clickOnLabour_clickOnVMRS -->
-                  <span class="method-name">clickOnLabour_clickOnVMRS</span>
-                  <em>
-(T_010 click on Labour and click on VMRS)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnNonCatalogPart_enterValue">
-                  </a> <!-- clickOnNonCatalogPart_enterValue -->
-                  <span class="method-name">clickOnNonCatalogPart_enterValue</span>
-                  <em>
-(T_008 click on Non-Catalog Part and enter the value)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnUnitReady_Ok_signoutbutton">
-                  </a> <!-- clickOnUnitReady_Ok_signoutbutton -->
-                  <span class="method-name">clickOnUnitReady_Ok_signoutbutton</span>
-                  <em>
-(T_014 click on UnitReady and Ok and signout button)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="gotoTechRo">
-                  </a> <!-- gotoTechRo -->
-                  <span class="method-name">gotoTechRo</span>
-                  <em>
-(T_001 Sign in the page and Go to the Tech RO)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyElement_EnterPartNumber">
-                  </a> <!-- verifyElement_EnterPartNumber -->
-                  <span class="method-name">verifyElement_EnterPartNumber</span>
-                  <em>
-(T_003 Check the Generic setup of the screen and enter Part number)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPartPannel_ClickOnIssuePart">
-                  </a> <!-- verifyPartPannel_ClickOnIssuePart -->
-                  <span class="method-name">verifyPartPannel_ClickOnIssuePart</span>
-                  <em>
-(T_004 verify the part pannel and click on issue part)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPartadded_">
-                  </a> <!-- verifyPartadded_ -->
-                  <span class="method-name">verifyPartadded_</span>
-                  <em>
-(T_006 Enter CorePart and click on search icon)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPartadded_deletePart">
-                  </a> <!-- verifyPartadded_deletePart -->
-                  <span class="method-name">verifyPartadded_deletePart</span>
-                  <em>
-(T_005 Verify part added , click on cross button and delete the part)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyUnitNumber_ClickOnParts">
-                  </a> <!-- verifyUnitNumber_ClickOnParts -->
-                  <span class="method-name">verifyUnitNumber_ClickOnParts</span>
-                  <em>
-(T_002 Verify Unit Number and Click on Parts )                  </em>
+(Test_002 click On The Spot order Tab )                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-        </div> <!-- panel Surefire_suite -->
-        <div panel-name="test-xml-Surefire_suite" class="panel">
+          </div> <!-- suite-Parallel-class-failed -->
+          <div class="suite-Parallel-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.parts.ReceiveParts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_001_gotoReceiveParts">
+                  </a> <!-- Test_001_gotoReceiveParts -->
+                  <span class="method-name">Test_001_gotoReceiveParts</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, clickElement {id=f.2B446FBF64D43DD46B3ABE4147F505CB.d.C1B683A4602285C6AF30061F46B736CA.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19c813f3f1f534ebd682584daa722f09)] -&gt; xpath: //img[contains(@src,&apos;flag-en_CA&apos;)]]
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.LoginPage.selectCountryFromDropDown(LoginPage.java:63)
+	at tests.TestDriverActions.initialization(TestDriverActions.java:316)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test_001 Login to the page and go to Receive Part screen )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_002_clickOnPoNumber">
+                  </a> <!-- Test_002_clickOnPoNumber -->
+                  <span class="method-name">Test_002_clickOnPoNumber</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, clickElement {id=f.2B446FBF64D43DD46B3ABE4147F505CB.d.C1B683A4602285C6AF30061F46B736CA.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19c813f3f1f534ebd682584daa722f09)] -&gt; xpath: //img[contains(@src,&apos;flag-en_CA&apos;)]]
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.LoginPage.selectCountryFromDropDown(LoginPage.java:63)
+	at tests.TestDriverActions.initialization(TestDriverActions.java:316)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test002: click on PO number and verify Link/DeLink Labor)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_003_verifyPurchesOrder">
+                  </a> <!-- Test_003_verifyPurchesOrder -->
+                  <span class="method-name">Test_003_verifyPurchesOrder</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, clickElement {id=f.2B446FBF64D43DD46B3ABE4147F505CB.d.C1B683A4602285C6AF30061F46B736CA.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19c813f3f1f534ebd682584daa722f09)] -&gt; xpath: //img[contains(@src,&apos;flag-en_CA&apos;)]]
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.LoginPage.selectCountryFromDropDown(LoginPage.java:63)
+	at tests.TestDriverActions.initialization(TestDriverActions.java:316)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test003: verify Purches Order )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_004_verifyNotes">
+                  </a> <!-- Test_004_verifyNotes -->
+                  <span class="method-name">Test_004_verifyNotes</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, clickElement {id=f.2B446FBF64D43DD46B3ABE4147F505CB.d.C1B683A4602285C6AF30061F46B736CA.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19c813f3f1f534ebd682584daa722f09)] -&gt; xpath: //img[contains(@src,&apos;flag-en_CA&apos;)]]
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.LoginPage.selectCountryFromDropDown(LoginPage.java:63)
+	at tests.TestDriverActions.initialization(TestDriverActions.java:316)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test004: verify Notes )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_005_verifyvoidedDate">
+                  </a> <!-- Test_005_verifyvoidedDate -->
+                  <span class="method-name">Test_005_verifyvoidedDate</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, clickElement {id=f.2B446FBF64D43DD46B3ABE4147F505CB.d.C1B683A4602285C6AF30061F46B736CA.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19c813f3f1f534ebd682584daa722f09)] -&gt; xpath: //img[contains(@src,&apos;flag-en_CA&apos;)]]
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.LoginPage.selectCountryFromDropDown(LoginPage.java:63)
+	at tests.TestDriverActions.initialization(TestDriverActions.java:316)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test005: verify Voided Date  )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_006_verifyVendorPart">
+                  </a> <!-- Test_006_verifyVendorPart -->
+                  <span class="method-name">Test_006_verifyVendorPart</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, clickElement {id=f.2B446FBF64D43DD46B3ABE4147F505CB.d.C1B683A4602285C6AF30061F46B736CA.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19c813f3f1f534ebd682584daa722f09)] -&gt; xpath: //img[contains(@src,&apos;flag-en_CA&apos;)]]
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.LoginPage.selectCountryFromDropDown(LoginPage.java:63)
+	at tests.TestDriverActions.initialization(TestDriverActions.java:316)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test006: verify Vendor Part   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_007_verifyLink">
+                  </a> <!-- Test_007_verifyLink -->
+                  <span class="method-name">Test_007_verifyLink</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, clickElement {id=f.2B446FBF64D43DD46B3ABE4147F505CB.d.C1B683A4602285C6AF30061F46B736CA.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19c813f3f1f534ebd682584daa722f09)] -&gt; xpath: //img[contains(@src,&apos;flag-en_CA&apos;)]]
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.LoginPage.selectCountryFromDropDown(LoginPage.java:63)
+	at tests.TestDriverActions.initialization(TestDriverActions.java:316)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test007: verify Link   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_008_verifyHash">
+                  </a> <!-- Test_008_verifyHash -->
+                  <span class="method-name">Test_008_verifyHash</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, clickElement {id=f.2B446FBF64D43DD46B3ABE4147F505CB.d.C1B683A4602285C6AF30061F46B736CA.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19c813f3f1f534ebd682584daa722f09)] -&gt; xpath: //img[contains(@src,&apos;flag-en_CA&apos;)]]
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.LoginPage.selectCountryFromDropDown(LoginPage.java:63)
+	at tests.TestDriverActions.initialization(TestDriverActions.java:316)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test008: verify Hash )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_009_clickOnCancelButton">
+                  </a> <!-- Test_009_clickOnCancelButton -->
+                  <span class="method-name">Test_009_clickOnCancelButton</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, clickElement {id=f.2B446FBF64D43DD46B3ABE4147F505CB.d.C1B683A4602285C6AF30061F46B736CA.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19c813f3f1f534ebd682584daa722f09)] -&gt; xpath: //img[contains(@src,&apos;flag-en_CA&apos;)]]
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at actions.WebElementActions.clickElement(WebElementActions.java:58)
+	at pages.LoginPage.selectCountryFromDropDown(LoginPage.java:63)
+	at tests.TestDriverActions.initialization(TestDriverActions.java:316)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test009: click On Cancel Button )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel-class-skipped -->
+          <div class="suite-Parallel-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.parts.Spotorderparts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_003_inputPartialPartNumber">
+                  </a> <!-- Test_003_inputPartialPartNumber -->
+                  <span class="method-name">Test_003_inputPartialPartNumber</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+	at utils.TestListener.saveScreenshotPNG(TestListener.java:24)
+	at tests.TestDriverActions.afterMethodTakeScreenShot(TestDriverActions.java:697)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test_003  input Partial Part Number )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_004_clickOnAddButton">
+                  </a> <!-- Test_004_clickOnAddButton -->
+                  <span class="method-name">Test_004_clickOnAddButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+	at utils.TestListener.saveScreenshotPNG(TestListener.java:24)
+	at tests.TestDriverActions.afterMethodTakeScreenShot(TestDriverActions.java:697)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test_004 click On Add Button )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_005_verifySearchPartDescription">
+                  </a> <!-- Test_005_verifySearchPartDescription -->
+                  <span class="method-name">Test_005_verifySearchPartDescription</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+	at utils.TestListener.saveScreenshotPNG(TestListener.java:24)
+	at tests.TestDriverActions.afterMethodTakeScreenShot(TestDriverActions.java:697)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test_005 verify Search Part Description )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_006_inputCoreParentPart">
+                  </a> <!-- Test_006_inputCoreParentPart -->
+                  <span class="method-name">Test_006_inputCoreParentPart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+	at utils.TestListener.saveScreenshotPNG(TestListener.java:24)
+	at tests.TestDriverActions.afterMethodTakeScreenShot(TestDriverActions.java:697)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test_006 input Core Parent Part and sign out  )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_007_verifyPO">
+                  </a> <!-- Test_007_verifyPO -->
+                  <span class="method-name">Test_007_verifyPO</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+	at utils.TestListener.saveScreenshotPNG(TestListener.java:24)
+	at tests.TestDriverActions.afterMethodTakeScreenShot(TestDriverActions.java:697)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test_007 verify PO  )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_008_verifyRequiredPart">
+                  </a> <!-- Test_008_verifyRequiredPart -->
+                  <span class="method-name">Test_008_verifyRequiredPart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+	at utils.TestListener.saveScreenshotPNG(TestListener.java:24)
+	at tests.TestDriverActions.afterMethodTakeScreenShot(TestDriverActions.java:697)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test_008 verify Required Part  )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_009_verifyWarehouseText">
+                  </a> <!-- Test_009_verifyWarehouseText -->
+                  <span class="method-name">Test_009_verifyWarehouseText</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.129)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c813f3f1f534ebd682584daa722f09, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\pc9-q\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53551/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19c813f3f1f534ebd682584daa722f09
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+	at utils.TestListener.saveScreenshotPNG(TestListener.java:24)
+	at tests.TestDriverActions.afterMethodTakeScreenShot(TestDriverActions.java:697)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test_009 verify Warehouse Text )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel-class-skipped -->
+          <div class="suite-Parallel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.parts.Spotorderparts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_001_gotoOrderPartsScreen">
+                  </a> <!-- Test_001_gotoOrderPartsScreen -->
+                  <span class="method-name">Test_001_gotoOrderPartsScreen</span>
+                  <em>
+(Test_001 Login to the page and go to Order Part screen )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel-class-passed -->
+        </div> <!-- panel Parallel -->
+        <div panel-name="test-xml-Parallel" class="panel">
           <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\GithubFinal\RefactorScript\config\administrationtest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
-  &lt;test name=&quot;Surefire test&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Parallel&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;ReceiveParts&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;EU&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.tech.TechWoParts&quot;/&gt;
+      &lt;class name=&quot;tests.parts.ReceiveParts&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Surefire test --&gt;
-&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+  &lt;/test&gt; &lt;!-- ReceiveParts --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Spotorderparts&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;EU&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.parts.Spotorderparts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Spotorderparts --&gt;
+&lt;/suite&gt; &lt;!-- Parallel --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Surefire_suite" class="panel">
+        <div panel-name="testlist-Parallel" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Surefire suite</span>
+            <span class="header-content">Tests for Parallel</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (1 class)</span>
+                <span class="test-name">ReceiveParts (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Spotorderparts (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Surefire_suite" class="panel">
+        <div panel-name="group-Parallel" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Surefire suite</span>
+            <span class="header-content">Groups for Parallel</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Surefire_suite" class="panel">
+        <div panel-name="times-Parallel" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Surefire suite</span>
+            <span class="header-content">Times for Parallel</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Surefire_suite');
-function tableData_Surefire_suite() {
+suiteTableInitFunctions.push('tableData_Parallel');
+function tableData_Parallel() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(14);
+data.addRows(18);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyUnitNumber_ClickOnParts')
-data.setCell(0, 2, 'tests.tech.TechWoParts')
-data.setCell(0, 3, 255304);
+data.setCell(0, 1, 'Test_002_clickOnSpotOrder')
+data.setCell(0, 2, 'tests.parts.Spotorderparts')
+data.setCell(0, 3, 138863);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickOnNonCatalogPart_enterValue')
-data.setCell(1, 2, 'tests.tech.TechWoParts')
-data.setCell(1, 3, 113764);
+data.setCell(1, 1, 'Test_001_gotoOrderPartsScreen')
+data.setCell(1, 2, 'tests.parts.Spotorderparts')
+data.setCell(1, 3, 45375);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ClickOnSummary_pause_selectbutton')
-data.setCell(2, 2, 'tests.tech.TechWoParts')
-data.setCell(2, 3, 105035);
+data.setCell(2, 1, 'Test_001_gotoReceiveParts')
+data.setCell(2, 2, 'tests.parts.ReceiveParts')
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'clickOnUnitReady_Ok_signoutbutton')
-data.setCell(3, 2, 'tests.tech.TechWoParts')
-data.setCell(3, 3, 97766);
+data.setCell(3, 1, 'Test_007_verifyLink')
+data.setCell(3, 2, 'tests.parts.ReceiveParts')
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'gotoTechRo')
-data.setCell(4, 2, 'tests.tech.TechWoParts')
-data.setCell(4, 3, 73188);
+data.setCell(4, 1, 'Test_002_clickOnPoNumber')
+data.setCell(4, 2, 'tests.parts.ReceiveParts')
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyPartadded_deletePart')
-data.setCell(5, 2, 'tests.tech.TechWoParts')
-data.setCell(5, 3, 64200);
+data.setCell(5, 1, 'Test_003_verifyPurchesOrder')
+data.setCell(5, 2, 'tests.parts.ReceiveParts')
+data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'EnterPartNumber_clickIssuePart')
-data.setCell(6, 2, 'tests.tech.TechWoParts')
-data.setCell(6, 3, 51771);
+data.setCell(6, 1, 'Test_004_verifyNotes')
+data.setCell(6, 2, 'tests.parts.ReceiveParts')
+data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyElement_EnterPartNumber')
-data.setCell(7, 2, 'tests.tech.TechWoParts')
-data.setCell(7, 3, 50468);
+data.setCell(7, 1, 'Test_005_verifyvoidedDate')
+data.setCell(7, 2, 'tests.parts.ReceiveParts')
+data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyPartPannel_ClickOnIssuePart')
-data.setCell(8, 2, 'tests.tech.TechWoParts')
-data.setCell(8, 3, 33625);
+data.setCell(8, 1, 'Test_009_clickOnCancelButton')
+data.setCell(8, 2, 'tests.parts.ReceiveParts')
+data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyPartadded_')
-data.setCell(9, 2, 'tests.tech.TechWoParts')
-data.setCell(9, 3, 4);
+data.setCell(9, 1, 'Test_006_verifyVendorPart')
+data.setCell(9, 2, 'tests.parts.ReceiveParts')
+data.setCell(9, 3, 0);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'clickOnCoreReturn_deleteCorePart')
-data.setCell(10, 2, 'tests.tech.TechWoParts')
-data.setCell(10, 3, 4);
+data.setCell(10, 1, 'Test_008_verifyHash')
+data.setCell(10, 2, 'tests.parts.ReceiveParts')
+data.setCell(10, 3, 0);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'ClickOnMoisesOlivas_Select_OkButton')
-data.setCell(11, 2, 'tests.tech.TechWoParts')
-data.setCell(11, 3, 3);
+data.setCell(11, 1, 'Test_003_inputPartialPartNumber')
+data.setCell(11, 2, 'tests.parts.Spotorderparts')
+data.setCell(11, 3, 0);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'clickOnLabour_clickOnVMRS')
-data.setCell(12, 2, 'tests.tech.TechWoParts')
-data.setCell(12, 3, 3);
+data.setCell(12, 1, 'Test_004_clickOnAddButton')
+data.setCell(12, 2, 'tests.parts.Spotorderparts')
+data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'ClickOnMoisesOlivas_Select_OkButton1')
-data.setCell(13, 2, 'tests.tech.TechWoParts')
-data.setCell(13, 3, 2);
-window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+data.setCell(13, 1, 'Test_009_verifyWarehouseText')
+data.setCell(13, 2, 'tests.parts.Spotorderparts')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Test_006_inputCoreParentPart')
+data.setCell(14, 2, 'tests.parts.Spotorderparts')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Test_008_verifyRequiredPart')
+data.setCell(15, 2, 'tests.parts.Spotorderparts')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Test_007_verifyPO')
+data.setCell(16, 2, 'tests.parts.Spotorderparts')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Test_005_verifySearchPartDescription')
+data.setCell(17, 2, 'tests.parts.Spotorderparts')
+data.setCell(17, 3, 0);
+window.suiteTableData['Parallel']= { tableData: data, tableDiv: 'times-div-Parallel'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 minutes</span>
-              <div id="times-div-Surefire_suite">
-              </div> <!-- times-div-Surefire_suite -->
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Parallel">
+              </div> <!-- times-div-Parallel -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Surefire_suite" class="panel">
+        <div panel-name="reporter-Parallel" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Surefire suite</span>
+            <span class="header-content">Reporter output for Parallel</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+        <div panel-name="ignored-methods-Parallel" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Surefire_suite" class="panel">
+        <div panel-name="chronological-Parallel" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.tech.TechWoParts</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.parts.ReceiveParts</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initialization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.parts.Spotorderparts</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initialization</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.parts.ReceiveParts</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">gotoTechRo</span>
-                <span class="method-start">50670 ms</span>
+                <span class="method-name">Test_001_gotoReceiveParts</span>
+                <span class="method-start">37621 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=gotoTechRo status=SUCCESS method=TechWoParts.gotoTechRo()[pri:0, instance:tests.tec...)</span>
-                <span class="method-start">124163 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_001_gotoReceiveParts status=SKIP method=ReceiveParts.Test_001_gotoReceiveParts...)</span>
+                <span class="method-start">37649 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">verifyUnitNumber_ClickOnParts</span>
-                <span class="method-start">124299 ms</span>
+                <span class="method-name">Test_002_clickOnPoNumber</span>
+                <span class="method-start">37782 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=verifyUnitNumber_ClickOnParts status=SUCCESS method=TechWoParts.verifyUnitNumber_Cl...)</span>
-                <span class="method-start">379776 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_002_clickOnPoNumber status=SKIP method=ReceiveParts.Test_002_clickOnPoNumber()...)</span>
+                <span class="method-start">37785 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">verifyElement_EnterPartNumber</span>
-                <span class="method-start">379900 ms</span>
+                <span class="method-name">Test_003_verifyPurchesOrder</span>
+                <span class="method-start">37833 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=verifyElement_EnterPartNumber status=SUCCESS method=TechWoParts.verifyElement_Enter...)</span>
-                <span class="method-start">430525 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_003_verifyPurchesOrder status=SKIP method=ReceiveParts.Test_003_verifyPurchesO...)</span>
+                <span class="method-start">37837 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">verifyPartPannel_ClickOnIssuePart</span>
-                <span class="method-start">430656 ms</span>
+                <span class="method-name">Test_004_verifyNotes</span>
+                <span class="method-start">37882 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=verifyPartPannel_ClickOnIssuePart status=SUCCESS method=TechWoParts.verifyPartPanne...)</span>
-                <span class="method-start">464427 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_004_verifyNotes status=SKIP method=ReceiveParts.Test_004_verifyNotes()[pri:3, ...)</span>
+                <span class="method-start">37885 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">verifyPartadded_deletePart</span>
-                <span class="method-start">464598 ms</span>
+                <span class="method-name">Test_005_verifyvoidedDate</span>
+                <span class="method-start">37927 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=verifyPartadded_deletePart status=SUCCESS method=TechWoParts.verifyPartadded_delete...)</span>
-                <span class="method-start">528914 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_005_verifyvoidedDate status=SKIP method=ReceiveParts.Test_005_verifyvoidedDate...)</span>
+                <span class="method-start">37930 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">verifyPartadded_</span>
-                <span class="method-start">529046 ms</span>
+                <span class="method-name">Test_006_verifyVendorPart</span>
+                <span class="method-start">37988 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=verifyPartadded_ status=SUCCESS method=TechWoParts.verifyPartadded_()[pri:5, instan...)</span>
-                <span class="method-start">529211 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_006_verifyVendorPart status=SKIP method=ReceiveParts.Test_006_verifyVendorPart...)</span>
+                <span class="method-start">37990 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">clickOnCoreReturn_deleteCorePart</span>
-                <span class="method-start">529345 ms</span>
+                <span class="method-name">Test_007_verifyLink</span>
+                <span class="method-start">38032 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=clickOnCoreReturn_deleteCorePart status=SUCCESS method=TechWoParts.clickOnCoreRetur...)</span>
-                <span class="method-start">529479 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_007_verifyLink status=SKIP method=ReceiveParts.Test_007_verifyLink()[pri:6, in...)</span>
+                <span class="method-start">38035 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">clickOnNonCatalogPart_enterValue</span>
-                <span class="method-start">529596 ms</span>
+                <span class="method-name">Test_008_verifyHash</span>
+                <span class="method-start">38081 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=clickOnNonCatalogPart_enterValue status=SUCCESS method=TechWoParts.clickOnNonCatalo...)</span>
-                <span class="method-start">643482 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_008_verifyHash status=SKIP method=ReceiveParts.Test_008_verifyHash()[pri:7, in...)</span>
+                <span class="method-start">38121 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">EnterPartNumber_clickIssuePart</span>
-                <span class="method-start">643593 ms</span>
+                <span class="method-name">Test_009_clickOnCancelButton</span>
+                <span class="method-start">38169 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=EnterPartNumber_clickIssuePart status=SUCCESS method=TechWoParts.EnterPartNumber_cl...)</span>
-                <span class="method-start">695503 ms</span>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_009_clickOnCancelButton status=SKIP method=ReceiveParts.Test_009_clickOnCancel...)</span>
+                <span class="method-start">38172 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.parts.Spotorderparts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_001_gotoOrderPartsScreen</span>
+                <span class="method-start">38904 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_001_gotoOrderPartsScreen status=SUCCESS method=Spotorderparts.Test_001_gotoOrd...)</span>
+                <span class="method-start">84282 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">clickOnLabour_clickOnVMRS</span>
-                <span class="method-start">695635 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=clickOnLabour_clickOnVMRS status=SUCCESS method=TechWoParts.clickOnLabour_clickOnVM...)</span>
-                <span class="method-start">695795 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">ClickOnMoisesOlivas_Select_OkButton</span>
-                <span class="method-start">695931 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=ClickOnMoisesOlivas_Select_OkButton status=SUCCESS method=TechWoParts.ClickOnMoises...)</span>
-                <span class="method-start">696077 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">ClickOnMoisesOlivas_Select_OkButton1</span>
-                <span class="method-start">696218 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=ClickOnMoisesOlivas_Select_OkButton1 status=SUCCESS method=TechWoParts.ClickOnMoise...)</span>
-                <span class="method-start">696359 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">ClickOnSummary_pause_selectbutton</span>
-                <span class="method-start">696498 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=ClickOnSummary_pause_selectbutton status=SUCCESS method=TechWoParts.ClickOnSummary_...)</span>
-                <span class="method-start">801663 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">clickOnUnitReady_Ok_signoutbutton</span>
-                <span class="method-start">801793 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethodTakeScreenShot([TestResult name=clickOnUnitReady_Ok_signoutbutton status=SUCCESS method=TechWoParts.clickOnUnitRead...)</span>
-                <span class="method-start">899656 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-suite after">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">Test_002_clickOnSpotOrder</span>
+                <span class="method-start">84348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_002_clickOnSpotOrder status=FAILURE method=Spotorderparts.Test_002_clickOnSpot...)</span>
+                <span class="method-start">223214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test_003_inputPartialPartNumber</span>
+                <span class="method-start">223223 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_003_inputPartialPartNumber status=SKIP method=Spotorderparts.Test_003_inputPar...)</span>
+                <span class="method-start">223238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test_004_clickOnAddButton</span>
+                <span class="method-start">223244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_004_clickOnAddButton status=SKIP method=Spotorderparts.Test_004_clickOnAddButt...)</span>
+                <span class="method-start">223275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test_005_verifySearchPartDescription</span>
+                <span class="method-start">223284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_005_verifySearchPartDescription status=SKIP method=Spotorderparts.Test_005_ver...)</span>
+                <span class="method-start">223286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test_006_inputCoreParentPart</span>
+                <span class="method-start">223320 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_006_inputCoreParentPart status=SKIP method=Spotorderparts.Test_006_inputCorePa...)</span>
+                <span class="method-start">223322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test_007_verifyPO</span>
+                <span class="method-start">223326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_007_verifyPO status=SKIP method=Spotorderparts.Test_007_verifyPO()[pri:6, inst...)</span>
+                <span class="method-start">223327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test_008_verifyRequiredPart</span>
+                <span class="method-start">223336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_008_verifyRequiredPart status=SKIP method=Spotorderparts.Test_008_verifyRequir...)</span>
+                <span class="method-start">223337 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test_009_verifyWarehouseText</span>
+                <span class="method-start">223342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethodTakeScreenShot([TestResult name=Test_009_verifyWarehouseText status=SKIP method=Spotorderparts.Test_009_verifyWareh...)</span>
+                <span class="method-start">223343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
                 <span class="method-name">generateAllure</span>
-                <span class="method-start">899833 ms</span>
+                <span class="method-start">223362 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

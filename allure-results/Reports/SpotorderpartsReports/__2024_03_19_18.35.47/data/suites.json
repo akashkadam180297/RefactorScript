@@ -1,0 +1,134 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Parallel",
+    "children" : [ {
+      "name" : "Spotorderparts",
+      "children" : [ {
+        "name" : "tests.parts.Spotorderparts",
+        "children" : [ {
+          "name" : "Test_002 click On The Spot order Tab ",
+          "uid" : "24545e55b423b749",
+          "parentUid" : "d831c8c19694bb502001646ae8d43be2",
+          "status" : "broken",
+          "time" : {
+            "start" : 1710853408252,
+            "stop" : 1710853547114,
+            "duration" : 138862
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "EU" ]
+        }, {
+          "name" : "Test_003  input Partial Part Number ",
+          "uid" : "e5894a0d21690581",
+          "parentUid" : "d831c8c19694bb502001646ae8d43be2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1710853547127,
+            "stop" : 1710853547128,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "EU" ]
+        }, {
+          "name" : "Test_004 click On Add Button ",
+          "uid" : "4537ef8b27c991bc",
+          "parentUid" : "d831c8c19694bb502001646ae8d43be2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1710853547148,
+            "stop" : 1710853547148,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "EU" ]
+        }, {
+          "name" : "Test_005 verify Search Part Description ",
+          "uid" : "9ed59b447b738563",
+          "parentUid" : "d831c8c19694bb502001646ae8d43be2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1710853547188,
+            "stop" : 1710853547188,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "EU" ]
+        }, {
+          "name" : "Test_006 input Core Parent Part and sign out  ",
+          "uid" : "16bdbe8c254a63bc",
+          "parentUid" : "d831c8c19694bb502001646ae8d43be2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1710853547224,
+            "stop" : 1710853547224,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "EU" ]
+        }, {
+          "name" : "Test_007 verify PO  ",
+          "uid" : "1b991baca7c75d",
+          "parentUid" : "d831c8c19694bb502001646ae8d43be2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1710853547230,
+            "stop" : 1710853547230,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "EU" ]
+        }, {
+          "name" : "Test_008 verify Required Part  ",
+          "uid" : "11aa78cf2742a3d9",
+          "parentUid" : "d831c8c19694bb502001646ae8d43be2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1710853547240,
+            "stop" : 1710853547240,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "EU" ]
+        }, {
+          "name" : "Test_009 verify Warehouse Text ",
+          "uid" : "1fc885456086a60d",
+          "parentUid" : "d831c8c19694bb502001646ae8d43be2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1710853547246,
+            "stop" : 1710853547246,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "EU" ]
+        }, {
+          "name" : "afterMethodTakeScreenShot",
+          "uid" : "fa8671a28b934fe6",
+          "parentUid" : "d831c8c19694bb502001646ae8d43be2",
+          "status" : "broken",
+          "time" : {
+            "start" : 1710853547250,
+            "stop" : 1710853547251,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "EU" ]
+        } ],
+        "uid" : "d831c8c19694bb502001646ae8d43be2"
+      } ],
+      "uid" : "7977cf1eaf64f398b7d3d4d5c1454755"
+    } ],
+    "uid" : "7063b0de5f684c708f0f54106b8059e5"
+  } ]
+}

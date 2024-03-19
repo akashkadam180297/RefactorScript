@@ -22,7 +22,6 @@ public class CounterSale extends TestDriverActions {
         counter.gotoCounterSaleManagerScreen();
 
     }
-
     @Test(priority=1 , description = "Test_002 verify all the elements in the field")
     @Description("Test Description :  verify all the elements in the field")
     public void verify_all_fields() throws InterruptedException {

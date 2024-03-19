@@ -17,11 +17,13 @@ public class LoginActions extends TestDriverActions {
 
     public static String environmentName = System.getProperty("env","QA");
 
+
+
     public String getAppUrl() throws IOException {
 
         String appUrl = null;
 
-        appUrl = DataActions.getReuseActions().getCellData(SheetConstants.loginSheetPath, SheetConstants.sheetNameForFrameworkConfig, SheetConstants.columnForTestEnv, SheetConstants.envRowNumber);
+        appUrl =DataActions.getReuseActions().getCellData(SheetConstants.loginSheetPath, SheetConstants.sheetNameForFrameworkConfig, SheetConstants.columnForTestEnv, SheetConstants.envRowNumber);
 
 
     /*    if (System.getProperty("env").equalsIgnoreCase("TEST")) {
@@ -41,7 +43,7 @@ public class LoginActions extends TestDriverActions {
         return appUrl;
     }
    /** new metnod Akash*/
-    public String getAppUrl1(String className) throws IOException {     //Method to get Url from commomd line
+    public static String getAppUrl1(String className) throws IOException {     //Method to get Url from commomd line
         String appUrl = null;
         String configFileName = System.getProperty("user.dir")+"/src/test/java/utils"+"/"+className.toLowerCase()+"/"+className.toLowerCase()+"%s.properties";
          configFileName= String.format(configFileName,LoginActions.environmentName);
