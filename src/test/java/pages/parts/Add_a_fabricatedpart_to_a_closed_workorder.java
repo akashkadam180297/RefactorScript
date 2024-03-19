@@ -1,4 +1,4 @@
-package pages.Partsrelateditems;
+package pages.parts;
 
 import actions.LoginActions;
 import actions.ReusableActions;

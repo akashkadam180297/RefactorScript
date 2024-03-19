@@ -1,0 +1,126 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.parts.Spotorderparts",
+    "children" : [ {
+      "name" : "Test_002_clickOnSpotOrder",
+      "uid" : "24545e55b423b749",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1710853408252,
+        "stop" : 1710853547114,
+        "duration" : 138862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "EU" ]
+    }, {
+      "name" : "Test_003_inputPartialPartNumber",
+      "uid" : "e5894a0d21690581",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1710853547127,
+        "stop" : 1710853547128,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "EU" ]
+    }, {
+      "name" : "Test_004_clickOnAddButton",
+      "uid" : "4537ef8b27c991bc",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1710853547148,
+        "stop" : 1710853547148,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "EU" ]
+    }, {
+      "name" : "Test_005_verifySearchPartDescription",
+      "uid" : "9ed59b447b738563",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1710853547188,
+        "stop" : 1710853547188,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "EU" ]
+    }, {
+      "name" : "Test_006_inputCoreParentPart",
+      "uid" : "16bdbe8c254a63bc",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1710853547224,
+        "stop" : 1710853547224,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "EU" ]
+    }, {
+      "name" : "Test_007_verifyPO",
+      "uid" : "1b991baca7c75d",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1710853547230,
+        "stop" : 1710853547230,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "EU" ]
+    }, {
+      "name" : "Test_008_verifyRequiredPart",
+      "uid" : "11aa78cf2742a3d9",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1710853547240,
+        "stop" : 1710853547240,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "EU" ]
+    }, {
+      "name" : "Test_009_verifyWarehouseText",
+      "uid" : "1fc885456086a60d",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1710853547246,
+        "stop" : 1710853547246,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "EU" ]
+    }, {
+      "name" : "afterMethodTakeScreenShot",
+      "uid" : "fa8671a28b934fe6",
+      "parentUid" : "8da2716f7100f2438d606fb0fc619a9b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1710853547250,
+        "stop" : 1710853547251,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "EU" ]
+    } ],
+    "uid" : "tests.parts.Spotorderparts"
+  } ]
+}

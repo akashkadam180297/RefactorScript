@@ -5,7 +5,6 @@ import actions.LoginActions;
 import actions.WaitActions;
 import constants.SheetConstants;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.mozilla.javascript.tools.shell.Environment;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,10 +15,8 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import pages.Estimate.SubmitAnEstimateServiceManager;
 import pages.LoginPage;
-import pages.Partsrelateditems.Add_a_fabricatedpart_to_a_closed_workorder;
 import pages.administration.CreateCustomerPage;
 import pages.administration.CreateVendorPage;
-
 import pages.estimating.ApproveanEstimateDMSPage;
 import pages.estimating.PerformTheWorkOnAnEstimateTech;
 import pages.fleet.CreateRedTagDMS;
@@ -29,6 +26,7 @@ import pages.fleet.SetUpWorkRequired;
 
 import pages.parts.*;
 //import pages.pmWorkFlow.WorkOrderWorkflowPage;
+import pages.parts.CounterSalePage;
 import pages.pmWorkFlow.cGVTechPerformPM;
 import pages.service.*;
 
@@ -38,22 +36,20 @@ import pages.tech.EC_Tech_WoLabor;
 import pages.tech.EC_Tech_WoParts;
 
 
-import pages.ticket.OverRideTaxesCauseOtherTaxDisappear;
-import pages.ticket.TransitonedPaccar;
-import pages.ticket.UOMforpressureonInspectionInformation_ALLOWED;
-import pages.ticket.UnableToRemoveCoreLink_CONVOY;
-import tests.parts.Spotorderparts;
+import pages.ticket.*;
 import utils.TestListener;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+
+import static org.apache.xalan.xsltc.runtime.CallFunction.className;
 
 public class TestDriverActions {
 
@@ -92,13 +88,17 @@ public class TestDriverActions {
     public SubmitAnEstimateServiceManager submitanestimateservicemanager;
     public IssuePartToTech issueparttotech;
     public CounterSaleInvoiceCharacterLimit countersaleinvoicecharacterlimit;
-    public Add_a_fabricatedpart_to_a_closed_workorder addafabricatedparttoaclosedworkorder;
+
+    public Add_a_fabricatedpart_to_a_closed_workorder  addafabricatedparttoaclosedworkorder;
 
     public TransitonedPaccar location;
     public UOMforpressureonInspectionInformation_ALLOWED unitinspectioninformation;
 
     public OverRideTaxesCauseOtherTaxDisappear overRideTaxes;
     public UnableToRemoveCoreLink_CONVOY unabletoremovecorelink;
+
+    public SugestedOrderReporttrucatePartNumber reportrestockorreorder;
+
 
 
 
@@ -181,6 +181,10 @@ public class TestDriverActions {
         } else if (this.getClass().getCanonicalName().contains("CreatePart")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/createpartQA.properties";
         }
+        else if (this.getClass().getCanonicalName().contains("ReceiveParts")) {
+            filePath = System.getProperty("user.dir") + "/src/test/java/utils/receivepartsEU.properties";
+        }
+
 
 
     /*    try
@@ -213,17 +217,16 @@ public class TestDriverActions {
     @BeforeClass(alwaysRun = true)
     public void initialization() throws IOException, InterruptedException {
 
-
-        //      property();
-
-
-        String browserName = DataActions.getReuseActions().getCellData(SheetConstants.loginSheetPath, SheetConstants.sheetNameForFrameworkConfig, SheetConstants.columnForBrowser, SheetConstants.browserRowNumber);
+         String browserName = DataActions.getReuseActions().getCellData(SheetConstants.loginSheetPath, SheetConstants.sheetNameForFrameworkConfig, SheetConstants.columnForBrowser,SheetConstants.browserRowNumber);
+        //String browserName=LoginActions.getAppUrl1(className);
+       // String browserName= loginActions.getAppUrl1(getMyClassName());
+         // String browserName="Chrome";
+         //driver.get(LoginActions.getAppUrl1(getMyClassName()));
 
 //        System.getProperty(("user.dir") +"\\log4j.xml");
 //        DOMConfigurator.configure("D:\\intellij\\latest_OfficeWork\\WorkingProject\\Emdecs_Test_Automation\\log4j.xml");
-
-        if (browserName.equalsIgnoreCase(browserName)) {
-
+         //   if (browserName.equalsIgnoreCase("Chrome")) {
+           if (browserName.equalsIgnoreCase(browserName)) {
             HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
             ChromeOptions options = new ChromeOptions();
             chromePrefs.put("plugins.plugins_disabled", new String[] { "Chrome PDF Viewer" });
@@ -253,7 +256,7 @@ public class TestDriverActions {
             driver.manage().window().maximize();
 
 
-        } else if (browserName.equalsIgnoreCase("Firefox")) {
+       } else if (browserName.equalsIgnoreCase("Firefox")) {
 
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
@@ -261,15 +264,13 @@ public class TestDriverActions {
         LoginActions loginActions = new LoginActions();
         if (LoginActions.environmentName.contains("QA") || LoginActions.environmentName.contains("EU") || LoginActions.environmentName.contains("EC") || LoginActions.environmentName.contains("NA")) {
 
-            driver.get(loginActions.getAppUrl1(getMyClassName()));    //new method Akash kadam
+            driver.get(LoginActions.getAppUrl1(getMyClassName()));    //new method Akash kadam
         } else {
-            driver.get(loginActions.getAppUrl());      //old method
+          driver.get(loginActions.getAppUrl());      //old method
 
         }
 
         //      loginPage.selectCountryFromDropDown();
-
-
 
         loginPage = PageFactory.initElements(driver, LoginPage.class);
         createRoPage = PageFactory.initElements(driver, CreateRoPage.class);
@@ -298,8 +299,8 @@ public class TestDriverActions {
         approveanestimatedmspage = PageFactory.initElements(driver, ApproveanEstimateDMSPage.class);
         pmworkorderworkflowpage = PageFactory.initElements(driver, cGVTechPerformPM.class);
         performtheworkonanestimatepage = PageFactory.initElements(driver, PerformTheWorkOnAnEstimateTech.class);
-        spotorderparts = PageFactory.initElements(driver, Spotorderpart.class);
-        journalizepartinvoice = PageFactory.initElements(driver, JournalizePartsInvoice_konaEU.class);
+        spotorderparts = PageFactory.initElements(driver,Spotorderpart.class);
+        journalizepartinvoice = PageFactory.initElements(driver,JournalizePartsInvoice_konaEU.class);
         receivepart = PageFactory.initElements(driver, ReceivePart.class);
         submitanestimateservicemanager = PageFactory.initElements(driver,SubmitAnEstimateServiceManager.class);
         issueparttotech=PageFactory.initElements(driver,IssuePartToTech.class);
@@ -309,11 +310,12 @@ public class TestDriverActions {
         unitinspectioninformation=PageFactory.initElements(driver,UOMforpressureonInspectionInformation_ALLOWED.class);
         overRideTaxes=PageFactory.initElements(driver,OverRideTaxesCauseOtherTaxDisappear.class);
         unabletoremovecorelink=PageFactory.initElements(driver,UnableToRemoveCoreLink_CONVOY.class);
+        reportrestockorreorder= PageFactory.initElements(driver,SugestedOrderReporttrucatePartNumber.class);
+
 
         loginPage.selectCountryFromDropDown();
 
         property();
-
 
         configProp  = new Properties();
         FileInputStream fip = new FileInputStream(System.getProperty("user.dir") + "/src/test/java/utils/config.properties");
@@ -322,6 +324,7 @@ public class TestDriverActions {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
 
  /*       if(getClass().getCanonicalName().contains("LoginTest")){
             LoginActions loginActions = new LoginActions();
@@ -513,6 +516,9 @@ public class TestDriverActions {
         else if (getClass().getCanonicalName().contains("UnableToRemoveCoreLink_CONVOY")) {
             folderPath = System.getProperty("user.dir") + "/allure-results/Reports/UnableToRemoveCoreLink_CONVOYReports/" + "__" + currentDateTime;
         }
+        else if (getClass().getCanonicalName().contains("SuggestedOrderReporttrucatePartNumber")) {
+            folderPath = System.getProperty("user.dir") +"/allure-results/Reports/SuggestedOrderReporttrucatePartNumberReports/" + "__" + currentDateTime;
+        }
 
 
 
@@ -659,6 +665,9 @@ public class TestDriverActions {
             }
             else if (getClass().getCanonicalName().contains("UnableToRemoveCoreLink_CONVOY")) {
                 cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\UnableToRemoveCoreLink_CONVOYReports\\" + theDir.getName();
+            }
+            else if (getClass().getCanonicalName().contains("SuggestedOrderReporttrucatePartNumber")) {
+                cmd = allurePathWin + " generate " + " " + System.getProperty("user.dir") + "\\allure-results -o" + " " + System.getProperty("user.dir") + "\\allure-results\\Reports\\SuggestedOrderReporttrucatePartNumberReports\\" + theDir.getName();
             }
 
 
