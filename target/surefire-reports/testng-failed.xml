@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2" parallel="tests" name="Failed suite [Parallel]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="Spotorderparts(failed)" verbose="0">
+    <parameter name="environment" value="EU"/>
+    <classes>
+      <class name="tests.parts.Spotorderparts">
+        <methods>
+          <include name="Test_003_inputPartialPartNumber"/>
+          <include name="Test_004_clickOnAddButton"/>
+          <include name="Test_007_verifyPO"/>
+          <include name="generateAllure"/>
+          <include name="Test_009_verifyWarehouseText"/>
+          <include name="Test_005_verifySearchPartDescription"/>
+          <include name="initialization"/>
+          <include name="Test_008_verifyRequiredPart"/>
+          <include name="Test_006_inputCoreParentPart"/>
+          <include name="Test_001_gotoOrderPartsScreen"/>
+          <include name="Test_002_clickOnSpotOrder"/>
+          <include name="afterMethodTakeScreenShot"/>
+        </methods>
+      </class> <!-- tests.parts.Spotorderparts -->
+    </classes>
+  </test> <!-- Spotorderparts(failed) -->
   <test thread-count="2" parallel="tests" name="ReceiveParts(failed)" verbose="0">
     <parameter name="environment" value="EU"/>
     <classes>
       <class name="tests.parts.ReceiveParts">
         <methods>
-          <include name="Test_007_verifyLink"/>
           <include name="generateAllure"/>
-          <include name="Test_001_gotoReceiveParts"/>
-          <include name="Test_009_clickOnCancelButton"/>
+          <include name="Test_007_verifyLink"/>
           <include name="Test_002_clickOnPoNumber"/>
+          <include name="Test_009_clickOnCancelButton"/>
           <include name="Test_004_verifyNotes"/>
           <include name="Test_008_verifyHash"/>
           <include name="initialization"/>
@@ -22,24 +42,4 @@
       </class> <!-- tests.parts.ReceiveParts -->
     </classes>
   </test> <!-- ReceiveParts(failed) -->
-  <test thread-count="2" parallel="tests" name="Spotorderparts(failed)" verbose="0">
-    <parameter name="environment" value="EU"/>
-    <classes>
-      <class name="tests.parts.Spotorderparts">
-        <methods>
-          <include name="Test_003_inputPartialPartNumber"/>
-          <include name="Test_004_clickOnAddButton"/>
-          <include name="generateAllure"/>
-          <include name="Test_007_verifyPO"/>
-          <include name="Test_009_verifyWarehouseText"/>
-          <include name="Test_005_verifySearchPartDescription"/>
-          <include name="initialization"/>
-          <include name="Test_008_verifyRequiredPart"/>
-          <include name="Test_006_inputCoreParentPart"/>
-          <include name="afterMethodTakeScreenShot"/>
-          <include name="Test_002_clickOnSpotOrder"/>
-        </methods>
-      </class> <!-- tests.parts.Spotorderparts -->
-    </classes>
-  </test> <!-- Spotorderparts(failed) -->
 </suite> <!-- Failed suite [Parallel] -->

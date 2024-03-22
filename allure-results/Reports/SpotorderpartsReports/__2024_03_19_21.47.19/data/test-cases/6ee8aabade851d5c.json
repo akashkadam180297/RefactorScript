@@ -1,0 +1,179 @@
+{
+  "uid" : "6ee8aabade851d5c",
+  "name" : "T_006 Enter Aerodynamic Device and click on Image",
+  "fullName" : "tests.tech.TechWoLabor.enter_AeroDynamic_ClickIMG",
+  "historyId" : "3d415d0db09a8ffa441195210d50e5ee",
+  "time" : {
+    "start" : 1709897804887,
+    "stop" : 1709897869220,
+    "duration" : 64333
+  },
+  "description" : "Test Description : Enter Aerodynamic Device and click on Image",
+  "descriptionHtml" : "<p>Test Description : Enter Aerodynamic Device and click on Image</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1709897354236,
+      "stop" : 1709897401351,
+      "duration" : 47115
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description : Enter Aerodynamic Device and click on Image",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b850439c4d9604df",
+      "name" : "Page Screenshot",
+      "source" : "b850439c4d9604df.png",
+      "type" : "image/png",
+      "size" : 98868
+    }, {
+      "uid" : "5a7293d04f9b2026",
+      "name" : "Page Screenshot",
+      "source" : "5a7293d04f9b2026.png",
+      "type" : "image/png",
+      "size" : 98868
+    }, {
+      "uid" : "bf07e9c40b2860b7",
+      "name" : "Page Screenshot",
+      "source" : "bf07e9c40b2860b7.png",
+      "type" : "image/png",
+      "size" : 66854
+    }, {
+      "uid" : "94087e1043d41e38",
+      "name" : "Page Screenshot",
+      "source" : "94087e1043d41e38.png",
+      "type" : "image/png",
+      "size" : 85345
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709897869223,
+      "stop" : 1709897869340,
+      "duration" : 117
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "723291341906b6aa",
+      "name" : "Page Screenshot",
+      "source" : "723291341906b6aa.png",
+      "type" : "image/png",
+      "size" : 85345
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "generateAllure",
+    "time" : {
+      "start" : 1709898468705,
+      "stop" : 1709898468712,
+      "duration" : 7
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Cannot run program \"F:\\NewGitFinal\\RefactorScript\\allure-2.13.6\\bin\\allure.bat\": CreateProcess error=2, The system cannot find the file specified",
+    "statusTrace" : "java.io.IOException: Cannot run program \"F:\\NewGitFinal\\RefactorScript\\allure-2.13.6\\bin\\allure.bat\": CreateProcess error=2, The system cannot find the file specified\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:615)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:439)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:322)\r\n\tat tests.TestDriverActions.generateAllure(TestDriverActions.java:670)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\nCaused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified\r\n\tat java.base/java.lang.ProcessImpl.create(Native Method)\r\n\tat java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)\r\n\tat java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)\r\n\t... 25 more\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "enter_AeroDynamic_ClickIMG"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "17128@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7799bc3222819eab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709886433135,
+        "stop" : 1709886497403,
+        "duration" : 64268
+      }
+    }, {
+      "uid" : "3e682a28816bb9ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709882345566,
+        "stop" : 1709882409837,
+        "duration" : 64271
+      }
+    }, {
+      "uid" : "9de0857cbdf526bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709874082777,
+        "stop" : 1709874147175,
+        "duration" : 64398
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ee8aabade851d5c.json",
+  "parameterValues" : [ ]
+}

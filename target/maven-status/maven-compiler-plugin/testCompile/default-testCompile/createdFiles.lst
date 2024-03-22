@@ -1,3 +1,4 @@
+pages\ticket\SugestedOrderReporttrucatePartNumber.class
 tests\fleet\CreateRedTagDMSTest.class
 pages\service\ECServiceManager_AddRemoveLabor.class
 pages\service\ECServiceManager_ChangeCustomerPOafterInvoicing.class
@@ -8,6 +9,7 @@ pages\ticket\OverRideTaxesCauseOtherTaxDisappear.class
 pages\service\InquireFXG_UnitHistory.class
 tests\techRo\ServiceManagerInvoice.class
 tests\fleet\CreateUnit.class
+tests\ticket\SuggestedOrderReporttrucatePartNumber.class
 pages\ticket\UOMforpressureonInspectionInformation_ALLOWED.class
 pages\fleet\SetUpWorkRequired.class
 pages\parts\CounterSalePage.class
@@ -25,14 +27,12 @@ tests\tech\TechWoParts.class
 tests\ticket\OverRideTaxesCauseOtherTaxDisappear.class
 tests\parts\JournalizePartsInvoice_konaEUTest.class
 pages\administration\CreateCustomerPage.class
-tests\Partsrelateditems\Addafabricatedparttoaclosedworkorder.class
 tests\estimating\ApproveanEstimateDMSTest.class
 pages\service\CreateRoPage.class
 pages\ticket\TransitonedPaccar.class
 tests\tech\IssuePartToTech.class
 tests\parts\CounterSale.class
 tests\techRo\ServiceManagerJournalize.class
-pages\Partsrelateditems\Add_a_fabricatedpart_to_a_closed_workorder.class
 tests\administration\CreateCustomer.class
 pages\nonrepair\ApproveNonRepairBill_DMS.class
 pages\tech\EC_Tech_WoParts.class
@@ -41,7 +41,6 @@ tests\Estimate\SubmitAnEstimateServiceManager.class
 tests\nonRepair\ApproveNonRepairBillTest.class
 tests\ticket\TransitonedPaccar.class
 pages\ticket\SuggestedOrderReportRestockorReorder.class
-tests\ticket\CounterSale.class
 pages\parts\JournalizePartsInvoice_konaEU.class
 pages\LoginPage.class
 pages\techRo\DAFServiceManagerPartsRelatedTasks.class
@@ -70,8 +69,9 @@ tests\techRo\CreateNonRepairBill_ServiceManagerTest.class
 actions\LoginActions.class
 pages\techRo\CreateNonRepairBill_ServiceManager.class
 utils\timeUtil.class
+pages\parts\Add_a_fabricatedpart_to_a_closed_workorder.class
+tests\parts\Addafabricatedparttoaclosedworkorder.class
 actions\WebElementActions.class
-pages\ticket\CounterSalePage.class
 pages\parts\CreatePart.class
 pages\tech\EC_Tech_WoLabor.class
 tests\LoginTest.class

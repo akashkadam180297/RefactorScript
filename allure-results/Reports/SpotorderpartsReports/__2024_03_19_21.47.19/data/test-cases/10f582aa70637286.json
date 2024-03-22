@@ -1,0 +1,149 @@
+{
+  "uid" : "10f582aa70637286",
+  "name" : "Test_005_verify part",
+  "fullName" : "tests.Estimate.SubmitAnEstimateServiceManager.Test_005_verifyPart",
+  "historyId" : "b20368735bb0d1eb1e24db4f5eaef96f",
+  "time" : {
+    "start" : 1709877311325,
+    "stop" : 1709877362847,
+    "duration" : 51522
+  },
+  "description" : "Test Description: verify part",
+  "descriptionHtml" : "<p>Test Description: verify part</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1709877078413,
+      "stop" : 1709877132272,
+      "duration" : 53859
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: verify part",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d1d95536930a916a",
+      "name" : "Page Screenshot",
+      "source" : "d1d95536930a916a.png",
+      "type" : "image/png",
+      "size" : 48583
+    }, {
+      "uid" : "cfac287eea06039c",
+      "name" : "Page Screenshot",
+      "source" : "cfac287eea06039c.png",
+      "type" : "image/png",
+      "size" : 48583
+    }, {
+      "uid" : "64d3a1df9b2ed382",
+      "name" : "Page Screenshot",
+      "source" : "64d3a1df9b2ed382.png",
+      "type" : "image/png",
+      "size" : 48583
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709877362851,
+      "stop" : 1709877362969,
+      "duration" : 118
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b8c0a00b89705ac",
+      "name" : "Page Screenshot",
+      "source" : "6b8c0a00b89705ac.png",
+      "type" : "image/png",
+      "size" : 48583
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "generateAllure",
+    "time" : {
+      "start" : 1709877927654,
+      "stop" : 1709877927660,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Cannot run program \"F:\\NewGitFinal\\RefactorScript\\allure-2.13.6\\bin\\allure.bat\": CreateProcess error=2, The system cannot find the file specified",
+    "statusTrace" : "java.io.IOException: Cannot run program \"F:\\NewGitFinal\\RefactorScript\\allure-2.13.6\\bin\\allure.bat\": CreateProcess error=2, The system cannot find the file specified\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:615)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:439)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:322)\r\n\tat tests.TestDriverActions.generateAllure(TestDriverActions.java:670)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\nCaused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified\r\n\tat java.base/java.lang.ProcessImpl.create(Native Method)\r\n\tat java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)\r\n\tat java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)\r\n\t... 25 more\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_005_verifyPart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Estimate.SubmitAnEstimateServiceManager"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "4940@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10f582aa70637286.json",
+  "parameterValues" : [ ]
+}

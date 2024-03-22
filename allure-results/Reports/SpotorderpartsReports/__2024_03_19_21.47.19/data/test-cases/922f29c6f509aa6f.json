@@ -1,0 +1,195 @@
+{
+  "uid" : "922f29c6f509aa6f",
+  "name" : "T_008 Check that again add Aerodynamic Device ",
+  "fullName" : "tests.tech.TechWoLabor.again_Add_AeroDynamicDevice",
+  "historyId" : "b31d66ff6eb479f35e77a487416b9cc6",
+  "time" : {
+    "start" : 1709874272061,
+    "stop" : 1709874436020,
+    "duration" : 163959
+  },
+  "description" : "Test Description - Check that again add Aerodynamic Device",
+  "descriptionHtml" : "<p>Test Description - Check that again add Aerodynamic Device</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1709873495164,
+      "stop" : 1709873541231,
+      "duration" : 46067
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Check that again add Aerodynamic Device",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "560cc1e0f1addf76",
+      "name" : "Page Screenshot",
+      "source" : "560cc1e0f1addf76.png",
+      "type" : "image/png",
+      "size" : 91930
+    }, {
+      "uid" : "3bc757c701ddea92",
+      "name" : "Page Screenshot",
+      "source" : "3bc757c701ddea92.png",
+      "type" : "image/png",
+      "size" : 101231
+    }, {
+      "uid" : "d4b9bd4dd3c0bfb5",
+      "name" : "Page Screenshot",
+      "source" : "d4b9bd4dd3c0bfb5.png",
+      "type" : "image/png",
+      "size" : 69241
+    }, {
+      "uid" : "d4ee833ffdce13d5",
+      "name" : "Page Screenshot",
+      "source" : "d4ee833ffdce13d5.png",
+      "type" : "image/png",
+      "size" : 69241
+    }, {
+      "uid" : "97a6b51047ee867a",
+      "name" : "Page Screenshot",
+      "source" : "97a6b51047ee867a.png",
+      "type" : "image/png",
+      "size" : 87485
+    }, {
+      "uid" : "dbbc87c6b80365bd",
+      "name" : "Page Screenshot",
+      "source" : "dbbc87c6b80365bd.png",
+      "type" : "image/png",
+      "size" : 87485
+    }, {
+      "uid" : "deccd2a98891442d",
+      "name" : "Page Screenshot",
+      "source" : "deccd2a98891442d.png",
+      "type" : "image/png",
+      "size" : 66837
+    }, {
+      "uid" : "9c048eafeca8c30e",
+      "name" : "Page Screenshot",
+      "source" : "9c048eafeca8c30e.png",
+      "type" : "image/png",
+      "size" : 68351
+    }, {
+      "uid" : "bfcfc781f46ca9b1",
+      "name" : "Page Screenshot",
+      "source" : "bfcfc781f46ca9b1.png",
+      "type" : "image/png",
+      "size" : 78048
+    }, {
+      "uid" : "c44e2b811389e6e3",
+      "name" : "Page Screenshot",
+      "source" : "c44e2b811389e6e3.png",
+      "type" : "image/png",
+      "size" : 78048
+    }, {
+      "uid" : "c1d7c70761dc8ce9",
+      "name" : "Page Screenshot",
+      "source" : "c1d7c70761dc8ce9.png",
+      "type" : "image/png",
+      "size" : 85752
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709874436023,
+      "stop" : 1709874436147,
+      "duration" : 124
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25b9935af60731dd",
+      "name" : "Page Screenshot",
+      "source" : "25b9935af60731dd.png",
+      "type" : "image/png",
+      "size" : 85752
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "generateAllure",
+    "time" : {
+      "start" : 1709874751111,
+      "stop" : 1709874751124,
+      "duration" : 13
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Cannot run program \"F:\\NewGitFinal\\RefactorScript\\allure-2.13.6\\bin\\allure.bat\": CreateProcess error=2, The system cannot find the file specified",
+    "statusTrace" : "java.io.IOException: Cannot run program \"F:\\NewGitFinal\\RefactorScript\\allure-2.13.6\\bin\\allure.bat\": CreateProcess error=2, The system cannot find the file specified\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:615)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:439)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:322)\r\n\tat tests.TestDriverActions.generateAllure(TestDriverActions.java:670)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\nCaused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified\r\n\tat java.base/java.lang.ProcessImpl.create(Native Method)\r\n\tat java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)\r\n\tat java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)\r\n\t... 25 more\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "testMethod",
+    "value" : "again_Add_AeroDynamicDevice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoLabor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "2476@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "922f29c6f509aa6f.json",
+  "parameterValues" : [ ]
+}

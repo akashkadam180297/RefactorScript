@@ -1,0 +1,107 @@
+{
+  "uid" : "2eb8ceb4986afcd7",
+  "name" : "T_006 Enter CorePart and click on search icon",
+  "fullName" : "tests.tech.TechWoParts.verifyPartadded_",
+  "historyId" : "7300f7081552578195aa70aa6c1ba91f",
+  "time" : {
+    "start" : 1709895501501,
+    "stop" : 1709895501645,
+    "duration" : 144
+  },
+  "description" : "Test Description - Enter CorePart and click on search icon",
+  "descriptionHtml" : "<p>Test Description - Enter CorePart and click on search icon</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description - Enter CorePart and click on search icon",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d944a1f32259ec90",
+      "name" : "Page Screenshot",
+      "source" : "d944a1f32259ec90.png",
+      "type" : "image/png",
+      "size" : 88841
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709895501648,
+      "stop" : 1709895501786,
+      "duration" : 138
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e986d1cb692a984e",
+      "name" : "Page Screenshot",
+      "source" : "e986d1cb692a984e.png",
+      "type" : "image/png",
+      "size" : 88841
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPartadded_"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "10232@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "WoParts Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2eb8ceb4986afcd7.json",
+  "parameterValues" : [ ]
+}

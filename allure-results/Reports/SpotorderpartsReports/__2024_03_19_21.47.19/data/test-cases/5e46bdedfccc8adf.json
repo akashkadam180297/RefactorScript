@@ -1,0 +1,159 @@
+{
+  "uid" : "5e46bdedfccc8adf",
+  "name" : "T_001 Sign in the page and Go to the Tech RO",
+  "fullName" : "tests.tech.TechWoParts.gotoTechRo",
+  "historyId" : "a17c33fc3fa057ad1f780564ac4d21b8",
+  "time" : {
+    "start" : 1710007676574,
+    "stop" : 1710007749226,
+    "duration" : 72652
+  },
+  "description" : "Test Description - Sign in the page and Go to the Tech RO",
+  "descriptionHtml" : "<p>Test Description - Sign in the page and Go to the Tech RO</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description - Sign in the page and Go to the Tech RO",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6bf57ac51b8fa75a",
+      "name" : "Page Screenshot",
+      "source" : "6bf57ac51b8fa75a.png",
+      "type" : "image/png",
+      "size" : 22838
+    }, {
+      "uid" : "c0a55989a470447d",
+      "name" : "Page Screenshot",
+      "source" : "c0a55989a470447d.png",
+      "type" : "image/png",
+      "size" : 23245
+    }, {
+      "uid" : "3832c957ff864a08",
+      "name" : "Page Screenshot",
+      "source" : "3832c957ff864a08.png",
+      "type" : "image/png",
+      "size" : 28062
+    }, {
+      "uid" : "f82b6727a521ce9e",
+      "name" : "Page Screenshot",
+      "source" : "f82b6727a521ce9e.png",
+      "type" : "image/png",
+      "size" : 28165
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1710007749420,
+      "stop" : 1710007749584,
+      "duration" : 164
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "870f791f5c594565",
+      "name" : "Page Screenshot",
+      "source" : "870f791f5c594565.png",
+      "type" : "image/png",
+      "size" : 28273
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "gotoTechRo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "7120@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "WoParts Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "519ba31136034c95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709902633221,
+        "stop" : 1709902706457,
+        "duration" : 73236
+      }
+    }, {
+      "uid" : "fbf59c27e43e9a02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709895001481,
+        "stop" : 1709895079832,
+        "duration" : 78351
+      }
+    }, {
+      "uid" : "6e38d25442401ae7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709892937929,
+        "stop" : 1709893010397,
+        "duration" : 72468
+      }
+    }, {
+      "uid" : "a01232adc32c1a43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709875647409,
+        "stop" : 1709875715370,
+        "duration" : 67961
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e46bdedfccc8adf.json",
+  "parameterValues" : [ ]
+}

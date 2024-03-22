@@ -183,9 +183,6 @@ public class TestDriverActions {
         } else if (this.getClass().getCanonicalName().contains("UnableToRemoveCoreLink_CONVOY")) {
             filePath = System.getProperty("user.dir") + "/src/test/java/utils/unabletoremovecorelink_convoyQA.properties";
         }
-        else if (this.getClass().getCanonicalName().contains("ReceiveParts")) {
-            filePath = System.getProperty("user.dir") + "/src/test/java/utils/receivepartsEU.properties";
-        }
 
 
 
@@ -222,8 +219,8 @@ public class TestDriverActions {
          String browserName = DataActions.getReuseActions().getCellData(SheetConstants.loginSheetPath, SheetConstants.sheetNameForFrameworkConfig, SheetConstants.columnForBrowser,SheetConstants.browserRowNumber);
         //String browserName=LoginActions.getAppUrl1(className);
        // String browserName= loginActions.getAppUrl1(getMyClassName());
-         // String browserName="Chrome";
-         //driver.get(LoginActions.getAppUrl1(getMyClassName()));
+        // String browserName="Chrome";
+        //driver.get(LoginActions.getAppUrl1(getMyClassName()));
 
 //        System.getProperty(("user.dir") +"\\log4j.xml");
 //        DOMConfigurator.configure("D:\\intellij\\latest_OfficeWork\\WorkingProject\\Emdecs_Test_Automation\\log4j.xml");

@@ -1,0 +1,159 @@
+{
+  "uid" : "6446b7d9aaa9fcd1",
+  "name" : "T_005 Verify part added , click on cross button and delete the part",
+  "fullName" : "tests.tech.TechWoParts.verifyPartadded_deletePart",
+  "historyId" : "3c01f03ebb3346a52fb1492393401a60",
+  "time" : {
+    "start" : 1709876160550,
+    "stop" : 1709876224894,
+    "duration" : 64344
+  },
+  "description" : "Test Description - Verify part added , click on cross button and delete the part",
+  "descriptionHtml" : "<p>Test Description - Verify part added , click on cross button and delete the part</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialization",
+    "time" : {
+      "start" : 1709875600503,
+      "stop" : 1709875647261,
+      "duration" : 46758
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Verify part added , click on cross button and delete the part",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "511d148e0fbbf27e",
+      "name" : "Page Screenshot",
+      "source" : "511d148e0fbbf27e.png",
+      "type" : "image/png",
+      "size" : 95537
+    }, {
+      "uid" : "299021656ac8c324",
+      "name" : "Page Screenshot",
+      "source" : "299021656ac8c324.png",
+      "type" : "image/png",
+      "size" : 93195
+    }, {
+      "uid" : "2a75e726b77e0446",
+      "name" : "Page Screenshot",
+      "source" : "2a75e726b77e0446.png",
+      "type" : "image/png",
+      "size" : 78011
+    }, {
+      "uid" : "5d1f3ad114502dc9",
+      "name" : "Page Screenshot",
+      "source" : "5d1f3ad114502dc9.png",
+      "type" : "image/png",
+      "size" : 77983
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709876224897,
+      "stop" : 1709876225029,
+      "duration" : 132
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ed16c4c92e11dfab",
+      "name" : "Page Screenshot",
+      "source" : "ed16c4c92e11dfab.png",
+      "type" : "image/png",
+      "size" : 77985
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "generateAllure",
+    "time" : {
+      "start" : 1709876567149,
+      "stop" : 1709876567178,
+      "duration" : 29
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Cannot run program \"F:\\NewGitFinal\\RefactorScript\\allure-2.13.6\\bin\\allure.bat\": CreateProcess error=2, The system cannot find the file specified",
+    "statusTrace" : "java.io.IOException: Cannot run program \"F:\\NewGitFinal\\RefactorScript\\allure-2.13.6\\bin\\allure.bat\": CreateProcess error=2, The system cannot find the file specified\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:615)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:439)\r\n\tat java.base/java.lang.Runtime.exec(Runtime.java:322)\r\n\tat tests.TestDriverActions.generateAllure(TestDriverActions.java:670)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\nCaused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified\r\n\tat java.base/java.lang.ProcessImpl.create(Native Method)\r\n\tat java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)\r\n\tat java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)\r\n\tat java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)\r\n\t... 25 more\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPartadded_deletePart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.tech.TechWoParts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "14260@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test"
+  }, {
+    "name" : "feature",
+    "value" : "WoParts Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6446b7d9aaa9fcd1.json",
+  "parameterValues" : [ ]
+}

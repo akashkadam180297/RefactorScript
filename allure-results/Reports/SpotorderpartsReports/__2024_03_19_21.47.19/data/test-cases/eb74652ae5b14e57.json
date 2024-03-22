@@ -1,0 +1,84 @@
+{
+  "uid" : "eb74652ae5b14e57",
+  "name" : "Test_006_verify Warehouse Name",
+  "fullName" : "tests.ticket.UnableToRemoveCoreLink_CONVOY.Test_006_verifyWarehouseName",
+  "historyId" : "966842a66725c0a75a804113b4368b19",
+  "time" : {
+    "start" : 1709753431501,
+    "stop" : 1709753518020,
+    "duration" : 86519
+  },
+  "description" : "Test Description -verify Warehouse Name ",
+  "descriptionHtml" : "<p>Test Description -verify Warehouse Name</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethodTakeScreenShot",
+    "time" : {
+      "start" : 1709753518023,
+      "stop" : 1709753518151,
+      "duration" : 128
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "64da30dc08a67234",
+      "name" : "Page Screenshot",
+      "source" : "64da30dc08a67234.png",
+      "type" : "image/png",
+      "size" : 68014
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_006_verifyWarehouseName"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.ticket.UnableToRemoveCoreLink_CONVOY"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HN0C78P"
+  }, {
+    "name" : "thread",
+    "value" : "2392@DESKTOP-HN0C78P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb74652ae5b14e57.json",
+  "parameterValues" : [ ]
+}
